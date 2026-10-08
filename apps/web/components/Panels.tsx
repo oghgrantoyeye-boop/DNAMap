@@ -352,7 +352,10 @@ export function SamplePanel({ data, index }: { data: Dataset; index: number }) {
   const [d, setD] = useState<SampleDetail | null | undefined>(undefined);
   useEffect(() => {
     setD(undefined);
-    loadSampleDetail(S.shard[index], S.id[index]).then((x) => setD(x ?? null));
+    loadSampleDetail(S.shard[index], S.id[index]).then(
+      (x) => setD(x ?? null),
+      () => setD(null),
+    );
   }, [index, S]);
   const pop = S.pop[index] >= 0 ? data.ontology.populations[S.pop[index]] : null;
   const pub = S.publications[S.pub[index]];
@@ -453,6 +456,7 @@ export function SamplePanel({ data, index }: { data: Dataset; index: number }) {
         </div>
       </dl>
       {d === undefined && <p className="small muted">Loading record…</p>}
+      {d === null && <p className="small muted">The full record could not be loaded. The details above come from the map&rsquo;s summary data.</p>}
       <p className="small report-row">
         <a className="report-link" href={reportUrl({ id: S.id[index], context: "Sample record (AADR)" })} target="_blank" rel="noreferrer">
           Report a problem with this record
