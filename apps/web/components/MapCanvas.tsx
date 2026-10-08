@@ -190,11 +190,33 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       }
       dragStart = null;
     }
+    // Smooth zoom: a wheel notch adds to a pending zoom (in log scale) that is eased in over
+    // the next frames, instead of jumping the whole step in one frame.
+    let zoomPending = 0;
+    let zoomAnchor = { x: 0, y: 0 };
+    let zoomRaf = 0;
+    let zoomLast = 0;
+    function zoomTick(t: number) {
+      const dt = Math.min(50, t - zoomLast);
+      zoomLast = t;
+      let step = zoomPending * (1 - Math.exp(-dt / 90));
+      if (Math.abs(zoomPending) < 0.003) step = zoomPending;
+      zoomPending -= step;
+      const before = getState().view;
+      const after = zoomAt(before, Math.exp(step), zoomAnchor.x, zoomAnchor.y);
+      if (after.k === before.k && Math.abs(step) > 0) zoomPending = 0; // at the zoom limit
+      else setState({ view: after });
+      zoomRaf = Math.abs(zoomPending) >= 0.003 ? requestAnimationFrame(zoomTick) : 0;
+    }
     function onWheel(e: WheelEvent) {
       e.preventDefault();
-      const p = local(e);
-      const factor = Math.exp(-e.deltaY * (e.deltaMode === 1 ? 0.05 : 0.0018));
-      setState({ view: zoomAt(getState().view, factor, p.x, p.y) });
+      lastWheelAt = performance.now();
+      zoomAnchor = local(e);
+      zoomPending = Math.max(-1.5, Math.min(1.5, zoomPending - e.deltaY * (e.deltaMode === 1 ? 0.05 : 0.0018)));
+      if (!zoomRaf) {
+        zoomLast = performance.now();
+        zoomRaf = requestAnimationFrame(zoomTick);
+      }
     }
 
     function hitTest(x: number, y: number): { kind: "sample"; index: number } | { kind: "population"; id: string } | null {
@@ -232,15 +254,23 @@ export default function MapCanvas({ data }: { data: Dataset }) {
      * too large for that to look right (a jump to another region, a big zoom), in which case
      * the caller repaints immediately.
      */
+    let lastWheelAt = -1e9;
     function armSettle() {
       clearTimeout(settleTimer);
+      // Wheel notches arrive 100-200 ms apart; wait longer after one so the repaint does not
+      // land in the gap and stall the next notch.
+      const delay = performance.now() - lastWheelAt < 500 ? 280 : 130;
       settleTimer = setTimeout(() => {
+        if (zoomRaf !== 0) {
+          armSettle(); // still easing a zoom: repaint when it has finished
+          return;
+        }
         clearTimeout(throttleTimer);
         throttleTimer = undefined;
         fastNext = false;
         lastBaseKey = ""; // repaint in full even if the view equals the last light paint
         schedule();
-      }, 130);
+      }, delay);
     }
 
     function viewMoved(v: View): boolean {
@@ -301,6 +331,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     resize();
     return () => {
       cancelAnimationFrame(raf);
+      cancelAnimationFrame(zoomRaf);
       clearTimeout(settleTimer);
       clearTimeout(throttleTimer);
       clearTimeout(settleTimer);
