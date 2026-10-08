@@ -33,7 +33,7 @@ FORBIDDEN = [
     (re.compile(r"\b(pure|purity|race|racial)\b", re.I), "race/purity language"),
     (re.compile(r"\bwere replaced by\b", re.I), "'were replaced by' without a proportion"),
 ]
-PROSE_FIELDS = {"description", "genetic_profile", "archaeological_context", "wording", "claim", "summary", "label"}
+PROSE_FIELDS = {"description", "genetic_profile", "archaeological_context", "wording", "claim", "summary", "label", "text"}
 
 
 class Report:
@@ -140,6 +140,15 @@ def integrity(r: Report, d: dict[str, dict]) -> None:
                 re.compile(rule["group_label_regex"])
             except re.error as ex:
                 r.err(f"population {p['id']}: bad regex {rule['group_label_regex']!r}: {ex}")
+        # Overview sections: every paragraph is tied to claims the population already cites.
+        seen_headings = set()
+        for sec in p.get("overview", []):
+            if sec["heading"] in seen_headings:
+                r.err(f"population {p['id']}: overview heading {sec['heading']!r} repeated")
+            seen_headings.add(sec["heading"])
+            for ev_id in sec["evidence_ids"]:
+                if ev_id not in p["evidence_ids"]:
+                    r.err(f"population {p['id']}: overview cites {ev_id}, which is not in the population's evidence_ids")
         if p.get("location_hint"):
             for sid in p["location_hint"]["source_ids"]:
                 if sid not in sources:

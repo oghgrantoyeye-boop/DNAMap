@@ -115,6 +115,7 @@ export interface Population {
   description: string;
   genetic_profile?: string;
   archaeological_context?: string;
+  overview?: { heading: string; text: string; evidence_ids: string[] }[];
   region: { name: string; note?: string };
   membership: { notes: string; defining_source_ids: string[] };
   inferred_only: boolean;

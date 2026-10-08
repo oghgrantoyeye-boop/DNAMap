@@ -131,6 +131,67 @@ function AdmixtureBlock({ data, ev }: { data: Dataset; ev: AdmixtureEvent }) {
   );
 }
 
+/** Short citations for the sources behind a set of claims, each linking to the paper. */
+function SourceList({ data, evidenceIds }: { data: Dataset; evidenceIds: string[] }) {
+  const ids = [...new Set(evidenceIds.map((i) => data.evidenceById.get(i)?.source_id).filter((x): x is string => !!x))];
+  return (
+    <>
+      {ids.map((id, n) => (
+        <span key={id}>
+          {n > 0 && "; "}
+          <Citation data={data} sourceId={id} />
+        </span>
+      ))}
+    </>
+  );
+}
+
+/** Every paper behind this population (its own claims, its relationships and its admixture models), with a link to a free copy when one exists. */
+function ReadingList({ data, pop }: { data: Dataset; pop: Population }) {
+  const ids = new Set(pop.evidence_ids);
+  for (const ev of data.ontology.admixture_events.filter((x) => x.target === pop.id)) for (const m of ev.models) m.evidence_ids.forEach((i) => ids.add(i));
+  for (const r of data.ontology.relationships.filter((x) => x.source === pop.id || x.target === pop.id)) r.evidence_ids.forEach((i) => ids.add(i));
+  const bySource = new Map<string, number>();
+  for (const i of ids) {
+    const e = data.evidenceById.get(i);
+    if (e && e.source_id !== "aadr") bySource.set(e.source_id, (bySource.get(e.source_id) ?? 0) + 1);
+  }
+  const items = [...bySource.entries()]
+    .map(([id, n]) => ({ s: data.sourceById.get(id)!, n }))
+    .filter((x) => x.s)
+    .sort((a, b) => a.s.year - b.s.year);
+  if (items.length === 0) return null;
+  return (
+    <section className="reading">
+      <h4>Further reading</h4>
+      <p className="small muted">The studies behind this page, oldest first. Links open the publisher or a free full-text copy where one exists.</p>
+      <ul className="reading-list">
+        {items.map(({ s, n }) => (
+          <li key={s.id}>
+            <span className="reading-title">{s.title ?? s.citation}</span>
+            <span className="small muted">
+              {" "}
+              {s.citation.split("(")[0].replace(/,\s*$/, "").replace(/, et al\.?$/, " et al.")} ({s.year}) · supports {n} claim{n === 1 ? "" : "s"} here
+            </span>
+            <span className="small reading-links">
+              {s.pmcid && (
+                <a href={`https://pmc.ncbi.nlm.nih.gov/articles/${s.pmcid}/`} target="_blank" rel="noreferrer">
+                  Free full text
+                </a>
+              )}
+              {(s.doi || s.url) && (
+                <a href={s.url ?? `https://doi.org/${s.doi}`} target="_blank" rel="noreferrer">
+                  Publisher page
+                </a>
+              )}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 export function PopulationPanel({ data, pop }: { data: Dataset; pop: Population }) {
   const cat = CATEGORY_TEXT[pop.category];
   const events = data.ontology.admixture_events.filter((e) => e.target === pop.id);
@@ -180,6 +241,15 @@ export function PopulationPanel({ data, pop }: { data: Dataset; pop: Population 
           <p className="prose">{pop.genetic_profile}</p>
         </section>
       )}
+      {pop.overview?.map((sec) => (
+        <section key={sec.heading} className="overview-sec">
+          <h4>{sec.heading}</h4>
+          <p className="prose">{sec.text}</p>
+          <p className="small muted overview-src">
+            Based on: <SourceList data={data} evidenceIds={sec.evidence_ids} />
+          </p>
+        </section>
+      ))}
       {pop.archaeological_context && (
         <section>
           <h4>Archaeological context</h4>
@@ -267,6 +337,7 @@ export function PopulationPanel({ data, pop }: { data: Dataset; pop: Population 
           </ul>
         </details>
       )}
+      <ReadingList data={data} pop={pop} />
       <p className="small report-row">
         <span className="mono muted">{pop.id}</span>
         <a className="report-link" href={reportUrl({ id: pop.id, text: `${pop.name}: ${pop.description}`, context: "Population panel" })} target="_blank" rel="noreferrer">

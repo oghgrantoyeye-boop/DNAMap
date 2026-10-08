@@ -266,6 +266,14 @@ button { font: inherit; color: inherit; }
 .about p.small, .about li.small, .about .small { font-family: var(--sans); font-size: 13px; line-height: 1.5; }
 .about h2 { scroll-margin-top: 16px; }
 
+/* ---------- population overview and reading list ---------- */
+.overview-sec .prose { margin-bottom: 4px; }
+.overview-src { margin: 0 0 4px; }
+.reading { margin-top: 20px; border-top: 1px solid var(--rule); }
+.reading-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; }
+.reading-title { font-family: var(--serif); font-size: 14.5px; line-height: 1.4; }
+.reading-links { display: flex; gap: 12px; margin-top: 2px; }
+
 /* ---------- methodology ---------- */
 .methodology { max-width: 760px; }
 .methodology .lede { font-size: 19px; line-height: 1.55; color: var(--ink-2); margin: 0 0 8px; }

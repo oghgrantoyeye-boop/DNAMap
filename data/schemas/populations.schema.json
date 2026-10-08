@@ -1,49 +1,295 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "populations.schema.json",
-  "type": "object", "required": ["version", "populations", "default_exclude_group_label_regex"],
+  "type": "object",
+  "required": [
+    "version",
+    "populations",
+    "default_exclude_group_label_regex"
+  ],
   "properties": {
-    "version": {"type": "integer"}, "notes": {"type": "string"},
-    "default_exclude_group_label_regex": {"type": "string"},
-    "populations": {"type": "array", "items": {
-      "type": "object", "additionalProperties": false,
-      "required": ["id", "name", "category", "transition", "aliases", "description", "region", "membership", "inferred_only", "confidence", "evidence_ids", "caveats"],
-      "properties": {
-        "id": {"$ref": "common.schema.json#/$defs/id"},
-        "name": {"type": "string", "minLength": 3},
-        "category": {"enum": ["genetic_cluster", "archaeological_population", "geographic_population", "historical_population", "modern_population", "archaic_population"]},
-        "transition": {"enum": ["archaic", "early-eurasians", "eur-hg", "near-east", "neolithic", "steppe", "south-asia", "east-asia", "americas", "oceania", "africa"]},
-        "aliases": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["name", "used_by"], "properties": {"name": {"type": "string"}, "used_by": {"type": "array", "items": {"type": "string"}}}}},
-        "description": {"type": "string", "minLength": 40},
-        "genetic_profile": {"type": "string"},
-        "archaeological_context": {"type": "string"},
-        "region": {"type": "object", "required": ["name"], "properties": {"name": {"type": "string"}, "note": {"type": "string"}}},
-        "membership": {
-          "type": "object", "additionalProperties": false, "required": ["include", "notes", "defining_source_ids"],
-          "properties": {
-            "include": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["group_label_regex"], "properties": {
-              "group_label_regex": {"type": "string"},
-              "date_within": {"$ref": "common.schema.json#/$defs/timeRange"},
-              "bbox": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4}}}},
-            "exclude_group_label_regex": {"type": "string"},
-            "include_individual_ids": {"type": "array", "items": {"type": "string"}},
-            "exclude_individual_ids": {"type": "array", "items": {"type": "string"}},
-            "include_questionable": {"type": "boolean"},
-            "notes": {"type": "string"},
-            "defining_source_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+    "version": {
+      "type": "integer"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "default_exclude_group_label_regex": {
+      "type": "string"
+    },
+    "populations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "category",
+          "transition",
+          "aliases",
+          "description",
+          "region",
+          "membership",
+          "inferred_only",
+          "confidence",
+          "evidence_ids",
+          "caveats"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 3
+          },
+          "category": {
+            "enum": [
+              "genetic_cluster",
+              "archaeological_population",
+              "geographic_population",
+              "historical_population",
+              "modern_population",
+              "archaic_population"
+            ]
+          },
+          "transition": {
+            "enum": [
+              "archaic",
+              "early-eurasians",
+              "eur-hg",
+              "near-east",
+              "neolithic",
+              "steppe",
+              "south-asia",
+              "east-asia",
+              "americas",
+              "oceania",
+              "africa"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "used_by"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "used_by": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "description": {
+            "type": "string",
+            "minLength": 40
+          },
+          "genetic_profile": {
+            "type": "string"
+          },
+          "archaeological_context": {
+            "type": "string"
+          },
+          "region": {
+            "type": "object",
+            "required": [
+              "name"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          },
+          "membership": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "include",
+              "notes",
+              "defining_source_ids"
+            ],
+            "properties": {
+              "include": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "group_label_regex"
+                  ],
+                  "properties": {
+                    "group_label_regex": {
+                      "type": "string"
+                    },
+                    "date_within": {
+                      "$ref": "common.schema.json#/$defs/timeRange"
+                    },
+                    "bbox": {
+                      "type": "array",
+                      "items": {
+                        "type": "number"
+                      },
+                      "minItems": 4,
+                      "maxItems": 4
+                    }
+                  }
+                }
+              },
+              "exclude_group_label_regex": {
+                "type": "string"
+              },
+              "include_individual_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "exclude_individual_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "include_questionable": {
+                "type": "boolean"
+              },
+              "notes": {
+                "type": "string"
+              },
+              "defining_source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            }
+          },
+          "ignore_default_exclude": {
+            "type": "boolean"
+          },
+          "inferred_only": {
+            "type": "boolean"
+          },
+          "time_range": {
+            "$ref": "common.schema.json#/$defs/timeRange"
+          },
+          "time_range_basis": {
+            "enum": [
+              "member_samples",
+              "sources",
+              "both"
+            ]
+          },
+          "location_hint": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "lat",
+              "lon",
+              "label",
+              "source_ids"
+            ],
+            "properties": {
+              "lat": {
+                "type": "number"
+              },
+              "lon": {
+                "type": "number"
+              },
+              "label": {
+                "type": "string"
+              },
+              "source_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1
+              }
+            }
+          },
+          "confidence": {
+            "$ref": "common.schema.json#/$defs/confidence"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "caveats": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "overview": {
+            "type": "array",
+            "description": "Longer, sectioned write-up. Each section is our own words and must cite checked evidence (a subset of the population's evidence_ids).",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "heading",
+                "text",
+                "evidence_ids"
+              ],
+              "properties": {
+                "heading": {
+                  "enum": [
+                    "Who they were",
+                    "When and where",
+                    "Ancestry",
+                    "What came before and after",
+                    "What we cannot tell"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 60,
+                  "maxLength": 1400
+                },
+                "evidence_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1
+                }
+              }
+            }
           }
         },
-        "ignore_default_exclude": {"type": "boolean"},
-        "inferred_only": {"type": "boolean"},
-        "time_range": {"$ref": "common.schema.json#/$defs/timeRange"},
-        "time_range_basis": {"enum": ["member_samples", "sources", "both"]},
-        "location_hint": {"type": "object", "additionalProperties": false, "required": ["lat", "lon", "label", "source_ids"], "properties": {"lat": {"type": "number"}, "lon": {"type": "number"}, "label": {"type": "string"}, "source_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}}},
-        "confidence": {"$ref": "common.schema.json#/$defs/confidence"},
-        "evidence_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
-        "caveats": {"type": "array", "items": {"type": "string"}}
-      },
-      "if": {"properties": {"inferred_only": {"const": true}}},
-      "then": {"required": ["time_range"]}
-    }}
+        "if": {
+          "properties": {
+            "inferred_only": {
+              "const": true
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "time_range"
+          ]
+        }
+      }
+    }
   }
 }
