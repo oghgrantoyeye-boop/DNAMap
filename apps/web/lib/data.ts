@@ -9,7 +9,7 @@ import type { Manifest, Ontology, Population, SampleDetail, SampleTable } from "
  */
 export function dataBase(): string {
   if (process.env.NEXT_PUBLIC_BASE_PATH) return `${process.env.NEXT_PUBLIC_BASE_PATH}/`;
-  if (typeof window !== "undefined" && /\/(about|methodology)\/?$/.test(window.location.pathname)) return "../";
+  if (typeof window !== "undefined" && /\/(about|methodology|privacy|extraction)\/?$/.test(window.location.pathname)) return "../";
   return "./";
 }
 

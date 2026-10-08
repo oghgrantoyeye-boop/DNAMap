@@ -279,6 +279,63 @@ button { font: inherit; color: inherit; }
 .ad-slot { margin: 28px 0; padding: 8px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); min-height: 130px; }
 .ad-label { margin: 0 0 4px; font-family: var(--sans); font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
 
+/* ---------- extraction page: "From bone to genome" ---------- */
+.bench { position: relative; height: 100vh; height: 100dvh; overflow: hidden; background: var(--bg); }
+.bench-stage { position: absolute; inset: 0; }
+.bench-stage .bench-canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.bench-stage .bench-canvas:active { cursor: grabbing; }
+.bench-note { position: absolute; right: 16px; bottom: 14px; margin: 0; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); pointer-events: none; }
+.bench-top {
+  position: absolute; top: 0; left: 0; right: 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 12px 18px; background: linear-gradient(to bottom, color-mix(in srgb, var(--bg) 88%, transparent), transparent); z-index: 3;
+}
+.bench-brand { display: flex; align-items: baseline; gap: 14px; }
+.bench-title { font-family: var(--serif); font-style: italic; font-size: 22px; font-weight: 500; }
+.bench-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.bench-actions .chip:disabled { opacity: 0.45; cursor: default; }
+.bench-help { position: absolute; top: 58px; right: 18px; max-width: 360px; padding: 10px 14px; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; z-index: 4; }
+.bench-help p { margin: 4px 0; }
+.bench-card {
+  position: absolute; left: 18px; bottom: 64px; width: min(440px, calc(100% - 36px)); max-height: calc(100% - 150px); overflow-y: auto;
+  padding: 16px 18px 14px; background: color-mix(in srgb, var(--surface) 93%, transparent); border: 1px solid var(--rule); border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(20, 15, 5, 0.14); backdrop-filter: blur(6px); z-index: 3;
+}
+.bench-card h2 { font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.2; margin: 2px 0 6px; letter-spacing: -0.01em; text-wrap: balance; }
+.bench-count { margin: 0; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.bench-summary { font-family: var(--serif); font-style: italic; font-size: 16px; color: var(--ink-2); margin: 0 0 8px; }
+.bench-text { font-family: var(--serif); font-size: 15.5px; line-height: 1.58; margin: 0 0 10px; }
+.bench-console {
+  margin: 10px 0; padding: 8px 10px; display: grid; gap: 4px; border-radius: 6px; background: var(--surface-2); border: 1px solid var(--rule);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12px; font-variant-numeric: tabular-nums;
+}
+.bench-console > div { display: grid; grid-template-columns: minmax(110px, 40%) minmax(0, 1fr); gap: 10px; }
+.bench-console dt { color: var(--ink-3); }
+.bench-console dd { margin: 0; color: var(--ink); }
+.bench-fact-src { font-family: var(--sans); font-size: 11px; color: var(--ink-3); }
+.bench-caveat { font-size: 13px; color: var(--ink-2); margin: 6px 0; padding-left: 10px; border-left: 2px solid var(--rule); }
+.bench-sources { font-size: 12px; color: var(--ink-3); margin: 8px 0 0; }
+.bench-nav { display: flex; justify-content: space-between; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.bench-nav .btn { text-decoration: none; }
+.bench-nav .btn:disabled { opacity: 0.4; cursor: default; }
+.bench-rail { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); display: flex; gap: 6px; z-index: 3; }
+.bench-dot { width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2); font-size: 12px; font-variant-numeric: tabular-nums; cursor: pointer; }
+.bench-dot:hover { border-color: var(--ink-3); }
+.bench-dot-on { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.bench-hide .bench-card, .bench-hide .bench-rail, .bench-hide .bench-top, .bench-hide .bench-help { display: none; }
+.bench-show { position: absolute; top: 12px; right: 18px; z-index: 4; }
+.bench-article .lede { font-family: var(--serif); font-size: 19px; color: var(--ink-2); }
+.bench-chapters { list-style: none; padding: 0; margin: 0; }
+.bench-chapters > li { padding: 18px 0; border-top: 1px solid var(--rule); }
+.bench-step { display: inline-grid; place-items: center; width: 28px; height: 28px; margin-right: 6px; border-radius: 50%; border: 1px solid var(--ink-3); font-family: var(--sans); font-size: 13px; vertical-align: 3px; }
+@media (max-width: 760px) {
+  .bench-card { left: 8px; right: 8px; width: auto; bottom: 56px; max-height: 46%; padding: 12px 14px; }
+  .bench-card h2 { font-size: 20px; }
+  .bench-title { font-size: 18px; }
+  .bench-rail { gap: 3px; bottom: 10px; }
+  .bench-dot { width: 26px; height: 26px; font-size: 11px; }
+  .bench-note { display: none; }
+}
+
 /* ---------- methodology ---------- */
 .methodology { max-width: 760px; }
 .methodology .lede { font-size: 19px; line-height: 1.55; color: var(--ink-2); margin: 0 0 8px; }

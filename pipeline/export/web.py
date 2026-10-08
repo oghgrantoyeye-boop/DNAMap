@@ -66,8 +66,11 @@ def repair_text(v):
 
 
 def load_curated() -> dict:
-    return {n: json.loads((CUR / f"{n}.json").read_text()) for n in
-            ["sources", "evidence", "populations", "relationships", "admixture_events", "disagreements", "periods"]}
+    out = {n: json.loads((CUR / f"{n}.json").read_text()) for n in
+           ["sources", "evidence", "populations", "relationships", "admixture_events", "disagreements", "periods"]}
+    ex = CUR / "extraction.json"  # optional until the page's chapters are curated
+    out["extraction"] = json.loads(ex.read_text()) if ex.exists() else {"chapters": []}
+    return out
 
 
 def main() -> None:
@@ -150,7 +153,7 @@ def main() -> None:
         else:
             lo, hi = display_range(sub["start"], sub["end"])
             nsites = sub.select(pl.struct("lat", "lon").n_unique()).item()
-            labels = sub.group_by("group_label").len().sort("len", descending=True).rows()
+            labels = sub.group_by("group_label").len().sort(["len", "group_label"], descending=[True, False]).rows()  # ties alphabetical: reproducible output
             q["stats"] = {"members": sub.height, "sites": nsites, "display_range": {"start": lo, "end": hi},
                           "sparse": sub.height < 5 or nsites < 2, "labels": [[a, b] for a, b in labels],
                           "publications": sub["publication"].n_unique(),
@@ -210,6 +213,17 @@ def main() -> None:
         "disagreements": cur["disagreements"]["disagreements"],
         "periods": cur["periods"]["periods"],
     }
+    # "From bone to genome" page: chapters with only the evidence and sources they cite
+    chapters = cur["extraction"].get("chapters", [])
+    ex_ids = {i for c in chapters for i in c["evidence_ids"]} | {i for c in chapters for f in c["facts"] for i in f["evidence_ids"]}
+    ex_ev = [e for e in cur["evidence"]["evidence"] if e["id"] in ex_ids]
+    ex_src_ids = {e["source_id"] for e in ex_ev}
+    if chapters:
+        hashes["extraction.json"] = write(OUT / "extraction.json", {
+            "chapters": chapters,
+            "evidence": ex_ev,
+            "sources": [x for x in cur["sources"]["sources"] if x["id"] in ex_src_ids],
+        })
     hashes["samples.json"] = write(OUT / "samples.json", samples)
     hashes["ontology.json"] = write(OUT / "ontology.json", ontology)
 

@@ -7,11 +7,13 @@ import AdSlot from "@/components/AdSlot";
 import { getJson } from "@/lib/data";
 import { THEMES } from "@/lib/mapRender";
 import { repoLink, reportUrl, REPO_URL } from "@/lib/report";
-import { getState } from "@/lib/store";
+import { getState, readUrlState, setState } from "@/lib/store";
 
 type UsedBy = { kind: string; label: string }[];
 
-function usedByIndex(o: Ontology): Map<string, UsedBy> {
+type ExtractionChapters = { chapters: { id: string; title: string; evidence_ids: string[]; facts: { evidence_ids: string[] }[] }[] };
+
+function usedByIndex(o: Ontology, ex: ExtractionChapters | null): Map<string, UsedBy> {
   const m = new Map<string, UsedBy>();
   const add = (id: string, kind: string, label: string) => {
     const l = m.get(id) ?? [];
@@ -24,6 +26,10 @@ function usedByIndex(o: Ontology): Map<string, UsedBy> {
   for (const e of o.admixture_events)
     for (const md of e.models) md.evidence_ids.forEach((i) => add(i, "admixture model", `${name.get(e.target)}`));
   for (const d of o.disagreements) for (const pos of d.positions) pos.evidence_ids.forEach((i) => add(i, "disagreement", d.topic));
+  for (const c of ex?.chapters ?? []) {
+    for (const i of c.evidence_ids) add(i, "From bone to genome", c.title);
+    for (const f of c.facts) for (const i of f.evidence_ids) add(i, "From bone to genome", c.title);
+  }
   return m;
 }
 
@@ -39,6 +45,7 @@ const CONTINENT_ORDER = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
 export default function Methodology() {
   const [o, setO] = useState<Ontology | null>(null);
   const [m, setM] = useState<Manifest | null>(null);
+  const [ex, setEx] = useState<ExtractionChapters | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [q, setQ] = useState("");
   const [conf, setConf] = useState("all");
@@ -47,11 +54,12 @@ export default function Methodology() {
   useEffect(() => {
     // Standalone route: wear the current map style's page colours, as the map does.
     const root = document.documentElement;
-    if (!root.dataset.maptheme) {
-      const t = getState().theme;
-      root.dataset.maptheme = t;
-      root.dataset.theme = THEMES[t].dark ? "dark" : "light";
-    }
+    // standalone page: use the style chosen on the map (URL, then this browser's memory)
+    const t = readUrlState().theme ?? getState().theme;
+    if (t !== getState().theme) setState({ theme: t });
+    root.dataset.maptheme = t;
+    root.dataset.theme = THEMES[t].dark ? "dark" : "light";
+    getJson<ExtractionChapters>("extraction.json").then(setEx, () => setEx(null));
     Promise.all([getJson<Ontology>("ontology.json"), getJson<Manifest>("manifest.json")]).then(
       ([a, b]) => {
         setO(a);
@@ -61,7 +69,7 @@ export default function Methodology() {
     );
   }, []);
 
-  const used = useMemo(() => (o ? usedByIndex(o) : new Map<string, UsedBy>()), [o]);
+  const used = useMemo(() => (o ? usedByIndex(o, ex) : new Map<string, UsedBy>()), [o, ex]);
   const rows = useMemo(() => {
     if (!o) return [] as Evidence[];
     const needle = q.trim().toLowerCase();
@@ -341,7 +349,7 @@ export default function Methodology() {
                       Used by: {u.map((x) => `${x.label} (${x.kind})`).join("; ")}
                     </p>
                   )}
-                  {u.length === 0 && <p className="small muted">Not yet used on the map.</p>}
+                  {u.length === 0 && <p className="small muted">Not yet used on the site.</p>}
                   <p className="small report-row">
                     <span className="mono muted">{e.id}</span>
                     <a className="report-link" href={reportUrl({ id: e.id, text: e.claim, context: "Methodology: claims register" })} target="_blank" rel="noreferrer">

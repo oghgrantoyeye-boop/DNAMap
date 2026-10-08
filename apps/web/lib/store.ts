@@ -71,6 +71,24 @@ export function useAppState<T>(selector: (s: AppState) => T): T {
   return useSyncExternalStore(subscribe, () => selector(state), () => selector(initial));
 }
 
+// ---- remembered map style (this browser only; a convenience, safe to lose) ----
+const THEME_KEY = "mapofus.theme";
+export function storedTheme(): ThemeId | null {
+  try {
+    const t = window.localStorage.getItem(THEME_KEY);
+    return t && (THEME_IDS as string[]).includes(t) ? (t as ThemeId) : null;
+  } catch {
+    return null;
+  }
+}
+function rememberTheme(t: ThemeId): void {
+  try {
+    window.localStorage.setItem(THEME_KEY, t);
+  } catch {
+    // storage may be blocked; the style still applies for this visit
+  }
+}
+
 // ---- URL state (shareable views; back button) ----
 export function readUrlState(): Partial<AppState> {
   if (typeof window === "undefined") return {};
@@ -86,13 +104,20 @@ export function readUrlState(): Partial<AppState> {
   const pop = q.get("pop");
   if (pop) out.selection = { kind: "population", id: pop };
   const theme = q.get("theme");
-  if (theme && (THEME_IDS as string[]).includes(theme)) out.theme = theme as ThemeId;
+  if (theme && (THEME_IDS as string[]).includes(theme)) {
+    out.theme = theme as ThemeId;
+    rememberTheme(out.theme);
+  } else {
+    const st = storedTheme();
+    if (st) out.theme = st;
+  }
   return out;
 }
 
 let urlTimer: ReturnType<typeof setTimeout> | null = null;
 export function writeUrlState(s: AppState): void {
   if (typeof window === "undefined") return;
+  rememberTheme(s.theme);
   if (urlTimer) clearTimeout(urlTimer);
   urlTimer = setTimeout(() => {
     const q = new URLSearchParams(window.location.search);

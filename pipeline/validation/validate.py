@@ -21,7 +21,7 @@ CURATED = REPO / "data" / "curated"
 SCHEMAS = REPO / "data" / "schemas"
 PROCESSED = REPO / "data" / "processed"
 
-FILES = ["sources", "evidence", "populations", "relationships", "admixture_events", "disagreements", "periods"]
+FILES = ["sources", "evidence", "populations", "relationships", "admixture_events", "disagreements", "periods", "extraction"]
 RANK = {"low": 0, "medium": 1, "high": 2}
 
 # Deterministic-lineage and essentialising phrasing (CLAUDE.md rule 2).
@@ -33,7 +33,7 @@ FORBIDDEN = [
     (re.compile(r"\b(pure|purity|race|racial)\b", re.I), "race/purity language"),
     (re.compile(r"\bwere replaced by\b", re.I), "'were replaced by' without a proportion"),
 ]
-PROSE_FIELDS = {"description", "genetic_profile", "archaeological_context", "wording", "claim", "summary", "label", "text"}
+PROSE_FIELDS = {"description", "genetic_profile", "archaeological_context", "wording", "claim", "summary", "label", "text", "caveat", "title"}
 
 
 class Report:
@@ -48,8 +48,14 @@ class Report:
         self.warnings.append(msg)
 
 
+OPTIONAL = {"extraction"}  # curated files that may not exist yet
+
+
 def load(name: str) -> dict:
-    return json.loads((CURATED / f"{name}.json").read_text())
+    path = CURATED / f"{name}.json"
+    if name in OPTIONAL and not path.exists():
+        return {}
+    return json.loads(path.read_text())
 
 
 def schema_check(r: Report, data: dict[str, dict]) -> None:
@@ -60,6 +66,8 @@ def schema_check(r: Report, data: dict[str, dict]) -> None:
     registry = Registry().with_resources(resources)
     for name in FILES:
         schema = json.loads((SCHEMAS / f"{name}.schema.json").read_text())
+        if name in OPTIONAL and not data[name]:
+            continue
         v = Draft202012Validator(schema, registry=registry)
         for e in v.iter_errors(data[name]):
             r.err(f"schema {name}: {'/'.join(map(str, e.absolute_path))}: {e.message[:200]}")
@@ -220,6 +228,16 @@ def integrity(r: Report, d: dict[str, dict]) -> None:
             if sid not in sources:
                 r.err(f"period {per['id']}: unknown source {sid}")
 
+    # Extraction page: every chapter, figure and caveat rests on evidence that exists.
+    for ch in d.get("extraction", {}).get("chapters", []):
+        for i in ch["evidence_ids"]:
+            if i not in evidence:
+                r.err(f"extraction {ch['id']}: unknown evidence {i}")
+        for f in ch["facts"]:
+            for i in f["evidence_ids"]:
+                if i not in evidence:
+                    r.err(f"extraction {ch['id']} fact {f['label']!r}: unknown evidence {i}")
+
     # Unused evidence is allowed but reported.
     used = set()
     for p in pops.values():
@@ -233,6 +251,10 @@ def integrity(r: Report, d: dict[str, dict]) -> None:
     for dg in disagreements.values():
         for pos in dg["positions"]:
             used |= set(pos["evidence_ids"])
+    for ch in d.get("extraction", {}).get("chapters", []):
+        used |= set(ch["evidence_ids"])
+        for f in ch["facts"]:
+            used |= set(f["evidence_ids"])
     for i in sorted(set(evidence) - used):
         r.warn(f"evidence {i} is not used by any entity")
 
