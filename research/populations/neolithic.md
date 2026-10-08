@@ -12,7 +12,7 @@ The first farming communities of southeastern Europe from the mid-7th millennium
 
 **Membership rule:** `Starcevo|Koros|Cris|^Greece_NeaNikomedeia_EN$|^Serbia_EN$` within 6,501 BCE–5,001 BCE.
 
-**Matched (45 individuals, 27 sites):** Serbia_EN_Starcevo (10); Hungary_EN_Koros (7); Hungary_EN_Starcevo-1 (4); Hungary_N_Koros (4); Greece_NeaNikomedeia_EN (3); Serbia_EN (3); Croatia_EN_Starcevo (3); Romania_EN_StarcevoCris (2); Hungary_EN_Starcevo-2 (2); Romania_EN_StarcevoKorosCris (1); Serbia_MN_StarcevoCris (1); Romania_BaciuGuraBaciului_EN_StarcevoCris (1); Hungary_MN_Koros (1); Romania_EN_Starcevo (1); Hungary_EN_Starcevo (1); Romania_EN_Cris (1)
+**Matched (45 individuals, 27 sites):** Serbia_EN_Starcevo (10); Hungary_EN_Koros (7); Hungary_EN_Starcevo-1 (4); Hungary_N_Koros (4); Croatia_EN_Starcevo (3); Serbia_EN (3); Greece_NeaNikomedeia_EN (3); Romania_EN_StarcevoCris (2); Hungary_EN_Starcevo-2 (2); Hungary_MN_Koros (1); Serbia_MN_StarcevoCris (1); Romania_EN_StarcevoKorosCris (1); Romania_BaciuGuraBaciului_EN_StarcevoCris (1); Hungary_EN_Starcevo (1); Romania_EN_Starcevo (1); Romania_EN_Cris (1)
 
 **Evidence:**
 - Farming reached southeastern Europe in the mid-7th millennium BCE with migrants of Anatolian-related ancestry. — mathieson2018, Abstract
@@ -30,7 +30,7 @@ Farmers of the Linear Pottery (LBK) culture across central Europe, about 5500–
 
 **Membership rule:** `LBK`.
 
-**Matched (234 individuals, 34 sites):** Austria_N_LBK (87); Slovakia_N_LBK (53); Germany_DerenburgMeerenstieg2_N_LBK (32); Germany_HalberstadtSonntagsfeld_EN_LBK (23); Hungary_MN_LBK (8); Austria_EN_LBK (5); Poland_N_LLBK_LLengyel (5); Poland_N_ELBK (3); Hungary_MN_ALBK (3); Germany_Karsdorf_EN_LBK (2); Germany_ViesenhaeuserHof_EN_LBK (2); Hungary_MN_ALBK_Szakalhat (2); Hungary_EN_LBK_DVK (1); Austria_AsparnSchletz_N_LBK (1); Germany_EssenbachAmmerbreite_EN_LBK (1); Hungary_N_LBK (1); Germany_StuttgartMuhlhausen2_EN_LBK (1); Germany_Herxheim_N_LBK (1); Germany_DillingenSteinheim_EN_LBK (1); Germany_Unterwiederstedt_EN_LBK (1); Czechia_EN_LBK (1)
+**Matched (234 individuals, 34 sites):** Austria_N_LBK (87); Slovakia_N_LBK (53); Germany_DerenburgMeerenstieg2_N_LBK (32); Germany_HalberstadtSonntagsfeld_EN_LBK (23); Hungary_MN_LBK (8); Austria_EN_LBK (5); Poland_N_LLBK_LLengyel (5); Hungary_MN_ALBK (3); Poland_N_ELBK (3); Germany_ViesenhaeuserHof_EN_LBK (2); Germany_Karsdorf_EN_LBK (2); Hungary_MN_ALBK_Szakalhat (2); Germany_Unterwiederstedt_EN_LBK (1); Hungary_N_LBK (1); Germany_Herxheim_N_LBK (1); Germany_EssenbachAmmerbreite_EN_LBK (1); Germany_StuttgartMuhlhausen2_EN_LBK (1); Hungary_EN_LBK_DVK (1); Czechia_EN_LBK (1); Germany_DillingenSteinheim_EN_LBK (1); Austria_AsparnSchletz_N_LBK (1)
 
 **Evidence:**
 - Hunter-gatherer ancestry estimates: LBK about 4–5% (admixture dated 5545 ± 65 BCE); German Middle Neolithic about 17%; Iberian Middle Neolithic about 23%; Iberian Chalcolithic about 27%. — lipson2017, Main text, regional sections

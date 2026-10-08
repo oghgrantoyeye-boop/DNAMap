@@ -78,7 +78,7 @@ Pre-Pottery Neolithic farmers of Jordan and Israel, who descended largely from l
 
 **Membership rule:** `^Jordan_PPN[BC]|^Israel_PPNB`.
 
-**Matched (16 individuals, 4 sites):** Jordan_PPNB (10); Jordan_PPNC (3); Jordan_PPNB_LN (1); Israel_PPNB_PotteryN_C (1); Israel_PPNB_LN (1)
+**Matched (16 individuals, 4 sites):** Jordan_PPNB (10); Jordan_PPNC (3); Israel_PPNB_LN (1); Jordan_PPNB_LN (1); Israel_PPNB_PotteryN_C (1)
 
 **Evidence:**
 - The first farmers of the southern Levant and of the Zagros were strongly differentiated, each descending largely from local hunter-gatherers. — lazaridis2016, Abstract
@@ -93,7 +93,7 @@ Neolithic farmers of central and western Anatolia, whose ancestry continues larg
 
 **Membership rule:** `^Turkey_(N|LN|PPN|PPNA)$|^Turkey_Catalhoyuk_(EN|MN|LN|N)$`.
 
-**Matched (189 individuals, 12 sites):** Turkey_N (48); Turkey_Catalhoyuk_MN (46); Turkey_Catalhoyuk_LN (32); Turkey_PPN (32); Turkey_Catalhoyuk_EN (17); Turkey_Catalhoyuk_N (10); Turkey_PPNA (3); Turkey_LN (1)
+**Matched (189 individuals, 12 sites):** Turkey_N (48); Turkey_Catalhoyuk_MN (46); Turkey_PPN (32); Turkey_Catalhoyuk_LN (32); Turkey_Catalhoyuk_EN (17); Turkey_Catalhoyuk_N (10); Turkey_PPNA (3); Turkey_LN (1)
 
 **Evidence:**
 - Central Anatolian early farmers show about 80–90% genetic continuity with a ~15,000-year-old local hunter-gatherer (Pınarbaşı), with additional Iranian/Caucasus-related and later Levant-related ancestry. — feldman2019, Abstract

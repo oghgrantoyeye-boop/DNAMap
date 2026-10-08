@@ -14,7 +14,7 @@ Hunter-gatherer-fishers of the Japanese archipelago associated with the Jōmon c
 
 *Includes Initial to Final Jōmon individuals.*
 
-**Matched (18 individuals, 9 sites):** Japan_Honshu_EarlyJomon (5); Japan_Chiba_HG_Jomon (5); Japan_Honshu_MidLateJomon (2); Japan_Tohoku_Jomon (2); Japan_SoyaSub_HG_Jomon (1); Japan_Ikawazu_Jomon (1); Japan_Shikoku_InitialJomon (1); Japan_Shikoku_LateJoman (1)
+**Matched (18 individuals, 9 sites):** Japan_Chiba_HG_Jomon (5); Japan_Honshu_EarlyJomon (5); Japan_Tohoku_Jomon (2); Japan_Honshu_MidLateJomon (2); Japan_Shikoku_InitialJomon (1); Japan_Shikoku_LateJoman (1); Japan_SoyaSub_HG_Jomon (1); Japan_Ikawazu_Jomon (1)
 
 **Evidence:**
 - Jōmon-associated hunter-gatherers, Amur Basin hunter-gatherers, and Neolithic/Iron Age Taiwan and Tibetan-plateau people share a deeply splitting lineage. — wang2021, Abstract
@@ -59,7 +59,7 @@ Millet farmers of the middle and lower Yellow River basin in the Neolithic, whos
 
 **Membership rule:** `^China_(Henan|Shaanxi|Shanxi|Shandong)_.*(_MN|_LN|Longshan|Dawenkou)$`.
 
-**Matched (47 individuals, 11 sites):** China_Shaanxi_Wuzhuangguoliang_LN (11); China_Shandong_Dinggong_LN (10); China_Henan_Wanggousite_MN (6); China_Henan_Pingliangtaisite_LN (4); China_Shandong_Chengziya_Longshan (3); China_Shanxi_Shengedaliang_LN (3); China_Shandong_GangShang_Dawenkou (3); China_Henan_Wadiansite_LN (2); China_Henan_Haojiatai_LN (2); China_Henan_Xiaowusite_MN (1); China_Shandong_Chengziya_LN (1); China_Henan_Wadian_LN (1)
+**Matched (47 individuals, 11 sites):** China_Shaanxi_Wuzhuangguoliang_LN (11); China_Shandong_Dinggong_LN (10); China_Henan_Wanggousite_MN (6); China_Henan_Pingliangtaisite_LN (4); China_Shanxi_Shengedaliang_LN (3); China_Shandong_GangShang_Dawenkou (3); China_Shandong_Chengziya_Longshan (3); China_Henan_Wadiansite_LN (2); China_Henan_Haojiatai_LN (2); China_Shandong_Chengziya_LN (1); China_Henan_Wadian_LN (1); China_Henan_Xiaowusite_MN (1)
 
 **Evidence:**
 - Yellow River farmer-related ancestry (around 3000 BCE) contributed up to about 84% to some Tibetan groups and about 59–84% to Han Chinese. — wang2021, Abstract
@@ -77,7 +77,7 @@ Individuals from the West Liao River region of northeast China, whose ancestry s
 
 *Grouped by region; not a single genetic profile.*
 
-**Matched (11 individuals, 7 sites):** China_InnerMongolia_Miaozigousite_MN (3); China_InnerMongolia_Erdaojingzi_LN (2); China_InnerMongolia_LongtouMountain_BA (2); China_InnerMongolia_ZhalainuoerMiningSite_EN (1); China_InnerMongolia_Wuqifarmsite_EN (1); China_InnerMongolia_Haminmanghasite_MN (1); China_InnerMongolia_Yumin_EN (1)
+**Matched (11 individuals, 7 sites):** China_InnerMongolia_Miaozigousite_MN (3); China_InnerMongolia_LongtouMountain_BA (2); China_InnerMongolia_Erdaojingzi_LN (2); China_InnerMongolia_ZhalainuoerMiningSite_EN (1); China_InnerMongolia_Yumin_EN (1); China_InnerMongolia_Wuqifarmsite_EN (1); China_InnerMongolia_Haminmanghasite_MN (1)
 
 **Evidence:**
 - In the West Liao River region, Late Neolithic farming intensification coincides with increased Yellow River affinity, and Bronze Age pastoralism with increased Amur affinity. — ning2020, Abstract
@@ -106,7 +106,7 @@ Hunter-gatherers of mainland Southeast Asia associated with the Hòabìnhian tec
 
 **Membership rule:** `_Hoabinhian$`.
 
-**Matched (2 individuals, 2 sites):** Laos_Hoabinhian (1); Malaysia_Hoabinhian (1)
+**Matched (2 individuals, 2 sites):** Malaysia_Hoabinhian (1); Laos_Hoabinhian (1)
 
 **Evidence:**
 - Both Hòabìnhian hunter-gatherer-related and East Asian farmer-related ancestry contributed to Southeast Asian diversity. — mccoll2018, Abstract
@@ -135,7 +135,7 @@ People of the Eastern Steppe during the time of the Xiongnu polity (about 200 BC
 
 **Membership rule:** `XiongnuPeriod`; excluding `EarlyMedieval|LateMedieval`.
 
-**Matched (57 individuals, 28 sites):** Russia_Buryatia_XiongnuPeriod (7); Mongolia_Khovsgol_XiongnuPeriod-2 (6); Mongolia_Khovsgol_XiongnuPeriod-1 (5); Mongolia_Khentii_XiongnuPeriod (4); Mongolia_Arkhangai_XiongnuPeriod (4); Mongolia_Bulgan_XiongnuPeriod (3); Mongolia_Arkhangai_XiongnuPeriod-1 (3); Mongolia_Khovd_XiongnuPeriod (3); Mongolia_Omnogovi_XiongnuPeriod (2); Mongolia_Arkhangai_XiongnuPeriod-2 (2); Mongolia_XiongnuPeriod (2); Mongolia_Sukhbaatar_XiongnuPeriod (2); Mongolia_Selenge_XiongnuPeriod-2 (2); Mongolia_Selenge_XiongnuPeriod_Medieval (2); Mongolia_Dornod_XiongnuPeriod (1); Mongolia_Tov_XiongnuPeriod (1); Mongolia_Uvs_EIA_XiongnuPeriod (1); Mongolia_Ulaanbaatar_XiongnuPeriod (1); Mongolia_Khovsgol_XiongnuPeriod (1); Mongolia_Selenge_XiongnuPeriod_Medieval-1 (1); Mongolia_Ulaangom_EIA_XiongnuPeriod-7 (1); Russia_XiongnuPeriod (1); Mongolia_XiongnuPeriod_XianbeiPeriod (1); Mongolia_Selenge_XiongnuPeriod (1)
+**Matched (57 individuals, 28 sites):** Russia_Buryatia_XiongnuPeriod (7); Mongolia_Khovsgol_XiongnuPeriod-2 (6); Mongolia_Khovsgol_XiongnuPeriod-1 (5); Mongolia_Arkhangai_XiongnuPeriod (4); Mongolia_Khentii_XiongnuPeriod (4); Mongolia_Khovd_XiongnuPeriod (3); Mongolia_Bulgan_XiongnuPeriod (3); Mongolia_Arkhangai_XiongnuPeriod-1 (3); Mongolia_XiongnuPeriod (2); Mongolia_Sukhbaatar_XiongnuPeriod (2); Mongolia_Omnogovi_XiongnuPeriod (2); Mongolia_Arkhangai_XiongnuPeriod-2 (2); Mongolia_Selenge_XiongnuPeriod-2 (2); Mongolia_Selenge_XiongnuPeriod_Medieval (2); Mongolia_Ulaanbaatar_XiongnuPeriod (1); Mongolia_XiongnuPeriod_XianbeiPeriod (1); Mongolia_Selenge_XiongnuPeriod (1); Mongolia_Ulaangom_EIA_XiongnuPeriod-7 (1); Mongolia_Tov_XiongnuPeriod (1); Mongolia_Uvs_EIA_XiongnuPeriod (1); Russia_XiongnuPeriod (1); Mongolia_Khovsgol_XiongnuPeriod (1); Mongolia_Selenge_XiongnuPeriod_Medieval-1 (1); Mongolia_Dornod_XiongnuPeriod (1)
 
 **Evidence:**
 - Xiongnu-period individuals formed from mixture of earlier Mongolian and surrounding populations; Mongol-period individuals show much higher eastern Eurasian ancestry. — jeong2020, Summary
@@ -154,7 +154,7 @@ People of Mongolia during the Mongol Empire era (about 1200–1400 CE), with muc
 
 *AADR uses 'LateMedieval' for the Mongol period.*
 
-**Matched (72 individuals, 40 sites):** Mongolia_Sukhbaatar_LateMedieval (10); Mongolia_Khentii_LateMedieval (7); Mongolia_Dornod_LateMedieval (7); Mongolia_Omnogovi_LateMedieval (6); Mongolia_Selenge_LateMedieval (6); Mongolia_Sukhbaatar_XiongnuPeriod_LateMedieval (4); Mongolia_Bulgan_EarlyMedieval_LateMedieval (4); Mongolia_Khovsgol_LateMedieval (4); Mongolia_Tov_LateMedieval (4); Mongolia_Khovd_LateMedieval (3); Mongolia_DarkhanUul_LateMedieval (3); Mongolia_Arkhangai_LateMedieval (3); Mongolia_Sukhbaatar_MLBA_XiongnuPeriod_LateMedieval (3); Mongolia_Ovorkhangai_LateMedieval (2); Mongolia_Dundgovi_LateMedieval (2); Mongolia_Uvs_EIA_XiongnuPeriod_LateMedieval (2); Mongolia_Bulgan_LateMedieval (2)
+**Matched (72 individuals, 40 sites):** Mongolia_Sukhbaatar_LateMedieval (10); Mongolia_Khentii_LateMedieval (7); Mongolia_Dornod_LateMedieval (7); Mongolia_Selenge_LateMedieval (6); Mongolia_Omnogovi_LateMedieval (6); Mongolia_Sukhbaatar_XiongnuPeriod_LateMedieval (4); Mongolia_Tov_LateMedieval (4); Mongolia_Bulgan_EarlyMedieval_LateMedieval (4); Mongolia_Khovsgol_LateMedieval (4); Mongolia_Arkhangai_LateMedieval (3); Mongolia_DarkhanUul_LateMedieval (3); Mongolia_Sukhbaatar_MLBA_XiongnuPeriod_LateMedieval (3); Mongolia_Khovd_LateMedieval (3); Mongolia_Bulgan_LateMedieval (2); Mongolia_Uvs_EIA_XiongnuPeriod_LateMedieval (2); Mongolia_Dundgovi_LateMedieval (2); Mongolia_Ovorkhangai_LateMedieval (2)
 
 **Evidence:**
 - Xiongnu-period individuals formed from mixture of earlier Mongolian and surrounding populations; Mongol-period individuals show much higher eastern Eurasian ancestry. — jeong2020, Summary

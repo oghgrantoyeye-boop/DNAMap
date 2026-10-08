@@ -27,7 +27,7 @@ Hunter-gatherers of eastern Africa over the last 18,000 years, carrying a deep e
 
 **Membership rule:** `^Kenya_(LSA|Kansyore|LSA_Kansyore)$|^Tanzania_(LSA|LSA_Kisese)$`.
 
-**Matched (7 individuals, 5 sites):** Kenya_LSA_Kansyore (3); Kenya_Kansyore (2); Kenya_LSA (1); Tanzania_LSA_Kisese (1)
+**Matched (7 individuals, 5 sites):** Kenya_LSA_Kansyore (3); Kenya_Kansyore (2); Tanzania_LSA_Kisese (1); Kenya_LSA (1)
 
 **Evidence:**
 - Eastern and south-central African forager ancestry is a geographically structured mixture of three highly divergent sources, probably formed 80,000–20,000 years ago and stable afterwards. — lipson2022, Abstract
@@ -44,7 +44,7 @@ Hunter-gatherers of Malawi between about 15,000 and 2,500 years ago, about two-t
 
 **Membership rule:** `^Malawi_LSA`.
 
-**Matched (9 individuals, 3 sites):** Malawi_LSA_6000BP (3); Malawi_LSA_15500BP (2); Malawi_LSA_5200BP (2); Malawi_LSA_2500BP (1); Malawi_LSA_8500BP (1)
+**Matched (9 individuals, 3 sites):** Malawi_LSA_6000BP (3); Malawi_LSA_5200BP (2); Malawi_LSA_15500BP (2); Malawi_LSA_2500BP (1); Malawi_LSA_8500BP (1)
 
 **Evidence:**
 - San-related ancestry was once more widespread: about two-thirds of the ancestry of Malawi hunter-gatherers (~8,100–2,500 years ago) and about one-third of Tanzanian hunter-gatherers (~1,400 years ago). — skoglund2017, Summary
@@ -58,7 +58,7 @@ Stone Age hunter-gatherers of southern Africa, genetically similar to present-da
 
 **Membership rule:** `^SouthAfrica_(2000BP|1900BP|2200BP|LateHolocene|OakhurstRockshelter_LateHolocene|MatjesRiver_LSA_Wilton)$`.
 
-**Matched (13 individuals, 4 sites):** SouthAfrica_LateHolocene (7); SouthAfrica_1900BP (2); SouthAfrica_OakhurstRockshelter_LateHolocene (2); SouthAfrica_MatjesRiver_LSA_Wilton (2)
+**Matched (13 individuals, 4 sites):** SouthAfrica_LateHolocene (7); SouthAfrica_MatjesRiver_LSA_Wilton (2); SouthAfrica_1900BP (2); SouthAfrica_OakhurstRockshelter_LateHolocene (2)
 
 **Evidence:**
 - ~2,000-year-old Stone Age individuals from KwaZulu-Natal resemble present-day southern San; Iron Age individuals (300–500 years old) resemble present-day Bantu-language speakers. — schlebusch2017, Abstract
@@ -108,7 +108,7 @@ Iron Age individuals in eastern and southern Africa whose ancestry is mostly rel
 
 **Membership rule:** `^Botswana_EIA$|^SouthAfrica_400BP$|^Malawi_(IA|IronAge)|^Kenya_(400BP|IA_Bantu)|^Tanzania_(600BP|1300BP)$`.
 
-**Matched (11 individuals, 10 sites):** SouthAfrica_400BP (4); Botswana_EIA (4); Tanzania_600BP (1); Tanzania_1300BP (1); Kenya_400BP (1)
+**Matched (11 individuals, 10 sites):** Botswana_EIA (4); SouthAfrica_400BP (4); Tanzania_1300BP (1); Tanzania_600BP (1); Kenya_400BP (1)
 
 **Evidence:**
 - The spread of farmers from western Africa involved complete replacement of local hunter-gatherers in some regions. — skoglund2017, Summary

@@ -30,7 +30,7 @@ Individuals from Goyet Cave in Belgium, about 35,000 years ago, associated with 
 
 *Goyet Q116-1 and Q376-3.*
 
-**Matched (2 individuals, 1 sites):** Belgium_UP (1); Belgium_Aurignacian (1)
+**Matched (2 individuals, 1 sites):** Belgium_Aurignacian (1); Belgium_UP (1)
 
 **Evidence:**
 - Genetically defined clusters, named after type sites: Věstonice (Gravettian-associated), Mal'ta, El Mirón (Magdalenian-associated, with affinity to GoyetQ116-1) and Villabruna (from ~14,000 years ago). — fu2016, Clustering section; Figs 2–3
@@ -173,7 +173,7 @@ Hunter-gatherers associated with the Epigravettian in Italy, sampled from about 
 
 **Membership rule:** `^Italy_.*Epigravettian`.
 
-**Matched (19 individuals, 7 sites):** Italy_Sicily_Epigravettian (11); Italy_Abruzzo_Epigravettian (4); Italy_FriuliVeneziaGiulia_Epigravettian (1); Italy_Liguria_Epigravettian (1); Italy_Sicily_Epigravettian_HG (1); Italy_NordEst_Epigravettian (1)
+**Matched (19 individuals, 7 sites):** Italy_Sicily_Epigravettian (11); Italy_Abruzzo_Epigravettian (4); Italy_Sicily_Epigravettian_HG (1); Italy_NordEst_Epigravettian (1); Italy_Liguria_Epigravettian (1); Italy_FriuliVeneziaGiulia_Epigravettian (1)
 
 **Evidence:**
 - From about 14,000 years ago a component related to present-day Near Easterners appears in Europe with the Villabruna cluster. — fu2016, Abstract; Villabruna section
@@ -192,7 +192,7 @@ Hunter-gatherers of western and central Europe from about 14,000 years ago until
 
 *Late Glacial and Mesolithic hunter-gatherers west of the 'great divide'. Scandinavian, Baltic and Iron Gates hunter-gatherers, who carry mixed WHG/EHG ancestry, are not included.*
 
-**Matched (67 individuals, 44 sites):** France_Mesolithic (15); Spain_Mesolithic (14); Germany_GrossFredenwalde_Mesolithic (7); Netherlands_Mesolithic (6); England_Mesolithic (3); Belgium_Mesolithic (3); France_Occitanie_Gard_Mesolithic (3); Germany_Oberkassel_Federmesser_LMagdalenian (2); Italy_Sicily_Mesolithic (2); Germany_Bottendorf_Mesolithic (2); Germany_Urdhohle_Mesolithic (1); Germany_BadDurrenberg_Mesolithic (1); Germany_Bockstein_Mesolithic (1); Germany_Ofnet_Mesolithic (1); Switzerland_Epipaleolithic (1); Germany_Spiekeroog_Mesolithic (1); Germany_Criewen_Mesolithic (1); Germany_Drigge_Mesolithic (1); Germany_FalkensteinHohle_Mesolithic (1); Spain_Azilian (1)
+**Matched (67 individuals, 44 sites):** France_Mesolithic (15); Spain_Mesolithic (14); Germany_GrossFredenwalde_Mesolithic (7); Netherlands_Mesolithic (6); Belgium_Mesolithic (3); France_Occitanie_Gard_Mesolithic (3); England_Mesolithic (3); Germany_Oberkassel_Federmesser_LMagdalenian (2); Germany_Bottendorf_Mesolithic (2); Italy_Sicily_Mesolithic (2); Germany_Ofnet_Mesolithic (1); Germany_BadDurrenberg_Mesolithic (1); Germany_Drigge_Mesolithic (1); Germany_Urdhohle_Mesolithic (1); Germany_Criewen_Mesolithic (1); Germany_Spiekeroog_Mesolithic (1); Germany_Bockstein_Mesolithic (1); Spain_Azilian (1); Germany_FalkensteinHohle_Mesolithic (1); Switzerland_Epipaleolithic (1)
 
 **Evidence:**
 - Most present-day Europeans can be modelled with ancestry from three deeply differentiated sources: West European Hunter-Gatherers (WHG), Ancient North Eurasians (ANE) and Early European Farmers (EEF). — lazaridis2014, Abstract

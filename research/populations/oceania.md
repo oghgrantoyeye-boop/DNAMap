@@ -27,7 +27,7 @@ The first people to settle Vanuatu and Tonga, about 3,000 years ago, buried with
 
 **Membership rule:** `^Vanuatu_(3000|2900)BP$|^Tonga_(2700|2500)BP$`.
 
-**Matched (10 individuals, 2 sites):** Vanuatu_3000BP (4); Vanuatu_2900BP (4); Tonga_2700BP (1); Tonga_2500BP (1)
+**Matched (10 individuals, 2 sites):** Vanuatu_2900BP (4); Vanuatu_3000BP (4); Tonga_2500BP (1); Tonga_2700BP (1)
 
 **Evidence:**
 - Lapita-associated individuals from Vanuatu (~3,100–2,700 years ago) and Tonga (~2,700–2,300 years ago) had little or no Papuan-related ancestry. — skoglund2016, Abstract

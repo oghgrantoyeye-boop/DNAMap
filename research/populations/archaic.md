@@ -16,7 +16,7 @@ An archaic human group of western Eurasia, known from fossils and from several h
 
 *AADR labels ending in _Neanderthal. Excludes the Neandertal–Denisovan first-generation offspring (Russia_Denisova_Neanderthal_Mix).*
 
-**Matched (10 individuals, 8 sites):** Mezmaiskayacave_Neanderthal (2); VindijaCave_Neanderthal (2); Altai_Neanderthal (1); France_GrotteMandrin_Neanderthal (1); GoyetCave_Neanderthal (1); ChagyrskayaCave_Neanderthal (1); LesCottescave_Neanderthal (1); SpyCave_Neanderthal (1)
+**Matched (10 individuals, 8 sites):** Mezmaiskayacave_Neanderthal (2); VindijaCave_Neanderthal (2); LesCottescave_Neanderthal (1); GoyetCave_Neanderthal (1); SpyCave_Neanderthal (1); Altai_Neanderthal (1); France_GrotteMandrin_Neanderthal (1); ChagyrskayaCave_Neanderthal (1)
 
 **Evidence:**
 - Neandertals share more derived variants with present-day people outside sub-Saharan Africa than with sub-Saharan Africans, best explained by gene flow from Neandertals into the ancestors of non-Africans before Eurasian populations diverged. — green2010, Abstract; gene-flow sections

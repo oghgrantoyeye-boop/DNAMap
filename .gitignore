@@ -18,3 +18,6 @@ out/
 # OS / editors
 .DS_Store
 *.swp
+
+# Rebuildable browser data that is too large to commit (run `pnpm data`)
+apps/web/public/data/samples-detail/
