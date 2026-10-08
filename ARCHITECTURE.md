@@ -112,3 +112,12 @@ Canvas 2D repainting the base map on every pointer step was the cause of the lag
 - Used up to view.k = 10 (`GPU_MAX_K`); above that, or without WebGL or high-precision fragment floats, the vector renderer (`mapRender.drawBasemap`) draws instead, with its own gesture handling (CSS-transform of the painted canvases, repaint on settle).
 - Equal Earth is area-preserving, so distance in pixels from the distance field is exact on average (geometric mean of the local scales equals the projection scale); it is not isotropic near the poles.
 - Reason for not using MapLibre or deck.gl (the stack defaults): neither supports Equal Earth, and an area-preserving projection is part of the design (dot density must not be exaggerated toward the poles).
+
+## "From bone to genome" page (added 2026-10-08)
+
+`/extraction/` explains how ancient DNA is obtained and read. It is a separate route so three.js (about 150 KB compressed) loads only there, through a dynamic import in `components/extraction/Extraction.tsx`.
+
+- Scene (`components/extraction/scene.ts`): ten procedural dioramas on plinths along a bench, built in code (no model files). The camera travels between stations; a depth-of-field pass focuses on the current one. Each station animates only while it or a neighbour is in view. Exploded views exist where taking the model apart explains something (inside the bone, lifting the clean-room glass, DNA breaking into fragments, library parts). Two palettes follow the map's light and dark styles.
+- Words (`data/curated/extraction.json`, schema `data/schemas/extraction.schema.json`): each chapter has a title, summary, text, figures and an optional caveat, every one tied to evidence ids; validation enforces that the evidence exists and runs the wording checks. The export writes `public/data/extraction.json` with only the evidence and sources the chapters cite.
+- Inspirations: the navigable diorama with chapters attached to places (Piotr Migdał, *Invisible Cities*) and the single explorable model with an exploded view, live readout and section-by-section pairing (*Plane of Focus*, sael.net). No code or assets from either.
+- Accessibility: keyboard steps (arrows, digits, T, X, H), a "Read as text" mode with every chapter, reduced motion respected (no camera flights, slower animation), and a text-only fallback without WebGL.
