@@ -1,5 +1,5 @@
 # Raw data is immutable and large; fetched by pipeline/aadr/download.py
-data/raw/
+data/raw/*
 !data/raw/README.md
 
 # Python
