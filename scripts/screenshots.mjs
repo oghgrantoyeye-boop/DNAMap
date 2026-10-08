@@ -6,7 +6,7 @@ import { readFile, stat, mkdir } from "node:fs/promises";
 import { extname, join, resolve } from "node:path";
 import { chromium } from "playwright-core";
 
-const root = resolve("apps/web/out");
+const root = resolve(process.env.SITE_ROOT || "apps/web/out");
 const outDir = resolve(process.argv[2] || "docs/screenshots");
 const shots = process.argv.slice(3);
 const TYPES = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".woff2": "font/woff2", ".svg": "image/svg+xml", ".jpg": "image/jpeg", ".png": "image/png" };

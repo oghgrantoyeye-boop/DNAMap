@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import subprocess
 import zlib
 from datetime import datetime, timezone
@@ -44,6 +45,23 @@ def write(path: Path, obj) -> str:
     data = json.dumps(obj, separators=(",", ":"), ensure_ascii=False)
     path.write_text(data)
     return hashlib.sha256(data.encode()).hexdigest()[:16]
+
+
+# AADR v66.p1 ships 23 U+FFFD replacement characters in free-text date notes, all
+# where a symbol was lost to an encoding error upstream: "6914\ufffd34 BP" (a
+# radiocarbon age ± error) and once "2141\ufffd1962 cal BCE" (a range). The raw file
+# and processed tables keep the text verbatim; only the browser copy is repaired,
+# and only for these two digit-bounded patterns. Anything else is left as is.
+RE_PM = re.compile(r"(\d)\ufffd(\d+\s?BP)")
+RE_RANGE = re.compile(r"(\d)\ufffd(\d)")
+
+
+def repair_text(v):
+    if isinstance(v, str) and "\ufffd" in v:
+        return RE_RANGE.sub(r"\1–\2", RE_PM.sub(r"\1±\2", v))
+    if isinstance(v, list):
+        return [repair_text(x) for x in v]
+    return v
 
 
 def load_curated() -> dict:
@@ -112,6 +130,7 @@ def main() -> None:
                    "data_type", "snps_1240k", "assessment", "assessment_warnings", "family_relations", "genetic_ids",
                    "representative_genetic_id", "override_ids"]
     for r in s.select(detail_cols).iter_rows(named=True):
+        r = {k: repair_text(v) for k, v in r.items()}
         r["population_ids"] = [pops[i]["id"] for i in memb.get(r["individual_id"], [])]
         shards[shard_of(r["individual_id"])][r["individual_id"]] = r
     hashes = {}
