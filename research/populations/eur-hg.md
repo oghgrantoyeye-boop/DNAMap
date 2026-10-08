@@ -75,7 +75,7 @@ Hunter-gatherers buried with Gravettian material in France and northeastern Iber
 
 *Sites named by Posth 2023: Ormesson, La Rochette, Fournol, Mollet III, Reclau Viver.*
 
-**Matched (4 individuals, 4 sites):** Spain_Gravettian (2); France_Occitanie_Gravettian (1); France_Gravettian (1)
+**Matched (4 individuals, 4 sites):** Spain_Gravettian (2); France_Gravettian (1); France_Occitanie_Gravettian (1)
 
 **Evidence:**
 - Hunter-gatherer clusters before and after the LGM: Fournol (Gravettian-associated, western Europe, related to Aurignacian-associated Goyet Q116-1), Věstonice (Gravettian-associated, central and southern Europe), GoyetQ2 (Magdalenian-associated), Villabruna (Epigravettian-associated), Oberkassel (equated with WHG), and Sidelkino (renamed EHG). — posth2023, Introduction; Results; Fig. 2
@@ -173,7 +173,7 @@ Hunter-gatherers associated with the Epigravettian in Italy, sampled from about 
 
 **Membership rule:** `^Italy_.*Epigravettian`.
 
-**Matched (19 individuals, 7 sites):** Italy_Sicily_Epigravettian (11); Italy_Abruzzo_Epigravettian (4); Italy_Sicily_Epigravettian_HG (1); Italy_NordEst_Epigravettian (1); Italy_Liguria_Epigravettian (1); Italy_FriuliVeneziaGiulia_Epigravettian (1)
+**Matched (19 individuals, 7 sites):** Italy_Sicily_Epigravettian (11); Italy_Abruzzo_Epigravettian (4); Italy_NordEst_Epigravettian (1); Italy_FriuliVeneziaGiulia_Epigravettian (1); Italy_Sicily_Epigravettian_HG (1); Italy_Liguria_Epigravettian (1)
 
 **Evidence:**
 - From about 14,000 years ago a component related to present-day Near Easterners appears in Europe with the Villabruna cluster. — fu2016, Abstract; Villabruna section
@@ -192,7 +192,7 @@ Hunter-gatherers of western and central Europe from about 14,000 years ago until
 
 *Late Glacial and Mesolithic hunter-gatherers west of the 'great divide'. Scandinavian, Baltic and Iron Gates hunter-gatherers, who carry mixed WHG/EHG ancestry, are not included.*
 
-**Matched (67 individuals, 44 sites):** France_Mesolithic (15); Spain_Mesolithic (14); Germany_GrossFredenwalde_Mesolithic (7); Netherlands_Mesolithic (6); Belgium_Mesolithic (3); France_Occitanie_Gard_Mesolithic (3); England_Mesolithic (3); Germany_Oberkassel_Federmesser_LMagdalenian (2); Germany_Bottendorf_Mesolithic (2); Italy_Sicily_Mesolithic (2); Germany_Ofnet_Mesolithic (1); Germany_BadDurrenberg_Mesolithic (1); Germany_Drigge_Mesolithic (1); Germany_Urdhohle_Mesolithic (1); Germany_Criewen_Mesolithic (1); Germany_Spiekeroog_Mesolithic (1); Germany_Bockstein_Mesolithic (1); Spain_Azilian (1); Germany_FalkensteinHohle_Mesolithic (1); Switzerland_Epipaleolithic (1)
+**Matched (67 individuals, 44 sites):** France_Mesolithic (15); Spain_Mesolithic (14); Germany_GrossFredenwalde_Mesolithic (7); Netherlands_Mesolithic (6); Belgium_Mesolithic (3); England_Mesolithic (3); France_Occitanie_Gard_Mesolithic (3); Germany_Bottendorf_Mesolithic (2); Italy_Sicily_Mesolithic (2); Germany_Oberkassel_Federmesser_LMagdalenian (2); Germany_BadDurrenberg_Mesolithic (1); Germany_Spiekeroog_Mesolithic (1); Germany_FalkensteinHohle_Mesolithic (1); Spain_Azilian (1); Germany_Ofnet_Mesolithic (1); Germany_Urdhohle_Mesolithic (1); Switzerland_Epipaleolithic (1); Germany_Drigge_Mesolithic (1); Germany_Bockstein_Mesolithic (1); Germany_Criewen_Mesolithic (1)
 
 **Evidence:**
 - Most present-day Europeans can be modelled with ancestry from three deeply differentiated sources: West European Hunter-Gatherers (WHG), Ancient North Eurasians (ANE) and Early European Farmers (EEF). — lazaridis2014, Abstract
@@ -217,7 +217,7 @@ Hunter-gatherers of the eastern European forest zone, about 11,000–7,000 years
 
 *Karelia (Yuzhniy Oleniy Ostrov area) and Samara/Sidelkino individuals, the type groups for EHG.*
 
-**Matched (20 individuals, 3 sites):** Russia_Karelia_Mesolithic (16); Russia_Karelia_Mesolithic_HG (2); Russia_Samara_EN_Mesolithic (2)
+**Matched (20 individuals, 3 sites):** Russia_Karelia_Mesolithic (16); Russia_Samara_EN_Mesolithic (2); Russia_Karelia_Mesolithic_HG (2)
 
 **Evidence:**
 - 8,000–7,000 years ago, early farmers in Germany, Hungary and Spain were closely related to each other and distinct from local hunter-gatherers, while Russia was inhabited by hunter-gatherers (EHG) with high affinity to the 24,000-year-old Mal'ta individual. — haak2015, Abstract

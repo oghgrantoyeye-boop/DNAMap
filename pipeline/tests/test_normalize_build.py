@@ -45,3 +45,21 @@ def test_continent_mapping():
     assert continent("Kenya", 36.8) == "Africa"
     assert continent("Greenland", -45.0) == "Americas"
     assert continent("Atlantis", 0.0) is None
+
+
+AMERICAS = {"Argentina", "Bahamas", "Belize", "Bolivia", "Brazil", "Canada", "Chile", "Colombia", "Cuba", "Curacao", "Dominican Republic",
+            "Greenland", "Guadeloupe", "Haiti", "Mexico", "Panama", "Paraguay", "Peru", "Puerto Rico", "Saint Lucia", "Uruguay", "Venezuela"}
+
+
+def test_cuba_ceramic_longitude_regression(ind):
+    # AADR wrote 77.844 (India) for Cueva de los Esqueletos 1, Camaguey, Cuba; corrected by ov-0011..0015.
+    r = ind.filter(pl.col("individual_id") == "CDE001").row(0, named=True)
+    assert r["lon"] == pytest.approx(-77.844)
+    assert "ov-0011" in r["override_ids"]
+
+
+def test_no_american_site_has_eastern_longitude(ind):
+    # A dropped minus sign puts an American site in Africa, Europe or Asia. (USA is excluded: Guam and the
+    # Northern Marianas are US territories in the western Pacific, with genuinely eastern longitudes.)
+    bad = ind.filter(pl.col("political_entity").is_in(sorted(AMERICAS)) & (pl.col("lon") > 0))
+    assert bad.height == 0, bad.select("individual_id", "political_entity", "lon").to_dicts()[:10]

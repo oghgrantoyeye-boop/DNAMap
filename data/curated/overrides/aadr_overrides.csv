@@ -9,3 +9,8 @@ ov-0007,C514,9311,start,-1437,1400,"Full Date '1400-1438 calBCE (520±20 BP)': a
 ov-0008,C514,9311,end,1443,1438,"See ov-0007.",aadr,2026-10-08
 ov-0009,PCA0426,47496,start,-1199,1000,"Full Date '1000-1200 BCE' contradicts the Early Medieval context in the group label and date_mean_bp 850 BP (= 1100 CE). Era label typo; use 1000–1200 CE.",aadr,2026-10-08
 ov-0010,PCA0426,47496,end,1216,1200,"See ov-0009.",aadr,2026-10-08
+ov-0011,CDE001,8078,lon,77.844,-77.844,"Longitude 77.844 is written without its minus sign: the locality text reads 'Cueva de los Esqueletos 1 (Camaguey, Sierra de Cubitas)', political entity Cuba, and latitude 21.562 matches the Sierra de Cubitas in Camaguey province, which lies at 77.84 degrees WEST. As recorded, the point falls in central India (77.844 E). Corrected to -77.844. Found when a user saw the Ceramic Age Caribbean population drawn in India.",aadr,2026-10-08
+ov-0012,CDE002,8079,lon,77.844,-77.844,"See ov-0011 (same site, same sign error).",aadr,2026-10-08
+ov-0013,CDE003,8080,lon,77.844,-77.844,"See ov-0011 (same site, same sign error).",aadr,2026-10-08
+ov-0014,CDE004,8081,lon,77.844,-77.844,"See ov-0011 (same site, same sign error).",aadr,2026-10-08
+ov-0015,CDE005,8082,lon,77.844,-77.844,"See ov-0011 (same site, same sign error).",aadr,2026-10-08

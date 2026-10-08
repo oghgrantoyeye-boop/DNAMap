@@ -14,11 +14,11 @@ Total ancient individuals: 17630. With coordinates: 17540. Assigned to a curated
 | Europe | 64 | 229 | 1994 | 3710 | 4692 | 259 |
 | Near East & Caucasus | 5 | 240 | 366 | 731 | 170 | 11 |
 | North Africa | 2 | 13 | 47 | 236 | 138 | 13 |
-| North America | 0 | 13 | 29 | 78 | 446 | 65 |
+| North America | 0 | 13 | 29 | 78 | 449 | 67 |
 | Oceania | 0 | 0 | 0 | 17 | 15 | 14 |
 | Pacific (east of 180) | 0 | 0 | 0 | 3 | 1 | 3 |
 | Siberia | 4 | 7 | 69 | 162 | 14 | 0 |
-| South Asia | 0 | 0 | 0 | 205 | 88 | 21 |
+| South Asia | 0 | 0 | 0 | 205 | 85 | 19 |
 | Southeast Asia | 0 | 0 | 1 | 15 | 10 | 5 |
 | Sub-Saharan Africa | 1 | 6 | 17 | 47 | 64 | 77 |
 | other | 0 | 0 | 0 | 61 | 163 | 64 |
@@ -51,56 +51,56 @@ Total ancient individuals: 17630. With coordinates: 17540. Assigned to a curated
 | se-europe-early-farmers | 45 |
 | globular-amphora | 39 |
 | beaker-britain | 33 |
-| pastoral-neolithic | 31 |
 | trypillia-farmers | 31 |
+| pastoral-neolithic | 31 |
 | serednii-stih | 29 |
 | early-central-south-americans | 28 |
 | amur-hunter-gatherers | 25 |
 | ehg | 20 |
 | levant-chalcolithic-peqiin | 20 |
-| villabruna-epigravettian | 19 |
 | iberia-early-neolithic | 19 |
+| villabruna-epigravettian | 19 |
 | jomon | 18 |
 | zagros-early-farmers | 16 |
 | levant-ppn-farmers | 16 |
 | maikop | 14 |
 | vanuatu-post-lapita | 13 |
-| iberia-chalcolithic-steppe-related | 13 |
 | southern-african-foragers | 13 |
-| west-liao-river | 11 |
-| vestonice-cluster | 11 |
+| iberia-chalcolithic-steppe-related | 13 |
 | western-african-related-farmers | 11 |
-| lapita-first-remote-oceanians | 10 |
+| vestonice-cluster | 11 |
+| west-liao-river | 11 |
 | zlatykun-ranis | 10 |
 | neandertals | 10 |
+| lapita-first-remote-oceanians | 10 |
 | malawi-foragers | 9 |
 | sea-neolithic-farmers | 8 |
-| iberomaurusian-taforalt | 7 |
 | east-african-foragers | 7 |
-| early-european-founders | 6 |
+| iberomaurusian-taforalt | 7 |
 | magdalenian-goyetq2 | 6 |
-| clv-eneolithic | 4 |
+| early-european-founders | 6 |
 | fournol-cluster | 4 |
 | natufians | 4 |
+| clv-eneolithic | 4 |
 | shum-laka | 4 |
 | kofun-period-japan | 3 |
 | bacho-kiro-iup | 3 |
-| ancient-north-eurasians | 3 |
 | chg | 3 |
 | botai | 3 |
+| ancient-north-eurasians | 3 |
 | goyetq116-aurignacian | 2 |
 | ancient-north-siberians | 2 |
-| denisovans | 2 |
 | hoabinhian | 2 |
 | ancient-beringians | 2 |
+| denisovans | 2 |
+| oase | 1 |
+| anatolia-epipaleolithic | 1 |
 | clovis-anzick | 1 |
 | ust-ishim | 1 |
-| oase | 1 |
-| mota | 1 |
 | solutrean-associated | 1 |
-| anatolia-epipaleolithic | 1 |
-| tianyuan | 1 |
 | indus-periphery | 1 |
+| tianyuan | 1 |
+| mota | 1 |
 
 ## Missing-data and quality rates
 
@@ -109,5 +109,5 @@ Total ancient individuals: 17630. With coordinates: 17540. Assigned to a curated
 - Date kind: contextual 9039, direct_radiocarbon 8168, relative_tethered 345, other 64, genetic 14
 - Date conflicts (text vs numeric): 138
 - Quality CRITICAL (excluded from memberships by default): 422
-- Overrides applied: 10
+- Overrides applied: 15
 - mtDNA haplogroup missing: 3442; Y haplogroup missing (incl. females): 8646
