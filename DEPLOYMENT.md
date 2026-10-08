@@ -91,3 +91,19 @@ Vercel specifics:
 | Netlify | $0 (capped) / $9 / $20 |
 | Domain | ~$1–2 |
 | Chat assistant (later) | API usage per question, plus the backend's free tier |
+
+
+## Ads (added 2026-10-08; off until configured)
+
+Everything the site needs is built; ads switch on when two environment variables are set. With them unset, no ad code runs, no third-party script loads, no `ads.txt` is published and the privacy page says nothing about advertising.
+
+Where they appear: a labelled unit on the About and Methodology pages (text pages, where ad networks accept sites and where ads cannot get in the way of the map), never on the map, panels or evidence lists. Consent for the EEA, UK and Switzerland is Google's own message, set up in the AdSense account (free, certified). Ads load after the page has finished loading and the browser is idle.
+
+Steps (the owner does these; nothing can be applied for on their behalf):
+1. Own a domain and point it at the Vercel project (ad networks do not accept free `*.vercel.app` addresses).
+2. Apply at AdSense with that domain. While waiting, set `NEXT_PUBLIC_ADSENSE_CLIENT` (`ca-pub-…`) in Vercel → Project → Settings → Environment Variables and redeploy: the site then publishes Google's ownership tag and `/ads.txt`.
+3. When approved, create a responsive display ad unit and set `NEXT_PUBLIC_ADSENSE_SLOT` to its numeric id; redeploy. Ads appear.
+4. In AdSense → Privacy & messaging, create the consent message for EEA/UK/Switzerland and publish it.
+5. Read `/privacy/` once ads are on; it is a plain-language template, not legal advice, and should be checked for the owner's jurisdiction.
+
+To turn ads off again, delete the two variables and redeploy.

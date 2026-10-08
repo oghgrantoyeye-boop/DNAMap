@@ -139,6 +139,9 @@ export default function App() {
                 </li>
               ))}
             </ul>
+            <p className="small muted">
+              <Link href="/privacy/">Privacy</Link>
+            </p>
             <label className="toggle small">
               <input type="checkbox" checked={showBorders} onChange={(e) => setState({ showBorders: e.target.checked })} /> show present-day borders (for orientation only)
             </label>

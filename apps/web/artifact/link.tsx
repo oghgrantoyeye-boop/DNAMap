@@ -2,7 +2,7 @@
 import type { AnchorHTMLAttributes, ReactNode } from "react";
 
 export default function Link({ href, children, ...rest }: { href: string; children: ReactNode } & AnchorHTMLAttributes<HTMLAnchorElement>) {
-  const to = href === "/about/" ? "#about" : href === "/methodology/" ? "#methodology" : href === "/" ? "#map" : href;
+  const to = href === "/about/" ? "#about" : href === "/methodology/" ? "#methodology" : href === "/privacy/" ? "#privacy" : href === "/" ? "#map" : href;
   return (
     <a href={to} {...rest}>
       {children}

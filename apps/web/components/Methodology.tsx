@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { Evidence, Manifest, Ontology } from "@dnamap/data-model";
+import AdSlot from "@/components/AdSlot";
 import { getJson } from "@/lib/data";
 import { THEMES } from "@/lib/mapRender";
 import { repoLink, reportUrl, REPO_URL } from "@/lib/report";
@@ -277,6 +278,8 @@ export default function Methodology() {
         <li>Population fields, centres and time spans are summaries of who was sampled, so they shift as new genomes are published.</li>
       </ul>
 
+      <AdSlot />
+
       <h2 id="m-claims">Every claim, with its source</h2>
       <p>
         These are all {o ? o.evidence.length : "the"} claims the map rests on. Each has a permanent ID, the study it comes from, where in the study it is supported, and what on the map depends on it.
@@ -362,6 +365,10 @@ export default function Methodology() {
       </ol>
       <p>
         Reports are public. Each is checked against the cited sources. A claim the evidence does not support is corrected, downgraded or removed, and the change is recorded in the project&rsquo;s public history.
+      </p>
+
+      <p className="small muted">
+        <Link href="/privacy/">Privacy</Link>
       </p>
 
       <h2 id="m-reproduce">Rebuild it yourself</h2>

@@ -24,3 +24,6 @@ apps/web/public/data/samples-detail/
 
 # Single-page preview build (scripts/build-single-page.mjs)
 apps/web/out-single/
+
+# Generated at build time from NEXT_PUBLIC_ADSENSE_CLIENT (scripts/write-ads-txt.mjs)
+apps/web/public/ads.txt

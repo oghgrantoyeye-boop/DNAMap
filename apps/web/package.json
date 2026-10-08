@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
+    "build": "node ../../scripts/write-ads-txt.mjs && next build",
     "start": "npx serve out -l 3000",
     "typecheck": "tsc --noEmit",
     "test": "echo 'web: e2e via pnpm screenshots'"

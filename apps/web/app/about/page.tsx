@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AdSlot from "@/components/AdSlot";
 import manifest from "../../public/data/manifest.json";
 
 export const metadata = { title: "About the data · A Map of Us" };
@@ -27,6 +28,8 @@ export default function About() {
       <p>
         Ancient DNA survives better in cold and dry places, and research has concentrated on Europe. Most of the world is sampled thinly, and some regions and periods not at all. An empty area on the map almost always means &ldquo;no genomes sampled yet&rdquo;, not &ldquo;no people&rdquo;. The strip above the timeline shows how many samples exist for each moment within the area you are looking at. The map uses an equal-area projection so that the density of dots is not exaggerated near the poles.
       </p>
+
+      <AdSlot />
 
       <h2>What a &ldquo;population&rdquo; means here</h2>
       <p>
@@ -60,7 +63,7 @@ export default function About() {
           {c.evidence} evidence statements from {c.sources - 2} publications, written in our own words. The full list, with verification level, is in the project&rsquo;s SOURCES.md.
         </li>
         <li>
-          Privacy: visits are counted with Vercel Web Analytics, which sets no cookies and does not follow you across sites. It records the page, the referring site, and your country, browser and device type, plus which populations, map styles and links are opened. We never see who you are.
+          Privacy: visits are counted with cookie-free analytics, and some pages may show labelled advertisements. Details are on the <Link href="/privacy/">privacy page</Link>.
         </li>
         <li>Built {manifest.built} from commit {manifest.git_commit}.</li>
       </ul>

@@ -5,15 +5,16 @@ import { createRoot } from "react-dom/client";
 import App from "@/components/App";
 import About from "@/app/about/page";
 import Methodology from "@/components/Methodology";
+import Privacy from "@/app/privacy/page";
 import { setState } from "@/lib/store";
 import "@/app/globals.css";
 
 function Root() {
-  const [page, setPage] = useState<"map" | "about" | "methodology">("map");
+  const [page, setPage] = useState<"map" | "about" | "methodology" | "privacy">("map");
   useEffect(() => {
     const sync = () => {
       const h = window.location.hash;
-      setPage(h === "#about" ? "about" : h === "#methodology" || h.startsWith("#m-") || h.startsWith("#ev-") ? "methodology" : "map");
+      setPage(h === "#about" ? "about" : h === "#privacy" ? "privacy" : h === "#methodology" || h.startsWith("#m-") || h.startsWith("#ev-") ? "methodology" : "map");
     };
     sync();
     window.addEventListener("hashchange", sync);
@@ -23,8 +24,8 @@ function Root() {
     <>
       <App />
       {page !== "map" && (
-        <div className="about-overlay" role="dialog" aria-label={page === "about" ? "About the data" : "Methodology"}>
-          {page === "about" ? <About /> : <Methodology />}
+        <div className="about-overlay" role="dialog" aria-label={page === "about" ? "About the data" : page === "privacy" ? "Privacy" : "Methodology"}>
+          {page === "about" ? <About /> : page === "privacy" ? <Privacy /> : <Methodology />}
         </div>
       )}
     </>
