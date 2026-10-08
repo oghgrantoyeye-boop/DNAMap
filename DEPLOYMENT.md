@@ -59,7 +59,13 @@ Both options below serve a static export without changes. Prices and limits as r
 | Later chat backend | Workers (free tier ~100k requests/day) with the API key as a secret | Netlify Functions, billed from the same credits |
 | Limits that matter here | 20,000 files and 25 MiB per file on free (we use 112 and 2.3 MB) | none at this size |
 
-**Recommendation: Cloudflare.** Hosting stays at $0 through a launch spike, and the same account can later host the chat backend. Netlify is a fine choice on a paid plan (Personal for steady modest traffic, Pro for launch). Its free plan risks the site going offline in the month it gets attention.
+**Recommendation: Vercel Pro, which the owner already has.** It allows commercial use and ads (the free Hobby plan does not), includes about 1 TB of transfer a month (~500k visits at ~2 MB each), and gives every pull request a preview URL. Cloudflare remains the cheaper fallback ($0, unlimited static requests) if the plan is ever dropped, and nothing in this document ties us to one host.
+
+Vercel specifics:
+- **Build in GitHub Actions, deploy the finished files.** `data/raw/` and `apps/web/public/data/samples-detail/` are not in git, so Vercel cannot build the site from the repository alone. The workflow builds `apps/web/out` and uploads it with the Vercel CLI (`vercel deploy --prebuilt`, or a deploy of the output folder). Secrets needed in GitHub: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`.
+- **Turn on Spend Management** with a hard cap so a traffic spike or abuse cannot produce a surprise bill (Pro bills overage beyond the included transfer).
+- Pro is priced per deploying seat; only people who deploy need one.
+- Later chat backend: a Vercel serverless function holding the API key as an environment variable, with rate limiting.
 
 ## Domain, headers, analytics
 
@@ -80,7 +86,8 @@ Both options below serve a static export without changes. Prices and limits as r
 
 | | per month |
 |---|---|
-| Cloudflare static hosting | $0 |
+| Vercel Pro (already held) | $20 |
+| Cloudflare static hosting (fallback) | $0 |
 | Netlify | $0 (capped) / $9 / $20 |
 | Domain | ~$1–2 |
 | Chat assistant (later) | API usage per question, plus the backend's free tier |
