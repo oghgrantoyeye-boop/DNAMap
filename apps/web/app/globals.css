@@ -224,6 +224,7 @@ button { font: inherit; color: inherit; }
 .legend-list, .legend-colors { list-style: none; padding: 0; margin: 0 0 8px; }
 .legend-list li, .legend-colors li { padding: 3px 0; color: var(--ink-2); }
 .lg-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--ink); margin-right: 6px; }
+.lg-plain { background: var(--ink-2); }
 .lg-hollow { box-shadow: inset 0 0 0 2px var(--ink); background: transparent; }
 .lg-field { display: inline-block; width: 22px; height: 12px; border-radius: 50%; background: radial-gradient(closest-side, rgba(27,175,122,0.45), rgba(27,175,122,0)); margin-right: 6px; vertical-align: middle; }
 .lg-line { display: inline-block; width: 22px; border-top: 2px solid var(--ink-2); vertical-align: middle; margin: 0 4px; }

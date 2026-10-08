@@ -118,6 +118,9 @@ export default function App() {
                 <span className="lg-dot" /> sampled individual (observed). Faint = date range wider than the time shown
               </li>
               <li>
+                <span className="lg-dot lg-plain" /> plain dark or light dot: a sampled individual not (yet) part of a named population
+              </li>
+              <li>
                 <span className="lg-dot lg-hollow" /> data flagged critical by AADR
               </li>
               <li>

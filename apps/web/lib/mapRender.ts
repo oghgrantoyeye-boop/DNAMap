@@ -64,7 +64,7 @@ export const THEMES: Record<ThemeId, MapTheme> = {
     neatline: "#4f4334",
     ink: "#2f271d",
     inkSoft: "#6f604c",
-    unassigned: "#a39479",
+    unassigned: "#5e4d36",
     halo: "rgba(243,234,214,0.9)",
     labelFont: (w, s) => `italic ${w} ${s + 1.5}px ${SERIF}`,
     field: "wash",
@@ -93,7 +93,7 @@ export const THEMES: Record<ThemeId, MapTheme> = {
     neatline: "#3a352e",
     ink: "#efe3cc",
     inkSoft: "#a8998a",
-    unassigned: "#d9c7a6",
+    unassigned: "#f3e6c8",
     halo: "rgba(13,17,20,0.85)",
     labelFont: (w, s) => `italic ${w} ${s + 1.5}px ${SERIF}`,
     field: "glow",
@@ -122,7 +122,7 @@ export const THEMES: Record<ThemeId, MapTheme> = {
     neatline: "#a9b7bd",
     ink: "#26323a",
     inkSoft: "#5b666d",
-    unassigned: "#5b666d",
+    unassigned: "#3f4d55",
     halo: "rgba(246,245,241,0.92)",
     labelFont: (w, s) => `${w} ${s}px ${SANS}`,
     field: "soft",
@@ -528,7 +528,8 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
   const k = projection.scale();
   const rDot = Math.max(1.5, Math.min(3.2, 1.2 + k / 500));
   const colorOf = (i: number) => (S.pop[i] >= 0 ? GROUP_COLOR[pops[S.pop[i]].transition] : theme.unassigned);
-  // samples outside any curated population recede: smaller, unstroked, drawn first
+  // Samples outside a curated population have the same size as the rest and a plain neutral colour;
+  // they are drawn first so that population members sit on top where the two overlap.
   const assigned = (i: number) => S.pop[i] >= 0;
   const visible = [...visibleIn].sort((a, b) => Number(assigned(a.i)) - Number(assigned(b.i)));
   const dimmed = (i: number) => selectedIdx >= 0 && f.highlightMembers && !(S.pop[i] === selectedIdx || (S.popExtra[String(i)] ?? []).includes(selectedIdx));
@@ -539,7 +540,7 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
     const hr = rDot * 3.2;
     for (const v of visible) {
       const w = sampleW[v.i] * (dimmed(v.i) ? 0.25 : 1);
-      ctx.globalAlpha = (assigned(v.i) ? 0.28 : 0.1) * w;
+      ctx.globalAlpha = (assigned(v.i) ? 0.28 : 0.2) * w;
       ctx.drawImage(glowSprite(colorOf(v.i), hr), v.x - hr, v.y - hr, 2 * hr, 2 * hr);
     }
     ctx.globalCompositeOperation = "source-over";
@@ -548,7 +549,7 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
       const w = sampleW[v.i] * (dimmed(v.i) ? 0.3 : 1);
       ctx.globalAlpha = 0.25 + 0.75 * w;
       ctx.beginPath();
-      ctx.arc(v.x, v.y, rDot * (assigned(v.i) ? 0.75 : 0.5), 0, 2 * Math.PI);
+      ctx.arc(v.x, v.y, rDot * 0.75, 0, 2 * Math.PI);
       ctx.fillStyle = mixToWhite(colorOf(v.i), 0.45);
       ctx.fill();
       if (!S.usable[v.i]) {
@@ -564,7 +565,7 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
       const w = sampleW[v.i] * (dimmed(v.i) ? 0.35 : 1);
       ctx.globalAlpha = Math.min(1, 0.25 + 0.75 * w);
       ctx.beginPath();
-      ctx.arc(v.x, v.y, (assigned(v.i) ? rDot : rDot * 0.7) + 0.8, 0, 2 * Math.PI);
+      ctx.arc(v.x, v.y, rDot + 0.8, 0, 2 * Math.PI);
       ctx.fillStyle = theme.halo;
       ctx.fill();
     }
@@ -573,10 +574,10 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
       const w = sampleW[i] * (dimmed(i) ? 0.35 : 1);
       ctx.globalAlpha = 0.18 + 0.82 * w;
       ctx.beginPath();
-      ctx.arc(v.x, v.y, assigned(i) ? rDot : rDot * 0.7, 0, 2 * Math.PI);
+      ctx.arc(v.x, v.y, rDot, 0, 2 * Math.PI);
       ctx.fillStyle = colorOf(i);
       ctx.fill();
-      if (theme.sample === "ink" && assigned(i)) {
+      if (theme.sample === "ink") {
         ctx.lineWidth = 0.6;
         ctx.strokeStyle = theme.ink;
         ctx.stroke();
