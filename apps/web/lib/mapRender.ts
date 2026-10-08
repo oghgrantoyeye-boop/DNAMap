@@ -332,6 +332,44 @@ export function drawBasemap(
   ctx.restore();
 }
 
+/**
+ * What the vector base map draws on top of the land, for the GPU path to add on the overlay
+ * canvas: optional present-day borders, and the engraved plate's border (double rule).
+ */
+export function drawDecor(ctx: CanvasRenderingContext2D, projection: GeoProjection, basemap: Basemap, theme: MapTheme, showBorders: boolean): void {
+  const path = geoPath(projection, ctx);
+  ctx.save();
+  if (showBorders && basemap.layers.borders) {
+    ctx.beginPath();
+    path({ type: "Sphere" });
+    ctx.clip();
+    ctx.beginPath();
+    path(basemap.layers.borders);
+    ctx.setLineDash([2, 2]);
+    ctx.strokeStyle = theme.border;
+    ctx.lineWidth = 0.5;
+    ctx.stroke();
+    ctx.setLineDash([]);
+  }
+  ctx.restore();
+  ctx.save();
+  ctx.beginPath();
+  path({ type: "Sphere" });
+  ctx.strokeStyle = theme.neatline;
+  ctx.lineWidth = 1.1;
+  ctx.stroke();
+  if (theme.waterLines) {
+    const s0 = projection.scale();
+    projection.scale(s0 * 1.012);
+    ctx.beginPath();
+    geoPath(projection, ctx)({ type: "Sphere" });
+    ctx.lineWidth = 0.5;
+    ctx.stroke();
+    projection.scale(s0);
+  }
+  ctx.restore();
+}
+
 function onScreen(x: number, y: number, w: number, h: number, pad = 40): boolean {
   return x > -pad && y > -pad && x < w + pad && y < h + pad;
 }

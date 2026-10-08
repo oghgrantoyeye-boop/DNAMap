@@ -75,3 +75,9 @@ Decisions, open questions, and anything that could not be verified. Newest entri
 
 ### Owner feedback not yet built
 - The site informs but does not tell a story: needs Story mode (ROADMAP Phase 7). Task #11.
+
+### 2026-10-08: GPU base map
+- Owner: scroll-zoom still felt steppy. Researched how browser map apps stay smooth (geometry on the GPU, camera as a matrix, work off the main thread) and the known per-pixel inverse-projection technique for rasters. mapofus.us (suggested reference) is blocked in the sandbox; see BLOCKED.md.
+- Built a WebGL base layer (`lib/gpuBase.ts`) with two baked textures (`geo/atlas.py`: coast distance field 730 KB, overlay 145 KB). Looks very close to the vector version in all three styles (screenshots at world, k=4, k=9, and across the date line, where no seam shows). The vector renderer remains as the fallback (verified with WebGL disabled).
+- **Not measurable here:** this sandbox runs WebGL in software, so frame times in `scripts/perf.mjs` (Engraved drag ≈ 250 ms) say nothing about a real GPU; a full-screen shader with a handful of texture reads is trivial for one. Needs the owner's feel on a real device. If a weak GPU is slow, the first lever is a lower resolution while moving (already 60%).
+- Known approximations: the coastline is quantised (8-bit distance field) so beyond k≈10 the vector renderer takes over; tiny islands can look blobby at the world view; rivers are 1-texel lines; water rings fade out when zoomed in far.

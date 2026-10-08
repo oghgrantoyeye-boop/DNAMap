@@ -103,3 +103,12 @@ Static files (`next build` → `out/`) on any static host (Phase 8). There are n
 - First meaningful map render < 2.5 s on a mid-range phone over 4G.
 - Scrubbing time ≥ 45 fps on desktop and ≥ 30 fps on a mid-range phone, with all samples loaded.
 - Click → sample card < 150 ms (shard fetch cached afterwards).
+
+
+## Map rendering (updated 2026-10-08)
+
+Canvas 2D repainting the base map on every pointer step was the cause of the lag the owner reported (profiling showed JavaScript idle; the cost was rasterising the 50 m coastline with wide strokes). The base map is now drawn by one full-screen WebGL fragment shader (`apps/web/lib/gpuBase.ts`) that inverts the Equal Earth projection per pixel and samples three pre-made world pictures: a signed distance field to the coast and an overlay of lakes, glaciers and rivers (both baked by `pipeline/geo/atlas.py` from Natural Earth 1:50m), and the shaded relief (`pipeline/geo/relief.py`). Themes are uniforms; water rings, coastline and paper grain are computed in the shader. Samples, population fields, relationship lines and labels stay on a Canvas 2D overlay (cheap at these counts).
+
+- Used up to view.k = 10 (`GPU_MAX_K`); above that, or without WebGL or high-precision fragment floats, the vector renderer (`mapRender.drawBasemap`) draws instead, with its own gesture handling (CSS-transform of the painted canvases, repaint on settle).
+- Equal Earth is area-preserving, so distance in pixels from the distance field is exact on average (geometric mean of the local scales equals the projection scale); it is not isotropic near the poles.
+- Reason for not using MapLibre or deck.gl (the stack defaults): neither supports Equal Earth, and an area-preserving projection is part of the design (dot density must not be exaggerated toward the poles).

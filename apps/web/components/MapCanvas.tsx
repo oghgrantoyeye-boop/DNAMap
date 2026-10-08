@@ -4,7 +4,8 @@ import { useEffect, useRef } from "react";
 import { clampView, makeProjection, type View } from "@dnamap/visualization";
 import type { Basemap, Dataset } from "@/lib/data";
 import { loadFineBasemap } from "@/lib/data";
-import { drawBasemap, drawData, THEMES, type FrameOutput } from "@/lib/mapRender";
+import { drawBasemap, drawData, drawDecor, THEMES, type FrameOutput } from "@/lib/mapRender";
+import { GpuBase, GPU_MAX_K } from "@/lib/gpuBase";
 import { ReliefLayer } from "@/lib/relief";
 import { dataBase } from "@/lib/data";
 import { getState, setState, subscribe, type AppState } from "@/lib/store";
@@ -12,6 +13,7 @@ import { halfWindowFor } from "@/lib/timeWindow";
 
 export default function MapCanvas({ data }: { data: Dataset }) {
   const wrapRef = useRef<HTMLDivElement>(null);
+  const glRef = useRef<HTMLCanvasElement>(null);
   const baseRef = useRef<HTMLCanvasElement>(null);
   const dataRef = useRef<HTMLCanvasElement>(null);
   const outRef = useRef<FrameOutput | null>(null);
@@ -19,6 +21,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
 
   useEffect(() => {
     const wrap = wrapRef.current!,
+      gl = glRef.current!,
       base = baseRef.current!,
       top = dataRef.current!;
     let w = 0,
@@ -36,6 +39,15 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     let settleTimer: ReturnType<typeof setTimeout> | undefined;
     let throttleTimer: ReturnType<typeof setTimeout> | undefined;
     let lastViewAt = 0;
+    let gpuSettleTimer: ReturnType<typeof setTimeout> | undefined;
+    // GPU base map (see lib/gpuBase.ts): used up to GPU_MAX_K; vector canvas beyond that or without WebGL.
+    const gpu = new GpuBase(gl, {
+      sdf: `${dataBase()}data/atlas-sdf-4096.png`,
+      overlay: `${dataBase()}data/atlas-overlay-4096.png`,
+      relief: `${dataBase()}data/relief-4096.jpg`,
+    });
+    gpu.onReady = () => schedule();
+    const gpuFor = (k: number) => gpu.ready && !gpu.failed && k <= GPU_MAX_K;
     // How long a repaint really takes on this device (time to two frames after it), so that
     // slow devices repaint less often mid-gesture and fast ones more often.
     let paintCost = 100;
@@ -50,7 +62,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       w = Math.max(1, Math.floor(r.width));
       h = Math.max(1, Math.floor(r.height));
       dpr = Math.min(2, window.devicePixelRatio || 1);
-      for (const c of [base, top]) {
+      for (const c of [gl, base, top]) {
         c.width = Math.floor(w * dpr);
         c.height = Math.floor(h * dpr);
         c.style.width = `${w}px`;
@@ -65,9 +77,11 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       const s = getState();
       const theme = THEMES[s.theme];
       const proj = makeProjection(w, h, s.view);
-      const fast = fastNext;
-      const basemap = s.view.k > 2.6 && fineRef.current && !fast ? fineRef.current : data.basemap;
-      if (s.view.k > 2.6 && !fineRef.current && !fast) {
+      const useGpu = gpuFor(s.view.k);
+      // GPU frames are cheap, so only the data layer is lightened, and only while the view is moving.
+      const fast = useGpu ? performance.now() - lastViewAt < 150 : fastNext;
+      const basemap = !useGpu && s.view.k > 2.6 && fineRef.current && !fast ? fineRef.current : data.basemap;
+      if (!useGpu && s.view.k > 2.6 && !fineRef.current && !fast) {
         loadFineBasemap().then((b) => {
           fineRef.current = b;
           lastBaseKey = "";
@@ -77,8 +91,12 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       fastNext = false;
       renderedView = s.view;
       base.style.transform = top.style.transform = "";
+      let drawnOnGpu = false;
+      if (useGpu) drawnOnGpu = gpu.draw(w, h, dpr, proj.scale(), proj.translate(), s.view.lon, theme, fast ? 0.6 : 1);
+      gl.style.visibility = drawnOnGpu ? "visible" : "hidden";
+      base.style.visibility = drawnOnGpu ? "hidden" : "visible";
       const baseKey = `${s.view.lon},${s.view.lat},${s.view.k},${w},${h},${s.theme},${s.showBorders},${basemap.scale},${fast}`;
-      if (baseKey !== lastBaseKey) {
+      if (!drawnOnGpu && baseKey !== lastBaseKey) {
         const bctx = base.getContext("2d")!;
         bctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         const shade = theme.relief ? relief.render(w, h, dpr, proj.scale(), proj.translate(), s.view.lon, theme.relief.gain, theme.relief.mid) : null;
@@ -90,6 +108,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       const ctx = top.getContext("2d")!;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.clearRect(0, 0, w, h);
+      if (drawnOnGpu) drawDecor(ctx, proj, data.basemap, theme, s.showBorders);
       outRef.current = drawData({
         ctx,
         width: w,
@@ -301,7 +320,13 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     let prev: AppState = getState();
     const unsub = subscribe(() => {
       const s = getState();
-      if (s.view !== prev.view) {
+      if (s.view !== prev.view && gpuFor(s.view.k) && gpuFor(prev.view.k)) {
+        // GPU map: draw every frame; finish the data layer in full once the view settles.
+        lastViewAt = performance.now();
+        clearTimeout(gpuSettleTimer);
+        gpuSettleTimer = setTimeout(schedule, 170);
+        schedule();
+      } else if (s.view !== prev.view) {
         const gesture = performance.now() - lastViewAt < 250;
         lastViewAt = performance.now();
         if (!viewMoved(s.view)) {
@@ -332,6 +357,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     return () => {
       cancelAnimationFrame(raf);
       cancelAnimationFrame(zoomRaf);
+      clearTimeout(gpuSettleTimer);
       clearTimeout(settleTimer);
       clearTimeout(throttleTimer);
       clearTimeout(settleTimer);
@@ -348,7 +374,8 @@ export default function MapCanvas({ data }: { data: Dataset }) {
 
   return (
     <div ref={wrapRef} className="map-wrap">
-      <canvas ref={baseRef} className="map-canvas" aria-hidden="true" />
+      <canvas ref={glRef} className="map-canvas" aria-hidden="true" />
+      <canvas ref={baseRef} className="map-canvas" aria-hidden="true" style={{ visibility: "hidden" }} />
       <canvas
         ref={dataRef}
         className="map-canvas map-interactive"

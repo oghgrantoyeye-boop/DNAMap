@@ -7,7 +7,7 @@ Every dataset and publication this project relies on, with version and licence. 
 | id | dataset | version | licence / terms | attribution we give | notes |
 |---|---|---|---|---|---|
 | `aadr` | Allen Ancient DNA Resource, Harvard Dataverse doi:10.7910/DVN/FFIDCW | **v66.p1** (Dataverse v14.0, 2026-06-08); file `v66.p1_1240K.aadr.PUB.anno`, md5 `a2db1ac16f0f3558ed66fb251e1d5c7d` | **CC0 1.0** | Dataverse citation + Mallick et al. 2024 *Sci Data* 11:182; original publication per sample | Decommissioned v62.0/v66.0 must not be used (see `research/sources/aadr.md`). Genotypes not used. |
-| `naturalearth` | Natural Earth vector data (1:110m, 1:50m physical; admin-0 as optional layer) | pinned in `pipeline/geo/basemap.py` | **Public domain** | "Made with Natural Earth" (optional; we include it) | Present-day geography. |
+| `naturalearth` | Natural Earth vector data (1:110m, 1:50m physical; admin-0 as optional layer) | pinned in `pipeline/geo/basemap.py` | **Public domain** | "Made with Natural Earth" (optional; we include it) | Present-day geography. Also baked into the GPU map's textures (`pipeline/geo/atlas.py`). |
 | `naturalearth-relief` | Natural Earth 1:50m shaded relief raster (`SR_50M.zip`, md5 `7cebeeba5706babb4d58d7bd2e7b8d4b`) | pinned in `pipeline/geo/relief.py` → `apps/web/public/data/relief-4096.jpg` | **Public domain** | "Made with Natural Earth" | Present-day relief, drawn only as land texture. |
 
 Candidates *not yet used* (licences unverified or pending): Poseidon Community Archive, AmtDB (CC-BY-4.0 per site), p3k14c, XRONOS, ETOPO 2022, GEBCO, ICE-6G_C. See `research/sources/complementary-datasets.md` and `geography.md`.
