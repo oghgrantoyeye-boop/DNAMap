@@ -1,0 +1,21 @@
+{
+  "name": "dnamap",
+  "private": true,
+  "version": "0.1.0",
+  "description": "An interactive map of human population history from ancient DNA",
+  "scripts": {
+    "data": "cd pipeline && uv run python -m build",
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.1"
+  }
+}

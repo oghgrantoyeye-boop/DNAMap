@@ -3,7 +3,7 @@
 Usage (from pipeline/):  uv run python -m build
 Steps: download+verify AADR → inspection report → normalize → sources.json →
 membership → validation (fails the build on errors) → POPULATIONS.md →
-basemap → web export → data report.
+basemap → relief → web export → data report.
 """
 
 from __future__ import annotations
@@ -13,7 +13,7 @@ import sys
 from aadr import download, inspect_anno, normalize
 from curation import build_sources, populations_md
 from export import web
-from geo import basemap
+from geo import basemap, relief
 from populations import membership
 from validation import validate
 
@@ -33,6 +33,7 @@ def main() -> int:
         return 1
     populations_md.main()
     basemap.main()
+    relief.main()
     web.main()
     data_report.main()
     return 0

@@ -33,3 +33,7 @@ Decisions, open questions, and anything that could not be verified. Newest entri
 2. CLV-cline individuals beyond Berezhnovka (Lazaridis 2025 supplement).
 3. Iberian Beaker-associated individuals cannot be identified from AADR labels (relabelled `Spain_C`). We grouped by period instead.
 4. Should modern borders be available as a reference layer from V0.1? DESIGN.md says "optional"; planned as off by default.
+
+## 2026-10-08: Visual direction (owner feedback)
+- The first V0.1 pass looked too academic to the owner, who pointed to the Invisible Cities and lens-lab explorables as the ambition. I prototyped a 3D space-time block ("Deep time"). The owner found it too much and asked for a **stylistic 2D map**, with the clean view kept as an option. The 3D prototype was removed (screenshot kept in `docs/design/direction-deep-time.png`).
+- Next: stylised 2D treatments (engraved atlas with real shaded relief and watercolour washes; a dark "lantern" variant) plus a strata lens. The clean "atlas" theme remains selectable.
