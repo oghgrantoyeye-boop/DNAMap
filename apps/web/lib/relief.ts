@@ -78,9 +78,17 @@ export class ReliefLayer {
       return s;
     };
     const p = gl.createProgram()!;
-    gl.attachShader(p, sh(gl.VERTEX_SHADER, VS));
-    gl.attachShader(p, sh(gl.FRAGMENT_SHADER, FS));
-    gl.linkProgram(p);
+    try {
+      gl.attachShader(p, sh(gl.VERTEX_SHADER, VS));
+      gl.attachShader(p, sh(gl.FRAGMENT_SHADER, FS));
+      gl.linkProgram(p);
+      if (!gl.getProgramParameter(p, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(p) ?? "link");
+    } catch (e) {
+      // Some GPUs reject the shader (e.g. no highp in fragment shaders): no relief, map still works.
+      console.warn("relief disabled:", e);
+      this.gl = null;
+      return;
+    }
     this.prog = p;
     const buf = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, buf);
@@ -90,10 +98,17 @@ export class ReliefLayer {
     gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
     const img = new Image();
     img.decoding = "async";
+    // Request with CORS so WebGL may read it when the page runs in a sandboxed
+    // (opaque-origin) frame; if that fails the map simply has no relief.
+    img.crossOrigin = "anonymous";
     img.onload = () => {
       this.tex = gl.createTexture();
       gl.bindTexture(gl.TEXTURE_2D, this.tex);
-      gl.texImage2D(gl.TEXTURE_2D, 0, gl.LUMINANCE, gl.LUMINANCE, gl.UNSIGNED_BYTE, img);
+      try {
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.LUMINANCE, gl.LUMINANCE, gl.UNSIGNED_BYTE, img);
+      } catch {
+        return; // cross-origin image refused: draw without relief
+      }
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.REPEAT); // 4096×2048 is power-of-two, so REPEAT is legal in WebGL1
