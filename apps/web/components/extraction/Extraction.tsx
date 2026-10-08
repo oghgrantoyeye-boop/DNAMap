@@ -6,6 +6,7 @@ import type { Evidence, Source } from "@dnamap/data-model";
 import AdSlot from "@/components/AdSlot";
 import { dataBase, getJson } from "@/lib/data";
 import { THEMES } from "@/lib/mapRender";
+import { shortCitation } from "@/lib/cite";
 import { reportUrl } from "@/lib/report";
 import { getState, readUrlState, setState } from "@/lib/store";
 import type { SceneApi } from "./scene";
@@ -36,10 +37,6 @@ const EXPLODE_LABEL: Record<string, string> = {
 };
 const TOUR_SECONDS = 14;
 
-function shortCite(s: Source | undefined, id: string): string {
-  if (!s) return id;
-  return `${s.citation.split("(")[0].replace(/,\s*$/, "").replace(/, et al\.?$/, " et al.")} ${s.year}`;
-}
 
 function Sources({ doc, ids }: { doc: ExtractionDoc; ids: string[] }) {
   const ev = new Map(doc.evidence.map((e) => [e.id, e]));
@@ -55,10 +52,10 @@ function Sources({ doc, ids }: { doc: ExtractionDoc; ids: string[] }) {
             {n > 0 && "; "}
             {href ? (
               <a href={href} target="_blank" rel="noreferrer">
-                {shortCite(s, id)}
+                {shortCitation(s, id)}
               </a>
             ) : (
-              shortCite(s, id)
+              shortCitation(s, id)
             )}
           </span>
         );

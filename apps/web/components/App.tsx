@@ -104,6 +104,7 @@ export default function App() {
           </button>
           <Link href="/about/">About the data</Link>
           <Link href="/methodology/">Methodology</Link>
+          <Link href="/extraction/">From bone to genome</Link>
         </nav>
       </header>
 

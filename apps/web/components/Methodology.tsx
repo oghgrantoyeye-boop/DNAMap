@@ -147,6 +147,9 @@ export default function Methodology() {
           Excluded: present-day people and reference rows, people without coordinates, and people dated entirely outside 50,000 BCE – 1500 CE.
           {m && ` Of ${c.ancient_individuals_total.toLocaleString("en-US")} ancient individuals in the release, ${c.samples.toLocaleString("en-US")} are shown.`}
         </li>
+        <li>
+          How a genome is recovered from a bone in the first place, and how labs tell ancient DNA from contamination, is shown step by step in <Link href="/extraction/">From bone to genome</Link>.
+        </li>
         <li>Individuals that AADR flags as having critical data-quality problems are drawn hollow, and are not counted as members of a population unless that population explicitly allows them.</li>
       </ul>
 

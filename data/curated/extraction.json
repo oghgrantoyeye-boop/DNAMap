@@ -1,0 +1,444 @@
+{
+  "version": 1,
+  "notes": "Chapters of the 'From bone to genome' page (/extraction/). Every sentence of text, every figure and every caveat is supported by the evidence ids listed with it. Drafted by a research subtask under research/notes/overview-brief.md rules on 2026-10-08; draft and its concerns archived at research/notes/extraction-draft.json.",
+  "chapters": [
+    {
+      "id": "remains",
+      "title": "Which bones keep DNA",
+      "summary": "The dense bone around the inner ear and the roots of teeth usually hold the most of a person's own DNA, but most DNA in old bone comes from microbes.",
+      "text": "Not every part of a skeleton keeps DNA equally well. The petrous bone, a very dense part of the skull that encloses the inner ear, is the most reliable source of a person's own DNA, called endogenous DNA. Within it, the dense capsule around the inner ear does best: in one study it gave up to 177 times the endogenous share of the spongy bone nearby. The cementum, a layer coating tooth roots, is the other favoured target. In well-preserved skeletons it can match the petrous bone; in poorly preserved ones it usually falls behind.\n\nMost DNA in ancient bone is not human. After death, bacteria and fungi colonise the remains, and their DNA usually far outweighs what survives of the person's own. In many bones, human DNA makes up about 1% of the total or less.",
+      "evidence_ids": [
+        "ev-pinhasi2015-1",
+        "ev-pinhasi2015-2",
+        "ev-hansen2017-1",
+        "ev-hansen2017-2",
+        "ev-hansen2017-3",
+        "ev-sawyer2012-1",
+        "ev-mittnik2016-1",
+        "ev-gansauge2017-6",
+        "ev-briggs2007-1",
+        "ev-pinhasi2015-3",
+        "ev-hansen2017-4",
+        "ev-rohland2022-1"
+      ],
+      "facts": [
+        {
+          "label": "Average human DNA share, same skulls",
+          "value": "Petrous bone 40.0%, tooth cementum 16.4%, skull vault about 2–3% (one study)",
+          "evidence_ids": [
+            "ev-hansen2017-1"
+          ]
+        },
+        {
+          "label": "Inner-ear bone vs nearby spongy bone",
+          "value": "Up to 177 times the human DNA share (10 petrous bones)",
+          "evidence_ids": [
+            "ev-pinhasi2015-2"
+          ]
+        },
+        {
+          "label": "Published individuals under 10% human DNA",
+          "value": "About half of more than 3,000 from one large lab (to end of 2021)",
+          "evidence_ids": [
+            "ev-rohland2022-1"
+          ]
+        }
+      ],
+      "caveat": "Conditions after death matter too: in one study, petrous bones from hot regions gave under 1% human DNA even from the inner ear, and in another, cremated petrous bones held no authentic ancient human DNA."
+    },
+    {
+      "id": "clean-room",
+      "title": "Keeping modern DNA out",
+      "summary": "Labs work in rooms reserved for ancient DNA, clean samples and surfaces, and run blank controls, because modern human DNA is hard to tell apart from ancient human DNA.",
+      "text": "Because the target is human DNA, the most harmful contamination is DNA from present-day people. Microbial DNA rarely matches the human reference genome, but a modern human molecule matches it as well as an ancient one, so it cannot be sorted out by species. Contamination can enter during excavation, storage and laboratory work.\n\nA common approach is to do every step before the DNA is first copied in a room reserved for ancient DNA. In one published protocol, staff wore full-body suits, face masks, hair nets and double gloves, and tools and benches were cleaned with DNA-removing solutions and ultraviolet (UV) light. The surface of a bone or tooth is ground or blasted away, or wiped with dilute bleach and exposed to UV. Blank 'negative controls', tubes with no sample, are processed alongside the samples at each step. Some labs also tag each sample's molecules with a unique short sequence, so mix-ups between samples can be spotted.",
+      "evidence_ids": [
+        "ev-skoglund2014-6",
+        "ev-renaud2015-1",
+        "ev-sawyer2012-5",
+        "ev-nakatsuka2020contam-1",
+        "ev-rohland2015-1",
+        "ev-mittnik2016-2",
+        "ev-briggs2007-5",
+        "ev-pinhasi2015-4",
+        "ev-harney2021-6",
+        "ev-pinhasi2015-5",
+        "ev-harney2021-7",
+        "ev-rohland2015-2",
+        "ev-skoglund2014-1",
+        "ev-sawyer2012-4"
+      ],
+      "facts": [
+        {
+          "label": "Blank controls (one lab)",
+          "value": "1 per 5 samples, at grinding, extraction, library and indexing steps",
+          "evidence_ids": [
+            "ev-pinhasi2015-5"
+          ]
+        },
+        {
+          "label": "UV on sample surfaces (examples)",
+          "value": "10 minutes per side; 5–10 minutes per side",
+          "evidence_ids": [
+            "ev-pinhasi2015-4",
+            "ev-harney2021-6"
+          ]
+        },
+        {
+          "label": "Bleach wipe (one protocol)",
+          "value": "2% bleach, rinsed with 95% ethanol, then UV",
+          "evidence_ids": [
+            "ev-harney2021-6"
+          ]
+        }
+      ],
+      "caveat": "No precaution removes DNA that entered a specimen during earlier handling, so contamination is also measured in the data (see Mapping and checking)."
+    },
+    {
+      "id": "sampling",
+      "title": "Taking a sample",
+      "summary": "A few tens of milligrams of powder are usually enough, and gentler methods can reduce the damage to the remains.",
+      "text": "Sampling is destructive. A common approach drills or cuts out the chosen part of a bone or tooth and grinds it to a fine powder under clean conditions. Only a little is needed: published protocols use roughly 30 to 160 milligrams of powder per extraction, commonly around 50. For well-preserved bones from temperate regions, the authors of one study estimate that a few milligrams of the inner-ear bone hold enough DNA to read the genome several times over.\n\nBecause sampling destroys part of the remains, gentler methods have been developed. For skulls, published protocols reach the inner ear by drilling through the base of the skull, or sample the tiny ear bones (ossicles). For teeth, one method wraps the tooth in film except for part of the root and soaks that part for 2.5 hours, releasing DNA from the root surface without drilling; the tooth stays largely intact for later study and radiocarbon dating.",
+      "evidence_ids": [
+        "ev-harney2021-1",
+        "ev-rohland2015-3",
+        "ev-mittnik2016-2",
+        "ev-harney2021-8",
+        "ev-gansauge2017-7",
+        "ev-pinhasi2015-6",
+        "ev-harney2021-2",
+        "ev-harney2021-3",
+        "ev-harney2021-5",
+        "ev-harney2021-4"
+      ],
+      "facts": [
+        {
+          "label": "Powder per extraction (examples)",
+          "value": "About 37–75 mg in several protocols; 30–160 mg in one study",
+          "evidence_ids": [
+            "ev-rohland2015-3",
+            "ev-harney2021-8",
+            "ev-gansauge2017-7",
+            "ev-mittnik2016-2"
+          ]
+        },
+        {
+          "label": "Human DNA share, soaked root vs powdered root",
+          "value": "35.8% vs 18.8% on average (paired roots, one study)",
+          "evidence_ids": [
+            "ev-harney2021-4"
+          ]
+        },
+        {
+          "label": "Tooth soak (one protocol)",
+          "value": "2.5 hours at 37 °C in EDTA and proteinase K; no drilling",
+          "evidence_ids": [
+            "ev-harney2021-3"
+          ]
+        }
+      ],
+      "caveat": "The gentle tooth method was tested mostly on well-preserved teeth, and its authors found that petrous bone still gave more distinct DNA molecules by one measure, which they see as a reason to prefer it where preservation is poor."
+    },
+    {
+      "id": "extraction",
+      "title": "Freeing the DNA",
+      "summary": "The powder is dissolved to release its DNA, which is then caught on silica under conditions that keep even very short pieces.",
+      "text": "Next the DNA is freed from the powder. A common approach soaks it for hours, often overnight, in a solution of EDTA and the enzyme proteinase K, which together dissolve the powder and release the DNA into the liquid. Undissolved material is spun down and the liquid kept.\n\nThe DNA is then bound to silica, as loose particles or as a membrane in a spin column, using a salty binding buffer, washed with an ethanol-based buffer and released into a small volume of liquid. Because ancient DNA is so fragmented, much of its information sits in very short pieces. One study found that an earlier silica method recovered 72% of synthetic DNA pieces 150 base pairs (DNA letters) long but only 22% of pieces 35 base pairs long. Its modified binding buffer, used in larger volume with spin columns, recovered pieces down to about 30 base pairs efficiently, and several later protocols build on it.",
+      "evidence_ids": [
+        "ev-dabney2013-1",
+        "ev-harney2021-9",
+        "ev-hansen2017-5",
+        "ev-pinhasi2015-7",
+        "ev-dabney2013-4",
+        "ev-dabney2013-2",
+        "ev-dabney2013-3",
+        "ev-rohland2015-3",
+        "ev-gansauge2017-7"
+      ],
+      "facts": [
+        {
+          "label": "Recovery by an earlier silica method",
+          "value": "72% at 150 base pairs, 22% at 35 base pairs (synthetic DNA)",
+          "evidence_ids": [
+            "ev-dabney2013-2"
+          ]
+        },
+        {
+          "label": "Shortest pieces recovered efficiently (modified method)",
+          "value": "About 30 base pairs",
+          "evidence_ids": [
+            "ev-dabney2013-3"
+          ]
+        },
+        {
+          "label": "Digestion (examples)",
+          "value": "About 18–24 hours at 37 °C",
+          "evidence_ids": [
+            "ev-harney2021-9",
+            "ev-hansen2017-5"
+          ]
+        }
+      ],
+      "caveat": "Buffers, temperatures and digestion times differ between labs; one protocol, for example, digests at 55 °C before 37 °C."
+    },
+    {
+      "id": "damage",
+      "title": "Reading the damage",
+      "summary": "After death DNA breaks into short pieces and its letter C slowly changes, leaving a pattern at molecule ends that marks DNA as genuinely old.",
+      "text": "After death, DNA breaks into short pieces. Breakage is at least partly caused by depurination, the loss of the DNA letters A or G, which weakens the strand. Length alone is a poor clock: one survey found century-old specimens with molecules as short as those from samples tens of thousands of years old, suggesting that most breakage happens soon after death.\n\nA second change builds up over time. Deamination turns the letter C (cytosine) into uracil, which sequencing reads as T. It happens mostly in single-stranded stretches at molecule ends, so ancient reads show extra C-to-T differences in their first few positions, mirrored by G-to-A at the other end in double-stranded libraries. This pattern is the main sign that DNA is genuinely old. The enzyme uracil-DNA glycosylase (UDG) cuts out uracils, removing most of these errors; 'partial' UDG treatment clears them inside molecules but leaves part of the damage at the ends, so the signal survives.",
+      "evidence_ids": [
+        "ev-dabney2013-7",
+        "ev-briggs2007-2",
+        "ev-sawyer2012-2",
+        "ev-sawyer2012-3",
+        "ev-skoglund2014-2",
+        "ev-briggs2010-1",
+        "ev-briggs2007-3",
+        "ev-briggs2007-4",
+        "ev-briggs2010-2",
+        "ev-briggs2010-3",
+        "ev-rohland2015-4",
+        "ev-rohland2015-5",
+        "ev-skoglund2014-3",
+        "ev-briggs2007-6",
+        "ev-skoglund2014-4",
+        "ev-hansen2017-6",
+        "ev-rohland2015-6",
+        "ev-harney2021-14",
+        "ev-hansen2017-7"
+      ],
+      "facts": [
+        {
+          "label": "C-to-T at the first position (one study, 63 extracts)",
+          "value": "7–52%, average 26.5%",
+          "evidence_ids": [
+            "ev-hansen2017-6"
+          ]
+        },
+        {
+          "label": "Damage at the first position, as a guide",
+          "value": "Above 10% in every unheated sample over 500 years old (one study, no UDG); 3% used as a screening cut-off after partial UDG (one lab)",
+          "evidence_ids": [
+            "ev-sawyer2012-3",
+            "ev-rohland2015-6",
+            "ev-harney2021-14"
+          ]
+        },
+        {
+          "label": "Average length of human molecules (one study)",
+          "value": "About 37–77 base pairs per sample (pieces under 30 discarded)",
+          "evidence_ids": [
+            "ev-hansen2017-7"
+          ]
+        }
+      ],
+      "caveat": "Damage shows that old DNA is present, not that modern DNA is absent: early work doubted that damage could separate the two, while later methods that keep only damaged reads removed most contamination in tests."
+    },
+    {
+      "id": "library",
+      "title": "Building a library",
+      "summary": "Short synthetic adapters are joined to the ends of the molecules so they can be copied and read, either from double-stranded DNA or one strand at a time.",
+      "text": "A DNA library is the extract converted into a form a sequencer can read. Short synthetic DNA pieces called adapters are attached to the ends of the fragments; they give starting points for copying the molecules and for the sequencing reaction. Because the adapters are added from outside, even very short fragments can be read from end to end. Sample-specific tags, called indexes or barcodes, are added too, so libraries from many samples can share one sequencing run and be sorted afterwards.\n\nDouble-stranded methods attach adapters to both ends of the intact double helix. They are robust, cheap and widely used, but some versions lose short molecules or leave many molecules unusable. Single-stranded methods separate the two strands and convert each one on its own, which also rescues molecules with a break in one strand. In one comparison they gave about 11.6 times more usable sequence from ancient extracts, but they take longer.",
+      "evidence_ids": [
+        "ev-gansauge2017-1",
+        "ev-dabney2013-5",
+        "ev-rohland2015-8",
+        "ev-rohland2015-2",
+        "ev-gansauge2017-4",
+        "ev-dabney2013-6",
+        "ev-gansauge2017-2",
+        "ev-gansauge2017-3",
+        "ev-gansauge2017-5"
+      ],
+      "facts": [
+        {
+          "label": "Usable sequence, single- vs double-stranded",
+          "value": "About 11.6 times more on average from ancient extracts (one comparison)",
+          "evidence_ids": [
+            "ev-gansauge2017-3"
+          ]
+        },
+        {
+          "label": "Loss in a common double-stranded method",
+          "value": "About half of molecules get identical adapters and cannot be sequenced",
+          "evidence_ids": [
+            "ev-gansauge2017-4"
+          ]
+        }
+      ],
+      "caveat": "Because single-stranded preparation takes more time, many studies still use the simpler, cheaper double-stranded methods, and yields depend on the exact protocol."
+    },
+    {
+      "id": "enrichment",
+      "title": "Shotgun or capture",
+      "summary": "Libraries are either read at random (shotgun) or first enriched for chosen human positions, such as the roughly 1.24 million targets of the 1240k capture.",
+      "text": "One option is shotgun sequencing: reading molecules at random from the library. Shotgun reads are indiscriminate, so when a library is mostly microbial, most reads are wasted. Targeted capture, or enrichment, mixes the library with synthetic DNA 'baits' that pair with chosen human sequences; bound molecules are kept and the rest washed away.\n\nThe most used design, the '1240k' capture, targets about 1.24 million positions at which people differ, called single-nucleotide polymorphisms (SNPs). Capture pays off when the human share is low. In one worked example, a library that is 1% human gives at most about 40,000 useful SNPs from 400 million shotgun reads, while 25 million reads after capture can cover nearly all targets. Shotgun sequencing becomes affordable when a sample is rich in human DNA, and it is not limited to chosen positions.",
+      "evidence_ids": [
+        "ev-hansen2017-8",
+        "ev-rohland2015-7",
+        "ev-rohland2022-2",
+        "ev-mathieson2015-1",
+        "ev-rohland2022-4",
+        "ev-rohland2022-3",
+        "ev-mathieson2015-2",
+        "ev-rohland2022-5"
+      ],
+      "facts": [
+        {
+          "label": "SNPs targeted by the 1240k capture",
+          "value": "1,237,207",
+          "evidence_ids": [
+            "ev-mathieson2015-1"
+          ]
+        },
+        {
+          "label": "Published genome-wide ancient data made with 1240k",
+          "value": "Over 70% (as of 2022)",
+          "evidence_ids": [
+            "ev-rohland2022-4"
+          ]
+        },
+        {
+          "label": "Capture vs shotgun (one comparison)",
+          "value": "About 4 times the median SNP coverage from 36 times fewer reads",
+          "evidence_ids": [
+            "ev-mathieson2015-2"
+          ]
+        }
+      ],
+      "caveat": "Capture can favour one allele over another at some positions, which complicates combining capture and shotgun data; a bait set released in 2021 showed less of this bias."
+    },
+    {
+      "id": "sequencing",
+      "title": "Reading the molecules",
+      "summary": "Machines read millions of short molecules in parallel; the two reads from each end of a short molecule overlap and are merged into one sequence.",
+      "text": "Libraries are read on high-throughput machines that sequence millions of molecules side by side; a single ancient library may yield more than ten million reads. In several of the studies cited here, Illumina instruments read each molecule from both ends (paired-end reads), typically 75 to 150 letters from each end.\n\nMost ancient molecules are shorter than that, so a read runs off the end of the molecule into the adapter, which software trims away. The two reads of a short molecule then overlap. A common approach merges each overlapping pair, requiring an overlap of at least 11 to 15 letters, into one sequence that spans the whole molecule. Merging reveals the molecule's true length, and positions read twice are more reliable, which helps because machine errors build up toward the end of each read. In several studies, pairs that could not be merged were discarded.",
+      "evidence_ids": [
+        "ev-gansauge2017-1",
+        "ev-hansen2017-10",
+        "ev-rohland2015-9",
+        "ev-harney2021-10",
+        "ev-hansen2017-7",
+        "ev-harney2021-12",
+        "ev-schubert2016-1",
+        "ev-briggs2010-4",
+        "ev-mittnik2016-4",
+        "ev-dabney2013-8",
+        "ev-aadr-x6"
+      ],
+      "facts": [
+        {
+          "label": "Reads per library (one shotgun study)",
+          "value": "About 16.4 million on average (76 libraries)",
+          "evidence_ids": [
+            "ev-hansen2017-10"
+          ]
+        },
+        {
+          "label": "Read length per end (examples)",
+          "value": "75, 76, 101 or 150 letters",
+          "evidence_ids": [
+            "ev-rohland2015-9",
+            "ev-harney2021-10"
+          ]
+        },
+        {
+          "label": "Minimum overlap to merge (examples)",
+          "value": "11 letters; 15 letters",
+          "evidence_ids": [
+            "ev-briggs2010-4",
+            "ev-mittnik2016-4",
+            "ev-rohland2015-9",
+            "ev-harney2021-10"
+          ]
+        }
+      ],
+      "caveat": "Trimming, merging and filtering settings differ between labs and software, and published data reflect those choices."
+    },
+    {
+      "id": "analysis",
+      "title": "Mapping and checking",
+      "summary": "Reads are placed on the human reference genome, duplicates removed, and the data checked for length, damage, contamination and genetic sex.",
+      "text": "Merged sequences are mapped: each is matched to its place in a human reference genome, for ancient DNA usually the version called hg19. The share that maps estimates how much of the library is human. Libraries are copied before sequencing, so one molecule can be read several times; reads with the same start, end and orientation are collapsed as duplicates.\n\nChecks follow: human molecules should be short and show the C-to-T pattern. Contamination is estimated in several ways. Mitochondrial DNA, a small genome separate from the main one and present in many more copies, should come from one person, so reads disagreeing with its consensus suggest contamination. Males have one X chromosome, so apparent variation on it points to a second person. Another method measures how contamination breaks up patterns of linked variants on the other chromosomes, and also works in females. Genetic sex comes from the share of reads on the X and Y chromosomes.",
+      "evidence_ids": [
+        "ev-rohland2022-6",
+        "ev-harney2021-11",
+        "ev-hansen2017-9",
+        "ev-briggs2010-5",
+        "ev-harney2021-12",
+        "ev-renaud2015-2",
+        "ev-hansen2017-11",
+        "ev-nakatsuka2020contam-2",
+        "ev-skoglund2014-5",
+        "ev-mathieson2015-3",
+        "ev-nakatsuka2020contam-3",
+        "ev-mittnik2016-3",
+        "ev-nakatsuka2020contam-4",
+        "ev-harney2021-13"
+      ],
+      "facts": [
+        {
+          "label": "Common mitochondrial screening cut-off",
+          "value": "At least 95% of reads match the consensus",
+          "evidence_ids": [
+            "ev-harney2021-13"
+          ]
+        },
+        {
+          "label": "Contamination cut-off suggested by ContamLD's authors",
+          "value": "Remove or model samples above 5%",
+          "evidence_ids": [
+            "ev-nakatsuka2020contam-3"
+          ]
+        },
+        {
+          "label": "Sex from the X-to-autosome read ratio",
+          "value": "About 0.5 in males, 1.0 in females; works from about 1,000 reads",
+          "evidence_ids": [
+            "ev-mittnik2016-3"
+          ]
+        }
+      ],
+      "caveat": "Each test has blind spots: mitochondrial estimates can misjudge nuclear contamination, X-based tests work only in males, and DNA from another ancient sample is damaged too, so damage filters cannot catch it."
+    },
+    {
+      "id": "genotypes",
+      "title": "From reads to genotypes",
+      "summary": "At low coverage one random read is recorded at each known position, and the results are compiled into resources such as the AADR, the source of this site's sample dots.",
+      "text": "Most ancient genomes are read thinly, with too few reads at most positions to call both of a person's copies reliably, especially as damage can mimic real differences. A common approach is a 'pseudo-haploid' call: at each targeted position, one read is picked at random and its version (allele) recorded, and later analyses treat each person as a single sampled copy. Where coverage is high enough, full two-copy (diploid) genotypes are called.\n\nCalls at a shared set of positions let ancient people be compared with each other and with present-day people. The Allen Ancient DNA Resource (AADR) gathers published data, reprocesses it to about 1.23 million SNPs, adds present-day genomes, and records each individual's place, date, genetic sex and quality checks. The sample dots on this site's map come from the AADR's annotation file.",
+      "evidence_ids": [
+        "ev-aadr-x1",
+        "ev-briggs2010-6",
+        "ev-mathieson2015-4",
+        "ev-rohland2022-6",
+        "ev-aadr-x2",
+        "ev-aadr-x3",
+        "ev-aadr-x4",
+        "ev-aadr-x5"
+      ],
+      "facts": [
+        {
+          "label": "Positions in the AADR's main data set",
+          "value": "About 1.23 million SNPs",
+          "evidence_ids": [
+            "ev-aadr-x1"
+          ]
+        },
+        {
+          "label": "Individuals with published genome-wide ancient DNA",
+          "value": "More than 10,000 by the end of 2022",
+          "evidence_ids": [
+            "ev-aadr-x5"
+          ]
+        },
+        {
+          "label": "Present-day comparison data in the AADR (v54.1)",
+          "value": "6,399 sequenced genomes plus 4,114 people typed on a SNP array",
+          "evidence_ids": [
+            "ev-aadr-x2"
+          ]
+        }
+      ],
+      "caveat": "Published data are uneven: about two-thirds of genome-wide ancient DNA data came from Europe and Russia when the AADR paper was written, so dense clusters of dots partly reflect where sampling has focused."
+    }
+  ]
+}

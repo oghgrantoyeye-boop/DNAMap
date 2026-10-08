@@ -4010,6 +4010,964 @@
       "verification": "full_text",
       "confidence": "medium",
       "stance": "qualifies"
+    },
+    {
+      "id": "ev-pinhasi2015-1",
+      "source_id": "pinhasi2015",
+      "claim": "The petrous part of the temporal bone, the densest bone in the body, which houses the inner ear, is the only skeletal element shown systematically to give a higher share of endogenous DNA than other elements; most fossil specimens hold about 1% endogenous DNA or less, with exceptions.",
+      "location": "Abstract; Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-pinhasi2015-2",
+      "source_id": "pinhasi2015",
+      "claim": "Across ten petrous bones, the dense inner-ear bone (otic capsule) gave endogenous DNA shares up to 65 times those of the surrounding dense petrous bone and up to 177 times those of the spongy apex.",
+      "location": "Abstract; Results; Discussion; Table 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-pinhasi2015-3",
+      "source_id": "pinhasi2015",
+      "claim": "Temperate-region petrous bones gave 35-70% human reads from the inner-ear part, whereas the five bones from hot regions gave under 1% from every part; the authors stress the importance of the burial environment.",
+      "location": "Results; Fig 2; Table 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-pinhasi2015-4",
+      "source_id": "pinhasi2015",
+      "claim": "Bone preparation took place in a dedicated room by researchers wearing full-cover suits, double gloves, hair nets and face masks; tools and surfaces were cleaned with a DNA-decontamination solution and ethanol and then UV-irradiated; each bone part was UV-irradiated for 10 minutes per side.",
+      "location": "Methods: Selection of sampling parts within the petrous bone",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-pinhasi2015-5",
+      "source_id": "pinhasi2015",
+      "claim": "Negative controls were included at one per five samples for grinding, extraction, library preparation and indexing PCR.",
+      "location": "Methods: DNA extraction, library preparation and sequencing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-pinhasi2015-6",
+      "source_id": "pinhasi2015",
+      "claim": "For well-preserved temperate bones, the authors conclude that a low-milligram amount of the inner-ear bone holds enough endogenous DNA for multifold coverage of the nuclear genome, so choosing the right part of the bone matters more than the amount.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-pinhasi2015-7",
+      "source_id": "pinhasi2015",
+      "claim": "One protocol digested about 150 mg of powder in a buffer with EDTA, detergent and proteinase K for 24 hours at 55 C and then 24 hours at 37 C; undissolved bone was spun down and the liquid kept for purification.",
+      "location": "Methods: DNA extraction, library preparation and sequencing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-1",
+      "source_id": "hansen2017",
+      "claim": "The inner petrous bone and tooth-root cementum are recognised as the best substrates for ancient human genomics; in paired samples from the same skulls, average endogenous DNA was 40.0% for petrous bone and 16.4% for tooth cementum, and skull-vault (parietal) bone averaged about 2-3%.",
+      "location": "Abstract; Introduction; Results: Endogenous DNA",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Parietal average given as 2.2% in the Abstract and 2.8% (nine skeletons) in Results."
+    },
+    {
+      "id": "ev-hansen2017-2",
+      "source_id": "hansen2017",
+      "claim": "Teeth with good molecular preservation (over 10% endogenous DNA) matched their paired petrous bones on average, while poorly preserved teeth were clearly outperformed by petrous bone.",
+      "location": "Results: Endogenous DNA; Fig 3; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-3",
+      "source_id": "hansen2017",
+      "claim": "Endogenous DNA content in ancient samples is often below 1% because DNA degrades over time and microbes invade skeletal tissue.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-4",
+      "source_id": "hansen2017",
+      "claim": "Seven petrous bones from cremated skeletons held under 0.03% endogenous DNA and no sign of authentic ancient human DNA.",
+      "location": "Results: Endogenous DNA; Discussion: Cremated petrous bones",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-5",
+      "source_id": "hansen2017",
+      "claim": "In this lab's protocol, crushed samples were dissolved in a digestion buffer of EDTA with proteinase K for 24 hours at 37 C, and DNA was purified on silica with a binding buffer efficient for short fragments.",
+      "location": "Materials and Methods: DNA extraction, library preparation, and sequencing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-6",
+      "source_id": "hansen2017",
+      "claim": "C-to-T mismatches at the first 5-prime position ranged from 7% to 52% (average 26.5%) across 63 non-cremated extracts, as expected for authentic ancient DNA.",
+      "location": "Results: DNA deamination damage",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-7",
+      "source_id": "hansen2017",
+      "claim": "After discarding reads under 30 bp, average lengths of mapped human reads per sample were 37.0-77.1 bp in teeth (mean 54.5) and 39.2-65.0 bp in petrous bones (mean 52.9).",
+      "location": "Results: DNA fragment length",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-8",
+      "source_id": "hansen2017",
+      "claim": "Because shotgun sequencing reads molecules indiscriminately, the endogenous share largely sets the cost; petrous bone and cementum gave about 8 times the endogenous share of parietal bone, roughly an 8x genome for the price of 1x.",
+      "location": "Introduction; Discussion: Endogenous DNA",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-9",
+      "source_id": "hansen2017",
+      "claim": "Reads were mapped to the hg19 human reference, duplicates were removed, and endogenous content was computed as mapped human reads divided by reads kept after trimming.",
+      "location": "Materials and Methods: Bioinformatics and DNA authenticity",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-10",
+      "source_id": "hansen2017",
+      "claim": "About 1.25 billion reads were generated from 76 shotgun libraries, about 16.4 million per library on average.",
+      "location": "Results: Endogenous DNA",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-hansen2017-11",
+      "source_id": "hansen2017",
+      "claim": "Mitochondrial-to-nuclear coverage ratios averaged 157 in well-preserved teeth and 79 in the paired petrous bones, showing many more mitochondrial than nuclear copies.",
+      "location": "Results: mtDNA and nuclear DNA",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-1",
+      "source_id": "harney2021",
+      "claim": "Standard ancient DNA sampling destroys material by drilling or cutting and powdering parts of bones and teeth, and concern about destructive sampling has grown with the field.",
+      "location": "Abstract; Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-2",
+      "source_id": "harney2021",
+      "claim": "Published protocols that reduce destruction of the petrous bone include sampling the inner-ear ossicles and targeted drilling of the cochlea through the cranial base of complete or reconstructed skulls.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Harney et al. describe Sirak et al. 2017 and 2020; we have not read those papers."
+    },
+    {
+      "id": "ev-harney2021-3",
+      "source_id": "harney2021",
+      "claim": "In a minimally destructive method, the tooth root is wrapped in parafilm except for a targeted lower part, which is soaked in EDTA and proteinase K extraction buffer for 2.5 hours at 37 C; there is no drilling or grinding, and the tooth remains suitable for most morphological study and for radiocarbon dating.",
+      "location": "Abstract; Methods: DNA extraction; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-4",
+      "source_id": "harney2021",
+      "claim": "In paired roots, the soaked root gave on average 35.8% endogenous molecules versus 18.8% for a powdered whole root, with no significant difference in library complexity.",
+      "location": "Results: Extraction efficiency; Fig 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-5",
+      "source_id": "harney2021",
+      "claim": "Petrous samples gave more complex DNA (more unique molecules) than cementum by one metric, and the authors say petrous sampling remains justified when preservation is poor; the method was tested mainly on well-preserved teeth, and friable roots crumbled.",
+      "location": "Results: Extraction efficiency; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-6",
+      "source_id": "harney2021",
+      "claim": "Standard protocols remove the outer surface of bone or tooth with a sanding disc or sandblaster; the minimally destructive method instead wiped the tooth with 2% bleach, rinsed it with 95% ethanol and UV-irradiated it for 5-10 minutes per side, with contamination similar to destructive methods.",
+      "location": "Results: Contamination rate; Methods: Sampling",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-7",
+      "source_id": "harney2021",
+      "claim": "All work was done in dedicated clean rooms, and a negative control (extraction buffer in an empty tube) was processed with every extraction batch.",
+      "location": "Methods; Methods: DNA extraction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-8",
+      "source_id": "harney2021",
+      "claim": "About 50 mg of powder was taken from each petrous bone; robotic extractions used about 37 mg of powder and manual extractions up to 50 mg.",
+      "location": "Methods: Sampling; DNA extraction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-9",
+      "source_id": "harney2021",
+      "claim": "Powders were incubated for about 18 hours (overnight) at 37 C in 0.45 M EDTA with proteinase K, and DNA was then bound to silica spin columns following Dabney et al. 2013, or extracted robotically.",
+      "location": "Methods: DNA extraction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-10",
+      "source_id": "harney2021",
+      "claim": "Libraries were sequenced on an Illumina NextSeq 500 with 2x76 or 2x101 cycles; adapters were trimmed and read pairs merged requiring a 15 bp overlap.",
+      "location": "Methods: Library preparation, enrichment, and sequencing; Bioinformatic processing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-11",
+      "source_id": "harney2021",
+      "claim": "Merged reads were mapped to hg19 with BWA, chosen for consistency with most published ancient DNA; duplicates were reads sharing start, end, orientation and barcode, and only the best copy was kept.",
+      "location": "Methods: Bioinformatic processing",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-12",
+      "source_id": "harney2021",
+      "claim": "Authenticity was assessed from mitochondrial match to consensus, autosomal contamination from linkage disequilibrium, X-chromosome contamination in males, the terminal C-to-T rate and read lengths; authentic ancient DNA has very few reads longer than 100 bp.",
+      "location": "Results: Contamination rate; Methods: Bioinformatic processing",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-13",
+      "source_id": "harney2021",
+      "claim": "A minimum of 95% match to the mitochondrial consensus sequence is typically applied when screening ancient DNA for population-genetic studies.",
+      "location": "Results: Contamination rate",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-harney2021-14",
+      "source_id": "harney2021",
+      "claim": "Partial UDG treatment (double-stranded libraries) or USER treatment (single-stranded libraries) removed damage inside molecules but kept it at the ends for authentication; libraries with under 3% terminal C-to-T were treated as failing screening.",
+      "location": "Results; Methods: Library preparation, enrichment, and sequencing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-1",
+      "source_id": "dabney2013",
+      "claim": "In the widely used earlier silica method, an extraction buffer of EDTA and proteinase K releases DNA from bone powder, which is then bound to silica with a salt-containing binding buffer, washed with an ethanol buffer and eluted in a low-salt buffer.",
+      "location": "Results and Discussion: An Improved Ancient DNA Extraction Technique",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-2",
+      "source_id": "dabney2013",
+      "claim": "Tested with synthetic DNA, recovery by the earlier silica method fell with length, from 72% at 150 bp to 22% at 35 bp.",
+      "location": "Results and Discussion; Fig 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-3",
+      "source_id": "dabney2013",
+      "claim": "A new binding buffer used in larger volume with silica spin columns recovered fragments of about 30 bp and longer efficiently.",
+      "location": "Introduction; Results and Discussion; Fig 2A",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-4",
+      "source_id": "dabney2013",
+      "claim": "The number of DNA fragments in an ancient sample is expected to rise steeply as length falls, so much of the information sits in very short molecules.",
+      "location": "Abstract; Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-5",
+      "source_id": "dabney2013",
+      "claim": "Library methods add priming sites by attaching adapters to molecule ends, so even very short fragments can be sequenced in full and their damage patterns used to check authenticity.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-6",
+      "source_id": "dabney2013",
+      "claim": "Common double-stranded library methods include a size-selective clean-up where short molecules are expected to be lost; the single-stranded method lacks this step and recovered more short sequences.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-7",
+      "source_id": "dabney2013",
+      "claim": "DNA fragmentation after death is at least partly driven by depurination.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-dabney2013-8",
+      "source_id": "dabney2013",
+      "claim": "Full-length molecule sequences were built by merging overlapping forward and reverse reads; unmerged reads were discarded.",
+      "location": "Materials and Methods: Enrichment, Sequencing, and Assembly of the Mitochondrial Genome",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2007-1",
+      "source_id": "briggs2007",
+      "claim": "In Pleistocene specimens sequenced directly, most retrieved sequences came from microorganisms that colonised the tissue after death, with only a fraction from the organism itself.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2007-2",
+      "source_id": "briggs2007",
+      "claim": "The DNA letters A and G (purines) are overrepresented just before strand breaks, suggesting that depurination, after which the strand is prone to break, contributed to fragmentation.",
+      "location": "Abstract; Results and Discussion: Ancient DNA Fragmentation",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2007-3",
+      "source_id": "briggs2007",
+      "claim": "C-to-T substitutions are greatly elevated and concentrated at the 5-prime ends of ancient molecules, with a matching G-to-A excess at 3-prime ends in a double-stranded library protocol; other substitutions are rare.",
+      "location": "Results and Discussion: Nucleotide Misincorporations; Fig 3",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2007-4",
+      "source_id": "briggs2007",
+      "claim": "Modelling indicates that cytosine deamination is far faster in single-stranded overhangs at molecule ends (an estimated 68% of cytosines there) than in double-stranded parts (about 1%).",
+      "location": "Results and Discussion: A Model of Ancient DNA Damage; Table 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2007-5",
+      "source_id": "briggs2007",
+      "claim": "The authors argue that all steps up to adapter ligation should be done in a laboratory dedicated to ancient DNA, with project-specific adapters so that contamination from other sources and libraries can be detected.",
+      "location": "Results and Discussion: Considerations for Genome Sequencing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2007-6",
+      "source_id": "briggs2007",
+      "claim": "The authors argued at the time that neither fragment length nor damage-type substitutions efficiently separate endogenous from contaminating DNA, because contaminants can also be short and carry similar changes.",
+      "location": "Results and Discussion: Considerations for Genome Sequencing",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies",
+      "note": "Earlier position; later work (Sawyer et al. 2012; Skoglund et al. 2014) uses damage to separate ancient from recent DNA."
+    },
+    {
+      "id": "ev-briggs2010-1",
+      "source_id": "briggs2010",
+      "claim": "Most damage-derived errors in ancient DNA come from hydrolytic deamination of cytosine to uracil, which appears as C-to-T (or, on the other strand, G-to-A) differences.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2010-2",
+      "source_id": "briggs2010",
+      "claim": "Uracil-DNA glycosylase (UDG) removes uracils and leaves abasic sites, which endonuclease VIII cuts so that the shortened molecule can still enter the library.",
+      "location": "Results: A UDG/endoVIII repair scheme; Fig 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2010-3",
+      "source_id": "briggs2010",
+      "claim": "In an untreated Neandertal library, C-to-T and G-to-A differences reached 40-50% at fragment ends; UDG and endonuclease VIII drastically reduced them, cutting the mitochondrial error rate from 2.20% to 0.40% per base.",
+      "location": "Results: Repair of Neandertal DNA; Neandertal DNA sequence accuracy; Figs 4 and 6",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2010-4",
+      "source_id": "briggs2010",
+      "claim": "Reading both ends of each molecule and merging the pair (at least 11 overlapping bases) improves accuracy because Illumina accuracy drops toward the end of each read; pairs that could not be merged were discarded.",
+      "location": "Results: Repair of Neandertal DNA; Neandertal DNA sequence accuracy",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2010-5",
+      "source_id": "briggs2010",
+      "claim": "Amplified libraries sequenced deeply contain several copies of each original molecule, recognisable by their orientation and start and end points.",
+      "location": "Results: Neandertal DNA sequence accuracy",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-briggs2010-6",
+      "source_id": "briggs2010",
+      "claim": "Without uracil removal, true C/T or G/A heterozygous sites are hard to tell apart from deamination at low coverage, risking false heterozygote calls.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-sawyer2012-1",
+      "source_id": "sawyer2012",
+      "claim": "Outside permafrost, endogenous DNA in ancient remains is usually present in small amounts alongside much larger amounts of DNA from microbes that colonised the specimen after death.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-sawyer2012-2",
+      "source_id": "sawyer2012",
+      "claim": "Across samples from 18 to about 60,000 years old, median fragment length did not correlate significantly with age, and some samples under 100 years old had molecules as short as much older ones; the authors infer that most fragmentation happens soon after death.",
+      "location": "Results; Fig 2; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-sawyer2012-3",
+      "source_id": "sawyer2012",
+      "claim": "The C-to-T rate at the first 5-prime position rises strongly with age; leaving aside heated specimens, every sample under 100 years old had less than 10% and every sample over 500 years old had more than 10%.",
+      "location": "Results; Fig 4; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-sawyer2012-4",
+      "source_id": "sawyer2012",
+      "claim": "Laboratory precautions cannot remove modern DNA already in a specimen when it arrives; heating raised C-to-T rates in some specimens and bleach may raise deamination in surviving contaminant DNA.",
+      "location": "Introduction; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-sawyer2012-5",
+      "source_id": "sawyer2012",
+      "claim": "Present-day human DNA often contaminates ancient bones and cannot easily be told apart, by its sequence, from the DNA of ancient humans.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2014-1",
+      "source_id": "skoglund2014",
+      "claim": "Despite strict laboratory precautions, many ancient human fossils already contain present-day human DNA from earlier handling.",
+      "location": "Significance; Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2014-2",
+      "source_id": "skoglund2014",
+      "claim": "The main diagnostic feature of ancient DNA is an excess of C-to-T differences rising toward the 5-prime end of reads, usually with a complementary G-to-A excess at the 3-prime end, attributed to deamination at single-stranded ends; unlike fragment length it tends to increase over time.",
+      "location": "Introduction; Results: Model Outline",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2014-3",
+      "source_id": "skoglund2014",
+      "claim": "Observing the damage pattern shows that degraded DNA is present but does not prove that modern contamination is absent or low.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2014-4",
+      "source_id": "skoglund2014",
+      "claim": "Scoring each read for post-mortem damage and keeping only high-scoring reads reduced simulated contamination of up to about 90-95% to negligible levels in tests.",
+      "location": "Results: Artificial Contamination Experiments; Figs 2-3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2014-5",
+      "source_id": "skoglund2014",
+      "claim": "In high-coverage data, contamination can be detected as more alleles than a chromosome's copy number allows.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2014-6",
+      "source_id": "skoglund2014",
+      "claim": "Contamination from a fossil's own microenvironment mainly adds statistical noise, whereas contamination from present-day humans can strongly bias population-genetic and phylogenetic analyses.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-1",
+      "source_id": "rohland2015",
+      "claim": "DNA extraction and library preparation up to the set-up of the amplification step were carried out in a dedicated ancient DNA laboratory.",
+      "location": "Material and methods (a): Clean room",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-2",
+      "source_id": "rohland2015",
+      "claim": "Ligating a unique pair of barcodes to each sample's DNA molecules removes undetected cross-contamination between samples from that step onward.",
+      "location": "Abstract; Summary",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-3",
+      "source_id": "rohland2015",
+      "claim": "Between 50 and 75 mg of bone powder was used per extraction, following Dabney et al. 2013; each sample has to be mechanically pulverised in clean conditions.",
+      "location": "Material and methods (c); Summary",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-4",
+      "source_id": "rohland2015",
+      "claim": "Libraries are often treated with UDG, which removes uracils, and endonuclease VIII, which cuts at the resulting abasic sites, lowering ancient-DNA errors; untreated libraries remain useful for contaminated samples.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-5",
+      "source_id": "rohland2015",
+      "claim": "Partial UDG treatment removes uracils inside molecules but keeps a substantial share at the terminal base (on average about 27% falling to 9%, with second-position damage about 26-fold lower), so one library serves both to test authenticity and for population genetics.",
+      "location": "Abstract; Results (b); Table 1; Fig 3a",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-6",
+      "source_id": "rohland2015",
+      "claim": "The authors propose a terminal C-to-T rate of at least 3% as the authenticity threshold for partially UDG-treated libraries, scaled down from the 10% threshold suggested for untreated libraries; it is based on one region and a 3,000-9,000-year range and may need revision.",
+      "location": "Results (b)",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-7",
+      "source_id": "rohland2015",
+      "claim": "Hybridisation capture is a standard tool because, for many ancient samples, much of the DNA in a library is not from the individual and only part of the genome is of interest.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-8",
+      "source_id": "rohland2015",
+      "claim": "Sample indexes added by PCR let libraries and experiments be pooled for sequencing and separated afterwards by index.",
+      "location": "Introduction; Material and methods (j); Fig 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2015-9",
+      "source_id": "rohland2015",
+      "claim": "Libraries were sequenced paired-end with 2x75 or 2x150 cycles; adapters were trimmed and read pairs merged requiring at least 15 bp of overlap.",
+      "location": "Material and methods (k)",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-1",
+      "source_id": "gansauge2017",
+      "claim": "Library preparation attaches synthetic adapters to the ends of DNA molecules so they can be amplified and the sequencing reaction primed; current machines sequence millions or billions of fragments in parallel.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-2",
+      "source_id": "gansauge2017",
+      "claim": "Single-stranded methods convert each strand of a fragment separately, doubling the chance that at least one strand is recovered and making molecules with single-strand breaks usable.",
+      "location": "Introduction; Fig 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-3",
+      "source_id": "gansauge2017",
+      "claim": "Compared with the best double-stranded method, single-stranded preparation gave on average 11.6 times more informative sequence from ancient DNA extracts and a higher share of mapped sequences.",
+      "location": "Results: A comparison of library preparation methods; Fig 4; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-4",
+      "source_id": "gansauge2017",
+      "claim": "Double-stranded methods join adapters to blunt-ended double-stranded fragments; in a widely used one about half the molecules get identical adapters and cannot be sequenced, though the method is robust and inexpensive; an Illumina-type double-stranded method needs a size-selective clean-up and lost short molecules.",
+      "location": "Results: A comparison of library preparation methods",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-5",
+      "source_id": "gansauge2017",
+      "claim": "Single-stranded preparation remains more time-consuming than double-stranded methods, which has limited its use, and many ancient DNA studies still use the cheaper, simpler double-stranded methods.",
+      "location": "Introduction; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-6",
+      "source_id": "gansauge2017",
+      "claim": "Most sequences in ancient bone libraries were microbial; the authors describe microbial DNA as the dominant source of DNA in most ancient bones.",
+      "location": "Fig 3 legend",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-gansauge2017-7",
+      "source_id": "gansauge2017",
+      "claim": "DNA was extracted from 50-68 mg of bone powder using the Dabney et al. silica method.",
+      "location": "Materials and Methods: DNA extraction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-schubert2016-1",
+      "source_id": "schubert2016",
+      "claim": "When short molecules such as fossil DNA are sequenced, reads run into adapter sequence that must be trimmed; overlapping read pairs can be merged to reconstruct the whole original molecule with better accuracy, which is especially useful for ancient DNA.",
+      "location": "Abstract; Findings: Background",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mathieson2015-1",
+      "source_id": "mathieson2015",
+      "claim": "The 1240k capture uses in-solution hybridisation with synthesised probes to enrich 1,237,207 SNPs, combining sets of 394,577 and 842,630 SNPs.",
+      "location": "Genome-wide ancient DNA from West Eurasia; Methods: Ancient DNA analysis",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mathieson2015-2",
+      "source_id": "mathieson2015",
+      "claim": "The 1240k capture gives genome-wide data from samples with small fractions of human DNA; median coverage on analysed SNPs was about 4 times that of a large shotgun study, from 36 times fewer reads per sample.",
+      "location": "Genome-wide ancient DNA from West Eurasia; Extended Data Fig 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mathieson2015-3",
+      "source_id": "mathieson2015",
+      "claim": "Samples were removed for too few SNPs covered, mitochondrial evidence of contamination, X-chromosome heterozygosity in males, or an atypical X-to-Y ratio; sex was determined from the ratio of reads on the sex chromosomes.",
+      "location": "Methods: Ancient DNA analysis; Population history analysis",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mathieson2015-4",
+      "source_id": "mathieson2015",
+      "claim": "Ancient samples are represented by randomly sampled alleles rather than diploid genotypes, and statistics were computed with options that account for this.",
+      "location": "Methods: Population history analysis",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2022-1",
+      "source_id": "rohland2022",
+      "claim": "Of more than 3,000 ancient individuals with genome-wide data published by the authors' laboratory by the end of 2021, about half had less than 10% human DNA.",
+      "location": "Introduction; Methods: Estimated fraction of published ancient human genomes with <10% endogenous DNA",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2022-2",
+      "source_id": "rohland2022",
+      "claim": "In in-solution enrichment, synthetic DNA baits pair with complementary target molecules in a library so that other molecules can be washed away and the bound ones isolated and sequenced.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2022-3",
+      "source_id": "rohland2022",
+      "claim": "Worked example: in a library that is 1% human, about 1 in 10,000 sequences overlaps one of about 600,000 target SNPs, so 400 million shotgun reads give at most about 40,000 SNPs, while 25 million reads after enrichment can cover nearly all targets.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2022-4",
+      "source_id": "rohland2022",
+      "claim": "The 1240k reagent targets slightly fewer than 1.24 million SNPs; first used in data published in 2015, by October 2022 it had produced over 70% of genome-wide ancient human data sets, and in-solution enrichment makes samples with little human DNA economical to study.",
+      "location": "Abstract; Introduction; Methods",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2022-5",
+      "source_id": "rohland2022",
+      "claim": "The 1240k reagent enriches targets unevenly and favours some alleles over others, complicating co-analysis with shotgun data; the Twist Ancient DNA assay released in 2021 showed the least allelic bias of three assays tested.",
+      "location": "Abstract; Introduction; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rohland2022-6",
+      "source_id": "rohland2022",
+      "claim": "Read pairs were merged, mapped to hg19 (described as the de facto standard in ancient DNA), PCR duplicates removed, and one random sequence chosen at each position for genotype calls.",
+      "location": "Methods: Data processing",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020contam-1",
+      "source_id": "nakatsuka2020contam",
+      "claim": "Contamination can enter ancient DNA data during excavation and storage of skeletal material and during laboratory processing.",
+      "location": "Background",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020contam-2",
+      "source_id": "nakatsuka2020contam",
+      "claim": "Mitochondrial sequences are almost always uniform within an uncontaminated individual, the basis of mitochondrial contamination tests, but such estimates can be biased because the ratio of mitochondrial to nuclear DNA varies by orders of magnitude between samples; estimates from apparent X-chromosome variation in males are more reliable but do not work for females.",
+      "location": "Background",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020contam-3",
+      "source_id": "nakatsuka2020contam",
+      "claim": "ContamLD estimates autosomal contamination from the breakdown of linkage disequilibrium (correlations between nearby variants) caused by contaminating DNA; it works for males and females, and the authors recommend removing or explicitly modelling samples above 5% contamination.",
+      "location": "Abstract; Background; Discussion and conclusion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020contam-4",
+      "source_id": "nakatsuka2020contam",
+      "claim": "Keeping only damaged sequences discards most authentic sequences and cannot separate authentic DNA from contamination by another ancient individual whose DNA is also damaged.",
+      "location": "Background",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-renaud2015-1",
+      "source_id": "renaud2015",
+      "claim": "Microbial DNA often makes up the bulk of DNA from ancient human remains; bacterial sequences usually do not align to the human reference genome, but contaminating DNA from present-day people does, alongside the endogenous fragments.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-renaud2015-2",
+      "source_id": "renaud2015",
+      "claim": "One method uses deamination patterns and fragment lengths to estimate present-day human contamination in mitochondrial data and to reconstruct the ancient individual's own mitochondrial genome.",
+      "location": "Abstract",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mittnik2016-1",
+      "source_id": "mittnik2016",
+      "claim": "In most prehistoric skeletons, post-mortem decay leaves under 0.5% endogenous human DNA in most parts of the skeleton, the rest being mostly DNA from bacteria and fungi that colonised the body after death.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mittnik2016-2",
+      "source_id": "mittnik2016",
+      "claim": "All work before amplification took place in clean rooms; bone was sampled with a sterile dentistry drill, 30-160 mg was used per extraction, negative extraction controls were included, and each library carried a sample-unique tag combination.",
+      "location": "Methods: DNA extraction and library preparation",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mittnik2016-3",
+      "source_id": "mittnik2016",
+      "claim": "Genetic sex can be assigned from Rx, the normalised ratio of reads on the X chromosome to reads on the autosomes: about 0.5 for males and 1.0 for females; it worked down to about 1,000 reads, whereas an earlier ratio method needs about 100,000 mapped reads.",
+      "location": "Introduction; Methods: Sex assignment; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-mittnik2016-4",
+      "source_id": "mittnik2016",
+      "claim": "Read pairs overlapping by 11 or more bases were merged before mapping to hg19.",
+      "location": "Methods: Sequencing and data analysis",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-aadr-x1",
+      "source_id": "aadr",
+      "claim": "The AADR reprocesses each individual's data to sequences aligned to hg19 and produces genotypes at about 1.23 million SNPs; for most individuals these are pseudo-haploid (one randomly sampled sequence per position), with diploid genotypes released where coverage allows.",
+      "location": "Mallick et al. 2024 Sci Data, Methods: Filtering of data",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-aadr-x2",
+      "source_id": "aadr",
+      "claim": "The AADR adds present-day individuals for comparison: 6,399 shotgun-sequenced genomes (v54.1, from the 1000 Genomes, Simons Genome Diversity and Human Genome Diversity projects) and 4,114 people genotyped on the Human Origins SNP array.",
+      "location": "Mallick et al. 2024 Sci Data, Methods: Combining datasets",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-aadr-x3",
+      "source_id": "aadr",
+      "claim": "The AADR annotation file records for each individual its coordinates and locality, date (calibrated radiocarbon range or archaeological range), group name, molecular sex, terminal C-to-T rate and contamination estimates.",
+      "location": "Mallick et al. 2024 Sci Data, Data Record",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports",
+      "note": "This site's sample dots are built from the AADR v66.p1 1240K annotation (.anno) file; see research/sources/aadr.md."
+    },
+    {
+      "id": "ev-aadr-x4",
+      "source_id": "aadr",
+      "claim": "About 67% of published genome-wide ancient human DNA data come from Europe and Russia; East Asia accounted for about 8% and Africa about 3% when the paper was written.",
+      "location": "Mallick et al. 2024 Sci Data, Background & Summary; Fig 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-aadr-x5",
+      "source_id": "aadr",
+      "claim": "Published genome-wide ancient DNA data passed 10,000 individuals at the end of 2022.",
+      "location": "Mallick et al. 2024 Sci Data, Abstract",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-aadr-x6",
+      "source_id": "aadr",
+      "claim": "Published raw data vary in format, filtering and processing choices, such as recalibrated base qualities or masked and clipped read ends, which must be reconciled when data are compiled.",
+      "location": "Mallick et al. 2024 Sci Data, Methods",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
     }
   ]
 }

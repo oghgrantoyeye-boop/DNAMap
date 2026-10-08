@@ -4,7 +4,7 @@
 - **DOI:** 10.1371/journal.pone.0129102 · PMC4472748 · **Verification:** full_text
 
 ## Claims we use
-1. The petrous part of the temporal bone is the only skeletal element shown systematically to give a higher share of endogenous (the individual's own) DNA than other elements; most fossil specimens hold about 1% endogenous DNA or less, with exceptions. *(Abstract.)* [ev-pinhasi2015-1]
+1. The petrous part of the temporal bone, the hardest and densest bone in the body, which houses the inner ear, is the only skeletal element shown systematically to give a higher share of endogenous (the individual's own) DNA than other elements; most fossil specimens hold about 1% endogenous DNA or less, with exceptions. *(Abstract; Introduction.)* [ev-pinhasi2015-1]
 2. Across ten petrous bones, the dense bone of the otic capsule (the inner-ear part, "part C") gave endogenous DNA shares up to 65 times those of the surrounding dense petrous bone ("part B") and up to 177 times those of the spongy apex ("part A"). *(Abstract; Results; Discussion; Table 1.)* [ev-pinhasi2015-2]
 3. All five temperate-region petrous bones gave 35–70% human reads from the inner-ear part; the five from hot regions gave under 1% from every part. The authors stress how much burial environment matters. *(Results; Fig 2; Table 1.)* [ev-pinhasi2015-3]
 4. Bone preparation was done in a dedicated room by researchers in full-cover suits, double gloves, hair nets and face masks; equipment and surfaces were cleaned with a DNA-decontamination solution and ethanol and then UV-irradiated for at least 30 min; each bone part was UV-irradiated for 10 min per side. *(Methods: Selection of sampling parts within the petrous bone.)* [ev-pinhasi2015-4]
