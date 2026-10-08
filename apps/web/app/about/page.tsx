@@ -59,6 +59,9 @@ export default function About() {
         <li>
           {c.evidence} evidence statements from {c.sources - 2} publications, written in our own words. The full list, with verification level, is in the project&rsquo;s SOURCES.md.
         </li>
+        <li>
+          Privacy: visits are counted with Vercel Web Analytics, which sets no cookies and does not follow you across sites. It records the page, the referring site, and your country, browser and device type, plus which populations, map styles and links are opened. We never see who you are.
+        </li>
         <li>Built {manifest.built} from commit {manifest.git_commit}.</li>
       </ul>
     </main>

@@ -5,6 +5,7 @@ import { formatYear, formatYearsAgo } from "@dnamap/data-model";
 import { GROUP_COLOR, makeProjection, ticksFor, viewForSpan } from "@dnamap/visualization";
 import type { Dataset } from "@/lib/data";
 import { getState, setState, useAppState } from "@/lib/store";
+import { trackEvent } from "@/lib/track";
 import { halfWindowFor, scaleFor } from "@/lib/timeWindow";
 
 const PAD_X = 16;
@@ -174,6 +175,7 @@ export default function Timeline({ data }: { data: Dataset }) {
               className="chip"
               title={`${formatYear(p.window.start)} – ${formatYear(p.window.end)}`}
               onClick={() => {
+                trackEvent("preset", { id: p.id });
                 const mapEl = document.querySelector(".map-wrap") as HTMLElement | null;
                 const v = viewForSpan(mapEl?.clientWidth ?? 1000, mapEl?.clientHeight ?? 600, p.view.center, p.view.span_deg);
                 setState({

@@ -6,6 +6,7 @@ import { LEGEND } from "@dnamap/visualization";
 import type { Dataset } from "@/lib/data";
 import { loadDataset } from "@/lib/data";
 import { THEMES } from "@/lib/mapRender";
+import { initTracking, trackEvent } from "@/lib/track";
 import { getState, readUrlState, setState, subscribe, THEME_IDS, useAppState, writeUrlState } from "@/lib/store";
 import MapCanvas from "./MapCanvas";
 import Timeline from "./Timeline";
@@ -42,7 +43,12 @@ export default function App() {
   useEffect(() => {
     setState(readUrlState());
     loadDataset().then(setData, (e) => setError(String(e)));
-    return subscribe(() => writeUrlState(getState()));
+    const stopTracking = initTracking();
+    const stopUrl = subscribe(() => writeUrlState(getState()));
+    return () => {
+      stopTracking();
+      stopUrl();
+    };
   }, []);
 
   useEffect(() => {
@@ -81,6 +87,7 @@ export default function App() {
                         ...(a ? { view: { lon: a.lon, lat: a.lat, k: Math.max(getState().view.k, 2.2) } } : {}),
                       });
                       setQuery("");
+                      trackEvent("search_pick", { id: p.id });
                     }}
                   >
                     {p.name}
