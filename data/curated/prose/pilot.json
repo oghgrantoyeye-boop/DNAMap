@@ -1,0 +1,63 @@
+{
+  "group": "pilot",
+  "populations": {
+    "non-african-ancestors": {
+      "description": "The population that met and interbred with Neandertals, and whose descendants include nearly everyone alive today with ancestry from outside Africa. No one from it has been sampled; it is reconstructed from the DNA its descendants still carry.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Every population outside Africa that geneticists have studied carries a small share of Neandertal DNA, and Neandertals share more genetic variants with people outside sub-Saharan Africa than with people inside it. The study that published the Neandertal genome in 2010 found this pattern best explained by interbreeding with the ancestors of non-Africans, before those ancestors split into the many populations of Eurasia. That shared ancestral group is the population described here: a ghost population, in geneticists' terms.",
+          "evidence_ids": [
+            "ev-prufer2014-1",
+            "ev-green2010-1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Neandertal DNA is inherited in stretches that are cut shorter in every generation, so their length works as a clock. A man who lived about 45,000 years ago at Ust'-Ishim in western Siberia carries longer stretches than anyone alive today, which places the mixing some 7,000 to 13,000 years before his lifetime. A 2024 study of Neandertal stretches in ancient and present-day genomes puts it between about 50,500 and 43,500 years ago; a 2025 study anchored on genomes from Ranis in Germany gives 49,000 to 45,000 years ago. These genomes date the mixing but do not locate it.",
+          "evidence_ids": [
+            "ev-fu2014-1",
+            "ev-fu2014-2",
+            "ev-iasi2024-1",
+            "ev-sumer2024-2",
+            "ev-sumer2024-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "People outside Africa today carry roughly 2 percent Neandertal DNA, about one-fiftieth of their genome. The exact figure depends on the yardstick: measured against the Altai Neandertal genome it is 1.5–2.1 percent, and against the Vindija genome, which is closer to the Neandertals who mixed, 1.8–2.6 percent. East Asians carry about a fifth more than western Eurasians. Most of this inheritance traces back to a single long stretch of contact, lasting several thousand years, rather than to many separate episodes.",
+          "evidence_ids": [
+            "ev-prufer2014-1",
+            "ev-prufer2017-ar3",
+            "ev-iasi2024-ar2",
+            "ev-iasi2024-1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Because the ancestors of every non-African genome sequenced so far lived in this one population, human remains outside Africa older than about 50,000 years must belong to other populations. Among its descendants, the earliest branch sampled so far is a small, closely related group of individuals from Ranis in Germany and Zlatý kůň in Czechia, who lived about 45,000 years ago and show no continuity with later Europeans. The two groups also met again. Oase 1 and four individuals from Bacho Kiro Cave each had a Neandertal ancestor within the previous 10 to 20 generations, three of the Bacho Kiro individuals about seven generations back or fewer. The Ust'-Ishim man carries traces of a further episode 30 to 50 generations before his time.",
+          "evidence_ids": [
+            "ev-sumer2024-ar1",
+            "ev-sumer2024-1",
+            "ev-sumer2024-ar2",
+            "ev-hajdinjak2021-ar1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Methods that rely on present-day genomes alone give wider or older dates: 37,000 to 86,000 years ago (most likely 47,000 to 65,000) from how Neandertal variants are linked together along present-day European chromosomes, and about 60,000 years ago from a model of population history. The ancient genomes give the narrowest window. Also open is why East Asians carry more Neandertal DNA than western Eurasians. A second, later episode of mixing is one proposal, but two ancient East Asian genomes, Tianyuan (about 40,000 years old) and Salkhit (about 35,000), fit a single shared one, and the cause is still debated.",
+          "evidence_ids": [
+            "ev-sankararaman2012-1",
+            "ev-malaspinas2016-1",
+            "ev-iasi2024-ar2"
+          ]
+        }
+      ],
+      "caveats": [
+        "The dates on the timeline are the window of the shared Neandertal mixing (about 50,500–43,500 years ago, Iasi et al. 2024), not how long the population existed."
+      ]
+    }
+  },
+  "wanted": [],
+  "concerns": []
+}

@@ -8,6 +8,7 @@ import type { Dataset } from "@/lib/data";
 import { loadSampleDetail } from "@/lib/data";
 import { setState, useAppState } from "@/lib/store";
 import { reportUrl } from "@/lib/report";
+import { shortCitation } from "@/lib/cite";
 
 export const CATEGORY_TEXT: Record<string, { label: string; explain: string }> = {
   genetic_cluster: { label: "Genetic cluster", explain: "Individuals grouped because they share an ancestry profile in the cited studies." },
@@ -43,10 +44,9 @@ function pct(p: Proportion | null): string {
 function Citation({ data, sourceId }: { data: Dataset; sourceId: string }) {
   const s = data.sourceById.get(sourceId);
   if (!s) return <span>{sourceId}</span>;
-  const short = s.citation.split("(")[0].replace(/,\s*$/, "").replace(/, et al\.?$/, " et al.");
   return (
     <a href={s.url ?? (s.doi ? `https://doi.org/${s.doi}` : "#")} target="_blank" rel="noreferrer" title={s.citation}>
-      {short} {s.year}
+      {shortCitation(s, sourceId)}
     </a>
   );
 }
@@ -171,7 +171,7 @@ function ReadingList({ data, pop }: { data: Dataset; pop: Population }) {
             <span className="reading-title">{s.title ?? s.citation}</span>
             <span className="small muted">
               {" "}
-              {s.citation.split("(")[0].replace(/,\s*$/, "").replace(/, et al\.?$/, " et al.")} ({s.year}) · supports {n} claim{n === 1 ? "" : "s"} here
+              {shortCitation(s, s.id)} · supports {n} claim{n === 1 ? "" : "s"} here
             </span>
             <span className="small reading-links">
               {s.pmcid && (
