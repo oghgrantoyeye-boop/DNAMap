@@ -136,10 +136,10 @@ Most frequent `_`-separated tokens (shows the Country_Site_Period_Culture conven
 | Viking | 415 |
 | EIA | 371 |
 | MLBA | 357 |
-| MBA | 339 |
 | LateAntiquity | 339 |
-| Mesolithic | 308 |
+| MBA | 339 |
 | Croatia | 308 |
+| Mesolithic | 308 |
 | Yamnaya | 291 |
 | Mongolia | 287 |
 | Argentina | 280 |
@@ -197,8 +197,8 @@ Most frequent `_`-separated tokens (shows the Country_Site_Period_Culture conven
 | U | 1277 |
 | M (XYY) | 2 |
 | U (XXY) | 2 |
-| F (XXX) | 1 |
 | U (X0) | 1 |
+| F (XXX) | 1 |
 
 SNPs hit on 1240k targets: median 550054.0, rows with < 20,000: 1140, < 5,000: 254.
 

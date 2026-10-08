@@ -16,6 +16,10 @@ Individuals from western Russia, about 38,000–32,000 years ago, who belong to 
 
 **Evidence:**
 - From about 37,000 years ago (Kostenki 14) to about 14,000 years ago, all sampled Europeans descend from one founder population that is part of present-day European ancestry; earlier individuals such as Oase 1 did not contribute substantially. — fu2016, Abstract; clustering section
+- The oldest genomes carrying ancestry from the lineage leading to present-day Europeans are Kostenki 14 (37,000 years ago, western Russia, uncertain archaeological association), Goyet Q116-1 and Bacho Kiro 1653 (both about 35,000 years ago); individuals from before about 40,000 years ago such as Ust'-Ishim and Oase 1 left no substantial trace in present-day Eurasians. — posth2023, Main (Introduction)
+- Tests find no support for an earlier model in which Kostenki 14 carried Basal Eurasian and Mal'ta-related lineages: all pre-Neolithic Europeans from Kostenki 14 onward are consistent with descent from a single founder population, and Mal'ta-related ancestry reached Europeans later with steppe migrations. — fu2016, Results, A single founding population during most of the Upper Paleolithic period
+- Sunghir (34,000 years ago) and Kostenki 12 (32,000 years ago) are closely related to the Vestonice cluster; the Kostenki and Sunghir-group ancestry contributed to Vestonice-cluster Gravettian-associated individuals, which in an admixture graph result from mixing between a Sunghir-related lineage and a lineage related to the Goyet Q116-1 branch. — posth2023, Results, Before the LGM; Fig. 2c
+- Northeastern Siberia saw an initial Palaeolithic 'Ancient North Siberian' population (Yana, ~31,000 years ago) distantly related to early West Eurasian hunter-gatherers, then East Asian-related people who gave rise to Native Americans and 'Ancient Paleosiberians', then Holocene 'Neosiberians'; each expansion nearly replaced earlier inhabitants. — sikora2019, Abstract
 
 **Caveats:**
 - Grouping Kostenki and Sunghir together is our simplification; both papers treat them as related members of the early European founder lineage.
@@ -35,6 +39,13 @@ Individuals from Goyet Cave in Belgium, about 35,000 years ago, associated with 
 **Evidence:**
 - Genetically defined clusters, named after type sites: Věstonice (Gravettian-associated), Mal'ta, El Mirón (Magdalenian-associated, with affinity to GoyetQ116-1) and Villabruna (from ~14,000 years ago). — fu2016, Clustering section; Figs 2–3
 - Hunter-gatherer clusters before and after the LGM: Fournol (Gravettian-associated, western Europe, related to Aurignacian-associated Goyet Q116-1), Věstonice (Gravettian-associated, central and southern Europe), GoyetQ2 (Magdalenian-associated), Villabruna (Epigravettian-associated), Oberkassel (equated with WHG), and Sidelkino (renamed EHG). — posth2023, Introduction; Results; Fig. 2
+- Goyet Q116-1 and Goyet Q376-3 (Aurignacian-associated, 35,000 years ago, Belgium) carry similar ancestry, close to the later Fournol cluster; at the mitochondrial level this Goyet pair and the Fournol cluster both include individuals with haplogroup M, which has not been found in Europeans after the Last Glacial Maximum. — posth2023, Results, Before the LGM; Extended Data Figs. 1-3
+- From about 37,000 years ago (Kostenki 14) to about 14,000 years ago, all sampled Europeans descend from one founder population that is part of present-day European ancestry; earlier individuals such as Oase 1 did not contribute substantially. — fu2016, Abstract; clustering section
+- Goyet Q116-1 derives from a different deep branch of the European founder population than the Vestonice cluster; the Vestonice cluster's later spread suggests the spread of the Gravettian was mediated at least partly by population movement. — fu2016, Conclusions
+- Tianyuan (~40,000 years old, China) is more related to Asians than to Europeans but shares extra alleles with Goyet Q116-1 (~35,000 years old, Belgium), so early European and Asian populations did not separate in one clean split. — yang2017, Summary
+- Goyet Q116-1 shares more alleles with the El Miron cluster (19,000-14,000 years ago) than with other pre-Neolithic Europeans, and at least half of El Miron-cluster ancestry comes from the Goyet Q116-1 cluster, with the highest share outside Iberia. — fu2016, Results, Resurgence of an early branching European lineage during the LGM
+- Fournol-related ancestry persisted through the LGM in southwestern Europe in Solutrean- and then Magdalenian-associated individuals. — posth2023, Abstract
+- A Late Gravettian group from Goyet (27,000 years ago, n=6) is a mixture of Vestonice and Fournol ancestry, which the authors read as an east-to-west expansion of Vestonice-associated ancestry; the earlier study had assigned these Goyet individuals to the Vestonice cluster. — posth2023, Results, Before the LGM
 
 **Caveats:**
 - Two individuals.
@@ -59,6 +70,13 @@ Hunter-gatherers buried with Gravettian material in central and southern Europe,
 - Hunter-gatherer clusters before and after the LGM: Fournol (Gravettian-associated, western Europe, related to Aurignacian-associated Goyet Q116-1), Věstonice (Gravettian-associated, central and southern Europe), GoyetQ2 (Magdalenian-associated), Villabruna (Epigravettian-associated), Oberkassel (equated with WHG), and Sidelkino (renamed EHG). — posth2023, Introduction; Results; Fig. 2
 - Gravettian-associated individuals form two genetically distinct clusters (Fournol in the west, Věstonice in central and southern Europe): one archaeological culture, two genetic profiles. — posth2023, Abstract; Results
 - Genetically defined clusters, named after type sites: Věstonice (Gravettian-associated), Mal'ta, El Mirón (Magdalenian-associated, with affinity to GoyetQ116-1) and Villabruna (from ~14,000 years ago). — fu2016, Clustering section; Figs 2–3
+- The Vestonice cluster is made of 14 pre-Ice Age individuals from 34,000-26,000 years ago, all associated with the Gravettian culture, defined from genetic data first and only afterwards compared with archaeological cultures. — fu2016, Results, Genetic clustering of the ancient specimens
+- Vestonice-cluster individuals from central-eastern and southern Europe (Dolni Vestonice, Pavlov, Krems-Wachtberg, Paglicci, Ostuni) were buried with grave goods, ornaments and ochre in open-air or cave sites, unlike the cave deposits of Fournol-cluster individuals in the west. — posth2023, Results, Before the LGM
+- Sunghir (34,000 years ago) and Kostenki 12 (32,000 years ago) are closely related to the Vestonice cluster; the Kostenki and Sunghir-group ancestry contributed to Vestonice-cluster Gravettian-associated individuals, which in an admixture graph result from mixing between a Sunghir-related lineage and a lineage related to the Goyet Q116-1 branch. — posth2023, Results, Before the LGM; Fig. 2c
+- From about 37,000 years ago (Kostenki 14) to about 14,000 years ago, all sampled Europeans descend from one founder population that is part of present-day European ancestry; earlier individuals such as Oase 1 did not contribute substantially. — fu2016, Abstract; clustering section
+- Vestonice-cluster ancestry was found without descendants in post-LGM populations of the same regions, and in Italy a genetic turnover replaced Gravettian-associated Vestonice ancestry with Epigravettian-associated Villabruna ancestry, which might correlate with archaeological discontinuities. — posth2023, Results, Post-LGM in the Italian peninsula; Discussion
+- A Late Gravettian group from Goyet (27,000 years ago, n=6) is a mixture of Vestonice and Fournol ancestry, which the authors read as an east-to-west expansion of Vestonice-associated ancestry; the earlier study had assigned these Goyet individuals to the Vestonice cluster. — posth2023, Results, Before the LGM
+- Gravettian-associated Venus figurines occur with both the Vestonice cluster and the Mal'ta individual in Siberia, but the two are not genetically connected, which the authors read as diffusion of ideas, if not coincidence. — fu2016, Conclusions
 
 **Caveats:**
 - The Gravettian-associated individuals from Goyet (Belgium) are assigned to this cluster by Fu 2016 but described as intermediate by Posth 2023; they are left unassigned here.
@@ -75,11 +93,16 @@ Hunter-gatherers buried with Gravettian material in France and northeastern Iber
 
 *Sites named by Posth 2023: Ormesson, La Rochette, Fournol, Mollet III, Reclau Viver.*
 
-**Matched (4 individuals, 4 sites):** Spain_Gravettian (2); France_Gravettian (1); France_Occitanie_Gravettian (1)
+**Matched (4 individuals, 4 sites):** Spain_Gravettian (2); France_Occitanie_Gravettian (1); France_Gravettian (1)
 
 **Evidence:**
 - Hunter-gatherer clusters before and after the LGM: Fournol (Gravettian-associated, western Europe, related to Aurignacian-associated Goyet Q116-1), Věstonice (Gravettian-associated, central and southern Europe), GoyetQ2 (Magdalenian-associated), Villabruna (Epigravettian-associated), Oberkassel (equated with WHG), and Sidelkino (renamed EHG). — posth2023, Introduction; Results; Fig. 2
 - Gravettian-associated individuals form two genetically distinct clusters (Fournol in the west, Věstonice in central and southern Europe): one archaeological culture, two genetic profiles. — posth2023, Abstract; Results
+- Fournol-cluster Gravettian-associated individuals come from Ormesson, La Rochette, Fournol and two Serinya cave sites (Mollet III, Reclau Viver); the oldest, Ormesson 2988 from northeastern France, is 31,000 years old, and these individuals are consistently deposited in caves, occasionally with anthropogenic marks. — posth2023, Results, Before the LGM
+- The study sequenced 15 Gravettian-associated individuals from Spain, France, Belgium, Czechia and Italy (31,000-26,000 years ago); published Gravettian genomes had come only from central and southern Europe, leaving the western genetic profile undescribed until then. — posth2023, Main; Results, Before the LGM
+- The Fournol cluster fits best as a sister lineage of Goyet Q116-1 in an admixture graph, and Fournol-cluster individuals all show higher affinity to Goyet Q116-1 than to the Sunghir group. — posth2023, Results, Before the LGM; Fig. 2c; Extended Data Fig. 3
+- Fournol-related ancestry persisted through the LGM in southwestern Europe in Solutrean- and then Magdalenian-associated individuals. — posth2023, Abstract
+- A Late Gravettian group from Goyet (27,000 years ago, n=6) is a mixture of Vestonice and Fournol ancestry, which the authors read as an east-to-west expansion of Vestonice-associated ancestry; the earlier study had assigned these Goyet individuals to the Vestonice cluster. — posth2023, Results, Before the LGM
 
 **Caveats:**
 - Few individuals.
@@ -98,6 +121,10 @@ People who lived about 31,000 years ago at the Yana site in Arctic northeastern 
 
 **Evidence:**
 - Northeastern Siberia saw an initial Palaeolithic 'Ancient North Siberian' population (Yana, ~31,000 years ago) distantly related to early West Eurasian hunter-gatherers, then East Asian-related people who gave rise to Native Americans and 'Ancient Paleosiberians', then Holocene 'Neosiberians'; each expansion nearly replaced earlier inhabitants. — sikora2019, Abstract
+- Two high-quality genomes (about 25x and 7x coverage) come from the Yana RHS site in Arctic northeastern Siberia, the oldest, northernmost Pleistocene human remains found to date (31,600 years before present); the two were unrelated males with mitochondrial haplogroup U and Y haplogroup P1, without signs of recent inbreeding and with a recent effective population size of up to 500. — sikora2019, Results, Upper Palaeolithic peoples at Yana RHS
+- Yana is modelled as an early West Eurasian lineage with about 25-29% contribution from early East Asians (SFS-based estimate 29%, 95% CI 21-40%), with the divergence and mixture dated to about 39,000 years ago (95% CI 32-46,000). — sikora2019, Results; Extended Data Fig. 3f; Supplementary Information 6, 7
+- The Mal'ta ANE lineage can be modelled as a descendant of the Ancient North Siberian lineage with a minor contribution related to Caucasus hunter-gatherers, so by about 31,600 years ago the ANE lineage may already have been distinct; Mal'ta shares more alleles with Yana than with other western Eurasian hunter-gatherers such as Sunghir. — sikora2019, Results; Extended Data Fig. 3e-f
+- After the Yana occupation there is an absence of archaeological sites in northeastern Siberia until late in the Last Glacial Maximum, and no genomes of that age have been recovered there, while Kolyma1 (9.8 thousand years old) documents the first major genetic shift as Ancient Paleosiberians. — sikora2019, Results
 
 **Caveats:**
 - Two individuals.
@@ -119,6 +146,12 @@ Hunter-gatherers of south-central Siberia, about 24,000–17,000 years ago. Ance
 **Evidence:**
 - MA-1 (Mal'ta, south-central Siberia, ~24,000 years ago) is basal to present-day western Eurasians and related to Native Americans, without close affinity to East Asians; Afontova Gora 2 (~17,000 years ago) shows similar ancestry. — raghavan2014, Abstract
 - Most present-day Europeans can be modelled with ancestry from three deeply differentiated sources: West European Hunter-Gatherers (WHG), Ancient North Eurasians (ANE) and Early European Farmers (EEF). — lazaridis2014, Abstract
+- The Mal'ta individual MA-1 has mitochondrial haplogroup U (also common in Upper Palaeolithic and Mesolithic European hunter-gatherers) and a basal Y haplogroup; a low-coverage post-Last-Glacial-Maximum individual from Afontova Gora-2 (about 17,000 years ago) has a similar signature, suggesting the region was occupied through the glacial maximum. — raghavan2014, Results; Supplementary Information 7-8
+- An estimated 14-38% of Native American ancestry may derive from gene flow from a population related to MA-1, after Native American ancestors diverged from East Asians and before they diversified; the range is wide and later studies model this differently. — raghavan2014, Abstract; main text
+- The Mal'ta ANE lineage can be modelled as a descendant of the Ancient North Siberian lineage with a minor contribution related to Caucasus hunter-gatherers, so by about 31,600 years ago the ANE lineage may already have been distinct; Mal'ta shares more alleles with Yana than with other western Eurasian hunter-gatherers such as Sunghir. — sikora2019, Results; Extended Data Fig. 3e-f
+- Mal'ta-related ancestry in present-day Europeans is due to migrations from the Eurasian steppe in the Neolithic and Bronze Age, not to structure within pre-Neolithic Europe; none of the Gravettian-associated Europeans shows a genetic link to Mal'ta, despite shared figurine styles. — fu2016, Results; Conclusions
+- 8,000–7,000 years ago, early farmers in Germany, Hungary and Spain were closely related to each other and distinct from local hunter-gatherers, while Russia was inhabited by hunter-gatherers (EHG) with high affinity to the 24,000-year-old Mal'ta individual. — haak2015, Abstract
+- Afontova Gora-2 is a low-coverage genome with substantial present-day DNA contamination, so conclusions about it rest on limited data. — raghavan2014, Results
 
 **Caveats:**
 - Three individuals.
@@ -137,6 +170,8 @@ People buried with Solutrean material in Iberia and southern France during the L
 
 **Evidence:**
 - Fournol-related ancestry persisted through the LGM in southwestern Europe in Solutrean- and then Magdalenian-associated individuals. — posth2023, Abstract
+- Two Solutrean-associated genomes (Le Piage II, 23,000 years ago, southwestern France; La Riera level 14, 21,000 years ago, northern Spain) show affinity to Fournol and GoyetQ2 clusters; Le Piage II is closer to the Fournol cluster than to the Vestonice cluster and is intermediate between Fournol and El Miron. — posth2023, Results, LGM in southwestern and western Europe
+- The Solutrean-associated Le Piage II individual links earlier Fournol ancestry with later El Miron ancestry, which the authors take as direct evidence of genetic continuity through the Last Glacial Maximum and of western Europe's role as a refugium. — posth2023, Results, LGM in southwestern and western Europe
 
 **Caveats:**
 - Very few individuals.
@@ -160,6 +195,11 @@ Hunter-gatherers buried with Magdalenian material, about 19,000–14,000 years a
 **Evidence:**
 - Genetically defined clusters, named after type sites: Věstonice (Gravettian-associated), Mal'ta, El Mirón (Magdalenian-associated, with affinity to GoyetQ116-1) and Villabruna (from ~14,000 years ago). — fu2016, Clustering section; Figs 2–3
 - Magdalenian-associated individuals are modelled as mixtures of Fournol- and Villabruna-related ancestry; El Mirón carries about 43% Villabruna-related ancestry, others 19–29%. — posth2023, Results; Fig. 4a
+- The GoyetQ2 cluster includes Magdalenian-associated individuals from western France to Poland in the period 18,000-15,000 years ago; the Fournol cluster is a better ancestral proxy than Goyet Q116-1, and El Miron (19,000 years ago) is the oldest Magdalenian-associated individual sequenced. — posth2023, Results, Post-LGM in western and central Europe
+- The El Miron cluster consists of 6 Late Glacial Magdalenian-associated individuals from 19,000-14,000 years ago, and at least half of their ancestry comes from the Goyet Q116-1 cluster. — fu2016, Results, Genetic clustering; Resurgence section
+- All Magdalenian-associated individuals carry Villabruna-related ancestry compared with the Fournol cluster; the authors say genomes from the earlier Badegoulian culture could clarify how GoyetQ2 formed, and read the spread of the Magdalenian as linked to northward and northeastward population expansions from western Europe rather than movements from southeastern refugia. — posth2023, Results; Discussion
+- Fournol-related ancestry persisted through the LGM in southwestern Europe in Solutrean- and then Magdalenian-associated individuals. — posth2023, Abstract
+- From at least 14,000 years ago, Villabruna/Oberkassel-related ancestry spread from the south across Europe, largely replacing Magdalenian-associated (GoyetQ2) ancestry. — posth2023, Abstract; Discussion
 
 ## Villabruna cluster (Epigravettian-associated) (`villabruna-epigravettian`)
 
@@ -173,12 +213,19 @@ Hunter-gatherers associated with the Epigravettian in Italy, sampled from about 
 
 **Membership rule:** `^Italy_.*Epigravettian`.
 
-**Matched (19 individuals, 7 sites):** Italy_Sicily_Epigravettian (11); Italy_Abruzzo_Epigravettian (4); Italy_NordEst_Epigravettian (1); Italy_FriuliVeneziaGiulia_Epigravettian (1); Italy_Sicily_Epigravettian_HG (1); Italy_Liguria_Epigravettian (1)
+**Matched (19 individuals, 7 sites):** Italy_Sicily_Epigravettian (11); Italy_Abruzzo_Epigravettian (4); Italy_Liguria_Epigravettian (1); Italy_FriuliVeneziaGiulia_Epigravettian (1); Italy_Sicily_Epigravettian_HG (1); Italy_NordEst_Epigravettian (1)
 
 **Evidence:**
 - From about 14,000 years ago a component related to present-day Near Easterners appears in Europe with the Villabruna cluster. — fu2016, Abstract; Villabruna section
 - Hunter-gatherer clusters before and after the LGM: Fournol (Gravettian-associated, western Europe, related to Aurignacian-associated Goyet Q116-1), Věstonice (Gravettian-associated, central and southern Europe), GoyetQ2 (Magdalenian-associated), Villabruna (Epigravettian-associated), Oberkassel (equated with WHG), and Sidelkino (renamed EHG). — posth2023, Introduction; Results; Fig. 2
 - From at least 14,000 years ago, Villabruna/Oberkassel-related ancestry spread from the south across Europe, largely replacing Magdalenian-associated (GoyetQ2) ancestry. — posth2023, Abstract; Discussion
+- Epigravettian-associated individuals analysed include 3 genomes of about 13,000 years ago (Pradis 1, Arene Candide 16, San Teodoro 2) and Tagliente 2 (17,000 years ago); all fall within the Villabruna cluster, are cladal and carry homogeneous ancestry, with structure reflecting geography more than time. — posth2023, Results, Post-LGM in the Italian peninsula; Fig. 3
+- Pradis 1 in northeastern Italy is the most basal Epigravettian-associated lineage and genetic diversity falls from north to south, lowest in Sicily where short runs of homozygosity indicate an effective population of about 70; the authors suggest northeastern Italy as the entry point and, with Near Eastern affinity, the Balkans as a source. — posth2023, Results, Post-LGM in the Italian peninsula; Discussion
+- From about 14,000 years ago the Villabruna cluster shows gene flow from a population related to present-day Near Easterners; this could reflect migration from the Near East or, as a plausible alternative, shifting balance among already structured European groups, and Caucasus hunter-gatherers (Satsurblia cluster) cannot be the direct source. — fu2016, Results, A drawing together of the ancestry of Europe and the Near East
+- A subset of Villabruna-cluster individuals, beginning with a 13,000-year-old Swiss sample, shares excess alleles with East Asians, which the authors attribute to gene flow between East Asian-related populations and ancestors of some Europeans. — fu2016, Results, A drawing together of the ancestry of Europe and the Near East
+- Vestonice-cluster ancestry was found without descendants in post-LGM populations of the same regions, and in Italy a genetic turnover replaced Gravettian-associated Vestonice ancestry with Epigravettian-associated Villabruna ancestry, which might correlate with archaeological discontinuities. — posth2023, Results, Post-LGM in the Italian peninsula; Discussion
+- Magdalenian-associated individuals are modelled as mixtures of Fournol- and Villabruna-related ancestry; El Mirón carries about 43% Villabruna-related ancestry, others 19–29%. — posth2023, Results; Fig. 4a
+- Eastern hunter-gatherer (EHG/Sidelkino) ancestry shows affinity to both Villabruna-related and Ancient North Eurasian ancestry. — posth2023, Results (hunter-gatherer ancestries after 14 ka)
 
 ## Western hunter-gatherers (WHG / Oberkassel cluster) (`whg`)
 
@@ -192,7 +239,7 @@ Hunter-gatherers of western and central Europe from about 14,000 years ago until
 
 *Late Glacial and Mesolithic hunter-gatherers west of the 'great divide'. Scandinavian, Baltic and Iron Gates hunter-gatherers, who carry mixed WHG/EHG ancestry, are not included.*
 
-**Matched (67 individuals, 44 sites):** France_Mesolithic (15); Spain_Mesolithic (14); Germany_GrossFredenwalde_Mesolithic (7); Netherlands_Mesolithic (6); Belgium_Mesolithic (3); England_Mesolithic (3); France_Occitanie_Gard_Mesolithic (3); Germany_Bottendorf_Mesolithic (2); Italy_Sicily_Mesolithic (2); Germany_Oberkassel_Federmesser_LMagdalenian (2); Germany_BadDurrenberg_Mesolithic (1); Germany_Spiekeroog_Mesolithic (1); Germany_FalkensteinHohle_Mesolithic (1); Spain_Azilian (1); Germany_Ofnet_Mesolithic (1); Germany_Urdhohle_Mesolithic (1); Switzerland_Epipaleolithic (1); Germany_Drigge_Mesolithic (1); Germany_Bockstein_Mesolithic (1); Germany_Criewen_Mesolithic (1)
+**Matched (67 individuals, 44 sites):** France_Mesolithic (15); Spain_Mesolithic (14); Germany_GrossFredenwalde_Mesolithic (7); Netherlands_Mesolithic (6); Belgium_Mesolithic (3); England_Mesolithic (3); France_Occitanie_Gard_Mesolithic (3); Germany_Bottendorf_Mesolithic (2); Germany_Oberkassel_Federmesser_LMagdalenian (2); Italy_Sicily_Mesolithic (2); Germany_BadDurrenberg_Mesolithic (1); Germany_Urdhohle_Mesolithic (1); Germany_Drigge_Mesolithic (1); Germany_Spiekeroog_Mesolithic (1); Germany_Criewen_Mesolithic (1); Germany_FalkensteinHohle_Mesolithic (1); Spain_Azilian (1); Switzerland_Epipaleolithic (1); Germany_Bockstein_Mesolithic (1); Germany_Ofnet_Mesolithic (1)
 
 **Evidence:**
 - Most present-day Europeans can be modelled with ancestry from three deeply differentiated sources: West European Hunter-Gatherers (WHG), Ancient North Eurasians (ANE) and Early European Farmers (EEF). — lazaridis2014, Abstract
@@ -201,6 +248,12 @@ Hunter-gatherers of western and central Europe from about 14,000 years ago until
 - A genetic boundary from the Black Sea to the Baltic separated differentiated hunter-gatherers; farming brought large ancestry shifts west of it and none of substance east of it in the same period. — allentoft2024, Abstract
 - European hunter-gatherers formed a west–east cline of ancestry. — mathieson2018, Abstract
 - Iberian hunter-gatherers showed strong substructure between the northwest and southeast before farming. — olalde2019, Abstract
+- The two Oberkassel individuals (14,000 years ago) mark the earliest WHG ancestry north of the Alps; the Oberkassel cluster is modelled as a roughly constant mix of about 75% Arene Candide 16 (Villabruna-related) and 25% GoyetQ2, or 90% and 10% with Fournol 85 as the other source. — posth2023, Results, Post-14 ka to Neolithic; Fig. 4b
+- Between 14,000 and 8,000 years ago all hunter-gatherers in western and central Europe carried only Oberkassel-cluster ancestry, with no detectable Sidelkino (EHG) contribution; from about 8,000 years ago EHG-related ancestry appears and reaches about 10% in most European hunter-gatherers. — posth2023, Results, Post-14 ka to Neolithic; Fig. 5; Extended Data Fig. 8
+- Middle Neolithic farmers of Germany and Spain carry about 18-34% more WHG-related ancestry than Early Neolithic ones, so hunter-gatherer ancestry returned into farming populations. — haak2015, Results
+- The youngest individual carrying large hunter-gatherer ancestry (more than 90% Oberkassel cluster plus Sidelkino-cluster parts) is from Ostorf, northern Germany, about 5,200 years ago; hunter-gatherer and farmer societies coexisted without admixing for several hundred years in central Europe. — posth2023, Results, Post-14 ka to Neolithic
+- In Iberia, the spread of Villabruna/Oberkassel ancestry involved multiple local admixture events with groups carrying high proportions of GoyetQ2 ancestry, unlike the homogeneous Oberkassel profile found in the rest of western and central Europe and Britain. — posth2023, Results, Post-14 ka to Neolithic
+- Loschbour, a hunter-gatherer from Luxembourg about 8,000 years ago, has lower heterozygosity than any present-day human, reflecting a strong bottleneck in his ancestors. — lazaridis2014, Results; Fig. 1
 
 **Caveats:**
 - Iberian hunter-gatherers show their own northwest–southeast substructure (Olalde 2019).
@@ -224,6 +277,12 @@ Hunter-gatherers of the eastern European forest zone, about 11,000–7,000 years
 - Hunter-gatherer clusters before and after the LGM: Fournol (Gravettian-associated, western Europe, related to Aurignacian-associated Goyet Q116-1), Věstonice (Gravettian-associated, central and southern Europe), GoyetQ2 (Magdalenian-associated), Villabruna (Epigravettian-associated), Oberkassel (equated with WHG), and Sidelkino (renamed EHG). — posth2023, Introduction; Results; Fig. 2
 - A genetic boundary from the Black Sea to the Baltic separated differentiated hunter-gatherers; farming brought large ancestry shifts west of it and none of substance east of it in the same period. — allentoft2024, Abstract
 - European hunter-gatherers formed a west–east cline of ancestry. — mathieson2018, Abstract
+- The Yuzhniy Oleniy Ostrov group from Karelia (about 8,200 years ago, 19 genomes) is indistinguishable from the oldest Sidelkino-cluster individual, 11,000-year-old Sidelkino from Samara; Sidelkino-cluster individuals show higher frequencies of mitochondrial haplogroups U2, U4 and R1b and uniquely Y haplogroups Q, R and J. — posth2023, Results, Post-14 ka to Neolithic; Extended Data Figs. 1-2
+- Eastern hunter-gatherer (EHG/Sidelkino) ancestry shows affinity to both Villabruna-related and Ancient North Eurasian ancestry. — posth2023, Results (hunter-gatherer ancestries after 14 ka)
+- Eastern hunter-gatherer (Sidelkino-cluster) ancestry is a mixture of Villabruna/Oberkassel and ancient north Eurasian ancestry, dated by admixture analysis to about 15,000-13,000 years ago in old Sidelkino-cluster individuals (Peschanitsa 13,000 years ago, Minino 11,000 years ago), which also show extra Oberkassel affinity, possibly because the mix varied while the profile was forming. — posth2023, Results, Post-14 ka to Neolithic; Extended Data Fig. 7
+- From about 8,000 years ago, Sidelkino (EHG)-related ancestry appears at about 10% in central European hunter-gatherers, and Oberkassel-related ancestry reaches the upper Volga by at least 7,500 years ago. — posth2023, Results; Extended Data Fig. 8
+- Eneolithic people north of the Caucasus form three clines: Caucasus–Lower Volga (CLV, rich in CHG-related ancestry), Volga (CLV mixed with EHG, e.g. Khvalynsk), and Dnipro (CLV mixed with Ukraine Neolithic hunter-gatherers, e.g. Serednii Stih). — lazaridis2025, Abstract
+- Oberkassel-related ancestry appears in eastern European hunter-gatherers by about 7,500 years ago at Minino I and Yazykovo in the upper Volga region, though reservoir effects may make radiocarbon dates there up to about 500 years too old. — posth2023, Results, Post-14 ka to Neolithic
 
 ## Caucasus hunter-gatherers (CHG) (`chg`)
 
@@ -242,6 +301,12 @@ Hunter-gatherers of western Georgia, about 13,300 and 9,700 years ago, who form 
 **Evidence:**
 - Caucasus hunter-gatherers (Satsurblia ~13,300 years ago, Kotias Klde ~9,700 years ago, western Georgia) form a distinct ancient clade. — jones2015, Abstract
 - Model-based split times: CHG from WHG about 45,000 years ago, and from the ancestors of Neolithic farmers about 25,000 years ago. — jones2015, Abstract
+- Satsurblia (13,132-13,380 years ago, 1.4x coverage) and Kotias Klde (9,529-9,895 years ago, 15.4x coverage) are two males from western Georgia who form a clade excluding other pre-Bronze Age genomes, showing continuity between the Late Upper Palaeolithic and the Mesolithic there. — jones2015, Results; Fig. 1
+- Model-based splits (G-PhoCS) place the separation of western hunter-gatherers from the ancestors of Caucasus hunter-gatherers and farmers at about 40-50,000 years ago, and CHG from early farmers at about 25,000 years ago. — jones2015, Results; Fig. 2b; Supplementary Table 5
+- Present-day southern Caucasus populations are the closest to Caucasus hunter-gatherers, suggesting regional continuity of about 13,000 years; CHG and early farmers form a clade relative to western hunter-gatherers, and CHG show a high frequency of long runs of homozygosity, indicating a small population. — jones2015, Results; Figs. 1-4
+- CHG-related ancestry contributed significantly to Yamnaya-associated steppe herders. — jones2015, Abstract
+- Eneolithic people north of the Caucasus form three clines: Caucasus–Lower Volga (CLV, rich in CHG-related ancestry), Volga (CLV mixed with EHG, e.g. Khvalynsk), and Dnipro (CLV mixed with Ukraine Neolithic hunter-gatherers, e.g. Serednii Stih). — lazaridis2025, Abstract
+- The Satsurblia-cluster Caucasus hunter-gatherers (13,000-10,000 years ago) are related to the population that contributed new alleles to the Villabruna cluster, but cannot be the direct source because they carry large Basal Eurasian ancestry while Villabruna-cluster individuals do not. — fu2016, Results, A drawing together of the ancestry of Europe and the Near East
 
 **Caveats:**
 - Three individuals.
@@ -260,6 +325,8 @@ People buried at Taforalt cave in Morocco about 15,000 years ago, with Iberomaur
 
 **Evidence:**
 - Seven ~15,000-year-old Iberomaurusian-associated individuals from Taforalt (Morocco) show affinity with Natufians, no gene flow from Palaeolithic Europeans, and about one-third sub-Saharan African-related ancestry. — vandeloosdrecht2018, Abstract
+- Seven Iberomaurusian-associated individuals about 15,000 years old from Taforalt, Morocco were studied; they have genetic affinity with early Holocene Near Easterners, best represented by Natufians, show no evidence of gene flow from Palaeolithic Europeans, and carry about one third sub-Saharan African-related ancestry. — vandeloosdrecht2018, Abstract
+- The sub-Saharan African-related ancestry in the Taforalt individuals is best approximated by a mixture of components found in present-day West and East Africans, and the study reports that the individuals link Near Eastern and sub-Saharan African populations. — vandeloosdrecht2018, Abstract
 
 **Caveats:**
 - Claims verified against the abstract only.

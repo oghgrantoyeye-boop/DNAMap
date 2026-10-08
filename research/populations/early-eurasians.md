@@ -21,6 +21,9 @@ A small population of early modern humans known from two sites in central Europe
 **Evidence:**
 - Individuals from Ranis (Germany) and Zlatý kůň (Czechia), about 45,000 years old, belong to one small, closely related population that is the earliest split from the out-of-Africa population sampled so far and shows no continuity with later Europeans. — sumer2024, Abstract; main text
 - The Neandertal ancestry of the Zlatý kůň/Ranis population comes from the admixture shared by all non-Africans, dated to 45,000–49,000 years ago. — sumer2024, Main text, dating section
+- One 24-fold Ranis genome (Ilsenhohle, Germany) and one 20-fold Zlaty kun genome (Czechia) were sequenced, with five low-coverage Ranis genomes; six Ranis individuals are identified, including a mother and daughter, and distant relatives link Zlaty kun to Ranis individuals (fifth- or sixth-degree). — sumer2024, Main; Kinship and uniparental markers; Linking Zlaty kun and Ranis
+- The deepest split from the Out-of-Africa lineage that is sampled so far: the common branch of Ranis13 and Zlaty kun separates earlier than the lineage leading to Bacho Kiro and Ust'-Ishim; Y haplogroups of two Ranis males are NO (K2a), like Ust'-Ishim. — sumer2024, Linking Zlaty kun and Ranis; Kinship and uniparental markers
+- Ranis and Zlaty kun are modelled as a small population (effective size around 300, with about 160 in the last 15 generations) with no detectable contribution to later hunter-gatherers; the Ranis13 radiocarbon date is about 45,000 years, the Zlaty kun skull could not be reliably dated directly and its age comes from IBD sharing and Neandertal segment length; an earlier report of Zlaty kun ancestry in Buran Kaya III individuals in Crimea could not be reproduced. — sumer2024, Population size; Population continuity; Dating Zlaty kun
 
 ## Bacho Kiro IUP-associated individuals (`bacho-kiro-iup`)
 
@@ -40,6 +43,9 @@ Individuals from Bacho Kiro Cave in Bulgaria, about 46,000–43,000 years ago, b
 
 **Evidence:**
 - Three individuals from Bacho Kiro Cave (Bulgaria), dated ~45,900–42,600 years ago and associated with an Initial Upper Palaeolithic assemblage, are more closely related to later East Asians and Native Americans than to later western Eurasians, and each had a Neandertal ancestor a few generations back. — hajdinjak2021, Abstract
+- The Bacho Kiro specimens come from Layers J and I in direct association with an Initial Upper Palaeolithic assemblage, dated 45,930-42,580 cal BP; it is debated whether the IUP, which spans southwest Asia to Mongolia, represents a dispersal of modern humans, the diffusion of technological ideas, independent invention or a combination. — hajdinjak2021, Methods; Results
+- The three IUP individuals (F6-620, BB7-240, CC7-335) carried 3.0-3.8% Neandertal DNA, more than the 1.9% average of other ancient or present-day humans; their longest Neandertal segments imply Neandertal ancestors less than six generations back (F6-620) and about seven generations back (the others), with upper limits of ten and seventeen generations. — hajdinjak2021, Results; Extended Data Table 2
+- Admixture graphs relate the IUP Bacho Kiro individuals to populations that contributed ancestry to Tianyuan and, less, to Goyet Q116-1 and Ust'-Ishim, resolving the Tianyuan-Goyet link without direct gene flow between the two; the later BK1653 individual (about 35,000 years old) is more like later Europeans. — hajdinjak2021, Results; Fig. 2d
 
 ## Ust'-Ishim individual (`ust-ishim`)
 
@@ -56,6 +62,11 @@ A single man who lived about 45,000 years ago in western Siberia. His genome com
 **Evidence:**
 - Ust'-Ishim (~45,000 years old, western Siberia) belonged to a population that lived before or around the separation of western and eastern Eurasians. — fu2014, Abstract
 - Ust'-Ishim's Neandertal segments are longer than in present-day people, placing the Neandertal gene flow about 7,000–13,000 years before he lived. — fu2014, Abstract; main text
+- A high-quality genome of a man from the banks of the Irtysh near Ust'-Ishim in western Siberia, whose femur was radiocarbon dated to about 45,000 cal BP (46,880-43,210), has heterozygosity (7.7 per 10,000) more similar to present-day Eurasians than to Africans. — fu2014, Results
+- His genome carries a similar Neandertal share to present-day Eurasians but with much longer segments, implying that Neandertal gene flow occurred 7,000-13,000 years before he lived; he derives from a population that lived before or around the separation of western and eastern Eurasians. — fu2014, Abstract
+- Ust'-Ishim and Oase 1 show no more affinity to western than to eastern Eurasians, suggesting that they did not contribute ancestry to later Eurasian populations. — hajdinjak2021, Results
+- The deepest split from the Out-of-Africa lineage that is sampled so far: the common branch of Ranis13 and Zlaty kun separates earlier than the lineage leading to Bacho Kiro and Ust'-Ishim; Y haplogroups of two Ranis males are NO (K2a), like Ust'-Ishim. — sumer2024, Linking Zlaty kun and Ranis; Kinship and uniparental markers
+- Ranis and Zlaty kun are modelled as a small population (effective size around 300, with about 160 in the last 15 generations) with no detectable contribution to later hunter-gatherers; the Ranis13 radiocarbon date is about 45,000 years, the Zlaty kun skull could not be reliably dated directly and its age comes from IBD sharing and Neandertal segment length; an earlier report of Zlaty kun ancestry in Buran Kaya III individuals in Crimea could not be reproduced. — sumer2024, Population size; Population continuity; Dating Zlaty kun
 
 **Caveats:**
 - A single individual: a population of one is a placeholder for an otherwise unsampled group.
@@ -74,6 +85,10 @@ An early modern human from Peştera cu Oase, Romania, about 40,000 years ago, wi
 
 **Evidence:**
 - Oase 1 (Romania, ~37,000–42,000 years old) has about 6–9% Neandertal DNA, implying a Neandertal ancestor 4–6 generations back, and shows no special relationship to later Europeans. — fu2015, Abstract
+- The Oase 1 individual (37,000-42,000 years old, Romania) has six to nine percent Neandertal-derived DNA; three segments over 50 centimorgans long imply a Neandertal ancestor four to six generations back; only small amounts of human DNA were available, so an enrichment strategy was used. — fu2015, Abstract
+- Oase 1 carried 6.4% (95% CI 5.7-7.1%) Neandertal DNA in a re-analysis alongside the Bacho Kiro individuals, more than the 1.9% average of other ancient or present-day humans. — hajdinjak2021, Results
+- The three early Bacho Kiro individuals each had a Neandertal ancestor only a few generations back (under six generations for one and about seven for the other two, with upper limits of ten to seventeen), confirming that the first modern humans in Europe mixed with Neandertals. — hajdinjak2021, Abstract; Results
+- Ust'-Ishim and Oase 1 show no more affinity to western than to eastern Eurasians, suggesting that they did not contribute ancestry to later Eurasian populations. — hajdinjak2021, Results
 
 **Caveats:**
 - A single individual.
@@ -93,6 +108,10 @@ A man who lived about 40,000 years ago near present-day Beijing, more closely re
 
 **Evidence:**
 - Tianyuan (~40,000 years old, China) is more related to Asians than to Europeans but shares extra alleles with Goyet Q116-1 (~35,000 years old, Belgium), so early European and Asian populations did not separate in one clean split. — yang2017, Summary
+- Genome-wide data enriched at 3.7 million SNPs gave 2.98-fold average coverage for the Tianyuan individual (about 40,000 years old); he is not from a population directly ancestral to any present-day East or Southeast Asian group tested, but from one that diverged before. — yang2017, Results
+- The Tianyuan individual carried about 4-5% Neandertal DNA, similar to other Upper Palaeolithic Eurasians and higher than present-day Eurasians (1-2%); Denisovan ancestry at Oceanian levels was not detected; he shares more alleles with Surui, Karitiana and Chane in South America than with other Native Americans. — yang2017, Results
+- Several distinct populations existed in Eurasia before 35,000 years ago: one represented by Kostenki 14 contributed to present-day Europeans, one represented by Tianyuan to present-day East and Southeast Asians, and others (Ust'-Ishim, Oase 1) did not contribute detectably. — yang2017, Results and Discussion
+- Admixture graphs relate the IUP Bacho Kiro individuals to populations that contributed ancestry to Tianyuan and, less, to Goyet Q116-1 and Ust'-Ishim, resolving the Tianyuan-Goyet link without direct gene flow between the two; the later BK1653 individual (about 35,000 years old) is more like later Europeans. — hajdinjak2021, Results; Fig. 2d
 
 **Caveats:**
 - A single individual.

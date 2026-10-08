@@ -1,0 +1,509 @@
+{
+  "group": "americas",
+  "evidence": [
+    {
+      "id": "ev-sikora2019-am1",
+      "source_id": "sikora2019",
+      "claim": "In a demographic model of Kolyma1, the Ancient Beringian USR1 and a present-day Karitiana genome, the ancestors of all three split about 30,000 years ago (95% CI 26.8-36.4) from East Asians, Kolyma1 split from the Ancient Beringian/Native American ancestors about 24,000 years ago, and ANS-related gene flow of about 18% (USR1) reached them about 20,000 years ago.",
+      "location": "Results; Fig. 2; Supplementary Information 7",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies",
+      "note": "A model with dates that differ from the Moreno-Mayar 2018 model."
+    },
+    {
+      "id": "ev-sikora2019-am2",
+      "source_id": "sikora2019",
+      "claim": "The models suggest a refugium across southern Beringia during the Last Glacial Maximum; the authors describe a possible scenario in which early Ancient North Siberian-related groups met East Asian-related people there, and Ancient Beringians diverged from ancestral Native Americans in eastern Beringia, but offer an alternative.",
+      "location": "Results; Extended Data Fig. 8",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-raghavan2015-am1",
+      "source_id": "raghavan2015",
+      "claim": "Athabascans and Anzick-1 belong to the same initial migration wave as Amerindians; the authors think divergence of the Athabascan and Amerindian lineages was more likely in lower-latitude North America than in Alaska, a suggestion based on equidistant split times, the short interval before Anzick-1's age, and its location south of the ice sheets.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-rasmussen2014-am1",
+      "source_id": "rasmussen2014",
+      "claim": "Population structure between the northern (NA) and southern (SA) Native American lineages predates Anzick-1, which was on or near the SA lineage; the ANE-related gene flow into Native American ancestors happened before the NA and SA groups diverged.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am1",
+      "source_id": "posth2018",
+      "claim": "USR1, an Ancient Beringian from Alaska of about 11,500 years ago, derives from a lineage that split from the one leading to all other known Native Americans before they separated from each other.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Citing Moreno-Mayar 2018a; used here as a reference group."
+    },
+    {
+      "id": "ev-rasmussen2014-am2",
+      "source_id": "rasmussen2014",
+      "claim": "The Anzick-1 genome (male infant, bones dated 12,707-12,556 cal BP and directly associated with Clovis tools) was sequenced to 14.4x coverage; mitochondrial haplogroup D4h3a and Y haplogroup Q-L54*(xM3) were identified.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-rasmussen2014-am3",
+      "source_id": "rasmussen2014",
+      "claim": "Anzick-1 shows closer affinity to all 52 Native American groups tested than to any present-day Eurasian population, less shared history with seven northern groups than with 44 Central and South American groups, and is compatible with belonging to a population directly ancestral to Karitiana and Maya; the authors say the Solutrean hypothesis for Clovis origins is not supported.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am2",
+      "source_id": "posth2018",
+      "claim": "Anzick-1 relatedness is greatest in Central and South Americans and lowest in North American groups; it is shared more by the ~10,900-year-old Los Rieles (Chile), ~9,600-year-old Lapa do Santo (Brazil) and later Central Andes individuals than by other South Americans.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am3",
+      "source_id": "posth2018",
+      "claim": "The study reports 49 individuals in four time transects (Belize, Brazil, Central Andes, Southern Cone), each starting between 10,900 and 8,600 years ago; the oldest individuals show little specific allele sharing with present-day people (for example ~10,900-year-old Los Rieles in Chile, ~9,600-year-old Lapa do Santo in Brazil, ~9,300 and ~7,400-year-old sites in Belize).",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am4",
+      "source_id": "posth2018",
+      "claim": "Nine ancient Native American groups fit as a star-like radiation from a single source population, with a five-way split among early Belizean, Peruvian, Southern Cone, Lapa do Santo and Los Rieles lineages whose order cannot be resolved, suggesting rapid radiation of the main lineage ancestral to later South Americans.",
+      "location": "Results; Fig. 3; Fig. S5",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am5",
+      "source_id": "posth2018",
+      "claim": "The oldest Belize individual has weak evidence of more Anzick-1 relatedness than later Belize individuals (Z=2.1); the authors say the data are consistent either with pre-Clovis movement of a non-Anzick-related ancestry (such as at Monte Verde) or with nearly all South American ancestry deriving from movements out of North America after Clovis.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-posth2018-am6",
+      "source_id": "posth2018",
+      "claim": "No statistic testing for Australasian or Paleolithic East Asian affinity ('Population Y') was significant in any ancient Central or South American individual, including the Lapa do Santo individuals with 'Paleoamerican' cranial morphology, so the origin of the signal in present-day Surui remains unexplained.",
+      "location": "Results; Table S6",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-nakatsuka2020-am1",
+      "source_id": "nakatsuka2020",
+      "claim": "The study assembled 89 individuals from the Central and South-Central Andes dating about 9,000-500 years ago (65 newly reported) from highland and coastal contexts of the Wari, Tiwanaku, Moche, Inca and other cultures.",
+      "location": "Results; Summary",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020-am2",
+      "source_id": "nakatsuka2020",
+      "claim": "Northern and southern highland lineages must have split at least about 5,800 years ago, and gene flow occurred between North and South Highlands and between Highlands and Coast; the oldest highland individuals (Lauricocha ~8,600 BP) were already distinct from coastal groups.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020-am3",
+      "source_id": "nakatsuka2020",
+      "claim": "After about 2,000 years ago, genetic homogeneity within most regions persisted through changes of archaeological culture (for example Moche to Lambayeque and Wari influence), and present-day Indigenous groups cluster with ancient individuals from their region, though the authors note this concerns genetic continuity, not language.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nakatsuka2020-am4",
+      "source_id": "nakatsuka2020",
+      "claim": "Long-range mobility and genetic heterogeneity are documented at Tiwanaku and, in the Inca period, in the Cusco and Sacred Valley regions; pre-Hispanic Cusco individuals are less related to present-day Cusco individuals than to groups outside the region, with several possible explanations.",
+      "location": "Results, Cosmopolitanism during the Tiwanaku and Inca periods",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am7",
+      "source_id": "posth2018",
+      "claim": "The oldest Peruvian individuals (up to about 9,000 years ago, Cuncaicha and Lauricocha) share alleles at the highest rate with present-day Indigenous groups of the Central Andes.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018-am8",
+      "source_id": "posth2018",
+      "claim": "One stream of gene flow, with a distinctive affinity to ~4,900-year-old individuals from San Nicolas Island (California), is present in the Central Andes by about 4,200 years ago.",
+      "location": "Results; Fig. S5",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-fernandes2021-am1",
+      "source_id": "fernandes2021",
+      "claim": "The Greater Antilles Archaic clade includes 50 Cuban individuals dated about 3,200-700 cal BP plus one Dominican individual; it shares most genetic drift with Indigenous groups from Central and northern South America, with no excess sharing with Mesoamerican or North American groups, and there is no support for earlier claims of North American-related ancestry.",
+      "location": "Results; Fig. 2",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-fernandes2021-am2",
+      "source_id": "fernandes2021",
+      "claim": "In western Cuba, Archaic lineages persisted with minimal mixture for more than 2,500 years, while effective population sizes were small: about 200-300 for Archaic-associated sites against 500-1,500 for Ceramic-associated sites.",
+      "location": "Results; Extended Data Table 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-fernandes2021-am3",
+      "source_id": "fernandes2021",
+      "claim": "The Caribbean was first settled about 6,000 years ago, with a shift from the Archaic to the Ceramic Age around 2,500 years ago; Archaic lineages were more than 98% replaced by a homogeneous ceramic-using population.",
+      "location": "Abstract",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-fernandes2021-am4",
+      "source_id": "fernandes2021",
+      "claim": "Caribbean Ceramic-associated people (194 individuals dated about 1,700-400 cal BP) are genetically homogeneous; ADMIXTURE suggests an Arawak affinity, but f4 statistics show no significant closeness to Arawak-speaking over Cariban- or Tupian-speaking groups, and ancient Venezuelans at Las Locas (about 2,350 years ago) fit as a clade with present-day Cabecar, giving the Ceramic expansion more easterly origins.",
+      "location": "Results; Fig. 2; Extended Data Fig. 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-fernandes2021-am5",
+      "source_id": "fernandes2021",
+      "claim": "Archaic-related ancestry in Ceramic-associated people of the Greater Antilles and The Bahamas is estimated at about 0.5-2.0%, though three individuals in Hispaniola carry 11.8-18.5%; the Ceramic ancestry spread south to north, as models with the Lesser Antilles as the source of Greater Antillean groups fit.",
+      "location": "Results; Tables S9, S12-13, S21",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-fernandes2021-am6",
+      "source_id": "fernandes2021",
+      "claim": "No genetic evidence was found for a separate Carib migration around 1,150 years ago, though only 2-8% such ancestry could be detected with the proxies used; Ceramic Age effective population size was about 500-1,500, and 19 pairs of cross-island cousins show an interconnected population.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-fernandes2021-am7",
+      "source_id": "fernandes2021",
+      "claim": "Present-day Puerto Ricans show relatedness to Ceramic-associated individuals (|Z| of 3.4 and 4.6 in two datasets), consistent with entirely Ceramic-related but not entirely Archaic-related Indigenous ancestry.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Inference from present-day genomes."
+    }
+  ],
+  "populations": {
+    "first-americans-founders": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This is a modelled population, not a sampled one. It stands for the shared ancestors of Ancient Beringians and all other Native Americans, after they separated from East Asian-related populations and received ancestry related to Ancient North Eurasians. Genetics does not locate where these ancestors lived. The group is inferred from the ancient genomes of Upward Sun River, Anzick-1 and later Americans.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-raghavan2014-2"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Dates differ between models. One model has the split from East Asians about 36,000 years ago and branching of the northern and southern Native American lines 17,500-14,600 years ago. Another places the split about 30,000 years ago. Raghavan and colleagues find a single migration wave from Siberia no earlier than 23,000 years ago. Where the ancestors lived is not known from genetics.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-sikora2019-am1",
+            "ev-raghavan2015-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The founders are modelled as East Asian-related ancestry plus a share related to Ancient North Eurasians such as the Mal'ta individual, estimated at 14-38% of Native American ancestry in one study. This mixing happened before the northern and southern branches diverged. Native Americans diversified into two basal branches around 13,000 years ago in another analysis.",
+          "evidence_ids": [
+            "ev-raghavan2014-2",
+            "ev-raghavan2015-2",
+            "ev-rasmussen2014-am1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The models disagree on dates and on where branching happened: eastern Beringia or lower-latitude North America. The 36,000-year figure rests on an abstract-only reading of one paper. These ancestors are a ghost population: nobody from this stage has been sequenced. Later gene flow also complicates the picture.",
+          "evidence_ids": [
+            "ev-sikora2019-am1",
+            "ev-sikora2019-am2",
+            "ev-raghavan2015-am1",
+            "ev-morenomayar2018a-2"
+          ]
+        }
+      ]
+    },
+    "ancient-beringians": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Ancient Beringians are known from infants buried at Upward Sun River in interior Alaska about 11,500 years ago. Their genome (USR1) is basal to all other Native Americans: it branches off before those lineages separated from each other. The group is defined by two infants at a single site.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In one model, Ancient Beringians branched from the founding Native American population about 22,000-18,000 years ago. Another model finds that ancient Siberian ancestry related to the Ancient North Siberians (Yana) contributed about 18% (95% CI 9.8-20.3) to USR1. The two models give different dates.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-sikora2019-am1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Only two infants from one site represent the group. Claims about the group rely on an abstract-only reading of the main paper. Where the split took place is uncertain: one study suggests eastern Beringia, another lower-latitude North America. The 22,000-18,000-year branching is the output of one model.",
+          "evidence_ids": [
+            "ev-sikora2019-am2",
+            "ev-morenomayar2018a-2",
+            "ev-raghavan2015-am1"
+          ]
+        }
+      ]
+    },
+    "clovis-anzick": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Anzick-1 is an infant boy buried with Clovis stone tools and red ochre at the Anzick site in Montana about 12,600 years ago. He is the only known Clovis burial. His genome was sequenced to 14.4x coverage. The remains are those of a single individual, so he cannot represent everyone who used Clovis tools.",
+          "evidence_ids": [
+            "ev-rasmussen2014-1",
+            "ev-rasmussen2014-am2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Anzick-1 is more closely related to all Indigenous Americans than to any other group, and shares the ancient North Eurasian-related ancestry that entered Native American ancestors before about 12,600 years ago. He has less shared history with northern groups in Canada and the Arctic than with Central and South Americans. The data fit his belonging to a population ancestral to many present-day Native Americans.",
+          "evidence_ids": [
+            "ev-rasmussen2014-1",
+            "ev-rasmussen2014-2",
+            "ev-rasmussen2014-am3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Structure between northern and southern Native American lineages predates Anzick-1. His relatedness is greatest in Central and South Americans, and the oldest individuals from Chile, Brazil and Belize share an affinity with him that later South Americans lack. This links the Clovis-associated genome to some early Central and South Americans.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am1",
+            "ev-posth2018-am2",
+            "ev-posth2018-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "A single infant cannot show how varied Clovis-associated people were. The affinity of early South Americans to Anzick-1 does not by itself show that Clovis people moved south, and Posth and colleagues say other scenarios also fit. Several different branching scenarios are compatible with the data.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am3",
+            "ev-posth2018-am2",
+            "ev-posth2018-4"
+          ]
+        }
+      ]
+    },
+    "early-central-south-americans": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups the oldest sampled people of Belize, Brazil, Chile, Peru and Argentina, from before about 8,000 years ago, by region and date only. They do not form one genetic cluster. The 2018 study reports 49 individuals in four time series, each starting 10,900-8,600 years ago. Data labels from Belize contain a later cultural name that we keep as data only.",
+          "evidence_ids": [
+            "ev-posth2018-2",
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The oldest individuals show little specific allele sharing with present-day people. Nine ancient groups fit as a star-like radiation from one source population on the southern Native American branch, with the order of early lineages unresolved. Some of the earliest, at Los Rieles in Chile and Lapa do Santo in Brazil, share more alleles with Anzick-1 than later South Americans do.",
+          "evidence_ids": [
+            "ev-posth2018-2",
+            "ev-posth2018-am3",
+            "ev-posth2018-am4",
+            "ev-posth2018-am2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Central and South Americans radiated rapidly from one of the two early Native American branches. Later South Americans derive from lineages without a specific Clovis affinity, which the authors read as a population replacement beginning at least 9,000 years ago followed by regional continuity; no single proportion is given. A second stream of gene flow reached the Central Andes by about 4,200 years ago.",
+          "evidence_ids": [
+            "ev-posth2018-2",
+            "ev-posth2018-4",
+            "ev-posth2018-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The Anzick-1 link can be read in two ways: movement out of North America after Clovis, or an earlier, pre-Clovis arrival of non-Anzick ancestry. No ancient individual shows the Australasian-related signal found in some present-day Amazonian groups. The groups are small and span thousands of kilometres, so they should not be read as a single people.",
+          "evidence_ids": [
+            "ev-posth2018-am5",
+            "ev-posth2018-am6",
+            "ev-posth2018-am3"
+          ]
+        }
+      ]
+    },
+    "central-andes": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups people from the Andean highlands and Pacific coast of Peru and Bolivia over the last 9,000 years by region. The 2020 study reports 89 individuals dated 9,000-500 years ago from many cultural contexts, including Wari, Tiwanaku, Moche and Inca sites. It does not describe one population but a region's changing communities.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Present-day Andean genetic structure began forming by about 5,800 years ago: northern and southern highland lineages had separated by then, with gene flow between highlands and coast afterwards. The oldest Peruvian individuals, about 9,000 years old, share most with present-day Indigenous groups of the Central Andes. After about 2,000 years ago, regions stayed genetically homogeneous.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am2",
+            "ev-posth2018-am7",
+            "ev-nakatsuka2020-am3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A stream of gene flow with an affinity to ancient individuals of the California Channel Islands reached the Central Andes by about 4,200 years ago. Between 2,000 and 500 years ago neighbouring groups show minimal admixture, but Tiwanaku and the Inca heartland were cosmopolitan: people of diverse ancestries lived side by side. Present-day groups resemble ancient individuals of their region.",
+          "evidence_ids": [
+            "ev-posth2018-3",
+            "ev-posth2018-am8",
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am4",
+            "ev-nakatsuka2020-am3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The panel combines regions that differ genetically, so one average would mislead. Sampling is uneven: the oldest highland people are few. Gene flow directions between North and South Highlands could not be determined. The match between ancient and present-day groups concerns genetics only, not language or identity. The reason Cusco individuals differ from present-day Cusco people is an open question.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am2",
+            "ev-nakatsuka2020-am3",
+            "ev-nakatsuka2020-am4"
+          ]
+        }
+      ]
+    },
+    "caribbean-archaic": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Archaic Age people were the first inhabitants of the Caribbean, before the Ceramic Age. The Caribbean was first settled about 6,000 years ago. The 2021 study analysed 50 Archaic-associated individuals from Cuba, dated about 3,200-700 years ago, plus one from the Dominican Republic. Effective population sizes were small, about 200-300.",
+          "evidence_ids": [
+            "ev-fernandes2021-2",
+            "ev-fernandes2021-am1",
+            "ev-fernandes2021-am3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Archaic Age Caribbean people derive from a deeply divergent population closest to Central and northern South Americans. They show no excess sharing with Mesoamerican or North American groups, and the study found no support for earlier claims of ancestry from a population related to North Americans. Archaic individuals in Cuba share more with each other than with the Dominican individual.",
+          "evidence_ids": [
+            "ev-fernandes2021-2",
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Most Archaic ancestry was displaced when ceramic users arrived: Archaic lineages were more than 98% replaced by a homogeneous ceramic-using population in much of the Caribbean. An exception is western Cuba, where Archaic lineages persisted with minimal mixture for over 2,500 years.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Most Archaic genomes come from Cuba, so other islands are thinly sampled and one Dominican individual stands for Hispaniola. Closeness to Central and northern South Americans does not locate the origin. Population sizes are estimates from genetic data with wide ranges.",
+          "evidence_ids": [
+            "ev-fernandes2021-am1",
+            "ev-fernandes2021-am2"
+          ]
+        }
+      ]
+    },
+    "caribbean-ceramic": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Ceramic Age people were the pottery-making farmers of the Caribbean from at least 1,700 years ago. The 2021 study analysed 194 individuals dated about 1,700-400 years ago from the Bahamas, Hispaniola, Puerto Rico and Cuba. They were genetically homogeneous, with effective population size of about 500-1,500 and 19 pairs of cross-island cousins.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am4",
+            "ev-fernandes2021-am6"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Ceramic Age people carry almost none of the earlier Archaic ancestry: about 0.5-2.0% overall, with three individuals in Hispaniola at 11.8-18.5%. They fit a source like the Lesser Antilles ceramic population, which spread south to north. Admixture analysis suggests an Arawak affinity, but another test does not show Arawak speakers closer than Cariban or Tupian ones.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am5",
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Archaic Age lineages were more than 98% replaced by this population in much of the Caribbean. Pottery-style changes within the Ceramic Age were not driven by migration of genetically distinct groups. Present-day Puerto Ricans show relatedness to Ceramic-associated individuals in two datasets, an inference from modern genomes.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-4",
+            "ev-fernandes2021-am5",
+            "ev-fernandes2021-am7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The Arawak connection depends on the method used, and the proxies may not match the real source. The study could not detect a Carib migration contributing under 2-8%. Estimates of population size are lower bounds from genetic data. The Venezuelan sample is eight individuals.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4",
+            "ev-fernandes2021-am6"
+          ]
+        }
+      ]
+    }
+  },
+  "concerns": [
+    "first-americans-founders: the caveat and evidence mix an abstract-only demographic model (Moreno-Mayar 2018a: split ~36 ka) with Sikora 2019's full-text model (split ~30 ka) and Raghavan 2015 ('no earlier than 23 ka'); the time_range -34050..-12650 follows the first only. These estimates are model outputs that disagree, not one result.",
+    "ancient-beringians: the description says 'two infants' but the only evidence (ev-morenomayar2018a-1) names USR1 and is abstract-only; the full text was not available (Nature, not open access).",
+    "clovis-anzick: ev-rasmussen2014-1 states the infant is 'more closely related to all Indigenous American populations than to any other group'; the cluster label 'Anzick-1 (Clovis-associated)' makes a single individual look like a population.",
+    "early-central-south-americans: the 'Archaic_Maya' label note is in the caveats; also the panel is explicitly not a genetic cluster but is typed 'geographic_population' while carrying a rel 'shared_ancestry' to Anzick-1 that is partial (Los Rieles, Lapa do Santo, oldest Belize only).",
+    "caribbean-ceramic: the description says the population is 'related to Arawak-speaking groups'; Fernandes 2021's f4 tests do not support closeness to Arawak speakers over Cariban or Tupian speakers (only ADMIXTURE does), so the claim is method-dependent."
+  ]
+}

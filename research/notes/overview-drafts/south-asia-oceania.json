@@ -1,0 +1,561 @@
+{
+  "group": "south-asia-oceania",
+  "evidence": [
+    {
+      "id": "ev-narasimhan2019-so1",
+      "source_id": "narasimhan2019",
+      "claim": "Eleven outliers are identified, 3 at Gonur (2500-2000 BCE, Turkmenistan) and 8 at Shahr-i-Sokhta (3300-2000 BCE, eastern Iran), with 11-50% ancestry related to Andamanese hunter-gatherers and the rest from a mixture of Iranian farmer- and West Siberian hunter-gatherer-related ancestry (about 50-89%), and no detectable Anatolian farmer-related ancestry.",
+      "location": "Results, An Ancestry Profile Widespread During the Indus Valley Civilization",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-narasimhan2019-so2",
+      "source_id": "narasimhan2019",
+      "claim": "The authors state they cannot be definitive that this cline, the Indus Periphery Cline, was also common in the Indus Valley Civilization without ancient DNA from IVC contexts, and offer six circumstantial lines of evidence; the mixture that formed the cline is dated to about 5400-3700 BCE, a millennium or more before the mature IVC.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-shinde2019-so1",
+      "source_id": "shinde2019",
+      "claim": "Sixty-one skeletal samples from the Rakhigarhi cemetery of the Indus Valley Civilization (mature IVC dated 2600-1900 BCE) were tried and only one, I6113, yielded enough authentic DNA; it projects onto the Indus Periphery Cline, which is significantly depleted in steppe pastoralist-related ancestry (p=0.018) relative to the later South Asian mixture.",
+      "location": "Results; Method Details",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "One genome."
+    },
+    {
+      "id": "ev-shinde2019-so2",
+      "source_id": "shinde2019",
+      "claim": "The Iranian-related ancestry in the IVC Cline derives from a lineage that diverged before the ancestors of early Iranian hunter-gatherers, herders and farmers separated, so sampled genomes from the Iranian plateau and the IVC descend from different hunter-gatherer groups who began farming without being linked by movement of people.",
+      "location": "Summary; Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies",
+      "note": "Contradicts the earlier proposal of eastward spread of Iranian farmers."
+    },
+    {
+      "id": "ev-narasimhan2019-so3",
+      "source_id": "narasimhan2019",
+      "claim": "The Indus Periphery Cline contributes the majority of the ancestry of present-day South Asians; Ancestral South Indians are estimated at a minimum of 55% Indus Periphery-related (with the most Iranian-farmer-related individual as source) and the remainder Andamanese hunter-gatherer-related, and the Steppe Cline has one end on the Indus Periphery Cline and the other about 41% Central Steppe MLBA and 59% an Iranian-rich Indus Periphery subgroup.",
+      "location": "Results, Three Ancestry Clines; The ASI and ANI arose",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-narasimhan2019-so4",
+      "source_id": "narasimhan2019",
+      "claim": "AASI is fitted in an admixture graph with Palliyar and Juang as an Asian lineage that split off around the time East Asian, Andaman Islander and Australian ancestors separated; Juang can only be fitted with extra AASI ancestry beyond ASI, so groups with less Iranian farmer-related ancestry than ASI also existed.",
+      "location": "Results; Fig. 5",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Uses present-day groups; no unmixed AASI individual is sampled."
+    },
+    {
+      "id": "ev-narasimhan2019-so5",
+      "source_id": "narasimhan2019",
+      "claim": "Several tribal groups of southern India are consistent with about 0% Central Steppe MLBA ancestry and the most extreme position for the Ancestral South Indians, which the authors model as at least 55% Indus Periphery-related and the remainder Andamanese hunter-gatherer-related, a stand-in for AASI.",
+      "location": "Results, The ASI and ANI Arose",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-narasimhan2019-so6",
+      "source_id": "narasimhan2019",
+      "claim": "Using admixture dating on the southern Indian Palliyar group, the mixing of Iranian farmer-related and AASI-related ancestry is dated 107 plus or minus 11 generations ago, a 95% interval of 1700-400 BCE at 28 years per generation, so the ASI were not fully formed at the time of the IVC.",
+      "location": "Results, The ASI and ANI Arose; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "DATES from a present-day population."
+    },
+    {
+      "id": "ev-narasimhan2019-so7",
+      "source_id": "narasimhan2019",
+      "claim": "Neither the ASI nor ANI is directly sampled; the authors co-analyse ancient and present-day groups to reconstruct them, and note that the ASI formed after 2000 BCE as a mixture of a point on the Indus Periphery Cline with South Asians holding more AASI ancestry; ASI and ANI then mixed to form the Modern Indian Cline.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-narasimhan2019-so8",
+      "source_id": "narasimhan2019",
+      "claim": "Steppe-related ancestry in the Swat Valley time series (117 individuals, 1400 BCE-1700 CE) is dated to about 1900-1500 BCE (26 generations before they lived), and the Kalash's admixture is dated 110 plus or minus 12 generations ago; the Steppe Cline runs from a point on the Indus Periphery Cline to a mix of about 41% Central Steppe MLBA and 59% an Iranian-rich Indus Periphery subgroup.",
+      "location": "Results, The Steppe Cline; The ASI and ANI Arose",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-narasimhan2019-so9",
+      "source_id": "narasimhan2019",
+      "claim": "In Late Bronze Age and Iron Age Swat individuals, steppe-related ancestry is 5% of Y chromosomes against 20% of autosomes, so it entered largely through females there, whereas in present-day South Asians there is an excess on the Y chromosome, so sex bias varied by place and time.",
+      "location": "Results, Steppe Ancestry is Primarily from Males",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Mixed sex-bias evidence."
+    },
+    {
+      "id": "ev-narasimhan2019-so10",
+      "source_id": "narasimhan2019",
+      "claim": "Outliers in Turan dated about 2100-1500 BCE carry steppe pastoralist-derived ancestry in mixed form, and later steppe-derived groups such as Scythians, Sarmatians, Kushans and Huns cannot be major sources of South Asia's steppe ancestry because they carry too much East Asian-related ancestry.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-malaspinas2016-so1",
+      "source_id": "malaspinas2016",
+      "claim": "Papuan and Aboriginal Australian ancestors diversified 25-40 thousand years ago, all Aboriginal Australians descend from a single founding population differentiated about 10-32 thousand years ago, and Aboriginal Australians and Papuans diverged from Eurasians 51-72 thousand years ago after a single dispersal out of Africa (when archaic admixture is taken into account).",
+      "location": "Abstract; Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Model-based estimates from present-day genomes."
+    },
+    {
+      "id": "ev-malaspinas2016-so2",
+      "source_id": "malaspinas2016",
+      "claim": "The number of putative Denisovan haplotypes correlates almost perfectly (r squared 0.96) with Australo-Papuan ancestry per individual, and a Denisovan pulse is estimated at 31-50 thousand years ago in a site frequency spectrum model.",
+      "location": "Results, Archaic admixture; Extended Data Fig. 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-malaspinas2016-so3",
+      "source_id": "malaspinas2016",
+      "claim": "A model of two out-of-Africa waves, with Australo-Papuan ancestors dispersing about 14 thousand years before Eurasians, fits when only modern humans are modelled, but when archaic Neanderthal and Denisovan admixture is included a single out-of-Africa bottleneck about 72 thousand years ago (95% CI 60-104) is supported.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-skoglund2016-so1",
+      "source_id": "skoglund2016",
+      "claim": "The study sequenced three individuals from Teouma, Efate (Vanuatu), radiocarbon dated 3110-2740 BP and Lapita-period, and one individual from Talasiu, Tonga (2680-2340 BP); all four were female; they cluster tightly with each other and, like Taiwanese Ami and Atayal, are not shifted toward Papuan ancestry as present-day Remote Oceanians are.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-skoglund2016-so2",
+      "source_id": "skoglund2016",
+      "claim": "The ancient individuals and the Taiwanese Ami are consistent with descending from a common ancestral population, and the best-fitting qpGraph model has present-day Polynesians as mixtures of First Remote Oceanians and a Papuan population related to Highland New Guineans.",
+      "location": "Results; Fig. 3A",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lipson2018oceania-so1",
+      "source_id": "lipson2018oceania",
+      "claim": "The study compared Vanuatu and Tonga individuals dated 2900-2600 years ago with 14 ancient Vanuatu individuals and 185 present-day people from 18 islands; a dramatic turnover in Vanuatu is apparent after about 2900 and before about 2300 years ago.",
+      "location": "Summary; Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018oceania-so1",
+      "source_id": "posth2018oceania",
+      "claim": "Nineteen individuals from Vanuatu, Tonga, French Polynesia and the Solomon Islands (about 2,600-200 years ago) show Papuan-related ancestry arriving from about 2,500 years ago: the earliest post-Lapita individual (TAN002) has no Austronesian ancestry, Malakula individuals over about 500 years from 2,500 BP carry 22-46% Austronesian ancestry, and 1,100-year-old Futuna individuals 11-17%.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018oceania-so2",
+      "source_id": "posth2018oceania",
+      "claim": "Excess Austronesian X-chromosome ancestry in the Malakula time series shows sex-biased admixture in progress (one male with a Papuan Y lineage carries about 50% Austronesian maternal excess), and the latest individual (TAN001) is modelled as descended directly from a Baining-related population, suggesting complete local replacement.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lipson2018oceania-so2",
+      "source_id": "lipson2018oceania",
+      "claim": "Papuan ancestry in the 14 ancient Vanuatu individuals is nearly total in early post-Lapita individuals and later diluted; an ancient pair about 1,300 years old gives an admixture date of 18 plus or minus 6 generations (about 500 years) earlier, which falls in the range of admixture dates for present-day groups.",
+      "location": "Results; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018oceania-so3",
+      "source_id": "posth2018oceania",
+      "claim": "Present-day Vanuatu could not be fitted alongside the ancient individuals in one model, indicating that present-day ni-Vanuatu may carry an additional genetic component not found in the ancient samples; the two studies differ in emphasis between one large movement and incremental, repeated, sex-biased admixture.",
+      "location": "Results; Supplementary figure 4",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-lipson2018oceania-so3",
+      "source_id": "lipson2018oceania",
+      "claim": "The arrival of almost entirely Papuan-ancestry people in Vanuatu likely reflects migrations a few hundred years before 2,300 years ago, at the end of the Lapita period, when there is also evidence of changes in skeletal morphology and the end of long-distance trade between Near and Remote Oceania.",
+      "location": "Summary",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lipson2018oceania-so4",
+      "source_id": "lipson2018oceania",
+      "claim": "A fine-grained analysis of ancestry profiles shows the Papuan ancestry in Vanuatu derives from the Bismarck Archipelago rather than the geographically closer Solomon Islands, while the Papuan ancestry in Polynesia derives from different sources, a third stream of migration from Near to Remote Oceania.",
+      "location": "Summary; Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-posth2018oceania-so4",
+      "source_id": "posth2018oceania",
+      "claim": "Baining groups of New Britain are the closest present-day proxy sources for the Near Oceanian ancestry in the earliest post-Lapita Vanuatu individual, whose affinity is not explained by shared Austronesian ancestry; a qpGraph model derives the individual from a population ancestral to Baining Marabu.",
+      "location": "Results; Supplementary table 9; Fig. 3a",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Present-day proxies stand in for an unsampled ancient source."
+    }
+  ],
+  "populations": {
+    "indus-periphery": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Indus Periphery Cline is a genetic gradient seen in 11 outliers buried at Gonur in Turkmenistan and Shahr-i-Sokhta in eastern Iran, places in cultural contact with the Indus Valley Civilization (IVC). One genome from an IVC town, Rakhigarhi, matches it. Whether this profile was common in the IVC is a hypothesis, supported by circumstantial evidence, not a proven fact.",
+          "evidence_ids": [
+            "ev-narasimhan2019-2",
+            "ev-narasimhan2019-so1",
+            "ev-narasimhan2019-so2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "People on the cline are modelled as a mix of two ends: ancestry related to Andamanese hunter-gatherers (11-50%), and a mix of Iranian farmer-related and West Siberian hunter-gatherer-related ancestry (about 50-89%). They show no detectable Anatolian farmer-related ancestry, and the Rakhigarhi genome has little or no steppe-related ancestry. The mixing is dated to about 5400-3700 BCE.",
+          "evidence_ids": [
+            "ev-shinde2019-1",
+            "ev-narasimhan2019-so1",
+            "ev-narasimhan2019-so2",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Indus Periphery-related ancestry makes up the majority of the ancestry of present-day South Asians and contributed to both Ancestral South Indians and Ancestral North Indians. Its Iranian-related part may not come from early Iranian farmers: Shinde and colleagues find it derives from a lineage that split before those groups separated. A proposed eastward spread of Iranian farmers is therefore contested.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so3",
+            "ev-narasimhan2019-3",
+            "ev-shinde2019-so2",
+            "ev-lazaridis2016-5d"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Only one genome comes from an IVC context, and 60 of 61 Rakhigarhi samples gave no usable DNA, so the IVC-wide pattern is unknown. The outliers lived outside the IVC heartland. Membership here is incomplete. Where and when the Iranian-related ancestry entered South Asia is open, with two rival explanations.",
+          "evidence_ids": [
+            "ev-shinde2019-so1",
+            "ev-narasimhan2019-so2",
+            "ev-shinde2019-so2"
+          ]
+        }
+      ]
+    },
+    "aasi": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "AASI stands for Ancestral Ancient South Asians. It is a modelled ancestry component, not a sampled population: the South Asian lineage with no relationship to West Eurasians. No individual carrying only this ancestry has been sequenced. The dates on the timeline are a display window, not a lifespan.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In an admixture graph fitted to present-day groups, AASI is an Asian lineage that split around the time East Asian, Andaman Islander and Australian ancestors separated from each other. It is one end of the gradient that forms the main ancestry of South Asians, opposite Iranian-related ancestry. Andamanese hunter-gatherers serve as a stand-in for it in some models.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-1",
+            "ev-narasimhan2019-so4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "AASI-related ancestry contributed to Ancestral South Indians and appears in the Indus Periphery profile, with 11-50% Andamanese hunter-gatherer-related ancestry in the 11 outliers. The Ancestral South Indians are modelled as at least 55% Indus Periphery-related, with the remainder AASI-related. A group like Juang needs extra AASI beyond that.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so5",
+            "ev-narasimhan2019-so4",
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "AASI is a statistical reconstruction. It has no sampled members, and its age and location are unknown, so it should not be read as a people. Models of it rest on present-day South Asian groups and on Andamanese stand-ins. Alternative fits for the deep branching order may exist.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-so4",
+            "ev-narasimhan2019-so5"
+          ]
+        }
+      ]
+    },
+    "asi": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "ASI stands for Ancestral South Indians. It is a modelled ancestral population, reconstructed statistically from ancient and present-day genomes: nobody from it has been sampled. It is one of the two main sources of ancestry in present-day South Asians. The dates shown are a display window, and the formation date is model-based.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The ASI are modelled as Indus Periphery-related people who mixed with groups further southeast that had more AASI-related ancestry. At least 55% of ASI ancestry is Indus Periphery-related and the rest AASI-related. Several southern Indian tribal groups sit at the extreme of the modern gradient and may be nearly direct descendants.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so5",
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The mixing that formed the ASI is dated, in one present-day southern Indian group, to 1700-400 BCE, after the decline of the IVC. In parallel, Indus Periphery-related people mixed with steppe-related newcomers to form the ANI, and the ASI and ANI then mixed to form the gradient seen across present-day South Asia.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so6",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The ASI are inferred from modelling, not observed, and the date comes from one present-day group. The proportions depend on stand-in groups (Indus Periphery West and Andamanese hunter-gatherers). They describe ancestry, not a people, language or social group. Authors of the main study note that the ASI were not fully formed when the IVC existed.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6",
+            "ev-narasimhan2019-so7"
+          ]
+        }
+      ]
+    },
+    "ani": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "ANI stands for Ancestral North Indians. It is a modelled ancestral population, one of the two main sources of ancestry in present-day South Asians. No one from it has been sampled. It formed in the 2nd millennium BCE as Indus Periphery-related people mixed with people carrying steppe-related ancestry who arrived via Central Asia. The dates here are a display window.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Steppe-related ancestry in South Asia has the same profile as that of Bronze Age eastern Europe. The authors model the 'Steppe Cline' of ancient individuals from the Swat Valley as running from a point on the Indus Periphery Cline to a mix of about 41% steppe ancestry (Central Steppe MLBA) and 59% Iranian-rich Indus Periphery ancestry. The ANI is statistically consistent with falling along this cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-5",
+            "ev-narasimhan2019-so8"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Steppe-related ancestry reached South Asia via Central Asia after about 2000 BCE, and the mixing is dated about 1900-1500 BCE in Swat. It mixed with Indus Periphery-related people, and then ANI and ASI mixed with each other. In Swat the steppe share was carried mostly by females, while the pattern in present-day groups is male-biased.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8",
+            "ev-narasimhan2019-so9",
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The ANI cannot be observed directly, and formation dates are model-based, with the Kalash estimate coming from a present-day group. Sex-bias results disagree between ancient Swat individuals and present-day groups. Later steppe groups with East Asian-related ancestry cannot be the main source, according to the authors. Sampling is concentrated on the Swat Valley.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8",
+            "ev-narasimhan2019-so9",
+            "ev-narasimhan2019-so10"
+          ]
+        }
+      ]
+    },
+    "australo-papuan-ancestors": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This is a modelled population: the ancestors of present-day Papuans and Aboriginal Australians, inferred from present-day genomes. They carry more Denisovan-related ancestry than other non-Africans. No ancient genome from this population falls in the V1 window, and the dates shown are a display window only. Genetics does not locate them.",
+          "evidence_ids": [
+            "ev-malaspinas2016-2",
+            "ev-malaspinas2016-so1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Aboriginal Australians and Papuans carry more Denisovan-derived haplotypes than other non-Africans. The first estimate, in 2010, put Denisovan-related ancestry at 4-6% of present-day Melanesian genomes. A Denisovan pulse is modelled at 31-50 thousand years ago, and the haplotype count tracks the Australo-Papuan share of ancestry.",
+          "evidence_ids": [
+            "ev-malaspinas2016-2",
+            "ev-reich2010-3",
+            "ev-malaspinas2016-so2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Papuan and Aboriginal Australian ancestors diversified 25-40 thousand years ago and diverged from Eurasians 51-72 thousand years ago in the model. Papuan-related ancestry later spread to Remote Oceania, where present-day groups carry at least 25% of it. Separate Denisovan admixture is also proposed for Philippine Ayta Magbukon, who carry more Denisovan ancestry than Papuans.",
+          "evidence_ids": [
+            "ev-malaspinas2016-so1",
+            "ev-skoglund2016-3",
+            "ev-larena2021-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "All estimates come from present-day genomes and models, so dates have wide intervals. One model finds two out-of-Africa waves and another, which includes archaic admixture, finds one. The 4-6% Denisovan figure is a first estimate. The group has no sampled members.",
+          "evidence_ids": [
+            "ev-malaspinas2016-so3",
+            "ev-malaspinas2016-so1",
+            "ev-reich2010-3"
+          ]
+        }
+      ]
+    },
+    "lapita-first-remote-oceanians": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are the first people to settle Remote Oceania, buried with Lapita material at Teouma on Efate in Vanuatu (about 3,100-2,700 years ago) and Talasiu on Tongatapu in Tonga (about 2,700-2,300 years ago). The 2016 study sequenced four individuals, all female. They cluster tightly together and are not shifted toward Papuan ancestry.",
+          "evidence_ids": [
+            "ev-skoglund2016-2",
+            "ev-skoglund2016-so1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their ancestry was almost entirely East Asian-related, with little or no Papuan-related ancestry. They resemble the Taiwanese Ami and Atayal in PCA, unlike present-day Remote Oceanians, and fit descent from the population that spread from Taiwan via the Philippines to western Melanesia from about 5,000 years ago, with minimal mixing along the way. The East Asian-related ancestry they carry no longer exists unmixed today.",
+          "evidence_ids": [
+            "ev-skoglund2016-2",
+            "ev-lipson2018oceania-1",
+            "ev-skoglund2016-so1",
+            "ev-skoglund2016-so2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Because present-day Pacific peoples carry at least 25% Papuan-related ancestry, that ancestry must have spread after first settlement. In Vanuatu, a dramatic turnover is apparent after about 2,900 and before about 2,300 years ago, when people of almost entirely Papuan-related ancestry arrived. The Lapita-related ancestry later declined to a minor share.",
+          "evidence_ids": [
+            "ev-skoglund2016-3",
+            "ev-lipson2018oceania-2",
+            "ev-lipson2018oceania-so1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Four female individuals from two sites represent the group, so they may not reflect everyone in the first settlement or the full range of ancestry among its members. The source population, which no longer exists unmixed, is known through stand-ins such as the Taiwanese Ami.",
+          "evidence_ids": [
+            "ev-skoglund2016-so1",
+            "ev-skoglund2016-so2"
+          ]
+        }
+      ]
+    },
+    "vanuatu-post-lapita": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are people of Vanuatu from about 2,300 years ago onward, grouped by place and date. Their ancestry is mostly Papuan-related. The Lipson study sampled 14 ancient individuals from Efate and Epi, and the Posth study 19 individuals across the South Pacific. The arrival likely began a few centuries earlier, at the end of the Lapita period, when skeletal forms changed and long-distance trade between Near and Remote Oceania ended.",
+          "evidence_ids": [
+            "ev-lipson2018oceania-2",
+            "ev-lipson2018oceania-so2",
+            "ev-lipson2018oceania-so3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "People of almost entirely Papuan-related ancestry reached Vanuatu by about 2,300 years ago. Papuan-related ancestry later declined through mixing but remains at least 80-90% on most islands. Malakula individuals from 2,500 BP carry 22-46% Austronesian-related ancestry, showing the mixing took place over centuries, with sex-biased admixture.",
+          "evidence_ids": [
+            "ev-lipson2018oceania-2",
+            "ev-posth2018oceania-1",
+            "ev-posth2018oceania-so1",
+            "ev-posth2018oceania-so2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A Papuan-related expansion into Remote Oceania began about 2,500 years ago and led to near-complete replacement of Lapita-related ancestry in Vanuatu; Papuan-related ancestry is still at least 80-90% on most islands. It came from the Bismarck Archipelago. Present-day South Pacific populations carry at least 25% Papuan-related ancestry, which must have spread after first settlement.",
+          "evidence_ids": [
+            "ev-posth2018oceania-1",
+            "ev-lipson2018oceania-3",
+            "ev-skoglund2016-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The two studies differ: one reads a single large arrival by about 2,300 years ago, the other an incremental process of repeated movements from 2,500 years ago. Present-day Vanuatu includes a component absent from the ancient samples. The ancient samples are few and from a handful of islands, so local histories differ.",
+          "evidence_ids": [
+            "ev-posth2018oceania-so3",
+            "ev-lipson2018oceania-2",
+            "ev-posth2018oceania-1"
+          ]
+        }
+      ]
+    },
+    "bismarck-related-source": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This is an inferred source, not a sampled group: the population that gave the Papuan-related ancestry that reached Vanuatu. It is best matched by present-day people of the Bismarck Archipelago, such as the Baining of New Britain. No ancient individual from it has been sampled, and the dates shown are a display window.",
+          "evidence_ids": [
+            "ev-lipson2018oceania-3",
+            "ev-posth2018oceania-so4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "A detailed analysis finds that the Papuan-related ancestry in Vanuatu comes from the Bismarck Archipelago and not from the nearer Solomon Islands. The earliest post-Lapita individual in Vanuatu is modelled as descended from a population ancestral to present-day Baining Marabu, with affinity not explained by shared Austronesian ancestry.",
+          "evidence_ids": [
+            "ev-lipson2018oceania-3",
+            "ev-lipson2018oceania-so4",
+            "ev-posth2018oceania-so4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Bismarck Archipelago-related ancestry arrived in Vanuatu by about 2,300 years ago and contributed most of the ancestry of post-Lapita people there. The Papuan-related ancestry in Polynesia derives from different sources, a third stream. These later movements changed the ancestry of the first Remote Oceanians' descendants.",
+          "evidence_ids": [
+            "ev-lipson2018oceania-2",
+            "ev-lipson2018oceania-so4",
+            "ev-posth2018oceania-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Present-day Baining are stand-ins for an unsampled ancient source, whose real location and population are uncertain. The earliest individual's affinity to Baining spans a very large distance. Only a few ancient Vanuatu individuals test the link, and it does not say how the movement took place.",
+          "evidence_ids": [
+            "ev-posth2018oceania-so4",
+            "ev-lipson2018oceania-so4"
+          ]
+        }
+      ]
+    }
+  },
+  "concerns": [
+    "vanuatu-post-lapita: the description says 'while Austronesian languages continued to be spoken', a language claim; I left it out of the overview.",
+    "australo-papuan-ancestors: ev-reich2010-3 (4-6% Denisovan-related in Melanesians) is a 2010 first estimate; it should be shown as such (the overview does). The description's 'more Denisovan-related ancestry' is supported by ev-malaspinas2016-2 only for haplotype counts.",
+    "indus-periphery: membership is incomplete (11 outliers not labelled in AADR); the pop confidence is medium and rests on circumstantial inference; the Rakhigarhi sample is one of 61 tried.",
+    "aasi / asi / ani: all three are inferred components with a 'display window'; ASI/ANI formation intervals come from DATES on present-day groups (Palliyar, Kalash). The ANI description says 'formed in the 2nd millennium BCE' while the cited Kalash interval is model-dependent.",
+    "bismarck-related-source: time_range -1000..500 is the arrival window; the source population itself is not dated."
+  ]
+}

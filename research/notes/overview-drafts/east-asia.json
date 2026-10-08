@@ -1,0 +1,709 @@
+{
+  "group": "east-asia",
+  "evidence": [
+    {
+      "id": "ev-cooke2021-ea1",
+      "source_id": "cooke2021",
+      "claim": "The study sequenced 12 ancient Japanese genomes including nine Jomon individuals from four stages (Initial, Early, Middle, Late) in west and central Japan; all Jomon individuals share extremely high genetic drift and form a tight cluster apart from other ancient and present-day East and Southeast Asians, suggesting sustained geographic isolation.",
+      "location": "Results; Fig. 1; Fig. 2",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-wang2021-ea1",
+      "source_id": "wang2021",
+      "claim": "Seven Jomon hunter-gatherers dated about 2500-800 BCE were newly sequenced; in a qpGraph model Jomon ancestry is about 56% from a southern Tianyuan-related lineage and about 44% from an Andaman Islander (Onge)-related lineage, and none of six analysed Jomon carries the East Asian EDAR V370A variant.",
+      "location": "Results, A Late Pleistocene Coastal Expansion; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Admixture-graph model; proportions depend on the model."
+    },
+    {
+      "id": "ev-gakuhari2020-ea1",
+      "source_id": "gakuhari2020",
+      "claim": "Whole-genome sequencing of IK002, a 2,500-year-old Jomon-context individual from Honshu (about 1.85x coverage), places this lineage basal to the East and Northeast Asian genomes examined, with strong affinity to indigenous Taiwanese and to the Hokkaido Ainu; the authors note that Japan's warm, humid climate and acidic volcanic soils generally result in poor DNA preservation.",
+      "location": "Abstract; Introduction; Results; Fig. 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Single high-coverage genome from the Final Jomon period."
+    },
+    {
+      "id": "ev-cooke2021-ea2",
+      "source_id": "cooke2021",
+      "claim": "Two Yayoi-culture individuals from northwestern Kyushu fit as roughly half Jomon ancestry (55.0, 50.6 or 58.4%, depending on the continental source) and half Northeast Asian-related ancestry, and an unadmixed-Jomon model is rejected.",
+      "location": "Results, Dispersal of paddy field rice farming; Fig. 4B",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-cooke2021-ea3",
+      "source_id": "cooke2021",
+      "claim": "Present-day Japanese ancestry is explained by Kofun-like ancestry with Jomon ancestry of 15.0% (plus or minus 3.8) compared with 13.1% (plus or minus 3.5) in Kofun individuals; the authors infer three ancestral components established by the Kofun period.",
+      "location": "Results, Genetic heritage of Kofun in present-day Japanese; Fig. S22",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-cooke2021-ea4",
+      "source_id": "cooke2021",
+      "claim": "The first genomic data from the Kofun period come from three individuals (about 1.3 thousand years ago, compared with only two published Yayoi individuals); they cluster with present-day Japanese in the genetic analyses; a two-way Jomon plus Northeast Asian model that fitted the Yayoi is rejected for them, so they are distinct from the Yayoi.",
+      "location": "Results, Genetic ancestry of migrants during the Kofun period; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Only three individuals."
+    },
+    {
+      "id": "ev-cooke2021-ea5",
+      "source_id": "cooke2021",
+      "claim": "A three-way model with Jomon, Northeast Asian and Han-related sources fits the Kofun individuals best; Jomon ancestry is diluted about four-fold between the sampled Yayoi and Kofun individuals, suggesting an influx of migrants with East Asian ancestry in the state-formation phase; two-way models of Yayoi plus a Han, Korean or Yellow River source give those sources 20-30% of Kofun ancestry.",
+      "location": "Results; Fig. 5B; Supplementary Tables 9-11",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-cooke2021-ea6",
+      "source_id": "cooke2021",
+      "claim": "Dating supports two waves: Jomon-Northeast Asian mixing about 3448 years before present (plus or minus 825) and Jomon-East Asian mixing about 1748 years before present (plus or minus 175). A single-source alternative using a Late Bronze/Iron Age Yellow River population also fits some tests, with mixing dated about 1840 years before present.",
+      "location": "Results; Fig. S20; Supplementary Table 14",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "qualifies",
+      "note": "Competing single-pulse and two-pulse models."
+    },
+    {
+      "id": "ev-ning2020-ea1",
+      "source_id": "ning2020",
+      "claim": "The Amur River individuals (two Early Neolithic hunter-gatherers about 5525-5320 BCE, three Xianbei-context Iron Age individuals, one Iron Age individual) form a tight cluster and are largely cladal, and Amur populations relied on hunting, fishing, animal husbandry and some cultivation into the historic era; a strict-continuity test rejects the ancient group as direct ancestors of present-day Amur populations, which the authors take to mean gene flow within the Amur gene pool.",
+      "location": "Introduction; Results, Long-term genetic stability of AR populations; Table 1; Supplementary Table 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-wang2021-ea2",
+      "source_id": "wang2021",
+      "claim": "Amur Basin individuals from about 5500 BCE Early Neolithic and 5000 BCE Boisman (18 individuals at Boisman-2, 5400-3600 BCE) through to the Iron Age and Xianbei period are consistent with being a clade; Amur hunter-gatherers are modelled as about 87% Mongolian Neolithic-related and the remainder Jomon-related.",
+      "location": "Results, Refining the Transeurasian Hypothesis; Online Tables 10-11",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea2",
+      "source_id": "ning2020",
+      "claim": "One Bronze Age West Liao River individual from a pastoralist context is indistinguishable from ancient Amur individuals, and two others are modelled as 21 plus or minus 7% from him, which the authors speculate reflects a recent migration from an Amur-related gene pool.",
+      "location": "Results, Correlated changes of genes and subsistence in WLR",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "supports",
+      "note": "Authors say they speculate."
+    },
+    {
+      "id": "ev-wang2021-ea3",
+      "source_id": "wang2021",
+      "claim": "A Heishui Mohe culture individual from about 1100 CE is estimated to have 43 plus or minus 15% Amur Basin Neolithic ancestry, with the rest well modelled by Han Chinese.",
+      "location": "Results, Refining the Transeurasian Hypothesis",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea3",
+      "source_id": "ning2020",
+      "claim": "Late Neolithic Longshan individuals from the Yellow River are genetically closer to present-day southern Chinese and Southeast Asians than the earlier Middle Neolithic Yangshao individuals; no further change is seen in the Bronze and Iron Age, and the authors link this to the possible northward spread of rice farming.",
+      "location": "Results, Temporal changes in the YR genetic profile; Supplementary Fig. 11-13",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "The authors say candidate source genomes (Shandong, lower Yangtze) are missing."
+    },
+    {
+      "id": "ev-wang2021-ea4",
+      "source_id": "wang2021",
+      "claim": "A northern Tianyuan-related lineage is inferred to contribute about 90% of Upper Yellow River Neolithic farmers; Yellow River farmer-related ancestry is estimated at 59-84% of most Han Chinese (the remainder from a Liangdao-related southern source) and up to about 84% of some Tibetan groups, with Tibetan mixing dated about 290 BCE-270 CE.",
+      "location": "Results, Northern Origin of Sino-Tibetan; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea4",
+      "source_id": "ning2020",
+      "claim": "Ancient individuals from Inner Mongolia, Shaanxi and the upper Yellow River are modelled as a mixture of Yellow River farmers (about 80%) and Amur hunter-gatherers, showing the Yellow River profile had a wide geographic range.",
+      "location": "Results, Temporal changes in the YR genetic profile; Supplementary Table 4",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea5",
+      "source_id": "ning2020",
+      "claim": "Tibetans are modelled as a mixture of Sherpa and Upper Yellow River Late Neolithic ancestry, compatible with northern-origin scenarios for Sino-Tibetan languages, but other models also marginally work because of the limited resolution of the genetic data.",
+      "location": "Results, Temporal changes in the YR genetic profile; Supplementary Tables 5-6",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-ning2020-ea6",
+      "source_id": "ning2020",
+      "claim": "The study sampled the Yellow River region at ten sites dated 3550-50 BCE, including eight Yangshao-culture individuals (about 3550-3050 BCE) and Longshan-culture burials (about 2275-1844 BCE); crop cultivation was already the dominant subsistence strategy there by the Middle Neolithic.",
+      "location": "Results; Table 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea7",
+      "source_id": "ning2020",
+      "claim": "Middle Neolithic West Liao River groups fall between Amur and Yellow River clusters: Hongshan-culture individuals have 39.8 plus or minus 5.7% Amur-related ancestry and an individual from a nearby site 75.1 plus or minus 8.9%, a sharp change within about 600 km when Miaozigou is included.",
+      "location": "Results, Correlated changes of genes and subsistence in WLR; Fig. 3a",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea8",
+      "source_id": "ning2020",
+      "claim": "Late Neolithic (Lower Xiajiadian) individuals are modelled with a major Yellow River contribution (88% or 74%, depending on the second source), while Bronze Age (Upper Xiajiadian) individuals shift back toward Amur-related ancestry; the authors link this to farming intensification then a partial switch to pastoralism.",
+      "location": "Results; Fig. 3b; Supplementary Table 4",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-wang2021-ea5",
+      "source_id": "wang2021",
+      "claim": "West Liao River farmers are modelled as a mixture of Upper Yellow River-related ancestry (about 67%) and southern Liangdao-related ancestry (about 33%); this mixture is absent in the Mongolian and Amur time transects, which the authors say conflicts with a simple spread of West Liao River farmers to those regions.",
+      "location": "Results, Refining the Transeurasian Hypothesis; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-ning2020-ea9",
+      "source_id": "ning2020",
+      "claim": "Foxtail and broomcorn millets were cultivated in the West Liao River and lower Yellow River basins from at least 6000 BCE, and reliance on millet in the West Liao River region changed over time with climate and archaeological culture.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-ning2020-ea10",
+      "source_id": "ning2020",
+      "claim": "The West Liao River sample is four sites dated 3694-350 BCE with few individuals per period, and the authors say data are insufficient to test whether spatial heterogeneity persisted into later periods.",
+      "location": "Results; Discussion; Table 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-wang2021-ea6",
+      "source_id": "wang2021",
+      "claim": "Forty-six individuals from two Taiwan sites spanning about 1300 BCE-800 CE were sequenced; their dominant Y haplogroup O3a2c2-N6 and mitochondrial lineages E1a, B4a1a, F3b1 and F4b are shared with present-day Indigenous Taiwanese and with Lapita individuals from Vanuatu.",
+      "location": "Results, Rice Farming Expansions Spread Languages",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-wang2021-ea7",
+      "source_id": "wang2021",
+      "claim": "In the admixture-graph model ancient Taiwan farmers derive about 75% from a southern lineage (Liangdao-related) and about 25% from a northern lineage related to, but distinct from, Yellow River farmers; the authors infer an additional north-to-south movement, speculatively linked to foxtail-millet cultivators, and about 20% Onge-related ancestry.",
+      "location": "Results; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Model-based; northern source is unsampled."
+    },
+    {
+      "id": "ev-gakuhari2020-ea2",
+      "source_id": "gakuhari2020",
+      "claim": "The Jomon-context individual IK002 sits in PCA between present-day East Asians and a cluster of ancient Hoabinhian hunter-gatherers plus the Tianyuan individual; the authors cite earlier work reporting genetic affinity between IK002 and an 8,000-year-old Hoabinhian hunter-gatherer from Laos.",
+      "location": "Introduction; Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Cites McColl 2018 for the Laos individual."
+    },
+    {
+      "id": "ev-lipson2018sea-ea1",
+      "source_id": "lipson2018sea",
+      "claim": "The study reports 18 individuals from five sites in Vietnam, Myanmar, Thailand and Cambodia (4100-1700 years ago), including eight from Man Bac, Vietnam (4100-3600 years ago); preservation in tropical environments was poor, so coverage per individual was low.",
+      "location": "Results; Table 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lipson2018sea-ea2",
+      "source_id": "lipson2018sea",
+      "claim": "Man Bac, Nicobarese and Mlabri are modelled with about 70% ancestry from a Southeast Asian farmer-related source and about 30% from a deeply diverging eastern Eurasian source, in a most-parsimonious model with a shared ancestral admixture event; one Man Bac individual (VN29) has elevated indigenous ancestry.",
+      "location": "Results; Fig. 3; Fig. S2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Admixture-graph model that includes present-day groups."
+    },
+    {
+      "id": "ev-lipson2018sea-ea3",
+      "source_id": "lipson2018sea",
+      "claim": "Man Bac, Ban Chiang (Thailand) and Vat Komnou (Cambodia) cluster together in the first analysis; by the Bronze Age, Nui Nap (Vietnam) projects close to present-day Vietnamese and Dai and Oakaie (Myanmar) to Sino-Tibetan-speaking groups, reflecting substantial additional influxes of migrants.",
+      "location": "Results; Fig. 1B; Abstract",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea1",
+      "source_id": "jeong2020",
+      "claim": "The study reports 60 Xiongnu-era individuals from across Mongolia (about 200 BCE-100 CE), of whom 13 predate 100 BCE; half of the early individuals form a cluster resembling the earlier Chandman_IA group (about 92%, plus Iranian-related ancestry), and the other six fall between that cluster and the Ulaanzuukh Slab Grave cluster.",
+      "location": "Results, The Xiongnu Empire",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea2",
+      "source_id": "jeong2020",
+      "claim": "Late Xiongnu individuals (47) are more heterogeneous: about half fit the early Xiongnu processes, 11 resemble Sarmatian-related western steppe groups, and 8 show eastern affinity, six of them modelled as Ulaanzuukh Slab Grave plus Han; the period united the gene pools of western and eastern Mongolia and later also western and eastern Asia.",
+      "location": "Results, The Xiongnu Empire; Fig. 3D",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea3",
+      "source_id": "jeong2020",
+      "claim": "Most Xiongnu-era individuals date after 50 BCE; the 13 earlier ones include 12 from northern frontier sites (Salkhityn Am, Atsyn Gol) and one from eastern Mongolia, so the early sample is geographically narrow.",
+      "location": "Results, The Xiongnu Empire",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea4",
+      "source_id": "jeong2020",
+      "claim": "Early Medieval individuals (one Xianbei or Rouran-period, 8 Turkic-context and 13 Uyghur-context individuals) have genetic profiles that differ from the Xiongnu period, suggesting new sources of gene flow into Mongolia; the sample for this period is uneven.",
+      "location": "Results, Fluctuating Genetic Heterogeneity in the Post-Xiongnu Polities",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea5",
+      "source_id": "jeong2020",
+      "claim": "The study analysed 62 Mongol-era individuals whose burials are consistent with low-level local elites; no royal or regional elite burials and none from the capital Karakorum were included.",
+      "location": "Results, The Mongol Empire",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea6",
+      "source_id": "jeong2020",
+      "claim": "Mongol-era individuals as a group fit a three-way model of 55-64% Ulaanzuukh Slab Grave, 21-27% Han-related and 15-18% Western Steppe (Alan or Sarmatian) ancestry, which explains 56 of 61 individuals; they are less heterogeneous than the Xiongnu era and almost lack the residual ancient North Eurasian-related ancestry of earlier groups.",
+      "location": "Results, The Mongol Empire; Table S5I",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-jeong2020-ea7",
+      "source_id": "jeong2020",
+      "claim": "The Mongol period marks the beginning of the formation of the modern Mongolian gene pool, and Mongol-era individuals resemble present-day Mongolic-speaking populations.",
+      "location": "Summary; Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Link to present-day groups is an inference from modern genomes."
+    }
+  ],
+  "populations": {
+    "jomon": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Jomon is an archaeological culture of hunter-gatherer-fishers on the Japanese archipelago, known for pottery. This panel groups sampled individuals from the Initial to the Final Jomon, spanning several thousand years. The 2021 study sequenced nine Jomon individuals, and they share extremely high genetic drift with each other, forming a tight cluster. The authors read this as sustained geographic isolation.",
+          "evidence_ids": [
+            "ev-wang2021-2",
+            "ev-cooke2021-ea1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Jomon-associated people belong to a deeply splitting East Asian lineage. One study models them as roughly 56% a southern Tianyuan-related lineage and 44% an Andaman Islander-related lineage. Another places a 2,500-year-old genome (IK002) basal to the East and Northeast Asian genomes examined, with affinity to indigenous Taiwanese people. These are model-based results from a few genomes.",
+          "evidence_ids": [
+            "ev-gakuhari2020-1",
+            "ev-wang2021-ea1",
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "After the Jomon, Yayoi-period individuals show about half Jomon-related ancestry and half Northeast Asian-related ancestry, and Kofun-period individuals carry Jomon-related ancestry alongside Northeast Asian- and East Asian-related ancestry. Present-day Japanese ancestry includes about 15% Jomon-related ancestry in one model, with no further dilution since the Kofun period.",
+          "evidence_ids": [
+            "ev-cooke2021-1",
+            "ev-cooke2021-ea2",
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The routes of the earliest arrival are not shown by DNA alone: the coastal-route reading in two papers is the authors' interpretation, not a tested result. Japan's warm, humid climate and acidic soils generally preserve DNA poorly, so the sample is small, and one Final Jomon genome carries much of the lineage analysis. Proportions depend on the model chosen.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea1",
+            "ev-wang2021-ea1",
+            "ev-wang2021-2"
+          ]
+        }
+      ]
+    },
+    "kofun-period-japan": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are three individuals from the Kofun period, a time of state formation on the Japanese archipelago, dated about 1,300 years ago and treated here as a date-and-place grouping. They are the first genomic data from this period, and the comparison group of Yayoi individuals is only two people. They cluster with present-day Japanese in the study's analyses, and are genetically distinct from the earlier Yayoi-period individuals.",
+          "evidence_ids": [
+            "ev-cooke2021-1",
+            "ev-cooke2021-ea4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The best-fitting model for the Kofun individuals mixes three sources: Jomon-related, Northeast Asian-related and Han-related ancestry. Jomon ancestry is about four times lower than in the Yayoi individuals. Two-way models with the Yayoi plus a Han, Korean or Yellow River source give those sources 20-30% of Kofun ancestry. 'Han' here stands for broadly East Asian ancestry.",
+          "evidence_ids": [
+            "ev-cooke2021-ea5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Jomon-related ancestry came first, then Northeast Asian-related ancestry in the Yayoi period, then East Asian-related ancestry in the Kofun period. The study finds that present-day Japanese carry the same three components in nearly the same proportions as the Kofun, with Jomon-related ancestry about 15% against 13% in the Kofun sample.",
+          "evidence_ids": [
+            "ev-cooke2021-1",
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Only three individuals are sampled, so the Kofun profile may not represent the whole archipelago. The authors favour two migration waves, but a single continuing source also fits some tests. 'Han' and 'Northeast Asian' are stand-in labels for sources. Only two Yayoi genomes are available to compare against.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4",
+            "ev-cooke2021-ea6"
+          ]
+        }
+      ]
+    },
+    "amur-hunter-gatherers": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This group holds hunter-gatherers of the Amur River basin in northeastern Asia, including 18 people from the Boisman-2 cemetery of about 5400-3600 BCE and two Early Neolithic individuals of about 5525-5320 BCE. Several later individuals of the Iron Age and Xianbei period also fit the same cluster. The Amur people kept hunting, fishing and some cultivation into the historic era.",
+          "evidence_ids": [
+            "ev-wang2021-ea2",
+            "ev-ning2020-ea1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Amur individuals form one genetic cluster from about 5500 BCE to the Xianbei period, with no substantial change in their affinity to outside populations. They share a deeply splitting lineage with Jomon-associated people, and they are modelled as roughly 87% Mongolian Neolithic-related and 13% Jomon-related. Ancestry stayed stable while the Yellow River and West Liao River changed.",
+          "evidence_ids": [
+            "ev-ning2020-2",
+            "ev-wang2021-2",
+            "ev-wang2021-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Amur-related ancestry contributed to the Bronze Age West Liao River, coinciding with pastoralism, and to later groups: a Heishui Mohe individual from about 1100 CE carries about 43% Amur Neolithic ancestry. The cluster fits within the range of present-day Amur populations, though a strict-continuity test rejects the ancient group as their direct ancestors.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-ning2020-ea2",
+            "ev-wang2021-ea3",
+            "ev-ning2020-ea1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The sample is small, with the Early Neolithic represented by two people and later periods by a handful. The authors treat the 21% West Liao River result as speculation. 'Stable' describes affinity to outside groups, not the absence of local mixing, since the continuity test with present-day groups fails.",
+          "evidence_ids": [
+            "ev-ning2020-ea1",
+            "ev-ning2020-ea2"
+          ]
+        }
+      ]
+    },
+    "yellow-river-farmers": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This group is millet farmers of the middle and lower Yellow River basin in the Neolithic, mainly from sites of the Yangshao culture (about 3550-3050 BCE) and the Longshan culture (about 2275-1844 BCE). The 2020 study sampled the region at ten sites between 3550 and 50 BCE. Crop cultivation was already the main subsistence strategy there by the Middle Neolithic.",
+          "evidence_ids": [
+            "ev-ning2020-ea6",
+            "ev-ning2020-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Yellow River farmers form a distinct genetic cluster. Late Neolithic individuals are closer to present-day southern Chinese and Southeast Asians than Middle Neolithic ones, which the authors link to a possible northward spread of rice farming. Another study infers that a northern Tianyuan-related lineage gave about 90% of the ancestry of Upper Yellow River Neolithic farmers.",
+          "evidence_ids": [
+            "ev-ning2020-ea3",
+            "ev-wang2021-ea4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Yellow River farmer-related ancestry (around 3000 BCE) contributed up to about 84% to some Tibetan groups and about 59-84% to Han Chinese, with the rest from a southern source. It also reached the West Liao River region and Inner Mongolia: groups there are modelled as about 80% Yellow River farmers. These are present-day links inferred from modern genomes.",
+          "evidence_ids": [
+            "ev-wang2021-3",
+            "ev-wang2021-ea4",
+            "ev-ning2020-ea4",
+            "ev-ning2020-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Candidate sources of the southern ancestry, such as Shandong and lower Yangtze populations, are unsampled, so the rice-farming link is a hypothesis. The Middle Neolithic Yangshao sample is only eight individuals. For Tibetans, other models also marginally fit, because the genetic data lack fine resolution.",
+          "evidence_ids": [
+            "ev-ning2020-ea6",
+            "ev-ning2020-ea3",
+            "ev-ning2020-ea5"
+          ]
+        }
+      ]
+    },
+    "west-liao-river": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups people from the West Liao River region of northeast China, from the Middle Neolithic (Hongshan culture, about 3550-3050 BCE) to the Bronze Age (Upper Xiajiadian culture, about 1050-350 BCE). It is a geographic grouping and not a single genetic profile. The region lies between the Yellow River and the Amur River, and millet was cultivated there from at least 6000 BCE, with reliance on it changing over time.",
+          "evidence_ids": [
+            "ev-ning2020-ea10",
+            "ev-ning2020-ea9",
+            "ev-ning2020-3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The ancestry changed through time. Middle Neolithic groups fall between Amur and Yellow River profiles, with 40-75% Amur-related ancestry. Late Neolithic groups are modelled as 74-88% Yellow River-related. A second study models West Liao River farmers as about 67% Upper Yellow River-related and 33% southern Liangdao-related. Bronze Age groups shift back toward Amur-related ancestry.",
+          "evidence_ids": [
+            "ev-ning2020-ea7",
+            "ev-ning2020-ea8",
+            "ev-wang2021-ea5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Late Neolithic farming intensification coincides with increased Yellow River affinity, and Bronze Age pastoralism with increased Amur affinity. Two Bronze Age individuals are modelled as 21% from an Amur-related person, which the authors suggest may mean recent migration into the region.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-ning2020-ea8",
+            "ev-ning2020-ea2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The groups are small, and the Bronze Age sample is a few people. A correlation between subsistence change and ancestry change does not show cause. The authors say the Middle Neolithic geographic mixing may have continued but that the data cannot test it. One study finds the West Liao River farmer mixture absent from the Mongolian and Amur time series.",
+          "evidence_ids": [
+            "ev-ning2020-ea10",
+            "ev-wang2021-ea5"
+          ]
+        }
+      ]
+    },
+    "taiwan-iron-age": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are individuals from two sites in Taiwan dated about 1300 BCE-800 CE. The 2021 study sequenced 46 of them. Their Y chromosomes and maternal lineages are shared with present-day Indigenous Taiwanese people, and with ancient individuals from Vanuatu. The label groups burials by place and date. It does not name a single people.",
+          "evidence_ids": [
+            "ev-wang2021-ea6",
+            "ev-wang2021-4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "About 75% of their ancestry is modelled as coming from a southern lineage, likely related to Yangtze River farmers, which is also common in several present-day groups of southern East Asia and Southeast Asia. About 25% comes from a northern lineage related to but different from Yellow River farmers. The southern farmers themselves have not been sampled.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea7"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A northern source contributed ancestry to the Taiwan farmers. It does not fit Yellow River farmers themselves, and so the authors infer an additional north-to-south movement. Another study sees Northern East Asian ancestry spreading across southern East Asia after the Neolithic, and finds Neolithic southern and Taiwan Strait individuals connected with Austronesian-related ancestry. Jomon-associated people share a deeply splitting lineage.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea7",
+            "ev-yang2020-1",
+            "ev-wang2021-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The southern farmer source is inferred, because no ancient Yangtze farmers have been sampled. The millet link for the northern ancestry is a speculation by the authors. One related study is read from its abstract only, so its details are unchecked. Forty-six individuals from two sites stand in for 2,000 years of Taiwan's history.",
+          "evidence_ids": [
+            "ev-wang2021-ea7",
+            "ev-yang2020-1"
+          ]
+        }
+      ]
+    },
+    "hoabinhian": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Hoabinhian is an archaeological technocomplex of hunter-gatherers in mainland Southeast Asia. This panel groups sampled individuals with Hoabinhian context, of which very few are sampled. One is an 8,000-year-old individual from Laos. The main study of these genomes found both Hoabinhian-related and East Asian farmer-related ancestry in present-day Southeast Asians.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-gakuhari2020-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Hoabinhian-related ancestry contributed to Southeast Asian diversity alongside East Asian farmer-related ancestry. Neolithic farmers of northern Vietnam carried both southern Chinese farmer-related and local hunter-gatherer-related ancestry. A Jomon-context genome sits in PCA between present-day East Asians and a cluster of ancient Hoabinhian hunter-gatherers and the 40,000-year-old Tianyuan individual, and an earlier report finds affinity with an 8,000-year-old Hoabinhian from Laos.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-lipson2018sea-2",
+            "ev-gakuhari2020-ea2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Details here rest on the abstract of the main study, since its full text is not openly available, so sample sizes and models are not checked. Only two individuals are in the data used, from two sites. The affinity with the Jomon-context genome comes from a different study that cites it, so it is secondhand.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-gakuhari2020-ea2"
+          ]
+        }
+      ]
+    },
+    "sea-neolithic-farmers": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are early farmers buried at Man Bac in northern Vietnam about 4,000 years ago (4100-3600 years ago). The 2018 study sampled eight individuals from the site as part of 18 from five sites in Southeast Asia. Preservation in tropical conditions was poor, so each genome has limited coverage.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1",
+            "ev-lipson2018sea-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Man Bac farmers mix two sources: East Asian ancestry related to southern Chinese farmers and ancestry from deeply diverged eastern Eurasian hunter-gatherers. In one model the proportions are about 70% farmer-related and 30% hunter-gatherer-related, shared with present-day Nicobarese and Mlabri. One individual, VN29, has more local hunter-gatherer ancestry, which the authors read as recent contact between farmers and hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-lipson2018sea-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Hoabinhian-related ancestry contributed to Southeast Asian diversity alongside East Asian farmer-related ancestry. By the Bronze Age, individuals at Vietnamese and Myanmar sites look closer to present-day majority groups, reflecting additional influxes of migrants. Farmers at Ban Chiang in Thailand and Vat Komnou in Cambodia cluster with Man Bac in the first analysis, while Bronze Age Nui Nap in Vietnam projects close to present-day Vietnamese.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-lipson2018sea-2",
+            "ev-lipson2018sea-ea3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Eight individuals from one site represent the group. The ancestry proportions come from a model fitted with present-day populations, which may not describe ancient ones. Poor preservation means low coverage. The authors link these ancestries to language families, and that interpretation is not shown here.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1",
+            "ev-lipson2018sea-ea2"
+          ]
+        }
+      ]
+    },
+    "xiongnu-period": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are 60 people buried in Mongolia during the period of the Xiongnu polity, roughly 200 BCE-100 CE, the first empire founded by pastoralists. The label is a date-and-place grouping. It does not imply a single ethnic identity. The earliest burials come mostly from northern frontier sites, while most later burials date after 50 BCE.",
+          "evidence_ids": [
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Xiongnu-period individuals formed from mixing between earlier Mongolian populations and surrounding groups. Early on, half cluster with an Altai-Sayan group of the Early Iron Age, while others mix that group with Ulaanzuukh Slab Grave ancestry. Late Xiongnu are more varied: some resemble Sarmatian-related steppe groups, and some mix with Han-related ancestry. The period united the gene pools of western and eastern Mongolia.",
+          "evidence_ids": [
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A pastoralist expansion reached Mongolia around 3000 BCE, and by the Late Bronze Age three structured groups all practised dairy pastoralism regardless of ancestry. After the Xiongnu empire, Early Medieval individuals show genetic profiles that differ from the Xiongnu period, suggesting new gene flow, and Mongol-period individuals show much higher eastern Eurasian ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-2",
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The Xiongnu panel is a date-and-place grouping of burials, so ancestry should not be read as political or ethnic membership. Sampling is uneven across sites, with only 13 early individuals, mostly from northern frontier sites. Model sources such as Chandman_IA, Sarmatian, BMAC and Han are proxies for unsampled groups.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea3",
+            "ev-jeong2020-ea2"
+          ]
+        }
+      ]
+    },
+    "mongol-period": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are people buried in Mongolia during the Mongol Empire, about 1200-1400 CE, grouped by date and place only. The 2020 study analysed 62 such individuals. Their burials are consistent with low-level local elites, so the sample excludes royal burials and the capital city of Karakorum. The label does not imply an ethnic identity.",
+          "evidence_ids": [
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea5"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Mongol-period individuals show much higher eastern Eurasian ancestry than in the Xiongnu period. As a group they fit a three-way model: 55-64% Ulaanzuukh Slab Grave ancestry, 21-27% Han-related ancestry and 15-18% Western Steppe ancestry, explaining 56 of 61 individuals. They are less genetically varied than the Xiongnu-era people.",
+          "evidence_ids": [
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea6"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Mongol-period ancestry follows the mixed Xiongnu and Early Medieval periods and almost lacks the residual ancient North Eurasian-related ancestry carried by the Xiongnu and earlier northern groups. The authors say this period marks the beginning of the modern Mongolian gene pool, which resembles present-day Mongolic-speaking populations.",
+          "evidence_ids": [
+            "ev-jeong2020-ea6",
+            "ev-jeong2020-ea7",
+            "ev-jeong2020-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The sample is of local elites, so it may not represent commoners or royals. The three source labels are stand-ins, and five individuals do not fit the model. The link to present-day populations comes from comparing modern genomes, so it is an inference and not a direct line of descent.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5",
+            "ev-jeong2020-ea6",
+            "ev-jeong2020-ea7"
+          ]
+        }
+      ]
+    }
+  },
+  "concerns": [
+    "hoabinhian: the description says its ancestry 'contributed to later Southeast Asians', and the only evidence (ev-mccoll2018-1) is an abstract-only statement that Hoabinhian-related ancestry contributed to present-day Southeast Asian diversity; the full text could not be fetched (Science, not open access), so this is not verified at section level.",
+    "yellow-river-farmers: description says the ancestry is that of 'middle and lower Yellow River basin' farmers, but Wang 2021's 84%/59-84% figures use Upper and Middle Yellow River farmers (an Upper Yellow River Neolithic site) and Ning 2020 has no lower-basin site (sites are on the central plain and upper reaches). Check the geography.",
+    "taiwan-iron-age: description (and ev-wang2021-4) say 'about 1300 BCE-800 CE' and call the group 'Iron Age', while Wang 2021 describes the Taiwan time transect as spanning the Neolithic-to-Iron Age sites; the panel name may be broader than the Iron Age. Also the description's link to 'Austronesian languages' is a language claim the brief says not to make."
+  ]
+}

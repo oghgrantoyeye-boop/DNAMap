@@ -119,7 +119,7 @@ button { font: inherit; color: inherit; }
 
 .stage { position: relative; min-height: 0; }
 .map-wrap { position: absolute; inset: 0; }
-.map-canvas { position: absolute; inset: 0; display: block; }
+.map-canvas { position: absolute; inset: 0; display: block; transform-origin: 0 0; will-change: transform; }
 .map-interactive { cursor: grab; touch-action: none; }
 .map-interactive:active { cursor: grabbing; }
 

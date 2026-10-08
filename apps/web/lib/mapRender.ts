@@ -146,6 +146,8 @@ export interface FrameInput {
   highlightMembers: boolean;
   showLowConfidence: boolean;
   modelChoice: Record<string, string>;
+  /** true while the map is being dragged or zoomed: skip costly detail, redrawn in full on settle */
+  fast?: boolean;
 }
 
 export interface FrameOutput {
@@ -200,9 +202,14 @@ export function drawBasemap(
   theme: MapTheme,
   showBorders: boolean,
   relief: HTMLCanvasElement | null,
+  fast = false,
 ): void {
   const path = geoPath(projection, ctx);
   const L = basemap.layers;
+  // Project the land outline once per frame and reuse it for every pass (it is by far the
+  // largest geometry; building it per pass cost seven projections of ~100k points).
+  const landPath = new Path2D();
+  geoPath(projection, landPath as unknown as CanvasRenderingContext2D)(L.land);
   ctx.save();
   ctx.fillStyle = theme.page;
   ctx.fillRect(0, 0, width, height);
@@ -229,39 +236,34 @@ export function drawBasemap(
   ctx.lineWidth = 0.6;
   ctx.stroke();
 
-  // engraved water-lines: concentric rings offshore (outermost first)
-  if (theme.waterLines) {
+  // engraved water-lines: concentric rings offshore (outermost first). Skipped while the
+  // map is being dragged or zoomed (wide strokes are the costliest pass) and redrawn on settle.
+  if (theme.waterLines && !fast) {
     const { count, gap, color } = theme.waterLines;
     ctx.lineJoin = "round";
     for (let i = count; i >= 1; i--) {
-      ctx.beginPath();
-      path(L.land);
       ctx.lineWidth = 2 * i * gap;
       ctx.strokeStyle = color;
-      ctx.stroke();
+      ctx.stroke(landPath);
       ctx.lineWidth = 2 * i * gap - 1.1;
       ctx.strokeStyle = theme.ocean;
-      ctx.stroke();
+      ctx.stroke(landPath);
     }
   }
 
-  ctx.beginPath();
-  path(L.land);
   ctx.fillStyle = theme.land;
-  ctx.fill();
+  ctx.fill(landPath);
 
   if (theme.relief && relief) {
     ctx.save();
-    ctx.beginPath();
-    path(L.land);
-    ctx.clip();
+    ctx.clip(landPath);
     ctx.globalCompositeOperation = theme.relief.blend;
     ctx.globalAlpha = theme.relief.alpha;
     ctx.drawImage(relief, 0, 0, width, height);
     ctx.restore();
   }
 
-  if (L.glaciers) {
+  if (L.glaciers && !fast) {
     ctx.beginPath();
     path(L.glaciers);
     ctx.fillStyle = theme.glacier;
@@ -278,18 +280,16 @@ export function drawBasemap(
     ctx.lineWidth = theme.coastWidth * 0.6;
     ctx.stroke();
   }
-  if (L.rivers) {
+  if (L.rivers && !fast) {
     ctx.beginPath();
     path(L.rivers);
     ctx.strokeStyle = theme.river;
     ctx.lineWidth = theme.riverWidth;
     ctx.stroke();
   }
-  ctx.beginPath();
-  path(L.land);
   ctx.strokeStyle = theme.coast;
   ctx.lineWidth = theme.coastWidth;
-  ctx.stroke();
+  ctx.stroke(landPath);
 
   if (showBorders && L.borders) {
     ctx.beginPath();
@@ -302,7 +302,7 @@ export function drawBasemap(
   }
   ctx.restore(); // sphere clip
 
-  if (theme.paper) {
+  if (theme.paper && !fast) {
     const pat = paperPattern(ctx);
     if (pat) {
       ctx.globalCompositeOperation = theme.dark ? "overlay" : "multiply";
@@ -320,7 +320,7 @@ export function drawBasemap(
   ctx.strokeStyle = theme.neatline;
   ctx.lineWidth = 1.1;
   ctx.stroke();
-  if (theme.waterLines) {
+  if (theme.waterLines && !fast) {
     const s0 = projection.scale();
     projection.scale(s0 * 1.012);
     ctx.beginPath();
@@ -406,6 +406,27 @@ export function drawData(f: FrameInput): FrameOutput {
   return { visible, labels, popWeight, sampleW, pos };
 }
 
+// Soft round sprites, one per colour and size, drawn with drawImage. Creating a radial
+// gradient per sample every frame was the main cost of the data layer.
+const spriteCache = new Map<string, HTMLCanvasElement>();
+function glowSprite(hex: string, radius: number): HTMLCanvasElement {
+  const r = Math.max(2, Math.round(radius));
+  const key = `${hex}|${r}`;
+  let c = spriteCache.get(key);
+  if (!c) {
+    c = document.createElement("canvas");
+    c.width = c.height = 2 * r;
+    const g = c.getContext("2d")!;
+    const gr = g.createRadialGradient(r, r, 0, r, r, r);
+    gr.addColorStop(0, rgba(hex, 1));
+    gr.addColorStop(1, rgba(hex, 0));
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 2 * r, 2 * r);
+    spriteCache.set(key, c);
+  }
+  return c;
+}
+
 function drawFields(f: FrameInput, sampleW: Float32Array, pos: Float32Array, popWeight: Float32Array, selectedIdx: number): void {
   const { ctx, data, theme, projection } = f;
   const pops = data.ontology.populations;
@@ -417,6 +438,7 @@ function drawFields(f: FrameInput, sampleW: Float32Array, pos: Float32Array, pop
   for (let pi = 0; pi < pops.length; pi++) {
     if (popWeight[pi] <= 0) continue;
     const col = GROUP_COLOR[pops[pi].transition];
+    const sprite = theme.field === "wash" ? null : glowSprite(col, rPx);
     const emphasis = selectedIdx < 0 ? 1 : pi === selectedIdx ? 1.6 : 0.4;
     for (const i of data.members[pi]) {
       const w = sampleW[i];
@@ -425,12 +447,12 @@ function drawFields(f: FrameInput, sampleW: Float32Array, pos: Float32Array, pop
         y = pos[2 * i + 1];
       if (theme.field === "wash") {
         // watercolour: two irregular translucent blobs per member, multiplied
-        for (let b = 0; b < 2; b++) {
+        for (let b = 0; b < (f.fast ? 1 : 2); b++) {
           const rr = rPx * (0.55 + 0.45 * hash(i, b));
           const ox = (hash(i, b + 7) - 0.5) * rPx * 0.5,
             oy = (hash(i, b + 13) - 0.5) * rPx * 0.5;
           ctx.beginPath();
-          const n = 9;
+          const n = f.fast ? 6 : 9;
           for (let v = 0; v <= n; v++) {
             const a = (v / n) * Math.PI * 2;
             const rv = rr * (0.78 + 0.32 * hash(i * 31 + b, v % n));
@@ -444,12 +466,8 @@ function drawFields(f: FrameInput, sampleW: Float32Array, pos: Float32Array, pop
           ctx.fill();
         }
       } else {
-        const g = ctx.createRadialGradient(x, y, 0, x, y, rPx);
-        const a = theme.field === "glow" ? Math.min(0.2, 0.09 * w * emphasis) : Math.min(0.32, 0.16 * w * emphasis);
-        g.addColorStop(0, rgba(col, a));
-        g.addColorStop(1, rgba(col, 0));
-        ctx.fillStyle = g;
-        ctx.fillRect(x - rPx, y - rPx, 2 * rPx, 2 * rPx);
+        ctx.globalAlpha = theme.field === "glow" ? Math.min(0.2, 0.09 * w * emphasis) : Math.min(0.32, 0.16 * w * emphasis);
+        ctx.drawImage(sprite!, x - rPx, y - rPx, 2 * rPx, 2 * rPx);
       }
     }
   }
@@ -483,13 +501,11 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
     const hr = rDot * 3.2;
     for (const v of visible) {
       const w = sampleW[v.i] * (dimmed(v.i) ? 0.25 : 1);
-      const g = ctx.createRadialGradient(v.x, v.y, 0, v.x, v.y, hr);
-      g.addColorStop(0, rgba(colorOf(v.i), (assigned(v.i) ? 0.28 : 0.1) * w));
-      g.addColorStop(1, rgba(colorOf(v.i), 0));
-      ctx.fillStyle = g;
-      ctx.fillRect(v.x - hr, v.y - hr, 2 * hr, 2 * hr);
+      ctx.globalAlpha = (assigned(v.i) ? 0.28 : 0.1) * w;
+      ctx.drawImage(glowSprite(colorOf(v.i), hr), v.x - hr, v.y - hr, 2 * hr, 2 * hr);
     }
     ctx.globalCompositeOperation = "source-over";
+    ctx.globalAlpha = 1;
     for (const v of visible) {
       const w = sampleW[v.i] * (dimmed(v.i) ? 0.3 : 1);
       ctx.globalAlpha = 0.25 + 0.75 * w;

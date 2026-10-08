@@ -17,6 +17,10 @@ Hunter-gatherers of the southern Levant associated with the Natufian culture, be
 **Evidence:**
 - The earliest sampled Near Eastern populations derived about half their ancestry from a 'Basal Eurasian' lineage with little or no Neandertal ancestry. — lazaridis2016, Abstract
 - The first farmers of the southern Levant and of the Zagros were strongly differentiated, each descending largely from local hunter-gatherers. — lazaridis2016, Abstract
+- The Natufian-associated sample comes from Raqefet Cave in the Levant (12,000-9,800 BCE); Natufians derive about 44% (plus or minus 8) of their ancestry from a Basal Eurasian lineage, similar to the earliest Iranian samples, so they are not shown to be the vector that brought it into the Near East. — lazaridis2016, Results, Basal Eurasian ancestry was pervasive in the ancient Near East
+- Natufians and successor Levantine Neolithic populations carried Y haplogroup E, of likely African origin, but no genome-wide affinity of Natufians to sub-Saharan Africans is evident; Levantine early farmers share significantly more alleles with Natufians than with Iranian early farmers. — lazaridis2016, Results; Extended Data Table 1
+- Using the Ethiopian Mota genome as an African reference, Basal Eurasian ancestry is estimated at 38.5% (plus or minus 5.0) in Natufians and 24.8% (plus or minus 5.5) in the Pinarbasi Anatolian hunter-gatherer, a lower estimate than the first study's 44% for Natufians. — feldman2019, Results; Fig. 3b; Supplementary Table 10
+- Seven ~15,000-year-old Iberomaurusian-associated individuals from Taforalt (Morocco) show affinity with Natufians, no gene flow from Palaeolithic Europeans, and about one-third sub-Saharan African-related ancestry. — vandeloosdrecht2018, Abstract
 
 **Caveats:**
 - Few individuals.
@@ -33,6 +37,10 @@ A hunter-gatherer from Pınarbaşı in central Anatolia, about 15,000 years ago,
 
 **Evidence:**
 - Central Anatolian early farmers show about 80–90% genetic continuity with a ~15,000-year-old local hunter-gatherer (Pınarbaşı), with additional Iranian/Caucasus-related and later Levant-related ancestry. — feldman2019, Abstract
+- The first Epipaleolithic Anatolian hunter-gatherer genome (AHG) comes from Pinarbasi, directly dated to 13,642-13,073 cal BCE; in PCA it is intermediate between western hunter-gatherers and Epipaleolithic/Neolithic Levantines, and distinct from both. — feldman2019, Results; Table 1
+- Using the Ethiopian Mota genome as an African reference, Basal Eurasian ancestry is estimated at 38.5% (plus or minus 5.0) in Natufians and 24.8% (plus or minus 5.5) in the Pinarbasi Anatolian hunter-gatherer, a lower estimate than the first study's 44% for Natufians. — feldman2019, Results; Fig. 3b; Supplementary Table 10
+- Early aceramic Anatolian farmers (about 8300-7800 BCE, Boncuklu) derive most of their ancestry (89.7%, plus or minus 3.9) from an AHG-related population with the rest Iranian/Caucasus-related; later ceramic-period farmers still derive 78.7% (plus or minus 3.5) from the earlier farmers, with additional Levant Neolithic-related ancestry. — feldman2019, Results; Supplementary Tables 4, 6, 7
+- Iron Gates Mesolithic hunter-gatherers from the Balkans show the highest genetic affinity to the Pinarbasi hunter-gatherer and the second highest to Natufians; the authors read this as evidence of a genetic link between southern Europe and the Near East older than 15,000 years, with Near Eastern gene flow into the ancestors of Iron Gates hunter-gatherers. — feldman2019, Results
 
 **Caveats:**
 - A single individual.
@@ -48,6 +56,11 @@ A modelled ancestral lineage that split from other non-African lineages before t
 **Evidence:**
 - Early European Farmers are modelled with about 44% ancestry from a 'Basal Eurasian' lineage that split before other non-African lineages diversified. — lazaridis2014, Abstract; admixture-graph section
 - The earliest sampled Near Eastern populations derived about half their ancestry from a 'Basal Eurasian' lineage with little or no Neandertal ancestry. — lazaridis2016, Abstract
+- Early European Farmers (Stuttgart) are modelled in an admixture graph as deriving 44% (plus or minus 10) of their ancestry from a 'Basal Eurasian' lineage that split before the divergence of other non-African lineages; no sampled individual belongs to it. — lazaridis2014, Results, admixture graph model
+- Basal Eurasian ancestry estimates are highest in the earliest Iranian and Levantine populations: 66% (plus or minus 13) in a likely Mesolithic Iranian, 48% (plus or minus 6) in Iranian Neolithic and 44% (plus or minus 8) in Natufians; by extrapolation the lineage had little if any Neanderthal ancestry (95% interval 0-60%). — lazaridis2016, Results, Basal Eurasian ancestry was pervasive in the ancient Near East; Fig. 2
+- An alternative estimate for Basal Eurasian ancestry, using the ancient Ethiopian Mota genome as a proxy, gives 38.5% in Natufians and 24.8% in a 15,000-year-old Anatolian hunter-gatherer. — feldman2019, Results; Supplementary Table 10
+- The authors give two possible explanations for the high Basal Eurasian share in Near Eastern groups: thorough mixing into the Near East after the main Neanderthal admixture, or ancestors who always lived in the Near East in a lineage that did not take part in that admixture. — lazaridis2016, Results
+- Tests find no support for an earlier model that European pre-Neolithic individuals such as Kostenki 14 carried Basal Eurasian ancestry; the Villabruna-cluster Europeans of the time do not have it, while the Caucasus hunter-gatherers do. — fu2016, Results, A single founding population; A drawing together of the ancestry
 
 **Caveats:**
 - The time range is a display window only: the papers place the lineage's split before the diversification of other non-Africans and its contribution before the earliest sampled Natufians, without dating it precisely.
@@ -62,11 +75,18 @@ Early Neolithic people of the Zagros mountains in western Iran, among the earlie
 
 **Membership rule:** `^Iran_(GanjDareh|TepeAbdulHosein|WezmehCave)_N$|^Iran_TepeGuran_(EN_)?PPN$`.
 
-**Matched (16 individuals, 4 sites):** Iran_GanjDareh_N (9); Iran_TepeAbdulHosein_N (3); Iran_TepeGuran_EN_PPN (2); Iran_WezmehCave_N (1); Iran_TepeGuran_PPN (1)
+**Matched (16 individuals, 4 sites):** Iran_GanjDareh_N (9); Iran_TepeAbdulHosein_N (3); Iran_TepeGuran_EN_PPN (2); Iran_TepeGuran_PPN (1); Iran_WezmehCave_N (1)
 
 **Evidence:**
 - The first farmers of the southern Levant and of the Zagros were strongly differentiated, each descending largely from local hunter-gatherers. — lazaridis2016, Abstract
 - Early Neolithic people of the Zagros were neither ancestral to the first European farmers nor significant contributors to present-day Europeans; multiple differentiated hunter-gatherer populations adopted farming in southwest Asia. — broushaki2016, Abstract
+- Four Early Neolithic genomes from Iran were sequenced: Wezmeh Cave (WC1, 7,455-7,082 cal BCE, 10x coverage) and three roughly 10,000-year-old individuals from Tepe Abdul Hosein (0.6-1.2x); diet isotopes in WC1 indicate a diet rich in cultivated C3 cereals. — broushaki2016, Results
+- Early farmers from Ganj Dareh in the Zagros (8,200-7,600 BCE) share alleles at an equal rate with Anatolian and Levantine early farmers, which the authors read as long-term isolation of western Iran; Iranian Neolithic samples have about 48% Basal Eurasian ancestry. — lazaridis2016, Results
+- Model-based separation of Zagros and Anatolian early farmers' ancestors: about 46,000–77,000 years ago. — broushaki2016, Abstract
+- A population related to Chalcolithic-period individuals from western Iran is modelled as contributing about 43% of the ancestry of Early Bronze Age steppe populations, about 44% of Levantine Bronze Age ancestry and about 33% of Chalcolithic northwestern Anatolians; the Chalcolithic Iranians themselves are modelled as a mix of Zagros Neolithic, Levant and Caucasus hunter-gatherer ancestry. — lazaridis2016, Results, How diverse first farmers mixed; The Near Eastern contribution
+- People related to both early Iranian farmers and steppe pastoralists spread east into South Asia. — lazaridis2016, Abstract
+- The Iranian-related ancestry in the IVC individual derives from a lineage that split before the ancestors of early Iranian farmers, herders and hunter-gatherers separated, contradicting a large-scale eastward spread of western Iranian farmers. — shinde2019, Summary
+- The Zagros genomes show a large effective ancestral population (lowest short ROH of the ancient genomes tested) and share more than 95% of recent ancestry with modern groups from the Middle East, Caucasus and India. — broushaki2016, Results
 
 ## Early farmers of the southern Levant (PPNB) (`levant-ppn-farmers`)
 
@@ -78,10 +98,16 @@ Pre-Pottery Neolithic farmers of Jordan and Israel, who descended largely from l
 
 **Membership rule:** `^Jordan_PPN[BC]|^Israel_PPNB`.
 
-**Matched (16 individuals, 4 sites):** Jordan_PPNB (10); Jordan_PPNC (3); Jordan_PPNB_LN (1); Israel_PPNB_LN (1); Israel_PPNB_PotteryN_C (1)
+**Matched (16 individuals, 4 sites):** Jordan_PPNB (10); Jordan_PPNC (3); Jordan_PPNB_LN (1); Israel_PPNB_PotteryN_C (1); Israel_PPNB_LN (1)
 
 **Evidence:**
 - The first farmers of the southern Levant and of the Zagros were strongly differentiated, each descending largely from local hunter-gatherers. — lazaridis2016, Abstract
+- Pre-Pottery Neolithic farmers from 'Ain Ghazal and Motza in the southern Levant (8,300-6,700 BCE) trace about two thirds of their ancestry to people related to Natufian hunter-gatherers and about one third to people related to Anatolian farmers. — lazaridis2016, Results, How diverse first farmers mixed
+- Two Levantine Pre-Pottery Neolithic B farmers (Kfar HaHoresh, about 7700-7600 BCE; Ba'ja, 7027-6685 cal BCE) were added and used as Levant Neolithic references. — feldman2019, Results; Table 1
+- By the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed, reducing genetic differentiation across the Near East. — lazaridis2016, Abstract
+- Late Chalcolithic individuals from Peqi'in Cave (Israel, 4500–3900 BCE) are modelled as about 57% Levant Neolithic-related, 17% Iran Chalcolithic-related and 26% Anatolia Neolithic-related. — harney2018, Abstract
+- East African ancestry related to the Near East is significantly better modelled by Levantine early farmers than by Anatolian or early European farmers; the authors take this to mean it did not spread from the group that carried Near Eastern ancestry into Europe. — lazaridis2016, Results, The Near Eastern contribution
+- A ~3,100-year-old pastoralist from Luxmanda (Tanzania) is modelled with 38 ± 1% ancestry related to Levantine pre-pottery farmers (Iran- or Anatolia-related sources excluded); the authors note this could reflect migration from the Levant or a shared earlier ancestral population. — skoglund2017, Results
 
 ## Early farmers of Anatolia (`anatolia-neolithic-farmers`)
 
@@ -93,11 +119,17 @@ Neolithic farmers of central and western Anatolia, whose ancestry continues larg
 
 **Membership rule:** `^Turkey_(N|LN|PPN|PPNA)$|^Turkey_Catalhoyuk_(EN|MN|LN|N)$`.
 
-**Matched (189 individuals, 12 sites):** Turkey_N (48); Turkey_Catalhoyuk_MN (46); Turkey_Catalhoyuk_LN (32); Turkey_PPN (32); Turkey_Catalhoyuk_EN (17); Turkey_Catalhoyuk_N (10); Turkey_PPNA (3); Turkey_LN (1)
+**Matched (189 individuals, 12 sites):** Turkey_N (48); Turkey_Catalhoyuk_MN (46); Turkey_PPN (32); Turkey_Catalhoyuk_LN (32); Turkey_Catalhoyuk_EN (17); Turkey_Catalhoyuk_N (10); Turkey_PPNA (3); Turkey_LN (1)
 
 **Evidence:**
 - Central Anatolian early farmers show about 80–90% genetic continuity with a ~15,000-year-old local hunter-gatherer (Pınarbaşı), with additional Iranian/Caucasus-related and later Levant-related ancestry. — feldman2019, Abstract
 - Farmer ancestry related to Anatolian farmers spread west into Europe. — lazaridis2016, Abstract
+- Early aceramic Anatolian farmers (about 8300-7800 BCE, Boncuklu) derive most of their ancestry (89.7%, plus or minus 3.9) from an AHG-related population with the rest Iranian/Caucasus-related; later ceramic-period farmers still derive 78.7% (plus or minus 3.5) from the earlier farmers, with additional Levant Neolithic-related ancestry. — feldman2019, Results; Supplementary Tables 4, 6, 7
+- Early farmers of mainland Europe descend from a population related to Neolithic northwestern Anatolians (European farmers share more alleles with Anatolian Neolithic than with Levantine Neolithic farmers, Z=15), but the authors note that the spatial distribution of Anatolian-like farmer populations is unknown, so other sources are not rejected. — lazaridis2016, Results, The Near Eastern contribution to Europeans
+- The Anatolian/European farmer lineage is modelled as separating from European hunter-gatherers about 33-39,000 years ago and from the Neolithic Zagros lineage about 46-77,000 years ago. — broushaki2016, Results; Supplementary Tables 34-35
+- Farming reached southeastern Europe in the mid-7th millennium BCE with migrants of Anatolian-related ancestry. — mathieson2018, Abstract
+- Neolithic populations of Bulgaria, Croatia, Macedonia, Serbia and Romania cluster closely with northwestern Anatolian Neolithic farmers; modelled as Anatolian Neolithic plus western hunter-gatherer, about 98% (95% CI 97-100%) of Balkan Neolithic ancestry is Anatolian-related. — mathieson2018, Results, Population transformations in the first farmers
+- Farming came to Britain with continental farmers whose ancestry was mostly Anatolian-farmer-related (about 74% on average in the authors' model), with small hunter-gatherer contributions and no later hunter-gatherer resurgence. — brace2019, Abstract; Results
 
 ## Late Chalcolithic individuals of Peqi'in Cave (`levant-chalcolithic-peqiin`)
 
@@ -114,3 +146,5 @@ People buried in Peqi'in Cave, northern Israel, during the Late Chalcolithic (ab
 **Evidence:**
 - Late Chalcolithic individuals from Peqi'in Cave (Israel, 4500–3900 BCE) are modelled as about 57% Levant Neolithic-related, 17% Iran Chalcolithic-related and 26% Anatolia Neolithic-related. — harney2018, Abstract
 - By the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed, reducing genetic differentiation across the Near East. — lazaridis2016, Abstract
+- Twenty-two individuals from Peqi'in Cave were analysed, of whom 20 appear unrelated; nine of ten males carry Y haplogroup T, unlike earlier Levantine populations dominated by E and later Bronze Age individuals all of J. — harney2018, Results; Discussion
+- The Peqi'in population cannot be the sole ancestor of all later Bronze Age groups: one Bronze Age group could not plausibly have descended from the same population as Peqi'in, and several three-way models with similar sources fit the data (Anatolia Neolithic and early European farmers are hard to distinguish). — harney2018, Results; Abstract

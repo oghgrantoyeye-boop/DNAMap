@@ -16,13 +16,20 @@ An archaic human group of western Eurasia, known from fossils and from several h
 
 *AADR labels ending in _Neanderthal. Excludes the Neandertal–Denisovan first-generation offspring (Russia_Denisova_Neanderthal_Mix).*
 
-**Matched (10 individuals, 8 sites):** VindijaCave_Neanderthal (2); Mezmaiskayacave_Neanderthal (2); SpyCave_Neanderthal (1); LesCottescave_Neanderthal (1); GoyetCave_Neanderthal (1); ChagyrskayaCave_Neanderthal (1); Altai_Neanderthal (1); France_GrotteMandrin_Neanderthal (1)
+**Matched (10 individuals, 8 sites):** Mezmaiskayacave_Neanderthal (2); VindijaCave_Neanderthal (2); SpyCave_Neanderthal (1); ChagyrskayaCave_Neanderthal (1); LesCottescave_Neanderthal (1); GoyetCave_Neanderthal (1); Altai_Neanderthal (1); France_GrotteMandrin_Neanderthal (1)
 
 **Evidence:**
 - Neandertals share more derived variants with present-day people outside sub-Saharan Africa than with sub-Saharan Africans, best explained by gene flow from Neandertals into the ancestors of non-Africans before Eurasian populations diverged. — green2010, Abstract; gene-flow sections
 - The Neandertal ancestry in non-Africans is closer to the Mezmaiskaya (Caucasus) Neandertal than to the Altai Neandertal. — prufer2014, Gene-flow section; Extended Data Table 2
 - The Vindija and Mezmaiskaya Neandertals are closer than the Altai Neandertal to the Neandertals who contributed DNA to present-day non-Africans. — prufer2017, Main text
 - Neandertal ancestry in European individuals fell from 3–6% in the earliest to about 2% over 45,000–7,000 years ago. — fu2016, Abstract
+- A female Neandertal from Vindija Cave, Croatia (bone dated beyond 45,500 years ago; age estimated from the genome at about 52,000 years) was sequenced to about 30-fold coverage; she carried 1.6 differences per 10,000 base pairs between her two genome copies, fewer than present-day humans, suggesting small Neandertal populations. — prufer2017, Abstract; Results
+- The Vindija Neandertal is closer than the Altai Neandertal to the Neandertals who mixed with ancestors of present-day non-Africans, allowing 10-20% more Neandertal DNA to be identified in present-day humans; genome-based age estimates are about 52,000 years (Vindija), 122,000 (Altai) and 72,000 (Denisovan). — prufer2017, Abstract; Results
+- The Siberian (Altai) Neandertal woman's parents were related at about the level of half siblings and close-kin mating was common among her recent ancestors; the study also sequenced a Caucasus (Mezmaiskaya) Neandertal at low coverage and estimates Neandertal-derived DNA in non-Africans at 1.5-2.1%. — prufer2014, Abstract; Results
+- The great majority of Neandertal ancestry in modern humans traces to a single extended period of gene flow 50,500-43,500 years ago from a single Neandertal group or closely related populations, and most selection for and against Neandertal variants occurred immediately after it. — iasi2024, Abstract; Results
+- The three early Bacho Kiro individuals each had a Neandertal ancestor only a few generations back (under six generations for one and about seven for the other two, with upper limits of ten to seventeen), confirming that the first modern humans in Europe mixed with Neandertals. — hajdinjak2021, Abstract; Results
+- Oase 1 (Romania, ~37,000–42,000 years old) has about 6–9% Neandertal DNA, implying a Neandertal ancestor 4–6 generations back, and shows no special relationship to later Europeans. — fu2015, Abstract
+- Contrary to the earlier proposal of Fu et al. (2016), no substantial decrease of Neandertal ancestry is observed in most European hunter-gatherers through time, supporting a model with no long-term decline of genome-wide Neandertal ancestry after introgression. — posth2023, Main
 
 **Caveats:**
 - Most sampled Neandertal genomes predate the V1 window; only a few late individuals (about 50,000–40,000 years ago) fall inside it.
@@ -39,13 +46,17 @@ An archaic human group known mainly from genomes recovered at Denisova Cave in t
 
 *Only the genetically Denisovan individuals. Russia_DenisovaCave (a ~24,000-year-old modern human from the same cave) is deliberately excluded.*
 
-**Matched (2 individuals, 2 sites):** Russia_Denisova (1); Russia_DenisovaCave_MPleistocene (1)
+**Matched (2 individuals, 2 sites):** Russia_DenisovaCave_MPleistocene (1); Russia_Denisova (1)
 
 **Evidence:**
 - A finger bone from Denisova Cave yielded the genome of an archaic group related to Neandertals, named Denisovans. — reich2010, Abstract
 - Denisovan-introgressed segments in present-day Chinese and Japanese populations fall into two components with different affinity to the Altai Denisovan, indicating at least two Denisovan-related sources. — browning2018, Section 'Two waves of Denisovan ancestry'; Fig. 4; Table 2
 - Ayta Magbukon (Philippines) carry about 30–40% more Denisovan ancestry than Australians and Papuans, consistent with a separate Denisovan admixture event. — larena2021, Summary
 - Gene flow from Neandertals into Denisovans contributed at least about 0.5% of the Denisovan genome. — prufer2014, Section on Denisovan heterozygosity; Fig. 6
+- The Denisovan genome was first sequenced to about 1.9-fold coverage from a finger bone in Denisova Cave; it came from a group sharing a common origin with Neandertals that was not involved in the Neandertal gene flow into Eurasians, and a tooth with a very similar mitochondrial genome shows no derived features shared with Neandertals or modern humans. — reich2010, Abstract
+- A high-coverage Denisovan genome (about 30-fold) and analysis with Neandertal genomes indicate gene flow among Neandertals, Denisovans and early modern humans, possibly including gene flow into Denisovans from an unknown archaic group; Denisovan-like segments are found in present-day Han, Dai, Karitiana and Mixe genomes as well as in Oceania. — prufer2014, Abstract; Results
+- A reference-free method applied to 5,639 genomes finds Denisovan ancestry in East and South Asia and Papuans, made of two components with differing similarity to the Altai Denisovan, indicating at least two Denisovan admixture events. — browning2018, Summary
+- Aboriginal Australians and Papuans diverged from Eurasians 51-72 thousand years ago and subsequently admixed with different archaic populations. — malaspinas2016, Abstract
 
 **Caveats:**
 - All sampled Denisovan genomes predate the V1 window; the populations that admixed with modern humans are unsampled and their locations unknown.
@@ -65,6 +76,14 @@ A modelled population: the common ancestors of nearly all present-day people who
 - Most Neandertal ancestry in modern humans traces to a single extended period of gene flow 50,500–43,500 years ago, shared by most non-Africans. — iasi2024, Abstract; Discussion
 - The Neandertal ancestry of the Zlatý kůň/Ranis population comes from the admixture shared by all non-Africans, dated to 45,000–49,000 years ago. — sumer2024, Main text, dating section
 - Neandertals share more derived variants with present-day people outside sub-Saharan Africa than with sub-Saharan Africans, best explained by gene flow from Neandertals into the ancestors of non-Africans before Eurasian populations diverged. — green2010, Abstract; gene-flow sections
+- Linkage disequilibrium in present-day Europeans dates the last Neandertal gene flow to 37,000–86,000 years ago, most likely 47,000–65,000 years ago. — sankararaman2012, Abstract; Results
+- Revised with the closer Vindija genome, Neandertal-derived DNA in present-day non-Africans is estimated at 1.8-2.6% (East Asians 2.3-2.6%, western Eurasians 1.8-2.4%), against 1.5-2.1% with the Altai genome. — prufer2017, Results
+- Neandertal-derived DNA in people outside Africa was estimated at 1.5–2.1%. — prufer2014, Gene-flow section; SI 14; Extended Data Table 1
+- Site-frequency-spectrum modelling places a primary Neandertal admixture of about 2.3% (95% CI 1.1–3.5%) in the ancestors of all non-Africans at about 60,000 years ago (95% CI 55–84 ka). — malaspinas2016, Archaic admixture section; S07
+- The Neandertal ancestry of the Ranis/Zlaty kun individuals comes from a single admixture shared with all non-Africans dated about 45,000-49,000 years ago, implying that the ancestors of all non-Africans sequenced so far lived in one common population then, and that modern human remains older than 50,000 years from outside Africa represent different non-African populations. — sumer2024, Abstract
+- Ust'-Ishim shows signals of an additional, more recent Neandertal introgression about 30-50 generations before he lived, and Oase 1 and four Bacho Kiro individuals had Neandertal ancestors within the last 10-20 generations, whereas no such evidence has been found for Tianyuan or Zlaty kun. — sumer2024, Main
+- Ust'-Ishim's Neandertal segments are longer than in present-day people, placing the Neandertal gene flow about 7,000–13,000 years before he lived. — fu2014, Abstract; main text
+- Two ancient East Asian genomes (Tianyuan, about 40,000 years old, and Salkhit, about 35,000) are consistent with a single pulse of Neandertal gene flow, though present-day East Asians carry about 20% more Neandertal ancestry than western Eurasians and the reason is debated. — iasi2024, Results
 
 **Caveats:**
 - The time range shown is the window of the shared Neandertal gene flow (50,500–43,500 years ago, Iasi et al. 2024), not the population's lifespan.

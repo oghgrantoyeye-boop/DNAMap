@@ -1,0 +1,1271 @@
+{
+  "group": "steppe",
+  "evidence": [
+    {
+      "id": "ev-nikitin2025-st1",
+      "source_id": "nikitin2025",
+      "claim": "The authors describe Cucuteni-Trypillia farming groups as spreading east across the Carpathians to the Dnipro Valley around 4800 BCE, with ancestry mainly derived from early European farmers plus some western hunter-gatherer ancestry (summarising earlier work).",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Background statement drawing on earlier studies, not a new result."
+    },
+    {
+      "id": "ev-nikitin2025-st2",
+      "source_id": "nikitin2025",
+      "claim": "For 23 of 24 sampled Trypillia individuals a three-source model fits, averaging about 81% Balkan Eneolithic (farmer-related), 14% Balkan hunter-gatherer-related and 5% Caucasus-Lower Volga-derived ancestry; mixing is dated to 4595 BCE, 95% interval 4832-4358 BCE.",
+      "location": "Results, Trypillia and Usatove; Table 1; Fig. 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "qpAdm and DATES estimates; depend on the proxy source groups chosen."
+    },
+    {
+      "id": "ev-nikitin2025-st3",
+      "source_id": "nikitin2025",
+      "claim": "Usatove-associated people are modelled as about 45% from an intermediate Caucasus-Lower Volga-cline group and about 55% Trypillia-associated farmers, with the mixing dated to 4471 BCE (95% interval 4571-4371 BCE); the CLV share in Trypillia itself is only about 5%.",
+      "location": "Results, Trypillia and Usatove; Discussion; Table 1",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nikitin2025-st4",
+      "source_id": "nikitin2025",
+      "claim": "The authors offer several untested settings for the Usatove mixing: a trading outpost in the Danube-Dniester delta, a coexisting 'commonwealth' of cultures, or Trypillia farmers under dominance by CLV-related groups; the DNA does not choose between them.",
+      "location": "Discussion, Waves of CLV expansion",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-papac2021-st1",
+      "source_id": "papac2021",
+      "claim": "Globular Amphora (GAC) individuals from Bohemia carry the most hunter-gatherer-related ancestry (25.7%, plus or minus 1.4) among the pre-Corded Ware groups there, and the admixture dates suggest GAC reflects a nonlocal arrival from a region with more hunter-gatherer gene flow, such as Poland.",
+      "location": "Results, Bohemia before Corded Ware; Fig. 3B",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "qpAdm and DATES; Bohemian GAC only."
+    },
+    {
+      "id": "ev-papac2021-st2",
+      "source_id": "papac2021",
+      "claim": "Sixteen Rivnac and GAC individuals who lived at or after the time Corded Ware appeared in Bohemia show no detectable steppe ancestry, suggesting little biological exchange from Corded Ware/Yamnaya-related people into these groups.",
+      "location": "Results, Bohemia before Corded Ware",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-allentoft2024-st1",
+      "source_id": "allentoft2024",
+      "claim": "The farmer-related ancestry in Corded Ware-associated individuals can be modelled as coming exclusively from a Globular Amphora-associated genetic cluster, and it co-occurs with steppe-related ancestry across all sampled European regions; the authors infer that steppe-related ancestry spread mostly through groups already mixed with GAC-related farmers.",
+      "location": "Results; Extended Data Fig. 6",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Supervised ancestry modelling with proxy sources."
+    },
+    {
+      "id": "ev-allentoft2024-st2",
+      "source_id": "allentoft2024",
+      "claim": "Before Corded Ware appeared, eastern GAC and western Yamnaya groups exchanged cultural elements in the forest-steppe zone northwest of the Black Sea; the authors treat such contact zones as probably central to Corded Ware formation, but note that earlier data from few individuals had suggested only cultural influence.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-wang2019-st1",
+      "source_id": "wang2019",
+      "claim": "Using Globular Amphora as a stand-in for farmer-related ancestry, Yamnaya from Samara carry about 13% and Yamnaya from Ukraine or the Caucasus about 17% such ancestry, with the authors noting the source was a mixture of farmer ancestry and at least 20% western hunter-gatherer ancestry.",
+      "location": "Results, Yamnaya and steppe groups; Fig. 4; Supplementary Table 17",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Globular Amphora is used as a proximate surrogate, not as a proven source."
+    },
+    {
+      "id": "ev-nikitin2025-st5",
+      "source_id": "nikitin2025",
+      "claim": "Two Yamna outlier individuals from Moldova with substantial European-farmer ancestry are best fitted as Core Yamna plus either Trypillia or Globular Amphora ancestry.",
+      "location": "Results, Yamna ancestry and Caucasus admixture",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "supports",
+      "note": "Model with several fitting alternatives."
+    },
+    {
+      "id": "ev-lazaridis2025-st1",
+      "source_id": "lazaridis2025",
+      "claim": "Burials at Ekaterinovka (5050-4450 BCE) already carry about 24% ancestry related to the Lower Volga Berezhnovka group, while an earlier hunter-gatherer from Lebyazhinka carries a share consistent with zero (7.9% plus or minus 3.6).",
+      "location": "Results, Volga Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "qpAdm; Ekaterinovka dates from herbivore bone radiocarbon dates."
+    },
+    {
+      "id": "ev-lazaridis2025-st2",
+      "source_id": "lazaridis2025",
+      "claim": "At Khvalynsk (4500-4350 BCE) individuals form a gradient with about 77% (high), 57% (medium) and 41% (low) Berezhnovka-related ancestry; across the Volga cline the Berezhnovka-related share ranges roughly 14-89%.",
+      "location": "Results, Volga Cline; Fig. 1c",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Two-source qpAdm model with Karelia hunter-gatherers as the other source."
+    },
+    {
+      "id": "ev-lazaridis2025-st3",
+      "source_id": "lazaridis2025",
+      "claim": "A Volga-cline individual from Csongrad in Hungary (4331-4073 BCE) has about 88% Berezhnovka-related ancestry, comparable to the highest Khvalynsk individuals, which the authors read as long-distance contact that skipped the Dnipro and Don basins.",
+      "location": "Results, Volga Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st4",
+      "source_id": "lazaridis2025",
+      "claim": "The origin of Lower Volga (Berezhnovka) ancestry is unresolved: there are no earlier sequenced individuals from the Lower Volga, the CHG-related source is unsampled, and the group cannot be modelled as continuous with contemporaneous or earlier groups.",
+      "location": "Results, Volga Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-lazaridis2025-st5",
+      "source_id": "lazaridis2025",
+      "claim": "The upriver Eastern hunter-gatherer ancestry of the Volga cline has long-established eastern European antecedents, whereas the downriver Berezhnovka-related ancestry does not.",
+      "location": "Results, Volga Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st6",
+      "source_id": "lazaridis2025",
+      "claim": "Yamnaya individuals cannot be traced to the Volga cline: Core Yamnaya fit neither the Volga cline nor the CLV cline directly and are placed on the Dnipro cline instead.",
+      "location": "Results, Dnipro Cline; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-lazaridis2025-st7",
+      "source_id": "lazaridis2025",
+      "claim": "The Caucasus-Lower Volga cline runs from the Neolithic Caucasus (Aknashen) through Maikop and Remontnoye to Berezhnovka on the Lower Volga; the main Maikop cluster is modelled as about 86% Aknashen-related and the Remontnoye group as about 45% Aknashen-related plus Berezhnovka-related ancestry.",
+      "location": "Results, Caucasus-Lower Volga Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st8",
+      "source_id": "lazaridis2025",
+      "claim": "Berezhnovka-2 individuals (4450-3960 BCE) on the Lower Volga carry about 29% Central Asian (Siberian-related) ancestry in one model, which the Lower Don Krivyansky group lacks (about 5%).",
+      "location": "Results, Dnipro Cline; Fig. 2b",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st9",
+      "source_id": "lazaridis2025",
+      "claim": "Berezhnovka-related ancestry makes up about 27% of Chalcolithic Armenians at Areni-1 (around 4000 BCE) and about 11% (with a Berezhnovka-related source) or 19% (with a Remontnoye-related source) of Bronze Age central Anatolians; the exact steppe-related source in Anatolia cannot be fixed.",
+      "location": "Results, CLV impact in Armenia and Anatolia",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Authors say the source is not precisely determined."
+    },
+    {
+      "id": "ev-nikitin2025-st6",
+      "source_id": "nikitin2025",
+      "claim": "Some carriers of Volga-CLV ancestry, as at Giurgiulesti and Csongrad, advanced to the Balkans and Carpathian region largely without mixing with people on the way, while Trypillia and Usatove incorporated CLV ancestry in different amounts (about 5% and about 50%).",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st10",
+      "source_id": "lazaridis2025",
+      "claim": "Serednii Stih is represented by 13 individuals (4996-3372 BCE, radiocarbon dates uncorrected for freshwater reservoir effects) who are spread along the Dnipro cline, in contrast to the genetically homogeneous Core Yamnaya.",
+      "location": "Results, Dnipro Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Dates may be inflated where freshwater fish were eaten."
+    },
+    {
+      "id": "ev-lazaridis2025-st11",
+      "source_id": "lazaridis2025",
+      "claim": "The Dnipro cline is fitted as Caucasus-Lower Volga-related ancestry mixed with a Dnipro/Don hunter-gatherer source: Yamnaya are inferred to have about a fifth of their ancestry from that source (22.5% from a Middle Don individual, or 17.7% from Ukraine Neolithic hunter-gatherers).",
+      "location": "Results, CLV cline; Fig. 2e",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nikitin2025-st7",
+      "source_id": "nikitin2025",
+      "claim": "Serednii Stih people lacked appreciable European-farmer ancestry, unlike Usatove; the authors read Core Yamna as a late Serednii Stih-derived population with more CLV ancestry than sampled Stih individuals but the same components.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st12",
+      "source_id": "lazaridis2025",
+      "claim": "All Dnipro-cline groups, Serednii Stih included, can be well modelled as a mixture of Ukraine Neolithic or Middle Don hunter-gatherers at one extreme and Core Yamnaya at the other; the hunter-gatherer source is from the Dnipro-Don area, not the Volga.",
+      "location": "Results, Dnipro Cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-nikitin2025-st8",
+      "source_id": "nikitin2025",
+      "claim": "Knowledge of steppe populations like Serednii Stih has been limited by small samples with highly variable ancestry, and the authors note that data on the Epipaleolithic to Early Bronze Age North Pontic region come from limited sites.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-wang2019-st2",
+      "source_id": "wang2019",
+      "claim": "The Maikop culture is known for large, rich burial mounds. Twelve individuals from eight sites in the northern Caucasus foothills (Maikop, Novosvobodnaya at Klady, Late Maikop) appear genetically homogeneous and resemble the preceding Eneolithic Caucasus individuals, a continuation of the local profile that persists until about 1100 BCE in later Caucasus groups.",
+      "location": "Results, Genetic ancestry in the Caucasus",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-wang2019-st3",
+      "source_id": "wang2019",
+      "claim": "Caucasus groups, including Maikop, are modelled as 40-72% Anatolian Chalcolithic-related and 28-60% Caucasus hunter-gatherer-related ancestry; using southeastern European farmer sources instead shifts the hunter-gatherer share to 51-70%, and unsampled populations could fit as well.",
+      "location": "Results; Fig. 4b; Supplementary Table 7",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies",
+      "note": "Proxy-dependent range."
+    },
+    {
+      "id": "ev-lazaridis2025-st13",
+      "source_id": "lazaridis2025",
+      "claim": "The main Maikop cluster (kurgan burials at Klady and Dlinnaya-Polyana, 3932-2934 BCE for Maikop overall) is modelled as about 86% Aknashen (Neolithic Armenia)-related ancestry, with Lower Volga ancestry about one seventh of the total; Maikop burials were contracted on one side, unlike the steppe pose.",
+      "location": "Results, CLV cline",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-wang2019-st4",
+      "source_id": "wang2019",
+      "claim": "Steppe Maykop individuals from grass-steppe mounds lack the Anatolian farmer-related component and carry extra ancient North Eurasian and Native American-related ancestry, so they differ from foothill Maikop individuals.",
+      "location": "Results, Ancient North Eurasian ancestry in Steppe Maykop individuals",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st14",
+      "source_id": "lazaridis2025",
+      "claim": "Core Yamnaya (104 high-quality individuals) are genetically homogeneous across a sampling range of about 5,000 km from Hungary to southern Siberia (mean FST 0.005), and the mixing that formed their ancestry is dated to 4038 BCE (plus or minus 48 years).",
+      "location": "Results, The Yamnaya expansion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Dating by an admixture-tract method; the mixture may have begun earlier or continued later."
+    },
+    {
+      "id": "ev-lazaridis2025-st15",
+      "source_id": "lazaridis2025",
+      "claim": "Identical-by-descent segment sharing shows Yamnaya individuals in a kurgan were mostly unrelated: about 14% of pairs within kurgans and 7% across kurgans of the same cemetery were close relatives, so kurgans were not mainly family tombs.",
+      "location": "Results, The Yamnaya expansion; Fig. 5",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st16",
+      "source_id": "lazaridis2025",
+      "claim": "Core Yamnaya Y chromosomes are almost all R-M269 (49 of 51), mostly sub-lineage R-Z2103 (41 of 51), while the Don Yamnaya are dominated by I-L699 (17 of 20), showing continuity with local hunter-gatherer ancestors.",
+      "location": "Results, The Yamnaya expansion; Fig. 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st17",
+      "source_id": "lazaridis2025",
+      "claim": "Many Yamnaya in south-eastern Europe cluster with Core Yamnaya, but others deviate toward Neolithic and Chalcolithic groups of south-eastern and central Europe, with that mixing in the late 4th millennium BCE; the Don Yamnaya (about 79% Core Yamnaya, 21% Ukraine Neolithic hunter-gatherer) expanded little.",
+      "location": "Results, The Yamnaya expansion; Extended Data Fig. 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-lazaridis2025-st18",
+      "source_id": "lazaridis2025",
+      "claim": "The Core Yamnaya fit the Dnipro cline, which suggests a Dnipro basin origin, but an origin in the Don area cannot be excluded, and Core Yamnaya used as a source for earlier populations must stand in for an unsampled Eneolithic source.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-allentoft2024-st3",
+      "source_id": "allentoft2024",
+      "claim": "Steppe-related ancestry (Steppe_5000BP_4300BP) is modelled as about 65% Middle Don hunter-gatherer-related and about 35% Caucasus hunter-gatherer-related ancestry, which the authors present as a previously unknown proximal source.",
+      "location": "Results; Extended Data Fig. 6; Supplementary Data 9",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies",
+      "note": "A competing model of Yamnaya formation (see disagreements)."
+    },
+    {
+      "id": "ev-allentoft2024-st4",
+      "source_id": "allentoft2024",
+      "claim": "Because Y-chromosome haplogroups differ between Corded Ware and Yamnaya, published Yamnaya genomes may not be the most direct source of steppe ancestry in early Corded Ware groups; denser sampling across the steppe horizon is needed to find that source.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-nikitin2025-st9",
+      "source_id": "nikitin2025",
+      "claim": "Catacomb-complex individuals, which partly overlap and follow Yamna in the North Pontic region, are consistent with Core Yamna ancestry, so Yamna genetic ancestry persisted there into the second half of the 3rd millennium BCE.",
+      "location": "Results, Yamna ancestry in the Bronze Age",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-papac2021-st3",
+      "source_id": "papac2021",
+      "claim": "The earliest Corded Ware individuals in Bohemia date to about 3010-2889 BCE, and Corded Ware was widespread there by 2900 BCE; early Corded Ware individuals are genetically very diverse, including four females with no steppe ancestry.",
+      "location": "Results, Corded Ware",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-papac2021-st4",
+      "source_id": "papac2021",
+      "claim": "Models combining any single Yamnaya source with a central European Neolithic source fit early Bohemian Corded Ware poorly; adding about 5-15% of Latvia Middle Neolithic/Ukraine Neolithic/Pitted Ware-like ancestry improves fits.",
+      "location": "Results, Corded Ware; Supplementary Table 17",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-papac2021-st5",
+      "source_id": "papac2021",
+      "claim": "Y-chromosome diversity fell from five lineages in early Corded Ware to one dominant lineage (R1a-M417) in late Corded Ware in Bohemia, which cannot be explained by chance and implies a process affecting males more than autosomal diversity.",
+      "location": "Results, Corded Ware; Fig. 4A",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-papac2021-st6",
+      "source_id": "papac2021",
+      "claim": "The authors interpret early Corded Ware in Bohemia as a plural society that joined people of different ancestries and histories, with female-biased assimilation of people lacking steppe ancestry.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "qualifies",
+      "note": "Interpretation by the authors from a Bohemian transect."
+    },
+    {
+      "id": "ev-olalde2018-st1",
+      "source_id": "olalde2018",
+      "claim": "The study analysed 133 Beaker-associated individuals from central Europe, and outside Iberia most Beaker-associated males carry Y-haplogroup R1b-M269 (84 of 90).",
+      "location": "Results; Supplementary Table 4",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2018-st2",
+      "source_id": "olalde2018",
+      "claim": "Outside Iberia, the Neolithic-related ancestry in Beaker-associated individuals is most closely related to central and northern European Neolithic groups, whereas in Iberian Beaker-associated individuals it fits local Iberian Middle Neolithic and Copper Age groups best.",
+      "location": "Results, qpAdm modelling; Fig. 2c",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-papac2021-st7",
+      "source_id": "papac2021",
+      "claim": "In Bohemia, 56 late Bell Beaker individuals (2400 BCE or later) carry about 20% more local Middle Eneolithic-like ancestry than 3 early Bell Beaker individuals, who resemble Corded Ware and are all female.",
+      "location": "Results, Bell Beaker",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "The early sample is only three individuals."
+    },
+    {
+      "id": "ev-papac2021-st8",
+      "source_id": "papac2021",
+      "claim": "At the start of the Early Bronze Age in Bohemia, ancestry changed again: the pre-classical Unetice group is modelled as 63.5% early Beaker-related and 36.5% late Beaker-related ancestry, or in an alternative model as an estimated 47.7% replacement involving a north-eastern source.",
+      "location": "Results, EBA Unetice culture",
+      "verification": "full_text",
+      "confidence": "low",
+      "stance": "qualifies",
+      "note": "Two models with different results; authors stress limited resolution."
+    },
+    {
+      "id": "ev-papac2021-st9",
+      "source_id": "papac2021",
+      "claim": "Bell Beaker males mostly carry Y lineage R1b-P312, which has not been found among Corded Ware or Yamnaya males, so these three groups cannot currently be linked as paternal sources of one another despite sharing steppe ancestry.",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    },
+    {
+      "id": "ev-olalde2018-st3",
+      "source_id": "olalde2018",
+      "claim": "British Beaker-associated individuals (37) closely resemble central European Beaker individuals; Oostwoud (Netherlands) individuals are most closely related to southern British Beaker individuals, though not necessarily direct ancestors of them.",
+      "location": "Results, Nearly complete turnover of ancestry in Britain",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2018-st4",
+      "source_id": "olalde2018",
+      "claim": "Between about 2450 and 2000 BCE ancestry proportions in Britain varied, consistent with migrant communities beginning to mix with the Neolithic population (51 Neolithic individuals studied, none with steppe affinity); after 2000 BCE individuals were more uniform.",
+      "location": "Results, Nearly complete turnover of ancestry in Britain; Fig. 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-patterson2022-st1",
+      "source_id": "patterson2022",
+      "claim": "Earlier work described Neolithic Britain as about 80% early-European-farmer and 20% western hunter-gatherer ancestry, stable for roughly a millennium and a half until about 2450 BCE, when migration with Beaker traditions brought a third, steppe-related, ancestry component (minimum 90% from new migrants).",
+      "location": "Introduction",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Summary of earlier studies, including Olalde 2018."
+    },
+    {
+      "id": "ev-olalde2018-st5",
+      "source_id": "olalde2018",
+      "claim": "In Iberian Beaker-associated individuals the best-fitting source of Neolithic-related ancestry was local Middle Neolithic and Copper Age populations, excluding central and northern European sources (P < 0.0063); their Y haplogroups included I (5) and G2 (1), common in earlier Neolithic Europe.",
+      "location": "Results, qpAdm modelling; Fig. 2c",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2018-st6",
+      "source_id": "olalde2018",
+      "claim": "Four Iberian Beaker-associated individuals with a steppe genome-wide signal carry Y haplogroup R1b-M269, the lineage common among Beaker males elsewhere.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2019-st1",
+      "source_id": "olalde2019",
+      "claim": "The Copper Age dataset includes 47 new individuals; one male from Camino de las Yeseras (2473-2030 cal BCE) clusters with North Africans, an example of sporadic Copper Age contact with North Africa that had limited impact.",
+      "location": "Results; Fig. 1C",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2019-st2",
+      "source_id": "olalde2019",
+      "claim": "The earliest steppe-related ancestry in the Bronze Age is in 14 Iberians dated about 2500-2000 BCE who lived alongside local people without it; after 2000 BCE the groups admixed, giving about 40% ancestry from incoming groups.",
+      "location": "Results; Fig. 2B",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2019-st3",
+      "source_id": "olalde2019",
+      "claim": "Y-chromosome turnover in Bronze Age Iberia was more dramatic than for the genome overall: lineages common in the Copper Age (I2, G2, H) were nearly replaced by R1b-M269, and non-local ancestry was lower on the X chromosome, which points to more incoming males than females.",
+      "location": "Results; Fig. 2B; Supplementary Table 14",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2019-st4",
+      "source_id": "olalde2019",
+      "claim": "The Bronze Age dataset grew from 7 to 60 individuals (about 2200-900 BCE); steppe-related ancestry appeared throughout Iberia, but with less impact in the south.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-olalde2019-st5",
+      "source_id": "olalde2019",
+      "claim": "In the Iron Age, ancestry related to north and central Europe rose relative to the Bronze Age by 10-19% (15 eastern coastal individuals), 11-31% (2 in the southwest) and 28-43% (3 in the north), suggesting gene flow in the Late Bronze or early Iron Age.",
+      "location": "Results; Fig. 2B",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-patterson2022-st2",
+      "source_id": "patterson2022",
+      "claim": "EEF-related ancestry in England and Wales rose from 31.0% (n=69, Copper Age/Early Bronze Age) to 34.7% (Middle Bronze Age, n=26), 36.1% (Late Bronze Age, n=23) and 37.9% (Iron Age, n=273), with no significant change in Scotland.",
+      "location": "Results; Fig. 2; Extended Data Table 1",
+      "verification": "full_text",
+      "confidence": "high",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-patterson2022-st3",
+      "source_id": "patterson2022",
+      "claim": "The study generated genome-wide data from 793 individuals, increasing Middle to Late Bronze and Iron Age data from Britain 12-fold, and noted that Welsh sample sizes are too small for accurate inference.",
+      "location": "Abstract; Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Covers all of Britain and neighbouring regions."
+    },
+    {
+      "id": "ev-narasimhan2019-st1",
+      "source_id": "narasimhan2019",
+      "claim": "The steppe-related ancestry that reached Central and South Asia came from a secondary expansion of a group with about 67% Yamnaya-related (Western_Steppe_EMBA) and about 33% ancestry from the European Cline (a gradient formed by farmers from Anatolia mixing with European hunter-gatherers), a group that included Corded Ware, Srubnaya, Petrovka and Sintashta complexes.",
+      "location": "Results, Steppe ancestry section; Fig. 3",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "Modelled; authors say they replicate earlier findings."
+    },
+    {
+      "id": "ev-narasimhan2019-st2",
+      "source_id": "narasimhan2019",
+      "claim": "Fifty individuals from the Sintashta cemetery of Kamennyi Ambar V include several sets of directly dated contemporary outliers, with extra Central Steppe-, Yamnaya- and East European hunter-gatherer-related ancestry, indicating a cosmopolitan site.",
+      "location": "Results, Inner Asian Mountain Corridor section; Fig. 2",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-narasimhan2019-st3",
+      "source_id": "narasimhan2019",
+      "claim": "Individuals from Krasnoyarsk dated about 1700-1500 BCE derive up to about 25% of their ancestry from an East Asian-related source with the rest Western_Steppe_MLBA, and by the Late Bronze Age East Asian-related admixture was ubiquitous in the Kazakh steppe transect.",
+      "location": "Results",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-allentoft2024-st5",
+      "source_id": "allentoft2024",
+      "claim": "East of the Urals from about 3,700 years ago, steppe-related ancestry peaks at about 70% in the earliest individuals then decays, and is correlated with Globular Amphora-related farmer ancestry, consistent with eastward expansion of admixed western steppe pastoralists of the Sintashta and Andronovo complexes.",
+      "location": "Results; Fig. 5; Extended Data Fig. 10",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-damgaard2018-st1",
+      "source_id": "damgaard2018",
+      "claim": "Three Copper Age Botai individuals (about 3500-3300 BCE, northern Kazakhstan) were sequenced, one at 13.6x coverage and two at lower coverage; the earliest unambiguous evidence for horse husbandry comes from Botai, around 3500-3000 BCE.",
+      "location": "Results; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-damgaard2018-st2",
+      "source_id": "damgaard2018",
+      "claim": "Coalescent modelling places Botai, central steppe and Okunevo groups as deeply separated from other ancient and present-day populations, best fitted as mixtures of ancient North Eurasian (ANE) ancestry and an Ancient East Asian component, with mixing dated to around 5000 BCE.",
+      "location": "Results; Fig. 4",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports",
+      "note": "momi model; dating approximate."
+    },
+    {
+      "id": "ev-damgaard2018-st3",
+      "source_id": "damgaard2018",
+      "claim": "Botai show no sign of Caucasus hunter-gatherer ancestry, which Yamnaya carry; the model suggests the Botai and Yamnaya lineages diverged about 15,000 years ago, with gene flow between them not significantly different from zero.",
+      "location": "Results; Fig. S14, S18",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-damgaard2018-st4",
+      "source_id": "damgaard2018",
+      "claim": "The two male Botai individuals carry Y haplogroups N (basal) and R1b1a1, neither of which is found in Yamnaya males, who carry other R1b lineages.",
+      "location": "Results; Fig. 5A",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-damgaard2018-st5",
+      "source_id": "damgaard2018",
+      "claim": "Central Asia shows continuity from the Upper Paleolithic to the end of the Copper Age; Paleolithic-descended hunter-gatherers persisted largely isolated after the Yamnaya and Afanasievo expansions, and the authors favour horse domestication by hunter-gatherers, although some propose Botai learned it from western pastoralists.",
+      "location": "Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "qualifies"
+    }
+  ],
+  "populations": {
+    "trypillia-farmers": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Cucuteni-Trypillia (Trypillia for short) was a farming culture of the Eneolithic, the Copper Age, in what is now Ukraine and Moldova. This panel groups sampled individuals by that archaeological label, so it describes people attributed to a culture, not a single genetic population. The 2025 North Pontic study describes the culture as spreading east across the Carpathian mountains to the Dnipro Valley around 4800 BCE, and its ancestry as mainly derived from early European farmers.",
+          "evidence_ids": [
+            "ev-nikitin2025-st1",
+            "ev-nikitin2025-3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In the 2025 study, 23 of 24 sampled Trypillia individuals fit a three-source model. On average it gives about 81% Balkan Eneolithic farmer-related ancestry, 14% Balkan hunter-gatherer-related ancestry and 5% ancestry from the Caucasus-Lower Volga (CLV) cline. The CLV cline is a gradient of ancestry between the Caucasus and the lower Volga. The authors date the formative mixing to about 4595 BCE (95% interval 4832-4358 BCE).",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Trypillia farmers contributed ancestry to the Usatove-associated people. Usatove is modelled as about 55% Trypillia-associated farmers and about 45% a CLV-cline group, with mixing dated to about 4471 BCE. The authors suggest several settings for the contact, among them an outpost, a coexisting 'commonwealth' of cultures, or dominance by CLV-related groups, and say the genetic data do not decide between them.",
+          "evidence_ids": [
+            "ev-nikitin2025-st3",
+            "ev-nikitin2025-st4",
+            "ev-nikitin2025-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "One of the 24 sampled individuals did not fit the model. The percentages are statistical estimates that rest on stand-in source groups, not on directly sampled ancestors, so they carry uncertainty beyond any single figure. The proportion of hunter-gatherer ancestry in Trypillia is known only at this coarse level, and the authors give no finer account of where it came from.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        }
+      ]
+    },
+    "globular-amphora": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Globular Amphora is an archaeological culture of the Late Neolithic in central and eastern Europe, and this panel groups sampled people buried in that context in Poland and Czechia. The Bohemian archaeology study places it in the Middle Eneolithic, about 3500-2800 BCE, alongside the Baden and Rivnac cultures. Culture labels can hide mixed communities, so the group may include people of varied ancestry.",
+          "evidence_ids": [
+            "ev-papac2021-st1",
+            "ev-allentoft2024-4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In Bohemia, Globular Amphora individuals carry the largest share of hunter-gatherer-related ancestry among the groups just before Corded Ware, about 26% on average in one model. The date of that hunter-gatherer mixing is not later than in the neighbouring Rivnac group. This suggests the Bohemian burials reflect people arriving from elsewhere, perhaps Poland. They show no detectable steppe ancestry.",
+          "evidence_ids": [
+            "ev-papac2021-st1",
+            "ev-papac2021-st2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Allentoft and colleagues (2024) find that the farmer-related ancestry in Corded Ware-associated individuals can be modelled as coming only from a Globular Amphora-associated cluster. They infer that steppe-related ancestry spread largely through groups that had already mixed with Globular Amphora-related farmers. They place the contact zone with Yamnaya-related groups northwest of the Black Sea. Other studies model farmer ancestry in some Yamnaya groups using Globular Amphora as a stand-in, with about 13-17%, and two Moldovan outliers fit with it as a source.",
+          "evidence_ids": [
+            "ev-allentoft2024-st1",
+            "ev-allentoft2024-st2",
+            "ev-nikitin2025-st5",
+            "ev-wang2019-st1",
+            "ev-allentoft2024-4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The two lines of evidence are not fully aligned. The Bohemian burials show no steppe ancestry, while the wider modelling links this farmer-related ancestry with steppe ancestry elsewhere. Sampling is uneven, since most individuals come from a few regions. The connections rest on statistical proxies, and earlier work using few genomes had suggested contact in this zone was only cultural.",
+          "evidence_ids": [
+            "ev-papac2021-st2",
+            "ev-allentoft2024-st1",
+            "ev-allentoft2024-st2"
+          ]
+        }
+      ]
+    },
+    "volga-cline-eneolithic": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This group holds Eneolithic (Copper Age) people from sites along the middle Volga river, such as Khvalynsk and Ekaterinovka, who share one pattern. Their ancestry falls along a gradient, called a cline: from Eastern hunter-gatherer ancestry upriver to ancestry from the Lower Volga at the other end. Because it is a gradient, members differ a lot from one another; the authors describe some groups as hyper-variable.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st2"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Ekaterinovka burials are dated 5050-4450 BCE and Khvalynsk 4500-4350 BCE, from herbivore-bone radiocarbon dates. One person with a Volga-cline profile was buried far away at Csongrad in Hungary (4331-4073 BCE), which the authors read as long-distance contact. Sampling clusters on a few sites along one river, so the cline reflects those places and not the whole region.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st2",
+            "ev-lazaridis2025-st3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The study models these people as a mix of Lower Volga (Berezhnovka-related) ancestry and Eastern hunter-gatherer ancestry. At Ekaterinovka about 24% is Berezhnovka-related. At Khvalynsk the share ranges from about 41% to 77% between individuals, and across the whole cline from roughly 14% to 89%. The gradient is the evidence that upriver and downriver communities mixed.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st2",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The upriver, Eastern hunter-gatherer end of the cline has long-established antecedents in eastern Europe, while the Lower Volga end does not. The same study finds that the later Yamnaya cannot be traced to the Volga cline: their profile places them on a separate cline along the Dnipro river. The Volga cline is therefore a neighbour and relative of Yamnaya ancestors, not a direct ancestor.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st6",
+            "ev-lazaridis2025-st5",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where Lower Volga ancestry came from is unknown. No earlier genomes have been sequenced from that area, and a Caucasus hunter-gatherer-related source has not been sampled. The percentages are model estimates using stand-in source groups. Individuals on a cline differ by definition, so group averages hide real variation.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4",
+            "ev-lazaridis2025-st2"
+          ]
+        }
+      ]
+    },
+    "clv-eneolithic": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This group holds Eneolithic people of the Lower Volga steppe, mainly burials at Berezhnovka. They sit at the northern end of the Caucasus-Lower Volga (CLV) cline, a gradient of ancestry running from the Neolithic Caucasus to the Lower Volga. Mostly it is people whose ancestry is rich in Caucasus hunter-gatherer-related ancestry, and the label includes only some of the sites the study assigns to the cline.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st7"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Berezhnovka-2 burials date to about 4450-3960 BCE on the Lower Volga. The cline, as defined by the study, spans sites from Armenia to the Lower Volga, including Maikop, Progress-2 and Remontnoye in the North Caucasus and nearby steppe. Only a few sites are sampled, and no earlier individuals are known from the Lower Volga itself.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The cline is modelled as mixing between Neolithic Caucasus ancestry (Aknashen-related) and Lower Volga ancestry. The main Maikop cluster is about 86% Aknashen-related, while Remontnoye has roughly 45%. Berezhnovka-2 itself also carries about 29% Central Asian, Siberian-related ancestry in one model, which another Lower Don group lacks. These figures are modelled shares from stand-in source groups.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-st8"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "CLV-related people are modelled as contributing about four-fifths of Yamnaya ancestry, and about half of Usatove-associated ancestry, but only about 5% of Trypillia. CLV ancestry also appears in Chalcolithic Armenia at Areni-1, and at least a tenth of Bronze Age central Anatolian ancestry. The authors cannot fix the exact steppe-related source in Anatolia.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-lazaridis2025-st9",
+            "ev-nikitin2025-st6"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The roster is incomplete, because only Berezhnovka burials are labelled here and other CLV sites are not yet assigned. The origin of Lower Volga ancestry is unknown. The sources that formed Yamnaya may have differed from the sampled Remontnoye and Serednii Stih individuals, which the authors say stand in for unsampled groups.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st9"
+          ]
+        }
+      ]
+    },
+    "serednii-stih": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Serednii Stih is an archaeological complex of the Eneolithic (Copper Age) in the Dnipro and Don steppe. The 2025 study samples it with 13 individuals, and their ancestry varies widely between people. That variety is the main finding: they sit along a gradient called the Dnipro cline, from hunter-gatherer-rich ancestry to ancestry similar to Yamnaya.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st10",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Serednii Stih people are modelled as migrants with ancestry from the Caucasus-Lower Volga (CLV) cline who mixed with local Dnipro-Don hunter-gatherers. Each Stih group fits a mix of hunter-gatherer ancestry and Core Yamnaya-like ancestry, in varying proportions. The study finds no appreciable European-farmer ancestry in them. For comparison, Yamnaya are inferred to have about a fifth of their ancestry from the hunter-gatherer source.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st11",
+            "ev-nikitin2025-st7",
+            "ev-lazaridis2025-st12"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Yamnaya ancestors are modelled as forming around 4000 BCE from Serednii Stih-related groups. A Yamnaya-like individual from Mykhailivka (3635-3383 BCE) bridges the sampled Stih and Yamnaya individuals. The authors treat Core Yamna as a late Stih-derived population with more CLV-related ancestry than the sampled Stih individuals.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-nikitin2025-4",
+            "ev-nikitin2025-st7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Only 13 individuals represent a culture that is dated across more than a thousand years, so the sample is thin. Radiocarbon dates are uncorrected for freshwater fish in the diet and may be too old. The study uses Core Yamnaya as a stand-in for an unsampled earlier population, which the authors call ahistorical. Whether the local hunter-gatherer source is best shown by Dnipro or Middle Don people is also unclear.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st10",
+            "ev-nikitin2025-st8",
+            "ev-lazaridis2025-st11"
+          ]
+        }
+      ]
+    },
+    "maikop": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Maikop is an archaeological culture of the North Caucasus, known for rich burial mounds, and this panel groups people buried in the northern foothills. The 12 sampled individuals from eight sites look genetically uniform and resemble earlier Eneolithic people of the region. Maikop-associated people buried on the open steppe are a different group and are kept out of this panel, because their ancestry differs.",
+          "evidence_ids": [
+            "ev-wang2019-st2",
+            "ev-wang2019-st4",
+            "ev-wang2019-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "One study models Caucasus groups, including Maikop, as a mix of Anatolian farmer-related and Caucasus hunter-gatherer-related ancestry, with ranges of 40-72% and 28-60% depending on the stand-in used. A later study models the main Maikop cluster as about 86% ancestry related to Neolithic Armenia (Aknashen). The two studies use different stand-ins, so their figures are not directly comparable.",
+          "evidence_ids": [
+            "ev-wang2019-st3",
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Maikop-like ancestry continues locally for centuries in the Caucasus, until about 1100 BCE in later groups such as those of Kura-Araxes and the Late Bronze Age. The 2025 study places Maikop on the Caucasus-Lower Volga cline, an ancestry gradient linking the Caucasus to the steppe, and finds about one seventh Lower Volga ancestry in sampled Maikop. Maikop-associated burials on the open steppe differ, with extra Siberian-related ancestry.",
+          "evidence_ids": [
+            "ev-wang2019-st2",
+            "ev-lazaridis2025-st13",
+            "ev-wang2019-st4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Proportions depend on the stand-in sources. Authors of the earlier study say unsampled populations from eastern Anatolia, the South Caucasus or northern Mesopotamia could also fit, so the numbers are provisional. Dating and sampling are limited to a few sites.",
+          "evidence_ids": [
+            "ev-wang2019-st3",
+            "ev-lazaridis2025-st13"
+          ]
+        }
+      ]
+    },
+    "yamnaya": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Yamnaya is an archaeological complex of herders buried under mounds called kurgans. It appeared around 3300 BCE north of the Black and Caspian Seas and reached from Hungary to Kazakhstan by 3000 BCE. Sampled individuals are genetically very similar across that range. Relatedness analysis shows that most people buried in the same kurgan were not close relatives. The panel covers kurgan burials, which may not represent everyone who lived then.",
+          "evidence_ids": [
+            "ev-lazaridis2025-1",
+            "ev-lazaridis2025-st14",
+            "ev-lazaridis2025-st15"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The Yamnaya complex appeared around 3300 BCE and reached from Hungary to Kazakhstan by 3000 BCE. In south-eastern Europe some Yamnaya-associated people cluster with the core group, while others show mixing with local Neolithic and Chalcolithic groups in the late 4th millennium BCE. The Don Yamnaya, about 79% core Yamnaya and 21% Ukraine Neolithic hunter-gatherer ancestry, expanded little. Almost all Core Yamnaya males carry Y lineage R-M269, while Don Yamnaya males mostly carry I-L699.",
+          "evidence_ids": [
+            "ev-lazaridis2025-1",
+            "ev-lazaridis2025-st17",
+            "ev-lazaridis2025-st16"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Studies agree that Yamnaya ancestry combined eastern hunter-gatherer-related and Caucasus-related ancestry, but they differ on the exact sources, so the models appear side by side. The 2025 study finds about four-fifths from the Caucasus-Lower Volga cline and the rest from Ukraine Neolithic hunter-gatherers, with the mixing dated near 4000 BCE. Another study models steppe ancestry as 65% Middle Don hunter-gatherer-related and 35% Caucasus hunter-gatherer-related.",
+          "evidence_ids": [
+            "ev-haak2015-4",
+            "ev-jones2015-3",
+            "ev-lazaridis2025-3",
+            "ev-lazaridis2025-st14",
+            "ev-allentoft2024-st3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Serednii Stih-related groups are modelled as the immediate ancestors, around 4000 BCE. After about 3300 BCE, Yamnaya-related ancestry spread across western Eurasia, reaching most of Europe within about a thousand years and western Mongolia after about 3000 BCE. Corded Ware-associated individuals in Germany trace about 75% of their ancestry to a Yamnaya-related source. Catacomb-complex individuals in the North Pontic region still carry Core Yamna ancestry. Bronze Age Anatolia shows negligible Yamnaya-related ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-allentoft2024-3",
+            "ev-wang2021-5",
+            "ev-haak2015-5",
+            "ev-nikitin2025-st9",
+            "ev-lazaridis2022-3",
+            "ev-damgaard2018-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where Yamnaya ancestry first formed is open: the Dnipro basin fits best, but the Don area cannot be excluded. The sampled Yamnaya genomes may not be the most direct source of steppe ancestry in Corded Ware groups. Core Yamnaya also stands in as a model for earlier unsampled groups. The different hunter-gatherer sources used by the models have not been reconciled.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st18",
+            "ev-allentoft2024-st4",
+            "ev-allentoft2024-st3"
+          ]
+        }
+      ]
+    },
+    "corded-ware": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Corded Ware is an archaeological culture, named for pottery decorated with cord impressions, found across northern and central Europe from about 2900 BCE. This panel groups sampled people buried with that material. In Bohemia, the earliest Corded Ware burials date to about 3010-2889 BCE, and the early Corded Ware individuals there were genetically very diverse.",
+          "evidence_ids": [
+            "ev-haak2015-5",
+            "ev-papac2021-st3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Corded Ware-associated individuals from Germany trace about 75% of their ancestry to a Yamnaya-related source. Modelled against Middle Neolithic farmers instead, the turnover is 48-80%. A later study models the farmer-related part as coming from a Globular Amphora-associated cluster. In Bohemia, a small extra component related to north-eastern European hunter-gatherers, about 5-15%, improves the fit.",
+          "evidence_ids": [
+            "ev-haak2015-5",
+            "ev-allentoft2024-st1",
+            "ev-papac2021-st4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Yamnaya-related and Globular Amphora-associated ancestry both contributed to Corded Ware-associated groups, according to Allentoft and colleagues (2024). In Bohemia, steppe ancestry first appears with Corded Ware, and none was detected in contemporary Globular Amphora and Rivnac groups. Later Bell Beaker- and Unetice-associated groups carry less steppe-related ancestry than Corded Ware, though it persisted in all sampled central Europeans.",
+          "evidence_ids": [
+            "ev-allentoft2024-4",
+            "ev-allentoft2024-st1",
+            "ev-papac2021-st2",
+            "ev-haak2015-6"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The direct source of Corded Ware's steppe ancestry is not identified: sampled Yamnaya individuals fit only imperfectly, and Y-chromosome lineages differ between the two groups. The Bohemian authors read the early groups as plural, mixed communities, an interpretation that DNA alone does not test. The 75% figure comes from German samples and one choice of model.",
+          "evidence_ids": [
+            "ev-papac2021-st4",
+            "ev-papac2021-st5",
+            "ev-papac2021-st6",
+            "ev-allentoft2024-st4",
+            "ev-haak2015-5"
+          ]
+        }
+      ]
+    },
+    "beaker-central-europe": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Bell Beaker is an archaeological complex defined by bell-shaped pots and other grave goods, found across western and central Europe. This panel groups sampled people buried with it in central and northwest Europe, outside Britain and Iberia. The 2018 study included 133 central European individuals. Beaker is a cultural label, so it does not by itself show who the people were genetically.",
+          "evidence_ids": [
+            "ev-olalde2018-2",
+            "ev-olalde2018-st1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Most Beaker-associated individuals outside Iberia carry steppe-related ancestry. They also carry earlier farmer-related ancestry, closest to central and northern European Neolithic groups. Most males carry Y haplogroup R1b-M269 (84 of 90). In Bohemia, late Beaker individuals carry about 20% more local Middle Eneolithic-like ancestry than the three early ones.",
+          "evidence_ids": [
+            "ev-olalde2018-3",
+            "ev-olalde2018-st1",
+            "ev-olalde2018-st2",
+            "ev-papac2021-st7"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Beaker-associated people in central Europe share steppe-related ancestry with Corded Ware-associated people, though Bell Beaker- and Unetice-associated groups carry less than Corded Ware. After Beaker, the early Bronze Age Unetice period in Bohemia shows another ancestry shift, which one model puts at 47.7% replacement and another at 63.5% early Beaker-related ancestry.",
+          "evidence_ids": [
+            "ev-haak2015-6",
+            "ev-papac2021-st8"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The Beaker complex spread between Iberia and central Europe mainly by cultural transmission, since the two regions' Beaker-associated people had limited genetic affinity. The earliest Bohemian Beaker sample is only three people, so source populations cannot be resolved there. Paternal lineages do not link Beaker directly to Corded Ware or Yamnaya males.",
+          "evidence_ids": [
+            "ev-olalde2018-2",
+            "ev-papac2021-st7",
+            "ev-papac2021-st9"
+          ]
+        }
+      ]
+    },
+    "beaker-britain": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are people in Britain buried with Bell Beaker material from about 2450 BCE. The 2018 study analysed 37 of them. They closely resemble Beaker-associated people from central Europe, and individuals from the Dutch site of Oostwoud are most closely related to those in southern Britain. Oostwoud people are close relatives of the group that moved, not necessarily its ancestors.",
+          "evidence_ids": [
+            "ev-olalde2018-4",
+            "ev-olalde2018-st3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "British Beaker-associated individuals carry high levels of steppe-related ancestry, which is absent in the 51 Neolithic individuals from Britain studied. The authors estimate that about 90% of Britain's gene pool was replaced within a few centuries. During the first centuries, about 2450-2000 BCE, proportions varied widely, consistent with migrants who were just beginning to mix with earlier people.",
+          "evidence_ids": [
+            "ev-olalde2018-4",
+            "ev-olalde2018-st4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Before the Beaker complex, Britain's Neolithic farmers had about 80% early European farmer and 20% western hunter-gatherer ancestry. Later, between 1000 and 875 BCE, early European farmer-related ancestry increased again in southern Britain, through migrants most similar to ancient individuals from France.",
+          "evidence_ids": [
+            "ev-patterson2022-st1",
+            "ev-patterson2022-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The 90% figure is a model estimate that uses the Oostwoud individuals as stand-ins for the incoming population, and the actual continental source may remain unsampled. Proportions varied between individuals in the first centuries, so one number cannot describe every community.",
+          "evidence_ids": [
+            "ev-olalde2018-st3",
+            "ev-olalde2018-st4"
+          ]
+        }
+      ]
+    },
+    "iberia-chalcolithic": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups people from Copper Age Iberia, about 3000-2200 BCE, by region and period. Many were buried with Bell Beaker material, but the data labels do not record that, so the panel includes people with and without it. Beaker material in Iberia did not travel with a single population: Iberian and central European Beaker-associated people had limited genetic affinity.",
+          "evidence_ids": [
+            "ev-olalde2018-2",
+            "ev-olalde2019-st1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Among the 32 analysed Iberian Beaker-associated individuals, only 8 carry steppe-related ancestry. The Neolithic-related ancestry of Iberian Beaker individuals fits local Middle Neolithic and Copper Age groups best, not central or northern European ones. Earlier work gives the hunter-gatherer share of Iberian Chalcolithic ancestry as about 27%.",
+          "evidence_ids": [
+            "ev-olalde2018-3",
+            "ev-olalde2018-st5",
+            "ev-lipson2017-3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Most Copper Age Iberians resemble earlier Iberian populations, and hunter-gatherer ancestry in early European farmers generally rose through local admixture. The pattern changes after about 2500 BCE, when steppe-related ancestry appears in the Bronze Age and, by about 2000 BCE, makes up about 40% of Iberian ancestry.",
+          "evidence_ids": [
+            "ev-olalde2018-2",
+            "ev-lipson2017-2",
+            "ev-olalde2019-st2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Because the panel groups by region and period, it mixes people with and without Beaker material, and cannot show who chose that pottery. One Copper Age man with North African ancestry shows that contact occurred, though it left little mark. Only a minority of sampled Iberians carry steppe-related ancestry, so sampling per site matters.",
+          "evidence_ids": [
+            "ev-olalde2019-st1",
+            "ev-olalde2018-3"
+          ]
+        }
+      ]
+    },
+    "iberia-chalcolithic-steppe-related": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are a minority of Copper Age Iberians marked as genetic outliers in the data because they carry steppe-related ancestry. The 2018 study found such ancestry in only 8 of 32 analysed Iberian Beaker-associated individuals, so most Beaker-associated people in Iberia did not have it. Four of the individuals with a steppe signal carry Y haplogroup R1b-M269.",
+          "evidence_ids": [
+            "ev-olalde2018-3",
+            "ev-olalde2018-st6"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A later study reports the earliest evidence of steppe-related ancestry in the Bronze Age in 14 individuals dated about 2500-2000 BCE, who lived alongside local people without it. After 2000 BCE the groups admixed, producing a population with about 40% ancestry from incoming groups.",
+          "evidence_ids": [
+            "ev-olalde2018-3",
+            "ev-olalde2019-st2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "This group is defined by an automatic outlier label rather than a checked list, and the match with the study's 8 individuals has not been confirmed one by one. The studies do not show where in Iberia the steppe-related ancestry was first acquired. The sample is small.",
+          "evidence_ids": [
+            "ev-olalde2018-3",
+            "ev-olalde2019-st2"
+          ]
+        }
+      ]
+    },
+    "iberia-bronze-age": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups Bronze Age people of Iberia, about 2200-900 BCE, by region and period, not by a single genetic profile. The 2019 study increased the Bronze Age dataset from 7 to 60 individuals. It shows steppe-related ancestry appearing throughout the peninsula, with less impact in the south. The groups are defined by region and period rather than by one shared genetic profile.",
+          "evidence_ids": [
+            "ev-olalde2019-st4",
+            "ev-olalde2019-3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "By about 2000 BCE, about 40% of Iberia's ancestry came from incoming groups with steppe-related ancestry, as modelled in the study. The earliest 14 individuals, dated about 2500-2000 BCE, lived alongside local people who lacked it. The male Y-chromosome lineages changed far more than the genome overall, and lower non-local ancestry on the X chromosome points to more incoming males than females.",
+          "evidence_ids": [
+            "ev-olalde2019-3",
+            "ev-olalde2019-st2",
+            "ev-olalde2019-st3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "In the same model the remaining roughly 60% came from the local Chalcolithic-related population. In the Iron Age, ancestry related to north and central Europe increased further, by 10-19% on the eastern coast, 11-31% in the southwest and 28-43% in the north. The authors link this to Late Bronze or early Iron Age gene flow.",
+          "evidence_ids": [
+            "ev-olalde2019-3",
+            "ev-olalde2019-st5"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The 40% figure and the male bias are inferred from model fits and the X-chromosome signal, not observed directly. The groups are defined by period and region, so the label covers varied local communities, and only 60 Bronze Age individuals represent about 1,300 years across a whole peninsula.",
+          "evidence_ids": [
+            "ev-olalde2019-3",
+            "ev-olalde2019-st3",
+            "ev-olalde2019-st4"
+          ]
+        }
+      ]
+    },
+    "britain-lba-ia": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups people from England and Wales from the Late Bronze Age onward. They come from the 2022 Patterson study, which generated genome-wide data from 793 individuals and increased Middle to Late Bronze and Iron Age samples from Britain twelvefold. Sample sizes for Wales are too small for accurate inference, so the picture is mainly for England.",
+          "evidence_ids": [
+            "ev-patterson2022-st3",
+            "ev-patterson2022-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Ancestry from early European farmers rose in England and Wales: about 31% in the Copper Age/Early Bronze Age, 34.7% in the Middle Bronze Age, 36.1% in the Late Bronze Age and 37.9% in the Iron Age. There was no significant change in Scotland. Migrants most similar to ancient individuals from France contributed about half the ancestry of Iron Age people in England and Wales.",
+          "evidence_ids": [
+            "ev-patterson2022-st2",
+            "ev-patterson2022-1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The farmer-related share was about 31% in the Copper Age and Early Bronze Age, before the rise. From about 2450 BCE, Beaker-associated migration had brought steppe-related ancestry to Britain. Later, migrants who arrived between 1000 and 875 BCE and over previous centuries contributed about half the ancestry of Iron Age people in England and Wales.",
+          "evidence_ids": [
+            "ev-patterson2022-1",
+            "ev-patterson2022-st1",
+            "ev-patterson2022-st2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The source is a population best matched by ancient individuals from France, not a specific group, and the actual origin could lie elsewhere. The ancestry figures are model estimates with standard errors. Scotland shows no matching change, so the pattern is regional.",
+          "evidence_ids": [
+            "ev-patterson2022-1",
+            "ev-patterson2022-st2"
+          ]
+        }
+      ]
+    },
+    "steppe-mlba": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This panel groups people of the central Eurasian steppe in the second millennium BCE, assigned to the Sintashta, Petrovka, Alakul-Andronovo and Srubnaya archaeological cultures. At Sintashta's Kamennyi Ambar V cemetery, 50 individuals include several outlier groups that were contemporaries of the main cluster but had different ancestry, which the authors read as a cosmopolitan site.",
+          "evidence_ids": [
+            "ev-narasimhan2019-st2",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Steppe-related ancestry in these groups is modelled as about two thirds Yamnaya-related and about one third from the European Cline, a gradient of farmer and hunter-gatherer ancestry. The profile is shared by Corded Ware, Srubnaya, Petrovka and Sintashta groups. Another study finds the eastward steppe ancestry peaks near 70% in the earliest individuals and then declines, correlated with Globular Amphora-related ancestry. East Asian-related ancestry, up to about 25% in some individuals, becomes common later.",
+          "evidence_ids": [
+            "ev-narasimhan2019-st1",
+            "ev-allentoft2024-st5",
+            "ev-narasimhan2019-st3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Yamnaya-related ancestry, mixed with ancestry from the European Cline, is the base of the profile these groups carry. Steppe-related ancestry with this profile reached South Asia via Central Asia after about 2000 BCE and contributed to people there called Ancestral North Indians. It has the same profile as in Bronze Age eastern Europe, and is modelled as arriving after the Indus Valley Civilization declined.",
+          "evidence_ids": [
+            "ev-narasimhan2019-st1",
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-5",
+            "ev-narasimhan2019-st3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The panel combines several archaeological cultures, spread over many centuries and a very large area, so it hides regional differences. At Sintashta, outliers show people of varied ancestry living together, and a mean profile does not describe all of them. The 67/33 split is one published model. Groups with East Asian-related ancestry appear later in the steppe, so the profile changed over time.",
+          "evidence_ids": [
+            "ev-narasimhan2019-st1",
+            "ev-narasimhan2019-st2"
+          ]
+        }
+      ]
+    },
+    "botai": {
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Botai is an archaeological culture of northern Kazakhstan. It is linked to the earliest unambiguous evidence for horse husbandry, around 3500-3000 BCE. The study sequenced three Botai individuals from about 3500-3300 BCE, one at high coverage. Botai is a cultural label, so these three people stand in for a larger community that is mostly unsampled.",
+          "evidence_ids": [
+            "ev-damgaard2018-1",
+            "ev-damgaard2018-st1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Botai derive from hunter-gatherers deeply diverged from Yamnaya. A coalescent model fits them as a mixture of ancient North Eurasian (ANE) ancestry, an old Siberian-linked lineage, and an Ancient East Asian component, with mixing around 5000 BCE. They show no Caucasus hunter-gatherer ancestry, and their Y chromosomes differ from those of Yamnaya males.",
+          "evidence_ids": [
+            "ev-damgaard2018-1",
+            "ev-damgaard2018-st2",
+            "ev-damgaard2018-st3",
+            "ev-damgaard2018-st4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Botai ancestry continues the local hunter-gatherer population of Central Asia. The study found no gene flow with Yamnaya at a level different from zero, and the Botai and Yamnaya lineages are modelled as having diverged about 15,000 years ago. Central Asian hunter-gatherers persisted largely isolated after the Yamnaya and Afanasievo expansions.",
+          "evidence_ids": [
+            "ev-damgaard2018-st3",
+            "ev-damgaard2018-st5"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Only three individuals are sampled, so the sample may not capture variation in the wider community. Researchers disagree on whether Botai learned horse husbandry from western pastoralists or developed it themselves; the DNA fits local development but does not prove it. Model dates, such as the 15,000 years, are approximate.",
+          "evidence_ids": [
+            "ev-damgaard2018-st1",
+            "ev-damgaard2018-st5",
+            "ev-damgaard2018-st3"
+          ]
+        }
+      ]
+    }
+  },
+  "concerns": [
+    "iberia-chalcolithic-steppe-related: the description calls these 'the earliest detection' of steppe-related ancestry in Iberia; Olalde 2019 names 14 individuals dated about 2500-2000 BCE as the earliest evidence and the cited papers do not show these two sets are the same people. The caveat that AADR outlier labels were not matched to Olalde 2018's 8 individuals already flags this.",
+    "maikop: ev-wang2019-2 (the only evidence on the population) is about Caucasus-versus-steppe separation in general, not about Maikop individuals specifically; Maikop's own ancestry claims are now added in the overview evidence.",
+    "serednii-stih: the description says Yamnaya ancestors 'formed from related groups' while ev-lazaridis2025-3 says Yamnaya ancestors formed around 4000 BCE from Serednii Stih-related groups; the sampled Stih individuals are modelled as mixtures along the Dnipro cline, not as direct ancestors, so the wording could be tightened."
+  ]
+}

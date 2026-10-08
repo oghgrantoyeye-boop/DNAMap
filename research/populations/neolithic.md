@@ -12,11 +12,17 @@ The first farming communities of southeastern Europe from the mid-7th millennium
 
 **Membership rule:** `Starcevo|Koros|Cris|^Greece_NeaNikomedeia_EN$|^Serbia_EN$` within 6,501 BCE–5,001 BCE.
 
-**Matched (45 individuals, 27 sites):** Serbia_EN_Starcevo (10); Hungary_EN_Koros (7); Hungary_N_Koros (4); Hungary_EN_Starcevo-1 (4); Serbia_EN (3); Croatia_EN_Starcevo (3); Greece_NeaNikomedeia_EN (3); Hungary_EN_Starcevo-2 (2); Romania_EN_StarcevoCris (2); Romania_EN_Cris (1); Romania_EN_Starcevo (1); Hungary_EN_Starcevo (1); Hungary_MN_Koros (1); Romania_BaciuGuraBaciului_EN_StarcevoCris (1); Serbia_MN_StarcevoCris (1); Romania_EN_StarcevoKorosCris (1)
+**Matched (45 individuals, 27 sites):** Serbia_EN_Starcevo (10); Hungary_EN_Koros (7); Hungary_N_Koros (4); Hungary_EN_Starcevo-1 (4); Serbia_EN (3); Greece_NeaNikomedeia_EN (3); Croatia_EN_Starcevo (3); Hungary_EN_Starcevo-2 (2); Romania_EN_StarcevoCris (2); Romania_EN_StarcevoKorosCris (1); Hungary_EN_Starcevo (1); Romania_EN_Starcevo (1); Serbia_MN_StarcevoCris (1); Romania_EN_Cris (1); Romania_BaciuGuraBaciului_EN_StarcevoCris (1); Hungary_MN_Koros (1)
 
 **Evidence:**
 - Farming reached southeastern Europe in the mid-7th millennium BCE with migrants of Anatolian-related ancestry. — mathieson2018, Abstract
 - The first farmers of northern and western Europe passed through southeastern Europe with limited hunter-gatherer admixture; some groups that remained there mixed extensively. — mathieson2018, Abstract
+- At Lepenski Vir in the Iron Gates, two individuals dated 6200-5600 BCE have entirely Anatolian Neolithic-related ancestry and isotope data indicate they were migrants; the Iron Gates were a region of interaction between groups distinct in ancestry and subsistence. — mathieson2018, Results
+- Neolithic populations of Bulgaria, Croatia, Macedonia, Serbia and Romania cluster closely with northwestern Anatolian Neolithic farmers; modelled as Anatolian Neolithic plus western hunter-gatherer, about 98% (95% CI 97-100%) of Balkan Neolithic ancestry is Anatolian-related. — mathieson2018, Results, Population transformations in the first farmers
+- Eight of nine individuals from Malak Preslavets (Bulgaria, mid-6th millennium BCE) carry more hunter-gatherer ancestry than other Balkan farmers, modelled as 82% Anatolian Neolithic-related, 15% western hunter-gatherer-related and 4% eastern hunter-gatherer-related. — mathieson2018, Results
+- One early Starcevo individual from Hungary has 7.8% (plus or minus 1.7) hunter-gatherer ancestry with a very recent admixture date, while most early Neolithic Hungarian samples do not differ significantly from Neolithic Anatolians; hunter-gatherer ancestry rose gradually through the Neolithic. — lipson2017, Results, Hungary transect
+- Balkan Copper Age populations harbor significantly more hunter-gatherer-related ancestry than Balkan Neolithic populations (Z=4.3), roughly contemporary with the hunter-gatherer 'resurgence' reported in central Europe and Iberia. — mathieson2018, Results
+- Five southern Greek Neolithic individuals (Peloponnese, about 4000 BCE) and one Bulgarian Neolithic individual are shifted toward Caucasus hunter-gatherers and away from western hunter-gatherers relative to other Anatolian and Balkan Neolithic individuals. — mathieson2018, Results
 
 ## LBK-associated farmers (`lbk-farmers`)
 
@@ -30,12 +36,17 @@ Farmers of the Linear Pottery (LBK) culture across central Europe, about 5500–
 
 **Membership rule:** `LBK`.
 
-**Matched (234 individuals, 34 sites):** Austria_N_LBK (87); Slovakia_N_LBK (53); Germany_DerenburgMeerenstieg2_N_LBK (32); Germany_HalberstadtSonntagsfeld_EN_LBK (23); Hungary_MN_LBK (8); Austria_EN_LBK (5); Poland_N_LLBK_LLengyel (5); Poland_N_ELBK (3); Hungary_MN_ALBK (3); Germany_Karsdorf_EN_LBK (2); Hungary_MN_ALBK_Szakalhat (2); Germany_ViesenhaeuserHof_EN_LBK (2); Austria_AsparnSchletz_N_LBK (1); Hungary_N_LBK (1); Germany_Herxheim_N_LBK (1); Czechia_EN_LBK (1); Germany_DillingenSteinheim_EN_LBK (1); Germany_Unterwiederstedt_EN_LBK (1); Germany_StuttgartMuhlhausen2_EN_LBK (1); Germany_EssenbachAmmerbreite_EN_LBK (1); Hungary_EN_LBK_DVK (1)
+**Matched (234 individuals, 34 sites):** Austria_N_LBK (87); Slovakia_N_LBK (53); Germany_DerenburgMeerenstieg2_N_LBK (32); Germany_HalberstadtSonntagsfeld_EN_LBK (23); Hungary_MN_LBK (8); Poland_N_LLBK_LLengyel (5); Austria_EN_LBK (5); Hungary_MN_ALBK (3); Poland_N_ELBK (3); Germany_ViesenhaeuserHof_EN_LBK (2); Germany_Karsdorf_EN_LBK (2); Hungary_MN_ALBK_Szakalhat (2); Germany_StuttgartMuhlhausen2_EN_LBK (1); Germany_Herxheim_N_LBK (1); Hungary_N_LBK (1); Germany_Unterwiederstedt_EN_LBK (1); Austria_AsparnSchletz_N_LBK (1); Germany_EssenbachAmmerbreite_EN_LBK (1); Hungary_EN_LBK_DVK (1); Czechia_EN_LBK (1); Germany_DillingenSteinheim_EN_LBK (1)
 
 **Evidence:**
 - Hunter-gatherer ancestry estimates: LBK about 4–5% (admixture dated 5545 ± 65 BCE); German Middle Neolithic about 17%; Iberian Middle Neolithic about 23%; Iberian Chalcolithic about 27%. — lipson2017, Main text, regional sections
 - 8,000–7,000 years ago, early farmers in Germany, Hungary and Spain were closely related to each other and distinct from local hunter-gatherers, while Russia was inhabited by hunter-gatherers (EHG) with high affinity to the 24,000-year-old Mal'ta individual. — haak2015, Abstract
 - Middle Neolithic populations of Germany and Spain carry about 18–34% more WHG-related ancestry than Early Neolithic populations. — haak2015, Main text; SI 9
+- LBK farmers (Germany) have about 4-5% hunter-gatherer ancestry with an average admixture date of 5545 BCE (plus or minus 65), the hunter-gatherer source being most closely related to a combination of two Mesolithic genomes though not statistically significantly; the analysis pooled Stuttgart with LBK samples from farther northeast such as Halberstadt. — lipson2017, Results, Germany transect; Extended Data Table 3
+- Early European Farmers are modelled with about 44% ancestry from a 'Basal Eurasian' lineage that split before other non-African lineages diversified. — lazaridis2014, Abstract; admixture-graph section
+- The first farmers of northern and western Europe passed through southeastern Europe with limited hunter-gatherer admixture; some groups that remained there mixed extensively. — mathieson2018, Abstract
+- At the Blatterhohle site in Germany, three Middle Neolithic individuals classed as farmers by isotopes carried 40-50% hunter-gatherer ancestry, at a site where farmer and hunter-gatherer occupation overlapped late; the German Middle Neolithic grouping overall has about 17%. — lipson2017, Results
+- Hunter-gatherer admixture in farmers of the north and west was male-biased in later periods, unlike the groups that stayed in southeastern Europe, which mixed extensively without male bias. — mathieson2018, Abstract; Results
 
 ## Early Neolithic farmers of Iberia (`iberia-early-neolithic`)
 
@@ -50,6 +61,12 @@ Early farmers of the Iberian Peninsula, including Cardial-associated individuals
 **Evidence:**
 - Hunter-gatherer ancestry in early European farmers varied by region and generally increased over time through local admixture. — lipson2017, Abstract
 - Hunter-gatherer ancestry estimates: LBK about 4–5% (admixture dated 5545 ± 65 BCE); German Middle Neolithic about 17%; Iberian Middle Neolithic about 23%; Iberian Chalcolithic about 27%. — lipson2017, Main text, regional sections
+- Strong genetic substructure existed between northwestern and southeastern Iberian hunter-gatherers before farming spread, and the study analyses 44 new Neolithic individuals from the peninsula. — olalde2019, Abstract; Results
+- In Iberia, the average hunter-gatherer admixture date for the Early Neolithic is 5650 BCE (plus or minus 65), rising to 5860 BCE when only the five oldest samples are used; with farming thought to begin in Spain around 5500 BCE this suggests some hunter-gatherer ancestry was acquired along the migration route. — lipson2017, Results, Iberia transect
+- Farmer ancestry related to Anatolian farmers spread west into Europe. — lazaridis2016, Abstract
+- Iberian and central European Beaker-associated individuals had limited genetic affinity, so the Beaker complex spread between these regions mainly through cultural transmission. — olalde2018, Abstract; Discussion
+- Haplotype-based analyses show British Neolithic genomes are more similar to Irish and Iberian Neolithic genomes than to central European ones, consistent with the same ancestral populations bringing farming along the Mediterranean route to Britain and Ireland. — brace2019, Results
+- Middle Neolithic populations of Germany and Spain carry about 18–34% more WHG-related ancestry than Early Neolithic populations. — haak2015, Main text; SI 9
 
 ## Neolithic farmers of Britain (`britain-neolithic`)
 
@@ -64,3 +81,8 @@ Farming communities of Britain from about 4000 BCE, whose ancestry derives mainl
 **Evidence:**
 - Farming came to Britain with continental farmers whose ancestry was mostly Anatolian-farmer-related (about 74% on average in the authors' model), with small hunter-gatherer contributions and no later hunter-gatherer resurgence. — brace2019, Abstract; Results
 - Continental farmers are modelled as arriving in Britain by 3975–3722 cal BCE (95%). — brace2019, Results
+- The study analysed six Mesolithic and 67 Neolithic individuals from Britain (8500-2500 BCE; earliest Neolithic 3951-3780 cal BCE at McArthur Cave, Scotland); all British Mesolithic individuals cluster with western hunter-gatherers. — brace2019, Results
+- Neolithic WHG admixture is geographically structured: Wales has the lowest, followed by south-west and central England, with higher values in south-east England and Scotland, and the elevated levels in south-east England are older, probably acquired on the continent; only Raschoille Cave individuals show introgression within about 10 generations. — brace2019, Results
+- British Neolithic individuals show affinities with Iberian Neolithic individuals, suggesting descent mainly from farmers who followed the Mediterranean route. — brace2019, Abstract
+- The authors conclude that the appearance of Neolithic practices in Britain around 4000 BCE was mediated overwhelmingly by immigration of farmers from continental Europe, strongly rejecting adoption by indigenous hunter-gatherers as the main process, and found only low levels of local hunter-gatherer introgression. — brace2019, Discussion
+- In Britain, the arrival of the Beaker complex brought high steppe-related ancestry and was associated with replacement of about 90% of the gene pool within a few hundred years. — olalde2018, Abstract

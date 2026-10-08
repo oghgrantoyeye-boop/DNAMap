@@ -27,6 +27,18 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     let lastBaseKey = "";
     let raf = 0;
     let pending = false;
+    // Moving the view does not repaint the canvases. They are moved with a CSS transform
+    // (composited by the GPU, so it follows the pointer at full frame rate) and repainted
+    // when the view settles (130 ms of no change), or every 350 ms during a long gesture
+    // in a lighter "fast" form. renderedView is the view the canvases were last painted for.
+    let renderedView: View | null = null;
+    let fastNext = false;
+    let settleTimer: ReturnType<typeof setTimeout> | undefined;
+    let throttleTimer: ReturnType<typeof setTimeout> | undefined;
+    let lastViewAt = 0;
+    // How long a repaint really takes on this device (time to two frames after it), so that
+    // slow devices repaint less often mid-gesture and fast ones more often.
+    let paintCost = 100;
     const relief = new ReliefLayer(`${dataBase()}data/relief-4096.jpg`);
     relief.onReady = () => {
       lastBaseKey = "";
@@ -53,22 +65,28 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       const s = getState();
       const theme = THEMES[s.theme];
       const proj = makeProjection(w, h, s.view);
-      const basemap = s.view.k > 2.6 && fineRef.current ? fineRef.current : data.basemap;
-      if (s.view.k > 2.6 && !fineRef.current) {
+      const fast = fastNext;
+      const basemap = s.view.k > 2.6 && fineRef.current && !fast ? fineRef.current : data.basemap;
+      if (s.view.k > 2.6 && !fineRef.current && !fast) {
         loadFineBasemap().then((b) => {
           fineRef.current = b;
           lastBaseKey = "";
           schedule();
         });
       }
-      const baseKey = `${s.view.lon},${s.view.lat},${s.view.k},${w},${h},${s.theme},${s.showBorders},${basemap.scale}`;
+      fastNext = false;
+      renderedView = s.view;
+      base.style.transform = top.style.transform = "";
+      const baseKey = `${s.view.lon},${s.view.lat},${s.view.k},${w},${h},${s.theme},${s.showBorders},${basemap.scale},${fast}`;
       if (baseKey !== lastBaseKey) {
         const bctx = base.getContext("2d")!;
         bctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         const shade = theme.relief ? relief.render(w, h, dpr, proj.scale(), proj.translate(), s.view.lon, theme.relief.gain, theme.relief.mid) : null;
-        drawBasemap(bctx, w, h, proj, basemap, theme, s.showBorders, shade);
+        drawBasemap(bctx, w, h, proj, basemap, theme, s.showBorders, shade, fast);
         lastBaseKey = baseKey;
       }
+      const t0 = performance.now();
+      requestAnimationFrame(() => requestAnimationFrame(() => (paintCost = Math.max(30, performance.now() - t0 - 16))));
       const ctx = top.getContext("2d")!;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.clearRect(0, 0, w, h);
@@ -87,6 +105,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
         highlightMembers: s.highlightMembers,
         showLowConfidence: s.showLowConfidence,
         modelChoice: s.modelChoice,
+        fast,
       });
     }
 
@@ -208,6 +227,39 @@ export default function MapCanvas({ data }: { data: Dataset }) {
       e.preventDefault();
     }
 
+    /**
+     * Follow a view change by moving the painted canvases. Returns false when the change is
+     * too large for that to look right (a jump to another region, a big zoom), in which case
+     * the caller repaints immediately.
+     */
+    function armSettle() {
+      clearTimeout(settleTimer);
+      settleTimer = setTimeout(() => {
+        clearTimeout(throttleTimer);
+        throttleTimer = undefined;
+        fastNext = false;
+        lastBaseKey = ""; // repaint in full even if the view equals the last light paint
+        schedule();
+      }, 130);
+    }
+
+    function viewMoved(v: View): boolean {
+      if (!renderedView || w === 0) return false;
+      const sc = v.k / renderedView.k;
+      const q = makeProjection(w, h, renderedView)([v.lon, v.lat]);
+      if (!q || Math.abs(Math.log(sc)) > 0.7 || Math.hypot(q[0] - w / 2, q[1] - h / 2) > 0.8 * Math.min(w, h)) return false;
+      base.style.transform = top.style.transform = `matrix(${sc},0,0,${sc},${w / 2 - q[0] * sc},${h / 2 - q[1] * sc})`;
+      armSettle();
+      if (throttleTimer === undefined) {
+        throttleTimer = setTimeout(() => {
+          throttleTimer = undefined;
+          fastNext = true;
+          schedule();
+        }, Math.min(2500, Math.max(350, 4 * paintCost)));
+      }
+      return true;
+    }
+
     const ro = new ResizeObserver(resize);
     ro.observe(wrap);
     top.addEventListener("pointerdown", onPointerDown);
@@ -219,9 +271,21 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     let prev: AppState = getState();
     const unsub = subscribe(() => {
       const s = getState();
+      if (s.view !== prev.view) {
+        const gesture = performance.now() - lastViewAt < 250;
+        lastViewAt = performance.now();
+        if (!viewMoved(s.view)) {
+          // Too far to follow with the old picture. Mid-gesture, repaint lightly and finish in
+          // full on settle; a deliberate jump (preset, search) repaints in full at once.
+          if (gesture) {
+            fastNext = true;
+            armSettle();
+          }
+          schedule();
+        }
+      }
       if (
         s.time !== prev.time ||
-        s.view !== prev.view ||
         s.selection !== prev.selection ||
         s.theme !== prev.theme ||
         s.showBorders !== prev.showBorders ||
@@ -237,6 +301,9 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     resize();
     return () => {
       cancelAnimationFrame(raf);
+      clearTimeout(settleTimer);
+      clearTimeout(throttleTimer);
+      clearTimeout(settleTimer);
       ro.disconnect();
       unsub();
       window.removeEventListener("keydown", onKey);

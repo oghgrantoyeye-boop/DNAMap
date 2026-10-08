@@ -10,9 +10,9 @@ How to read: *members* = AADR individuals matched by the population's membership
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Neandertals** `neandertals` | archaic | 10 (8) | 128,000 BCE – 38,100 BCE | Western Eurasia to the Altai | high | fu2016, green2010, prufer2014, prufer2017 |
-| **Denisovans** `denisovans` | archaic | 2 (2) · sparse | 198,000 BCE – 49,600 BCE | Known from the Altai (Denisova Cave); inferred elsewhere in Asia | high | browning2018, larena2021, prufer2014, reich2010 |
-| **Shared ancestors of non-Africans (inferred)** `non-african-ancestors` | genetic cluster | inferred only | 48,600 BCE – 41,600 BCE | Unknown (not located by genetics) | medium | green2010, iasi2024, sumer2024 |
+| **Neandertals** `neandertals` | archaic | 10 (8) | 128,000 BCE – 38,100 BCE | Western Eurasia to the Altai | high | fu2015, fu2016, green2010, hajdinjak2021, iasi2024, posth2023, prufer2014, prufer2017 |
+| **Denisovans** `denisovans` | archaic | 2 (2) · sparse | 198,000 BCE – 49,600 BCE | Known from the Altai (Denisova Cave); inferred elsewhere in Asia | high | browning2018, larena2021, malaspinas2016, prufer2014, reich2010 |
+| **Shared ancestors of non-Africans (inferred)** `non-african-ancestors` | genetic cluster | inferred only | 48,600 BCE – 41,600 BCE | Unknown (not located by genetics) | medium | fu2014, green2010, iasi2024, malaspinas2016, prufer2014, prufer2017, sankararaman2012, sumer2024 |
 
 ## Earliest modern humans in Eurasia
 
@@ -20,75 +20,75 @@ How to read: *members* = AADR individuals matched by the population's membership
 |---|---|---|---|---|---|---|
 | **Zlatý kůň/Ranis population** `zlatykun-ranis` | genetic cluster | 10 (2) | 47,600 BCE – 40,200 BCE | Central Europe (Germany, Czechia) | high | sumer2024 |
 | **Bacho Kiro IUP-associated individuals** `bacho-kiro-iup` | archaeological | 3 (1) · sparse | 44,200 BCE – 40,600 BCE | Balkans (Bulgaria) | high | hajdinjak2021 |
-| **Ust'-Ishim individual** `ust-ishim` | genetic cluster | 1 (1) · sparse | 44,000 BCE – 41,000 BCE | Western Siberia | high | fu2014 |
-| **Oase 1** `oase` | genetic cluster | 1 (1) · sparse | 40,000 BCE – 35,800 BCE | Southeastern Europe (Romania) | high | fu2015 |
-| **Tianyuan individual** `tianyuan` | genetic cluster | 1 (1) · sparse | 38,900 BCE – 36,100 BCE | Northern China | high | yang2017 |
+| **Ust'-Ishim individual** `ust-ishim` | genetic cluster | 1 (1) · sparse | 44,000 BCE – 41,000 BCE | Western Siberia | high | fu2014, hajdinjak2021, sumer2024 |
+| **Oase 1** `oase` | genetic cluster | 1 (1) · sparse | 40,000 BCE – 35,800 BCE | Southeastern Europe (Romania) | high | fu2015, hajdinjak2021 |
+| **Tianyuan individual** `tianyuan` | genetic cluster | 1 (1) · sparse | 38,900 BCE – 36,100 BCE | Northern China | high | hajdinjak2021, yang2017 |
 
 ## Late Pleistocene and early Holocene hunter-gatherers
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Early European founder population (Kostenki/Sunghir-related)** `early-european-founders` | genetic cluster | 6 (2) | 37,400 BCE – 30,100 BCE | Eastern European Plain | medium | fu2016 |
-| **Goyet Q116-1-related individuals (Aurignacian-associated)** `goyetq116-aurignacian` | genetic cluster | 2 (1) · sparse | 35,200 BCE – 32,500 BCE | Northwestern Europe (Belgium) | high | fu2016, posth2023 |
+| **Early European founder population (Kostenki/Sunghir-related)** `early-european-founders` | genetic cluster | 6 (2) | 37,400 BCE – 30,100 BCE | Eastern European Plain | medium | fu2016, posth2023, sikora2019 |
+| **Goyet Q116-1-related individuals (Aurignacian-associated)** `goyetq116-aurignacian` | genetic cluster | 2 (1) · sparse | 35,200 BCE – 32,500 BCE | Northwestern Europe (Belgium) | high | fu2016, posth2023, yang2017 |
 | **Věstonice cluster (Gravettian-associated, central and southern Europe)** `vestonice-cluster` | genetic cluster | 11 (5) | 29,300 BCE – 25,400 BCE | Central Europe and southern Italy | high | fu2016, posth2023 |
 | **Fournol cluster (Gravettian-associated, western Europe)** `fournol-cluster` | genetic cluster | 4 (4) · sparse | 29,900 BCE – 24,000 BCE | Western and southwestern Europe | high | posth2023 |
 | **Ancient North Siberians (Yana)** `ancient-north-siberians` | genetic cluster | 2 (1) · sparse | 30,200 BCE – 29,600 BCE | Northeastern Siberia | high | sikora2019 |
-| **Ancient North Eurasians (Mal'ta, Afontova Gora)** `ancient-north-eurasians` | genetic cluster | 3 (2) · sparse | 22,600 BCE – 14,600 BCE | South-central Siberia (Lake Baikal region) | high | lazaridis2014, raghavan2014 |
+| **Ancient North Eurasians (Mal'ta, Afontova Gora)** `ancient-north-eurasians` | genetic cluster | 3 (2) · sparse | 22,600 BCE – 14,600 BCE | South-central Siberia (Lake Baikal region) | high | fu2016, haak2015, lazaridis2014, raghavan2014, sikora2019 |
 | **Solutrean-associated individuals** `solutrean-associated` | archaeological | 1 (1) · sparse | 21,100 BCE – 20,700 BCE | Southwestern Europe | medium | posth2023 |
 | **Magdalenian-associated individuals (GoyetQ2 / El Mirón cluster)** `magdalenian-goyetq2` | genetic cluster | 6 (4) | 16,900 BCE – 12,300 BCE | Western and central Europe | high | fu2016, posth2023 |
 | **Villabruna cluster (Epigravettian-associated)** `villabruna-epigravettian` | genetic cluster | 19 (7) | 12,400 BCE – 6,469 BCE | Italian peninsula and Sicily | high | fu2016, posth2023 |
-| **Western hunter-gatherers (WHG / Oberkassel cluster)** `whg` | genetic cluster | 67 (44) | 11,800 BCE – 4,997 BCE | Western and central Europe | high | allentoft2024, lazaridis2014, mathieson2018, olalde2019, posth2023 |
-| **Eastern hunter-gatherers (EHG / Sidelkino cluster)** `ehg` | genetic cluster | 20 (3) | 8,281 BCE – 5,000 BCE | Eastern Europe (Karelia, middle Volga) | high | allentoft2024, haak2015, mathieson2018, posth2023 |
-| **Caucasus hunter-gatherers (CHG)** `chg` | genetic cluster | 3 (2) · sparse | 11,500 BCE – 7,599 BCE | South Caucasus (western Georgia) | high | jones2015 |
+| **Western hunter-gatherers (WHG / Oberkassel cluster)** `whg` | genetic cluster | 67 (44) | 11,800 BCE – 4,997 BCE | Western and central Europe | high | allentoft2024, haak2015, lazaridis2014, mathieson2018, olalde2019, posth2023 |
+| **Eastern hunter-gatherers (EHG / Sidelkino cluster)** `ehg` | genetic cluster | 20 (3) | 8,281 BCE – 5,000 BCE | Eastern Europe (Karelia, middle Volga) | high | allentoft2024, haak2015, lazaridis2025, mathieson2018, posth2023 |
+| **Caucasus hunter-gatherers (CHG)** `chg` | genetic cluster | 3 (2) · sparse | 11,500 BCE – 7,599 BCE | South Caucasus (western Georgia) | high | fu2016, jones2015, lazaridis2025 |
 | **Iberomaurusian-associated individuals (Taforalt)** `iberomaurusian-taforalt` | archaeological | 7 (1) · sparse | 13,200 BCE – 11,900 BCE | Northwest Africa (Morocco) | medium | vandeloosdrecht2018 |
 
 ## Near Eastern hunter-gatherers and first farmers
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Natufian-associated hunter-gatherers** `natufians` | archaeological | 4 (1) · sparse | 12,000 BCE – 9,500 BCE | Southern Levant | high | lazaridis2016 |
+| **Natufian-associated hunter-gatherers** `natufians` | archaeological | 4 (1) · sparse | 12,000 BCE – 9,500 BCE | Southern Levant | high | feldman2019, lazaridis2016, vandeloosdrecht2018 |
 | **Anatolian Epipalaeolithic hunter-gatherer (Pınarbaşı)** `anatolia-epipaleolithic` | genetic cluster | 1 (1) · sparse | 13,600 BCE – 13,300 BCE | Central Anatolia | high | feldman2019 |
-| **Basal Eurasian lineage (modelled)** `basal-eurasian` | genetic cluster | inferred only | 48,000 BCE – 10,000 BCE | Unknown | medium | lazaridis2014, lazaridis2016 |
-| **Early farmers of the Zagros** `zagros-early-farmers` | genetic cluster | 16 (4) | 8,295 BCE – 7,076 BCE | Zagros mountains (western Iran) | high | broushaki2016, lazaridis2016 |
-| **Early farmers of the southern Levant (PPNB)** `levant-ppn-farmers` | genetic cluster | 16 (4) | 8,400 BCE – 4,500 BCE | Southern Levant | high | lazaridis2016 |
-| **Early farmers of Anatolia** `anatolia-neolithic-farmers` | genetic cluster | 189 (12) | 8,300 BCE – 5,600 BCE | Anatolia | high | feldman2019, lazaridis2016 |
+| **Basal Eurasian lineage (modelled)** `basal-eurasian` | genetic cluster | inferred only | 48,000 BCE – 10,000 BCE | Unknown | medium | feldman2019, fu2016, lazaridis2014, lazaridis2016 |
+| **Early farmers of the Zagros** `zagros-early-farmers` | genetic cluster | 16 (4) | 8,295 BCE – 7,076 BCE | Zagros mountains (western Iran) | high | broushaki2016, lazaridis2016, shinde2019 |
+| **Early farmers of the southern Levant (PPNB)** `levant-ppn-farmers` | genetic cluster | 16 (4) | 8,400 BCE – 4,500 BCE | Southern Levant | high | feldman2019, harney2018, lazaridis2016, skoglund2017 |
+| **Early farmers of Anatolia** `anatolia-neolithic-farmers` | genetic cluster | 189 (12) | 8,300 BCE – 5,600 BCE | Anatolia | high | brace2019, broushaki2016, feldman2019, lazaridis2016, mathieson2018 |
 | **Late Chalcolithic individuals of Peqi'in Cave** `levant-chalcolithic-peqiin` | archaeological | 20 (1) · sparse | 4,450 BCE – 3,950 BCE | Southern Levant (northern Israel) | high | harney2018, lazaridis2016 |
 
 ## Farming spreads into Europe
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Early farmers associated with Starčevo–Körös–Criș** `se-europe-early-farmers` | archaeological | 45 (27) | 6,224 BCE – 5,211 BCE | Southeastern Europe | high | mathieson2018 |
-| **LBK-associated farmers** `lbk-farmers` | archaeological | 234 (34) | 5,500 BCE – 4,784 BCE | Central Europe | high | haak2015, lipson2017 |
-| **Early Neolithic farmers of Iberia** `iberia-early-neolithic` | archaeological | 19 (8) | 5,474 BCE – 4,367 BCE | Iberian Peninsula | high | lipson2017 |
-| **Neolithic farmers of Britain** `britain-neolithic` | archaeological | 114 (46) | 4,000 BCE – 2,500 BCE | Britain | high | brace2019 |
+| **Early farmers associated with Starčevo–Körös–Criș** `se-europe-early-farmers` | archaeological | 45 (27) | 6,224 BCE – 5,211 BCE | Southeastern Europe | high | lipson2017, mathieson2018 |
+| **LBK-associated farmers** `lbk-farmers` | archaeological | 234 (34) | 5,500 BCE – 4,784 BCE | Central Europe | high | haak2015, lazaridis2014, lipson2017, mathieson2018 |
+| **Early Neolithic farmers of Iberia** `iberia-early-neolithic` | archaeological | 19 (8) | 5,474 BCE – 4,367 BCE | Iberian Peninsula | high | brace2019, haak2015, lazaridis2016, lipson2017, olalde2018, olalde2019 |
+| **Neolithic farmers of Britain** `britain-neolithic` | archaeological | 114 (46) | 4,000 BCE – 2,500 BCE | Britain | high | brace2019, olalde2018 |
 
 ## Eneolithic steppe and steppe-related expansions
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
 | **Trypillia-associated farmers** `trypillia-farmers` | archaeological | 31 (3) | 3,950 BCE – 2,935 BCE | Forest-steppe north of the Black Sea | medium | nikitin2025 |
-| **Globular Amphora-associated individuals** `globular-amphora` | archaeological | 39 (10) | 3,400 BCE – 2,450 BCE | Central and eastern Europe | medium | allentoft2024 |
+| **Globular Amphora-associated individuals** `globular-amphora` | archaeological | 39 (10) | 3,400 BCE – 2,450 BCE | Central and eastern Europe | medium | allentoft2024, nikitin2025, papac2021, wang2019 |
 | **Volga cline Eneolithic (Khvalynsk, Ekaterinovka)** `volga-cline-eneolithic` | genetic cluster | 73 (6) | 5,500 BCE – 4,300 BCE | Middle Volga | high | lazaridis2025 |
-| **Caucasus–Lower Volga cline Eneolithic (Berezhnovka)** `clv-eneolithic` | genetic cluster | 4 (1) · sparse | 4,929 BCE – 4,173 BCE | Lower Volga steppe | medium | lazaridis2025 |
+| **Caucasus–Lower Volga cline Eneolithic (Berezhnovka)** `clv-eneolithic` | genetic cluster | 4 (1) · sparse | 4,929 BCE – 4,173 BCE | Lower Volga steppe | medium | lazaridis2025, nikitin2025 |
 | **Serednii Stih-associated individuals (Dnipro cline)** `serednii-stih` | archaeological | 29 (10) | 4,996 BCE – 3,531 BCE | Pontic steppe (Dnipro to Don) | high | lazaridis2025, nikitin2025 |
-| **Maikop-associated individuals (North Caucasus)** `maikop` | archaeological | 14 (6) | 3,932 BCE – 2,934 BCE | North Caucasus | high | wang2019 |
-| **Yamnaya-associated individuals** `yamnaya` | archaeological | 200 (96) | 3,346 BCE – 2,468 BCE | Pontic–Caspian steppe and beyond | high | damgaard2018, haak2015, jones2015, lazaridis2022, lazaridis2025, wang2021 |
-| **Corded Ware-associated individuals** `corded-ware` | archaeological | 102 (40) | 2,913 BCE – 2,050 BCE | Northern and central Europe | high | haak2015 |
-| **Beaker-associated individuals, central and northwest Europe** `beaker-central-europe` | archaeological | 183 (54) | 2,800 BCE – 1,800 BCE | Central and northwest Europe | high | olalde2018 |
-| **Beaker-associated individuals, Britain** `beaker-britain` | archaeological | 33 (20) | 2,800 BCE – 1,617 BCE | Britain | high | olalde2018 |
-| **Chalcolithic people of Iberia (including Beaker-associated individuals)** `iberia-chalcolithic` | geographic | 148 (33) | 3,350 BCE – 1,744 BCE | Iberian Peninsula | high | olalde2018 |
-| **Chalcolithic Iberians with steppe-related ancestry** `iberia-chalcolithic-steppe-related` | genetic cluster | 13 (7) | 2,600 BCE – 1,700 BCE | Iberian Peninsula | high | olalde2018 |
+| **Maikop-associated individuals (North Caucasus)** `maikop` | archaeological | 14 (6) | 3,932 BCE – 2,934 BCE | North Caucasus | high | lazaridis2025, wang2019 |
+| **Yamnaya-associated individuals** `yamnaya` | archaeological | 200 (96) | 3,346 BCE – 2,468 BCE | Pontic–Caspian steppe and beyond | high | allentoft2024, damgaard2018, haak2015, jones2015, lazaridis2022, lazaridis2025, nikitin2025, wang2021 |
+| **Corded Ware-associated individuals** `corded-ware` | archaeological | 102 (40) | 2,913 BCE – 2,050 BCE | Northern and central Europe | high | allentoft2024, haak2015, papac2021 |
+| **Beaker-associated individuals, central and northwest Europe** `beaker-central-europe` | archaeological | 183 (54) | 2,800 BCE – 1,800 BCE | Central and northwest Europe | high | haak2015, olalde2018, papac2021 |
+| **Beaker-associated individuals, Britain** `beaker-britain` | archaeological | 33 (20) | 2,800 BCE – 1,617 BCE | Britain | high | olalde2018, patterson2022 |
+| **Chalcolithic people of Iberia (including Beaker-associated individuals)** `iberia-chalcolithic` | geographic | 148 (33) | 3,350 BCE – 1,744 BCE | Iberian Peninsula | high | lipson2017, olalde2018, olalde2019 |
+| **Chalcolithic Iberians with steppe-related ancestry** `iberia-chalcolithic-steppe-related` | genetic cluster | 13 (7) | 2,600 BCE – 1,700 BCE | Iberian Peninsula | high | olalde2018, olalde2019 |
 | **Bronze Age people of Iberia** `iberia-bronze-age` | geographic | 158 (41) | 2,200 BCE – 1,000 BCE | Iberian Peninsula | high | olalde2019 |
 | **Late Bronze Age and Iron Age people of southern Britain** `britain-lba-ia` | geographic | 250 (64) | 1,055 BCE – 200 CE | England and Wales | high | patterson2022 |
-| **Middle–Late Bronze Age steppe (Sintashta, Andronovo, Srubnaya-associated)** `steppe-mlba` | archaeological | 93 (21) | 2,131 BCE – 1,200 BCE | Central Eurasian steppe | medium | narasimhan2019 |
+| **Middle–Late Bronze Age steppe (Sintashta, Andronovo, Srubnaya-associated)** `steppe-mlba` | archaeological | 93 (21) | 2,131 BCE – 1,200 BCE | Central Eurasian steppe | medium | allentoft2024, narasimhan2019 |
 | **Botai-associated individuals** `botai` | archaeological | 3 (1) · sparse | 3,517 BCE – 3,025 BCE | Northern Kazakhstan | high | damgaard2018 |
 
 ## South Asia
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Indus Periphery Cline and the Rakhigarhi individual** `indus-periphery` | genetic cluster | 1 (1) · sparse | 2,800 BCE – 1,900 BCE | Northwest South Asia and its periphery | medium | narasimhan2019, shinde2019 |
+| **Indus Periphery Cline and the Rakhigarhi individual** `indus-periphery` | genetic cluster | 1 (1) · sparse | 2,800 BCE – 1,900 BCE | Northwest South Asia and its periphery | medium | lazaridis2016, narasimhan2019, shinde2019 |
 | **Ancestral Ancient South Asians (AASI, modelled)** `aasi` | genetic cluster | inferred only | 48,000 BCE – 2,001 BCE | South Asia | medium | narasimhan2019 |
 | **Ancestral South Indians (ASI, modelled)** `asi` | genetic cluster | inferred only | 1,900 BCE – 500 CE | South Asia | medium | narasimhan2019 |
 | **Ancestral North Indians (ANI, modelled)** `ani` | genetic cluster | inferred only | 1,900 BCE – 500 CE | South Asia | medium | narasimhan2019 |
@@ -101,10 +101,10 @@ How to read: *members* = AADR individuals matched by the population's membership
 | **Kofun-period individuals (Japan)** `kofun-period-japan` | historical | 3 (1) · sparse | 541 CE – 655 CE | Japanese archipelago | medium | cooke2021 |
 | **Amur River basin hunter-gatherers** `amur-hunter-gatherers` | genetic cluster | 25 (3) | 9,243 BCE – 4,329 BCE | Amur River basin | high | ning2020, wang2021 |
 | **Yellow River basin Neolithic farmers** `yellow-river-farmers` | genetic cluster | 47 (11) | 3,550 BCE – 1,882 BCE | Yellow River basin | medium | ning2020, wang2021 |
-| **West Liao River basin Neolithic and Bronze Age people** `west-liao-river` | geographic | 11 (7) | 6,400 BCE – 350 BCE | West Liao River basin (Inner Mongolia) | medium | ning2020 |
+| **West Liao River basin Neolithic and Bronze Age people** `west-liao-river` | geographic | 11 (7) | 6,400 BCE – 350 BCE | West Liao River basin (Inner Mongolia) | medium | ning2020, wang2021 |
 | **Iron Age people of Taiwan** `taiwan-iron-age` | geographic | 46 (1) · sparse | 1 CE – 800 CE | Taiwan | medium | wang2021, yang2020 |
-| **Hòabìnhian-associated hunter-gatherers** `hoabinhian` | archaeological | 2 (2) · sparse | 6,012 BCE – 2,209 BCE | Mainland Southeast Asia | medium | mccoll2018 |
-| **Neolithic farmers of mainland Southeast Asia (Man Bac)** `sea-neolithic-farmers` | genetic cluster | 8 (1) · sparse | 2,200 BCE – 1,600 BCE | Northern Vietnam | high | lipson2018sea |
+| **Hòabìnhian-associated hunter-gatherers** `hoabinhian` | archaeological | 2 (2) · sparse | 6,012 BCE – 2,209 BCE | Mainland Southeast Asia | medium | gakuhari2020, lipson2018sea, mccoll2018 |
+| **Neolithic farmers of mainland Southeast Asia (Man Bac)** `sea-neolithic-farmers` | genetic cluster | 8 (1) · sparse | 2,200 BCE – 1,600 BCE | Northern Vietnam | high | lipson2018sea, mccoll2018 |
 | **Xiongnu-period individuals (Mongolia)** `xiongnu-period` | historical | 57 (28) | 400 BCE – 850 CE | Mongolia and neighbouring steppe | high | jeong2020 |
 | **Mongol-period individuals (Mongolia)** `mongol-period` | historical | 72 (40) | 400 BCE – 1500 CE | Mongolia | high | jeong2020 |
 
@@ -112,9 +112,9 @@ How to read: *members* = AADR individuals matched by the population's membership
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Founding population of Native Americans (inferred)** `first-americans-founders` | genetic cluster | inferred only | 34,100 BCE – 12,700 BCE | Northeast Asia / Beringia (not located by genetics) | medium | morenomayar2018a, raghavan2014, raghavan2015 |
-| **Ancient Beringians (Upward Sun River)** `ancient-beringians` | genetic cluster | 2 (1) · sparse | 9,700 BCE – 9,250 BCE | Interior Alaska | medium | morenomayar2018a |
-| **Anzick-1 (Clovis-associated)** `clovis-anzick` | genetic cluster | 1 (1) · sparse | 10,800 BCE – 10,700 BCE | Northern Rocky Mountains | high | rasmussen2014 |
+| **Founding population of Native Americans (inferred)** `first-americans-founders` | genetic cluster | inferred only | 34,100 BCE – 12,700 BCE | Northeast Asia / Beringia (not located by genetics) | medium | morenomayar2018a, raghavan2014, raghavan2015, rasmussen2014, sikora2019 |
+| **Ancient Beringians (Upward Sun River)** `ancient-beringians` | genetic cluster | 2 (1) · sparse | 9,700 BCE – 9,250 BCE | Interior Alaska | medium | morenomayar2018a, posth2018, raghavan2015, sikora2019 |
+| **Anzick-1 (Clovis-associated)** `clovis-anzick` | genetic cluster | 1 (1) · sparse | 10,800 BCE – 10,700 BCE | Northern Rocky Mountains | high | posth2018, rasmussen2014 |
 | **Early Holocene people of Central and South America** `early-central-south-americans` | geographic | 28 (11) | 10,100 BCE – 6,252 BCE | Central and South America | medium | posth2018 |
 | **People of the Central and South-Central Andes** `central-andes` | geographic | 94 (37) | 2,300 BCE – 1613 CE | Central Andes | high | nakatsuka2020, posth2018 |
 | **Archaic Age people of the Caribbean** `caribbean-archaic` | archaeological | 54 (9) | 1,400 BCE – 1300 CE | Greater Antilles | high | fernandes2021 |
@@ -124,22 +124,22 @@ How to read: *members* = AADR individuals matched by the population's membership
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Ancestors of Papuans and Aboriginal Australians (inferred)** `australo-papuan-ancestors` | genetic cluster | inferred only | 48,000 BCE – 8,001 BCE | Island Southeast Asia and Sahul (not located by genetics) | medium | malaspinas2016, reich2010 |
+| **Ancestors of Papuans and Aboriginal Australians (inferred)** `australo-papuan-ancestors` | genetic cluster | inferred only | 48,000 BCE – 8,001 BCE | Island Southeast Asia and Sahul (not located by genetics) | medium | larena2021, malaspinas2016, reich2010, skoglund2016 |
 | **First Remote Oceanians (Lapita-associated)** `lapita-first-remote-oceanians` | archaeological | 10 (2) | 1,250 BCE – 500 BCE | Vanuatu and Tonga | high | lipson2018oceania, skoglund2016 |
 | **Post-Lapita people of Vanuatu** `vanuatu-post-lapita` | geographic | 13 (9) | 410 BCE – 1950 CE | Vanuatu | high | lipson2018oceania, posth2018oceania, skoglund2016 |
-| **Bismarck Archipelago-related ancestry (source, inferred)** `bismarck-related-source` | genetic cluster | inferred only | 1,001 BCE – 500 CE | Bismarck Archipelago | medium | lipson2018oceania |
+| **Bismarck Archipelago-related ancestry (source, inferred)** `bismarck-related-source` | genetic cluster | inferred only | 1,001 BCE – 500 CE | Bismarck Archipelago | medium | lipson2018oceania, posth2018oceania |
 
 ## Africa
 
 | population | category | members (sites) | range | region | confidence | key sources |
 |---|---|---|---|---|---|---|
-| **Mota (Ethiopia)** `mota` | genetic cluster | 1 (1) · sparse | 2,576 BCE – 2,465 BCE | Ethiopian highlands | medium | gallegollorente2015 |
-| **Eastern African foragers** `east-african-foragers` | genetic cluster | 7 (5) | 5,217 BCE – 216 CE | Eastern Africa (Kenya, Tanzania) | medium | lipson2022, prendergast2019 |
+| **Mota (Ethiopia)** `mota` | genetic cluster | 1 (1) · sparse | 2,576 BCE – 2,465 BCE | Ethiopian highlands | medium | gallegollorente2015, lipson2022, prendergast2019, skoglund2017 |
+| **Eastern African foragers** `east-african-foragers` | genetic cluster | 7 (5) | 5,217 BCE – 216 CE | Eastern Africa (Kenya, Tanzania) | medium | lipson2022, prendergast2019, skoglund2017, wang2020 |
 | **Foragers of Malawi** `malawi-foragers` | genetic cluster | 9 (3) | 15,000 BCE – 390 BCE | Malawi | high | lipson2022, skoglund2017 |
-| **Southern African foragers** `southern-african-foragers` | genetic cluster | 13 (4) | 8,607 BCE – 1387 CE | Southern Africa | medium | schlebusch2017, skoglund2017 |
+| **Southern African foragers** `southern-african-foragers` | genetic cluster | 13 (4) | 8,607 BCE – 1387 CE | Southern Africa | medium | schlebusch2017, skoglund2017, wang2020 |
 | **Shum Laka individuals (Cameroon)** `shum-laka` | genetic cluster | 4 (1) · sparse | 6,058 BCE – 1,055 BCE | Grassfields of western Cameroon | high | lipson2020 |
 | **Pastoral Neolithic herders of eastern Africa** `pastoral-neolithic` | archaeological | 31 (15) | 2,116 BCE – 580 CE | Eastern Africa (Kenya, Tanzania) | high | prendergast2019, skoglund2017, wang2020 |
-| **Iron Age farmers with western-African-related ancestry** `western-african-related-farmers` | genetic cluster | 11 (10) | 586 CE – 1793 CE | Eastern and southern Africa | medium | forteslima2024, schlebusch2017, skoglund2017 |
+| **Iron Age farmers with western-African-related ancestry** `western-african-related-farmers` | genetic cluster | 11 (10) | 586 CE – 1793 CE | Eastern and southern Africa | medium | forteslima2024, prendergast2019, schlebusch2017, skoglund2017, wang2020 |
 | **Medieval people of the Swahili coast** `swahili-medieval` | historical | 50 (4) | 1200 CE – 1700 CE | East African coast (Kenya, Tanzania) | high | brielle2023 |
 
 ## Admixture-event catalogue

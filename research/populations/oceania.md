@@ -13,6 +13,11 @@ A modelled population: the ancestors of present-day Papuans and Aboriginal Austr
 **Evidence:**
 - Aboriginal Australians and Papuans carry more Denisovan-derived haplotypes than other non-Africans. — malaspinas2016, Archaic admixture section; Extended Data Fig. 3
 - Denisovan-related ancestry was first estimated at 4–6% of the genomes of present-day Melanesians. — reich2010, Abstract; section on Denisovan gene flow into Melanesians
+- Papuan and Aboriginal Australian ancestors diversified 25-40 thousand years ago, all Aboriginal Australians descend from a single founding population differentiated about 10-32 thousand years ago, and Aboriginal Australians and Papuans diverged from Eurasians 51-72 thousand years ago after a single dispersal out of Africa (when archaic admixture is taken into account). — malaspinas2016, Abstract; Results
+- The number of putative Denisovan haplotypes correlates almost perfectly (r squared 0.96) with Australo-Papuan ancestry per individual, and a Denisovan pulse is estimated at 31-50 thousand years ago in a site frequency spectrum model. — malaspinas2016, Results, Archaic admixture; Extended Data Fig. 3
+- Present-day South Pacific populations carry at least 25% Papuan-related ancestry, which must have spread after first settlement. — skoglund2016, Abstract
+- Ayta Magbukon (Philippines) carry about 30–40% more Denisovan ancestry than Australians and Papuans, consistent with a separate Denisovan admixture event. — larena2021, Summary
+- A model of two out-of-Africa waves, with Australo-Papuan ancestors dispersing about 14 thousand years before Eurasians, fits when only modern humans are modelled, but when archaic Neanderthal and Denisovan admixture is included a single out-of-Africa bottleneck about 72 thousand years ago (95% CI 60-104) is supported. — malaspinas2016, Results
 
 **Caveats:**
 - Display window only: the cited sources do not date this population.
@@ -32,12 +37,17 @@ The first people to settle Vanuatu and Tonga, about 3,000 years ago, buried with
 **Evidence:**
 - Lapita-associated individuals from Vanuatu (~3,100–2,700 years ago) and Tonga (~2,700–2,300 years ago) had little or no Papuan-related ancestry. — skoglund2016, Abstract
 - The first Remote Oceanians descend directly from the population that spread from Taiwan via the Philippines to western Melanesia from about 5,000 years ago, with minimal admixture along the way. — lipson2018oceania, Summary
+- The study sequenced three individuals from Teouma, Efate (Vanuatu), radiocarbon dated 3110-2740 BP and Lapita-period, and one individual from Talasiu, Tonga (2680-2340 BP); all four were female; they cluster tightly with each other and, like Taiwanese Ami and Atayal, are not shifted toward Papuan ancestry as present-day Remote Oceanians are. — skoglund2016, Results
+- The ancient individuals and the Taiwanese Ami are consistent with descending from a common ancestral population, and the best-fitting qpGraph model has present-day Polynesians as mixtures of First Remote Oceanians and a Papuan population related to Highland New Guineans. — skoglund2016, Results; Fig. 3A
+- Present-day South Pacific populations carry at least 25% Papuan-related ancestry, which must have spread after first settlement. — skoglund2016, Abstract
+- People of almost entirely Papuan-related ancestry reached Vanuatu by about 2,300 years ago; Papuan-related ancestry was later diluted but remains at least 80–90% on most islands. — lipson2018oceania, Summary
+- The study compared Vanuatu and Tonga individuals dated 2900-2600 years ago with 14 ancient Vanuatu individuals and 185 present-day people from 18 islands; a dramatic turnover in Vanuatu is apparent after about 2900 and before about 2300 years ago. — lipson2018oceania, Summary; Results
 
 ## Post-Lapita people of Vanuatu (`vanuatu-post-lapita`)
 
 *geographic · confidence high · Vanuatu*
 
-People of Vanuatu from about 2,300 years ago onward, whose ancestry is predominantly Papuan-related, while Austronesian languages continued to be spoken.
+People of Vanuatu from about 2,300 years ago onward, whose ancestry is predominantly Papuan-related after centuries of mixing with the first Lapita-associated settlers.
 
 **Membership rule:** `^Vanuatu_(2300|1300|1200|500|150)BP$`.
 
@@ -47,6 +57,12 @@ People of Vanuatu from about 2,300 years ago onward, whose ancestry is predomina
 - People of almost entirely Papuan-related ancestry reached Vanuatu by about 2,300 years ago; Papuan-related ancestry was later diluted but remains at least 80–90% on most islands. — lipson2018oceania, Summary
 - A Papuan-related expansion into Remote Oceania began about 2,500 years ago and led to near-complete replacement of Lapita-related ancestry in Vanuatu through repeated migrations and sex-biased admixture, while Austronesian languages persisted. — posth2018oceania, Summary
 - Present-day South Pacific populations carry at least 25% Papuan-related ancestry, which must have spread after first settlement. — skoglund2016, Abstract
+- Papuan ancestry in the 14 ancient Vanuatu individuals is nearly total in early post-Lapita individuals and later diluted; an ancient pair about 1,300 years old gives an admixture date of 18 plus or minus 6 generations (about 500 years) earlier, which falls in the range of admixture dates for present-day groups. — lipson2018oceania, Results; Fig. 2
+- The arrival of almost entirely Papuan-ancestry people in Vanuatu likely reflects migrations a few hundred years before 2,300 years ago, at the end of the Lapita period, when there is also evidence of changes in skeletal morphology and the end of long-distance trade between Near and Remote Oceania. — lipson2018oceania, Summary
+- Nineteen individuals from Vanuatu, Tonga, French Polynesia and the Solomon Islands (about 2,600-200 years ago) show Papuan-related ancestry arriving from about 2,500 years ago: the earliest post-Lapita individual (TAN002) has no Austronesian ancestry, Malakula individuals over about 500 years from 2,500 BP carry 22-46% Austronesian ancestry, and 1,100-year-old Futuna individuals 11-17%. — posth2018oceania, Results
+- Excess Austronesian X-chromosome ancestry in the Malakula time series shows sex-biased admixture in progress (one male with a Papuan Y lineage carries about 50% Austronesian maternal excess), and the latest individual (TAN001) is modelled as descended directly from a Baining-related population, suggesting complete local replacement. — posth2018oceania, Results
+- The Papuan-related ancestry in Vanuatu derives from the Bismarck Archipelago. — lipson2018oceania, Summary
+- Present-day Vanuatu could not be fitted alongside the ancient individuals in one model, indicating that present-day ni-Vanuatu may carry an additional genetic component not found in the ancient samples; the two studies differ in emphasis between one large movement and incremental, repeated, sex-biased admixture. — posth2018oceania, Results; Supplementary figure 4
 
 ## Bismarck Archipelago-related ancestry (source, inferred) (`bismarck-related-source`)
 
@@ -58,6 +74,10 @@ The source of the Papuan-related ancestry that reached Vanuatu, best matched by 
 
 **Evidence:**
 - The Papuan-related ancestry in Vanuatu derives from the Bismarck Archipelago. — lipson2018oceania, Summary
+- Baining groups of New Britain are the closest present-day proxy sources for the Near Oceanian ancestry in the earliest post-Lapita Vanuatu individual, whose affinity is not explained by shared Austronesian ancestry; a qpGraph model derives the individual from a population ancestral to Baining Marabu. — posth2018oceania, Results; Supplementary table 9; Fig. 3a
+- A fine-grained analysis of ancestry profiles shows the Papuan ancestry in Vanuatu derives from the Bismarck Archipelago rather than the geographically closer Solomon Islands, while the Papuan ancestry in Polynesia derives from different sources, a third stream of migration from Near to Remote Oceania. — lipson2018oceania, Summary; Results
+- People of almost entirely Papuan-related ancestry reached Vanuatu by about 2,300 years ago; Papuan-related ancestry was later diluted but remains at least 80–90% on most islands. — lipson2018oceania, Summary
+- A Papuan-related expansion into Remote Oceania began about 2,500 years ago and led to near-complete replacement of Lapita-related ancestry in Vanuatu through repeated migrations and sex-biased admixture, while Austronesian languages persisted. — posth2018oceania, Summary
 
 **Caveats:**
 - Display window spans the arrival of Papuan-related ancestry in Vanuatu, not a lifespan.

@@ -14,6 +14,9 @@ A man who lived about 4,500 years ago in the Ethiopian highlands, whose genome p
 
 **Evidence:**
 - After a 2016 erratum, Mota (Ethiopia, ~4,500 years old) is retained as a high-coverage eastern African genome predating Eurasian-related admixture in eastern Africa; the original claim of Eurasian ancestry in Yoruba and Mbuti was withdrawn. — gallegollorente2015, Abstract; Erratum doi:10.1126/science.aaf3945
+- The Mota Cave individual (Ethiopia, about 4,500 years ago) was re-sequenced to about 26x coverage; it sits at the northern extreme of an ancient north-south gradient of foragers' ancestry and is modelled with about 30% of a separate, deeply diverged 'ghost' ancestry component, a result replicated with the higher-coverage data. — lipson2022, The dataset; Three-way cline; Inter- and intraregional relationships
+- The Ethiopian highland individual of about 4,500 years ago stands in for northeastern African ancestry before agriculture; present-day Hadza can be modelled as deriving all their ancestry from a lineage related deeply to him, and the Luxmanda pastoralist is about two thirds closest to him. — skoglund2017, Results
+- Pastoral Neolithic individuals in Kenya and Tanzania carry about 20% ancestry related to the Mota forager, with about 40% each related to Dinka and to Chalcolithic Levantine individuals, as proxy groups. — prendergast2019, Results, Formal modeling of admixture; Fig. 3
 
 **Caveats:**
 - The source paper carries an erratum; only claims unaffected by it are used.
@@ -27,11 +30,17 @@ Hunter-gatherers of eastern Africa over the last 18,000 years, carrying a deep e
 
 **Membership rule:** `^Kenya_(LSA|Kansyore|LSA_Kansyore)$|^Tanzania_(LSA|LSA_Kisese)$`.
 
-**Matched (7 individuals, 5 sites):** Kenya_LSA_Kansyore (3); Kenya_Kansyore (2); Kenya_LSA (1); Tanzania_LSA_Kisese (1)
+**Matched (7 individuals, 5 sites):** Kenya_LSA_Kansyore (3); Kenya_Kansyore (2); Tanzania_LSA_Kisese (1); Kenya_LSA (1)
 
 **Evidence:**
 - Eastern and south-central African forager ancestry is a geographically structured mixture of three highly divergent sources, probably formed 80,000–20,000 years ago and stable afterwards. — lipson2022, Abstract
 - East African pastoralist groups formed through admixture between northeastern-African-related peoples and eastern African foragers, with further northeastern- and western-African-related admixture by the Iron Age. — prendergast2019, Abstract
+- The study reports six new individuals from Kisese II and Mlambalasi (Tanzania), Fingira and Hora 1 (Malawi) and Kalemba (Zambia), dated about 18,000-5,000 years ago, with coverage 0.001-3.2x (median 0.06x), analysed with 28 others. — lipson2022, Main; The dataset
+- Western Kenya foragers (Jawuoyo, Nyarindi) are modelled as about 62% Mota-related, 19% central African forager-related and 19% southern African-related ancestry, and north-central Tanzanian foragers (Gishimangeda) as 54%, 12% and 34%; at least three sources are needed and three are sufficient. — lipson2022, Results, Three-way cline; Inter- and intraregional relationships
+- A Zanzibar forager of about 1,400 years ago has 31% (plus or minus 3) ancestry related to southern African foragers, but the about 400-year-old coastal Kenya individual and present-day Hadza do not show it. — skoglund2017, Results
+- Interaction between herders and foragers was very imbalanced, with forager ancestry entering pastoralist populations but little flow in the other direction, and foragers coexisted with food producers until at least 400 years ago. — wang2020, Results, Complex spread of pastoralism; Discussion
+- The Mota-related and southern African-related sources are inferred to split deeply from their lineages, so they are 'ghost' populations without closely related sampled representatives; once established the structure was stable with limited long-range gene flow. — lipson2022, Results; Abstract
+- Kenyan foragers (Nyarindi 3500 BP, Kakapel 3900 BP) cluster with Pemba, Zanzibar and coastal Kenya individuals; near lakes and coasts there is little evidence of pastoralist admixture into foragers, and the Kakapel forager carries Mbuti-associated ancestry. — wang2020, Results, New aDNA from Africa; Discussion
 
 **Caveats:**
 - Few individuals across a very large area and time span.
@@ -44,11 +53,15 @@ Hunter-gatherers of Malawi between about 15,000 and 2,500 years ago, about two-t
 
 **Membership rule:** `^Malawi_LSA`.
 
-**Matched (9 individuals, 3 sites):** Malawi_LSA_6000BP (3); Malawi_LSA_5200BP (2); Malawi_LSA_15500BP (2); Malawi_LSA_8500BP (1); Malawi_LSA_2500BP (1)
+**Matched (9 individuals, 3 sites):** Malawi_LSA_6000BP (3); Malawi_LSA_15500BP (2); Malawi_LSA_5200BP (2); Malawi_LSA_8500BP (1); Malawi_LSA_2500BP (1)
 
 **Evidence:**
 - San-related ancestry was once more widespread: about two-thirds of the ancestry of Malawi hunter-gatherers (~8,100–2,500 years ago) and about one-third of Tanzanian hunter-gatherers (~1,400 years ago). — skoglund2017, Summary
 - Eastern and south-central African forager ancestry is a geographically structured mixture of three highly divergent sources, probably formed 80,000–20,000 years ago and stable afterwards. — lipson2022, Abstract
+- Seven Malawi individuals (about 8,100-2,500 years ago) show no significant heterogeneity, indicating a distinctive population that persisted at least 5,000 years; San-related ancestry is about 60% (plus or minus 6) at Fingira about 6,100 years ago and 65% (plus or minus 3) at about 2,500 years ago, and replacement by food-producers appears nearly complete. — skoglund2017, Results
+- Hora 1 (Malawi) includes individuals dated 17,000-14,000 years ago and one dated 9,090-8,770 cal BP; mitochondrial haplogroups in Malawi and Zambia are associated with southern African foragers, but one 16,000-year-old Hora 1 individual carries an eastern-African-associated L5b and an 8,200-year-old one carries a central-African-forager-like L0a2. — lipson2022, The dataset; Uniparental markers
+- The spread of farmers from western Africa involved complete replacement of local hunter-gatherers in some regions. — skoglund2017, Summary
+- Within Malawi and Zambia there are modest differences between individuals in allele sharing (maximum Z of 3.8), and the southern-African-related ancestry among eastern and south-central individuals may be only distantly related to present-day Ju|'hoansi and ancient South African foragers. — lipson2022, Results, Three-way cline
 
 ## Southern African foragers (`southern-african-foragers`)
 
@@ -58,11 +71,14 @@ Stone Age hunter-gatherers of southern Africa, genetically similar to present-da
 
 **Membership rule:** `^SouthAfrica_(2000BP|1900BP|2200BP|LateHolocene|OakhurstRockshelter_LateHolocene|MatjesRiver_LSA_Wilton)$`.
 
-**Matched (13 individuals, 4 sites):** SouthAfrica_LateHolocene (7); SouthAfrica_1900BP (2); SouthAfrica_MatjesRiver_LSA_Wilton (2); SouthAfrica_OakhurstRockshelter_LateHolocene (2)
+**Matched (13 individuals, 4 sites):** SouthAfrica_LateHolocene (7); SouthAfrica_1900BP (2); SouthAfrica_OakhurstRockshelter_LateHolocene (2); SouthAfrica_MatjesRiver_LSA_Wilton (2)
 
 **Evidence:**
 - ~2,000-year-old Stone Age individuals from KwaZulu-Natal resemble present-day southern San; Iron Age individuals (300–500 years old) resemble present-day Bantu-language speakers. — schlebusch2017, Abstract
 - San-related ancestry was once more widespread: about two-thirds of the ancestry of Malawi hunter-gatherers (~8,100–2,500 years ago) and about one-third of Tanzanian hunter-gatherers (~1,400 years ago). — skoglund2017, Summary
+- Two individuals buried in hunter-gatherer contexts in South Africa about 2,000 years ago share ancestry with southern African Khoe-San populations; this ancient southern African ancestry makes up up to 91% of the ancestry of Khoe-San groups today. — skoglund2017, Results
+- A southern African pastoralist from Kasteelberg (about 1,200 years ago) is modelled as 40.3% (plus or minus 2.3) ancestry related to the Tanzanian Luxmanda pastoralist and the remainder related to the 2,000-year-old hunter-gatherers; even the Ju|'hoan North San have about 9% such ancestry. — skoglund2017, Results
+- Four Botswana individuals (about 1,300-1,000 years ago) are mostly related to present-day Bantu speakers, with 30-40% southern African hunter-gatherer ancestry in three Okavango Delta individuals and about 10% in one from southeastern Botswana; two also carry Pastoral Neolithic-related ancestry of 14-22%. — wang2020, Results, Spread of food production into southern Africa
 
 ## Shum Laka individuals (Cameroon) (`shum-laka`)
 
@@ -76,6 +92,10 @@ Children buried at the Shum Laka rock shelter in Cameroon about 8,000 and 3,000 
 
 **Evidence:**
 - Children buried at Shum Laka (Cameroon) ~8,000 and ~3,000 years ago have ancestry most similar to west-central African hunter-gatherers; present-day Bantu speakers do not descend substantially from this population. — lipson2020, Abstract
+- Four children were sequenced (two about 8,000 years ago, two about 3,000 years ago; coverage 0.7-7.7x); the contemporaneous pairs are related at fourth-degree and second-degree level, supporting use of the rockshelter as an extended-family cemetery, and all four show recent inbreeding. — lipson2020, Results, Uniparental markers and kinship analysis
+- The children carry mitochondrial haplogroups L0a2a1 and L1c2a1b and Y haplogroups B and the rare A00 (whose within-A00 split is dated about 37,000-25,000 years ago); Shum Laka is placed closest to West-Central African hunter-gatherers in PCA. — lipson2020, Results
+- The four children are modelled as about 35% West-Central African hunter-gatherer-related ancestry and about 65% from a basal West African-related source, with the 3,000-year-old pair having about 5% more hunter-gatherer-related ancestry; an alternative three-component model also fits. — lipson2020, Results, Shum Laka in genetic and archaeological context; Fig. 4
+- Present-day groups near Shum Laka (Mbo, Aghem, Bafut) show only small Shum Laka-related admixture of about 7-8% at most, so the Shum Laka population did not contribute substantially to present-day western Cameroonians or Bantu speakers. — lipson2020, Results, PCA and allele-sharing statistics; Abstract
 
 **Caveats:**
 - Four individuals.
@@ -99,21 +119,30 @@ The first herders of Kenya and Tanzania, about 5,000–1,200 years ago, formed b
 - Makers of distinct Pastoral Neolithic artefact traditions were not genetically differentiated. — prendergast2019, Abstract
 - A ~3,100-year-old pastoralist from Luxmanda (Tanzania) is modelled with 38 ± 1% ancestry related to Levantine pre-pottery farmers (Iran- or Anatolia-related sources excluded); the authors note this could reflect migration from the Levant or a shared earlier ancestral population. — skoglund2017, Results
 - Kenyan pastoralist individuals carry variable Dinka-related and eastern-forager-related ancestry (e.g. 33 ± 11% Dinka-related at Hyrax Hill, ~2,300 years ago). — wang2020, Results, 'Complex spread of pastoralism'
+- The study reports 41 individuals from Kenya and Tanzania, including 31 from early pastoral and Pastoral Neolithic contexts; Pastoral Neolithic individuals form a tight cluster with a few modest outliers (such as two at Prettejohn's Gully about 4,000 years ago), and 7-12 of 17 males carry Y haplogroup E-M293. — prendergast2019, Introduction; Results
+- Pastoral Neolithic individuals in Kenya and Tanzania carry about 20% ancestry related to the Mota forager, with about 40% each related to Dinka and to Chalcolithic Levantine individuals, as proxy groups. — prendergast2019, Results, Formal modeling of admixture; Fig. 3
+- The authors propose that admixture in northeastern Africa, likely associated with the spread of pastoralism, created groups (unsampled with ancient DNA) with roughly equal Dinka-related and northern African/Levantine-related ancestry, whose descendants then mixed with local foragers; the Levantine-related reference is a stand-in because no closer reference group exists. — prendergast2019, Results, Formal modeling of admixture
+- Pastoral Neolithic individuals from southern Kenya span about 3,500-1,500 years ago with remarkable continuity of ancestry; Levantine-related ancestry is constant at about 30-40% while Dinka-related and forager-related shares vary, and herder-forager mixing may have continued during the Pastoral Neolithic. — wang2020, Results, Complex spread of pastoralism
+- A southern African pastoralist from Kasteelberg (about 1,200 years ago) is modelled as 40.3% (plus or minus 2.3) ancestry related to the Tanzanian Luxmanda pastoralist and the remainder related to the 2,000-year-old hunter-gatherers; even the Ju|'hoan North San have about 9% such ancestry. — skoglund2017, Results
 
 ## Iron Age farmers with western-African-related ancestry (`western-african-related-farmers`)
 
 *genetic cluster · confidence medium · Eastern and southern Africa*
 
-Iron Age individuals in eastern and southern Africa whose ancestry is mostly related to present-day western African and Bantu-speaking populations. They are associated with the spread of farming and of Bantu languages, which brought complete replacement of local foragers in some regions.
+Iron Age individuals in eastern and southern Africa whose ancestry is mostly related to present-day western African populations. They are associated with the spread of farming, which in some regions brought near-complete replacement of local forager ancestry and elsewhere involved mixing.
 
 **Membership rule:** `^Botswana_EIA$|^SouthAfrica_400BP$|^Malawi_(IA|IronAge)|^Kenya_(400BP|IA_Bantu)|^Tanzania_(600BP|1300BP)$`.
 
-**Matched (11 individuals, 10 sites):** Botswana_EIA (4); SouthAfrica_400BP (4); Tanzania_1300BP (1); Tanzania_600BP (1); Kenya_400BP (1)
+**Matched (11 individuals, 10 sites):** SouthAfrica_400BP (4); Botswana_EIA (4); Kenya_400BP (1); Tanzania_1300BP (1); Tanzania_600BP (1)
 
 **Evidence:**
 - The spread of farmers from western Africa involved complete replacement of local hunter-gatherers in some regions. — skoglund2017, Summary
 - ~2,000-year-old Stone Age individuals from KwaZulu-Natal resemble present-day southern San; Iron Age individuals (300–500 years old) resemble present-day Bantu-language speakers. — schlebusch2017, Abstract
 - Genetic diversity among Bantu-speaking populations declines with distance from western Africa, supporting a serial-founder expansion, with significant gene flow from local groups. — forteslima2024, Abstract
+- A 600-year-old individual from the Zanzibar archipelago has a profile similar to present-day Bantu speakers and consistent with even more western African-related ancestry than present-day Bantu speakers from Kenya, and in present-day Bantu speakers from Kenya the mixing between western and eastern African-related lineages is dated to 800-400 years ago. — skoglund2017, Results
+- An Iron Age child from Deloraine Farm, Kenya's earliest agricultural site in the Rift Valley, is shifted in PCA toward western Africans and Bantu speakers and carries Y haplogroup E-M58, but the Pastoral Iron Age individuals show instead more Dinka-related ancestry. — prendergast2019, Results
+- Iron Age individuals show a complex geography: two Kakapel individuals (Kenya) have 90-100% Nilotic (Dinka)-related ancestry and no Bantu-related ancestry, an Uganda individual (14th-16th century) shows Bantu-related ancestry, and Botswana individuals carry mostly Bantu-related ancestry with southern African hunter-gatherer ancestry. — wang2020, Results, Shifts of ancestry during the Iron Age
+- The study includes whole genomes of 12 Late Iron Age individuals from Zambia and South Africa (97-688 years ago); the authors show that Bantu-speaking populations received significant gene flow from local groups, and their diversity declines with distance from western Africa. — forteslima2024, Abstract; Results
 
 **Caveats:**
 - A linguistic label (Bantu) is used here only to describe an association; the population is defined genetically.
@@ -132,3 +161,9 @@ Townspeople of the medieval Swahili coast, from about 1250 CE, with African ance
 
 **Evidence:**
 - Many medieval Swahili coast individuals derive more than half their DNA from African ancestors (mainly female-line) and much of the rest from Asian ancestors, 80–90% of whose DNA traces to Persian-related men; mixing began by about 1000 CE. — brielle2023, Abstract
+- The study reports 80 individuals from six coastal towns (Mtwapa 48, Manda 8, Songo Mnara 7, Kilwa 2, Faza 1, Lindi 1) dated 1250-1800 CE plus an inland site; the remains at Mtwapa, Manda and Songo Mnara were mainly from Muslim burials of elites, often near mosques. — brielle2023, Results; Methods
+- The authors cannot distinguish one stream of Persian-Indian migrants from two or more, statistical power to detect Indian ancestry is limited, and the coastal sample sizes are small; present-day people of the coast differ from the medieval individuals. — brielle2023, Results; Abstract
+- Most individuals fit a three-source model of African, Persian-related and Indian-related ancestry: Mtwapa 56-58% African, 34-39% Persian and 4-9% Indian; Manda 30-34%, 55-65% and 3-13%; Kilwa 72-76% African and 24-28% Persian. — brielle2023, Results, Proportions of African, Persian and Indian DNA; Table 1
+- Mitochondrial DNA (59 of 62 carry L* haplogroups), Y chromosomes (14 of 19 Mtwapa males in the J family) and the X chromosome compared with autosomes indicate African ancestors were primarily female and Southwest Asian ancestors primarily male. — brielle2023, Results, Males from Persia and females from Africa; Table 1
+- Admixture is dated to 795-1085 CE for northern sites and 708-1219 CE for southern ones, with dates biased older by any marine reservoir effect; before about 1500 CE the Southwest Asian ancestry was mainly Persian-related and afterwards increasingly Arabian-related; some individuals need Arabian-related ancestry, especially at Mtwapa, and a few at Lindi and Songo Mnara show no recent Asian ancestry. — brielle2023, Results, Mixing began by AD 1000; Arabians and other migratory influences
+- Inland Makwasinyi individuals (1650-1950 CE) are themselves modelled as about 80% Bantu-associated and 20% ancient eastern African Pastoral Neolithic ancestry, and are the best-fitting African source for Kenyan coastal individuals; in Tanzania the best African proxy is Bantu-associated without Pastoral Neolithic contribution. — brielle2023, Results, Proportions of African, Persian and Indian DNA

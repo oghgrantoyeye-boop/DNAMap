@@ -17,6 +17,13 @@ A genetic profile shared by one individual from an Indus Valley Civilization con
 **Evidence:**
 - A genome from an IVC context (Rakhigarhi) fits as a mixture of ancient-Iranian-related (largest) and Southeast Asian hunter-gatherer-related ancestry, matching the Indus Periphery outliers, with little or no steppe-related ancestry. — shinde2019, Summary
 - Eleven outlier individuals at Gonur and Shahr-i-Sokhta form an 'Indus Periphery Cline'; equating it with the Indus Valley Civilization population is a hypothesis with circumstantial support. — narasimhan2019, Main text
+- Eleven outliers are identified, 3 at Gonur (2500-2000 BCE, Turkmenistan) and 8 at Shahr-i-Sokhta (3300-2000 BCE, eastern Iran), with 11-50% ancestry related to Andamanese hunter-gatherers and the rest from a mixture of Iranian farmer- and West Siberian hunter-gatherer-related ancestry (about 50-89%), and no detectable Anatolian farmer-related ancestry. — narasimhan2019, Results, An Ancestry Profile Widespread During the Indus Valley Civilization
+- The authors state they cannot be definitive that this cline, the Indus Periphery Cline, was also common in the Indus Valley Civilization without ancient DNA from IVC contexts, and offer six circumstantial lines of evidence; the mixture that formed the cline is dated to about 5400-3700 BCE, a millennium or more before the mature IVC. — narasimhan2019, Results; Discussion
+- Sixty-one skeletal samples from the Rakhigarhi cemetery of the Indus Valley Civilization (mature IVC dated 2600-1900 BCE) were tried and only one, I6113, yielded enough authentic DNA; it projects onto the Indus Periphery Cline, which is significantly depleted in steppe pastoralist-related ancestry (p=0.018) relative to the later South Asian mixture. — shinde2019, Results; Method Details
+- The Indus Periphery Cline contributes the majority of the ancestry of present-day South Asians; Ancestral South Indians are estimated at a minimum of 55% Indus Periphery-related (with the most Iranian-farmer-related individual as source) and the remainder Andamanese hunter-gatherer-related, and the Steppe Cline has one end on the Indus Periphery Cline and the other about 41% Central Steppe MLBA and 59% an Iranian-rich Indus Periphery subgroup. — narasimhan2019, Results, Three Ancestry Clines; The ASI and ANI arose
+- After the IVC's decline, Indus Periphery-related people mixed with south-eastern groups to form Ancestral South Indians (ASI), and with steppe-pastoralist-descended people arriving via Central Asia after ~4000 years ago to form Ancestral North Indians (ANI). — narasimhan2019, Abstract; main text
+- The Iranian-related ancestry in the IVC Cline derives from a lineage that diverged before the ancestors of early Iranian hunter-gatherers, herders and farmers separated, so sampled genomes from the Iranian plateau and the IVC descend from different hunter-gatherer groups who began farming without being linked by movement of people. — shinde2019, Summary; Results
+- People related to both early Iranian farmers and steppe pastoralists spread east into South Asia. — lazaridis2016, Abstract
 
 **Caveats:**
 - Only one genome comes from an IVC context; whether it represents the IVC population as a whole is a hypothesis.
@@ -35,6 +42,10 @@ A modelled ancestry component: the South Asian lineage with no relationship to W
 **Evidence:**
 - AASI ('Ancestral Ancient South Asians') is modelled as an Asian lineage that split around the time East Asian, Andamanese and Australian ancestors separated. — narasimhan2019, Admixture-graph section; Fig. 5
 - The main source of ancestry in South Asians is a prehistoric gradient between people related to early Iranian hunter-gatherers and people related to South/Southeast Asian hunter-gatherers (AASI). — narasimhan2019, Abstract; Fig. 5
+- AASI is fitted in an admixture graph with Palliyar and Juang as an Asian lineage that split off around the time East Asian, Andaman Islander and Australian ancestors separated; Juang can only be fitted with extra AASI ancestry beyond ASI, so groups with less Iranian farmer-related ancestry than ASI also existed. — narasimhan2019, Results; Fig. 5
+- After the IVC's decline, Indus Periphery-related people mixed with south-eastern groups to form Ancestral South Indians (ASI), and with steppe-pastoralist-descended people arriving via Central Asia after ~4000 years ago to form Ancestral North Indians (ANI). — narasimhan2019, Abstract; main text
+- Several tribal groups of southern India are consistent with about 0% Central Steppe MLBA ancestry and the most extreme position for the Ancestral South Indians, which the authors model as at least 55% Indus Periphery-related and the remainder Andamanese hunter-gatherer-related, a stand-in for AASI. — narasimhan2019, Results, The ASI and ANI Arose
+- Eleven outliers are identified, 3 at Gonur (2500-2000 BCE, Turkmenistan) and 8 at Shahr-i-Sokhta (3300-2000 BCE, eastern Iran), with 11-50% ancestry related to Andamanese hunter-gatherers and the rest from a mixture of Iranian farmer- and West Siberian hunter-gatherer-related ancestry (about 50-89%), and no detectable Anatolian farmer-related ancestry. — narasimhan2019, Results, An Ancestry Profile Widespread During the Indus Valley Civilization
 
 **Caveats:**
 - The time range is a display window, not a dated lifespan.
@@ -51,6 +62,10 @@ A modelled ancestral population that formed after the decline of the Indus Valle
 
 **Evidence:**
 - After the IVC's decline, Indus Periphery-related people mixed with south-eastern groups to form Ancestral South Indians (ASI), and with steppe-pastoralist-descended people arriving via Central Asia after ~4000 years ago to form Ancestral North Indians (ANI). — narasimhan2019, Abstract; main text
+- Neither the ASI nor ANI is directly sampled; the authors co-analyse ancient and present-day groups to reconstruct them, and note that the ASI formed after 2000 BCE as a mixture of a point on the Indus Periphery Cline with South Asians holding more AASI ancestry; ASI and ANI then mixed to form the Modern Indian Cline. — narasimhan2019, Results; Discussion
+- Several tribal groups of southern India are consistent with about 0% Central Steppe MLBA ancestry and the most extreme position for the Ancestral South Indians, which the authors model as at least 55% Indus Periphery-related and the remainder Andamanese hunter-gatherer-related, a stand-in for AASI. — narasimhan2019, Results, The ASI and ANI Arose
+- Using admixture dating on the southern Indian Palliyar group, the mixing of Iranian farmer-related and AASI-related ancestry is dated 107 plus or minus 11 generations ago, a 95% interval of 1700-400 BCE at 28 years per generation, so the ASI were not fully formed at the time of the IVC. — narasimhan2019, Results, The ASI and ANI Arose; Discussion
+- Steppe-related ancestry in South Asia has the same profile as that of Bronze Age eastern Europe. — narasimhan2019, Abstract
 
 **Caveats:**
 - Display window; formation date is model-based.
@@ -67,6 +82,10 @@ A modelled ancestral population that formed in the 2nd millennium BCE as Indus P
 
 **Evidence:**
 - After the IVC's decline, Indus Periphery-related people mixed with south-eastern groups to form Ancestral South Indians (ASI), and with steppe-pastoralist-descended people arriving via Central Asia after ~4000 years ago to form Ancestral North Indians (ANI). — narasimhan2019, Abstract; main text
+- Steppe-related ancestry in South Asia has the same profile as that of Bronze Age eastern Europe. — narasimhan2019, Abstract
+- Steppe-related ancestry in the Swat Valley time series (117 individuals, 1400 BCE-1700 CE) is dated to about 1900-1500 BCE (26 generations before they lived), and the Kalash's admixture is dated 110 plus or minus 12 generations ago; the Steppe Cline runs from a point on the Indus Periphery Cline to a mix of about 41% Central Steppe MLBA and 59% an Iranian-rich Indus Periphery subgroup. — narasimhan2019, Results, The Steppe Cline; The ASI and ANI Arose
+- In Late Bronze Age and Iron Age Swat individuals, steppe-related ancestry is 5% of Y chromosomes against 20% of autosomes, so it entered largely through females there, whereas in present-day South Asians there is an excess on the Y chromosome, so sex bias varied by place and time. — narasimhan2019, Results, Steppe Ancestry is Primarily from Males
+- Outliers in Turan dated about 2100-1500 BCE carry steppe pastoralist-derived ancestry in mixed form, and later steppe-derived groups such as Scythians, Sarmatians, Kushans and Huns cannot be major sources of South Asia's steppe ancestry because they carry too much East Asian-related ancestry. — narasimhan2019, Results
 
 **Caveats:**
 - Display window; formation date is model-based.

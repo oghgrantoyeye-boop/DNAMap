@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { formatYear, formatYearsAgo } from "@dnamap/data-model";
 import { GROUP_COLOR, makeProjection, ticksFor, viewForSpan } from "@dnamap/visualization";
 import type { Dataset } from "@/lib/data";
-import { getState, setState, useAppState } from "@/lib/store";
+import { getState, setState, subscribe, useAppState } from "@/lib/store";
 import { trackEvent } from "@/lib/track";
 import { halfWindowFor, scaleFor } from "@/lib/timeWindow";
 
@@ -15,7 +15,24 @@ export default function Timeline({ data }: { data: Dataset }) {
   const [width, setWidth] = useState(800);
   const time = useAppState((s) => s.time);
   const zoomWindow = useAppState((s) => s.zoomWindow);
-  const view = useAppState((s) => s.view);
+  // The density strip projects every sample, so follow the view only once it settles
+  // (re-rendering the whole timeline on every drag step made panning lag).
+  const [view, setView] = useState(() => getState().view);
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    let last = getState().view;
+    const unsub = subscribe(() => {
+      const v = getState().view;
+      if (v === last) return;
+      last = v;
+      clearTimeout(timer);
+      timer = setTimeout(() => setView(v), 200);
+    });
+    return () => {
+      unsub();
+      clearTimeout(timer);
+    };
+  }, []);
   const selection = useAppState((s) => s.selection);
   const playing = useAppState((s) => s.playing);
   const hoverPop = useAppState((s) => s.hoverPopulation);
