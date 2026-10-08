@@ -18,8 +18,8 @@ Phases may be reordered if the summary of a previous phase gives a reason; recor
 
 | Phase | Name | Status |
 |---|---|---|
-| 1 | Research & architecture | see `KICKOFF.md` |
-| 2 | Data pipeline & curated ontology | not started |
+| 1 | Research & architecture | done 2026-10-08 (`research/notes/PHASE1_SUMMARY.md`) |
+| 2 | Data pipeline & curated ontology | in progress |
 | 3 | V0.1 — map + timeline | not started |
 | 4 | Relationships & evidence | not started |
 | 5 | Uncertainty & sampling-bias visual language | not started |
