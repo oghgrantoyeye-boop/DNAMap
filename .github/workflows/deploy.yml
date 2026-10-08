@@ -1,0 +1,76 @@
+# Build the data and the static site here, then upload the finished files to Vercel.
+# (Vercel cannot build from git alone: data/raw and the per-sample shards are not committed.)
+name: build and deploy
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  NEXT_TELEMETRY_DISABLED: "1"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.13"
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      # AADR is ~29 MB; cache it, keyed on the pinned release/checksums.
+      - uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: raw-${{ hashFiles('pipeline/aadr/manifest.py') }}
+
+      - name: Data pipeline (download, validate, export)
+        working-directory: pipeline
+        run: uv run python -m build
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm -r typecheck
+      - run: pnpm -r test
+      - name: Pipeline tests
+        working-directory: pipeline
+        run: uv run pytest -q
+
+      - name: Build site
+        run: pnpm --filter web build
+
+      - name: Package for Vercel
+        run: |
+          mkdir -p .vercel/output
+          cp -r apps/web/out .vercel/output/static
+          echo '{"version":3}' > .vercel/output/config.json
+
+      - name: Deploy (preview for pull requests, production for main)
+        id: deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          flag=""
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.ref }}" = "refs/heads/main" ]; then flag="--prod"; fi
+          url=$(npx --yes vercel@latest deploy --prebuilt $flag --token "$VERCEL_TOKEN")
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "Deployed: $url" >> "$GITHUB_STEP_SUMMARY"
