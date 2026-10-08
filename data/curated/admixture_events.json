@@ -1,0 +1,1226 @@
+{
+ "version": 1,
+ "notes": "Admixture events with competing published models side by side (DATA_MODEL.md §5). proportion=null means the checked text gives the component but not a number. complete=true models are validated to sum to 1 ± 0.03.",
+ "events": [
+  {
+   "id": "ae-neandertal-non-africans",
+   "target": "non-african-ancestors",
+   "region": "Not located by genetics",
+   "archaic": true,
+   "evidence_ids": [
+    "ev-green2010-1"
+   ],
+   "models": [
+    {
+     "id": "m-prufer2014",
+     "label": "Neandertal-derived share, estimated with the Altai, Vindija and Mezmaiskaya genomes",
+     "source_id": "prufer2014",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "neandertals",
+       "proxy_label": "Neandertal (Altai/Vindija/Mezmaiskaya references)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.018,
+        "low": 0.015,
+        "high": 0.021,
+        "kind": "range"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-prufer2014-1",
+      "ev-prufer2014-2"
+     ]
+    },
+    {
+     "id": "m-prufer2017",
+     "label": "Revised with the high-coverage Vindija genome (outside Oceania)",
+     "source_id": "prufer2017",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "neandertals",
+       "proxy_label": "Neandertal (Vindija 33.19 reference)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.022,
+        "low": 0.018,
+        "high": 0.026,
+        "kind": "range",
+        "note": "East Asians 2.3–2.6%, western Eurasians 1.8–2.4%"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-prufer2017-2"
+     ]
+    },
+    {
+     "id": "m-malaspinas2016",
+     "label": "Site-frequency-spectrum demographic model",
+     "source_id": "malaspinas2016",
+     "method": "SFS_model",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "neandertals",
+       "proxy_label": "Neandertal",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.023,
+        "low": 0.011,
+        "high": 0.035,
+        "kind": "ci95"
+       }
+      }
+     ],
+     "admixture_date": {
+      "range": {
+       "start": -82050,
+       "end": -53050
+      },
+      "method": "SFS demographic model (point estimate ~60 ka)",
+      "note": "95% CI 55–84 ka"
+     },
+     "evidence_ids": [
+      "ev-malaspinas2016-1"
+     ]
+    },
+    {
+     "id": "m-sankararaman2012-date",
+     "label": "Date from linkage disequilibrium in present-day Europeans",
+     "source_id": "sankararaman2012",
+     "method": "other",
+     "complete": false,
+     "components": [],
+     "admixture_date": {
+      "range": {
+       "start": -84050,
+       "end": -35050
+      },
+      "method": "LD decay (most likely 47–65 ka)"
+     },
+     "evidence_ids": [
+      "ev-sankararaman2012-1"
+     ]
+    },
+    {
+     "id": "m-iasi2024-date",
+     "label": "Date from Neandertal segments in >300 ancient and present-day genomes",
+     "source_id": "iasi2024",
+     "method": "segment_based",
+     "complete": false,
+     "components": [],
+     "admixture_date": {
+      "range": {
+       "start": -48550,
+       "end": -41550
+      },
+      "method": "Neandertal segment lengths through time"
+     },
+     "pulse_model": "continuous",
+     "evidence_ids": [
+      "ev-iasi2024-1"
+     ]
+    },
+    {
+     "id": "m-sumer2024-date",
+     "label": "Date anchored by the ~45,000-year-old Ranis genome",
+     "source_id": "sumer2024",
+     "method": "segment_based",
+     "complete": false,
+     "components": [],
+     "admixture_date": {
+      "range": {
+       "start": -47050,
+       "end": -43050
+      },
+      "method": "Neandertal segment lengths in Ranis13 and Zlatý kůň, with radiocarbon age"
+     },
+     "evidence_ids": [
+      "ev-sumer2024-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-neandertal-oase",
+   "target": "oase",
+   "region": "Southeastern Europe",
+   "archaic": true,
+   "evidence_ids": [
+    "ev-fu2015-1"
+   ],
+   "models": [
+    {
+     "id": "m-fu2015",
+     "label": "Total Neandertal-derived share, including a recent Neandertal ancestor",
+     "source_id": "fu2015",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "neandertals",
+       "proxy_label": "Neandertal",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.075,
+        "low": 0.06,
+        "high": 0.09,
+        "kind": "range"
+       }
+      }
+     ],
+     "admixture_date": {
+      "method": "Segment length: a Neandertal ancestor 4–6 generations before Oase 1 lived",
+      "generations_before_sample": [
+       4,
+       6
+      ]
+     },
+     "evidence_ids": [
+      "ev-fu2015-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-neandertal-bacho-kiro",
+   "target": "bacho-kiro-iup",
+   "region": "Balkans",
+   "archaic": true,
+   "evidence_ids": [
+    "ev-hajdinjak2021-1"
+   ],
+   "models": [
+    {
+     "id": "m-hajdinjak2021",
+     "label": "recent Neandertal ancestors a few generations back (in addition to the shared non-African admixture)",
+     "source_id": "hajdinjak2021",
+     "method": "segment_based",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "neandertals",
+       "proxy_label": "Neandertal",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "admixture_date": {
+      "method": "a few generations before these individuals lived"
+     },
+     "evidence_ids": [
+      "ev-hajdinjak2021-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-denisovan-australo-papuan",
+   "target": "australo-papuan-ancestors",
+   "region": "Not located by genetics",
+   "archaic": true,
+   "evidence_ids": [
+    "ev-malaspinas2016-2"
+   ],
+   "models": [
+    {
+     "id": "m-reich2010",
+     "label": "First estimate in present-day Melanesians",
+     "source_id": "reich2010",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "denisovans",
+       "proxy_label": "Denisovan (Altai Denisova 3 reference; the contributing group was distantly related)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.05,
+        "low": 0.04,
+        "high": 0.06,
+        "kind": "range"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-reich2010-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-magdalenian",
+   "target": "magdalenian-goyetq2",
+   "region": "Western and central Europe",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-posth2023-7"
+   ],
+   "models": [
+    {
+     "id": "m-posth2023",
+     "label": "modelled as Fournol-related + Villabruna-related (qpAdm; proxies Fournol 85 and Arene Candide 16)",
+     "source_id": "posth2023",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "fournol-cluster",
+       "proxy_label": "Fournol 85",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.76,
+        "low": 0.71,
+        "high": 0.81,
+        "kind": "range"
+       }
+      },
+      {
+       "population_id": "villabruna-epigravettian",
+       "proxy_label": "Arene Candide 16",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.24,
+        "low": 0.19,
+        "high": 0.29,
+        "kind": "range",
+        "note": "El Mirón is an exception at about 43%"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-posth2023-7"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-anatolia-farmers",
+   "target": "anatolia-neolithic-farmers",
+   "region": "Central Anatolia",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-feldman2019-2"
+   ],
+   "models": [
+    {
+     "id": "m-feldman2019",
+     "label": "continuity with the Pınarbaşı hunter-gatherer plus Iranian/Caucasus- and Levant-related inputs",
+     "source_id": "feldman2019",
+     "method": "qpAdm",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "anatolia-epipaleolithic",
+       "proxy_label": "Anatolian hunter-gatherer (Pınarbaşı)",
+       "is_proxy": false,
+       "proportion": {
+        "value": 0.85,
+        "low": 0.8,
+        "high": 0.9,
+        "kind": "range"
+       }
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Iranian/Caucasus-related",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Levant-related (later)",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-feldman2019-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-peqiin",
+   "target": "levant-chalcolithic-peqiin",
+   "region": "Southern Levant",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-harney2018-1"
+   ],
+   "models": [
+    {
+     "id": "m-harney2018",
+     "label": "modelled as Levant Neolithic + Iran Chalcolithic + Anatolia Neolithic (qpAdm)",
+     "source_id": "harney2018",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "levant-ppn-farmers",
+       "proxy_label": "Levant Neolithic",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.57,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Iran Chalcolithic",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.17,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": "anatolia-neolithic-farmers",
+       "proxy_label": "Anatolia Neolithic",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.26,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-harney2018-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-lbk",
+   "target": "lbk-farmers",
+   "region": "Central Europe",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-lipson2017-3"
+   ],
+   "models": [
+    {
+     "id": "m-lipson2017",
+     "label": "early-farmer-related ancestry + a small hunter-gatherer share",
+     "source_id": "lipson2017",
+     "method": "admixture_graph",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "anatolia-neolithic-farmers",
+       "proxy_label": "early farmer-related (Anatolian-related)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.955,
+        "low": 0.95,
+        "high": 0.96,
+        "kind": "range"
+       }
+      },
+      {
+       "population_id": "whg",
+       "proxy_label": "hunter-gatherer (closest to KO1 + Loschbour)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.045,
+        "low": 0.04,
+        "high": 0.05,
+        "kind": "range"
+       }
+      }
+     ],
+     "admixture_date": {
+      "range": {
+       "start": -5609,
+       "end": -5479
+      },
+      "method": "ALDER-style LD dating: 5545 ± 65 BCE (average)"
+     },
+     "evidence_ids": [
+      "ev-lipson2017-3"
+     ]
+    },
+    {
+     "id": "m-lazaridis2014-basal",
+     "label": "deep-lineage model of Early European Farmers (Stuttgart, LBK-associated)",
+     "source_id": "lazaridis2014",
+     "method": "admixture_graph",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "basal-eurasian",
+       "proxy_label": "Basal Eurasian (modelled lineage)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.44,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-lazaridis2014-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-britain-neolithic",
+   "target": "britain-neolithic",
+   "region": "Britain",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-brace2019-2"
+   ],
+   "models": [
+    {
+     "id": "m-brace2019",
+     "label": "Anatolian Neolithic farmer-related + WHG-related (average)",
+     "source_id": "brace2019",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "anatolia-neolithic-farmers",
+       "proxy_label": "Anatolian Neolithic farmers (ANF)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.74,
+        "kind": "approximate",
+        "note": ">56% in every individual"
+       }
+      },
+      {
+       "population_id": "whg",
+       "proxy_label": "WHG",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.26,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-brace2019-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-iberia-chalcolithic",
+   "target": "iberia-chalcolithic",
+   "region": "Iberian Peninsula",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-lipson2017-3"
+   ],
+   "models": [
+    {
+     "id": "m-lipson2017-iberia-ca",
+     "label": "early-farmer-related + hunter-gatherer (Iberian Chalcolithic)",
+     "source_id": "lipson2017",
+     "method": "admixture_graph",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "anatolia-neolithic-farmers",
+       "proxy_label": "early farmer-related",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.73,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": "whg",
+       "proxy_label": "hunter-gatherer",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.27,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-lipson2017-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-yamnaya",
+   "target": "yamnaya",
+   "region": "Pontic–Caspian steppe",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-haak2015-4",
+    "ev-lazaridis2025-3"
+   ],
+   "models": [
+    {
+     "id": "m-haak2015",
+     "label": "eastern European hunter-gatherers + a population of Near Eastern ancestry",
+     "source_id": "haak2015",
+     "method": "qpAdm",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "ehg",
+       "proxy_label": "EHG",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Near Eastern-related population",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-haak2015-4"
+     ]
+    },
+    {
+     "id": "m-jones2015",
+     "label": "includes a significant Caucasus hunter-gatherer-related contribution",
+     "source_id": "jones2015",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "chg",
+       "proxy_label": "CHG",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-jones2015-3"
+     ]
+    },
+    {
+     "id": "m-lazaridis2016",
+     "label": "eastern European hunter-gatherers + ancestry related to Iranian farmers",
+     "source_id": "lazaridis2016",
+     "method": "qpAdm",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "ehg",
+       "proxy_label": "EHG",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Iranian farmer-related (Iran Chalcolithic / Neolithic)",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-lazaridis2016-5c"
+     ]
+    },
+    {
+     "id": "m-allentoft2024",
+     "label": "includes ancestry from Middle Don hunter-gatherers",
+     "source_id": "allentoft2024",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": null,
+       "proxy_label": "Middle Don hunter-gatherers",
+       "is_proxy": false,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-allentoft2024-4"
+     ]
+    },
+    {
+     "id": "m-lazaridis2025",
+     "label": "Caucasus–Lower Volga-related (about four-fifths) + Ukraine Neolithic hunter-gatherer-related, via Serednii Stih-related groups",
+     "source_id": "lazaridis2025",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "clv-eneolithic",
+       "proxy_label": "CLV cline",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.8,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Ukraine Neolithic hunter-gatherers (UNHG)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.2,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "admixture_date": {
+      "range": {
+       "start": -3999,
+       "end": -3999
+      },
+      "method": "the authors place Yamnaya ancestors' formation around 4000 BCE",
+      "point_source": true
+     },
+     "evidence_ids": [
+      "ev-lazaridis2025-3",
+      "ev-lazaridis2025-4"
+     ]
+    }
+   ],
+   "default_model_id": "m-lazaridis2025"
+  },
+  {
+   "id": "ae-corded-ware",
+   "target": "corded-ware",
+   "region": "Central Europe",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-haak2015-5"
+   ],
+   "models": [
+    {
+     "id": "m-haak2015-cw",
+     "label": "Yamnaya-related + Middle Neolithic European farmer-related (Germany)",
+     "source_id": "haak2015",
+     "method": "other",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "yamnaya",
+       "proxy_label": "Yamnaya",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.75,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Middle Neolithic central European farmers",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.25,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-haak2015-5"
+     ]
+    },
+    {
+     "id": "m-allentoft2024-cw",
+     "label": "Yamnaya-related groups admixed with Globular Amphora-associated people before expanding",
+     "source_id": "allentoft2024",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "yamnaya",
+       "proxy_label": "Yamnaya-related",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": "globular-amphora",
+       "proxy_label": "Globular Amphora-associated",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-allentoft2024-4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-beaker-britain",
+   "target": "beaker-britain",
+   "region": "Britain",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-olalde2018-4"
+   ],
+   "models": [
+    {
+     "id": "m-olalde2018-britain",
+     "label": "Britain's gene pool about 90% replaced within a few centuries of the Beaker complex's arrival",
+     "source_id": "olalde2018",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "beaker-central-europe",
+       "proxy_label": "continental Beaker-associated (steppe-related) ancestry",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.9,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": "britain-neolithic",
+       "proxy_label": "British Neolithic",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.1,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-olalde2018-4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-iberia-bronze-age",
+   "target": "iberia-bronze-age",
+   "region": "Iberian Peninsula",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-olalde2019-3"
+   ],
+   "models": [
+    {
+     "id": "m-olalde2019",
+     "label": "local Chalcolithic-related + steppe-related ancestry, strongly male-biased",
+     "source_id": "olalde2019",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "iberia-chalcolithic",
+       "proxy_label": "Iberian Chalcolithic",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.6,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": null,
+       "proxy_label": "people with steppe-related ancestry",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.4,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "sex_bias": "Nearly all Y chromosomes in the Bronze Age derive from the incoming steppe-related source, against about 40% of overall ancestry.",
+     "admixture_date": {
+      "range": {
+       "start": -1999,
+       "end": -1999
+      },
+      "method": "replacement documented by about 2000 BCE (sample dates)",
+      "point_source": true
+     },
+     "evidence_ids": [
+      "ev-olalde2019-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-britain-lba-ia",
+   "target": "britain-lba-ia",
+   "region": "England and Wales",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-patterson2022-1"
+   ],
+   "models": [
+    {
+     "id": "m-patterson2022",
+     "label": "earlier British ancestry + continental migrants most similar to ancient individuals from France",
+     "source_id": "patterson2022",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": null,
+       "proxy_label": "Early/Middle Bronze Age Britain",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.5,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": null,
+       "proxy_label": "continental migrants (France-related)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.5,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "admixture_date": {
+      "range": {
+       "start": -999,
+       "end": -874
+      },
+      "method": "EEF-related ancestry rise documented 1000–875 BCE"
+     },
+     "evidence_ids": [
+      "ev-patterson2022-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-vanuatu",
+   "target": "vanuatu-post-lapita",
+   "region": "Vanuatu",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-lipson2018oceania-2",
+    "ev-posth2018oceania-1"
+   ],
+   "models": [
+    {
+     "id": "m-lipson2018oceania",
+     "label": "Papuan-related (Bismarck Archipelago-related) arrival by ~2,300 years ago; later dilution",
+     "source_id": "lipson2018oceania",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "bismarck-related-source",
+       "proxy_label": "Papuan-related (Bismarck Archipelago)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.85,
+        "low": 0.8,
+        "high": 0.9,
+        "kind": "range",
+        "note": "at least 80–90% on most islands; nearly 100% in the earliest post-Lapita individuals"
+       }
+      },
+      {
+       "population_id": "lapita-first-remote-oceanians",
+       "proxy_label": "First Remote Oceanians (Lapita)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.15,
+        "low": 0.1,
+        "high": 0.2,
+        "kind": "range"
+       }
+      }
+     ],
+     "admixture_date": {
+      "range": {
+       "start": -350,
+       "end": -350
+      },
+      "method": "Papuan-related ancestry present by ~2,300 BP (sample dates)",
+      "point_source": true
+     },
+     "evidence_ids": [
+      "ev-lipson2018oceania-2",
+      "ev-lipson2018oceania-3"
+     ]
+    },
+    {
+     "id": "m-posth2018oceania",
+     "label": "incremental, repeated movements with sex-biased admixture from ~2,500 years ago",
+     "source_id": "posth2018oceania",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "bismarck-related-source",
+       "proxy_label": "Near Oceanian (Bismarck Archipelago)",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": "lapita-first-remote-oceanians",
+       "proxy_label": "Lapita-Austronesian",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "sex_bias": "Sex-biased admixture reported (Posth et al. 2018).",
+     "admixture_date": {
+      "range": {
+       "start": -550,
+       "end": -550
+      },
+      "method": "Papuan-related expansion beginning ~2,500 BP",
+      "point_source": true
+     },
+     "evidence_ids": [
+      "ev-posth2018oceania-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-pastoral-neolithic",
+   "target": "pastoral-neolithic",
+   "region": "Eastern Africa",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-skoglund2017-3",
+    "ev-prendergast2019-2"
+   ],
+   "models": [
+    {
+     "id": "m-skoglund2017-luxmanda",
+     "label": "Luxmanda (~3,100 BP): Levant PPN-related + Ethiopia_4500BP (Mota)-related",
+     "source_id": "skoglund2017",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": "levant-ppn-farmers",
+       "proxy_label": "Levant pre-pottery Neolithic",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.38,
+        "low": 0.37,
+        "high": 0.39,
+        "kind": "estimate_se"
+       }
+      },
+      {
+       "population_id": "mota",
+       "proxy_label": "Ethiopia_4500BP",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.62,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-skoglund2017-3"
+     ]
+    },
+    {
+     "id": "m-prendergast2019",
+     "label": "northeastern African-related + eastern African forager ancestry (multi-step)",
+     "source_id": "prendergast2019",
+     "method": "qpAdm",
+     "complete": false,
+     "components": [
+      {
+       "population_id": null,
+       "proxy_label": "northeastern African-related",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": "east-african-foragers",
+       "proxy_label": "eastern African foragers",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "evidence_ids": [
+      "ev-prendergast2019-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-malawi-foragers",
+   "target": "malawi-foragers",
+   "region": "Malawi",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-skoglund2017-1"
+   ],
+   "models": [
+    {
+     "id": "m-skoglund2017-malawi",
+     "label": "about two-thirds San-related ancestry",
+     "source_id": "skoglund2017",
+     "method": "qpAdm",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "southern-african-foragers",
+       "proxy_label": "San-related",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.67,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-skoglund2017-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-swahili",
+   "target": "swahili-medieval",
+   "region": "East African coast",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-brielle2023-2"
+   ],
+   "models": [
+    {
+     "id": "m-brielle2023",
+     "label": "African ancestry (mainly female-line) + Asian ancestry (mainly Persian-related, male-line)",
+     "source_id": "brielle2023",
+     "method": "qpAdm",
+     "complete": false,
+     "components": [
+      {
+       "population_id": null,
+       "proxy_label": "African ancestry (more than half in many individuals)",
+       "is_proxy": true,
+       "proportion": null
+      },
+      {
+       "population_id": null,
+       "proxy_label": "Asian ancestry, 80–90% from Persian-related men",
+       "is_proxy": true,
+       "proportion": null
+      }
+     ],
+     "sex_bias": "African ancestry inherited mainly through female ancestors; Asian (Persian-related) ancestry mainly through male ancestors.",
+     "admixture_date": {
+      "range": {
+       "start": 1000,
+       "end": 1000
+      },
+      "method": "mixing began by about 1000 CE",
+      "point_source": true
+     },
+     "evidence_ids": [
+      "ev-brielle2023-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-ane-first-americans",
+   "target": "first-americans-founders",
+   "region": "Not located by genetics",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-raghavan2014-2"
+   ],
+   "models": [
+    {
+     "id": "m-raghavan2014",
+     "label": "share of Native American ancestry from a population related to MA-1",
+     "source_id": "raghavan2014",
+     "method": "other",
+     "complete": false,
+     "components": [
+      {
+       "population_id": "ancient-north-eurasians",
+       "proxy_label": "MA-1 (Mal'ta)",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.26,
+        "low": 0.14,
+        "high": 0.38,
+        "kind": "range"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-raghavan2014-2"
+     ]
+    },
+    {
+     "id": "m-morenomayar2018a",
+     "label": "date of ANE-related gene flow in a demographic model (abstract)",
+     "source_id": "morenomayar2018a",
+     "method": "SFS_model",
+     "complete": false,
+     "components": [],
+     "admixture_date": {
+      "range": {
+       "start": -23050,
+       "end": -18050
+      },
+      "method": "demographic model: 25–20 ka"
+     },
+     "evidence_ids": [
+      "ev-morenomayar2018a-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ae-caribbean-ceramic",
+   "target": "caribbean-ceramic",
+   "region": "Caribbean",
+   "archaic": false,
+   "evidence_ids": [
+    "ev-fernandes2021-3"
+   ],
+   "models": [
+    {
+     "id": "m-fernandes2021",
+     "label": "incoming ceramic-using population related to northeastern South American Arawak speakers, with almost no Archaic Age ancestry",
+     "source_id": "fernandes2021",
+     "method": "qpAdm",
+     "complete": true,
+     "components": [
+      {
+       "population_id": null,
+       "proxy_label": "northeastern South American (Arawak-related) source",
+       "is_proxy": true,
+       "proportion": {
+        "value": 0.99,
+        "low": 0.98,
+        "high": 1.0,
+        "kind": "approximate"
+       }
+      },
+      {
+       "population_id": "caribbean-archaic",
+       "proxy_label": "Archaic Age Caribbean",
+       "is_proxy": false,
+       "proportion": {
+        "value": 0.01,
+        "low": 0.0,
+        "high": 0.02,
+        "kind": "approximate"
+       }
+      }
+     ],
+     "evidence_ids": [
+      "ev-fernandes2021-3"
+     ]
+    }
+   ]
+  }
+ ]
+}

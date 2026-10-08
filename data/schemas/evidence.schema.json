@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence.schema.json",
+  "type": "object", "required": ["version", "evidence"],
+  "properties": {
+    "version": {"type": "integer"}, "notes": {"type": "string"},
+    "evidence": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source_id", "claim", "location", "verification", "confidence", "stance"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ev-[a-z0-9]+-[a-z0-9]+$"},
+        "source_id": {"type": "string"},
+        "claim": {"type": "string", "minLength": 20},
+        "location": {"type": "string", "minLength": 3},
+        "verification": {"enum": ["full_text", "abstract_only"]},
+        "confidence": {"$ref": "common.schema.json#/$defs/confidence"},
+        "stance": {"enum": ["supports", "qualifies", "contradicts"]},
+        "note": {"type": "string"}
+      }
+    }}
+  }
+}

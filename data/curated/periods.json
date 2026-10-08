@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "notes": "Timeline presets are views (window + map focus), not global eras. Windows in astronomical years. See research/chronology/periods.md.",
+  "periods": [
+    {"id": "earliest-eurasians", "label": "Earliest sampled modern humans in Eurasia", "window": {"start": -47999, "end": -38999}, "view": {"center": [40, 50], "span_deg": 110}, "source_ids": ["sumer2024", "hajdinjak2021", "fu2014"]},
+    {"id": "lgm", "label": "Last Glacial Maximum", "window": {"start": -23050, "end": -17050}, "view": {"center": [10, 48], "span_deg": 45}, "source_ids": ["posth2023"]},
+    {"id": "late-glacial-europe", "label": "Late Glacial hunter-gatherers in Europe", "window": {"start": -12049, "end": -6999}, "view": {"center": [15, 50], "span_deg": 45}, "source_ids": ["fu2016", "posth2023"]},
+    {"id": "first-farmers-near-east", "label": "First farmers of the Near East", "window": {"start": -9999, "end": -5999}, "view": {"center": [40, 35], "span_deg": 35}, "source_ids": ["lazaridis2016"]},
+    {"id": "farming-into-europe", "label": "Farming spreads into Europe", "window": {"start": -6499, "end": -3999}, "view": {"center": [15, 46], "span_deg": 50}, "source_ids": ["mathieson2018", "lipson2017", "brace2019"]},
+    {"id": "steppe-formation", "label": "Eneolithic steppe and the Yamnaya", "window": {"start": -4999, "end": -2599}, "view": {"center": [42, 48], "span_deg": 40}, "source_ids": ["lazaridis2025", "nikitin2025"]},
+    {"id": "steppe-expansion", "label": "Steppe-related ancestry spreads west and east", "window": {"start": -3299, "end": -1499}, "view": {"center": [35, 48], "span_deg": 95}, "source_ids": ["haak2015", "olalde2018", "olalde2019", "allentoft2024", "narasimhan2019"]},
+    {"id": "americas-early", "label": "Early peopling of the Americas", "window": {"start": -13999, "end": -6999}, "view": {"center": [-90, 15], "span_deg": 110}, "source_ids": ["morenomayar2018a", "rasmussen2014", "posth2018"]},
+    {"id": "remote-oceania", "label": "First settlement of Remote Oceania", "window": {"start": -1099, "end": 300}, "view": {"center": [165, -15], "span_deg": 50}, "source_ids": ["skoglund2016", "lipson2018oceania", "posth2018oceania"]},
+    {"id": "africa-food-production", "label": "Herding and farming spread in sub-Saharan Africa", "window": {"start": -3499, "end": 1000}, "view": {"center": [30, -5], "span_deg": 60}, "source_ids": ["prendergast2019", "skoglund2017", "wang2020"]}
+  ]
+}

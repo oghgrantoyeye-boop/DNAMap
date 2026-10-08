@@ -1,0 +1,667 @@
+{
+ "version": 1,
+ "notes": "Non-admixture relationships. Admixture edges are derived at export from admixture_events.json (one edge per component that maps to a population, per model). time_range=null means the sources give no date for the relationship; the export then draws it during the overlap of the two populations' ranges, or across the gap between them, and labels it 'time not estimated'. A time_range with end=null starts at the given year and ends where the two populations' ranges stop overlapping.",
+ "relationships": [
+  {
+   "id": "rel-nonafr-zlatykun",
+   "type": "split",
+   "source": "non-african-ancestors",
+   "target": "zlatykun-ranis",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-sumer2024-1"
+   ],
+   "wording": "The Zlatý kůň/Ranis population is the earliest sampled branch of the population that left Africa and received Neandertal gene flow."
+  },
+  {
+   "id": "rel-nonafr-ustishim",
+   "type": "ancestry",
+   "source": "non-african-ancestors",
+   "target": "ust-ishim",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-fu2014-1",
+    "ev-fu2014-2"
+   ],
+   "wording": "Ust'-Ishim derives from the shared non-African population, before or around the separation of western and eastern Eurasians."
+  },
+  {
+   "id": "rel-tianyuan-goyet",
+   "type": "shared_ancestry",
+   "source": "tianyuan",
+   "target": "goyetq116-aurignacian",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-yang2017-1"
+   ],
+   "wording": "Tianyuan shares extra genetic affinity with Goyet Q116-1, so early European and Asian populations did not separate in one clean split."
+  },
+  {
+   "id": "rel-founders-vestonice",
+   "type": "ancestry",
+   "source": "early-european-founders",
+   "target": "vestonice-cluster",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-fu2016-2",
+    "ev-posth2023-2"
+   ],
+   "wording": "Ancestry of the early European founder population (Kostenki/Sunghir-related) contributed to Gravettian-associated groups of central and southern Europe."
+  },
+  {
+   "id": "rel-ans-founders",
+   "type": "shared_ancestry",
+   "source": "ancient-north-siberians",
+   "target": "early-european-founders",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-sikora2019-2"
+   ],
+   "wording": "Ancient North Siberians were distantly related to early western Eurasian hunter-gatherers."
+  },
+  {
+   "id": "rel-goyet-fournol",
+   "type": "ancestry",
+   "source": "goyetq116-aurignacian",
+   "target": "fournol-cluster",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2023-2"
+   ],
+   "wording": "Gravettian-associated people of western Europe (Fournol cluster) carried ancestry closely related to that of earlier Aurignacian-associated individuals from Goyet."
+  },
+  {
+   "id": "rel-fournol-solutrean",
+   "type": "continuity",
+   "source": "fournol-cluster",
+   "target": "solutrean-associated",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2023-4"
+   ],
+   "wording": "Fournol-related ancestry persisted through the Last Glacial Maximum in southwestern Europe."
+  },
+  {
+   "id": "rel-solutrean-magdalenian",
+   "type": "continuity",
+   "source": "solutrean-associated",
+   "target": "magdalenian-goyetq2",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2023-4"
+   ],
+   "wording": "Fournol-related ancestry continued from Solutrean- to Magdalenian-associated people."
+  },
+  {
+   "id": "rel-villabruna-whg",
+   "type": "expansion",
+   "source": "villabruna-epigravettian",
+   "target": "whg",
+   "time_range": null,
+   "time_basis": "from at least 14,000 years ago (Posth 2023); Villabruna cluster from ~14 ka (Fu 2016)",
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-posth2023-6",
+    "ev-fu2016-4"
+   ],
+   "wording": "From at least 14,000 years ago, Villabruna-related ancestry spread from the south across western and central Europe, largely replacing Magdalenian-associated ancestry."
+  },
+  {
+   "id": "rel-ane-ehg",
+   "type": "ancestry",
+   "source": "ancient-north-eurasians",
+   "target": "ehg",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-haak2015-2",
+    "ev-posth2023-10"
+   ],
+   "wording": "Eastern hunter-gatherers carried ancestry related to Ancient North Eurasians such as the Mal'ta individual."
+  },
+  {
+   "id": "rel-villabruna-ehg",
+   "type": "ancestry",
+   "source": "villabruna-epigravettian",
+   "target": "ehg",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2023-10"
+   ],
+   "wording": "Eastern hunter-gatherers also carried ancestry related to the Villabruna cluster."
+  },
+  {
+   "id": "rel-ehg-whg",
+   "type": "ancestry",
+   "source": "ehg",
+   "target": "whg",
+   "time_range": {
+    "start": -6050,
+    "end": null
+   },
+   "time_basis": "from about 8,000 years ago (Posth 2023)",
+   "direction_supported": true,
+   "proportion": {
+    "value": 0.1,
+    "kind": "approximate"
+   },
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-posth2023-8"
+   ],
+   "wording": "From about 8,000 years ago, eastern hunter-gatherer-related ancestry appears at about 10% in central European hunter-gatherers."
+  },
+  {
+   "id": "rel-chg-whg-split",
+   "type": "split",
+   "source": "chg",
+   "target": "whg",
+   "time_range": {
+    "start": -43050,
+    "end": -43050
+   },
+   "point_source": true,
+   "time_basis": "model-based split time, ~45 ka (Jones 2015)",
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-jones2015-2"
+   ],
+   "wording": "In one demographic model, the lineages leading to Caucasus and western European hunter-gatherers separated about 45,000 years ago."
+  },
+  {
+   "id": "rel-zagros-anatolia-split",
+   "type": "split",
+   "source": "zagros-early-farmers",
+   "target": "anatolia-neolithic-farmers",
+   "time_range": {
+    "start": -75050,
+    "end": -44050
+   },
+   "time_basis": "model-based separation, 46–77 ka (Broushaki 2016)",
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-broushaki2016-2"
+   ],
+   "wording": "The ancestors of the first farmers of the Zagros and of Anatolia are modelled as having separated tens of thousands of years before farming began."
+  },
+  {
+   "id": "rel-taforalt-natufian",
+   "type": "shared_ancestry",
+   "source": "iberomaurusian-taforalt",
+   "target": "natufians",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-vandeloosdrecht2018-1"
+   ],
+   "wording": "Iberomaurusian-associated people of Taforalt show genetic affinity with Natufian-associated people of the Levant."
+  },
+  {
+   "id": "rel-basal-natufian",
+   "type": "ancestry",
+   "source": "basal-eurasian",
+   "target": "natufians",
+   "time_range": null,
+   "direction_supported": true,
+   "proportion": {
+    "value": 0.5,
+    "kind": "approximate"
+   },
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lazaridis2016-2"
+   ],
+   "wording": "About half of the ancestry of early Near Easterners is modelled as coming from a 'Basal Eurasian' lineage."
+  },
+  {
+   "id": "rel-basal-zagros",
+   "type": "ancestry",
+   "source": "basal-eurasian",
+   "target": "zagros-early-farmers",
+   "time_range": null,
+   "direction_supported": true,
+   "proportion": {
+    "value": 0.5,
+    "kind": "approximate"
+   },
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lazaridis2016-2"
+   ],
+   "wording": "About half of the ancestry of early Near Easterners is modelled as coming from a 'Basal Eurasian' lineage."
+  },
+  {
+   "id": "rel-natufian-levant",
+   "type": "continuity",
+   "source": "natufians",
+   "target": "levant-ppn-farmers",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2016-3"
+   ],
+   "wording": "The first farmers of the southern Levant descended largely from local Natufian-related hunter-gatherers."
+  },
+  {
+   "id": "rel-anatolia-se-europe",
+   "type": "migration",
+   "source": "anatolia-neolithic-farmers",
+   "target": "se-europe-early-farmers",
+   "time_range": {
+    "start": -6599,
+    "end": -6399
+   },
+   "time_basis": "mid-7th millennium BCE (Mathieson 2018)",
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-mathieson2018-2",
+    "ev-lazaridis2016-5a"
+   ],
+   "wording": "Farming reached southeastern Europe in the mid-7th millennium BCE with people of Anatolian-related ancestry."
+  },
+  {
+   "id": "rel-se-europe-lbk",
+   "type": "ancestry",
+   "source": "se-europe-early-farmers",
+   "target": "lbk-farmers",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-mathieson2018-4"
+   ],
+   "wording": "The first farmers of central Europe descended from groups that passed through southeastern Europe with limited hunter-gatherer admixture."
+  },
+  {
+   "id": "rel-anatolia-iberia-en",
+   "type": "ancestry",
+   "source": "anatolia-neolithic-farmers",
+   "target": "iberia-early-neolithic",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2016-5a",
+    "ev-lipson2017-2"
+   ],
+   "wording": "Early farmers of Iberia carried mostly Anatolian-farmer-related ancestry."
+  },
+  {
+   "id": "rel-iberia-en-britain",
+   "type": "ancestry",
+   "source": "iberia-early-neolithic",
+   "target": "britain-neolithic",
+   "time_range": {
+    "start": -3974,
+    "end": -3721
+   },
+   "time_basis": "continental farmers arrive in Britain by 3975–3722 cal BCE (Brace 2019)",
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-brace2019-3",
+    "ev-brace2019-4"
+   ],
+   "wording": "British Neolithic farmers show affinity with Iberian Neolithic farmers, suggesting descent mainly from farmers who spread along the Mediterranean."
+  },
+  {
+   "id": "rel-iberia-en-chalco",
+   "type": "continuity",
+   "source": "iberia-early-neolithic",
+   "target": "iberia-chalcolithic",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-olalde2018-2",
+    "ev-lipson2017-2"
+   ],
+   "wording": "Most Copper Age Iberians, including most Beaker-associated individuals, resemble earlier Iberian populations."
+  },
+  {
+   "id": "rel-chg-clv",
+   "type": "ancestry",
+   "source": "chg",
+   "target": "clv-eneolithic",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-2"
+   ],
+   "wording": "The Caucasus–Lower Volga cline is rich in Caucasus hunter-gatherer-related ancestry."
+  },
+  {
+   "id": "rel-clv-volga",
+   "type": "ancestry",
+   "source": "clv-eneolithic",
+   "target": "volga-cline-eneolithic",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-2"
+   ],
+   "wording": "Caucasus–Lower Volga-related ancestry contributed to Eneolithic people of the middle Volga, in proportions that vary along a cline."
+  },
+  {
+   "id": "rel-ehg-volga",
+   "type": "ancestry",
+   "source": "ehg",
+   "target": "volga-cline-eneolithic",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-2"
+   ],
+   "wording": "Eastern hunter-gatherer-related ancestry is the other end of the Volga cline."
+  },
+  {
+   "id": "rel-clv-serednii",
+   "type": "ancestry",
+   "source": "clv-eneolithic",
+   "target": "serednii-stih",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-2"
+   ],
+   "wording": "Serednii Stih-associated people formed as Caucasus–Lower Volga-related people mixed with Ukraine Neolithic hunter-gatherers."
+  },
+  {
+   "id": "rel-serednii-yamnaya",
+   "type": "ancestry",
+   "source": "serednii-stih",
+   "target": "yamnaya",
+   "time_range": {
+    "start": -3999,
+    "end": -3299
+   },
+   "time_basis": "Yamnaya ancestors formed ~4000 BCE; Yamnaya complex from ~3300 BCE (Lazaridis 2025)",
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lazaridis2025-3",
+    "ev-nikitin2025-4"
+   ],
+   "wording": "Yamnaya ancestors are modelled as forming from Serednii Stih-related groups around 4000 BCE."
+  },
+  {
+   "id": "rel-yamnaya-beaker-central",
+   "type": "ancestry",
+   "source": "yamnaya",
+   "target": "beaker-central-europe",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-olalde2018-3",
+    "ev-haak2015-6",
+    "ev-allentoft2024-3"
+   ],
+   "wording": "Most Beaker-associated individuals outside Iberia carry steppe-related ancestry, related to that of Yamnaya-associated groups."
+  },
+  {
+   "id": "rel-steppe-mlba-ani",
+   "type": "ancestry",
+   "source": "steppe-mlba",
+   "target": "ani",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-3",
+    "ev-narasimhan2019-5"
+   ],
+   "wording": "Steppe-related ancestry, with the profile of Middle–Late Bronze Age steppe groups, reached South Asia via Central Asia after about 2000 BCE and contributed to Ancestral North Indians."
+  },
+  {
+   "id": "rel-indus-ani",
+   "type": "ancestry",
+   "source": "indus-periphery",
+   "target": "ani",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-3"
+   ],
+   "wording": "Indus Periphery-related ancestry contributed to Ancestral North Indians."
+  },
+  {
+   "id": "rel-indus-asi",
+   "type": "ancestry",
+   "source": "indus-periphery",
+   "target": "asi",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-3"
+   ],
+   "wording": "Indus Periphery-related ancestry contributed to Ancestral South Indians."
+  },
+  {
+   "id": "rel-aasi-asi",
+   "type": "ancestry",
+   "source": "aasi",
+   "target": "asi",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-3",
+    "ev-narasimhan2019-4"
+   ],
+   "wording": "Ancestry related to South Asian hunter-gatherers (AASI) contributed to Ancestral South Indians."
+  },
+  {
+   "id": "rel-aasi-indus",
+   "type": "ancestry",
+   "source": "aasi",
+   "target": "indus-periphery",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-shinde2019-1",
+    "ev-narasimhan2019-1"
+   ],
+   "wording": "The Indus Periphery profile includes ancestry related to South and Southeast Asian hunter-gatherers."
+  },
+  {
+   "id": "rel-zagros-indus-contested",
+   "type": "ancestry",
+   "source": "zagros-early-farmers",
+   "target": "indus-periphery",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "low",
+   "evidence_ids": [
+    "ev-lazaridis2016-5d",
+    "ev-shinde2019-3"
+   ],
+   "disagreement_ids": [
+    "d-iranian-ancestry-south-asia"
+   ],
+   "wording": "Proposed: ancestry related to early Iranian farmers spread east into South Asia. Contested: later work finds the Iranian-related ancestry in the Indus Periphery split before the Zagros farmers' lineage."
+  },
+  {
+   "id": "rel-yr-wlr",
+   "type": "ancestry",
+   "source": "yellow-river-farmers",
+   "target": "west-liao-river",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-ning2020-3"
+   ],
+   "wording": "Late Neolithic people of the West Liao River show increased affinity to Yellow River farmers, coinciding with intensified farming."
+  },
+  {
+   "id": "rel-amur-wlr",
+   "type": "ancestry",
+   "source": "amur-hunter-gatherers",
+   "target": "west-liao-river",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-ning2020-3"
+   ],
+   "wording": "Bronze Age people of the West Liao River show increased affinity to Amur River populations, coinciding with pastoralism."
+  },
+  {
+   "id": "rel-jomon-amur",
+   "type": "shared_ancestry",
+   "source": "jomon",
+   "target": "amur-hunter-gatherers",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-wang2021-2"
+   ],
+   "wording": "Jōmon-associated people and Amur Basin hunter-gatherers share a deeply splitting East Asian lineage."
+  },
+  {
+   "id": "rel-jomon-taiwan",
+   "type": "shared_ancestry",
+   "source": "jomon",
+   "target": "taiwan-iron-age",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-wang2021-2"
+   ],
+   "wording": "Jōmon-associated people and people of Iron Age Taiwan share a deeply splitting lineage."
+  },
+  {
+   "id": "rel-jomon-kofun",
+   "type": "ancestry",
+   "source": "jomon",
+   "target": "kofun-period-japan",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-cooke2021-1"
+   ],
+   "wording": "Kofun-period people carried Jōmon-related ancestry alongside later Northeast Asian- and East Asian-related ancestry."
+  },
+  {
+   "id": "rel-hoabinhian-sea",
+   "type": "ancestry",
+   "source": "hoabinhian",
+   "target": "sea-neolithic-farmers",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lipson2018sea-2",
+    "ev-mccoll2018-1"
+   ],
+   "wording": "Neolithic farmers of northern Vietnam carried ancestry related to local hunter-gatherers as well as to southern Chinese farmers."
+  },
+  {
+   "id": "rel-founders-beringians",
+   "type": "split",
+   "source": "first-americans-founders",
+   "target": "ancient-beringians",
+   "time_range": {
+    "start": -20050,
+    "end": -16150
+   },
+   "time_basis": "Ancient Beringians branched 22–18.1 ka (Moreno-Mayar 2018, abstract)",
+   "direction_supported": true,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-morenomayar2018a-2"
+   ],
+   "wording": "Ancient Beringians branched from the founding population of Native Americans about 22,000–18,000 years ago (in one demographic model)."
+  },
+  {
+   "id": "rel-founders-anzick",
+   "type": "ancestry",
+   "source": "first-americans-founders",
+   "target": "clovis-anzick",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-rasmussen2014-1",
+    "ev-rasmussen2014-2"
+   ],
+   "wording": "Anzick-1 is more closely related to all Indigenous Americans than to any other group."
+  },
+  {
+   "id": "rel-founders-early-csa",
+   "type": "ancestry",
+   "source": "first-americans-founders",
+   "target": "early-central-south-americans",
+   "time_range": null,
+   "direction_supported": true,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-posth2018-2"
+   ],
+   "wording": "Central and South Americans radiated rapidly from one of the two early Native American branches."
+  },
+  {
+   "id": "rel-anzick-early-csa",
+   "type": "shared_ancestry",
+   "source": "clovis-anzick",
+   "target": "early-central-south-americans",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2018-3",
+    "ev-posth2018-4"
+   ],
+   "wording": "Some of the oldest Central and South Americans share an affinity with Anzick-1 that later South Americans lack."
+  },
+  {
+   "id": "rel-csa-caribbean-archaic",
+   "type": "shared_ancestry",
+   "source": "early-central-south-americans",
+   "target": "caribbean-archaic",
+   "time_range": null,
+   "direction_supported": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-fernandes2021-2"
+   ],
+   "wording": "Archaic Age Caribbean people descend from a deeply divergent population closest to Central and northern South Americans."
+  }
+ ]
+}

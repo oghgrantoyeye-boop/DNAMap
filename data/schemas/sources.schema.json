@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sources.schema.json",
+  "type": "object", "required": ["version", "sources"],
+  "properties": {
+    "version": {"type": "integer"}, "generated_by": {"type": "string"},
+    "sources": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "type", "citation", "year", "verification", "status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9]+$"},
+        "type": {"enum": ["paper", "dataset", "book", "database"]},
+        "title": {"type": "string"}, "citation": {"type": "string"}, "doi": {"type": "string"}, "url": {"type": "string"},
+        "pmcid": {"type": ["string", "null"]}, "year": {"type": "integer"},
+        "verification": {"enum": ["full_text", "abstract_only", "not_applicable"]},
+        "status": {"enum": ["usable", "erratum", "unmined"]},
+        "licence": {"type": "string"}, "version": {"type": "string"}, "note_path": {"type": "string"}
+      }
+    }}
+  }
+}

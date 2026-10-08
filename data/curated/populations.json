@@ -1,0 +1,2733 @@
+{
+ "version": 1,
+ "notes": "Curated populations (DATA_MODEL.md §3). Membership regexes match AADR v66.p1 Group IDs verbatim; the default exclusion (outliers, duplicates, flagged-problematic) is applied unless a rule says otherwise. time_range is computed from members at export unless given here. Descriptions are our own words.",
+ "default_exclude_group_label_regex": "-o($|[A-Z0-9_])|_o($|_)|\\.o($|_)|-Dup|DontUse|Ignore",
+ "populations": [
+  {
+   "id": "neandertals",
+   "name": "Neandertals",
+   "category": "archaic_population",
+   "transition": "archaic",
+   "aliases": [
+    {
+     "name": "Neanderthals",
+     "used_by": [
+      "fu2016",
+      "sumer2024",
+      "iasi2024"
+     ]
+    }
+   ],
+   "description": "An archaic human group of western Eurasia, known from fossils and from several high-quality genomes. Their DNA survives in all present-day people whose ancestry lies largely outside Africa.",
+   "genetic_profile": "Sampled genomes range from the Altai Mountains to western Europe. The Neandertals who contributed DNA to modern humans were closer to the western (Vindija, Mezmaiskaya) Neandertals than to the Altai individual.",
+   "region": {
+    "name": "Western Eurasia to the Altai"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "_Neanderthal$|^Altai_Neanderthal$"
+     }
+    ],
+    "notes": "AADR labels ending in _Neanderthal. Excludes the Neandertal–Denisovan first-generation offspring (Russia_Denisova_Neanderthal_Mix).",
+    "defining_source_ids": [
+     "green2010",
+     "prufer2014",
+     "prufer2017"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-green2010-1",
+    "ev-prufer2014-2",
+    "ev-prufer2017-1",
+    "ev-fu2016-1"
+   ],
+   "caveats": [
+    "Most sampled Neandertal genomes predate the V1 window; only a few late individuals (about 50,000–40,000 years ago) fall inside it."
+   ]
+  },
+  {
+   "id": "denisovans",
+   "name": "Denisovans",
+   "category": "archaic_population",
+   "transition": "archaic",
+   "aliases": [],
+   "description": "An archaic human group known mainly from genomes recovered at Denisova Cave in the Altai. Denisovan-related DNA survives at the highest levels in people of Oceania and parts of Island Southeast Asia.",
+   "genetic_profile": "Related to Neandertals. The Denisovans who contributed DNA to modern humans were only distantly related to the sampled Altai individual; at least two differently related Denisovan sources are detected in present-day East Asians.",
+   "region": {
+    "name": "Known from the Altai (Denisova Cave); inferred elsewhere in Asia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_Denisova$|^Russia_DenisovaCave_MPleistocene$"
+     }
+    ],
+    "notes": "Only the genetically Denisovan individuals. Russia_DenisovaCave (a ~24,000-year-old modern human from the same cave) is deliberately excluded.",
+    "defining_source_ids": [
+     "reich2010"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-reich2010-1",
+    "ev-browning2018-2",
+    "ev-larena2021-1",
+    "ev-prufer2014-3"
+   ],
+   "caveats": [
+    "All sampled Denisovan genomes predate the V1 window; the populations that admixed with modern humans are unsampled and their locations unknown.",
+    "AADR also has a modern human from Denisova Cave; a site is not a population."
+   ]
+  },
+  {
+   "id": "non-african-ancestors",
+   "name": "Shared ancestors of non-Africans (inferred)",
+   "category": "genetic_cluster",
+   "transition": "archaic",
+   "aliases": [
+    {
+     "name": "out-of-Africa population",
+     "used_by": [
+      "sumer2024"
+     ]
+    }
+   ],
+   "description": "A modelled population: the common ancestors of nearly all present-day people whose ancestry lies largely outside Africa, who received Neandertal gene flow before dispersing. No individual from it has been sampled and its location is unknown.",
+   "region": {
+    "name": "Unknown (not located by genetics)"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred only.",
+    "defining_source_ids": [
+     "iasi2024",
+     "sumer2024"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -48550,
+    "end": -41550
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-iasi2024-1",
+    "ev-sumer2024-2",
+    "ev-green2010-1"
+   ],
+   "caveats": [
+    "The time range shown is the window of the shared Neandertal gene flow (50,500–43,500 years ago, Iasi et al. 2024), not the population's lifespan."
+   ]
+  },
+  {
+   "id": "zlatykun-ranis",
+   "name": "Zlatý kůň/Ranis population",
+   "category": "genetic_cluster",
+   "transition": "early-eurasians",
+   "aliases": [],
+   "description": "A small population of early modern humans known from two sites in central Europe, about 45,000 years ago. The individuals were closely related to each other, even across sites.",
+   "genetic_profile": "The earliest split from the out-of-Africa population sampled so far. No detectable continuity with later Europeans.",
+   "archaeological_context": "The Ranis remains are associated with the Lincombian–Ranisian–Jerzmanowician (LRJ) assemblage.",
+   "region": {
+    "name": "Central Europe (Germany, Czechia)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Czechia_Zlatykun_IUP$|^Germany_Ranis_IUP$"
+     }
+    ],
+    "notes": "All Ranis and Zlatý kůň individuals.",
+    "defining_source_ids": [
+     "sumer2024"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-sumer2024-1",
+    "ev-sumer2024-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "bacho-kiro-iup",
+   "name": "Bacho Kiro IUP-associated individuals",
+   "category": "archaeological_population",
+   "transition": "early-eurasians",
+   "aliases": [],
+   "description": "Individuals from Bacho Kiro Cave in Bulgaria, about 46,000–43,000 years ago, buried with an Initial Upper Palaeolithic stone-tool assemblage. All had Neandertal ancestors only a few generations back.",
+   "genetic_profile": "More closely related to later East Asians and Native Americans than to later western Eurasians.",
+   "archaeological_context": "Initial Upper Palaeolithic (Bachokirian).",
+   "region": {
+    "name": "Balkans (Bulgaria)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Bulgaria_BachoKiroCave_IUP$"
+     }
+    ],
+    "notes": "IUP layers only; the later Bacho Kiro UP individual is not included.",
+    "defining_source_ids": [
+     "hajdinjak2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-hajdinjak2021-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "ust-ishim",
+   "name": "Ust'-Ishim individual",
+   "category": "genetic_cluster",
+   "transition": "early-eurasians",
+   "aliases": [],
+   "description": "A single man who lived about 45,000 years ago in western Siberia. His genome comes from a population that lived before, or around the time of, the separation of western and eastern Eurasian populations.",
+   "region": {
+    "name": "Western Siberia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_UstIshim_IUP$"
+     }
+    ],
+    "notes": "One individual.",
+    "defining_source_ids": [
+     "fu2014"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fu2014-1",
+    "ev-fu2014-2"
+   ],
+   "caveats": [
+    "A single individual: a population of one is a placeholder for an otherwise unsampled group."
+   ]
+  },
+  {
+   "id": "oase",
+   "name": "Oase 1",
+   "category": "genetic_cluster",
+   "transition": "early-eurasians",
+   "aliases": [],
+   "description": "An early modern human from Peştera cu Oase, Romania, about 40,000 years ago, with a Neandertal ancestor only four to six generations back.",
+   "region": {
+    "name": "Southeastern Europe (Romania)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Romania_IUP$"
+     }
+    ],
+    "notes": "AADR labels Oase 1 as Romania_IUP.",
+    "defining_source_ids": [
+     "fu2015"
+    ],
+    "include_questionable": true
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fu2015-1"
+   ],
+   "caveats": [
+    "A single individual.",
+    "AADR flags this individual's data as CRITICAL (quality/contamination warning); it is shown with that warning because it is the subject of the cited study."
+   ]
+  },
+  {
+   "id": "tianyuan",
+   "name": "Tianyuan individual",
+   "category": "genetic_cluster",
+   "transition": "early-eurasians",
+   "aliases": [],
+   "description": "A man who lived about 40,000 years ago near present-day Beijing, more closely related to Asians than to Europeans but with an unexpected link to a 35,000-year-old individual from Belgium.",
+   "region": {
+    "name": "Northern China"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^China_TianyuanCave_UP$"
+     }
+    ],
+    "notes": "One individual.",
+    "defining_source_ids": [
+     "yang2017"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-yang2017-1"
+   ],
+   "caveats": [
+    "A single individual."
+   ]
+  },
+  {
+   "id": "early-european-founders",
+   "name": "Early European founder population (Kostenki/Sunghir-related)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [],
+   "description": "Individuals from western Russia, about 38,000–32,000 years ago, who belong to the founder population that contributed to all later sampled European hunter-gatherers until about 14,000 years ago.",
+   "region": {
+    "name": "Eastern European Plain"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_Kostenki_UP$|^Russia_Sunghir_UP$"
+     }
+    ],
+    "notes": "Kostenki 14 is the type individual in Fu 2016; Sunghir is grouped with it as related to the Věstonice cluster in Posth 2023.",
+    "defining_source_ids": [
+     "fu2016",
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-fu2016-2"
+   ],
+   "caveats": [
+    "Grouping Kostenki and Sunghir together is our simplification; both papers treat them as related members of the early European founder lineage."
+   ]
+  },
+  {
+   "id": "goyetq116-aurignacian",
+   "name": "Goyet Q116-1-related individuals (Aurignacian-associated)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [],
+   "description": "Individuals from Goyet Cave in Belgium, about 35,000 years ago, associated with the Aurignacian. Their ancestry reappears later in western European groups.",
+   "region": {
+    "name": "Northwestern Europe (Belgium)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Belgium_UP$|^Belgium_Aurignacian$"
+     }
+    ],
+    "notes": "Goyet Q116-1 and Q376-3.",
+    "defining_source_ids": [
+     "fu2016",
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fu2016-3",
+    "ev-posth2023-2"
+   ],
+   "caveats": [
+    "Two individuals."
+   ]
+  },
+  {
+   "id": "vestonice-cluster",
+   "name": "Věstonice cluster (Gravettian-associated, central and southern Europe)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "Věstonice cluster",
+     "used_by": [
+      "fu2016",
+      "posth2023"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers buried with Gravettian material in central and southern Europe, about 34,000–26,000 years ago, who share a genetic profile distinct from that of Gravettian-associated people further west.",
+   "archaeological_context": "Gravettian. The same archaeological culture is associated with two genetic profiles (see Fournol cluster).",
+   "region": {
+    "name": "Central Europe and southern Italy"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Czechia_Gravettian$|^Austria_Gravettian$|^Italy_Apulia_Gravettian$"
+     }
+    ],
+    "notes": "Sites named by Posth 2023: Dolní Věstonice, Pavlov, Krems-Wachtberg, Paglicci, Ostuni.",
+    "defining_source_ids": [
+     "posth2023",
+     "fu2016"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-posth2023-2",
+    "ev-posth2023-3",
+    "ev-fu2016-3"
+   ],
+   "caveats": [
+    "The Gravettian-associated individuals from Goyet (Belgium) are assigned to this cluster by Fu 2016 but described as intermediate by Posth 2023; they are left unassigned here."
+   ]
+  },
+  {
+   "id": "fournol-cluster",
+   "name": "Fournol cluster (Gravettian-associated, western Europe)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [],
+   "description": "Hunter-gatherers buried with Gravettian material in France and northeastern Iberia, about 31,000–26,000 years ago. Their ancestry resembles that of earlier Aurignacian-associated individuals from Belgium.",
+   "archaeological_context": "Gravettian.",
+   "region": {
+    "name": "Western and southwestern Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^France_Gravettian$|^France_Occitanie_Gravettian$|^Spain_Gravettian$"
+     }
+    ],
+    "notes": "Sites named by Posth 2023: Ormesson, La Rochette, Fournol, Mollet III, Reclau Viver.",
+    "defining_source_ids": [
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-posth2023-2",
+    "ev-posth2023-3"
+   ],
+   "caveats": [
+    "Few individuals."
+   ]
+  },
+  {
+   "id": "ancient-north-siberians",
+   "name": "Ancient North Siberians (Yana)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [],
+   "description": "People who lived about 31,000 years ago at the Yana site in Arctic northeastern Siberia, distantly related to early western Eurasian hunter-gatherers.",
+   "region": {
+    "name": "Northeastern Siberia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_YanaRiver_UP$"
+     }
+    ],
+    "notes": "Yana RHS individuals.",
+    "defining_source_ids": [
+     "sikora2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-sikora2019-2"
+   ],
+   "caveats": [
+    "Two individuals."
+   ]
+  },
+  {
+   "id": "ancient-north-eurasians",
+   "name": "Ancient North Eurasians (Mal'ta, Afontova Gora)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "ANE",
+     "used_by": [
+      "lazaridis2014",
+      "raghavan2014"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers of south-central Siberia, about 24,000–17,000 years ago. Ancestry related to theirs later appears both in Native Americans and in western Eurasians.",
+   "region": {
+    "name": "South-central Siberia (Lake Baikal region)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_Malta_UP$|^Russia_AfontovaGora_UP$"
+     }
+    ],
+    "notes": "MA-1 and Afontova Gora individuals.",
+    "defining_source_ids": [
+     "raghavan2014"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-raghavan2014-1",
+    "ev-lazaridis2014-2"
+   ],
+   "caveats": [
+    "Three individuals."
+   ]
+  },
+  {
+   "id": "solutrean-associated",
+   "name": "Solutrean-associated individuals",
+   "category": "archaeological_population",
+   "transition": "eur-hg",
+   "aliases": [],
+   "description": "People buried with Solutrean material in Iberia and southern France during the Last Glacial Maximum, carrying ancestry related to the earlier Fournol cluster.",
+   "archaeological_context": "Solutrean (Last Glacial Maximum, southwestern Europe).",
+   "region": {
+    "name": "Southwestern Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "_Solutrean$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2023-4"
+   ],
+   "caveats": [
+    "Very few individuals."
+   ]
+  },
+  {
+   "id": "magdalenian-goyetq2",
+   "name": "Magdalenian-associated individuals (GoyetQ2 / El Mirón cluster)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "El Mirón cluster",
+     "used_by": [
+      "fu2016"
+     ]
+    },
+    {
+     "name": "GoyetQ2 cluster",
+     "used_by": [
+      "posth2023"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers buried with Magdalenian material, about 19,000–14,000 years ago, from Iberia to Poland. Their ancestry is modelled as mostly Fournol-related with a smaller Villabruna-related share.",
+   "archaeological_context": "Magdalenian.",
+   "region": {
+    "name": "Western and central Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "_Magdalenian$"
+     }
+    ],
+    "notes": "Excludes the Late Magdalenian/Federmesser individuals at Oberkassel (WHG-like).",
+    "defining_source_ids": [
+     "fu2016",
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fu2016-3",
+    "ev-posth2023-7"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "villabruna-epigravettian",
+   "name": "Villabruna cluster (Epigravettian-associated)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "Villabruna cluster",
+     "used_by": [
+      "fu2016",
+      "posth2023"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers associated with the Epigravettian in Italy, sampled from about 17,000 years ago. Their ancestry has links to the Near East and later spread across Europe.",
+   "archaeological_context": "Epigravettian (Italy and the Balkans).",
+   "region": {
+    "name": "Italian peninsula and Sicily"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Italy_.*Epigravettian"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "fu2016",
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fu2016-4",
+    "ev-posth2023-2",
+    "ev-posth2023-6"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "whg",
+   "name": "Western hunter-gatherers (WHG / Oberkassel cluster)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "WHG",
+     "used_by": [
+      "lazaridis2014",
+      "haak2015"
+     ]
+    },
+    {
+     "name": "Oberkassel cluster",
+     "used_by": [
+      "posth2023"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers of western and central Europe from about 14,000 years ago until farming, whose ancestry spread widely after the Last Glacial Maximum and later contributed to farming populations.",
+   "region": {
+    "name": "Western and central Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Germany_Oberkassel_Federmesser_LMagdalenian$|^Switzerland_Epipaleolithic$|^Spain_Azilian$"
+     },
+     {
+      "group_label_regex": "^(Luxembourg|France|France_Occitanie_Gard|Belgium|Netherlands|England|Germany|Germany_[A-Za-z]+|Spain|Italy_Sicily)_Mesolithic$",
+      "date_within": {
+       "start": -12500,
+       "end": -4000
+      }
+     }
+    ],
+    "notes": "Late Glacial and Mesolithic hunter-gatherers west of the 'great divide'. Scandinavian, Baltic and Iron Gates hunter-gatherers, who carry mixed WHG/EHG ancestry, are not included.",
+    "defining_source_ids": [
+     "lazaridis2014",
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2014-2",
+    "ev-posth2023-2",
+    "ev-posth2023-6",
+    "ev-allentoft2024-2",
+    "ev-mathieson2018-3",
+    "ev-olalde2019-1"
+   ],
+   "caveats": [
+    "Iberian hunter-gatherers show their own northwest–southeast substructure (Olalde 2019)."
+   ]
+  },
+  {
+   "id": "ehg",
+   "name": "Eastern hunter-gatherers (EHG / Sidelkino cluster)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "EHG",
+     "used_by": [
+      "haak2015"
+     ]
+    },
+    {
+     "name": "Sidelkino cluster",
+     "used_by": [
+      "posth2023"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers of the eastern European forest zone, about 11,000–7,000 years ago, with ancestry related both to western hunter-gatherers and to Ancient North Eurasians.",
+   "region": {
+    "name": "Eastern Europe (Karelia, middle Volga)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_Karelia_Mesolithic(_HG)?$|^Russia_Sidelkino|^Russia_Samara_EN_Mesolithic$"
+     }
+    ],
+    "notes": "Karelia (Yuzhniy Oleniy Ostrov area) and Samara/Sidelkino individuals, the type groups for EHG.",
+    "defining_source_ids": [
+     "haak2015",
+     "posth2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-haak2015-2",
+    "ev-posth2023-2",
+    "ev-allentoft2024-2",
+    "ev-mathieson2018-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "chg",
+   "name": "Caucasus hunter-gatherers (CHG)",
+   "category": "genetic_cluster",
+   "transition": "eur-hg",
+   "aliases": [
+    {
+     "name": "CHG",
+     "used_by": [
+      "jones2015",
+      "lazaridis2025"
+     ]
+    }
+   ],
+   "description": "Hunter-gatherers of western Georgia, about 13,300 and 9,700 years ago, who form a distinct ancient lineage. CHG-related ancestry later contributed to steppe populations.",
+   "region": {
+    "name": "South Caucasus (western Georgia)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Georgia_Satsurblia_LateUP$|^Georgia_KotiasKlde_Mesolithic$"
+     }
+    ],
+    "notes": "Satsurblia and Kotias Klde. Older Georgian UP individuals (Dzudzuana, Kotias Klde UP) are not assigned.",
+    "defining_source_ids": [
+     "jones2015"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-jones2015-1",
+    "ev-jones2015-2"
+   ],
+   "caveats": [
+    "Three individuals."
+   ]
+  },
+  {
+   "id": "iberomaurusian-taforalt",
+   "name": "Iberomaurusian-associated individuals (Taforalt)",
+   "category": "archaeological_population",
+   "transition": "eur-hg",
+   "aliases": [],
+   "description": "People buried at Taforalt cave in Morocco about 15,000 years ago, with Iberomaurusian material. Their ancestry links North Africa with the Near East and sub-Saharan Africa.",
+   "archaeological_context": "Iberomaurusian.",
+   "region": {
+    "name": "Northwest Africa (Morocco)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Morocco_Iberomaurusian$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "vandeloosdrecht2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-vandeloosdrecht2018-1"
+   ],
+   "caveats": [
+    "Claims verified against the abstract only."
+   ]
+  },
+  {
+   "id": "natufians",
+   "name": "Natufian-associated hunter-gatherers",
+   "category": "archaeological_population",
+   "transition": "near-east",
+   "aliases": [],
+   "description": "Hunter-gatherers of the southern Levant associated with the Natufian culture, before the beginning of farming. About half their ancestry is modelled as coming from a 'Basal Eurasian' lineage.",
+   "archaeological_context": "Natufian.",
+   "region": {
+    "name": "Southern Levant"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Israel_Natufian$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lazaridis2016"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2016-2",
+    "ev-lazaridis2016-3"
+   ],
+   "caveats": [
+    "Few individuals."
+   ]
+  },
+  {
+   "id": "anatolia-epipaleolithic",
+   "name": "Anatolian Epipalaeolithic hunter-gatherer (Pınarbaşı)",
+   "category": "genetic_cluster",
+   "transition": "near-east",
+   "aliases": [],
+   "description": "A hunter-gatherer from Pınarbaşı in central Anatolia, about 15,000 years ago, whose ancestry continues to a large degree in the region's first farmers.",
+   "region": {
+    "name": "Central Anatolia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Turkey_Epipaleolithic$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "feldman2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-feldman2019-2"
+   ],
+   "caveats": [
+    "A single individual."
+   ]
+  },
+  {
+   "id": "basal-eurasian",
+   "name": "Basal Eurasian lineage (modelled)",
+   "category": "genetic_cluster",
+   "transition": "near-east",
+   "aliases": [],
+   "description": "A modelled ancestral lineage that split from other non-African lineages before they diversified. It is needed to fit the ancestry of early Near Easterners and Early European Farmers, but no individual from it has been sampled.",
+   "region": {
+    "name": "Unknown"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred only.",
+    "defining_source_ids": [
+     "lazaridis2014",
+     "lazaridis2016"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -48000,
+    "end": -10000
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lazaridis2014-3",
+    "ev-lazaridis2016-2"
+   ],
+   "caveats": [
+    "The time range is a display window only: the papers place the lineage's split before the diversification of other non-Africans and its contribution before the earliest sampled Natufians, without dating it precisely."
+   ]
+  },
+  {
+   "id": "zagros-early-farmers",
+   "name": "Early farmers of the Zagros",
+   "category": "genetic_cluster",
+   "transition": "near-east",
+   "aliases": [
+    {
+     "name": "Iran_N",
+     "used_by": [
+      "lazaridis2016",
+      "narasimhan2019"
+     ]
+    }
+   ],
+   "description": "Early Neolithic people of the Zagros mountains in western Iran, among the earliest farmers, who descended largely from local hunter-gatherers and were genetically distinct from Anatolian and Levantine farmers.",
+   "region": {
+    "name": "Zagros mountains (western Iran)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Iran_(GanjDareh|TepeAbdulHosein|WezmehCave)_N$|^Iran_TepeGuran_(EN_)?PPN$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "broushaki2016",
+     "lazaridis2016"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2016-3",
+    "ev-broushaki2016-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "levant-ppn-farmers",
+   "name": "Early farmers of the southern Levant (PPNB)",
+   "category": "genetic_cluster",
+   "transition": "near-east",
+   "aliases": [
+    {
+     "name": "Levant_N",
+     "used_by": [
+      "lazaridis2016"
+     ]
+    }
+   ],
+   "description": "Pre-Pottery Neolithic farmers of Jordan and Israel, who descended largely from local Natufian-related hunter-gatherers.",
+   "region": {
+    "name": "Southern Levant"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Jordan_PPN[BC]|^Israel_PPNB"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lazaridis2016"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2016-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "anatolia-neolithic-farmers",
+   "name": "Early farmers of Anatolia",
+   "category": "genetic_cluster",
+   "transition": "near-east",
+   "aliases": [
+    {
+     "name": "Anatolia_N",
+     "used_by": [
+      "lazaridis2016"
+     ]
+    }
+   ],
+   "description": "Neolithic farmers of central and western Anatolia, whose ancestry continues largely from local hunter-gatherers and is closely related to that of the first farmers of Europe.",
+   "region": {
+    "name": "Anatolia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Turkey_(N|LN|PPN|PPNA)$|^Turkey_Catalhoyuk_(EN|MN|LN|N)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lazaridis2016",
+     "feldman2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-feldman2019-2",
+    "ev-lazaridis2016-5a"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "levant-chalcolithic-peqiin",
+   "name": "Late Chalcolithic individuals of Peqi'in Cave",
+   "category": "archaeological_population",
+   "transition": "near-east",
+   "aliases": [],
+   "description": "People buried in Peqi'in Cave, northern Israel, during the Late Chalcolithic (about 4500–3900 BCE). They formed a homogeneous population modelled with Levantine, Iranian-related and Anatolian-related ancestry.",
+   "archaeological_context": "Late Chalcolithic of the southern Levant.",
+   "region": {
+    "name": "Southern Levant (northern Israel)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Israel_LateC$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "harney2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-harney2018-1",
+    "ev-lazaridis2016-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "se-europe-early-farmers",
+   "name": "Early farmers associated with Starčevo–Körös–Criș",
+   "category": "archaeological_population",
+   "transition": "neolithic",
+   "aliases": [],
+   "description": "The first farming communities of southeastern Europe from the mid-7th millennium BCE, carrying ancestry mostly related to Anatolian farmers.",
+   "archaeological_context": "Starčevo, Körös and Criș complexes; Early Neolithic of Greece.",
+   "region": {
+    "name": "Southeastern Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "Starcevo|Koros|Cris|^Greece_NeaNikomedeia_EN$|^Serbia_EN$",
+      "date_within": {
+       "start": -6500,
+       "end": -5000
+      }
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "mathieson2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-mathieson2018-2",
+    "ev-mathieson2018-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "lbk-farmers",
+   "name": "LBK-associated farmers",
+   "category": "archaeological_population",
+   "transition": "neolithic",
+   "aliases": [
+    {
+     "name": "LBK",
+     "used_by": [
+      "lipson2017",
+      "haak2015"
+     ]
+    }
+   ],
+   "description": "Farmers of the Linear Pottery (LBK) culture across central Europe, about 5500–4900 BCE, with mostly Anatolian-farmer-related ancestry and a small hunter-gatherer share.",
+   "archaeological_context": "Linearbandkeramik (Linear Pottery culture).",
+   "region": {
+    "name": "Central Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "LBK"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lipson2017",
+     "haak2015"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lipson2017-3",
+    "ev-haak2015-2",
+    "ev-haak2015-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "iberia-early-neolithic",
+   "name": "Early Neolithic farmers of Iberia",
+   "category": "archaeological_population",
+   "transition": "neolithic",
+   "aliases": [],
+   "description": "Early farmers of the Iberian Peninsula, including Cardial-associated individuals, from the mid-6th millennium BCE.",
+   "region": {
+    "name": "Iberian Peninsula"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Spain_EN$|^Portugal_EN_Cardial$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lipson2017",
+     "olalde2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lipson2017-2",
+    "ev-lipson2017-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "britain-neolithic",
+   "name": "Neolithic farmers of Britain",
+   "category": "archaeological_population",
+   "transition": "neolithic",
+   "aliases": [],
+   "description": "Farming communities of Britain from about 4000 BCE, whose ancestry derives mainly from continental farmers, with small, regionally varying contributions from local hunter-gatherers.",
+   "region": {
+    "name": "Britain"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(England_EN(_Megalithic)?|England_N|Scotland_N|Wales_N)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "brace2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-brace2019-2",
+    "ev-brace2019-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "trypillia-farmers",
+   "name": "Trypillia-associated farmers",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [
+    {
+     "name": "Cucuteni–Trypillia",
+     "used_by": []
+    }
+   ],
+   "description": "Farmers of the Cucuteni–Trypillia culture in present-day Ukraine and Moldova during the Eneolithic.",
+   "archaeological_context": "Cucuteni–Trypillia.",
+   "region": {
+    "name": "Forest-steppe north of the Black Sea"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "_Eneolithic_Trypillia$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "nikitin2025"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-nikitin2025-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "globular-amphora",
+   "name": "Globular Amphora-associated individuals",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "Late Neolithic people of central and eastern Europe associated with the Globular Amphora culture, about 3400–2800 BCE.",
+   "archaeological_context": "Globular Amphora culture.",
+   "region": {
+    "name": "Central and eastern Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Poland_GlobularAmphora$|^Czechia_N_GlobularAmphora$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "allentoft2024"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-allentoft2024-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "volga-cline-eneolithic",
+   "name": "Volga cline Eneolithic (Khvalynsk, Ekaterinovka)",
+   "category": "genetic_cluster",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "Eneolithic people of the middle Volga whose ancestry varies between Caucasus–Lower Volga-related and eastern hunter-gatherer-related ends of a cline.",
+   "region": {
+    "name": "Middle Volga"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_Saratov_Eneolithic_Khvalynsk$|^Russia_Samara_Eneolithic_Ekaterinovka$|^Russia_Samara_Eneolithic(_Syezzheye)?$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lazaridis2025"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-2"
+   ],
+   "caveats": [
+    "Individuals on a cline are genetically heterogeneous by definition."
+   ]
+  },
+  {
+   "id": "clv-eneolithic",
+   "name": "Caucasus–Lower Volga cline Eneolithic (Berezhnovka)",
+   "category": "genetic_cluster",
+   "transition": "steppe",
+   "aliases": [
+    {
+     "name": "CLV",
+     "used_by": [
+      "lazaridis2025",
+      "nikitin2025"
+     ]
+    }
+   ],
+   "description": "Eneolithic people of the lower Volga steppe at the northern end of a genetic cline rich in Caucasus hunter-gatherer-related ancestry. CLV-related ancestry later makes up most of Yamnaya ancestry.",
+   "region": {
+    "name": "Lower Volga steppe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_Volgograd_(Eneolithic|EBA)_Berezhnovka$"
+     }
+    ],
+    "notes": "Only the Berezhnovka individuals are clearly labelled in AADR v66.p1; other CLV-cline sites named by Lazaridis 2025 are not assigned yet.",
+    "defining_source_ids": [
+     "lazaridis2025"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lazaridis2025-2",
+    "ev-lazaridis2025-3"
+   ],
+   "caveats": [
+    "Membership is incomplete: assigning the remaining CLV-cline individuals needs the paper's individual list."
+   ]
+  },
+  {
+   "id": "serednii-stih",
+   "name": "Serednii Stih-associated individuals (Dnipro cline)",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "Eneolithic people of the Dnipro and Don steppe associated with the Serednii Stih culture, formed as Caucasus–Lower Volga-related people mixed with Ukraine Neolithic hunter-gatherers. Yamnaya ancestors formed from related groups.",
+   "archaeological_context": "Serednii Stih (Sredny Stog).",
+   "region": {
+    "name": "Pontic steppe (Dnipro to Don)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "SeredniiStih"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lazaridis2025",
+     "nikitin2025"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-2",
+    "ev-lazaridis2025-3",
+    "ev-nikitin2025-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "maikop",
+   "name": "Maikop-associated individuals (North Caucasus)",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "People of the North Caucasus associated with the Maikop culture in the 4th millennium BCE, genetically closer to populations south of the Caucasus than to their steppe neighbours.",
+   "archaeological_context": "Maikop.",
+   "region": {
+    "name": "North Caucasus"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Russia_(Maikop|Caucasus_Maikop|LateMaikop(_Caucasus)?|Adygea_Maikop(_Novosvobodnaya)?|KabardinoBalkaria_Maikop)$"
+     }
+    ],
+    "notes": "Steppe Maikop individuals (with additional Siberian-related ancestry, Wang 2019) are not included.",
+    "defining_source_ids": [
+     "wang2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-wang2019-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "yamnaya",
+   "name": "Yamnaya-associated individuals",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [
+    {
+     "name": "Yamna",
+     "used_by": [
+      "nikitin2025"
+     ]
+    }
+   ],
+   "description": "Herders buried in kurgans of the Yamnaya complex from about 3300 BCE, from Hungary to Kazakhstan. Genetically they are remarkably homogeneous, and ancestry related to theirs later spread widely across Europe and into Central Asia.",
+   "genetic_profile": "Combines Caucasus/Near Eastern-related and eastern European hunter-gatherer-related ancestry; competing models of how it formed are shown side by side.",
+   "archaeological_context": "Yamnaya (Pit Grave) complex.",
+   "region": {
+    "name": "Pontic–Caspian steppe and beyond"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "Yamnaya|_Yamna$"
+     }
+    ],
+    "exclude_group_label_regex": "GlobularAmphora_Yamnaya",
+    "notes": "",
+    "defining_source_ids": [
+     "haak2015",
+     "lazaridis2025"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lazaridis2025-1",
+    "ev-haak2015-4",
+    "ev-jones2015-3",
+    "ev-damgaard2018-2",
+    "ev-lazaridis2022-3",
+    "ev-wang2021-5",
+    "ev-lazaridis2022-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "corded-ware",
+   "name": "Corded Ware-associated individuals",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "People buried with Corded Ware material across northern and central Europe from about 2900 BCE, most of whose ancestry is related to Yamnaya-associated groups.",
+   "archaeological_context": "Corded Ware complex.",
+   "region": {
+    "name": "Northern and central Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "CordedWare"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "haak2015"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-haak2015-5"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "beaker-central-europe",
+   "name": "Beaker-associated individuals, central and northwest Europe",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "People buried with Bell Beaker material in central and northwest Europe (outside Britain and Iberia), about 2500–2000 BCE, most of whom carry substantial steppe-related ancestry.",
+   "archaeological_context": "Bell Beaker complex.",
+   "region": {
+    "name": "Central and northwest Europe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "BellBeaker"
+     }
+    ],
+    "exclude_group_label_regex": "^(England|Scotland|Wales|Spain|Portugal|Italy_Sicily)",
+    "notes": "",
+    "defining_source_ids": [
+     "olalde2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-olalde2018-2",
+    "ev-olalde2018-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "beaker-britain",
+   "name": "Beaker-associated individuals, Britain",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "People buried with Bell Beaker material in Britain from about 2450 BCE, with high steppe-related ancestry, unlike Britain's Neolithic population.",
+   "archaeological_context": "Bell Beaker complex.",
+   "region": {
+    "name": "Britain"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(England|Scotland|Wales)_.*BellBeaker"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "olalde2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-olalde2018-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "iberia-chalcolithic",
+   "name": "Chalcolithic people of Iberia (including Beaker-associated individuals)",
+   "category": "geographic_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "Individuals from Copper Age Iberia (about 3000–2200 BCE), among them many buried with Bell Beaker material. Most resemble earlier Iberian populations and lack steppe-related ancestry, so the same pottery style travelled with different people in different places.",
+   "archaeological_context": "Iberian Chalcolithic, including Bell Beaker contexts.",
+   "region": {
+    "name": "Iberian Peninsula"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(Spain|Portugal)_C$|^Spain_(SE|SW)_Iberia_C$"
+     }
+    ],
+    "notes": "AADR v66.p1 labels Iberian Beaker-associated individuals by period (e.g. Spain_C), not by culture, so Beaker association cannot be read from the label. Individuals labelled -oSteppe form a separate population.",
+    "defining_source_ids": [
+     "olalde2018",
+     "olalde2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-olalde2018-2",
+    "ev-olalde2018-3"
+   ],
+   "caveats": [
+    "Grouped by region and period because the AADR labels do not record Beaker association."
+   ]
+  },
+  {
+   "id": "iberia-chalcolithic-steppe-related",
+   "name": "Chalcolithic Iberians with steppe-related ancestry",
+   "category": "genetic_cluster",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "A minority of Copper Age Iberians, labelled as genetic outliers in AADR, who carry steppe-related ancestry. They are the earliest detection of such ancestry in the peninsula.",
+   "region": {
+    "name": "Iberian Peninsula"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Spain_C-oSteppe$"
+     }
+    ],
+    "exclude_group_label_regex": "^$",
+    "notes": "Uses the AADR outlier label deliberately; the default outlier exclusion is overridden for this population.",
+    "defining_source_ids": [
+     "olalde2018"
+    ]
+   },
+   "ignore_default_exclude": true,
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-olalde2018-3"
+   ],
+   "caveats": [
+    "Defined by an AADR outlier label; the exact correspondence to the 8 individuals of Olalde 2018 is not checked individual by individual."
+   ]
+  },
+  {
+   "id": "iberia-bronze-age",
+   "name": "Bronze Age people of Iberia",
+   "category": "geographic_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "Individuals from Bronze Age Iberia (about 2200–900 BCE). By about 2000 BCE a large share of their ancestry, and nearly all Y chromosomes, derive from people with steppe-related ancestry.",
+   "region": {
+    "name": "Iberian Peninsula"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Spain_(EBA|BA|MBA|LBA|EBA_Argar|EBA_BA_Argar)$|^Portugal_(EBA|MBA|LBA)$"
+     }
+    ],
+    "notes": "Grouped by region and period, not by a single genetic profile.",
+    "defining_source_ids": [
+     "olalde2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-olalde2019-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "britain-lba-ia",
+   "name": "Late Bronze Age and Iron Age people of southern Britain",
+   "category": "geographic_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "Individuals from England and Wales from the Late Bronze Age onward, whose ancestry shifted towards more early-farmer-related ancestry through migrants from the continent.",
+   "region": {
+    "name": "England and Wales"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(England|Wales)_(LBA|EIA|MIA|LIA|IA)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "patterson2022"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-patterson2022-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "steppe-mlba",
+   "name": "Middle–Late Bronze Age steppe (Sintashta, Andronovo, Srubnaya-associated)",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [
+    {
+     "name": "Steppe_MLBA",
+     "used_by": [
+      "narasimhan2019"
+     ]
+    }
+   ],
+   "description": "People of the central Eurasian steppe in the 2nd millennium BCE associated with the Sintashta, Petrovka, Alakul/Andronovo and Srubnaya cultures. Ancestry with their profile reached South Asia via Central Asia.",
+   "archaeological_context": "Sintashta, Petrovka, Andronovo horizon, Srubnaya.",
+   "region": {
+    "name": "Central Eurasian steppe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "Sintashta|Petrovka|Alakul|Andronovo|_LBA_Srubnaya$",
+      "date_within": {
+       "start": -2500,
+       "end": -900
+      }
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "narasimhan2019"
+    ],
+    "exclude_group_label_regex": "Medieval"
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-5",
+    "ev-narasimhan2019-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "botai",
+   "name": "Botai-associated individuals",
+   "category": "archaeological_population",
+   "transition": "steppe",
+   "aliases": [],
+   "description": "People of northern Kazakhstan associated with the Botai culture, linked to the earliest evidence of horse husbandry, whose ancestry derives from hunter-gatherers deeply diverged from the Yamnaya.",
+   "archaeological_context": "Botai.",
+   "region": {
+    "name": "Northern Kazakhstan"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Kazakhstan_Botai_Eneolithic$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "damgaard2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-damgaard2018-1"
+   ],
+   "caveats": [
+    "Three individuals."
+   ]
+  },
+  {
+   "id": "indus-periphery",
+   "name": "Indus Periphery Cline and the Rakhigarhi individual",
+   "category": "genetic_cluster",
+   "transition": "south-asia",
+   "aliases": [],
+   "description": "A genetic profile shared by one individual from an Indus Valley Civilization context (Rakhigarhi) and by outliers buried at sites in Iran and Turkmenistan that were in contact with the IVC: a mixture of ancient-Iranian-related and South Asian hunter-gatherer-related ancestry, with little or no steppe-related ancestry.",
+   "region": {
+    "name": "Northwest South Asia and its periphery"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^India_Harappan$"
+     }
+    ],
+    "notes": "AADR v66.p1 does not label the 11 Indus Periphery outliers separately (they sit inside numbered clusters such as Turkmenistan_BA1-1 and Iran_ShahriSokhta_BA2-2); adding them needs the individual list from Narasimhan 2019.",
+    "defining_source_ids": [
+     "shinde2019",
+     "narasimhan2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-shinde2019-1",
+    "ev-narasimhan2019-2"
+   ],
+   "caveats": [
+    "Only one genome comes from an IVC context; whether it represents the IVC population as a whole is a hypothesis.",
+    "Membership is incomplete (see notes)."
+   ]
+  },
+  {
+   "id": "aasi",
+   "name": "Ancestral Ancient South Asians (AASI, modelled)",
+   "category": "genetic_cluster",
+   "transition": "south-asia",
+   "aliases": [
+    {
+     "name": "AASI",
+     "used_by": [
+      "narasimhan2019"
+     ]
+    }
+   ],
+   "description": "A modelled ancestry component: the South Asian lineage with no relationship to West Eurasians, split around the time East Asian, Andamanese and Australian ancestors separated. No unmixed individual has been sampled.",
+   "region": {
+    "name": "South Asia"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred only.",
+    "defining_source_ids": [
+     "narasimhan2019"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -48000,
+    "end": -2000
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-4",
+    "ev-narasimhan2019-1"
+   ],
+   "caveats": [
+    "The time range is a display window, not a dated lifespan."
+   ]
+  },
+  {
+   "id": "asi",
+   "name": "Ancestral South Indians (ASI, modelled)",
+   "category": "genetic_cluster",
+   "transition": "south-asia",
+   "aliases": [
+    {
+     "name": "ASI",
+     "used_by": [
+      "narasimhan2019"
+     ]
+    }
+   ],
+   "description": "A modelled ancestral population that formed after the decline of the Indus Valley Civilization as Indus Periphery-related people mixed with groups further southeast. It is one of the two main sources of ancestry in present-day South Asians.",
+   "region": {
+    "name": "South Asia"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred only.",
+    "defining_source_ids": [
+     "narasimhan2019"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -1899,
+    "end": 500
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-3"
+   ],
+   "caveats": [
+    "Display window; formation date is model-based."
+   ]
+  },
+  {
+   "id": "ani",
+   "name": "Ancestral North Indians (ANI, modelled)",
+   "category": "genetic_cluster",
+   "transition": "south-asia",
+   "aliases": [
+    {
+     "name": "ANI",
+     "used_by": [
+      "narasimhan2019"
+     ]
+    }
+   ],
+   "description": "A modelled ancestral population that formed in the 2nd millennium BCE as Indus Periphery-related people mixed with people carrying steppe-related ancestry arriving via Central Asia.",
+   "region": {
+    "name": "South Asia"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred only.",
+    "defining_source_ids": [
+     "narasimhan2019"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -1899,
+    "end": 500
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-narasimhan2019-3"
+   ],
+   "caveats": [
+    "Display window; formation date is model-based."
+   ]
+  },
+  {
+   "id": "jomon",
+   "name": "Jōmon-associated hunter-gatherers",
+   "category": "archaeological_population",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Hunter-gatherer-fishers of the Japanese archipelago associated with the Jōmon culture, whose ancestry belongs to a deeply splitting East Asian lineage.",
+   "archaeological_context": "Jōmon.",
+   "region": {
+    "name": "Japanese archipelago"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Japan_.*(Jomon|Joman)$"
+     }
+    ],
+    "notes": "Includes Initial to Final Jōmon individuals.",
+    "defining_source_ids": [
+     "wang2021",
+     "gakuhari2020",
+     "cooke2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-wang2021-2",
+    "ev-gakuhari2020-1",
+    "ev-cooke2021-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "kofun-period-japan",
+   "name": "Kofun-period individuals (Japan)",
+   "category": "historical_population",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Individuals from the Kofun period (about 300–700 CE), whose ancestry adds a large East Asian-related component to earlier Jōmon- and Yayoi-period ancestry.",
+   "region": {
+    "name": "Japanese archipelago"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Japan_KofunPeriod$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "cooke2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-cooke2021-1"
+   ],
+   "caveats": [
+    "Three individuals."
+   ]
+  },
+  {
+   "id": "amur-hunter-gatherers",
+   "name": "Amur River basin hunter-gatherers",
+   "category": "genetic_cluster",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Hunter-gatherers of the Amur River basin, whose ancestry stayed remarkably stable over thousands of years.",
+   "region": {
+    "name": "Amur River basin"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^China_AmurRiverBasin_(N|Mesolithic)$|^Russia_PrimorskyKrai_AmurRiver_N$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "ning2020",
+     "wang2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-ning2020-2",
+    "ev-wang2021-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "yellow-river-farmers",
+   "name": "Yellow River basin Neolithic farmers",
+   "category": "genetic_cluster",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Millet farmers of the middle and lower Yellow River basin in the Neolithic, whose ancestry later contributed widely in East Asia, including to Tibetan groups and Han Chinese.",
+   "region": {
+    "name": "Yellow River basin"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^China_(Henan|Shaanxi|Shanxi|Shandong)_.*(_MN|_LN|Longshan|Dawenkou)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "ning2020",
+     "wang2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-wang2021-3",
+    "ev-ning2020-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "west-liao-river",
+   "name": "West Liao River basin Neolithic and Bronze Age people",
+   "category": "geographic_population",
+   "transition": "east-asia",
+   "aliases": [
+    {
+     "name": "WLR",
+     "used_by": [
+      "ning2020"
+     ]
+    }
+   ],
+   "description": "Individuals from the West Liao River region of northeast China, whose ancestry shifted over time, towards the Yellow River with intensifying farming and towards the Amur with Bronze Age pastoralism.",
+   "region": {
+    "name": "West Liao River basin (Inner Mongolia)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^China_InnerMongolia_.*_(EN|MN|LN|BA)$"
+     }
+    ],
+    "notes": "Grouped by region; not a single genetic profile.",
+    "defining_source_ids": [
+     "ning2020"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-ning2020-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "taiwan-iron-age",
+   "name": "Iron Age people of Taiwan",
+   "category": "geographic_population",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Individuals from Taiwan (about 1300 BCE–800 CE) carrying mostly southern East Asian ancestry, related to that common in present-day speakers of Austronesian languages, with a smaller northern component.",
+   "region": {
+    "name": "Taiwan"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Taiwan_(IA|Hanben)"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "wang2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-wang2021-4",
+    "ev-yang2020-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "hoabinhian",
+   "name": "Hòabìnhian-associated hunter-gatherers",
+   "category": "archaeological_population",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Hunter-gatherers of mainland Southeast Asia associated with the Hòabìnhian technocomplex, whose deeply diverged eastern Eurasian ancestry contributed to later Southeast Asians.",
+   "archaeological_context": "Hòabìnhian.",
+   "region": {
+    "name": "Mainland Southeast Asia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "_Hoabinhian$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "mccoll2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-mccoll2018-1"
+   ],
+   "caveats": [
+    "Two individuals; claims verified against the abstract only."
+   ]
+  },
+  {
+   "id": "sea-neolithic-farmers",
+   "name": "Neolithic farmers of mainland Southeast Asia (Man Bac)",
+   "category": "genetic_cluster",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "Early farmers of northern Vietnam, about 4,000 years ago, whose ancestry combines southern East Asian farmer-related and local hunter-gatherer-related components.",
+   "region": {
+    "name": "Northern Vietnam"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Vietnam_N$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lipson2018sea"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lipson2018sea-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "xiongnu-period",
+   "name": "Xiongnu-period individuals (Mongolia)",
+   "category": "historical_population",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "People of the Eastern Steppe during the time of the Xiongnu polity (about 200 BCE–100 CE), whose ancestry reflects mixing of earlier Mongolian and surrounding populations.",
+   "region": {
+    "name": "Mongolia and neighbouring steppe"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "XiongnuPeriod"
+     }
+    ],
+    "exclude_group_label_regex": "EarlyMedieval|LateMedieval",
+    "notes": "",
+    "defining_source_ids": [
+     "jeong2020"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-jeong2020-3",
+    "ev-jeong2020-2"
+   ],
+   "caveats": [
+    "'Xiongnu-period' is a date-and-place grouping; it does not imply a single ethnic identity."
+   ]
+  },
+  {
+   "id": "mongol-period",
+   "name": "Mongol-period individuals (Mongolia)",
+   "category": "historical_population",
+   "transition": "east-asia",
+   "aliases": [],
+   "description": "People of Mongolia during the Mongol Empire era (about 1200–1400 CE), with much higher eastern Eurasian ancestry than in the Xiongnu period.",
+   "region": {
+    "name": "Mongolia"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Mongolia_.*_LateMedieval$"
+     }
+    ],
+    "notes": "AADR uses 'LateMedieval' for the Mongol period.",
+    "defining_source_ids": [
+     "jeong2020"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-jeong2020-3"
+   ],
+   "caveats": [
+    "A date-and-place grouping, not an ethnic identity."
+   ]
+  },
+  {
+   "id": "first-americans-founders",
+   "name": "Founding population of Native Americans (inferred)",
+   "category": "genetic_cluster",
+   "transition": "americas",
+   "aliases": [],
+   "description": "A modelled population: the shared ancestors of Ancient Beringians and all other Native Americans, which separated from East Asian-related populations, received gene flow related to Ancient North Eurasians, and later branched. Its location during this time is not known from genetics.",
+   "region": {
+    "name": "Northeast Asia / Beringia (not located by genetics)"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred only.",
+    "defining_source_ids": [
+     "morenomayar2018a",
+     "raghavan2015"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -34050,
+    "end": -12650
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-morenomayar2018a-2",
+    "ev-raghavan2015-1",
+    "ev-raghavan2014-2",
+    "ev-raghavan2015-2"
+   ],
+   "caveats": [
+    "The window spans the modelled split from East Asians (~36,000 years ago) to the divergence of northern and southern branches (~14,600 years ago, lower bound) in Moreno-Mayar 2018 (abstract only); other studies place the founding migration later (no earlier than 23,000 years ago, Raghavan 2015)."
+   ]
+  },
+  {
+   "id": "ancient-beringians",
+   "name": "Ancient Beringians (Upward Sun River)",
+   "category": "genetic_cluster",
+   "transition": "americas",
+   "aliases": [],
+   "description": "Two infants buried at Upward Sun River, Alaska, about 11,500 years ago, representing a population basal to all other Native Americans.",
+   "region": {
+    "name": "Interior Alaska"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^USA_AncientBeringian$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "morenomayar2018a"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-morenomayar2018a-1"
+   ],
+   "caveats": [
+    "Claims verified against the abstract only."
+   ]
+  },
+  {
+   "id": "clovis-anzick",
+   "name": "Anzick-1 (Clovis-associated)",
+   "category": "genetic_cluster",
+   "transition": "americas",
+   "aliases": [],
+   "description": "An infant buried with Clovis tools in Montana about 12,600 years ago, more closely related to all Indigenous Americans than to any other population.",
+   "archaeological_context": "Clovis.",
+   "region": {
+    "name": "Northern Rocky Mountains"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^USA_Anzick_12700BP$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "rasmussen2014"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-rasmussen2014-1",
+    "ev-rasmussen2014-2"
+   ],
+   "caveats": [
+    "A single individual."
+   ]
+  },
+  {
+   "id": "early-central-south-americans",
+   "name": "Early Holocene people of Central and South America",
+   "category": "geographic_population",
+   "transition": "americas",
+   "aliases": [],
+   "description": "The oldest sampled individuals from Belize, Brazil, Chile, Peru and Argentina (before about 8,000 years ago). Some of the earliest share an affinity with Anzick-1 that is absent in later South Americans.",
+   "region": {
+    "name": "Central and South America"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(Belize|Brazil|Chile|Peru|Argentina|Uruguay|Bolivia|Ecuador|Colombia)_",
+      "date_within": {
+       "start": -12000,
+       "end": -6050
+      }
+     }
+    ],
+    "notes": "Grouped by region and date: these individuals do not form one genetic cluster.",
+    "defining_source_ids": [
+     "posth2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-posth2018-2",
+    "ev-posth2018-3",
+    "ev-posth2018-4"
+   ],
+   "caveats": [
+    "AADR labels for early Belize individuals contain 'Archaic_Maya', projecting a much later identity back in time; we keep the label as data only."
+   ]
+  },
+  {
+   "id": "central-andes",
+   "name": "People of the Central and South-Central Andes",
+   "category": "geographic_population",
+   "transition": "americas",
+   "aliases": [],
+   "description": "Individuals from the Andean highlands and Pacific coast of Peru and Bolivia over the last 9,000 years, among whom present-day Andean genetic structure began forming by about 5,800 years ago.",
+   "region": {
+    "name": "Central Andes"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(Peru|Bolivia)_",
+      "date_within": {
+       "start": -6050,
+       "end": 1500
+      }
+     }
+    ],
+    "notes": "Grouped by region.",
+    "defining_source_ids": [
+     "nakatsuka2020",
+     "posth2018"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-nakatsuka2020-1",
+    "ev-posth2018-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "caribbean-archaic",
+   "name": "Archaic Age people of the Caribbean",
+   "category": "archaeological_population",
+   "transition": "americas",
+   "aliases": [],
+   "description": "The Caribbean's first inhabitants, before the Ceramic Age, descended from a deeply divergent population closest to Central and northern South Americans.",
+   "archaeological_context": "Archaic Age (pre-ceramic).",
+   "region": {
+    "name": "Greater Antilles"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(Cuba|DominicanRepublic|Haiti|PuertoRico)_(PreCeramic|Archaic)"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "fernandes2021"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fernandes2021-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "caribbean-ceramic",
+   "name": "Ceramic Age people of the Caribbean",
+   "category": "archaeological_population",
+   "transition": "americas",
+   "aliases": [],
+   "description": "Ceramic-using people of the Caribbean from at least 1,700 years ago, genetically homogeneous and related to Arawak-speaking groups of northeastern South America; their arrival almost entirely replaced Archaic Age ancestry.",
+   "archaeological_context": "Ceramic Age.",
+   "region": {
+    "name": "Caribbean islands and Venezuelan coast"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(Bahamas|DominicanRepublic|Haiti|PuertoRico|Cuba|Curacao|Guadeloupe|Venezuela)_.*Ceramic"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "fernandes2021"
+    ],
+    "exclude_group_label_regex": "PreCeramic"
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-fernandes2021-3",
+    "ev-fernandes2021-4"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "australo-papuan-ancestors",
+   "name": "Ancestors of Papuans and Aboriginal Australians (inferred)",
+   "category": "genetic_cluster",
+   "transition": "oceania",
+   "aliases": [],
+   "description": "A modelled population: the ancestors of present-day Papuans and Aboriginal Australians, who carry more Denisovan-related ancestry than other non-Africans. No ancient genome from this population falls in the V1 window.",
+   "region": {
+    "name": "Island Southeast Asia and Sahul (not located by genetics)"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred from present-day genomes.",
+    "defining_source_ids": [
+     "malaspinas2016",
+     "reich2010"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -48000,
+    "end": -8000
+   },
+   "time_range_basis": "sources",
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-malaspinas2016-2",
+    "ev-reich2010-3"
+   ],
+   "caveats": [
+    "Display window only: the cited sources do not date this population."
+   ]
+  },
+  {
+   "id": "lapita-first-remote-oceanians",
+   "name": "First Remote Oceanians (Lapita-associated)",
+   "category": "archaeological_population",
+   "transition": "oceania",
+   "aliases": [],
+   "description": "The first people to settle Vanuatu and Tonga, about 3,000 years ago, buried with Lapita material. Their ancestry was almost entirely East Asian-related, with little or no Papuan-related ancestry.",
+   "archaeological_context": "Lapita.",
+   "region": {
+    "name": "Vanuatu and Tonga"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Vanuatu_(3000|2900)BP$|^Tonga_(2700|2500)BP$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "skoglund2016",
+     "lipson2018oceania"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-skoglund2016-2",
+    "ev-lipson2018oceania-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "vanuatu-post-lapita",
+   "name": "Post-Lapita people of Vanuatu",
+   "category": "geographic_population",
+   "transition": "oceania",
+   "aliases": [],
+   "description": "People of Vanuatu from about 2,300 years ago onward, whose ancestry is predominantly Papuan-related, while Austronesian languages continued to be spoken.",
+   "region": {
+    "name": "Vanuatu"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Vanuatu_(2300|1300|1200|500|150)BP$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lipson2018oceania",
+     "posth2018oceania"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lipson2018oceania-2",
+    "ev-posth2018oceania-1",
+    "ev-skoglund2016-3"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "bismarck-related-source",
+   "name": "Bismarck Archipelago-related ancestry (source, inferred)",
+   "category": "genetic_cluster",
+   "transition": "oceania",
+   "aliases": [],
+   "description": "The source of the Papuan-related ancestry that reached Vanuatu, best matched by present-day people of the Bismarck Archipelago. No ancient individual from the source has been sampled.",
+   "region": {
+    "name": "Bismarck Archipelago"
+   },
+   "membership": {
+    "include": [],
+    "notes": "Inferred from present-day genomes.",
+    "defining_source_ids": [
+     "lipson2018oceania"
+    ]
+   },
+   "inferred_only": true,
+   "time_range": {
+    "start": -1000,
+    "end": 500
+   },
+   "time_range_basis": "sources",
+   "location_hint": {
+    "lat": -4.0,
+    "lon": 151.5,
+    "label": "Bismarck Archipelago (region named in the source)",
+    "source_ids": [
+     "lipson2018oceania"
+    ]
+   },
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lipson2018oceania-3"
+   ],
+   "caveats": [
+    "Display window spans the arrival of Papuan-related ancestry in Vanuatu, not a lifespan."
+   ]
+  },
+  {
+   "id": "mota",
+   "name": "Mota (Ethiopia)",
+   "category": "genetic_cluster",
+   "transition": "africa",
+   "aliases": [],
+   "description": "A man who lived about 4,500 years ago in the Ethiopian highlands, whose genome predates the Eurasian-related admixture found in many present-day eastern Africans.",
+   "region": {
+    "name": "Ethiopian highlands"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Ethiopia_MotaCave_4500BP$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "gallegollorente2015"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-gallegollorente2015-erratum"
+   ],
+   "caveats": [
+    "The source paper carries an erratum; only claims unaffected by it are used.",
+    "A single individual."
+   ]
+  },
+  {
+   "id": "east-african-foragers",
+   "name": "Eastern African foragers",
+   "category": "genetic_cluster",
+   "transition": "africa",
+   "aliases": [],
+   "description": "Hunter-gatherers of eastern Africa over the last 18,000 years, carrying a deep eastern African lineage. Their ancestry later mixed with incoming herders and farmers.",
+   "region": {
+    "name": "Eastern Africa (Kenya, Tanzania)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Kenya_(LSA|Kansyore|LSA_Kansyore)$|^Tanzania_(LSA|LSA_Kisese)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lipson2022",
+     "prendergast2019"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-lipson2022-2",
+    "ev-prendergast2019-2"
+   ],
+   "caveats": [
+    "Few individuals across a very large area and time span."
+   ]
+  },
+  {
+   "id": "malawi-foragers",
+   "name": "Foragers of Malawi",
+   "category": "genetic_cluster",
+   "transition": "africa",
+   "aliases": [],
+   "description": "Hunter-gatherers of Malawi between about 15,000 and 2,500 years ago, about two-thirds of whose ancestry is related to that of present-day southern African San.",
+   "region": {
+    "name": "Malawi"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Malawi_LSA"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "skoglund2017",
+     "lipson2022"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-skoglund2017-1",
+    "ev-lipson2022-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "southern-african-foragers",
+   "name": "Southern African foragers",
+   "category": "genetic_cluster",
+   "transition": "africa",
+   "aliases": [],
+   "description": "Stone Age hunter-gatherers of southern Africa, genetically similar to present-day southern San groups.",
+   "region": {
+    "name": "Southern Africa"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^SouthAfrica_(2000BP|1900BP|2200BP|LateHolocene|OakhurstRockshelter_LateHolocene|MatjesRiver_LSA_Wilton)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "skoglund2017",
+     "schlebusch2017"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-schlebusch2017-1",
+    "ev-skoglund2017-1"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "shum-laka",
+   "name": "Shum Laka individuals (Cameroon)",
+   "category": "genetic_cluster",
+   "transition": "africa",
+   "aliases": [],
+   "description": "Children buried at the Shum Laka rock shelter in Cameroon about 8,000 and 3,000 years ago, with ancestry most similar to west-central African hunter-gatherers.",
+   "region": {
+    "name": "Grassfields of western Cameroon"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Cameroon_ShumLaka"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "lipson2020"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-lipson2020-2"
+   ],
+   "caveats": [
+    "Four individuals."
+   ]
+  },
+  {
+   "id": "pastoral-neolithic",
+   "name": "Pastoral Neolithic herders of eastern Africa",
+   "category": "archaeological_population",
+   "transition": "africa",
+   "aliases": [],
+   "description": "The first herders of Kenya and Tanzania, about 5,000–1,200 years ago, formed by mixing between northeastern African-related peoples and local foragers. Makers of different Pastoral Neolithic artefact traditions were not genetically distinct.",
+   "archaeological_context": "Pastoral Neolithic (Savanna Pastoral Neolithic, Elmenteitan).",
+   "region": {
+    "name": "Eastern Africa (Kenya, Tanzania)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^(Kenya|Tanzania)_PastoralN(_Elmenteitan)?$|^Kenya_EPN$|^Tanzania_3000BP$"
+     }
+    ],
+    "notes": "Tanzania_3000BP is the Luxmanda individual (Skoglund 2017).",
+    "defining_source_ids": [
+     "prendergast2019",
+     "skoglund2017"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-prendergast2019-2",
+    "ev-prendergast2019-3",
+    "ev-skoglund2017-3",
+    "ev-wang2020-2"
+   ],
+   "caveats": []
+  },
+  {
+   "id": "western-african-related-farmers",
+   "name": "Iron Age farmers with western-African-related ancestry",
+   "category": "genetic_cluster",
+   "transition": "africa",
+   "aliases": [],
+   "description": "Iron Age individuals in eastern and southern Africa whose ancestry is mostly related to present-day western African and Bantu-speaking populations. They are associated with the spread of farming and of Bantu languages, which brought complete replacement of local foragers in some regions.",
+   "region": {
+    "name": "Eastern and southern Africa"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Botswana_EIA$|^SouthAfrica_400BP$|^Malawi_(IA|IronAge)|^Kenya_(400BP|IA_Bantu)|^Tanzania_(600BP|1300BP)$"
+     }
+    ],
+    "notes": "",
+    "defining_source_ids": [
+     "skoglund2017",
+     "schlebusch2017",
+     "forteslima2024"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "medium",
+   "evidence_ids": [
+    "ev-skoglund2017-2",
+    "ev-schlebusch2017-1",
+    "ev-forteslima2024-2"
+   ],
+   "caveats": [
+    "A linguistic label (Bantu) is used here only to describe an association; the population is defined genetically."
+   ]
+  },
+  {
+   "id": "swahili-medieval",
+   "name": "Medieval people of the Swahili coast",
+   "category": "historical_population",
+   "transition": "africa",
+   "aliases": [],
+   "description": "Townspeople of the medieval Swahili coast, from about 1250 CE, with African ancestry inherited mainly through women and Asian (mainly Persian-related) ancestry inherited mainly through men, mixing from about 1000 CE.",
+   "region": {
+    "name": "East African coast (Kenya, Tanzania)"
+   },
+   "membership": {
+    "include": [
+     {
+      "group_label_regex": "^Kenya_Medieval_Swahili$|^(Kenya|Tanzania)_Swahili$",
+      "date_within": {
+       "start": 1000,
+       "end": 1500
+      }
+     }
+    ],
+    "notes": "Limited to individuals overlapping the V1 window.",
+    "defining_source_ids": [
+     "brielle2023"
+    ]
+   },
+   "inferred_only": false,
+   "confidence": "high",
+   "evidence_ids": [
+    "ev-brielle2023-2"
+   ],
+   "caveats": []
+  }
+ ]
+}

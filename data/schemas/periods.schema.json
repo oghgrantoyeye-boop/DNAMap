@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "periods.schema.json",
+  "type": "object", "required": ["version", "periods"],
+  "properties": {
+    "version": {"type": "integer"}, "notes": {"type": "string"},
+    "periods": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false, "required": ["id", "label", "window", "view", "source_ids"],
+      "properties": {
+        "id": {"$ref": "common.schema.json#/$defs/id"}, "label": {"type": "string"},
+        "window": {"$ref": "common.schema.json#/$defs/timeRange"},
+        "view": {"type": "object", "additionalProperties": false, "required": ["center", "span_deg"], "properties": {"center": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}, "span_deg": {"type": "number", "exclusiveMinimum": 0}}},
+        "source_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+      }
+    }}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "admixture_events.schema.json",
+  "type": "object", "required": ["version", "events"],
+  "properties": {
+    "version": {"type": "integer"}, "notes": {"type": "string"},
+    "events": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "target", "region", "archaic", "evidence_ids", "models"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^ae-[a-z0-9-]+$"},
+        "target": {"type": "string"}, "region": {"type": "string"}, "archaic": {"type": "boolean"},
+        "default_model_id": {"type": "string"},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "models": {"type": "array", "minItems": 1, "items": {
+          "type": "object", "additionalProperties": false,
+          "required": ["id", "label", "source_id", "method", "complete", "components", "evidence_ids"],
+          "properties": {
+            "id": {"type": "string", "pattern": "^m-[a-z0-9-]+$"},
+            "label": {"type": "string"}, "source_id": {"type": "string"},
+            "method": {"enum": ["qpAdm", "admixture_graph", "f4_ratio", "ADMIXTURE", "SFS_model", "segment_based", "other"]},
+            "complete": {"type": "boolean"},
+            "components": {"type": "array", "items": {
+              "type": "object", "additionalProperties": false, "required": ["population_id", "proxy_label", "is_proxy", "proportion"],
+              "properties": {
+                "population_id": {"type": ["string", "null"]},
+                "proxy_label": {"type": "string"}, "is_proxy": {"type": "boolean"},
+                "proportion": {"oneOf": [{"$ref": "common.schema.json#/$defs/proportion"}, {"type": "null"}]}
+              }}},
+            "admixture_date": {"type": "object", "additionalProperties": false, "required": ["method"], "properties": {
+              "range": {"$ref": "common.schema.json#/$defs/timeRange"},
+              "method": {"type": "string"}, "note": {"type": "string"}, "point_source": {"type": "boolean"},
+              "generation_years": {"type": "number"},
+              "generations_before_sample": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}}},
+            "pulse_model": {"enum": ["single_pulse", "multiple_pulses", "continuous", "unspecified"]},
+            "sex_bias": {"type": "string"},
+            "evidence_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+          }
+        }}
+      }
+    }}
+  }
+}

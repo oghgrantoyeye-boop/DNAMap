@@ -1,0 +1,268 @@
+{
+ "version": 1,
+ "disagreements": [
+  {
+   "id": "d-neandertal-admixture-date",
+   "topic": "When did the main Neandertal admixture happen?",
+   "status": "narrowed",
+   "summary": "Estimates range from 37,000–86,000 years ago (linkage disequilibrium in present-day genomes) to 45,000–49,000 years ago (anchored by a ~45,000-year-old genome). Recent estimates that use early ancient genomes cluster around 50,000–45,000 years ago.",
+   "positions": [
+    {
+     "label": "37–86 ka, most likely 47–65 ka",
+     "evidence_ids": [
+      "ev-sankararaman2012-1"
+     ]
+    },
+    {
+     "label": "~60 ka (95% CI 55–84 ka)",
+     "evidence_ids": [
+      "ev-malaspinas2016-1"
+     ]
+    },
+    {
+     "label": "7–13 kyr before Ust'-Ishim (~45 ka)",
+     "evidence_ids": [
+      "ev-fu2014-2"
+     ]
+    },
+    {
+     "label": "50.5–43.5 ka, one extended period",
+     "evidence_ids": [
+      "ev-iasi2024-1"
+     ]
+    },
+    {
+     "label": "45–49 ka",
+     "evidence_ids": [
+      "ev-sumer2024-2"
+     ]
+    }
+   ],
+   "affects": [
+    "ae-neandertal-non-africans",
+    "non-african-ancestors"
+   ]
+  },
+  {
+   "id": "d-neandertal-proportion",
+   "topic": "How much Neandertal ancestry do non-Africans carry?",
+   "status": "narrowed",
+   "summary": "Estimates differ with the reference Neandertal genome and method: 1.5–2.1% with the Altai genome, 1.8–2.6% with the closer Vindija genome, about 2.3% in a demographic model.",
+   "positions": [
+    {
+     "label": "1.5–2.1%",
+     "evidence_ids": [
+      "ev-prufer2014-1"
+     ]
+    },
+    {
+     "label": "1.8–2.6%",
+     "evidence_ids": [
+      "ev-prufer2017-2"
+     ]
+    },
+    {
+     "label": "~2.3% (1.1–3.5%)",
+     "evidence_ids": [
+      "ev-malaspinas2016-1"
+     ]
+    }
+   ],
+   "affects": [
+    "ae-neandertal-non-africans"
+   ]
+  },
+  {
+   "id": "d-yamnaya-formation",
+   "topic": "How did Yamnaya-associated ancestry form?",
+   "status": "open",
+   "summary": "All models combine southern (Caucasus/Near Eastern-related) and northern (eastern European hunter-gatherer-related) ancestry, but they differ in the sources and routes: EHG plus a Near Eastern-related population; a large CHG-related or Iranian farmer-related contribution; a contribution from Middle Don hunter-gatherers; or about four-fifths Caucasus–Lower Volga-related ancestry plus Ukraine Neolithic hunter-gatherer-related ancestry via Serednii Stih-related groups.",
+   "positions": [
+    {
+     "label": "EHG + Near Eastern-related (2015)",
+     "evidence_ids": [
+      "ev-haak2015-4"
+     ]
+    },
+    {
+     "label": "includes significant CHG-related ancestry (2015)",
+     "evidence_ids": [
+      "ev-jones2015-3"
+     ]
+    },
+    {
+     "label": "EHG + Iranian farmer-related (2016)",
+     "evidence_ids": [
+      "ev-lazaridis2016-5c"
+     ]
+    },
+    {
+     "label": "includes Middle Don hunter-gatherer ancestry (2024)",
+     "evidence_ids": [
+      "ev-allentoft2024-4"
+     ]
+    },
+    {
+     "label": "~4/5 CLV + UNHG via Serednii Stih (2025)",
+     "evidence_ids": [
+      "ev-lazaridis2025-3",
+      "ev-lazaridis2025-4"
+     ]
+    }
+   ],
+   "affects": [
+    "ae-yamnaya",
+    "yamnaya"
+   ]
+  },
+  {
+   "id": "d-iranian-ancestry-south-asia",
+   "topic": "Did early Iranian farmers spread east into South Asia?",
+   "status": "open",
+   "summary": "One study describes ancestry related to early Iranian farmers spreading east into South Asia. Later work with an Indus Valley Civilization genome finds that the Iranian-related ancestry in the Indus Periphery split before the lineage of Zagros farmers, which argues against a spread of western Iranian farmers.",
+   "positions": [
+    {
+     "label": "spread of Iranian farmer-related ancestry",
+     "evidence_ids": [
+      "ev-lazaridis2016-5d"
+     ]
+    },
+    {
+     "label": "earlier-splitting Iranian-related lineage; no farmer spread",
+     "evidence_ids": [
+      "ev-shinde2019-3",
+      "ev-narasimhan2019-1"
+     ]
+    }
+   ],
+   "affects": [
+    "rel-zagros-indus-contested",
+    "indus-periphery"
+   ]
+  },
+  {
+   "id": "d-goyet-gravettian",
+   "topic": "Which cluster do the Goyet Gravettian individuals belong to?",
+   "status": "open",
+   "summary": "Fu et al. 2016 grouped Gravettian-associated individuals from Goyet with the Věstonice cluster; Posth et al. 2023 find them genetically intermediate between the Věstonice and Fournol clusters. They are left unassigned here.",
+   "positions": [
+    {
+     "label": "Věstonice cluster",
+     "evidence_ids": [
+      "ev-fu2016-3"
+     ]
+    },
+    {
+     "label": "intermediate between clusters",
+     "evidence_ids": [
+      "ev-posth2023-9"
+     ]
+    }
+   ],
+   "affects": [
+    "vestonice-cluster",
+    "fournol-cluster"
+   ]
+  },
+  {
+   "id": "d-americas-entry",
+   "topic": "When did people first enter the Americas?",
+   "status": "open",
+   "summary": "Genetic models differ: a single founding wave no earlier than 23,000 years ago, or a founding population that split from East Asians about 36,000 years ago with a long period of structure in Beringia. Footprints at White Sands dated about 23,000–21,000 years ago place people in North America during the Last Glacial Maximum; their dating has been debated.",
+   "positions": [
+    {
+     "label": "founding wave no earlier than 23 ka",
+     "evidence_ids": [
+      "ev-raghavan2015-1"
+     ]
+    },
+    {
+     "label": "split from East Asians ~36 ka; Beringian structure",
+     "evidence_ids": [
+      "ev-morenomayar2018a-2"
+     ]
+    },
+    {
+     "label": "footprints 23–21 ka (archaeological)",
+     "evidence_ids": [
+      "ev-bennett2021-1"
+     ]
+    }
+   ],
+   "affects": [
+    "first-americans-founders"
+   ]
+  },
+  {
+   "id": "d-population-y",
+   "topic": "Where does the Australasian-related signal in some Native Americans come from?",
+   "status": "open",
+   "summary": "One study attributes it to an additional founding population ('Population Y'); another attributes distant Australo-Melanesian sharing to later gene flow. The source population is unsampled.",
+   "positions": [
+    {
+     "label": "an additional founding source",
+     "evidence_ids": [
+      "ev-skoglund2015-1",
+      "ev-morenomayar2018b-2"
+     ]
+    },
+    {
+     "label": "later gene flow",
+     "evidence_ids": [
+      "ev-raghavan2015-3"
+     ]
+    }
+   ],
+   "affects": [
+    "early-central-south-americans"
+   ]
+  },
+  {
+   "id": "d-levant-east-africa",
+   "topic": "How did Levant-related ancestry reach eastern African herders?",
+   "status": "open",
+   "summary": "The Levant-related ancestry of early eastern African herders could reflect migration from the Levant or a shared ancestral population that lived earlier in Africa or the Near East; the study that reports it offers both explanations.",
+   "positions": [
+    {
+     "label": "migration from the Levant",
+     "evidence_ids": [
+      "ev-skoglund2017-3",
+      "ev-lazaridis2016-5b"
+     ]
+    },
+    {
+     "label": "shared earlier ancestral population",
+     "evidence_ids": [
+      "ev-skoglund2017-3"
+     ]
+    }
+   ],
+   "affects": [
+    "ae-pastoral-neolithic"
+   ]
+  },
+  {
+   "id": "d-vanuatu-turnover",
+   "topic": "How did Papuan-related ancestry arrive in Vanuatu?",
+   "status": "narrowed",
+   "summary": "Studies agree that Papuan-related ancestry arrived soon after first settlement and came to dominate. They differ in timing (by ~2,300 vs from ~2,500 years ago) and in emphasis: one large movement, or repeated, incremental, sex-biased admixture.",
+   "positions": [
+    {
+     "label": "arrival by ~2,300 BP, then dilution",
+     "evidence_ids": [
+      "ev-lipson2018oceania-2"
+     ]
+    },
+    {
+     "label": "from ~2,500 BP, incremental and sex-biased",
+     "evidence_ids": [
+      "ev-posth2018oceania-1"
+     ]
+    }
+   ],
+   "affects": [
+    "ae-vanuatu"
+   ]
+  }
+ ]
+}

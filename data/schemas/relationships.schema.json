@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "relationships.schema.json",
+  "type": "object", "required": ["version", "relationships"],
+  "properties": {
+    "version": {"type": "integer"}, "notes": {"type": "string"},
+    "relationships": {"type": "array", "items": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "type", "source", "target", "time_range", "direction_supported", "confidence", "evidence_ids", "wording"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^rel-[a-z0-9-]+$"},
+        "type": {"enum": ["ancestry", "migration", "split", "expansion", "continuity", "shared_ancestry"]},
+        "source": {"type": "string"}, "target": {"type": "string"},
+        "time_range": {"oneOf": [{"$ref": "common.schema.json#/$defs/openTimeRange"}, {"type": "null"}]},
+        "point_source": {"type": "boolean"},
+        "time_basis": {"type": "string"},
+        "direction_supported": {"type": "boolean"},
+        "proportion": {"$ref": "common.schema.json#/$defs/proportion"},
+        "confidence": {"$ref": "common.schema.json#/$defs/confidence"},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "disagreement_ids": {"type": "array", "items": {"type": "string"}},
+        "wording": {"type": "string", "minLength": 20}
+      }
+    }}
+  }
+}
