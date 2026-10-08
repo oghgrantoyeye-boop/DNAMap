@@ -97,7 +97,7 @@ Vercel specifics:
 
 Everything the site needs is built; ads switch on when two environment variables are set. With them unset, no ad code runs, no third-party script loads, no `ads.txt` is published and the privacy page says nothing about advertising.
 
-Where they appear: a labelled unit on the About and Methodology pages (text pages, where ad networks accept sites and where ads cannot get in the way of the map), never on the map, panels or evidence lists. Consent for the EEA, UK and Switzerland is Google's own message, set up in the AdSense account (free, certified). Ads load after the page has finished loading and the browser is idle.
+Where they appear: a labelled unit on the About and Methodology pages and in the "Read as text" view of From bone to genome (text pages, where ad networks accept sites and where ads cannot get in the way of the map), never on the map, the 3D bench, panels or evidence lists. Consent for the EEA, UK and Switzerland is Google's own message, set up in the AdSense account (free, certified). Ads load after the page has finished loading and the browser is idle.
 
 Steps (the owner does these; nothing can be applied for on their behalf):
 1. Own a domain and point it at the Vercel project (ad networks do not accept free `*.vercel.app` addresses).
