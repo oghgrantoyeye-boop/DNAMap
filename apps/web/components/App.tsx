@@ -11,6 +11,24 @@ import MapCanvas from "./MapCanvas";
 import Timeline from "./Timeline";
 import { EvidencePanel, PopulationPanel, SamplePanel } from "./Panels";
 
+/** Rank: exact acronym or name > word starts with the query > anywhere in the name or aliases. */
+function searchPopulations(data: Dataset, query: string) {
+  const q = query.trim().toLowerCase();
+  const rank = (p: Dataset["ontology"]["populations"][number]): number => {
+    const names = [p.name, ...p.aliases.map((a) => a.name)].map((n) => n.toLowerCase());
+    if (names.some((n) => n === q)) return 0;
+    if (names.some((n) => n.split(/[^a-z0-9\u00c0-\u024f]+/).includes(q))) return 1; // whole word, e.g. "asi" in "(ASI, modelled)"
+    if (names.some((n) => n.split(/[^a-z0-9\u00c0-\u024f]+/).some((w) => w.startsWith(q)))) return 2;
+    return names.some((n) => n.includes(q)) ? 3 : 9;
+  };
+  return data.ontology.populations
+    .map((p) => ({ p, r: rank(p) }))
+    .filter((x) => x.r < 9)
+    .sort((a, b) => a.r - b.r)
+    .slice(0, 8)
+    .map((x) => x.p);
+}
+
 export default function App() {
   const [data, setData] = useState<Dataset | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -37,7 +55,7 @@ export default function App() {
 
   const pop = selection.kind === "population" ? data.popById.get(selection.id) : undefined;
   const panelOpen = selection.kind === "sample" || !!pop;
-  const matches = query.length >= 2 ? data.ontology.populations.filter((p) => (p.name + " " + p.aliases.map((a) => a.name).join(" ")).toLowerCase().includes(query.toLowerCase())).slice(0, 8) : [];
+  const matches = query.length >= 2 ? searchPopulations(data, query) : [];
 
   return (
     <div className={panelOpen ? "app panel-open" : "app"}>
@@ -66,6 +84,7 @@ export default function App() {
                     }}
                   >
                     {p.name}
+                    {p.inferred_only && <span className="search-tag"> inferred, not on the map</span>}
                   </button>
                 </li>
               ))}
