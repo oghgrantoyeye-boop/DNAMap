@@ -205,6 +205,8 @@ def integrity(r: Report, d: dict[str, dict]) -> None:
     for per in d["periods"]["periods"]:
         if per["window"]["start"] >= per["window"]["end"]:
             r.err(f"period {per['id']}: empty window")
+        if per.get("select") and per["select"] not in pops:
+            r.err(f"period {per['id']}: unknown population {per['select']}")
         for sid in per["source_ids"]:
             if sid not in sources:
                 r.err(f"period {per['id']}: unknown source {sid}")

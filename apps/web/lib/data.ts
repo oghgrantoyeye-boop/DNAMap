@@ -3,7 +3,15 @@
 import type { Manifest, Ontology, Population, SampleDetail, SampleTable } from "@dnamap/data-model";
 
 // Relative by default so the static build works from any sub-path.
-export const BASE = process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/` : "./";
+/**
+ * Prefix for files under public/. Relative by default so the static export can be
+ * served from any sub-path; pages one level down (/about/, /methodology/) step up.
+ */
+export function dataBase(): string {
+  if (process.env.NEXT_PUBLIC_BASE_PATH) return `${process.env.NEXT_PUBLIC_BASE_PATH}/`;
+  if (typeof window !== "undefined" && /\/(about|methodology)\/?$/.test(window.location.pathname)) return "../";
+  return "./";
+}
 
 export interface Basemap {
   scale: string;
@@ -25,8 +33,8 @@ export interface Dataset {
   anchors: ({ lon: number; lat: number } | null)[]; // population index → member centroid
 }
 
-async function getJson<T>(path: string): Promise<T> {
-  const r = await fetch(`${BASE}data/${path}`);
+export async function getJson<T>(path: string): Promise<T> {
+  const r = await fetch(`${dataBase()}data/${path}`);
   if (!r.ok) throw new Error(`failed to load ${path}: ${r.status}`);
   return (await r.json()) as T;
 }

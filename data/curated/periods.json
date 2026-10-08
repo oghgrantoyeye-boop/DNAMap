@@ -2,6 +2,7 @@
   "version": 1,
   "notes": "Timeline presets are views (window + map focus), not global eras. Windows in astronomical years. See research/chronology/periods.md.",
   "periods": [
+    {"id": "archaic-admixture", "label": "Neandertal and Denisovan ancestry", "window": {"start": -49999, "end": -38999}, "view": {"center": [40, 45], "span_deg": 110}, "select": "non-african-ancestors", "source_ids": ["green2010", "prufer2017", "iasi2024", "sumer2024", "fu2015", "hajdinjak2021", "reich2010"]},
     {"id": "earliest-eurasians", "label": "Earliest sampled modern humans in Eurasia", "window": {"start": -47999, "end": -38999}, "view": {"center": [40, 50], "span_deg": 110}, "source_ids": ["sumer2024", "hajdinjak2021", "fu2014"]},
     {"id": "lgm", "label": "Last Glacial Maximum", "window": {"start": -23050, "end": -17050}, "view": {"center": [10, 48], "span_deg": 45}, "source_ids": ["posth2023"]},
     {"id": "late-glacial-europe", "label": "Late Glacial hunter-gatherers in Europe", "window": {"start": -12049, "end": -6999}, "view": {"center": [15, 50], "span_deg": 45}, "source_ids": ["fu2016", "posth2023"]},

@@ -6,6 +6,7 @@ Archaeological period names (Neolithic, Bronze Age, …) are **regional and time
 ## Presets for V0.1 (each with its basis)
 | id | label | window (astronomical) | map view | basis |
 |---|---|---|---|---|
+| `archaic-admixture` | Neandertal and Denisovan ancestry | −49999 … −38999 (50,000–39,000 BCE) | W Eurasia + Siberia; opens the panel of the inferred shared ancestors of non-Africans, where the published models sit side by side | Green 2010; Prüfer 2017; Iasi 2024; Sümer 2024; Fu 2015; Hajdinjak 2021; Reich 2010 |
 | `earliest-eurasians` | Earliest sampled modern humans in Eurasia | −47999 … −38999 (48,000–39,000 BCE) | W Eurasia + Siberia | Sümer 2024; Hajdinjak 2021; Fu 2014 (sample dates) |
 | `lgm` | Last Glacial Maximum | −23050 … −17050 (25,000–19,000 BP ≈ 23,051–17,051 BCE) | Europe | Posth 2023 gives the LGM as 25,000–19,000 years ago |
 | `late-glacial-europe` | Late Glacial hunter-gatherers in Europe | −12049 … −6999 | Europe | Fu 2016; Posth 2023 (turnover from ~14 ka) |

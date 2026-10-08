@@ -35,3 +35,13 @@ def test_overrides_applied(ind):
 
 def test_no_present_day_rows(ind):
     assert ind.filter(pl.col("date_kind") == "present_day").height == 0
+
+
+def test_continent_mapping():
+    from geo.continents import continent
+
+    assert continent("Russia", 37.6) == "Europe"
+    assert continent("Russia", 104.0) == "Asia"
+    assert continent("Kenya", 36.8) == "Africa"
+    assert continent("Greenland", -45.0) == "Americas"
+    assert continent("Atlantis", 0.0) is None

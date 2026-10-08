@@ -10,6 +10,7 @@
         "id": {"$ref": "common.schema.json#/$defs/id"}, "label": {"type": "string"},
         "window": {"$ref": "common.schema.json#/$defs/timeRange"},
         "view": {"type": "object", "additionalProperties": false, "required": ["center", "span_deg"], "properties": {"center": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2}, "span_deg": {"type": "number", "exclusiveMinimum": 0}}},
+        "select": {"type": "string", "description": "population whose panel the preset opens"},
         "source_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}
       }
     }}

@@ -7,6 +7,7 @@ import { GROUP_COLOR } from "@dnamap/visualization";
 import type { Dataset } from "@/lib/data";
 import { loadSampleDetail } from "@/lib/data";
 import { setState, useAppState } from "@/lib/store";
+import { reportUrl } from "@/lib/report";
 
 export const CATEGORY_TEXT: Record<string, { label: string; explain: string }> = {
   genetic_cluster: { label: "Genetic cluster", explain: "Individuals grouped because they share an ancestry profile in the cited studies." },
@@ -266,6 +267,12 @@ export function PopulationPanel({ data, pop }: { data: Dataset; pop: Population 
           </ul>
         </details>
       )}
+      <p className="small report-row">
+        <span className="mono muted">{pop.id}</span>
+        <a className="report-link" href={reportUrl({ id: pop.id, text: `${pop.name}: ${pop.description}`, context: "Population panel" })} target="_blank" rel="noreferrer">
+          Report a problem with this population
+        </a>
+      </p>
     </article>
   );
 }
@@ -282,6 +289,12 @@ function EvidenceItem({ data, e }: { data: Dataset; e: Evidence }) {
         {e.stance === "contradicts" && <span className="badge badge-warn">contradicts another claim</span>}
       </p>
       {e.note && <p className="small muted">{e.note}</p>}
+      <p className="small report-row">
+        <span className="mono muted">{e.id}</span>
+        <a className="report-link" href={reportUrl({ id: e.id, text: e.claim, context: "Evidence panel" })} target="_blank" rel="noreferrer">
+          Report a problem
+        </a>
+      </p>
     </li>
   );
 }
@@ -440,6 +453,11 @@ export function SamplePanel({ data, index }: { data: Dataset; index: number }) {
         </div>
       </dl>
       {d === undefined && <p className="small muted">Loading record…</p>}
+      <p className="small report-row">
+        <a className="report-link" href={reportUrl({ id: S.id[index], context: "Sample record (AADR)" })} target="_blank" rel="noreferrer">
+          Report a problem with this record
+        </a>
+      </p>
     </article>
   );
 }

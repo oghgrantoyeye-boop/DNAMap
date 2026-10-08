@@ -40,10 +40,12 @@ for (const spec of list) {
     const errors = [];
     page.on("pageerror", (e) => errors.push(String(e)));
     page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
-    await page.goto(`http://localhost:4173/?${query}`, { waitUntil: "networkidle" });
+    // a spec value starting with "/" is a path (e.g. "/methodology/"); otherwise a query string for the map
+    const url = query.startsWith("/") ? `http://localhost:4173${query}` : `http://localhost:4173/?${query}`;
+    await page.goto(url, { waitUntil: "networkidle" });
     await page.waitForTimeout(+(process.env.WAIT || 1500));
     const file = join(outDir, `${name}-${vp}.png`);
-    await page.screenshot({ path: file });
+    await page.screenshot({ path: file, fullPage: !!process.env.FULL, timeout: 120000 });
     console.log(file, errors.length ? `ERRORS: ${errors.join(" | ")}` : "ok");
     await page.close();
   }

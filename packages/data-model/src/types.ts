@@ -253,6 +253,7 @@ export interface Period {
   label: string;
   window: TimeRange;
   view: { center: [number, number]; span_deg: number };
+  select?: string; // population whose panel the preset opens
   source_ids: string[];
 }
 
@@ -274,5 +275,10 @@ export interface Manifest {
   git_commit: string;
   window: TimeRange;
   counts: Record<string, number>;
+  coverage?: {
+    by_continent: Record<string, { samples: number; assigned: number }>;
+    unmapped: number;
+    populations_by_group: Record<string, number>;
+  };
   hashes: Record<string, string>;
 }

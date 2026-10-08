@@ -23,6 +23,7 @@ from pathlib import Path
 import polars as pl
 
 from aadr.manifest import RELEASE, RELEASE_DATE
+from geo.continents import CONTINENTS, continent
 from populations.membership import display_range
 
 REPO = Path(__file__).resolve().parents[2]
@@ -216,12 +217,29 @@ def main() -> None:
         commit = subprocess.check_output(["git", "rev-parse", "--short", "HEAD"], cwd=REPO, text=True).strip()
     except Exception:  # noqa: BLE001
         commit = "unknown"
+    # --- coverage summary: how unevenly the world is sampled (geo/continents.py)
+    cov = {k: {"samples": 0, "assigned": 0} for k in CONTINENTS}
+    unmapped: dict[str, int] = {}
+    for pe, lon, pp in zip(s["political_entity"].to_list(), s["lon"].to_list(), pop_primary):
+        k = continent(pe, lon)
+        if k is None:
+            unmapped[str(pe)] = unmapped.get(str(pe), 0) + 1
+            continue
+        cov[k]["samples"] += 1
+        cov[k]["assigned"] += pp >= 0
+    if unmapped:
+        print(f"coverage: {sum(unmapped.values())} samples with unmapped political entity: {unmapped}")
+    groups_count: dict[str, int] = {}
+    for p in pops:
+        groups_count[p["transition"]] = groups_count.get(p["transition"], 0) + 1
+
     manifest = {
         "aadr_release": RELEASE, "aadr_release_date": RELEASE_DATE, "built": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "git_commit": commit, "window": {"start": V1[0], "end": V1[1]},
         "counts": {"samples": samples["n"], "populations": len(pops), "relationships": len(rels), "admixture_edges": len(edges),
                    "evidence": len(ontology["evidence"]), "sources": len(ontology["sources"]),
                    "ancient_individuals_total": ind.height, "assigned_samples": sum(1 for x in pop_primary if x >= 0)},
+        "coverage": {"by_continent": cov, "unmapped": sum(unmapped.values()), "populations_by_group": groups_count},
         "hashes": hashes,
     }
     write(OUT / "manifest.json", manifest)

@@ -176,7 +176,13 @@ export default function Timeline({ data }: { data: Dataset }) {
               onClick={() => {
                 const mapEl = document.querySelector(".map-wrap") as HTMLElement | null;
                 const v = viewForSpan(mapEl?.clientWidth ?? 1000, mapEl?.clientHeight ?? 600, p.view.center, p.view.span_deg);
-                setState({ time: Math.round((p.window.start + p.window.end) / 2), view: v, zoomWindow: [p.window.start, p.window.end], playing: false });
+                setState({
+                  time: Math.round((p.window.start + p.window.end) / 2),
+                  view: v,
+                  zoomWindow: [p.window.start, p.window.end],
+                  playing: false,
+                  ...(p.select ? { selection: { kind: "population" as const, id: p.select }, panel: "details" as const } : {}),
+                });
               }}
             >
               {p.label}

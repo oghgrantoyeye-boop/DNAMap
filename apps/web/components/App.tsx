@@ -77,6 +77,7 @@ export default function App() {
             Key
           </button>
           <Link href="/about/">About the data</Link>
+          <Link href="/methodology/">Methodology</Link>
         </nav>
       </header>
 

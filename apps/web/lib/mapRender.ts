@@ -376,9 +376,31 @@ export function drawData(f: FrameInput): FrameOutput {
     visible.push({ i, x, y });
   }
 
+  // Where each population's members are at this moment (weighted by time). Lines
+  // start here, so they join the people actually shown rather than a centroid
+  // over the population's whole lifetime.
+  const live = new Float32Array(pops.length * 2).fill(Number.NaN);
+  for (let pi = 0; pi < pops.length; pi++) {
+    if (popWeight[pi] <= 0) continue;
+    let sx = 0,
+      sy = 0,
+      sw = 0;
+    for (const i of data.members[pi]) {
+      const w = sampleW[i];
+      if (w <= 0) continue;
+      sx += pos[2 * i] * w;
+      sy += pos[2 * i + 1] * w;
+      sw += w;
+    }
+    if (sw > 0) {
+      live[2 * pi] = sx / sw;
+      live[2 * pi + 1] = sy / sw;
+    }
+  }
+
   const selectedIdx = f.selectedPop ? (data.popIndex.get(f.selectedPop) ?? -1) : -1;
   drawFields(f, sampleW, pos, popWeight, selectedIdx);
-  drawRelationships(f, popWeight);
+  drawRelationships(f, popWeight, live);
   drawSamples(f, visible, sampleW, pos, selectedIdx);
   const labels = drawLabels(f, popWeight, sampleW, pos);
   return { visible, labels, popWeight, sampleW, pos };
@@ -526,7 +548,8 @@ function drawSamples(f: FrameInput, visibleIn: FrameOutput["visible"], sampleW: 
   ctx.restore();
 }
 
-function anchorXY(f: FrameInput, pi: number): [number, number] | null {
+function anchorXY(f: FrameInput, pi: number, live: Float32Array): [number, number] | null {
+  if (!Number.isNaN(live[2 * pi])) return [live[2 * pi], live[2 * pi + 1]];
   const a = f.data.anchors[pi];
   if (!a) return null;
   const p = f.projection([a.lon, a.lat]);
@@ -561,7 +584,7 @@ function shorten(x0: number, y0: number, x1: number, y1: number, d0: number, d1:
   return [x0 + ux * d0, y0 + uy * d0, x1 - ux * d1, y1 - uy * d1];
 }
 
-function drawRelationships(f: FrameInput, popWeight: Float32Array): void {
+function drawRelationships(f: FrameInput, popWeight: Float32Array, live: Float32Array): void {
   const { ctx, data, theme, time, width } = f;
   const wide = Math.max(f.halfWindow * 4, 300);
   const sel = f.selectedPop;
@@ -587,8 +610,8 @@ function drawRelationships(f: FrameInput, popWeight: Float32Array): void {
   const targetsWithAdmixture = new Set<string>();
   ctx.save();
   for (const it of items) {
-    const a = anchorXY(f, data.popIndex.get(it.r.source)!),
-      b = anchorXY(f, data.popIndex.get(it.r.target)!);
+    const a = anchorXY(f, data.popIndex.get(it.r.source)!, live),
+      b = anchorXY(f, data.popIndex.get(it.r.target)!, live);
     if (!a || !b) continue;
     if (Math.abs(a[0] - b[0]) > width * 0.7) continue; // would wrap around the projection edge
     const emph = sel ? 1 : 0.55;
@@ -632,7 +655,7 @@ function drawRelationships(f: FrameInput, popWeight: Float32Array): void {
     }
   }
   for (const t of targetsWithAdmixture) {
-    const b = anchorXY(f, data.popIndex.get(t)!);
+    const b = anchorXY(f, data.popIndex.get(t)!, live);
     if (!b) continue;
     ctx.globalAlpha = sel ? 1 : 0.7;
     ctx.setLineDash([]);

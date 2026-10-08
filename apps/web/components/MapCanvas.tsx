@@ -6,7 +6,7 @@ import type { Basemap, Dataset } from "@/lib/data";
 import { loadFineBasemap } from "@/lib/data";
 import { drawBasemap, drawData, THEMES, type FrameOutput } from "@/lib/mapRender";
 import { ReliefLayer } from "@/lib/relief";
-import { BASE } from "@/lib/data";
+import { dataBase } from "@/lib/data";
 import { getState, setState, subscribe, type AppState } from "@/lib/store";
 import { halfWindowFor } from "@/lib/timeWindow";
 
@@ -27,7 +27,7 @@ export default function MapCanvas({ data }: { data: Dataset }) {
     let lastBaseKey = "";
     let raf = 0;
     let pending = false;
-    const relief = new ReliefLayer(`${BASE}data/relief-4096.jpg`);
+    const relief = new ReliefLayer(`${dataBase()}data/relief-4096.jpg`);
     relief.onReady = () => {
       lastBaseKey = "";
       schedule();

@@ -20,7 +20,7 @@ Phases may be reordered if the summary of a previous phase gives a reason; recor
 |---|---|---|
 | 1 | Research & architecture | done 2026-10-08 (`research/notes/PHASE1_SUMMARY.md`) |
 | 2 | Data pipeline & curated ontology | done 2026-10-08 (one command: `cd pipeline && uv run python -m build`) |
-| 3 | V0.1 — map + timeline | not started |
+| 3 | V0.1 — map + timeline | in review: map, timeline, panels, three map styles, methodology page with claims register |
 | 4 | Relationships & evidence | not started |
 | 5 | Uncertainty & sampling-bias visual language | not started |
 | 6 | Trace backward / forward | not started |

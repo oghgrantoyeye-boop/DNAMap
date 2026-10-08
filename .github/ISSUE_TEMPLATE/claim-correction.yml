@@ -1,0 +1,55 @@
+name: Challenge a claim or record
+description: Point out a claim, population, relationship or sample record on the map that the evidence does not support.
+title: "[claim] "
+labels: ["claim-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Every statement on the map is meant to be traceable to a published source, and corrections are welcome.
+        The most useful reports name the claim, say what is wrong, and cite where the evidence shows it (DOI or link, plus page, figure, table or supplement section).
+  - type: input
+    id: claim_id
+    attributes:
+      label: Claim or record ID
+      description: Shown next to each claim (e.g. ev-green2010-1), population (e.g. yamnaya) or sample (AADR individual ID).
+    validations:
+      required: true
+  - type: textarea
+    id: claim_text
+    attributes:
+      label: What the site says
+      description: Filled in automatically when you use the "Report a problem" link.
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - The cited source does not say this
+        - The claim overstates or misreads the source
+        - A newer or stronger source contradicts it
+        - Wrong date, place, proportion or label
+        - The wording implies more than the evidence (ethnicity, lineage, cause)
+        - The confidence level is wrong
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: What is wrong, and what should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Your evidence
+      description: DOI or link, with the page, figure, table or supplementary section that shows the problem.
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Where on the site
+      description: Filled in automatically (population, sample or methodology page).
