@@ -1,0 +1,11 @@
+override_id,individual_id,persistent_id,field,old_value,new_value,reason,evidence_source_id,date_added
+ov-0001,C4776,40285,start,-24561,-2481,"Full Date '24562-2298 calBCE' has an impossible first bound (a 22,000-year interval for a single 14C date of 3890±20 BP). Replaced the range by date_mean_bp ± 2 SD (4333 ± 98 BP = 2482–2286 BCE), which agrees with the 14C age.",aadr,2026-10-08
+ov-0002,C4776,40285,end,-2297,-2285,"See ov-0001 (range replaced by date_mean_bp ± 2 SD).",aadr,2026-10-08
+ov-0003,19651,8032,start,-4032,-3983,"Full Date says '3984-3368 calCE' but its own bracketed components are '3984-3796 calBCE' and '3624-3368 calBCE', and date_mean_bp 5626 BP (= 3676 BCE) agrees with BCE. Era label typo; use the BCE reading.",aadr,2026-10-08
+ov-0004,19651,8032,end,3984,-3367,"See ov-0003.",aadr,2026-10-08
+ov-0005,BK7,116987,start,-3154,-2999,"Full Date '3000-1000 CE' contradicts the Early Bronze Age context in the group label and date_mean_bp 3950 BP (= 2000 BCE, the midpoint of 3000–1000 BCE; SD 577 matches a uniform 3000–1000 BCE range). Era label typo; use 3000–1000 BCE.",aadr,2026-10-08
+ov-0006,BK7,116987,end,3000,-999,"See ov-0005.",aadr,2026-10-08
+ov-0007,C514,9311,start,-1437,1400,"Full Date '1400-1438 calBCE (520±20 BP)': a 14C age of 520±20 BP calibrates to the 15th century CE, and date_mean_bp 533 BP (= 1417 CE) agrees. Era label typo; use 1400–1438 CE.",aadr,2026-10-08
+ov-0008,C514,9311,end,1443,1438,"See ov-0007.",aadr,2026-10-08
+ov-0009,PCA0426,47496,start,-1199,1000,"Full Date '1000-1200 BCE' contradicts the Early Medieval context in the group label and date_mean_bp 850 BP (= 1100 CE). Era label typo; use 1000–1200 CE.",aadr,2026-10-08
+ov-0010,PCA0426,47496,end,1216,1200,"See ov-0009.",aadr,2026-10-08
