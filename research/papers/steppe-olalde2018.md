@@ -6,4 +6,5 @@
 ## Claims we use
 1. 400 individuals including 226 Beaker-associated individuals. Bell Beaker pottery spread from ~2750 BCE and disappeared 2200–1800 BCE. *(Abstract.)*
 2. Iberian and central European Beaker-associated individuals had limited genetic affinity: the Beaker complex spread between these regions mainly by cultural diffusion, not migration. *(Abstract.)* — a key "culture ≠ population" example.
-3. In Britain, the arrival of the Beaker complex introduced high steppe-related ancestry and was associated with replacement of ~90% of the gene pool within a few hundred years. *(Abstract.)*
+3. Steppe-related ancestry was present in most Beaker-associated individuals outside Iberia (Sicily excepted), but in only 8 of 32 analysed Iberian Beaker-associated individuals; most Iberian Beaker-associated individuals resembled preceding Iberian populations. *(Results; Fig. 2a; Discussion.)*
+4. In Britain, the arrival of the Beaker complex introduced high steppe-related ancestry and was associated with replacement of ~90% of the gene pool within a few hundred years. *(Abstract.)*
