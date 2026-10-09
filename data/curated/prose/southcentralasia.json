@@ -1,0 +1,1133 @@
+{
+  "group": "southcentralasia",
+  "populations": {
+    "indus-periphery": {
+      "description": "A shared ancestry profile seen in eleven individuals from Gonur in Turkmenistan and Shahr-i-Sokhta in eastern Iran, and in one Indus Valley Civilization genome from Rakhigarhi. One study models it as contributing the majority of the ancestry of present-day South Asians.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The grouping rests on eleven individuals whom the study led by Narasimhan singles out as outliers: three from Gonur and eight from Shahr-i-Sokhta. Together they form what the study calls the Indus Periphery Cline, a cline being a gradient along which individuals sit at different points between two ends of ancestry. A twelfth genome, from the Rakhigarhi cemetery of the Indus Valley Civilization (IVC), projects onto the same cline. Only one of the 61 skeletal samples tried from that cemetery, the one labelled I6113, yielded enough authentic DNA.",
+          "evidence_ids": [
+            "ev-narasimhan2019-2",
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-1",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The eleven outliers span more than a millennium: those from Gonur date to 2500–2000 BCE and those from Shahr-i-Sokhta to 3300–2000 BCE. The mixing that produced their ancestry is dated earlier still, to about 5400–3700 BCE, a millennium or more before the mature phase of the Indus Valley Civilization, which is dated to 2600–1900 BCE. Each place is represented by only a few genomes: three at Gonur, eight at Shahr-i-Sokhta and one at Rakhigarhi.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-narasimhan2019-so2",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Narasimhan and colleagues model the eleven outliers as a mixture of two ends. Ancestry related to Andamanese hunter-gatherers makes up 11–50 percent, from roughly a tenth to a half, depending on the individual, and the rest, about 50–89 percent, blends ancestry related to Iranian farmers with ancestry related to hunter-gatherers of West Siberia. Here “related” means resembling a sampled group, not descended from it. None of the eleven shows detectable ancestry related to Anatolian farmers. The Rakhigarhi genome gives a similar picture: a mixture of ancient Iranian-related ancestry, the larger part, with Southeast Asian hunter-gatherer-related ancestry, and little or no steppe pastoralist-related ancestry, significantly less than in the later South Asian mixture.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-so2",
+            "ev-shinde2019-1",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The study models two later mixtures that drew on Indus Periphery-related ancestry, both after the decline of the Indus Valley Civilization. Mixing with groups to the south-east formed the Ancestral South Indians (ASI), estimated at a minimum of 55 percent Indus Periphery-related with the remainder related to Andamanese hunter-gatherers. Mixing with steppe-pastoralist-descended people who arrived via Central Asia after about 4000 years ago formed the Ancestral North Indians (ANI). Neither group is directly sampled; the authors reconstruct both from ancient and present-day genomes, and the two then mixed to form what the study calls the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so3",
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Whether the profile was common in the Indus Valley Civilization is a hypothesis, since the authors cannot be definitive without ancient DNA from IVC contexts. A second question is where the Iranian-related ancestry came from. A 2016 study described people related to both early Iranian farmers and steppe pastoralists spreading east into South Asia. Shinde and colleagues find that this ancestry derives from a lineage that diverged before the ancestors of early Iranian hunter-gatherers, herders and farmers separated, which contradicts a large-scale eastward spread of western Iranian farmers: genomes from the Iranian plateau and from the IVC descend from different hunter-gatherer groups who began farming without being linked by movement of people.",
+          "evidence_ids": [
+            "ev-narasimhan2019-2",
+            "ev-narasimhan2019-so2",
+            "ev-lazaridis2016-5d",
+            "ev-shinde2019-so2",
+            "ev-shinde2019-3"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map plots only the Rakhigarhi genome: the eleven outliers sit inside other numbered groups in the dataset used here (AADR v66.p1) and have not yet been separated out."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A shared ancestry profile seen in eleven individuals from Gonur in Turkmenistan and Shahr-i-Sokhta in eastern Iran, and in one Indus Valley Civilization genome from Rakhigarhi.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-1",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "One study models it as contributing the majority of the ancestry of present-day South Asians.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The grouping rests on eleven individuals whom the study led by Narasimhan singles out as outliers: three from Gonur and eight from Shahr-i-Sokhta.",
+          "evidence_ids": [
+            "ev-narasimhan2019-2",
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Together they form what the study calls the Indus Periphery Cline, a cline being a gradient along which individuals sit at different points between two ends of ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-2",
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A twelfth genome, from the Rakhigarhi cemetery of the Indus Valley Civilization (IVC), projects onto the same cline.",
+          "evidence_ids": [
+            "ev-shinde2019-1",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Only one of the 61 skeletal samples tried from that cemetery, the one labelled I6113, yielded enough authentic DNA.",
+          "evidence_ids": [
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The eleven outliers span more than a millennium: those from Gonur date to 2500–2000 BCE and those from Shahr-i-Sokhta to 3300–2000 BCE.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The mixing that produced their ancestry is dated earlier still, to about 5400–3700 BCE, a millennium or more before the mature phase of the Indus Valley Civilization, which is dated to 2600–1900 BCE.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so2",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Each place is represented by only a few genomes: three at Gonur, eight at Shahr-i-Sokhta and one at Rakhigarhi.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Narasimhan and colleagues model the eleven outliers as a mixture of two ends.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Ancestry related to Andamanese hunter-gatherers makes up 11–50 percent, from roughly a tenth to a half, depending on the individual, and the rest, about 50–89 percent, blends ancestry related to Iranian farmers with ancestry related to hunter-gatherers of West Siberia.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Here “related” means resembling a sampled group, not descended from it.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-so2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "None of the eleven shows detectable ancestry related to Anatolian farmers.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Rakhigarhi genome gives a similar picture: a mixture of ancient Iranian-related ancestry, the larger part, with Southeast Asian hunter-gatherer-related ancestry, and little or no steppe pastoralist-related ancestry, significantly less than in the later South Asian mixture.",
+          "evidence_ids": [
+            "ev-shinde2019-1",
+            "ev-shinde2019-so1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The study models two later mixtures that drew on Indus Periphery-related ancestry, both after the decline of the Indus Valley Civilization.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Mixing with groups to the south-east formed the Ancestral South Indians (ASI), estimated at a minimum of 55 percent Indus Periphery-related with the remainder related to Andamanese hunter-gatherers.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Mixing with steppe-pastoralist-descended people who arrived via Central Asia after about 4000 years ago formed the Ancestral North Indians (ANI).",
+          "evidence_ids": [
+            "ev-narasimhan2019-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Neither group is directly sampled; the authors reconstruct both from ancient and present-day genomes, and the two then mixed to form what the study calls the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether the profile was common in the Indus Valley Civilization is a hypothesis, since the authors cannot be definitive without ancient DNA from IVC contexts.",
+          "evidence_ids": [
+            "ev-narasimhan2019-2",
+            "ev-narasimhan2019-so2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A second question is where the Iranian-related ancestry came from.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5d",
+            "ev-shinde2019-so2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2016 study described people related to both early Iranian farmers and steppe pastoralists spreading east into South Asia.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5d"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Shinde and colleagues find that this ancestry derives from a lineage that diverged before the ancestors of early Iranian hunter-gatherers, herders and farmers separated, which contradicts a large-scale eastward spread of western Iranian farmers: genomes from the Iranian plateau and from the IVC descend from different hunter-gatherer groups who began farming without being linked by movement of people.",
+          "evidence_ids": [
+            "ev-shinde2019-so2",
+            "ev-shinde2019-3"
+          ]
+        }
+      ]
+    },
+    "aasi": {
+      "description": "The South and Southeast Asian hunter-gatherer-related ancestry at one end of the gradient that is the main source of ancestry in South Asians, opposite early Iranian hunter-gatherer-related ancestry. No unmixed individual has been sampled; it exists as a lineage in a statistical model.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "AASI, short for Ancestral Ancient South Asians, is a lineage in a statistical model, not a group of excavated people. In the study’s admixture graph, a family tree that lets branches mix, it is an Asian lineage that split off around the time the ancestors of East Asians, Andaman Islanders and Australians separated from one another. It is fitted alongside the Palliyar and the Juang, groups whose ancestry includes it. Because no unmixed individual is available, the models use ancestry related to Andamanese hunter-gatherers as its stand-in.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-so4",
+            "ev-narasimhan2019-so6",
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "AASI-related ancestry reaches later populations through the Indus Periphery profile. In the eleven outliers at Gonur and Shahr-i-Sokhta, ancestry related to Andamanese hunter-gatherers makes up 11–50 percent, and the Rakhigarhi genome carries Southeast Asian hunter-gatherer-related ancestry. The Ancestral South Indians are modelled as at least 55 percent Indus Periphery-related, with the remainder AASI-related. The Juang can only be fitted with AASI ancestry beyond what the Ancestral South Indians carry, which shows that groups with less Iranian farmer-related ancestry than they also existed.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-1",
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so5",
+            "ev-narasimhan2019-so4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The graph places the split relative to other splits but does not date it in years. Where a model gives a figure for AASI-related ancestry, it is measured as Andamanese-related ancestry, which only stands in for it, so the figure carries that approximation. And because AASI is a component of ancestry in a model, it should not be read as a community that lived at one place and time.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-so5"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The South and Southeast Asian hunter-gatherer-related ancestry at one end of the gradient that is the main source of ancestry in South Asians, opposite early Iranian hunter-gatherer-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "No unmixed individual has been sampled; it exists as a lineage in a statistical model.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "AASI, short for Ancestral Ancient South Asians, is a lineage in a statistical model, not a group of excavated people.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-so4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "In the study’s admixture graph, a family tree that lets branches mix, it is an Asian lineage that split off around the time the ancestors of East Asians, Andaman Islanders and Australians separated from one another.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4",
+            "ev-narasimhan2019-so4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "It is fitted alongside the Palliyar and the Juang, groups whose ancestry includes it.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so4",
+            "ev-narasimhan2019-so6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Because no unmixed individual is available, the models use ancestry related to Andamanese hunter-gatherers as its stand-in.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "AASI-related ancestry reaches later populations through the Indus Periphery profile.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In the eleven outliers at Gonur and Shahr-i-Sokhta, ancestry related to Andamanese hunter-gatherers makes up 11–50 percent, and the Rakhigarhi genome carries Southeast Asian hunter-gatherer-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so1",
+            "ev-shinde2019-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Ancestral South Indians are modelled as at least 55 percent Indus Periphery-related, with the remainder AASI-related.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Juang can only be fitted with AASI ancestry beyond what the Ancestral South Indians carry, which shows that groups with less Iranian farmer-related ancestry than they also existed.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The graph places the split relative to other splits but does not date it in years.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where a model gives a figure for AASI-related ancestry, it is measured as Andamanese-related ancestry, which only stands in for it, so the figure carries that approximation.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "And because AASI is a component of ancestry in a model, it should not be read as a community that lived at one place and time.",
+          "evidence_ids": [
+            "ev-narasimhan2019-4"
+          ]
+        }
+      ]
+    },
+    "asi": {
+      "description": "A reconstructed population whose later mixing with the Ancestral North Indians formed the present-day gradient of ancestry that the study calls the Modern Indian Cline. It formed after 2000 BCE from Indus Periphery-related people and South Asians with more hunter-gatherer ancestry.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Ancestral South Indians (ASI) are a reconstruction, not a sampled population. Neither they nor the Ancestral North Indians (ANI) are directly sampled: Narasimhan and colleagues analyse ancient and present-day groups together to infer the two. In their model the ASI mix a point on the Indus Periphery Cline with South Asians holding more AASI ancestry, AASI being a South and Southeast Asian hunter-gatherer-related lineage.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7",
+            "ev-narasimhan2019-1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The formation date comes from one southern Indian group, the Palliyar, whose DNA records the mixing of Iranian farmer-related and AASI-related ancestry. Admixture dating, which reads the age of a mixture from the length of the unbroken stretches of each ancestry in a genome, puts that mixing 107 generations ago, give or take 11. At 28 years per generation, that gives a 95 percent interval of 1700–400 BCE, so the ASI were not fully formed at the time of the Indus Valley Civilization (IVC).",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Most of the ASI’s ancestry is Indus Periphery-related: the model puts it at a minimum of 55 percent, with the remainder related to Andamanese hunter-gatherers, a stand-in for AASI. Several groups of southern India sit at the ASI end of the present-day gradient, consistent with about 0 percent steppe-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "After the decline of the IVC, Indus Periphery-related people mixed with groups to the south-east to form the ASI. A second mixture, between Indus Periphery-related people and steppe-pastoralist-descended people arriving via Central Asia, formed the ANI. The ASI and ANI then mixed with each other to form the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Both the date and the percentages rest on stand-ins and a single group: the date on the Palliyar, and the proportions on the most Iranian-farmer-related individual of the Indus Periphery Cline for one part and Andamanese hunter-gatherer-related ancestry for the other. Each is a model-based estimate, not an observation.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6",
+            "ev-narasimhan2019-so3",
+            "ev-narasimhan2019-so5",
+            "ev-narasimhan2019-so7"
+          ]
+        }
+      ],
+      "caveats": [
+        "The dates on the timeline are a window chosen for the map, not a dated lifespan."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A reconstructed population whose later mixing with the Ancestral North Indians formed the present-day gradient of ancestry that the study calls the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "It formed after 2000 BCE from Indus Periphery-related people and South Asians with more hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7",
+            "ev-narasimhan2019-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Ancestral South Indians (ASI) are a reconstruction, not a sampled population.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Neither they nor the Ancestral North Indians (ANI) are directly sampled: Narasimhan and colleagues analyse ancient and present-day groups together to infer the two.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "In their model the ASI mix a point on the Indus Periphery Cline with South Asians holding more AASI ancestry, AASI being a South and Southeast Asian hunter-gatherer-related lineage.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7",
+            "ev-narasimhan2019-1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The formation date comes from one southern Indian group, the Palliyar, whose DNA records the mixing of Iranian farmer-related and AASI-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Admixture dating, which reads the age of a mixture from the length of the unbroken stretches of each ancestry in a genome, puts that mixing 107 generations ago, give or take 11.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "At 28 years per generation, that gives a 95 percent interval of 1700–400 BCE, so the ASI were not fully formed at the time of the Indus Valley Civilization (IVC).",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Most of the ASI’s ancestry is Indus Periphery-related: the model puts it at a minimum of 55 percent, with the remainder related to Andamanese hunter-gatherers, a stand-in for AASI.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Several groups of southern India sit at the ASI end of the present-day gradient, consistent with about 0 percent steppe-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "After the decline of the IVC, Indus Periphery-related people mixed with groups to the south-east to form the ASI.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A second mixture, between Indus Periphery-related people and steppe-pastoralist-descended people arriving via Central Asia, formed the ANI.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The ASI and ANI then mixed with each other to form the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Both the date and the percentages rest on stand-ins and a single group: the date on the Palliyar, and the proportions on the most Iranian-farmer-related individual of the Indus Periphery Cline for one part and Andamanese hunter-gatherer-related ancestry for the other.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so6",
+            "ev-narasimhan2019-so3",
+            "ev-narasimhan2019-so5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Each is a model-based estimate, not an observation.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        }
+      ]
+    },
+    "ani": {
+      "description": "A reconstructed population formed by mixing between Indus Periphery-related people and people carrying steppe-related ancestry, which has the same profile as that of Bronze Age eastern Europe.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Ancestral North Indians (ANI) are a reconstruction, not a sampled population. Neither they nor the Ancestral South Indians (ASI) are directly sampled, so Narasimhan and colleagues infer both by analysing ancient and present-day groups together. The study dates steppe-related ancestry in a time series of 117 individuals from the Swat Valley who lived between 1400 BCE and 1700 CE.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7",
+            "ev-narasimhan2019-so8"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "In the Swat time series, the steppe-related ancestry is dated to about 1900–1500 BCE, 26 generations before the individuals lived. A second date comes from the Kalash, a group whose admixture the study dates to 110 generations ago, give or take 12. Outlier individuals in Turan, dated to about 2100–1500 BCE, carry steppe pastoralist-derived ancestry in mixed form.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8",
+            "ev-narasimhan2019-so10"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The study describes a Steppe Cline, a gradient that runs from a point on the Indus Periphery Cline to a mixture of about 41 percent steppe-related ancestry and 59 percent from an Indus Periphery subgroup rich in Iranian-related ancestry. So at its steppe end the cline carries a little over two-fifths steppe-related ancestry, modelled with a Middle to Late Bronze Age steppe source called Central Steppe MLBA.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The steppe-related ancestry is carried by people described as steppe-pastoralist-descended, who arrived via Central Asia after about 4000 years ago. Later steppe-derived groups such as Scythians, Sarmatians, Kushans and Huns cannot be major sources of South Asia’s steppe ancestry, the study argues, because they carry too much East Asian-related ancestry. The ANI then mixed with the ASI to form the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-so10",
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The steppe-related ancestry did not enter in the same way in every place and period. In Late Bronze Age and Iron Age Swat individuals it makes up 5 percent of Y chromosomes against 20 percent of the rest of the genome, which indicates that it entered largely through females there. In present-day South Asians the Y chromosome carries an excess of it, and the authors conclude that sex bias varied by place and time.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so9"
+          ]
+        }
+      ],
+      "caveats": [
+        "The dates on the timeline are a window chosen for the map, not a dated lifespan."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A reconstructed population formed by mixing between Indus Periphery-related people and people carrying steppe-related ancestry, which has the same profile as that of Bronze Age eastern Europe.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Ancestral North Indians (ANI) are a reconstruction, not a sampled population.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Neither they nor the Ancestral South Indians (ASI) are directly sampled, so Narasimhan and colleagues infer both by analysing ancient and present-day groups together.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The study dates steppe-related ancestry in a time series of 117 individuals from the Swat Valley who lived between 1400 BCE and 1700 CE.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "In the Swat time series, the steppe-related ancestry is dated to about 1900–1500 BCE, 26 generations before the individuals lived.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "A second date comes from the Kalash, a group whose admixture the study dates to 110 generations ago, give or take 12.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Outlier individuals in Turan, dated to about 2100–1500 BCE, carry steppe pastoralist-derived ancestry in mixed form.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so10"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study describes a Steppe Cline, a gradient that runs from a point on the Indus Periphery Cline to a mixture of about 41 percent steppe-related ancestry and 59 percent from an Indus Periphery subgroup rich in Iranian-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "So at its steppe end the cline carries a little over two-fifths steppe-related ancestry, modelled with a Middle to Late Bronze Age steppe source called Central Steppe MLBA.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so8",
+            "ev-narasimhan2019-5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The steppe-related ancestry is carried by people described as steppe-pastoralist-descended, who arrived via Central Asia after about 4000 years ago.",
+          "evidence_ids": [
+            "ev-narasimhan2019-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Later steppe-derived groups such as Scythians, Sarmatians, Kushans and Huns cannot be major sources of South Asia’s steppe ancestry, the study argues, because they carry too much East Asian-related ancestry.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so10"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The ANI then mixed with the ASI to form the Modern Indian Cline.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The steppe-related ancestry did not enter in the same way in every place and period.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so9"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "In Late Bronze Age and Iron Age Swat individuals it makes up 5 percent of Y chromosomes against 20 percent of the rest of the genome, which indicates that it entered largely through females there.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so9"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "In present-day South Asians the Y chromosome carries an excess of it, and the authors conclude that sex bias varied by place and time.",
+          "evidence_ids": [
+            "ev-narasimhan2019-so9"
+          ]
+        }
+      ]
+    },
+    "botai": {
+      "description": "Copper Age people of northern Kazakhstan whose culture shows the earliest unambiguous evidence for horse husbandry. Their DNA traces to hunter-gatherers deeply diverged from the Yamnaya, which bears on who first kept horses.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Botai is an archaeological culture, and the evidence for the people behind it is three Copper Age individuals from northern Kazakhstan, who lived around 3500–3300 BCE. One genome was sequenced at 13.6-fold coverage, meaning each position was read nearly 14 times on average, and two at lower coverage. The earliest unambiguous evidence for horse husbandry comes from Botai, around 3500–3000 BCE, so these individuals overlap with the period when the practice first appears.",
+          "evidence_ids": [
+            "ev-damgaard2018-st1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The model suggests the Botai and Yamnaya lineages diverged about 15,000 years ago, and it finds gene flow between them not significantly different from zero. Botai also show no sign of Caucasus hunter-gatherer ancestry, which Yamnaya carry. Their Y chromosomes, passed from father to son, point the same way: the two men carry lineages (N and R1b1a1) that are not found in Yamnaya males, who carry other R1b lineages. As for what the ancestry is made of, population-history modelling places Botai, central steppe and Okunevo groups on a deeply separated branch, best fitted as a mixture of ancient North Eurasian (ANE) ancestry and an Ancient East Asian component that mixed around 5000 BCE.",
+          "evidence_ids": [
+            "ev-damgaard2018-st3",
+            "ev-damgaard2018-st4",
+            "ev-damgaard2018-st2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The authors see continuity in Central Asia from the Upper Palaeolithic, the later part of the Old Stone Age, to the end of the Copper Age. Hunter-gatherers descended from Palaeolithic ancestors persisted there largely isolated after the Yamnaya and Afanasievo expansions, which fits the lack of detectable Yamnaya gene flow in the Botai genomes.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5",
+            "ev-damgaard2018-st3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Who first domesticated the horse is disputed. The authors favour domestication by hunter-gatherers, although some propose that Botai learned it from western pastoralists. Ancestry alone cannot show where the knowledge came from, and three individuals may not capture the variation within the wider Botai community.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5",
+            "ev-damgaard2018-st1"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map shows only the three sampled individuals, so its footprint marks where they were found, not the extent of the culture."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Copper Age people of northern Kazakhstan whose culture shows the earliest unambiguous evidence for horse husbandry.",
+          "evidence_ids": [
+            "ev-damgaard2018-st1",
+            "ev-damgaard2018-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their DNA traces to hunter-gatherers deeply diverged from the Yamnaya, which bears on who first kept horses.",
+          "evidence_ids": [
+            "ev-damgaard2018-1",
+            "ev-damgaard2018-st5"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Botai is an archaeological culture, and the evidence for the people behind it is three Copper Age individuals from northern Kazakhstan, who lived around 3500–3300 BCE.",
+          "evidence_ids": [
+            "ev-damgaard2018-st1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "One genome was sequenced at 13.6-fold coverage, meaning each position was read nearly 14 times on average, and two at lower coverage.",
+          "evidence_ids": [
+            "ev-damgaard2018-st1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The earliest unambiguous evidence for horse husbandry comes from Botai, around 3500–3000 BCE, so these individuals overlap with the period when the practice first appears.",
+          "evidence_ids": [
+            "ev-damgaard2018-st1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The model suggests the Botai and Yamnaya lineages diverged about 15,000 years ago, and it finds gene flow between them not significantly different from zero.",
+          "evidence_ids": [
+            "ev-damgaard2018-st3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Botai also show no sign of Caucasus hunter-gatherer ancestry, which Yamnaya carry.",
+          "evidence_ids": [
+            "ev-damgaard2018-st3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their Y chromosomes, passed from father to son, point the same way: the two men carry lineages (N and R1b1a1) that are not found in Yamnaya males, who carry other R1b lineages.",
+          "evidence_ids": [
+            "ev-damgaard2018-st4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "As for what the ancestry is made of, population-history modelling places Botai, central steppe and Okunevo groups on a deeply separated branch, best fitted as a mixture of ancient North Eurasian (ANE) ancestry and an Ancient East Asian component that mixed around 5000 BCE.",
+          "evidence_ids": [
+            "ev-damgaard2018-st2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The authors see continuity in Central Asia from the Upper Palaeolithic, the later part of the Old Stone Age, to the end of the Copper Age.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Hunter-gatherers descended from Palaeolithic ancestors persisted there largely isolated after the Yamnaya and Afanasievo expansions, which fits the lack of detectable Yamnaya gene flow in the Botai genomes.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5",
+            "ev-damgaard2018-st3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Who first domesticated the horse is disputed.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The authors favour domestication by hunter-gatherers, although some propose that Botai learned it from western pastoralists.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Ancestry alone cannot show where the knowledge came from, and three individuals may not capture the variation within the wider Botai community.",
+          "evidence_ids": [
+            "ev-damgaard2018-st5",
+            "ev-damgaard2018-st1"
+          ]
+        }
+      ]
+    },
+    "xiongnu-period": {
+      "description": "Sixty individuals from across Mongolia dated to the era of the Xiongnu empire, about 200 BCE–100 CE. Their genomes show a mixture of earlier Mongolian and surrounding populations, and the era brought together the gene pools of western and eastern Mongolia.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Xiongnu-period is a label of date and place, not of identity: it gathers individuals from Mongolia who lived in the era of the Xiongnu empire. Their genomes describe those individuals, and by themselves say nothing about who belonged to the Xiongnu polity.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-3"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Thirteen of the 60 predate 100 BCE, and most of the 60 date after 50 BCE. The early 13 include 12 from northern frontier sites (Salkhityn Am and Atsyn Gol) and one from eastern Mongolia. The sample therefore covers the later part of the era more fully, and the early part from a narrow part of the country.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The individuals do not share a single ancestry, and the variety grows through the era. About half of the 13 earliest form a cluster that resembles the earlier group the study labels Chandman_IA, modelled as about 92 percent that group plus Iranian-related ancestry. The other six fall between that cluster and the Ulaanzuukh Slab Grave cluster. Among the 47 later individuals about half fit the same processes, 11 resemble Sarmatian-related groups of the western steppe, and 8 show eastern affinity, six of them modelled as a mixture of Ulaanzuukh Slab Grave and Han ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A pastoralist expansion reached Mongolia around 3000 BCE, and by the Late Bronze Age three genetically distinct groups there all practised dairy pastoralism, whatever their ancestry. After the Xiongnu era, the 22 Early Medieval individuals (one from a Xianbei or Rouran-period context, eight from Turkic and 13 from Uyghur contexts) have profiles that differ from the Xiongnu period, which suggests that ancestry from new sources entered Mongolia. Mongol-period individuals then show much higher eastern Eurasian ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-2",
+            "ev-jeong2020-ea4",
+            "ev-jeong2020-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "With the earliest individuals nearly all from the northern frontier, it is unclear whether the early cluster typifies Mongolia or only that frontier. The study names profiles by the sampled groups they resemble, such as Sarmatian-related or Han-related, so the labels show similarity, not who these individuals were.",
+          "evidence_ids": [
+            "ev-jeong2020-ea3",
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea2"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map plots every individual whose dataset group label names the Xiongnu period, so its count and date range differ from the study’s 60 individuals dated about 200 BCE–100 CE."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Sixty individuals from across Mongolia dated to the era of the Xiongnu empire, about 200 BCE–100 CE.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their genomes show a mixture of earlier Mongolian and surrounding populations, and the era brought together the gene pools of western and eastern Mongolia.",
+          "evidence_ids": [
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Xiongnu-period is a label of date and place, not of identity: it gathers individuals from Mongolia who lived in the era of the Xiongnu empire.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their genomes describe those individuals, and by themselves say nothing about who belonged to the Xiongnu polity.",
+          "evidence_ids": [
+            "ev-jeong2020-3",
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Thirteen of the 60 predate 100 BCE, and most of the 60 date after 50 BCE.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea3"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The early 13 include 12 from northern frontier sites (Salkhityn Am and Atsyn Gol) and one from eastern Mongolia.",
+          "evidence_ids": [
+            "ev-jeong2020-ea3"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The sample therefore covers the later part of the era more fully, and the early part from a narrow part of the country.",
+          "evidence_ids": [
+            "ev-jeong2020-ea3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The individuals do not share a single ancestry, and the variety grows through the era.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1",
+            "ev-jeong2020-ea2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "About half of the 13 earliest form a cluster that resembles the earlier group the study labels Chandman_IA, modelled as about 92 percent that group plus Iranian-related ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The other six fall between that cluster and the Ulaanzuukh Slab Grave cluster.",
+          "evidence_ids": [
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Among the 47 later individuals about half fit the same processes, 11 resemble Sarmatian-related groups of the western steppe, and 8 show eastern affinity, six of them modelled as a mixture of Ulaanzuukh Slab Grave and Han ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-ea2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A pastoralist expansion reached Mongolia around 3000 BCE, and by the Late Bronze Age three genetically distinct groups there all practised dairy pastoralism, whatever their ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "After the Xiongnu era, the 22 Early Medieval individuals (one from a Xianbei or Rouran-period context, eight from Turkic and 13 from Uyghur contexts) have profiles that differ from the Xiongnu period, which suggests that ancestry from new sources entered Mongolia.",
+          "evidence_ids": [
+            "ev-jeong2020-ea4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Mongol-period individuals then show much higher eastern Eurasian ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "With the earliest individuals nearly all from the northern frontier, it is unclear whether the early cluster typifies Mongolia or only that frontier.",
+          "evidence_ids": [
+            "ev-jeong2020-ea3",
+            "ev-jeong2020-ea1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The study names profiles by the sampled groups they resemble, such as Sarmatian-related or Han-related, so the labels show similarity, not who these individuals were.",
+          "evidence_ids": [
+            "ev-jeong2020-ea2",
+            "ev-jeong2020-ea1"
+          ]
+        }
+      ]
+    },
+    "mongol-period": {
+      "description": "Individuals from Mongolia in the Mongol era whose genomes carry much more eastern Eurasian ancestry than those of the Xiongnu period. The authors read this period as the beginning of the formation of the modern Mongolian gene pool.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The study analysed 62 Mongol-era individuals whose burials are consistent with low-level local elites. It included no royal or regional elite burials and none from the capital Karakorum, so the sample leaves out royal burials, regional elite burials and the capital. The label records a date and a place, not an identity.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "As a group, the individuals fit a three-way model: Ulaanzuukh Slab Grave ancestry makes up 55–64 percent, roughly three-fifths, Han-related ancestry 21–27 percent, about a quarter, and Western Steppe (Alan or Sarmatian) ancestry 15–18 percent, about a sixth. The model explains 56 of the 61 individuals tested. They almost lack the residual ancient North Eurasian-related ancestry of earlier groups.",
+          "evidence_ids": [
+            "ev-jeong2020-ea6"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The Xiongnu-era individuals were more varied: some resemble Sarmatian-related groups of the western steppe, and six are modelled as Ulaanzuukh Slab Grave plus Han. The Mongol-era group is less varied than they are. The authors report that Mongol-era individuals resemble present-day Mongolic-speaking populations.",
+          "evidence_ids": [
+            "ev-jeong2020-ea2",
+            "ev-jeong2020-ea6",
+            "ev-jeong2020-ea7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Because the sample is low-level local elites, it cannot show whether others in Mongol-era society, commoners or royals, shared this ancestry. The resemblance to people alive today is a similarity in ancestry, not a demonstrated line of descent.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5",
+            "ev-jeong2020-ea7"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map plots every individual whose dataset group label includes LateMedieval, which is how the dataset marks the Mongol period; some labels also name earlier periods, so its count and date range differ from the study’s 62 individuals."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Individuals from Mongolia in the Mongol era whose genomes carry much more eastern Eurasian ancestry than those of the Xiongnu period.",
+          "evidence_ids": [
+            "ev-jeong2020-3"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The authors read this period as the beginning of the formation of the modern Mongolian gene pool.",
+          "evidence_ids": [
+            "ev-jeong2020-ea7"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The study analysed 62 Mongol-era individuals whose burials are consistent with low-level local elites.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "It included no royal or regional elite burials and none from the capital Karakorum, so the sample leaves out royal burials, regional elite burials and the capital.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The label records a date and a place, not an identity.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "As a group, the individuals fit a three-way model: Ulaanzuukh Slab Grave ancestry makes up 55–64 percent, roughly three-fifths, Han-related ancestry 21–27 percent, about a quarter, and Western Steppe (Alan or Sarmatian) ancestry 15–18 percent, about a sixth.",
+          "evidence_ids": [
+            "ev-jeong2020-ea6"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The model explains 56 of the 61 individuals tested.",
+          "evidence_ids": [
+            "ev-jeong2020-ea6"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "They almost lack the residual ancient North Eurasian-related ancestry of earlier groups.",
+          "evidence_ids": [
+            "ev-jeong2020-ea6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Xiongnu-era individuals were more varied: some resemble Sarmatian-related groups of the western steppe, and six are modelled as Ulaanzuukh Slab Grave plus Han.",
+          "evidence_ids": [
+            "ev-jeong2020-ea2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Mongol-era group is less varied than they are.",
+          "evidence_ids": [
+            "ev-jeong2020-ea6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The authors report that Mongol-era individuals resemble present-day Mongolic-speaking populations.",
+          "evidence_ids": [
+            "ev-jeong2020-ea7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Because the sample is low-level local elites, it cannot show whether others in Mongol-era society, commoners or royals, shared this ancestry.",
+          "evidence_ids": [
+            "ev-jeong2020-ea5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The resemblance to people alive today is a similarity in ancestry, not a demonstrated line of descent.",
+          "evidence_ids": [
+            "ev-jeong2020-ea7"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [
+    "indus-periphery: why Gonur and Shahr-i-Sokhta count as the IVC's periphery (cultural contact, location relative to the IVC heartland), and what makes the eleven individuals 'outliers' (compared with whom at their sites).",
+    "indus-periphery: the radiocarbon or archaeological date of the Rakhigarhi individual I6113 itself (the evidence gives only the mature IVC range, 2600–1900 BCE).",
+    "indus-periphery: the content of the six circumstantial lines of evidence Narasimhan et al. 2019 offer for the cline being widespread in the IVC."
+  ],
+  "concerns": []
+}

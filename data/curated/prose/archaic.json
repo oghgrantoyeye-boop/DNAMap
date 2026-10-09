@@ -1,0 +1,790 @@
+{
+  "group": "archaic",
+  "populations": {
+    "neandertals": {
+      "description": "The archaic humans whose DNA survives in present-day people outside Africa. Genomes from the Altai, Croatia and the Caucasus suggest small populations and show which Neandertals were closest to those who mixed with the ancestors of non-Africans.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Neandertal genomes suggest that Neandertals lived in small populations. A woman from Vindija Cave in Croatia, whose genome was read to about 30-fold coverage (each position sequenced about 30 times), carries 1.6 differences per 10,000 base pairs between her two genome copies, one from each parent, fewer than present-day people do. The parents of a Neandertal woman from the Altai were related at about the level of half siblings, and close-kin mating was common among her recent ancestors.",
+          "evidence_ids": [
+            "ev-prufer2017-ar1",
+            "ev-prufer2014-ar1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The sequenced Neandertals are spread across Eurasia: the Altai, Vindija Cave in Croatia, and Mezmaiskaya in the Caucasus, where the individual was sequenced at low coverage. Estimated from the genomes themselves, the Altai woman lived about 122,000 years ago and the Vindija woman about 52,000, some 70,000 years apart. The Vindija bone itself is dated to beyond 45,500 years ago.",
+          "evidence_ids": [
+            "ev-prufer2014-ar1",
+            "ev-prufer2017-ar1",
+            "ev-prufer2017-ar2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Neandertals who mixed with the ancestors of non-Africans were closer relatives of the Vindija and Mezmaiskaya Neandertals than of the Altai Neandertal. That mattered in practice: measuring against the closer Vindija genome allowed 10–20% more Neandertal DNA to be identified in present-day humans than the Altai genome had.",
+          "evidence_ids": [
+            "ev-prufer2017-1",
+            "ev-prufer2014-2",
+            "ev-prufer2017-ar2",
+            "ev-prufer2017-ar3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Neandertals and Denisovans share a common origin, and the two groups also exchanged DNA: gene flow from Neandertals is estimated to make up at least about 0.5% of the Denisovan genome. Most Neandertal ancestry in people today traces to a single extended period of gene flow between 50,500 and 43,500 years ago, from one Neandertal group or closely related ones, and natural selection for and against Neandertal variants mostly acted immediately afterwards. Among the first modern humans in Europe, three individuals from Bacho Kiro Cave in Bulgaria each had a Neandertal ancestor only a few generations back; so did Oase 1 from Romania, four to six generations back.",
+          "evidence_ids": [
+            "ev-reich2010-ar1",
+            "ev-prufer2014-3",
+            "ev-iasi2024-ar1",
+            "ev-hajdinjak2021-ar1",
+            "ev-fu2015-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Whether Neandertal ancestry fell over time in later Europeans is disputed. A 2016 study found Neandertal ancestry in European individuals falling from 3–6% in the earliest to about 2% over 45,000–7,000 years ago. A 2023 study, with medium confidence, finds no substantial decrease in most European hunter-gatherers through time and supports a model with no long-term decline after the mixing.",
+          "evidence_ids": [
+            "ev-fu2016-1",
+            "ev-posth2023-ar1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The archaic humans whose DNA survives in present-day people outside Africa.",
+          "evidence_ids": [
+            "ev-green2010-1",
+            "ev-prufer2014-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Genomes from the Altai, Croatia and the Caucasus suggest small populations and show which Neandertals were closest to those who mixed with the ancestors of non-Africans.",
+          "evidence_ids": [
+            "ev-prufer2014-ar1",
+            "ev-prufer2017-ar1",
+            "ev-prufer2017-ar2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Neandertal genomes suggest that Neandertals lived in small populations.",
+          "evidence_ids": [
+            "ev-prufer2017-ar1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A woman from Vindija Cave in Croatia, whose genome was read to about 30-fold coverage (each position sequenced about 30 times), carries 1.6 differences per 10,000 base pairs between her two genome copies, one from each parent, fewer than present-day people do.",
+          "evidence_ids": [
+            "ev-prufer2017-ar1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The parents of a Neandertal woman from the Altai were related at about the level of half siblings, and close-kin mating was common among her recent ancestors.",
+          "evidence_ids": [
+            "ev-prufer2014-ar1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The sequenced Neandertals are spread across Eurasia: the Altai, Vindija Cave in Croatia, and Mezmaiskaya in the Caucasus, where the individual was sequenced at low coverage.",
+          "evidence_ids": [
+            "ev-prufer2014-ar1",
+            "ev-prufer2017-ar1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Estimated from the genomes themselves, the Altai woman lived about 122,000 years ago and the Vindija woman about 52,000, some 70,000 years apart.",
+          "evidence_ids": [
+            "ev-prufer2017-ar2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Vindija bone itself is dated to beyond 45,500 years ago.",
+          "evidence_ids": [
+            "ev-prufer2017-ar1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Neandertals who mixed with the ancestors of non-Africans were closer relatives of the Vindija and Mezmaiskaya Neandertals than of the Altai Neandertal.",
+          "evidence_ids": [
+            "ev-prufer2017-1",
+            "ev-prufer2014-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "That mattered in practice: measuring against the closer Vindija genome allowed 10–20% more Neandertal DNA to be identified in present-day humans than the Altai genome had.",
+          "evidence_ids": [
+            "ev-prufer2017-ar2",
+            "ev-prufer2017-ar3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Neandertals and Denisovans share a common origin, and the two groups also exchanged DNA: gene flow from Neandertals is estimated to make up at least about 0.5% of the Denisovan genome.",
+          "evidence_ids": [
+            "ev-reich2010-ar1",
+            "ev-prufer2014-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Most Neandertal ancestry in people today traces to a single extended period of gene flow between 50,500 and 43,500 years ago, from one Neandertal group or closely related ones, and natural selection for and against Neandertal variants mostly acted immediately afterwards.",
+          "evidence_ids": [
+            "ev-iasi2024-ar1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Among the first modern humans in Europe, three individuals from Bacho Kiro Cave in Bulgaria each had a Neandertal ancestor only a few generations back; so did Oase 1 from Romania, four to six generations back.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar1",
+            "ev-fu2015-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether Neandertal ancestry fell over time in later Europeans is disputed.",
+          "evidence_ids": [
+            "ev-fu2016-1",
+            "ev-posth2023-ar1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2016 study found Neandertal ancestry in European individuals falling from 3–6% in the earliest to about 2% over 45,000–7,000 years ago.",
+          "evidence_ids": [
+            "ev-fu2016-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2023 study, with medium confidence, finds no substantial decrease in most European hunter-gatherers through time and supports a model with no long-term decline after the mixing.",
+          "evidence_ids": [
+            "ev-posth2023-ar1"
+          ]
+        }
+      ]
+    },
+    "denisovans": {
+      "description": "An archaic human group, related to Neandertals, revealed by the genome of a finger bone. Their DNA survives in people living today across Asia and Oceania.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The finger bone's genome, first sequenced to about 1.9-fold coverage (each position read about twice on average), came from a group that shares a common origin with Neandertals but was not involved in the Neandertal gene flow into Eurasians. Researchers named the group the Denisovans. A tooth with a very similar mitochondrial genome, the small genome inherited through the mother, shows no derived features shared with Neandertals or modern humans.",
+          "evidence_ids": [
+            "ev-reich2010-ar1",
+            "ev-reich2010-1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The sampled Denisovan genome comes from a finger bone in Denisova Cave in the Altai. Estimated from the genome itself, the Denisovan lived about 72,000 years ago. The timing of mixing with modern humans comes from the DNA of people alive today. In a 2016 study the number of candidate Denisovan stretches of DNA in a person tracks that person's Australo-Papuan ancestry, the ancestry shared by Aboriginal Australians and Papuans, almost perfectly, and the study's model estimates a Denisovan pulse, a brief episode of mixing, at 31,000–50,000 years ago.",
+          "evidence_ids": [
+            "ev-reich2010-1",
+            "ev-prufer2017-ar2",
+            "ev-malaspinas2016-so2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Denisovans carried DNA from other groups themselves. Gene flow from Neandertals is estimated to make up at least about 0.5% of the Denisovan genome. A high-coverage Denisovan genome of about 30-fold, compared with Neandertal genomes, indicates gene flow among Neandertals, Denisovans and early modern humans, possibly including gene flow into Denisovans from an unknown archaic group.",
+          "evidence_ids": [
+            "ev-prufer2014-3",
+            "ev-prufer2014-ar2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Denisovan DNA is found in people far from the cave. Denisovan-like segments occur in present-day Han, Dai, Karitiana and Mixe genomes as well as in Oceania. The first estimate put Denisovan-related ancestry at 4–6% of present-day Melanesians, and Aboriginal Australians and Papuans carry more Denisovan-derived stretches of DNA than other non-Africans. The Ayta Magbukon of the Philippines carry about 30–40% more Denisovan ancestry than Australians and Papuans.",
+          "evidence_ids": [
+            "ev-prufer2014-ar2",
+            "ev-reich2010-3",
+            "ev-malaspinas2016-2",
+            "ev-larena2021-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "How many Denisovan groups mixed with modern humans is not settled. A study of 5,639 present-day genomes finds that Denisovan ancestry in East and South Asia and in Papuans has two components that resemble the Altai Denisovan to different degrees, which indicates at least two episodes of mixing, so the Altai individual is not shown to be the source of either. The higher share carried by the Ayta Magbukon is consistent with a separate episode, and a low-confidence 2016 model has Aboriginal Australians and Papuans diverging from Eurasians 51,000–72,000 years ago and then mixing with different archaic populations.",
+          "evidence_ids": [
+            "ev-browning2018-ar1",
+            "ev-larena2021-1",
+            "ev-browning2018-2",
+            "ev-malaspinas2016-ar1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "An archaic human group, related to Neandertals, revealed by the genome of a finger bone.",
+          "evidence_ids": [
+            "ev-reich2010-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their DNA survives in people living today across Asia and Oceania.",
+          "evidence_ids": [
+            "ev-prufer2014-ar2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The finger bone's genome, first sequenced to about 1.9-fold coverage (each position read about twice on average), came from a group that shares a common origin with Neandertals but was not involved in the Neandertal gene flow into Eurasians.",
+          "evidence_ids": [
+            "ev-reich2010-ar1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Researchers named the group the Denisovans.",
+          "evidence_ids": [
+            "ev-reich2010-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A tooth with a very similar mitochondrial genome, the small genome inherited through the mother, shows no derived features shared with Neandertals or modern humans.",
+          "evidence_ids": [
+            "ev-reich2010-ar1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The sampled Denisovan genome comes from a finger bone in Denisova Cave in the Altai.",
+          "evidence_ids": [
+            "ev-reich2010-1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Estimated from the genome itself, the Denisovan lived about 72,000 years ago.",
+          "evidence_ids": [
+            "ev-prufer2017-ar2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The timing of mixing with modern humans comes from the DNA of people alive today.",
+          "evidence_ids": [
+            "ev-malaspinas2016-so2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "In a 2016 study the number of candidate Denisovan stretches of DNA in a person tracks that person's Australo-Papuan ancestry, the ancestry shared by Aboriginal Australians and Papuans, almost perfectly, and the study's model estimates a Denisovan pulse, a brief episode of mixing, at 31,000–50,000 years ago.",
+          "evidence_ids": [
+            "ev-malaspinas2016-so2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Denisovans carried DNA from other groups themselves.",
+          "evidence_ids": [
+            "ev-prufer2014-3",
+            "ev-prufer2014-ar2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Gene flow from Neandertals is estimated to make up at least about 0.5% of the Denisovan genome.",
+          "evidence_ids": [
+            "ev-prufer2014-3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A high-coverage Denisovan genome of about 30-fold, compared with Neandertal genomes, indicates gene flow among Neandertals, Denisovans and early modern humans, possibly including gene flow into Denisovans from an unknown archaic group.",
+          "evidence_ids": [
+            "ev-prufer2014-ar2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Denisovan DNA is found in people far from the cave.",
+          "evidence_ids": [
+            "ev-prufer2014-ar2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Denisovan-like segments occur in present-day Han, Dai, Karitiana and Mixe genomes as well as in Oceania.",
+          "evidence_ids": [
+            "ev-prufer2014-ar2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The first estimate put Denisovan-related ancestry at 4–6% of present-day Melanesians, and Aboriginal Australians and Papuans carry more Denisovan-derived stretches of DNA than other non-Africans.",
+          "evidence_ids": [
+            "ev-reich2010-3",
+            "ev-malaspinas2016-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Ayta Magbukon of the Philippines carry about 30–40% more Denisovan ancestry than Australians and Papuans.",
+          "evidence_ids": [
+            "ev-larena2021-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "How many Denisovan groups mixed with modern humans is not settled.",
+          "evidence_ids": [
+            "ev-browning2018-ar1",
+            "ev-larena2021-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A study of 5,639 present-day genomes finds that Denisovan ancestry in East and South Asia and in Papuans has two components that resemble the Altai Denisovan to different degrees, which indicates at least two episodes of mixing, so the Altai individual is not shown to be the source of either.",
+          "evidence_ids": [
+            "ev-browning2018-ar1",
+            "ev-browning2018-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The higher share carried by the Ayta Magbukon is consistent with a separate episode, and a low-confidence 2016 model has Aboriginal Australians and Papuans diverging from Eurasians 51,000–72,000 years ago and then mixing with different archaic populations.",
+          "evidence_ids": [
+            "ev-larena2021-1",
+            "ev-malaspinas2016-ar1"
+          ]
+        }
+      ]
+    },
+    "zlatykun-ranis": {
+      "description": "A small, closely related group of early modern humans from Ranis in Germany and Zlatý kůň in Czechia, about 45,000 years ago. They are the earliest branch of the out-of-Africa population sampled so far, and show no continuity with later Europeans.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The individuals form one closely related population. The 2025 study identified six individuals at Ranis, in the Ilsenhöhle cave, including a mother and her daughter, and found that distant relatives link the Zlatý kůň skull to people at Ranis, at the fifth or sixth degree of kinship. The data are one Ranis genome read to 24-fold coverage, one from Zlatý kůň at 20-fold, and five more Ranis genomes at low coverage. Together they are modelled as a small population, with an effective size (a measure of genetic diversity rather than a head count) of around 300, about 160 in the last 15 generations.",
+          "evidence_ids": [
+            "ev-sumer2024-1",
+            "ev-sumer2024-ar3",
+            "ev-sumer2024-ar4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their Neandertal ancestry comes from the mixing shared by all non-Africans, which the 2025 study dates to 45,000–49,000 years ago. Unlike Oase 1 and four Bacho Kiro individuals, who had Neandertal ancestors within the last 10–20 generations, no such evidence has been found for the Zlatý kůň individual. Two Ranis men carry the Y-chromosome lineage NO (K2a), the same paternal lineage as the Ust'-Ishim man.",
+          "evidence_ids": [
+            "ev-sumer2024-2",
+            "ev-sumer2024-ar2",
+            "ev-sumer2024-ar5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The Zlatý kůň/Ranis population is the earliest sampled branch of the population that left Africa and received Neandertal gene flow: its common branch splits off earlier than the lineage leading to Bacho Kiro and Ust'-Ishim. Later hunter-gatherers carry no detectable contribution from it.",
+          "evidence_ids": [
+            "ev-sumer2024-1",
+            "ev-sumer2024-ar5",
+            "ev-sumer2024-ar4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Ranis13 is dated by radiocarbon, but the Zlatý kůň skull could not be dated reliably this way, so its age comes from how much DNA it shares with relatives and from the length of its Neandertal segments. An earlier report of Zlatý kůň ancestry in Buran Kaya III individuals in Crimea could not be reproduced by the 2025 study, so any later trace of this lineage remains unconfirmed.",
+          "evidence_ids": [
+            "ev-sumer2024-ar4"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A small, closely related group of early modern humans from Ranis in Germany and Zlatý kůň in Czechia, about 45,000 years ago.",
+          "evidence_ids": [
+            "ev-sumer2024-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "They are the earliest branch of the out-of-Africa population sampled so far, and show no continuity with later Europeans.",
+          "evidence_ids": [
+            "ev-sumer2024-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The individuals form one closely related population.",
+          "evidence_ids": [
+            "ev-sumer2024-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The 2025 study identified six individuals at Ranis, in the Ilsenhöhle cave, including a mother and her daughter, and found that distant relatives link the Zlatý kůň skull to people at Ranis, at the fifth or sixth degree of kinship.",
+          "evidence_ids": [
+            "ev-sumer2024-ar3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The data are one Ranis genome read to 24-fold coverage, one from Zlatý kůň at 20-fold, and five more Ranis genomes at low coverage.",
+          "evidence_ids": [
+            "ev-sumer2024-ar3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Together they are modelled as a small population, with an effective size (a measure of genetic diversity rather than a head count) of around 300, about 160 in the last 15 generations.",
+          "evidence_ids": [
+            "ev-sumer2024-ar4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their Neandertal ancestry comes from the mixing shared by all non-Africans, which the 2025 study dates to 45,000–49,000 years ago.",
+          "evidence_ids": [
+            "ev-sumer2024-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Unlike Oase 1 and four Bacho Kiro individuals, who had Neandertal ancestors within the last 10–20 generations, no such evidence has been found for the Zlatý kůň individual.",
+          "evidence_ids": [
+            "ev-sumer2024-ar2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Two Ranis men carry the Y-chromosome lineage NO (K2a), the same paternal lineage as the Ust'-Ishim man.",
+          "evidence_ids": [
+            "ev-sumer2024-ar5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Zlatý kůň/Ranis population is the earliest sampled branch of the population that left Africa and received Neandertal gene flow: its common branch splits off earlier than the lineage leading to Bacho Kiro and Ust'-Ishim.",
+          "evidence_ids": [
+            "ev-sumer2024-1",
+            "ev-sumer2024-ar5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Later hunter-gatherers carry no detectable contribution from it.",
+          "evidence_ids": [
+            "ev-sumer2024-ar4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Ranis13 is dated by radiocarbon, but the Zlatý kůň skull could not be dated reliably this way, so its age comes from how much DNA it shares with relatives and from the length of its Neandertal segments.",
+          "evidence_ids": [
+            "ev-sumer2024-ar4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "An earlier report of Zlatý kůň ancestry in Buran Kaya III individuals in Crimea could not be reproduced by the 2025 study, so any later trace of this lineage remains unconfirmed.",
+          "evidence_ids": [
+            "ev-sumer2024-ar4"
+          ]
+        }
+      ]
+    },
+    "bacho-kiro-iup": {
+      "description": "Three individuals from Bacho Kiro Cave in Bulgaria, among the first modern humans in Europe. Each had a Neandertal ancestor only a few generations back, and all three are more closely related to later East Asians and Native Americans than to later western Eurasians.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These individuals come from Layers J and I of Bacho Kiro Cave, in direct association with an Initial Upper Palaeolithic (IUP) assemblage. The IUP is an archaeological label for assemblages that span southwest Asia to Mongolia. The three are dated to between about 45,900 and 42,600 years ago.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar4",
+            "ev-hajdinjak2021-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Each of the three carried 3.0–3.8% Neandertal DNA, well above the 1.9% average of other ancient or present-day humans. Because inherited Neandertal segments are cut shorter in every generation, the longest ones show how recent the contact was: they imply a Neandertal ancestor less than six generations back for one individual, F6‑620, and about seven for the other two, with upper limits of ten and seventeen generations.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Their branch of the out-of-Africa lineage splits off later than the Zlatý kůň/Ranis branch does. Admixture graphs, which are models of how populations branch and mix, suggest that they were related to populations that contributed ancestry to Tianyuan and, to a lesser degree, to Goyet Q116‑1 and Ust'-Ishim. A later individual from the same cave, BK1653, about 35,000 years old, is more like later Europeans and is among the oldest genomes carrying ancestry from the lineage leading to present-day Europeans.",
+          "evidence_ids": [
+            "ev-sumer2024-ar5",
+            "ev-hajdinjak2021-ar3",
+            "ev-posth2023-eh1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The group rests on three individuals from a single cave. Whether the IUP represents a dispersal of modern humans, the diffusion of technological ideas, independent invention or a combination is debated. In the admixture graphs, the extra affinity between Tianyuan and Goyet Q116‑1 needs no direct gene flow between the two, whereas the 2017 study that found that affinity concluded that early European and Asian populations did not separate in one clean step.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-1",
+            "ev-hajdinjak2021-ar4",
+            "ev-hajdinjak2021-ar3",
+            "ev-yang2017-1"
+          ]
+        }
+      ],
+      "caveats": [
+        "Only individuals from the Initial Upper Palaeolithic layers are counted in this group; the later Bacho Kiro individual BK1653 is not."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Three individuals from Bacho Kiro Cave in Bulgaria, among the first modern humans in Europe.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-1",
+            "ev-hajdinjak2021-ar1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Each had a Neandertal ancestor only a few generations back, and all three are more closely related to later East Asians and Native Americans than to later western Eurasians.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These individuals come from Layers J and I of Bacho Kiro Cave, in direct association with an Initial Upper Palaeolithic (IUP) assemblage.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The IUP is an archaeological label for assemblages that span southwest Asia to Mongolia.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The three are dated to between about 45,900 and 42,600 years ago.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-1",
+            "ev-hajdinjak2021-ar4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Each of the three carried 3.0–3.8% Neandertal DNA, well above the 1.9% average of other ancient or present-day humans.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Because inherited Neandertal segments are cut shorter in every generation, the longest ones show how recent the contact was: they imply a Neandertal ancestor less than six generations back for one individual, F6‑620, and about seven for the other two, with upper limits of ten and seventeen generations.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Their branch of the out-of-Africa lineage splits off later than the Zlatý kůň/Ranis branch does.",
+          "evidence_ids": [
+            "ev-sumer2024-ar5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Admixture graphs, which are models of how populations branch and mix, suggest that they were related to populations that contributed ancestry to Tianyuan and, to a lesser degree, to Goyet Q116‑1 and Ust'-Ishim.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A later individual from the same cave, BK1653, about 35,000 years old, is more like later Europeans and is among the oldest genomes carrying ancestry from the lineage leading to present-day Europeans.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar3",
+            "ev-posth2023-eh1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The group rests on three individuals from a single cave.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether the IUP represents a dispersal of modern humans, the diffusion of technological ideas, independent invention or a combination is debated.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "In the admixture graphs, the extra affinity between Tianyuan and Goyet Q116‑1 needs no direct gene flow between the two, whereas the 2017 study that found that affinity concluded that early European and Asian populations did not separate in one clean step.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar3",
+            "ev-yang2017-1"
+          ]
+        }
+      ]
+    },
+    "ust-ishim": {
+      "description": "A man who lived about 45,000 years ago in western Siberia. The Neandertal DNA in his genome comes in stretches longer than in people today, which shows how recently his ancestors had mixed with Neandertals.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Ust'-Ishim is a single man, known from a femur, a thigh bone, from the banks of the Irtysh river near Ust'-Ishim. The femur's radiocarbon date, once calibrated to calendar years, falls between 46,880 and 43,210 years ago. The genome sequenced from it is of high quality, and its heterozygosity, which measures how often a person's two genome copies differ, is closer to present-day Eurasians' than to Africans'.",
+          "evidence_ids": [
+            "ev-fu2014-ar1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "His genome carries about as much Neandertal DNA as present-day Eurasians do, but in much longer segments. Because inherited segments are cut shorter in every generation, longer ones mean less time has passed since the mixing, and his segments place the Neandertal gene flow 7,000–13,000 years before he lived. A 2025 analysis also finds signs of an additional, more recent Neandertal contribution about 30–50 generations before he lived.",
+          "evidence_ids": [
+            "ev-fu2014-ar2",
+            "ev-fu2014-2",
+            "ev-sumer2024-ar2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "He derives from the shared non-African population that received Neandertal gene flow; the 2014 study places that population before or around the separation of western and eastern Eurasians and does not say which. A deeper branch exists: the Zlatý kůň/Ranis lineage separates from the out-of-Africa lineage earlier than the one leading to him and to Bacho Kiro, and two Ranis men carry the Y-chromosome lineage NO (K2a), as he does. Neither he nor Oase 1 shows more affinity to western than to eastern Eurasians, which suggests that they contributed no ancestry to later Eurasians, and a 2023 study likewise finds that individuals from before about 40,000 years ago left no substantial trace in present-day Eurasians.",
+          "evidence_ids": [
+            "ev-fu2014-1",
+            "ev-fu2014-ar2",
+            "ev-sumer2024-ar5",
+            "ev-hajdinjak2021-ar5",
+            "ev-posth2023-eh1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A man who lived about 45,000 years ago in western Siberia.",
+          "evidence_ids": [
+            "ev-fu2014-1",
+            "ev-fu2014-ar1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The Neandertal DNA in his genome comes in stretches longer than in people today, which shows how recently his ancestors had mixed with Neandertals.",
+          "evidence_ids": [
+            "ev-fu2014-2",
+            "ev-fu2014-ar2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Ust'-Ishim is a single man, known from a femur, a thigh bone, from the banks of the Irtysh river near Ust'-Ishim.",
+          "evidence_ids": [
+            "ev-fu2014-ar1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The femur's radiocarbon date, once calibrated to calendar years, falls between 46,880 and 43,210 years ago.",
+          "evidence_ids": [
+            "ev-fu2014-ar1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The genome sequenced from it is of high quality, and its heterozygosity, which measures how often a person's two genome copies differ, is closer to present-day Eurasians' than to Africans'.",
+          "evidence_ids": [
+            "ev-fu2014-ar1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "His genome carries about as much Neandertal DNA as present-day Eurasians do, but in much longer segments.",
+          "evidence_ids": [
+            "ev-fu2014-ar2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Because inherited segments are cut shorter in every generation, longer ones mean less time has passed since the mixing, and his segments place the Neandertal gene flow 7,000–13,000 years before he lived.",
+          "evidence_ids": [
+            "ev-fu2014-2",
+            "ev-fu2014-ar2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2025 analysis also finds signs of an additional, more recent Neandertal contribution about 30–50 generations before he lived.",
+          "evidence_ids": [
+            "ev-sumer2024-ar2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "He derives from the shared non-African population that received Neandertal gene flow; the 2014 study places that population before or around the separation of western and eastern Eurasians and does not say which.",
+          "evidence_ids": [
+            "ev-fu2014-1",
+            "ev-fu2014-ar2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A deeper branch exists: the Zlatý kůň/Ranis lineage separates from the out-of-Africa lineage earlier than the one leading to him and to Bacho Kiro, and two Ranis men carry the Y-chromosome lineage NO (K2a), as he does.",
+          "evidence_ids": [
+            "ev-sumer2024-ar5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Neither he nor Oase 1 shows more affinity to western than to eastern Eurasians, which suggests that they contributed no ancestry to later Eurasians, and a 2023 study likewise finds that individuals from before about 40,000 years ago left no substantial trace in present-day Eurasians.",
+          "evidence_ids": [
+            "ev-hajdinjak2021-ar5",
+            "ev-posth2023-eh1"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [
+    "neandertals: A source for why the Fu 2016 and Posth 2023 results differ (method, sample, or reference), which would make the dispute explainable rather than only reported.",
+    "neandertals: Where the Altai Neandertal was found (Denisova Cave is not stated in the cited evidence) and the sites and ages of the other sequenced Neandertals on the map (Chagyrskaya, Goyet, Spy, Les Cottes, Mandrin); the evidence names only Altai, Vindija and Mezmaiskaya.",
+    "neandertals: When Neandertals first appear and when they last appear in the genetic record; the page has no beginning or end for the group.",
+    "denisovans: Dating of the Denisova Cave specimens: the evidence gives only a genome-based age of about 72,000 years for the sequenced Denisovan, and nothing for the finger bone, the tooth, or the Middle Pleistocene individual on the map.",
+    "denisovans: Where the tooth with the very similar mitochondrial genome was found, and which bone the 30-fold genome came from.",
+    "denisovans: Any evidence of where Denisovans lived beyond the Altai (fossils or archaeology), which the page cannot say at all.",
+    "denisovans: When the Denisovan contributions to East Asians and to the Ayta Magbukon happened (only a medium-confidence 31,000–50,000-year pulse for Australo-Papuan ancestry is available).",
+    "zlatykun-ranis: Ages of the individual Ranis genomes other than Ranis13, and the archaeological context of the Zlatý kůň skull.",
+    "zlatykun-ranis: What the Lincombian–Ranisian–Jerzmanowician assemblage (named in the archaeological_context block) is and why it matters; no cited evidence statement describes it.",
+    "zlatykun-ranis: Why the effective size of about 300 matters for how the group lived (for example, how many people it implies); the evidence gives only the modelled figure.",
+    "bacho-kiro-iup: What the IUP assemblage at Bacho Kiro consists of and how the layers were dated beyond the 45,930–42,580-year range; the evidence names only the layers (J and I).",
+    "bacho-kiro-iup: Individual ages and the nature of the remains for F6‑620, BB7-240 and CC7-335.",
+    "bacho-kiro-iup: Whether the Bacho Kiro IUP individuals left descendants in later Eurasians; the cited evidence relates them to East Asians and Native Americans but does not say how that ancestry travelled or whether it persisted in Europe.",
+    "ust-ishim: How the 7,000–13,000-year interval for the Neandertal gene flow was derived, and why it sits older than the 2024 and 2025 windows (see concerns).",
+    "ust-ishim: Site details for the femur (how and where it was found, any associated finds); the evidence says only that it comes from the banks of the Irtysh near Ust'-Ishim."
+  ],
+  "concerns": [
+    "neandertals: The genetic_profile block repeats the Vindija/Mezmaiskaya-closer-than-Altai finding and the sampled range; the new Ancestry section states the finding once more as the setup for its consequence. Consider dropping the block for this record.",
+    "denisovans: The map record 'Russia_DenisovaCave_MPleistocene' is sampled at about 198050 BCE (roughly 200,000 years ago); no evidence statement covers that individual, so the prose cannot describe it.",
+    "denisovans: ae-denisovan-australo-papuan uses a 4-6% estimate that the cited evidence (ev-reich2010-3) gives for present-day Melanesians, while the target population is 'australo-papuan-ancestors'; the match is loose.",
+    "denisovans: ev-malaspinas2016-ar1 ('subsequently admixed with different archaic populations') is ambiguous about what the archaic populations differ from; it is stored as low confidence and 'qualifies'.",
+    "denisovans: The genetic_profile block repeats the 'at least two Denisovan sources' finding that the What we cannot tell section reports with its evidence.",
+    "denisovans: The 'Altai' location of Denisova Cave is taken from the population record's region field, not from any cited evidence statement (ev-reich2010-1 says only 'Denisova Cave').",
+    "zlatykun-ranis: ev-sumer2024-ar2 says no recent Neandertal ancestor has been found for Zlaty kun (and Tianyuan) but is silent on Ranis individuals, so the Ancestry section limits the statement to the Zlatý kůň individual.",
+    "zlatykun-ranis: Evidence ids carry 'sumer2024' while the statements are attributed to Sümer et al. 2025; the prose says 2025, as the pilot does.",
+    "bacho-kiro-iup: The old prose said these were 'the earliest Late Pleistocene modern humans recovered in Europe' and 'a modern human migration into Europe not previously known from the genetic record'; neither is stated in the cited evidence, so both were dropped. The Ranis/Zlatý kůň individuals (about 45,000 years old) are of similar age, so any 'earliest' claim looks contested; the page says 'among the first'.",
+    "bacho-kiro-iup: The old prose named the Věstonice cluster as a later-European comparison for BK1653; ev-hajdinjak2021-ar3 says only 'more like later Europeans'.",
+    "bacho-kiro-iup: The genetic_profile block repeats the East Asian/Native American affinity that the description now states.",
+    "ust-ishim: ev-fu2014-2 puts the Neandertal gene flow 7,000–13,000 years before Ust'-Ishim lived. With the ~45,000-year date that is about 52,000–58,000 years ago, older than the 50,500–43,500 window of Iasi 2024 and the 49,000–45,000 window of Sümer 2025 used on other pages. The evidence does not say why; the pilot and this page report all three without reconciling them.",
+    "ust-ishim: The old prose said the gene-flow date 'depends on the mutation rate used'; no cited evidence statement says this, so it was dropped.",
+    "ust-ishim: The relationship ust-ishim <- non-african-ancestors is rated medium while both its evidence statements are high; the likely reason is the 'before or around' wording, which the prose now states directly."
+  ]
+}

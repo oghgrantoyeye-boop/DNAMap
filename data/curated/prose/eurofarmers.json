@@ -343,8 +343,634 @@
           ]
         }
       ]
+    },
+    "iberia-early-neolithic": {
+      "description": "Early farmers of the Iberian Peninsula, who carried mostly ancestry related to Anatolia's early farmers, with a smaller share from hunter-gatherers. Iberian Neolithic genomes also resemble those of Neolithic Britain, which suggests that farming travelled to Britain along the Mediterranean.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Iberia's early farmers were closely related to early farmers in Germany and Hungary, and distinct from local hunter-gatherers, in a 2015 study of people who lived between 8,000 and 7,000 years ago. Iberia's hunter-gatherers were themselves far from uniform: a 2019 study, which analyses 44 new Neolithic individuals from the peninsula, finds strong genetic differences between the northwest and the southeast before farming spread.",
+          "evidence_ids": [
+            "ev-haak2015-2",
+            "ev-olalde2019-nn1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Some of the hunter-gatherer ancestry in Iberia's early farmers may have been acquired along their migration route. Mixed ancestry is inherited in stretches that shorten with every generation, so their length dates the mixing: 5650 BCE on average for Early Neolithic Iberians, give or take 65 years. Farming is thought to have begun in Spain around 5500 BCE, which is later than that date.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The hunter-gatherer share kept rising after the Early Neolithic, to about 23 percent in the Middle Neolithic and about 27 percent in the Chalcolithic (Copper Age), according to a 2017 study; a 2015 study sees the same rise in Spain and Germany. The link continues into the Copper Age: in Iberians associated with the Bell Beaker complex, a set of pottery and other material traditions, the farmer-related ancestry fits Iberia's own Middle Neolithic and Copper Age populations best, not central or northern European ones. Farmers from the continent are modelled as reaching Britain by 3975–3722 BCE (95 percent interval), and British Neolithic genomes resemble Irish and Iberian ones more than central European ones, which fits farming reaching Britain and Ireland along the Mediterranean route.",
+          "evidence_ids": [
+            "ev-lipson2017-3",
+            "ev-lipson2017-2",
+            "ev-haak2015-3",
+            "ev-olalde2018-st2",
+            "ev-olalde2018-st5",
+            "ev-brace2019-4",
+            "ev-brace2019-nn1",
+            "ev-brace2019-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The mixing date shifts with the sample: using only the five oldest farmers moves it back to 5860 BCE. An estimate that moves like this leaves open how much hunter-gatherer ancestry arrived with the first farmers and how much was added in Iberia. The Mediterranean route to Britain is a similar kind of inference: genomes show that Iberian and British farmers resemble each other, not the path any of them took.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4",
+            "ev-brace2019-nn1",
+            "ev-brace2019-3"
+          ]
+        }
+      ],
+      "caveats": [
+        "The group pools the source labels Spain_EN and Portugal_EN_Cardial, so it mixes sites across the peninsula."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Early farmers of the Iberian Peninsula, who carried mostly ancestry related to Anatolia's early farmers, with a smaller share from hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5a",
+            "ev-lipson2017-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Iberian Neolithic genomes also resemble those of Neolithic Britain, which suggests that farming travelled to Britain along the Mediterranean.",
+          "evidence_ids": [
+            "ev-brace2019-3",
+            "ev-brace2019-nn1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Iberia's early farmers were closely related to early farmers in Germany and Hungary, and distinct from local hunter-gatherers, in a 2015 study of people who lived between 8,000 and 7,000 years ago.",
+          "evidence_ids": [
+            "ev-haak2015-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Iberia's hunter-gatherers were themselves far from uniform: a 2019 study, which analyses 44 new Neolithic individuals from the peninsula, finds strong genetic differences between the northwest and the southeast before farming spread.",
+          "evidence_ids": [
+            "ev-olalde2019-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Some of the hunter-gatherer ancestry in Iberia's early farmers may have been acquired along their migration route.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Mixed ancestry is inherited in stretches that shorten with every generation, so their length dates the mixing: 5650 BCE on average for Early Neolithic Iberians, give or take 65 years.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Farming is thought to have begun in Spain around 5500 BCE, which is later than that date.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The hunter-gatherer share kept rising after the Early Neolithic, to about 23 percent in the Middle Neolithic and about 27 percent in the Chalcolithic (Copper Age), according to a 2017 study; a 2015 study sees the same rise in Spain and Germany.",
+          "evidence_ids": [
+            "ev-lipson2017-3",
+            "ev-lipson2017-2",
+            "ev-haak2015-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The link continues into the Copper Age: in Iberians associated with the Bell Beaker complex, a set of pottery and other material traditions, the farmer-related ancestry fits Iberia's own Middle Neolithic and Copper Age populations best, not central or northern European ones.",
+          "evidence_ids": [
+            "ev-olalde2018-st2",
+            "ev-olalde2018-st5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Farmers from the continent are modelled as reaching Britain by 3975–3722 BCE (95 percent interval), and British Neolithic genomes resemble Irish and Iberian ones more than central European ones, which fits farming reaching Britain and Ireland along the Mediterranean route.",
+          "evidence_ids": [
+            "ev-brace2019-4",
+            "ev-brace2019-nn1",
+            "ev-brace2019-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The mixing date shifts with the sample: using only the five oldest farmers moves it back to 5860 BCE.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "An estimate that moves like this leaves open how much hunter-gatherer ancestry arrived with the first farmers and how much was added in Iberia.",
+          "evidence_ids": [
+            "ev-lipson2017-nn4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Mediterranean route to Britain is a similar kind of inference: genomes show that Iberian and British farmers resemble each other, not the path any of them took.",
+          "evidence_ids": [
+            "ev-brace2019-nn1",
+            "ev-brace2019-3"
+          ]
+        }
+      ]
+    },
+    "britain-neolithic": {
+      "description": "The genomes of Britain's Neolithic farmers show that farming arrived around 4000 BCE overwhelmingly through the immigration of farmers from continental Europe, and not mainly through local hunter-gatherers adopting it. Their ancestry was mostly related to Anatolia's early farmers, with small hunter-gatherer contributions.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Whether Neolithic practices reached Britain with migrants or were taken up by the hunter-gatherers already living there is the question these genomes help to answer. A 2019 study put it to 67 Neolithic individuals from Britain, setting them beside six Mesolithic individuals, hunter-gatherers from the period before farming; all six cluster with western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-brace2019-nn4",
+            "ev-brace2019-nn2"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The earliest Neolithic individual in the study, from McArthur Cave in Scotland, dates to 3951–3780 BCE. The study models continental farmers as arriving in Britain by 3975–3722 BCE (a 95 percent interval), close to the time Neolithic practices appear there, around 4000 BCE. The Mesolithic and Neolithic individuals together span 8500–2500 BCE.",
+          "evidence_ids": [
+            "ev-brace2019-nn2",
+            "ev-brace2019-4",
+            "ev-brace2019-nn4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In the authors' model the Anatolian-farmer-related share averages about 74 percent, leaving about a quarter from western hunter-gatherers. The authors find only low levels of mixing with Britain's own hunter-gatherers, and no later resurgence of hunter-gatherer ancestry. The study finds the share uneven across Britain: lowest in Wales, higher in south-west and central England, and higher again in south-east England and Scotland. In south-east England the elevated level is older and was probably acquired on the continent, and only the individuals from Raschoille Cave show recent mixing, within about 10 generations.",
+          "evidence_ids": [
+            "ev-brace2019-2",
+            "ev-brace2019-nn4",
+            "ev-brace2019-nn3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The farmers resemble Irish and Iberian Neolithic genomes more than central European ones, which fits farming reaching Britain and Ireland along the Mediterranean route. None of the 51 Neolithic individuals in a 2018 study had any steppe affinity, and the mix of farmer and hunter-gatherer ancestry stayed stable for roughly a millennium and a half, until about 2450 BCE. Then migrants bringing Beaker traditions, a distinctive set of pottery and other material, added a third, steppe-related component. The arrival of the Beaker complex was associated with the replacement of about 90 percent of Britain's gene pool within a few hundred years.",
+          "evidence_ids": [
+            "ev-brace2019-nn1",
+            "ev-brace2019-3",
+            "ev-olalde2018-st4",
+            "ev-patterson2022-st1",
+            "ev-olalde2018-4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The split between farmer and hunter-gatherer ancestry depends on the analysis: a 2022 study summarises earlier work as about 80 percent early-European-farmer and 20 percent western hunter-gatherer ancestry. Where the farmers' ancestors lived on the continent is not shown directly either. Resemblance to Iberian and Irish genomes points to a Mediterranean route, but a resemblance between genomes is not a record of a journey.",
+          "evidence_ids": [
+            "ev-patterson2022-st1",
+            "ev-brace2019-3",
+            "ev-brace2019-nn1"
+          ]
+        }
+      ],
+      "caveats": [
+        "Figures quoted from the 2019 study describe its own 67 Neolithic individuals, not every individual shown on the map.",
+        "Individuals are grouped by the source labels Scotland_N, England_N, England_EN, England_EN_Megalithic and Wales_N, so the group pools sites and centuries from across Britain."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The genomes of Britain's Neolithic farmers show that farming arrived around 4000 BCE overwhelmingly through the immigration of farmers from continental Europe, and not mainly through local hunter-gatherers adopting it.",
+          "evidence_ids": [
+            "ev-brace2019-nn4"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their ancestry was mostly related to Anatolia's early farmers, with small hunter-gatherer contributions.",
+          "evidence_ids": [
+            "ev-brace2019-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Whether Neolithic practices reached Britain with migrants or were taken up by the hunter-gatherers already living there is the question these genomes help to answer.",
+          "evidence_ids": [
+            "ev-brace2019-nn4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2019 study put it to 67 Neolithic individuals from Britain, setting them beside six Mesolithic individuals, hunter-gatherers from the period before farming; all six cluster with western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-brace2019-nn2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The earliest Neolithic individual in the study, from McArthur Cave in Scotland, dates to 3951–3780 BCE.",
+          "evidence_ids": [
+            "ev-brace2019-nn2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The study models continental farmers as arriving in Britain by 3975–3722 BCE (a 95 percent interval), close to the time Neolithic practices appear there, around 4000 BCE.",
+          "evidence_ids": [
+            "ev-brace2019-4",
+            "ev-brace2019-nn4"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Mesolithic and Neolithic individuals together span 8500–2500 BCE.",
+          "evidence_ids": [
+            "ev-brace2019-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In the authors' model the Anatolian-farmer-related share averages about 74 percent, leaving about a quarter from western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-brace2019-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The authors find only low levels of mixing with Britain's own hunter-gatherers, and no later resurgence of hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-brace2019-nn4",
+            "ev-brace2019-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study finds the share uneven across Britain: lowest in Wales, higher in south-west and central England, and higher again in south-east England and Scotland.",
+          "evidence_ids": [
+            "ev-brace2019-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In south-east England the elevated level is older and was probably acquired on the continent, and only the individuals from Raschoille Cave show recent mixing, within about 10 generations.",
+          "evidence_ids": [
+            "ev-brace2019-nn3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The farmers resemble Irish and Iberian Neolithic genomes more than central European ones, which fits farming reaching Britain and Ireland along the Mediterranean route.",
+          "evidence_ids": [
+            "ev-brace2019-nn1",
+            "ev-brace2019-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "None of the 51 Neolithic individuals in a 2018 study had any steppe affinity, and the mix of farmer and hunter-gatherer ancestry stayed stable for roughly a millennium and a half, until about 2450 BCE.",
+          "evidence_ids": [
+            "ev-olalde2018-st4",
+            "ev-patterson2022-st1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Then migrants bringing Beaker traditions, a distinctive set of pottery and other material, added a third, steppe-related component.",
+          "evidence_ids": [
+            "ev-patterson2022-st1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The arrival of the Beaker complex was associated with the replacement of about 90 percent of Britain's gene pool within a few hundred years.",
+          "evidence_ids": [
+            "ev-olalde2018-4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The split between farmer and hunter-gatherer ancestry depends on the analysis: a 2022 study summarises earlier work as about 80 percent early-European-farmer and 20 percent western hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-patterson2022-st1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where the farmers' ancestors lived on the continent is not shown directly either.",
+          "evidence_ids": [
+            "ev-brace2019-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Resemblance to Iberian and Irish genomes points to a Mediterranean route, but a resemblance between genomes is not a record of a journey.",
+          "evidence_ids": [
+            "ev-brace2019-3",
+            "ev-brace2019-nn1"
+          ]
+        }
+      ]
+    },
+    "trypillia-farmers": {
+      "description": "Farming groups of the Cucuteni–Trypillia culture, whose ancestry included only a little derived from the Caucasus and the lower Volga. The Usatove-associated people, by contrast, are modelled as a roughly equal mix of Trypillia-associated farmers and migrants related to that region.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "In the 2025 study's summary of earlier work, Cucuteni–Trypillia farming groups spread east across the Carpathians to the Dnipro Valley around 4800 BCE, with ancestry mainly derived from early European farmers plus some from western hunter-gatherers. The study adds a measurement: it samples 24 Trypillia individuals and models where their ancestry came from.",
+          "evidence_ids": [
+            "ev-nikitin2025-st1",
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "For 23 of the 24 sampled individuals, a model with three sources fits: on average about 81 percent from farmers of the Balkan Eneolithic (Copper Age), about 14 percent from Balkan hunter-gatherers and about 5 percent from the Caucasus–Lower Volga (CLV) cline. A cline is a gradual change in ancestry across geography, here between the Caucasus and the lower Volga. The authors date the mixing of these sources to 4595 BCE, with a 95 percent interval of 4832–4358 BCE.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Trypillia-associated farmers contributed about 55 percent of the ancestry of the Usatove-associated people, who are modelled as mixing them with an intermediate group from the CLV cline that supplied about 45 percent. CLV ancestry did not enter every community alike: some of its carriers, as at Giurgiulesti and Csongrad, advanced to the Balkans and the Carpathian region largely without mixing with people on the way, while Usatove took in far more of it than Trypillia.",
+          "evidence_ids": [
+            "ev-nikitin2025-st3",
+            "ev-nikitin2025-3",
+            "ev-nikitin2025-st6"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "How the Usatove mixing happened is untested. The authors suggest a trading outpost in the Danube–Dniester delta, a coexisting 'commonwealth' of cultures, or Trypillia farmers under dominance by CLV-related groups, and the DNA does not choose between them. One of the 24 sampled Trypillia individuals does not fit the three-source model, and the percentages are averages from a statistical model, not measurements of any one person.",
+          "evidence_ids": [
+            "ev-nikitin2025-st4",
+            "ev-nikitin2025-st2"
+          ]
+        }
+      ],
+      "caveats": [
+        "Individuals are grouped by the Trypillia label in the source data, so the group describes people attributed to a culture, not one genetic population.",
+        "Of the 31 individuals shown, 29 come from one site, Verteba Cave, so the group reflects that site more than the culture as a whole.",
+        "Figures quoted come from the 2025 study's 24 sampled Trypillia individuals, not necessarily every individual shown on the map."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Farming groups of the Cucuteni–Trypillia culture, whose ancestry included only a little derived from the Caucasus and the lower Volga.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2",
+            "ev-nikitin2025-st3"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The Usatove-associated people, by contrast, are modelled as a roughly equal mix of Trypillia-associated farmers and migrants related to that region.",
+          "evidence_ids": [
+            "ev-nikitin2025-3",
+            "ev-nikitin2025-st3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "In the 2025 study's summary of earlier work, Cucuteni–Trypillia farming groups spread east across the Carpathians to the Dnipro Valley around 4800 BCE, with ancestry mainly derived from early European farmers plus some from western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-nikitin2025-st1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The study adds a measurement: it samples 24 Trypillia individuals and models where their ancestry came from.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "For 23 of the 24 sampled individuals, a model with three sources fits: on average about 81 percent from farmers of the Balkan Eneolithic (Copper Age), about 14 percent from Balkan hunter-gatherers and about 5 percent from the Caucasus–Lower Volga (CLV) cline.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A cline is a gradual change in ancestry across geography, here between the Caucasus and the lower Volga.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The authors date the mixing of these sources to 4595 BCE, with a 95 percent interval of 4832–4358 BCE.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Trypillia-associated farmers contributed about 55 percent of the ancestry of the Usatove-associated people, who are modelled as mixing them with an intermediate group from the CLV cline that supplied about 45 percent.",
+          "evidence_ids": [
+            "ev-nikitin2025-st3",
+            "ev-nikitin2025-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "CLV ancestry did not enter every community alike: some of its carriers, as at Giurgiulesti and Csongrad, advanced to the Balkans and the Carpathian region largely without mixing with people on the way, while Usatove took in far more of it than Trypillia.",
+          "evidence_ids": [
+            "ev-nikitin2025-st6",
+            "ev-nikitin2025-st3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "How the Usatove mixing happened is untested.",
+          "evidence_ids": [
+            "ev-nikitin2025-st4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The authors suggest a trading outpost in the Danube–Dniester delta, a coexisting 'commonwealth' of cultures, or Trypillia farmers under dominance by CLV-related groups, and the DNA does not choose between them.",
+          "evidence_ids": [
+            "ev-nikitin2025-st4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "One of the 24 sampled Trypillia individuals does not fit the three-source model, and the percentages are averages from a statistical model, not measurements of any one person.",
+          "evidence_ids": [
+            "ev-nikitin2025-st2"
+          ]
+        }
+      ]
+    },
+    "globular-amphora": {
+      "description": "Farmers associated with the Globular Amphora culture, whose genetic cluster can be modelled as the only source of the farmer-related ancestry in Corded Ware-associated individuals. In Bohemia, however, the Globular Amphora individuals who lived at or after the time Corded Ware appeared show no detectable steppe ancestry.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "In Bohemia, a 2021 study suggests, the Globular Amphora individuals were newcomers and not locals: the dates of their mixing with hunter-gatherers point to a nonlocal arrival from a region with more hunter-gatherer gene flow, meaning interbreeding, such as Poland.",
+          "evidence_ids": [
+            "ev-papac2021-st1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their ancestry combined farmer ancestry with a substantial hunter-gatherer share. In Bohemia they carry the most hunter-gatherer-related ancestry among the groups there before Corded Ware: 25.7 percent, give or take 1.4. A 2019 study used Globular Amphora as a stand-in for the farmer-related ancestry of Yamnaya-associated groups, which later expanded into Europe, and noted that this source was itself a mixture of farmer ancestry and at least 20 percent western hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-papac2021-st1",
+            "ev-wang2019-st1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The farmer-related ancestry in Corded Ware-associated individuals can be modelled as coming exclusively from a Globular Amphora-associated cluster, and in every sampled European region it co-occurs with steppe-related ancestry. From this the authors of a 2024 study infer that steppe-related ancestry spread mostly through groups that had already mixed with Globular Amphora-related farmers, as Yamnaya-associated groups did before their expansion. They treat contact zones such as the forest-steppe northwest of the Black Sea, where Globular Amphora and Yamnaya groups exchanged cultural elements, as probably central to Corded Ware's formation. With Globular Amphora standing in for farmer ancestry, the 2019 study finds about 13 percent of it in Yamnaya from Samara and about 17 percent in Yamnaya from Ukraine or the Caucasus.",
+          "evidence_ids": [
+            "ev-allentoft2024-st1",
+            "ev-allentoft2024-4",
+            "ev-allentoft2024-st2",
+            "ev-wang2019-st1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The Bohemian samples cannot show where Globular Amphora-related farmers and steppe-related groups met. Their lack of steppe ancestry suggests little biological exchange from Corded Ware- and Yamnaya-related people into the Rivnac and Globular Amphora groups of Bohemia, while the contact zone the 2024 authors discuss lies northwest of the Black Sea. That contact was once read as cultural only, since earlier data from few individuals suggested no more than cultural influence. The farmer-related source is itself a stand-in: a 2015 model of Corded Ware-associated individuals from Germany used Middle Neolithic populations, where the 2024 study uses a Globular Amphora-associated cluster.",
+          "evidence_ids": [
+            "ev-papac2021-st2",
+            "ev-allentoft2024-st2",
+            "ev-haak2015-5",
+            "ev-allentoft2024-st1"
+          ]
+        }
+      ],
+      "caveats": [
+        "Individuals are grouped by their association with the Globular Amphora culture, so the group may include people of varied ancestry.",
+        "The source labels place 33 of the 39 individuals in Poland and 6 in Czechia, while the Bohemian figures quoted here come from a study of Bohemia."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Farmers associated with the Globular Amphora culture, whose genetic cluster can be modelled as the only source of the farmer-related ancestry in Corded Ware-associated individuals.",
+          "evidence_ids": [
+            "ev-allentoft2024-st1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "In Bohemia, however, the Globular Amphora individuals who lived at or after the time Corded Ware appeared show no detectable steppe ancestry.",
+          "evidence_ids": [
+            "ev-papac2021-st2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "In Bohemia, a 2021 study suggests, the Globular Amphora individuals were newcomers and not locals: the dates of their mixing with hunter-gatherers point to a nonlocal arrival from a region with more hunter-gatherer gene flow, meaning interbreeding, such as Poland.",
+          "evidence_ids": [
+            "ev-papac2021-st1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their ancestry combined farmer ancestry with a substantial hunter-gatherer share.",
+          "evidence_ids": [
+            "ev-papac2021-st1",
+            "ev-wang2019-st1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In Bohemia they carry the most hunter-gatherer-related ancestry among the groups there before Corded Ware: 25.7 percent, give or take 1.4.",
+          "evidence_ids": [
+            "ev-papac2021-st1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2019 study used Globular Amphora as a stand-in for the farmer-related ancestry of Yamnaya-associated groups, which later expanded into Europe, and noted that this source was itself a mixture of farmer ancestry and at least 20 percent western hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-wang2019-st1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The farmer-related ancestry in Corded Ware-associated individuals can be modelled as coming exclusively from a Globular Amphora-associated cluster, and in every sampled European region it co-occurs with steppe-related ancestry.",
+          "evidence_ids": [
+            "ev-allentoft2024-st1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "From this the authors of a 2024 study infer that steppe-related ancestry spread mostly through groups that had already mixed with Globular Amphora-related farmers, as Yamnaya-associated groups did before their expansion.",
+          "evidence_ids": [
+            "ev-allentoft2024-st1",
+            "ev-allentoft2024-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "They treat contact zones such as the forest-steppe northwest of the Black Sea, where Globular Amphora and Yamnaya groups exchanged cultural elements, as probably central to Corded Ware's formation.",
+          "evidence_ids": [
+            "ev-allentoft2024-st2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "With Globular Amphora standing in for farmer ancestry, the 2019 study finds about 13 percent of it in Yamnaya from Samara and about 17 percent in Yamnaya from Ukraine or the Caucasus.",
+          "evidence_ids": [
+            "ev-wang2019-st1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Bohemian samples cannot show where Globular Amphora-related farmers and steppe-related groups met.",
+          "evidence_ids": [
+            "ev-papac2021-st2",
+            "ev-allentoft2024-st2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Their lack of steppe ancestry suggests little biological exchange from Corded Ware- and Yamnaya-related people into the Rivnac and Globular Amphora groups of Bohemia, while the contact zone the 2024 authors discuss lies northwest of the Black Sea.",
+          "evidence_ids": [
+            "ev-papac2021-st2",
+            "ev-allentoft2024-st2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "That contact was once read as cultural only, since earlier data from few individuals suggested no more than cultural influence.",
+          "evidence_ids": [
+            "ev-allentoft2024-st2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The farmer-related source is itself a stand-in: a 2015 model of Corded Ware-associated individuals from Germany used Middle Neolithic populations, where the 2024 study uses a Globular Amphora-associated cluster.",
+          "evidence_ids": [
+            "ev-haak2015-5",
+            "ev-allentoft2024-st1"
+          ]
+        }
+      ]
     }
   },
-  "wanted": [],
+  "wanted": [
+    "iberia-early-neolithic: the hunter-gatherer share (with its range) in Early Neolithic Iberians, from a published admixture model; no cited statement gives one, so the page has no proportion for the founding farmers.",
+    "iberia-early-neolithic: what the Cardial culture is, where Cardial-associated sites lie, and the dates of the earliest farming sites in Iberia, none of which the cited evidence states.",
+    "britain-neolithic: why the farmer share is about 74 percent in Brace et al. 2019 but about 80 percent in the earlier work Patterson et al. 2022 summarises (different source populations, samples or models?); the evidence only reports both figures.",
+    "britain-neolithic: where Raschoille Cave, and the sites behind the regional pattern, lie, and what the 'megalithic' label (England_EN_Megalithic) refers to; none is in the cited evidence.",
+    "trypillia-farmers: the sites, the dates of the sampled individuals, and the scale and layout of Cucuteni–Trypillia settlements; the cited evidence gives only the culture's spread around 4800 BCE.",
+    "trypillia-farmers: what Usatove is (the culture, its sites and its period), and how the 4471 BCE mixing date the study gives for Usatove-associated people relates to the dates of the individuals sampled from it.",
+    "trypillia-farmers: why one of the 24 sampled individuals does not fit the three-source model, and what that person's ancestry looks like.",
+    "globular-amphora: the dates, extent and sites of the Globular Amphora culture from a checked source; the cited evidence gives no dates, so the page has none.",
+    "globular-amphora: the hunter-gatherer and farmer ancestry of the Polish Globular Amphora individuals, who make up most of the group on the map; the cited statements describe Bohemia."
+  ],
   "concerns": []
 }

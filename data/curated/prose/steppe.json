@@ -1,0 +1,861 @@
+{
+  "group": "steppe",
+  "populations": {
+    "volga-cline-eneolithic": {
+      "description": "Copper Age people of the middle Volga whose ancestry runs along a gradient, from eastern hunter-gatherer ancestry upriver to Lower Volga ancestry downriver. A 2025 study finds that Yamnaya cannot be traced to them.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The individuals grouped here come from Eneolithic (Copper Age) sites in the middle Volga region, such as Khvalynsk and Ekaterinovka. A 2025 study finds that Eneolithic people north of the Caucasus form three clines, meaning gradients of ancestry in which individuals are spread between two sources instead of falling into one uniform group. The Volga cline runs between eastern hunter-gatherer ancestry upriver and, downriver, ancestry related to the Berezhnovka group of the Lower Volga, the Lower Volga end of the Caucasus–Lower Volga cline, a gradient rich in ancestry related to Caucasus hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st2",
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st5",
+            "ev-lazaridis2025-st7"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Burials at Ekaterinovka are dated to 5050–4450 BCE and individuals at Khvalynsk to 4500–4350 BCE. One individual with a Volga-cline profile came from Csongrad in Hungary, dated to 4331–4073 BCE, and carries about 88 percent Berezhnovka-related ancestry, comparable to the highest Khvalynsk individuals. The authors read this as long-distance contact that skipped the Dnipro and Don river basins.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st2",
+            "ev-lazaridis2025-st3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Individuals differ widely in how much Berezhnovka-related ancestry they carry. Burials at Ekaterinovka already carry about a quarter (24 percent), whereas an earlier hunter-gatherer from Lebyazhinka carries a share consistent with none. At Khvalynsk the individuals form a gradient of their own, with high, medium and low shares of about 77, 57 and 41 percent, a spread of more than 30 percentage points within one site. Across the whole Volga cline the share ranges from roughly 14 to 89 percent.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st2",
+            "ev-lazaridis2025-st1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The two ends of the cline have unequal histories: the eastern hunter-gatherer ancestry upriver has long-established antecedents in eastern Europe, whereas the Berezhnovka-related ancestry downriver does not. Looking ahead, the study finds that Yamnaya cannot be traced to the Volga cline. Core Yamnaya, the study's genetically homogeneous Yamnaya group, fit neither the Volga cline nor the Caucasus–Lower Volga cline directly and are placed instead on the Dnipro cline, which mixes Caucasus–Lower Volga ancestry with Ukraine Neolithic hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st5",
+            "ev-lazaridis2025-st6",
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st10"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where the Lower Volga ancestry came from is unresolved. No earlier individuals have been sequenced from the Lower Volga, the Caucasus hunter-gatherer-related source of that ancestry is unsampled, and the Lower Volga group cannot be modelled as continuous with contemporaneous or earlier groups.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Copper Age people of the middle Volga whose ancestry runs along a gradient, from eastern hunter-gatherer ancestry upriver to Lower Volga ancestry downriver.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st5"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "A 2025 study finds that Yamnaya cannot be traced to them.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The individuals grouped here come from Eneolithic (Copper Age) sites in the middle Volga region, such as Khvalynsk and Ekaterinovka.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2025 study finds that Eneolithic people north of the Caucasus form three clines, meaning gradients of ancestry in which individuals are spread between two sources instead of falling into one uniform group.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Volga cline runs between eastern hunter-gatherer ancestry upriver and, downriver, ancestry related to the Berezhnovka group of the Lower Volga, the Lower Volga end of the Caucasus–Lower Volga cline, a gradient rich in ancestry related to Caucasus hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st5",
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st7"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Burials at Ekaterinovka are dated to 5050–4450 BCE and individuals at Khvalynsk to 4500–4350 BCE.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1",
+            "ev-lazaridis2025-st2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "One individual with a Volga-cline profile came from Csongrad in Hungary, dated to 4331–4073 BCE, and carries about 88 percent Berezhnovka-related ancestry, comparable to the highest Khvalynsk individuals.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st3"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The authors read this as long-distance contact that skipped the Dnipro and Don river basins.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Individuals differ widely in how much Berezhnovka-related ancestry they carry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Burials at Ekaterinovka already carry about a quarter (24 percent), whereas an earlier hunter-gatherer from Lebyazhinka carries a share consistent with none.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "At Khvalynsk the individuals form a gradient of their own, with high, medium and low shares of about 77, 57 and 41 percent, a spread of more than 30 percentage points within one site.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Across the whole Volga cline the share ranges from roughly 14 to 89 percent.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The two ends of the cline have unequal histories: the eastern hunter-gatherer ancestry upriver has long-established antecedents in eastern Europe, whereas the Berezhnovka-related ancestry downriver does not.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Looking ahead, the study finds that Yamnaya cannot be traced to the Volga cline.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Core Yamnaya, the study's genetically homogeneous Yamnaya group, fit neither the Volga cline nor the Caucasus–Lower Volga cline directly and are placed instead on the Dnipro cline, which mixes Caucasus–Lower Volga ancestry with Ukraine Neolithic hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st6",
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st10"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where the Lower Volga ancestry came from is unresolved.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "No earlier individuals have been sequenced from the Lower Volga, the Caucasus hunter-gatherer-related source of that ancestry is unsampled, and the Lower Volga group cannot be modelled as continuous with contemporaneous or earlier groups.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4"
+          ]
+        }
+      ]
+    },
+    "clv-eneolithic": {
+      "description": "Copper Age people at the Lower Volga end of a gradient rich in ancestry related to Caucasus hunter-gatherers. A 2025 model has people like them contributing about four-fifths of Yamnaya ancestry.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The individuals grouped here are from Berezhnovka-2 on the Lower Volga steppe, dated to 4450–3960 BCE, and they mark the Lower Volga end of the Caucasus–Lower Volga (CLV) cline, a gradient of ancestry rich in Caucasus hunter-gatherer-related ancestry. The cline runs from the Neolithic Caucasus, represented by Aknashen in Neolithic Armenia, through Maikop and Remontnoye to Berezhnovka.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st8",
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Groups along the cline carry different shares of Aknashen-related ancestry, which comes from the Neolithic Caucasus: the main Maikop cluster is modelled at about 86 percent, with Lower Volga ancestry making up about one seventh, whereas the Remontnoye group has about 45 percent together with Berezhnovka-related ancestry. Berezhnovka-2 individuals also carry about 29 percent Central Asian ancestry, related to Siberian groups, in one model, a share that a Lower Don group at Krivyansky lacks (about 5 percent).",
+          "evidence_ids": [
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-st13",
+            "ev-lazaridis2025-st8"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A 2025 study models Yamnaya ancestors as forming around 4000 BCE from Serednii Stih-related groups, with CLV-related people contributing about four-fifths of Yamnaya ancestry. Another 2025 study finds that groups associated with Usatove and Trypillia incorporated CLV ancestry in very different amounts, about 50 and 5 percent, and reads some carriers, as at Giurgiulesti and Csongrad, as having advanced into the Balkans and the Carpathian region largely without mixing along the way. To the south, Berezhnovka-related ancestry makes up about 27 percent of Chalcolithic Armenians at Areni-1, around 4000 BCE, and 11 to 19 percent of Bronze Age central Anatolians.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-nikitin2025-st6",
+            "ev-lazaridis2025-st9"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where Lower Volga ancestry came from is unresolved, because no earlier individuals have been sequenced from the Lower Volga. In Anatolia the study cannot fix which steppe-related source supplied the ancestry, which is why the figure there is a range.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4",
+            "ev-lazaridis2025-st9"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Copper Age people at the Lower Volga end of a gradient rich in ancestry related to Caucasus hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st7"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "A 2025 model has people like them contributing about four-fifths of Yamnaya ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The individuals grouped here are from Berezhnovka-2 on the Lower Volga steppe, dated to 4450–3960 BCE, and they mark the Lower Volga end of the Caucasus–Lower Volga (CLV) cline, a gradient of ancestry rich in Caucasus hunter-gatherer-related ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st8",
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The cline runs from the Neolithic Caucasus, represented by Aknashen in Neolithic Armenia, through Maikop and Remontnoye to Berezhnovka.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Groups along the cline carry different shares of Aknashen-related ancestry, which comes from the Neolithic Caucasus: the main Maikop cluster is modelled at about 86 percent, with Lower Volga ancestry making up about one seventh, whereas the Remontnoye group has about 45 percent together with Berezhnovka-related ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Berezhnovka-2 individuals also carry about 29 percent Central Asian ancestry, related to Siberian groups, in one model, a share that a Lower Don group at Krivyansky lacks (about 5 percent).",
+          "evidence_ids": [
+            "ev-lazaridis2025-st8"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A 2025 study models Yamnaya ancestors as forming around 4000 BCE from Serednii Stih-related groups, with CLV-related people contributing about four-fifths of Yamnaya ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Another 2025 study finds that groups associated with Usatove and Trypillia incorporated CLV ancestry in very different amounts, about 50 and 5 percent, and reads some carriers, as at Giurgiulesti and Csongrad, as having advanced into the Balkans and the Carpathian region largely without mixing along the way.",
+          "evidence_ids": [
+            "ev-nikitin2025-st6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "To the south, Berezhnovka-related ancestry makes up about 27 percent of Chalcolithic Armenians at Areni-1, around 4000 BCE, and 11 to 19 percent of Bronze Age central Anatolians.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st9"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where Lower Volga ancestry came from is unresolved, because no earlier individuals have been sequenced from the Lower Volga.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "In Anatolia the study cannot fix which steppe-related source supplied the ancestry, which is why the figure there is a range.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st9"
+          ]
+        }
+      ]
+    },
+    "serednii-stih": {
+      "description": "Copper Age individuals from the steppe between the Dnipro and the Don, whose ancestry ranges from mostly local hunter-gatherer to close to that of the later Yamnaya. A 2025 study models Yamnaya ancestors as forming from groups related to them.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Serednii Stih is an Eneolithic archaeological culture of the steppe between the Dnipro and the Don, and its sampled individuals do not share one ancestry. A 2025 study finds them spread along the Dnipro cline, one of three gradients of ancestry that it describes among Eneolithic people north of the Caucasus, in contrast to the genetically homogeneous Core Yamnaya, the study's uniform Yamnaya group.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st12",
+            "ev-lazaridis2025-st10"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The study's 13 Serednii Stih individuals are dated to 4996–3372 BCE, a span of about 1,600 years. Their radiocarbon dates are uncorrected for the freshwater reservoir effect, a distortion that can make the bones of people who ate river fish look older than they are. Small samples with highly variable ancestry have limited what is known about steppe populations like this one, and the data for the North Pontic region from the Epipaleolithic to the Early Bronze Age come from limited sites.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st10",
+            "ev-nikitin2025-st8"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Dnipro cline is fitted as Caucasus–Lower Volga-related ancestry mixed with a local hunter-gatherer source from the Dnipro–Don area, not the Volga: every group on it, Serednii Stih included, can be well modelled as Ukraine Neolithic or Middle Don hunter-gatherers at one extreme and Core Yamnaya at the other. For scale, Yamnaya are inferred to have about a fifth of their ancestry from that source, 22.5 percent if it is a Middle Don individual and 17.7 percent if it is Ukraine Neolithic hunter-gatherers. The study finds no appreciable European-farmer ancestry in Serednii Stih individuals, unlike Usatove.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st11",
+            "ev-lazaridis2025-st12",
+            "ev-lazaridis2025-2",
+            "ev-nikitin2025-st7"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A 2025 study models Yamnaya ancestors as forming around 4000 BCE from Serednii Stih-related groups and growing rapidly after 3750–3350 BCE. A genetically Yamnaya-like individual from Mykhailivka, dated to 3635–3383 BCE, bridges Serednii Stih and Yamnaya. The authors of a second 2025 study read what they call Core Yamna as a late Serednii Stih-derived population with the same components as the sampled Stih individuals but more Caucasus–Lower Volga ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-nikitin2025-4",
+            "ev-nikitin2025-st7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "When the study uses Core Yamnaya as a source for earlier populations such as this one, it is standing in for an unsampled Eneolithic source. Either Ukraine Neolithic or Middle Don hunter-gatherers fit as the local source, so the evidence does not pick between them.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st18",
+            "ev-lazaridis2025-st11",
+            "ev-lazaridis2025-st12"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Copper Age individuals from the steppe between the Dnipro and the Don, whose ancestry ranges from mostly local hunter-gatherer to close to that of the later Yamnaya.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st12",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "A 2025 study models Yamnaya ancestors as forming from groups related to them.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Serednii Stih is an Eneolithic archaeological culture of the steppe between the Dnipro and the Don, and its sampled individuals do not share one ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-lazaridis2025-st12",
+            "ev-lazaridis2025-st10"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2025 study finds them spread along the Dnipro cline, one of three gradients of ancestry that it describes among Eneolithic people north of the Caucasus, in contrast to the genetically homogeneous Core Yamnaya, the study's uniform Yamnaya group.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st10",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The study's 13 Serednii Stih individuals are dated to 4996–3372 BCE, a span of about 1,600 years.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st10"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Their radiocarbon dates are uncorrected for the freshwater reservoir effect, a distortion that can make the bones of people who ate river fish look older than they are.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st10"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Small samples with highly variable ancestry have limited what is known about steppe populations like this one, and the data for the North Pontic region from the Epipaleolithic to the Early Bronze Age come from limited sites.",
+          "evidence_ids": [
+            "ev-nikitin2025-st8"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Dnipro cline is fitted as Caucasus–Lower Volga-related ancestry mixed with a local hunter-gatherer source from the Dnipro–Don area, not the Volga: every group on it, Serednii Stih included, can be well modelled as Ukraine Neolithic or Middle Don hunter-gatherers at one extreme and Core Yamnaya at the other.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st11",
+            "ev-lazaridis2025-st12",
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "For scale, Yamnaya are inferred to have about a fifth of their ancestry from that source, 22.5 percent if it is a Middle Don individual and 17.7 percent if it is Ukraine Neolithic hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st11"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study finds no appreciable European-farmer ancestry in Serednii Stih individuals, unlike Usatove.",
+          "evidence_ids": [
+            "ev-nikitin2025-st7"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A 2025 study models Yamnaya ancestors as forming around 4000 BCE from Serednii Stih-related groups and growing rapidly after 3750–3350 BCE.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A genetically Yamnaya-like individual from Mykhailivka, dated to 3635–3383 BCE, bridges Serednii Stih and Yamnaya.",
+          "evidence_ids": [
+            "ev-nikitin2025-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The authors of a second 2025 study read what they call Core Yamna as a late Serednii Stih-derived population with the same components as the sampled Stih individuals but more Caucasus–Lower Volga ancestry.",
+          "evidence_ids": [
+            "ev-nikitin2025-st7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "When the study uses Core Yamnaya as a source for earlier populations such as this one, it is standing in for an unsampled Eneolithic source.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st18"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Either Ukraine Neolithic or Middle Don hunter-gatherers fit as the local source, so the evidence does not pick between them.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st11",
+            "ev-lazaridis2025-st12"
+          ]
+        }
+      ]
+    },
+    "maikop": {
+      "description": "People of the North Caucasus foothills buried in the large, rich mounds of the Maikop culture. Their ancestry differs from that of steppe groups of the same period, and from that of people buried in Maikop-associated mounds on the open steppe.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Maikop is an archaeological culture of the North Caucasus, known for large, rich burial mounds and dated overall to 3932–2934 BCE. This group takes in twelve individuals from eight sites in the northern Caucasus foothills, labelled Maikop, Novosvobodnaya at Klady and Late Maikop, and they appear genetically homogeneous. Maikop burials, including the kurgan burials at Klady and Dlinnaya-Polyana, were contracted on one side, unlike the pose used in steppe burials. Mounds on the open steppe, whose occupants the 2019 study calls Steppe Maykop, hold individuals who lack the Anatolian farmer-related component and carry extra ancient North Eurasian and Native American-related ancestry, so they differ from the foothill individuals.",
+          "evidence_ids": [
+            "ev-wang2019-st2",
+            "ev-lazaridis2025-st13",
+            "ev-wang2019-st4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "A 2025 study models the main Maikop cluster as about 86 percent Aknashen-related ancestry, meaning ancestry related to Neolithic Armenia, with Lower Volga ancestry making up about one seventh. A 2019 study models Caucasus groups, Maikop included, as 40–72 percent related to the Anatolian Chalcolithic (Copper Age) and 28–60 percent related to Caucasus hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st13",
+            "ev-wang2019-st3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Maikop-associated individuals resemble the Eneolithic individuals of the Caucasus who preceded them, and this local profile continues in later Caucasus groups until about 1100 BCE. The 2025 study places the main Maikop cluster on the Caucasus–Lower Volga cline, a gradient of ancestry that runs from the Neolithic Caucasus to the Lower Volga steppe. The 2019 study finds that groups of the Caucasus mountains were genetically separated from contemporaneous steppe groups, and that Yamnaya and later steppe pastoralists carry farmer-related ancestry from different contact zones.",
+          "evidence_ids": [
+            "ev-wang2019-st2",
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-st13",
+            "ev-wang2019-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The 2019 percentages depend on the groups chosen to stand in for the sources: using southeastern European farmers instead raises the hunter-gatherer share to 51–70 percent, and unsampled populations could fit as well. The 2019 and 2025 figures also use different reference groups, so they cannot be set side by side.",
+          "evidence_ids": [
+            "ev-wang2019-st3",
+            "ev-lazaridis2025-st13"
+          ]
+        }
+      ],
+      "caveats": [
+        "Individuals from Maikop-associated mounds on the open steppe (Steppe Maykop in Wang et al. 2019) are not included in this group."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "People of the North Caucasus foothills buried in the large, rich mounds of the Maikop culture.",
+          "evidence_ids": [
+            "ev-wang2019-st2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their ancestry differs from that of steppe groups of the same period, and from that of people buried in Maikop-associated mounds on the open steppe.",
+          "evidence_ids": [
+            "ev-wang2019-2",
+            "ev-wang2019-st4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Maikop is an archaeological culture of the North Caucasus, known for large, rich burial mounds and dated overall to 3932–2934 BCE.",
+          "evidence_ids": [
+            "ev-wang2019-st2",
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "This group takes in twelve individuals from eight sites in the northern Caucasus foothills, labelled Maikop, Novosvobodnaya at Klady and Late Maikop, and they appear genetically homogeneous.",
+          "evidence_ids": [
+            "ev-wang2019-st2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Maikop burials, including the kurgan burials at Klady and Dlinnaya-Polyana, were contracted on one side, unlike the pose used in steppe burials.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Mounds on the open steppe, whose occupants the 2019 study calls Steppe Maykop, hold individuals who lack the Anatolian farmer-related component and carry extra ancient North Eurasian and Native American-related ancestry, so they differ from the foothill individuals.",
+          "evidence_ids": [
+            "ev-wang2019-st4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2025 study models the main Maikop cluster as about 86 percent Aknashen-related ancestry, meaning ancestry related to Neolithic Armenia, with Lower Volga ancestry making up about one seventh.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2019 study models Caucasus groups, Maikop included, as 40–72 percent related to the Anatolian Chalcolithic (Copper Age) and 28–60 percent related to Caucasus hunter-gatherers.",
+          "evidence_ids": [
+            "ev-wang2019-st3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Maikop-associated individuals resemble the Eneolithic individuals of the Caucasus who preceded them, and this local profile continues in later Caucasus groups until about 1100 BCE.",
+          "evidence_ids": [
+            "ev-wang2019-st2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The 2025 study places the main Maikop cluster on the Caucasus–Lower Volga cline, a gradient of ancestry that runs from the Neolithic Caucasus to the Lower Volga steppe.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st7",
+            "ev-lazaridis2025-st13"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The 2019 study finds that groups of the Caucasus mountains were genetically separated from contemporaneous steppe groups, and that Yamnaya and later steppe pastoralists carry farmer-related ancestry from different contact zones.",
+          "evidence_ids": [
+            "ev-wang2019-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2019 percentages depend on the groups chosen to stand in for the sources: using southeastern European farmers instead raises the hunter-gatherer share to 51–70 percent, and unsampled populations could fit as well.",
+          "evidence_ids": [
+            "ev-wang2019-st3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2019 and 2025 figures also use different reference groups, so they cannot be set side by side.",
+          "evidence_ids": [
+            "ev-wang2019-st3",
+            "ev-lazaridis2025-st13"
+          ]
+        }
+      ]
+    },
+    "yamnaya": {
+      "description": "Steppe herders buried beneath mounds called kurgans, whose core group is genetically very similar across a range of about 5,000 kilometres. Ancestry related to theirs spread across most of Europe within about a thousand years.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The individuals grouped here are those associated with the Yamnaya archaeological complex. A 2025 study finds that its Core Yamnaya group, 104 high-quality individuals, is genetically homogeneous across a sampling range of about 5,000 kilometres, and that 49 of 51 Core Yamnaya men carry the same Y-chromosome lineage, R-M269. Relatedness analysis, which looks for long stretches of DNA inherited from a common ancestor, shows that about 14 percent of pairs within a kurgan, and 7 percent of pairs across kurgans of the same cemetery, were close relatives, so kurgans were not mainly family tombs.",
+          "evidence_ids": [
+            "ev-lazaridis2025-1",
+            "ev-lazaridis2025-st14",
+            "ev-lazaridis2025-st16",
+            "ev-lazaridis2025-st15"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The Yamnaya complex appeared about 3300 BCE north of the Black and Caspian Seas, and by 3000 BCE it extended from Hungary to Kazakhstan. Not every individual fits the core group: in south-eastern Europe many cluster with Core Yamnaya, but others lean toward Neolithic and Chalcolithic (Copper Age) groups of south-eastern and central Europe, mixing that dates to the late 4th millennium BCE. The Don Yamnaya, about 79 percent Core Yamnaya and 21 percent Ukraine Neolithic hunter-gatherer ancestry, expanded little, and 17 of their 20 men carry a different Y-chromosome lineage, I-L699, which shows continuity with local hunter-gatherer ancestors.",
+          "evidence_ids": [
+            "ev-lazaridis2025-1",
+            "ev-lazaridis2025-st17",
+            "ev-lazaridis2025-st16"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Models of Yamnaya ancestry agree that it combines a northern source, eastern European hunter-gatherers, with a southern one from the Caucasus or Near East, but they disagree about the southern source and its share. A 2025 study assigns about four-fifths of it to the Caucasus–Lower Volga cline, a gradient of Caucasus-related ancestry, and the rest to Ukraine Neolithic hunter-gatherers, with the mixing dated to 4038 BCE, give or take 48 years. That mixing predates the Yamnaya complex by more than seven centuries. A 2024 study instead models steppe-related ancestry as about 65 percent Middle Don hunter-gatherer-related and 35 percent Caucasus hunter-gatherer-related.",
+          "evidence_ids": [
+            "ev-haak2015-4",
+            "ev-jones2015-3",
+            "ev-allentoft2024-4",
+            "ev-lazaridis2025-3",
+            "ev-lazaridis2025-st14",
+            "ev-lazaridis2025-st11",
+            "ev-lazaridis2025-1",
+            "ev-allentoft2024-st3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A 2025 study models Yamnaya ancestors as forming from Serednii Stih-related groups, and a Yamnaya-like individual from Mykhailivka, dated to 3635–3383 BCE, bridges the Serednii Stih and Yamnaya groups. A 2024 study finds that Yamnaya-related ancestry spread across western Eurasia from about 5,000 years ago and reached most of Europe within about 1,000 years. In Germany, Corded Ware-associated individuals derive about 75 percent of their ancestry from a Yamnaya-related source (48–80 percent in another comparison), and most Beaker-associated individuals outside Iberia carry steppe-related ancestry too. Yamnaya-related ancestry reached western Mongolia after about 3000 BCE, though its direct impact in Asia was limited compared with Europe, and Bronze Age Anatolia shows negligible Yamnaya-related ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-nikitin2025-4",
+            "ev-allentoft2024-3",
+            "ev-haak2015-5",
+            "ev-olalde2018-3",
+            "ev-wang2021-5",
+            "ev-lazaridis2022-3",
+            "ev-damgaard2018-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where Yamnaya ancestry first formed is open: the Dnipro basin fits best, but an origin in the Don area cannot be excluded. A separate disagreement concerns natural selection on HLA-DRB1*15:01, the strongest genetic risk factor for multiple sclerosis. A 2024 study traced its rise to steppe pastoralists and suggested that the spread of steppe-related ancestry may help explain Europe's north–south gradient in the disease's risk, together with environmental factors. A 2026 study finds that the selection began south of the Caucasus, in people without steppe ancestry, and that stronger selection later in northern Europe, after Yamnaya-related ancestry spread west, drove the difference.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st18",
+            "ev-barrie2024-1",
+            "ev-akbari2026-2"
+          ]
+        }
+      ],
+      "caveats": [
+        "Yamnaya-associated individuals are known from burials, so they may not represent everyone who lived at the time."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Steppe herders buried beneath mounds called kurgans, whose core group is genetically very similar across a range of about 5,000 kilometres.",
+          "evidence_ids": [
+            "ev-haak2015-4",
+            "ev-lazaridis2025-st15",
+            "ev-lazaridis2025-st14"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Ancestry related to theirs spread across most of Europe within about a thousand years.",
+          "evidence_ids": [
+            "ev-allentoft2024-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The individuals grouped here are those associated with the Yamnaya archaeological complex.",
+          "evidence_ids": [
+            "ev-lazaridis2025-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2025 study finds that its Core Yamnaya group, 104 high-quality individuals, is genetically homogeneous across a sampling range of about 5,000 kilometres, and that 49 of 51 Core Yamnaya men carry the same Y-chromosome lineage, R-M269.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st14",
+            "ev-lazaridis2025-st16"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Relatedness analysis, which looks for long stretches of DNA inherited from a common ancestor, shows that about 14 percent of pairs within a kurgan, and 7 percent of pairs across kurgans of the same cemetery, were close relatives, so kurgans were not mainly family tombs.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st15"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Yamnaya complex appeared about 3300 BCE north of the Black and Caspian Seas, and by 3000 BCE it extended from Hungary to Kazakhstan.",
+          "evidence_ids": [
+            "ev-lazaridis2025-1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Not every individual fits the core group: in south-eastern Europe many cluster with Core Yamnaya, but others lean toward Neolithic and Chalcolithic (Copper Age) groups of south-eastern and central Europe, mixing that dates to the late 4th millennium BCE.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st17"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Don Yamnaya, about 79 percent Core Yamnaya and 21 percent Ukraine Neolithic hunter-gatherer ancestry, expanded little, and 17 of their 20 men carry a different Y-chromosome lineage, I-L699, which shows continuity with local hunter-gatherer ancestors.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st17",
+            "ev-lazaridis2025-st16"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Models of Yamnaya ancestry agree that it combines a northern source, eastern European hunter-gatherers, with a southern one from the Caucasus or Near East, but they disagree about the southern source and its share.",
+          "evidence_ids": [
+            "ev-haak2015-4",
+            "ev-jones2015-3",
+            "ev-allentoft2024-4",
+            "ev-lazaridis2025-3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2025 study assigns about four-fifths of it to the Caucasus–Lower Volga cline, a gradient of Caucasus-related ancestry, and the rest to Ukraine Neolithic hunter-gatherers, with the mixing dated to 4038 BCE, give or take 48 years.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-lazaridis2025-st14",
+            "ev-lazaridis2025-st11"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "That mixing predates the Yamnaya complex by more than seven centuries.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st14",
+            "ev-lazaridis2025-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2024 study instead models steppe-related ancestry as about 65 percent Middle Don hunter-gatherer-related and 35 percent Caucasus hunter-gatherer-related.",
+          "evidence_ids": [
+            "ev-allentoft2024-st3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A 2025 study models Yamnaya ancestors as forming from Serednii Stih-related groups, and a Yamnaya-like individual from Mykhailivka, dated to 3635–3383 BCE, bridges the Serednii Stih and Yamnaya groups.",
+          "evidence_ids": [
+            "ev-lazaridis2025-3",
+            "ev-nikitin2025-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A 2024 study finds that Yamnaya-related ancestry spread across western Eurasia from about 5,000 years ago and reached most of Europe within about 1,000 years.",
+          "evidence_ids": [
+            "ev-allentoft2024-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Germany, Corded Ware-associated individuals derive about 75 percent of their ancestry from a Yamnaya-related source (48–80 percent in another comparison), and most Beaker-associated individuals outside Iberia carry steppe-related ancestry too.",
+          "evidence_ids": [
+            "ev-haak2015-5",
+            "ev-olalde2018-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Yamnaya-related ancestry reached western Mongolia after about 3000 BCE, though its direct impact in Asia was limited compared with Europe, and Bronze Age Anatolia shows negligible Yamnaya-related ancestry.",
+          "evidence_ids": [
+            "ev-wang2021-5",
+            "ev-lazaridis2022-3",
+            "ev-damgaard2018-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where Yamnaya ancestry first formed is open: the Dnipro basin fits best, but an origin in the Don area cannot be excluded.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st18"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A separate disagreement concerns natural selection on HLA-DRB1*15:01, the strongest genetic risk factor for multiple sclerosis.",
+          "evidence_ids": [
+            "ev-barrie2024-1",
+            "ev-akbari2026-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2024 study traced its rise to steppe pastoralists and suggested that the spread of steppe-related ancestry may help explain Europe's north–south gradient in the disease's risk, together with environmental factors.",
+          "evidence_ids": [
+            "ev-barrie2024-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2026 study finds that the selection began south of the Caucasus, in people without steppe ancestry, and that stronger selection later in northern Europe, after Yamnaya-related ancestry spread west, drove the difference.",
+          "evidence_ids": [
+            "ev-akbari2026-2"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [
+    "volga-cline-eneolithic: what Khvalynsk and Ekaterinovka are (cemeteries, settlements) and their burial context; no evidence statement says, so the page calls them sites.",
+    "volga-cline-eneolithic: how the Berezhnovka-related percentages are estimated (which stand-in source groups, which method), so the page can say plainly what the figures are; the old text called them model estimates with stand-in sources, but no cited statement says so.",
+    "clv-eneolithic: which sites besides Berezhnovka-2 the 2025 study assigns to this end of the cline (the individual list), so the membership can be completed; Maikop is already a separate group.",
+    "clv-eneolithic: what is known of the Berezhnovka-2 burials (cemetery or settlement, grave form), which no evidence statement gives.",
+    "clv-eneolithic: a gloss on why the Central Asian, Siberian-related ancestry at Berezhnovka-2 matters (what the authors infer from it); the statement gives the share only.",
+    "serednii-stih: which of the 29 individuals on the map are the 13 analysed by the 2025 study, and the names and kinds of sites (cemetery, settlement) in the Dnipro and Don basins; no evidence statement names a Serednii Stih site, so the page cannot.",
+    "serednii-stih: what Serednii Stih is archaeologically (material culture, subsistence, the period it covers), which no evidence statement gives; the page defines it only by region, period and ancestry.",
+    "maikop: a one-clause gloss of 'ancient North Eurasian' ancestry for the Steppe Maykop sentence; no cited statement defines it.",
+    "maikop: what Novosvobodnaya at Klady and Late Maikop are (sites, phases) and whether the 2019 'foothill' group is the same set of burials as the 2025 'main Maikop cluster' (kurgans at Klady and Dlinnaya-Polyana).",
+    "yamnaya: the sizes of the datasets behind Barrie et al. 2024 and Akbari et al. 2026 (the brief says the 2026 study uses far more genomes); neither evidence statement gives sample sizes, so the page does not say how much larger the 2026 study is.",
+    "yamnaya: what defines the 'Core Yamnaya' group (selection criteria for the 104 individuals out of the 200 on the map), which no evidence statement gives; the page calls it the study's uniform Yamnaya group.",
+    "yamnaya: burial practice and material culture of the Yamnaya complex (grave form, grave goods, wagons), which no evidence statement gives; the page defines it only by place, date and ancestry."
+  ],
+  "concerns": [
+    "volga-cline-eneolithic: the replaced text said the Ekaterinovka and Khvalynsk dates come from herbivore-bone radiocarbon dates and that the authors call some groups hyper-variable, and that sampling is clustered on a few sites; none of the cited evidence states these (removed).",
+    "volga-cline-eneolithic: ev-lazaridis2025-st3 says the Csongrad individual (about 88%) is comparable to the highest Khvalynsk individuals, but ev-lazaridis2025-st2 gives Khvalynsk shares up to about 77%; check whether the 77% is a group figure and whether some Khvalynsk individuals reach the cline maximum of about 89%.",
+    "volga-cline-eneolithic: AADR dates for Ekaterinovka individuals reach 5550–5250 BCE (I23648) and the group starts at 5600 BCE (S'yezzheye), earlier than the 5050–4450 BCE the study gives for Ekaterinovka (ev-lazaridis2025-st1); the map may include individuals older than the cline the study describes.",
+    "clv-eneolithic: AADR dates for the four Berezhnovka individuals run 4929–4173 BCE (two labelled EBA, one dated 4446–4333 BCE), while ev-lazaridis2025-st8 dates Berezhnovka-2 to 4450–3960 BCE; the earliest two map dates (4929–4710 BCE) fall before the study's range, and the 'EBA' labels sit oddly with Eneolithic dates.",
+    "clv-eneolithic: the replaced text stated that the sources that formed Yamnaya may have differed from the sampled Remontnoye and Serednii Stih individuals, which the authors say stand in for unsampled groups; no cited statement says this about Remontnoye (removed).",
+    "serednii-stih: the map holds 29 Serednii Stih individuals from 10 sites dated from 5473 BCE (two Lipetsk Oblast sites in the Middle Don basin labelled SeredniiStih_Don), while ev-lazaridis2025-st10 gives 13 individuals dated 4996–3372 BCE; the earliest map members (5473–5223 BCE, 4719–4545 BCE) may be Don-basin individuals outside the study's Dnipro cline sample.",
+    "serednii-stih: the replaced text said the study treats Core Yamnaya as a stand-in that the authors call 'ahistorical' and that the radiocarbon dates 'may be too old'; neither wording is in the cited statements (the page now states only that the dates are uncorrected for the freshwater reservoir effect, with a general definition of the term).",
+    "maikop: the map holds 14 Maikop individuals from 6 sites, while ev-wang2019-st2 describes 12 individuals from 8 sites (and the 2025 study adds Dlinnaya-Polyana); the counts differ and the membership is not the same set.",
+    "maikop: the replaced text named Kura-Araxes groups and the Late Bronze Age as later carriers of the Maikop-like profile, and said dating and sampling are limited to a few sites; ev-wang2019-st2 says only 'later Caucasus groups' (removed).",
+    "yamnaya: the earliest Yamnaya-labelled member on the map is I7890 (Slovakia_EBA_Yamnaya, Michalovce, 4045–3952 calBCE), about 700 years before the complex appears (about 3300 BCE, ev-lazaridis2025-1); the label or date may be wrong, or it may be a pre-Yamnaya individual.",
+    "yamnaya: ev-lazaridis2025-1 says the complex reached Kazakhstan by 3000 BCE, while ev-lazaridis2025-st14 describes the Core Yamnaya sampling range as Hungary to southern Siberia; check whether these are the same eastern limit."
+  ]
+}

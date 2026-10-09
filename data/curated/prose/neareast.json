@@ -418,6 +418,815 @@
           ]
         }
       ]
+    },
+    "anatolia-epipaleolithic": {
+      "description": "One hunter-gatherer from Pınarbaşı in central Anatolia, who lived about 15,000 years ago, and the first Epipalaeolithic genome sequenced from Anatolia. Most of the ancestry of central Anatolia's early farmers traces to a population related to this individual.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This grouping is a single person from the Epipalaeolithic, the final phase of the Old Stone Age, so everything rests on one genome. Direct dating measures the remains themselves rather than the layer they lay in, and here it gives 13,642–13,073 cal BCE; \"cal\" marks a date corrected to calendar years. To see where the genome sits among other ancient ones, the study used principal component analysis, a method that plots genomes by their overall genetic similarity. On that plot the Pınarbaşı genome lies between western hunter-gatherers and Levantines from the Epipalaeolithic and Neolithic, and it is distinct from both.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In one estimate, about a quarter of the Pınarbaşı individual's ancestry (24.8 percent, give or take 5.5) comes from Basal Eurasian, a lineage of non-African ancestry that split away before the other non-African lineages diversified and that no one has sampled directly. That estimate takes the ancient Ethiopian Mota genome as its African reference point. The same method puts Natufians at 38.5 percent, below the 44 percent from an earlier study, so figures of this kind move with the method and the reference chosen.",
+          "evidence_ids": [
+            "ev-feldman2019-nn1",
+            "ev-lazaridis2014-nn1",
+            "ev-feldman2019-nn5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The study puts the continuity between the Pınarbaşı hunter-gatherer and the early farmers of central Anatolia at about 80–90 percent. The detail comes from models of the farmers at Boncuklu, aceramic (pre-pottery) farmers who lived about 8300–7800 BCE: 89.7 percent (plus or minus 3.9) of their ancestry derives from a population related to the Pınarbaşı individual, and the rest is Iranian- and Caucasus-related. Ceramic-period farmers who followed still derive 78.7 percent (plus or minus 3.5) of their ancestry from those earlier farmers, and add ancestry related to the Neolithic of the Levant.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "One genome cannot separate what was typical of a group from what was particular to one person, nor show how widely such hunter-gatherers lived, and the continuity result is reported for central Anatolia only. A lower-confidence result points beyond Anatolia: Iron Gates Mesolithic hunter-gatherers from the Balkans show their highest genetic affinity to the Pınarbaşı individual and their second highest to Natufians, which the authors read as a genetic link between southern Europe and the Near East older than 15,000 years, with Near Eastern gene flow into the ancestors of the Iron Gates group. That reading interprets a pattern of genetic affinity; it does not observe a movement of people.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2",
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn4"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map shows one individual from one site, so its footprint marks where that person was found, not where hunter-gatherers of the time lived."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "One hunter-gatherer from Pınarbaşı in central Anatolia, who lived about 15,000 years ago, and the first Epipalaeolithic genome sequenced from Anatolia.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Most of the ancestry of central Anatolia's early farmers traces to a population related to this individual.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "This grouping is a single person from the Epipalaeolithic, the final phase of the Old Stone Age, so everything rests on one genome.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Direct dating measures the remains themselves rather than the layer they lay in, and here it gives 13,642–13,073 cal BCE; \"cal\" marks a date corrected to calendar years.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "To see where the genome sits among other ancient ones, the study used principal component analysis, a method that plots genomes by their overall genetic similarity.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "On that plot the Pınarbaşı genome lies between western hunter-gatherers and Levantines from the Epipalaeolithic and Neolithic, and it is distinct from both.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In one estimate, about a quarter of the Pınarbaşı individual's ancestry (24.8 percent, give or take 5.5) comes from Basal Eurasian, a lineage of non-African ancestry that split away before the other non-African lineages diversified and that no one has sampled directly.",
+          "evidence_ids": [
+            "ev-feldman2019-nn1",
+            "ev-lazaridis2014-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "That estimate takes the ancient Ethiopian Mota genome as its African reference point.",
+          "evidence_ids": [
+            "ev-feldman2019-nn1",
+            "ev-feldman2019-nn5"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The same method puts Natufians at 38.5 percent, below the 44 percent from an earlier study, so figures of this kind move with the method and the reference chosen.",
+          "evidence_ids": [
+            "ev-feldman2019-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The study puts the continuity between the Pınarbaşı hunter-gatherer and the early farmers of central Anatolia at about 80–90 percent.",
+          "evidence_ids": [
+            "ev-feldman2019-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The detail comes from models of the farmers at Boncuklu, aceramic (pre-pottery) farmers who lived about 8300–7800 BCE: 89.7 percent (plus or minus 3.9) of their ancestry derives from a population related to the Pınarbaşı individual, and the rest is Iranian- and Caucasus-related.",
+          "evidence_ids": [
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Ceramic-period farmers who followed still derive 78.7 percent (plus or minus 3.5) of their ancestry from those earlier farmers, and add ancestry related to the Neolithic of the Levant.",
+          "evidence_ids": [
+            "ev-feldman2019-nn3",
+            "ev-feldman2019-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "One genome cannot separate what was typical of a group from what was particular to one person, nor show how widely such hunter-gatherers lived, and the continuity result is reported for central Anatolia only.",
+          "evidence_ids": [
+            "ev-feldman2019-nn2",
+            "ev-feldman2019-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A lower-confidence result points beyond Anatolia: Iron Gates Mesolithic hunter-gatherers from the Balkans show their highest genetic affinity to the Pınarbaşı individual and their second highest to Natufians, which the authors read as a genetic link between southern Europe and the Near East older than 15,000 years, with Near Eastern gene flow into the ancestors of the Iron Gates group.",
+          "evidence_ids": [
+            "ev-feldman2019-nn4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "That reading interprets a pattern of genetic affinity; it does not observe a movement of people.",
+          "evidence_ids": [
+            "ev-feldman2019-nn4"
+          ]
+        }
+      ]
+    },
+    "zagros-early-farmers": {
+      "description": "The first farmers of the Zagros mountains in western Iran descended largely from local hunter-gatherers, and were strongly different from the first farmers of the Levant. That contrast is part of the evidence that several differentiated hunter-gatherer populations in southwest Asia adopted farming.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This grouping gathers Early Neolithic individuals from sites in the Zagros, the mountain range of western Iran. That they farmed is supported partly by chemistry: isotopes, which are chemical signatures in remains that reflect what a person ate, indicate that the individual from Wezmeh Cave ate a diet rich in cultivated cereals.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1",
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The studies behind this page name individuals from Wezmeh Cave, Tepe Abdul Hosein and Ganj Dareh. The Wezmeh Cave individual dates to 7,455–7,082 cal BCE (the \"cal\" marks a date corrected to calendar years) and the Ganj Dareh farmers to 8,200–7,600 BCE. Three individuals from Tepe Abdul Hosein are roughly 10,000 years old. The Wezmeh Cave and Tepe Abdul Hosein genomes differ greatly in quality: coverage, the average number of times each position was read, is about 10 for the Wezmeh Cave genome but only 0.6–1.2 for the Tepe Abdul Hosein genomes, which therefore hold far less information per person.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1",
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Ganj Dareh farmers share genetic variants at the same rate with the early farmers of Anatolia and of the Levant, which the authors read as long-term isolation of western Iran. A model puts the separation of their ancestors from those of the Anatolian farmers at about 46,000–77,000 years ago, an interval more than 30,000 years wide. Their genomes also contain fewer short stretches in which the copies inherited from mother and father are identical than any other ancient genomes the study tested, which points to a large ancestral population. In one model about 48 percent of the ancestry of Iranian Neolithic samples is Basal Eurasian, a lineage that split away before the other non-African lineages diversified and that no one has sampled directly.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn5",
+            "ev-broushaki2016-2",
+            "ev-broushaki2016-nn2",
+            "ev-lazaridis2014-nn1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "They were not ancestors of the first European farmers, nor significant contributors to present-day Europeans. Zagros Neolithic ancestry reappears in a later population: Chalcolithic (Copper Age) individuals from western Iran are modelled as a mix of Zagros Neolithic, Levant and Caucasus hunter-gatherer ancestry. A population related to them is in turn modelled as contributing between a third and 44 percent of the ancestry of Early Bronze Age steppe populations, Levantine Bronze Age populations and Chalcolithic northwestern Anatolians. Because that ancestry has several sources, these later contributions cannot be credited to the Zagros farmers alone. By the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed, which reduced the genetic differences across the Near East.",
+          "evidence_ids": [
+            "ev-broushaki2016-1",
+            "ev-lazaridis2016-nn6",
+            "ev-lazaridis2016-4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Whether ancestry related to early Iranian farmers spread east into South Asia is disputed. A 2016 study proposes that people related to both early Iranian farmers and steppe herders spread east into South Asia. A 2019 study of an individual from the Indus Valley Civilization finds that the Iranian-related ancestry in that person derives from a lineage that split before the ancestors of early Iranian farmers, herders and hunter-gatherers separated, which contradicts a large-scale eastward spread of western Iranian farmers. A second 2019 study describes the main ancestry of South Asians as a gradient between people related to early Iranian hunter-gatherers and people related to South and Southeast Asian hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5d",
+            "ev-shinde2019-3",
+            "ev-narasimhan2019-1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The first farmers of the Zagros mountains in western Iran descended largely from local hunter-gatherers, and were strongly different from the first farmers of the Levant.",
+          "evidence_ids": [
+            "ev-lazaridis2016-3",
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "That contrast is part of the evidence that several differentiated hunter-gatherer populations in southwest Asia adopted farming.",
+          "evidence_ids": [
+            "ev-broushaki2016-1",
+            "ev-lazaridis2016-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "This grouping gathers Early Neolithic individuals from sites in the Zagros, the mountain range of western Iran.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1",
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "That they farmed is supported partly by chemistry: isotopes, which are chemical signatures in remains that reflect what a person ate, indicate that the individual from Wezmeh Cave ate a diet rich in cultivated cereals.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The studies behind this page name individuals from Wezmeh Cave, Tepe Abdul Hosein and Ganj Dareh.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1",
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Wezmeh Cave individual dates to 7,455–7,082 cal BCE (the \"cal\" marks a date corrected to calendar years) and the Ganj Dareh farmers to 8,200–7,600 BCE.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1",
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Three individuals from Tepe Abdul Hosein are roughly 10,000 years old.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Wezmeh Cave and Tepe Abdul Hosein genomes differ greatly in quality: coverage, the average number of times each position was read, is about 10 for the Wezmeh Cave genome but only 0.6–1.2 for the Tepe Abdul Hosein genomes, which therefore hold far less information per person.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Ganj Dareh farmers share genetic variants at the same rate with the early farmers of Anatolia and of the Levant, which the authors read as long-term isolation of western Iran.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn5"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A model puts the separation of their ancestors from those of the Anatolian farmers at about 46,000–77,000 years ago, an interval more than 30,000 years wide.",
+          "evidence_ids": [
+            "ev-broushaki2016-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their genomes also contain fewer short stretches in which the copies inherited from mother and father are identical than any other ancient genomes the study tested, which points to a large ancestral population.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In one model about 48 percent of the ancestry of Iranian Neolithic samples is Basal Eurasian, a lineage that split away before the other non-African lineages diversified and that no one has sampled directly.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn5",
+            "ev-lazaridis2014-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "They were not ancestors of the first European farmers, nor significant contributors to present-day Europeans.",
+          "evidence_ids": [
+            "ev-broushaki2016-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Zagros Neolithic ancestry reappears in a later population: Chalcolithic (Copper Age) individuals from western Iran are modelled as a mix of Zagros Neolithic, Levant and Caucasus hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A population related to them is in turn modelled as contributing between a third and 44 percent of the ancestry of Early Bronze Age steppe populations, Levantine Bronze Age populations and Chalcolithic northwestern Anatolians.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Because that ancestry has several sources, these later contributions cannot be credited to the Zagros farmers alone.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "By the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed, which reduced the genetic differences across the Near East.",
+          "evidence_ids": [
+            "ev-lazaridis2016-4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether ancestry related to early Iranian farmers spread east into South Asia is disputed.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5d",
+            "ev-shinde2019-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2016 study proposes that people related to both early Iranian farmers and steppe herders spread east into South Asia.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5d"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2019 study of an individual from the Indus Valley Civilization finds that the Iranian-related ancestry in that person derives from a lineage that split before the ancestors of early Iranian farmers, herders and hunter-gatherers separated, which contradicts a large-scale eastward spread of western Iranian farmers.",
+          "evidence_ids": [
+            "ev-shinde2019-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A second 2019 study describes the main ancestry of South Asians as a gradient between people related to early Iranian hunter-gatherers and people related to South and Southeast Asian hunter-gatherers.",
+          "evidence_ids": [
+            "ev-narasimhan2019-1"
+          ]
+        }
+      ]
+    },
+    "levant-ppn-farmers": {
+      "description": "Pre-Pottery Neolithic farmers of the southern Levant, who descended largely from local Natufian-related hunter-gatherers but also carried Anatolian-farmer-related ancestry. Ancestry related to theirs is also modelled in a pastoralist who lived in Tanzania about 3,100 years ago.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This grouping gathers farmers of the Pre-Pottery Neolithic, the early stage of farming before pottery was in use, from sites in the southern Levant, the eastern Mediterranean region that includes present-day Israel and Jordan. Later studies use them as a reference, describing other populations by how much of their ancestry is related to Neolithic Levantines like these.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-feldman2019-nn6",
+            "ev-harney2018-1",
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "A 2016 study sampled farmers from 'Ain Ghazal and Motza who lived between 8,300 and 6,700 BCE. A 2019 study added two more Pre-Pottery Neolithic B farmers, one from Kfar HaHoresh (about 7700–7600 BCE) and one from Ba'ja (7027–6685 cal BCE; \"cal\" marks a date corrected to calendar years). Only four sites carry the picture, so a handful of places stand for the whole region across some 1,600 years.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-feldman2019-nn6"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Levant's early farmers share significantly more genetic variants with Natufians than with early farmers from Iran, which links their ancestry more closely to Natufian-related hunter-gatherers. In a model of the farmers from 'Ain Ghazal and Motza, about two-thirds of the ancestry is related to Natufian hunter-gatherers and about one-third to Anatolian farmers. That Natufian-related majority sets them apart from the first farmers of the Zagros, who descended largely from other local hunter-gatherers and were strongly differentiated from them.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn2",
+            "ev-lazaridis2016-nn7",
+            "ev-lazaridis2016-3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Late Chalcolithic (Copper Age) individuals from Peqi'in Cave, dated 4500–3900 BCE, are modelled as about 57 percent Levant Neolithic-related, with the rest Iranian- and Anatolian-related. By the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed, which reduced the genetic differences across the Near East. In Tanzania, a pastoralist from Luxmanda who lived about 3,100 years ago is modelled with 38 percent (plus or minus 1) ancestry related to Levantine pre-pottery farmers, with Iran- or Anatolia-related sources excluded. A 2016 study likewise finds that East African ancestry related to the Near East fits Levantine early farmers better than Anatolian or early European farmers.",
+          "evidence_ids": [
+            "ev-harney2018-1",
+            "ev-lazaridis2016-4",
+            "ev-skoglund2017-3",
+            "ev-lazaridis2016-5b",
+            "ev-lazaridis2016-nn8"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Whether the Levant-related ancestry in East Africa arrived by migration from the Levant or comes from a shared earlier ancestral population is open; the authors of the Tanzania study note both possibilities. The 2016 study's own reading, a lower-confidence one, is that this ancestry did not spread from the group that carried Near Eastern ancestry into Europe. The Tanzania figure also rests on a single individual.",
+          "evidence_ids": [
+            "ev-skoglund2017-3",
+            "ev-lazaridis2016-nn8"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map's sampled range reaches 4500 BCE only because one individual from Motza has a very wide date range in the source data."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Pre-Pottery Neolithic farmers of the southern Levant, who descended largely from local Natufian-related hunter-gatherers but also carried Anatolian-farmer-related ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2016-3",
+            "ev-lazaridis2016-nn7"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Ancestry related to theirs is also modelled in a pastoralist who lived in Tanzania about 3,100 years ago.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "This grouping gathers farmers of the Pre-Pottery Neolithic, the early stage of farming before pottery was in use, from sites in the southern Levant, the eastern Mediterranean region that includes present-day Israel and Jordan.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-feldman2019-nn6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Later studies use them as a reference, describing other populations by how much of their ancestry is related to Neolithic Levantines like these.",
+          "evidence_ids": [
+            "ev-feldman2019-nn6",
+            "ev-harney2018-1",
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "A 2016 study sampled farmers from 'Ain Ghazal and Motza who lived between 8,300 and 6,700 BCE.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "A 2019 study added two more Pre-Pottery Neolithic B farmers, one from Kfar HaHoresh (about 7700–7600 BCE) and one from Ba'ja (7027–6685 cal BCE; \"cal\" marks a date corrected to calendar years).",
+          "evidence_ids": [
+            "ev-feldman2019-nn6"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Only four sites carry the picture, so a handful of places stand for the whole region across some 1,600 years.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-feldman2019-nn6"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Levant's early farmers share significantly more genetic variants with Natufians than with early farmers from Iran, which links their ancestry more closely to Natufian-related hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In a model of the farmers from 'Ain Ghazal and Motza, about two-thirds of the ancestry is related to Natufian hunter-gatherers and about one-third to Anatolian farmers.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "That Natufian-related majority sets them apart from the first farmers of the Zagros, who descended largely from other local hunter-gatherers and were strongly differentiated from them.",
+          "evidence_ids": [
+            "ev-lazaridis2016-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Late Chalcolithic (Copper Age) individuals from Peqi'in Cave, dated 4500–3900 BCE, are modelled as about 57 percent Levant Neolithic-related, with the rest Iranian- and Anatolian-related.",
+          "evidence_ids": [
+            "ev-harney2018-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "By the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed, which reduced the genetic differences across the Near East.",
+          "evidence_ids": [
+            "ev-lazaridis2016-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Tanzania, a pastoralist from Luxmanda who lived about 3,100 years ago is modelled with 38 percent (plus or minus 1) ancestry related to Levantine pre-pottery farmers, with Iran- or Anatolia-related sources excluded.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A 2016 study likewise finds that East African ancestry related to the Near East fits Levantine early farmers better than Anatolian or early European farmers.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5b",
+            "ev-lazaridis2016-nn8"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether the Levant-related ancestry in East Africa arrived by migration from the Levant or comes from a shared earlier ancestral population is open; the authors of the Tanzania study note both possibilities.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2016 study's own reading, a lower-confidence one, is that this ancestry did not spread from the group that carried Near Eastern ancestry into Europe.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn8"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Tanzania figure also rests on a single individual.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        }
+      ]
+    },
+    "anatolia-neolithic-farmers": {
+      "description": "Neolithic farmers of Anatolia, whose ancestry in the central region comes largely from the local hunter-gatherers who lived there before them. Ancestry related to theirs spread west into Europe, where it makes up most of the ancestry of early farmers in the Balkans and Britain.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Two regions of Anatolia, the peninsula that makes up most of present-day Turkey, supply the evidence: central Anatolia, whose early farmers show continuity with local hunter-gatherers, and northwestern Anatolia, whose Neolithic farmers are the reference for the first farmers of Europe. The earliest farmers in the 2019 study are the aceramic farmers of Boncuklu, meaning farmers without pottery, who lived about 8300–7800 BCE; ceramic-period farmers followed them.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-lazaridis2016-nn9",
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In central Anatolia the early farmers' ancestry is largely local: the study of the region puts their continuity with a 15,000-year-old hunter-gatherer from Pınarbaşı at about 80–90 percent. In the models, aceramic farmers at Boncuklu derive 89.7 percent (plus or minus 3.9) of their ancestry from a population related to that hunter-gatherer, and the rest from Iranian- and Caucasus-related sources. Later ceramic-period farmers still derive 78.7 percent (plus or minus 3.5) of theirs from those earlier farmers, adding Levant Neolithic-related ancestry. A separate model places the split of the Anatolian and European farmer lineage from European hunter-gatherers at about 33,000–39,000 years ago, and from the Zagros farmers' lineage at about 46,000–77,000 years ago.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn3",
+            "ev-broushaki2016-nn3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Early farmers of mainland Europe descend from a population related to Neolithic northwestern Anatolians, whom they resemble more than they resemble Levantine Neolithic farmers, by a margin of 15 standard errors. Farming reached southeastern Europe in the mid-7th millennium BCE with migrants of Anatolian-related ancestry, and about 98 percent of Balkan Neolithic ancestry is Anatolian-related in one model, the rest coming from western hunter-gatherers. In Britain the share is lower, about 74 percent on average in one model, with small hunter-gatherer contributions and no later resurgence. Across Europe, hunter-gatherer ancestry in early farmers varied by region and generally increased over time through local mixing.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn9",
+            "ev-mathieson2018-2",
+            "ev-mathieson2018-nn1",
+            "ev-brace2019-2",
+            "ev-lipson2017-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The 2016 study that found the link to Europe notes that the spatial distribution of Anatolian-like farmer populations is unknown, so it does not rule out other sources for the European farmers. The continuity results concern central Anatolia, and how far they hold for northwestern Anatolia is not shown.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn9",
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn3"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map's 189 individuals come from 12 sites and span 9800–3533 BCE, more than the studies cited in the text describe."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Neolithic farmers of Anatolia, whose ancestry in the central region comes largely from the local hunter-gatherers who lived there before them.",
+          "evidence_ids": [
+            "ev-feldman2019-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Ancestry related to theirs spread west into Europe, where it makes up most of the ancestry of early farmers in the Balkans and Britain.",
+          "evidence_ids": [
+            "ev-lazaridis2016-5a",
+            "ev-mathieson2018-nn1",
+            "ev-brace2019-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Two regions of Anatolia, the peninsula that makes up most of present-day Turkey, supply the evidence: central Anatolia, whose early farmers show continuity with local hunter-gatherers, and northwestern Anatolia, whose Neolithic farmers are the reference for the first farmers of Europe.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-lazaridis2016-nn9"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The earliest farmers in the 2019 study are the aceramic farmers of Boncuklu, meaning farmers without pottery, who lived about 8300–7800 BCE; ceramic-period farmers followed them.",
+          "evidence_ids": [
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In central Anatolia the early farmers' ancestry is largely local: the study of the region puts their continuity with a 15,000-year-old hunter-gatherer from Pınarbaşı at about 80–90 percent.",
+          "evidence_ids": [
+            "ev-feldman2019-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In the models, aceramic farmers at Boncuklu derive 89.7 percent (plus or minus 3.9) of their ancestry from a population related to that hunter-gatherer, and the rest from Iranian- and Caucasus-related sources.",
+          "evidence_ids": [
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Later ceramic-period farmers still derive 78.7 percent (plus or minus 3.5) of theirs from those earlier farmers, adding Levant Neolithic-related ancestry.",
+          "evidence_ids": [
+            "ev-feldman2019-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A separate model places the split of the Anatolian and European farmer lineage from European hunter-gatherers at about 33,000–39,000 years ago, and from the Zagros farmers' lineage at about 46,000–77,000 years ago.",
+          "evidence_ids": [
+            "ev-broushaki2016-nn3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Early farmers of mainland Europe descend from a population related to Neolithic northwestern Anatolians, whom they resemble more than they resemble Levantine Neolithic farmers, by a margin of 15 standard errors.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn9"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Farming reached southeastern Europe in the mid-7th millennium BCE with migrants of Anatolian-related ancestry, and about 98 percent of Balkan Neolithic ancestry is Anatolian-related in one model, the rest coming from western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-mathieson2018-2",
+            "ev-mathieson2018-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Britain the share is lower, about 74 percent on average in one model, with small hunter-gatherer contributions and no later resurgence.",
+          "evidence_ids": [
+            "ev-brace2019-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Across Europe, hunter-gatherer ancestry in early farmers varied by region and generally increased over time through local mixing.",
+          "evidence_ids": [
+            "ev-lipson2017-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2016 study that found the link to Europe notes that the spatial distribution of Anatolian-like farmer populations is unknown, so it does not rule out other sources for the European farmers.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn9"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The continuity results concern central Anatolia, and how far they hold for northwestern Anatolia is not shown.",
+          "evidence_ids": [
+            "ev-feldman2019-2",
+            "ev-feldman2019-nn3"
+          ]
+        }
+      ]
+    },
+    "levant-chalcolithic-peqiin": {
+      "description": "Late Chalcolithic (Copper Age) individuals from Peqi'in Cave in Israel, modelled as a blend of Levantine, Iranian-related and Anatolian-related ancestry. Their mixed ancestry shows that mixing between the Near East's regional populations was already under way before the Bronze Age.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The grouping rests on one cave: all the individuals come from Peqi'in Cave and date to 4500–3900 BCE. A 2018 study analysed 22 individuals from the cave, of whom 20 appear unrelated, which matters because close relatives share much of their DNA and would count the same ancestry twice.",
+          "evidence_ids": [
+            "ev-harney2018-1",
+            "ev-harney2018-nn1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The study models the Peqi'in individuals as more than half (about 57 percent) Levant Neolithic-related, with the remainder related to Iran Chalcolithic (17 percent) and Anatolia Neolithic (26 percent) populations. Mixing of this kind was widespread: by the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed across the Near East, which reduced genetic differences between regions.",
+          "evidence_ids": [
+            "ev-harney2018-1",
+            "ev-lazaridis2016-4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The paternal lineages of the Peqi'in males set them apart from the periods on either side. The Y chromosome passes from father to son, so its lineage, called a haplogroup, follows the paternal line: nine of the ten Peqi'in males carry the same one, haplogroup T, whereas earlier Levantine populations were dominated by haplogroup E and later Bronze Age individuals all carry haplogroup J. Because the Y chromosome follows a single line of descent, it records only part of a population's ancestry.",
+          "evidence_ids": [
+            "ev-harney2018-nn1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The three sources are not pinned down: several three-way models with similar sources fit the data, and Anatolia Neolithic and early European farmers are hard to distinguish, so each source is best read as a related population, not a named ancestor. The Peqi'in population also cannot be the sole ancestor of all later Bronze Age groups, because one Bronze Age group could not plausibly have descended from the same population.",
+          "evidence_ids": [
+            "ev-harney2018-nn2"
+          ]
+        }
+      ],
+      "caveats": [
+        "All 20 individuals on the map come from one cave, so the footprint marks that site and not the wider southern Levant."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Late Chalcolithic (Copper Age) individuals from Peqi'in Cave in Israel, modelled as a blend of Levantine, Iranian-related and Anatolian-related ancestry.",
+          "evidence_ids": [
+            "ev-harney2018-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their mixed ancestry shows that mixing between the Near East's regional populations was already under way before the Bronze Age.",
+          "evidence_ids": [
+            "ev-harney2018-1",
+            "ev-lazaridis2016-4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The grouping rests on one cave: all the individuals come from Peqi'in Cave and date to 4500–3900 BCE.",
+          "evidence_ids": [
+            "ev-harney2018-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2018 study analysed 22 individuals from the cave, of whom 20 appear unrelated, which matters because close relatives share much of their DNA and would count the same ancestry twice.",
+          "evidence_ids": [
+            "ev-harney2018-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study models the Peqi'in individuals as more than half (about 57 percent) Levant Neolithic-related, with the remainder related to Iran Chalcolithic (17 percent) and Anatolia Neolithic (26 percent) populations.",
+          "evidence_ids": [
+            "ev-harney2018-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Mixing of this kind was widespread: by the Bronze Age, Levant-, Zagros- and Anatolia-related farmer ancestries had mixed across the Near East, which reduced genetic differences between regions.",
+          "evidence_ids": [
+            "ev-lazaridis2016-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The paternal lineages of the Peqi'in males set them apart from the periods on either side.",
+          "evidence_ids": [
+            "ev-harney2018-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Y chromosome passes from father to son, so its lineage, called a haplogroup, follows the paternal line: nine of the ten Peqi'in males carry the same one, haplogroup T, whereas earlier Levantine populations were dominated by haplogroup E and later Bronze Age individuals all carry haplogroup J.",
+          "evidence_ids": [
+            "ev-harney2018-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Because the Y chromosome follows a single line of descent, it records only part of a population's ancestry.",
+          "evidence_ids": [
+            "ev-harney2018-nn1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The three sources are not pinned down: several three-way models with similar sources fit the data, and Anatolia Neolithic and early European farmers are hard to distinguish, so each source is best read as a related population, not a named ancestor.",
+          "evidence_ids": [
+            "ev-harney2018-nn2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Peqi'in population also cannot be the sole ancestor of all later Bronze Age groups, because one Bronze Age group could not plausibly have descended from the same population.",
+          "evidence_ids": [
+            "ev-harney2018-nn2"
+          ]
+        }
+      ]
     }
   },
   "wanted": [
@@ -426,7 +1235,24 @@
     "iberomaurusian-taforalt: a full-text check of van de Loosdrecht et al. 2018, giving the model behind the 'one-third sub-Saharan' figure, what the rest of the ancestry is modelled as, and how the individuals were dated.",
     "iberomaurusian-taforalt: what the Iberomaurusian is (tools, date range, geographic spread) and what kind of site Taforalt is (the old text called it a cave; no evidence says so), with burial context if the paper gives it.",
     "natufians: the archaeological context of the Raqefet Cave individuals (burials, what the Natufian culture is known for, such as settled villages), which no evidence statement gives.",
-    "natufians: the authors' suggestion, stated in the old text, that more Natufian sites and ancient DNA from North Africa would clarify Natufian origins; it needs an evidence statement with a location before it can be shown."
+    "natufians: the authors' suggestion, stated in the old text, that more Natufian sites and ancient DNA from North Africa would clarify Natufian origins; it needs an evidence statement with a location before it can be shown.",
+    "anatolia-epipaleolithic: the sex, age and burial or site context of the Pınarbaşı individual, and what kind of site Pınarbaşı is; no evidence statement gives any of these (the old text said 'he').",
+    "anatolia-epipaleolithic: the authors' stated reading that the farmers' continuity with the local hunter-gatherer implies a limited role for migration in the start of farming in central Anatolia; the old text said so but no evidence statement carries it.",
+    "anatolia-epipaleolithic: the Pınarbaşı genome's own Basal Eurasian estimate under the first study's method (only the Mota-based estimate, 24.8%, is in the evidence), and what the genome shares with western hunter-gatherers and Natufians beyond its PCA position.",
+    "zagros-early-farmers: archaeological context for the Zagros Neolithic (what the sites are, what farming looked like there); the page has only the isotope evidence from Wezmeh Cave for farming.",
+    "zagros-early-farmers: evidence statements for the Tepe Guran individuals (3 of the 16 on the map) and for the number, ages and coverage of the Ganj Dareh individuals (9 on the map); none of these is in the cited evidence.",
+    "zagros-early-farmers: a full-text reading of what 'share more than 95% of recent ancestry with modern groups' (ev-broushaki2016-nn2) measures; the figure is left out of the text because its meaning is unclear from the statement.",
+    "levant-ppn-farmers: burial and archaeological context for 'Ain Ghazal, Motza, Kfar HaHoresh and Ba'ja (what kind of sites, how the dead were buried), and which present-day countries the sites lie in; no evidence statement gives these (the old text said 'buried at' and 'Jordan and Israel').",
+    "levant-ppn-farmers: what Pre-Pottery Neolithic B and C are (dates, practices such as domesticated plants and animals); the page has no direct evidence about how these people farmed.",
+    "levant-ppn-farmers: a statement on the second East African analysis (m-prendergast2019, northeastern African-related plus eastern African forager ancestry) so the page can say what it adds; the panel shows the model but no evidence statement is attached to it.",
+    "levant-ppn-farmers: evidence on when and how the Anatolian-farmer-related third of the ancestry entered the Levant; the page can only say it is present in the farmers from 'Ain Ghazal and Motza.",
+    "anatolia-neolithic-farmers: evidence for the other sites and periods on the map (Çatalhöyük labels account for 105 of the 189 individuals; Turkey_PPNA reaches 9800 BCE), including how they relate genetically to the Boncuklu farmers.",
+    "anatolia-neolithic-farmers: archaeological context for Neolithic Anatolia (what the sites are, what farming looked like, and where Boncuklu lies); no evidence statement says Boncuklu is in central Anatolia, so the page does not.",
+    "anatolia-neolithic-farmers: a continuity or ancestry figure for northwestern Anatolian farmers, who are the reference for the first European farmers but have no ancestry statement of their own.",
+    "anatolia-neolithic-farmers: an evidence statement that early farmers of Iberia carry mostly Anatolian-farmer-related ancestry (the page names only the Balkans and Britain).",
+    "levant-chalcolithic-peqiin: the archaeological context of Peqi'in Cave (what the cave was used for, how the dead were placed, what Late Chalcolithic material culture the individuals are associated with) and how the individuals were dated; no evidence statement gives it, so the page does not say they were 'buried'.",
+    "levant-chalcolithic-peqiin: the authors' reading of the Y-haplogroup T pattern, and the claim in the old text that movement of people drove cultural change at this time, which needs an evidence statement before it can be shown.",
+    "levant-chalcolithic-peqiin: which Bronze Age groups Peqi'in does and does not fit as an ancestor (ev-harney2018-nn2 does not name them)."
   ],
   "concerns": [
     "chg: two Kotias Klde Mesolithic members, KK1 (Jones et al. 2015) and NEO281 (Allentoft et al. 2024), have almost identical date ranges (about 7939–7598 BCE vs 7938–7600 BCE); check whether NEO281 is the same person re-sequenced, which would count one man twice on the map.",
@@ -434,6 +1260,22 @@
     "iberomaurusian-taforalt: ev-vandeloosdrecht2018-1 and ev-vandeloosdrecht2018-eh1 state almost the same claim; one could be retired.",
     "natufians: the replaced 'What we cannot tell' said the authors suggest further Natufians and North African ancient DNA could improve understanding; none of the cited evidence states this.",
     "natufians: three of the four map members carry an AADR date range of 12000–9500 BCE, while the study (ev-lazaridis2016-nn1) gives 12,000–9,800 BCE for the sample; the timeline end of 9500 BCE comes from the broader AADR range.",
-    "natufians / anatolia-epipaleolithic: ev-feldman2019-nn1 and ev-feldman2019-nn5 state the same Mota-based Basal Eurasian estimates; one could be retired."
+    "natufians / anatolia-epipaleolithic: ev-feldman2019-nn1 and ev-feldman2019-nn5 state the same Mota-based Basal Eurasian estimates; one could be retired.",
+    "anatolia-epipaleolithic: the map member carries an AADR date range of about 13629–13308 BCE while the study (ev-feldman2019-nn2) gives 13,642–13,073 cal BCE for the direct date; the timeline range comes from AADR.",
+    "anatolia-epipaleolithic: the replaced text said the individual 'shares extra alleles with both western hunter-gatherers and Levantine Natufians' and that the authors treat the Balkan link 'as a possibility'; neither is in the cited evidence statements.",
+    "anatolia-epipaleolithic: ev-feldman2019-nn1 calls the comparison estimate 'the first study's 44% for Natufians' without naming the study; the page says 'an earlier study'.",
+    "zagros-early-farmers: the replaced description called them 'among the earliest farmers' and the old text said 'low coverage for most' individuals; neither is carried by the cited evidence (coverage is reported only for four genomes).",
+    "zagros-early-farmers: the map spans 8295–7076 BCE (AADR), but the cited evidence gives 8,200–7,600 BCE (Ganj Dareh) and 7,455–7,082 cal BCE (Wezmeh Cave); the Tepe Guran individuals are the likely source of the earlier end.",
+    "levant-ppn-farmers: the map's sampled range ends at 4500 BCE because Motza individual I0867 (Israel_PPNB_PotteryN_C) has an AADR date range of about 6999–4499 BCE; the cited studies date the Motza and 'Ain Ghazal farmers to 8,300–6,700 BCE, so the timeline end may overstate the group.",
+    "levant-ppn-farmers: ev-lazaridis2016-5b (high) and ev-lazaridis2016-nn8 (low, qualifies) state the same East African model result with different confidence; nn8 adds the authors' reading about Europe. One could be retired or the confidence reconciled.",
+    "levant-ppn-farmers: the replaced overview said 'buried at', 'Jordan and Israel', and that the East African ancestry was 'dated and modelled using proxy groups'; none is in the cited evidence statements.",
+    "levant-ppn-farmers: the group mixes individuals from different publications (2016, 2019, 2022, 2023, 2025 AADR labels) and dating labels (PPNB, PPNC, a Pottery Neolithic-labelled Motza individual); the evidence covers only the 2016 and 2019 studies.",
+    "anatolia-neolithic-farmers: the relationship ancestry → iberia-early-neolithic cites ev-lazaridis2016-5a and ev-lipson2017-2, and neither statement mentions Iberia; the replaced text said Iberian farmers 'carry mostly Anatolian-farmer-related ancestry' with no statement behind it.",
+    "anatolia-neolithic-farmers: the replaced text said 'the people are grouped by the archaeological stage they belong to'; no cited evidence says so, and the source labels mix sites (Çatalhöyük) and stages (PPN, PPNA).",
+    "anatolia-neolithic-farmers: the map range (9800–3533 BCE, 12 sites) is much wider than the evidence, which dates only Boncuklu (about 8300–7800 BCE).",
+    "levant-chalcolithic-peqiin: the record's description (and the replaced text) say the individuals 'formed a homogeneous population'; no cited evidence statement says so.",
+    "levant-chalcolithic-peqiin: the replaced overview said the population was 'formed partly by outside influences from Iranian and Anatolian sources'; no cited evidence states that interpretation.",
+    "levant-chalcolithic-peqiin: ev-lazaridis2016-4 speaks of 'Zagros-related' ancestry while the Peqi'in model uses 'Iran Chalcolithic-related'; the page does not equate them.",
+    "levant-chalcolithic-peqiin: the study analysed 22 individuals with 20 appearing unrelated; the map shows 20 individuals and carries a sampled range of 4450–3950 BCE against the study's 4500–3900 BCE; check that the 20 on the map are the unrelated ones."
   ]
 }

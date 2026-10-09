@@ -712,6 +712,476 @@
           ]
         }
       ]
+    },
+    "central-andes": {
+      "description": "Ancient individuals of the Andean highlands and coast, whose genomes show the regional differences seen today beginning to form by about 5,800 years ago. From about 2,000 years ago, most regions stayed genetically uniform even as archaeological cultures changed.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This is a region followed across about 8,500 years, not a single population. Its core is a 2020 study by Nakatsuka and colleagues of 89 individuals from the Central and South-Central Andes, 65 of them newly reported, who lived between about 9,000 and 500 years ago. They come from highland and coastal contexts associated with the Wari, Tiwanaku, Moche and Inca cultures, among others.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The pattern of genetic differences between Andean regions seen today began to form by about 5,800 years ago. The study infers that by then the northern and southern highland lineages had already split, and that even the oldest highland individuals, from Lauricocha about 8,600 years ago, were distinct from coastal groups. Gene flow nonetheless linked the north and south highlands, and the highlands and the coast. Posth and colleagues (2018) suggest that the oldest Peruvian individuals, from Cuncaicha and Lauricocha and up to about 9,000 years old, share genetic variants at the highest rate with present-day Indigenous groups of the Central Andes.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am2",
+            "ev-posth2018-am7"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Posth and colleagues also report a stream of gene flow with a distinctive affinity to individuals from San Nicolas Island, California, who lived about 4,900 years ago; it was present in the Central Andes by about 4,200 years ago. After about 2,000 years ago most regions stayed genetically uniform through changes of archaeological culture, including the shift from Moche to Lambayeque and Wari influence, and neighbouring groups show minimal mixing between 2,000 and 500 years ago. The exceptions are the Tiwanaku and Inca heartlands, where communities were of mixed ancestry, and the study points to long-range mobility and genetic heterogeneity at Tiwanaku and, in the Inca period, in the Cusco and Sacred Valley regions. Present-day Indigenous groups cluster with ancient individuals from their own region.",
+          "evidence_ids": [
+            "ev-posth2018-am8",
+            "ev-posth2018-3",
+            "ev-nakatsuka2020-am3",
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The match between ancient and present-day groups is not universal: pre-Hispanic Cusco individuals are less closely related to present-day Cusco individuals than to groups outside the region, and the study offers several possible explanations. Where the match does hold, the authors stress that it shows genetic continuity only, not continuity of language. The age given for the split between the northern and southern highland lineages is only a lower limit, so when it happened is open.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am4",
+            "ev-nakatsuka2020-am3",
+            "ev-nakatsuka2020-am2"
+          ]
+        }
+      ],
+      "caveats": [
+        "The page groups individuals from Peru and Bolivia by region, not by a shared genetic profile; because the regions differ genetically, no single average describes them."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Ancient individuals of the Andean highlands and coast, whose genomes show the regional differences seen today beginning to form by about 5,800 years ago.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "From about 2,000 years ago, most regions stayed genetically uniform even as archaeological cultures changed.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "This is a region followed across about 8,500 years, not a single population.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Its core is a 2020 study by Nakatsuka and colleagues of 89 individuals from the Central and South-Central Andes, 65 of them newly reported, who lived between about 9,000 and 500 years ago.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "They come from highland and coastal contexts associated with the Wari, Tiwanaku, Moche and Inca cultures, among others.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The pattern of genetic differences between Andean regions seen today began to form by about 5,800 years ago.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study infers that by then the northern and southern highland lineages had already split, and that even the oldest highland individuals, from Lauricocha about 8,600 years ago, were distinct from coastal groups.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Gene flow nonetheless linked the north and south highlands, and the highlands and the coast.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Posth and colleagues (2018) suggest that the oldest Peruvian individuals, from Cuncaicha and Lauricocha and up to about 9,000 years old, share genetic variants at the highest rate with present-day Indigenous groups of the Central Andes.",
+          "evidence_ids": [
+            "ev-posth2018-am7"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Posth and colleagues also report a stream of gene flow with a distinctive affinity to individuals from San Nicolas Island, California, who lived about 4,900 years ago; it was present in the Central Andes by about 4,200 years ago.",
+          "evidence_ids": [
+            "ev-posth2018-am8",
+            "ev-posth2018-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "After about 2,000 years ago most regions stayed genetically uniform through changes of archaeological culture, including the shift from Moche to Lambayeque and Wari influence, and neighbouring groups show minimal mixing between 2,000 and 500 years ago.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am3",
+            "ev-nakatsuka2020-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The exceptions are the Tiwanaku and Inca heartlands, where communities were of mixed ancestry, and the study points to long-range mobility and genetic heterogeneity at Tiwanaku and, in the Inca period, in the Cusco and Sacred Valley regions.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-1",
+            "ev-nakatsuka2020-am4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Present-day Indigenous groups cluster with ancient individuals from their own region.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The match between ancient and present-day groups is not universal: pre-Hispanic Cusco individuals are less closely related to present-day Cusco individuals than to groups outside the region, and the study offers several possible explanations.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where the match does hold, the authors stress that it shows genetic continuity only, not continuity of language.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The age given for the split between the northern and southern highland lineages is only a lower limit, so when it happened is open.",
+          "evidence_ids": [
+            "ev-nakatsuka2020-am2"
+          ]
+        }
+      ]
+    },
+    "caribbean-archaic": {
+      "description": "People of the Caribbean's Archaic Age, before the Ceramic Age, whose DNA is closest to that of Central and northern South Americans. Their lineages were later more than 98 percent replaced by a ceramic-using population, yet in western Cuba they persisted for over 2,500 years.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The study's Greater Antilles Archaic clade, a branch of the genetic family tree, is almost entirely Cuban: it holds 50 Cuban individuals dated about 3,200 to 700 years ago and one Dominican individual. The Caribbean was first settled about 6,000 years ago, so even the oldest of these individuals lived some 2,800 years after the first settlement. Their communities appear to have been small: effective population size, a genetic estimate of how many individuals contributed to the next generation, is put at about 200–300 at Archaic-associated sites, against 500–1,500 at Ceramic-associated ones.",
+          "evidence_ids": [
+            "ev-fernandes2021-am1",
+            "ev-fernandes2021-am3",
+            "ev-fernandes2021-am2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The study traces the Archaic Age people to a deeply divergent population, meaning a lineage with a long history apart from its relatives. Their genomes share the most genetic history with Indigenous groups from Central and northern South America, and show no excess sharing with Mesoamerican or North American groups. The study found no support for earlier claims of North American-related ancestry.",
+          "evidence_ids": [
+            "ev-fernandes2021-2",
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The Caribbean shifted from the Archaic to the Ceramic Age around 2,500 years ago. Archaic lineages were more than 98 percent replaced by a homogeneous ceramic-using population, which the study relates to northeastern South America and which reached the Greater Antilles at least 1,700 years ago. Western Cuba is the exception: there, Archaic lineages persisted with minimal mixture for more than 2,500 years.",
+          "evidence_ids": [
+            "ev-fernandes2021-am3",
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The evidence shows who the Archaic Age people were most closely related to, not where their ancestors lived before reaching the islands. Because all but one of the individuals in the clade are Cuban, the findings speak mainly for Cuba. Why Archaic lineages persisted in western Cuba when they gave way elsewhere is not explained by this evidence.",
+          "evidence_ids": [
+            "ev-fernandes2021-2",
+            "ev-fernandes2021-am1",
+            "ev-fernandes2021-am2"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "People of the Caribbean's Archaic Age, before the Ceramic Age, whose DNA is closest to that of Central and northern South Americans.",
+          "evidence_ids": [
+            "ev-fernandes2021-2",
+            "ev-fernandes2021-am1",
+            "ev-fernandes2021-am3"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their lineages were later more than 98 percent replaced by a ceramic-using population, yet in western Cuba they persisted for over 2,500 years.",
+          "evidence_ids": [
+            "ev-fernandes2021-am3",
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The study's Greater Antilles Archaic clade, a branch of the genetic family tree, is almost entirely Cuban: it holds 50 Cuban individuals dated about 3,200 to 700 years ago and one Dominican individual.",
+          "evidence_ids": [
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Caribbean was first settled about 6,000 years ago, so even the oldest of these individuals lived some 2,800 years after the first settlement.",
+          "evidence_ids": [
+            "ev-fernandes2021-am3",
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their communities appear to have been small: effective population size, a genetic estimate of how many individuals contributed to the next generation, is put at about 200–300 at Archaic-associated sites, against 500–1,500 at Ceramic-associated ones.",
+          "evidence_ids": [
+            "ev-fernandes2021-am2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study traces the Archaic Age people to a deeply divergent population, meaning a lineage with a long history apart from its relatives.",
+          "evidence_ids": [
+            "ev-fernandes2021-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their genomes share the most genetic history with Indigenous groups from Central and northern South America, and show no excess sharing with Mesoamerican or North American groups.",
+          "evidence_ids": [
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study found no support for earlier claims of North American-related ancestry.",
+          "evidence_ids": [
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Caribbean shifted from the Archaic to the Ceramic Age around 2,500 years ago.",
+          "evidence_ids": [
+            "ev-fernandes2021-am3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Archaic lineages were more than 98 percent replaced by a homogeneous ceramic-using population, which the study relates to northeastern South America and which reached the Greater Antilles at least 1,700 years ago.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Western Cuba is the exception: there, Archaic lineages persisted with minimal mixture for more than 2,500 years.",
+          "evidence_ids": [
+            "ev-fernandes2021-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The evidence shows who the Archaic Age people were most closely related to, not where their ancestors lived before reaching the islands.",
+          "evidence_ids": [
+            "ev-fernandes2021-2",
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Because all but one of the individuals in the clade are Cuban, the findings speak mainly for Cuba.",
+          "evidence_ids": [
+            "ev-fernandes2021-am1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Why Archaic lineages persisted in western Cuba when they gave way elsewhere is not explained by this evidence.",
+          "evidence_ids": [
+            "ev-fernandes2021-am2"
+          ]
+        }
+      ]
+    },
+    "caribbean-ceramic": {
+      "description": "The ceramic-using people who spread through the Caribbean islands, carrying almost none of the ancestry of the Archaic Age people before them. Their genomes show one homogeneous, interconnected population, though its link to Arawak-speaking groups of northeastern South America depends on the method used.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The group is defined by archaeology: individuals associated with the Ceramic Age. The 2021 study by Fernandes and colleagues analysed 194 of them, dated about 1,700 to 400 years ago, and finds them genetically homogeneous. They were not isolated island by island: 19 pairs of cross-island cousins show an interconnected population, with an estimated effective population size of about 500–1,500, a genetic measure of how many individuals contributed to each next generation.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4",
+            "ev-fernandes2021-am6"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Almost none of the Archaic Age people's ancestry survives in them: Archaic-related ancestry in ceramic-associated people of the Greater Antilles and The Bahamas is estimated at about 0.5–2.0 percent, with the exception of three individuals in Hispaniola, who carry 11.8–18.5 percent. The rest of their ancestry fits a source population related to groups of northeastern South America. Models in which the Lesser Antilles supplied the ancestry of the Greater Antillean groups fit the data, which points to a spread from south to north.",
+          "evidence_ids": [
+            "ev-fernandes2021-am5",
+            "ev-fernandes2021-3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The ceramic-using population followed the Archaic Age people: the Caribbean shifted from the Archaic to the Ceramic Age around 2,500 years ago, and the population reached the Greater Antilles at least 1,700 years ago. Within the Ceramic Age, changes in pottery style were not driven by migrations of genetically distinct groups. Present-day Puerto Ricans show relatedness to ceramic-associated individuals in two datasets, consistent with Indigenous ancestry that is entirely Ceramic-related but not entirely Archaic-related, an inference drawn from modern genomes.",
+          "evidence_ids": [
+            "ev-fernandes2021-am3",
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-4",
+            "ev-fernandes2021-am7"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The study's own analyses diverge on where the expansion came from. The abstract relates the ceramic-using population to Arawak speakers of northeastern South America and an ADMIXTURE analysis suggests the same affinity, but f4 statistics, which compare how much history groups share, find no significant closeness to Arawak-speaking groups over Cariban- or Tupian-speaking ones. These language names label the comparison groups, not the ancient people. Ancient Venezuelans from Las Locas, about 2,350 years old, form a single branch with present-day Cabecar, which the authors read as pointing to more easterly origins. The study found no genetic evidence for a separate Carib migration about 1,150 years ago, though it could not have detected such ancestry below about 2–8 percent.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am4",
+            "ev-fernandes2021-am6"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The ceramic-using people who spread through the Caribbean islands, carrying almost none of the ancestry of the Archaic Age people before them.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am5"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their genomes show one homogeneous, interconnected population, though its link to Arawak-speaking groups of northeastern South America depends on the method used.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4",
+            "ev-fernandes2021-am6",
+            "ev-fernandes2021-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The group is defined by archaeology: individuals associated with the Ceramic Age.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The 2021 study by Fernandes and colleagues analysed 194 of them, dated about 1,700 to 400 years ago, and finds them genetically homogeneous.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "They were not isolated island by island: 19 pairs of cross-island cousins show an interconnected population, with an estimated effective population size of about 500–1,500, a genetic measure of how many individuals contributed to each next generation.",
+          "evidence_ids": [
+            "ev-fernandes2021-am6"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Almost none of the Archaic Age people's ancestry survives in them: Archaic-related ancestry in ceramic-associated people of the Greater Antilles and The Bahamas is estimated at about 0.5–2.0 percent, with the exception of three individuals in Hispaniola, who carry 11.8–18.5 percent.",
+          "evidence_ids": [
+            "ev-fernandes2021-am5",
+            "ev-fernandes2021-3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The rest of their ancestry fits a source population related to groups of northeastern South America.",
+          "evidence_ids": [
+            "ev-fernandes2021-3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Models in which the Lesser Antilles supplied the ancestry of the Greater Antillean groups fit the data, which points to a spread from south to north.",
+          "evidence_ids": [
+            "ev-fernandes2021-am5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The ceramic-using population followed the Archaic Age people: the Caribbean shifted from the Archaic to the Ceramic Age around 2,500 years ago, and the population reached the Greater Antilles at least 1,700 years ago.",
+          "evidence_ids": [
+            "ev-fernandes2021-am3",
+            "ev-fernandes2021-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Within the Ceramic Age, changes in pottery style were not driven by migrations of genetically distinct groups.",
+          "evidence_ids": [
+            "ev-fernandes2021-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Present-day Puerto Ricans show relatedness to ceramic-associated individuals in two datasets, consistent with Indigenous ancestry that is entirely Ceramic-related but not entirely Archaic-related, an inference drawn from modern genomes.",
+          "evidence_ids": [
+            "ev-fernandes2021-am7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The study's own analyses diverge on where the expansion came from.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The abstract relates the ceramic-using population to Arawak speakers of northeastern South America and an ADMIXTURE analysis suggests the same affinity, but f4 statistics, which compare how much history groups share, find no significant closeness to Arawak-speaking groups over Cariban- or Tupian-speaking ones.",
+          "evidence_ids": [
+            "ev-fernandes2021-3",
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "These language names label the comparison groups, not the ancient people.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Ancient Venezuelans from Las Locas, about 2,350 years old, form a single branch with present-day Cabecar, which the authors read as pointing to more easterly origins.",
+          "evidence_ids": [
+            "ev-fernandes2021-am4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The study found no genetic evidence for a separate Carib migration about 1,150 years ago, though it could not have detected such ancestry below about 2–8 percent.",
+          "evidence_ids": [
+            "ev-fernandes2021-am6"
+          ]
+        }
+      ]
     }
   },
   "wanted": [
@@ -720,7 +1190,14 @@
     "ancient-beringians: what USR1 was (an infant, and how it was found at Upward Sun River) and what is known of the second Upward Sun River individual on the map (USR2); no evidence statement describes either, so the page cannot say 'infant' or 'burial'.",
     "clovis-anzick: an evidence statement on the burial context (the old text mentioned red ochre and called it the only known Clovis burial; no evidence carries either) and one defining the Solutrean hypothesis, which the text glosses only as 'the idea that Clovis toolmaking came from Europe'.",
     "clovis-anzick / early-central-south-americans: where and what Monte Verde is, and its date, so the pre-Clovis alternative can be explained rather than just named.",
-    "early-central-south-americans: which individual carries the Australasian-related signal in Moreno-Mayar et al. 2018b (full text), so the disagreement with Posth et al. 2018 can be stated site by site; several Lagoa Santa (Sumidouro) individuals from that study are on the map."
+    "early-central-south-americans: which individual carries the Australasian-related signal in Moreno-Mayar et al. 2018b (full text), so the disagreement with Posth et al. 2018 can be stated site by site; several Lagoa Santa (Sumidouro) individuals from that study are on the map.",
+    "central-andes: how many of the oldest highland individuals are sampled and whether Nakatsuka et al. 2020 could determine the direction of gene flow between the North and South Highlands (the old text said it could not; no evidence statement says so).",
+    "central-andes: the several possible explanations Nakatsuka et al. 2020 give for why pre-Hispanic Cusco individuals are less related to present-day Cusco individuals than to groups outside the region.",
+    "central-andes: dates and places for the Wari, Tiwanaku, Moche, Lambayeque and Inca contexts, so the changes of archaeological culture can be placed on the timeline.",
+    "caribbean-archaic / caribbean-ceramic: an evidence statement saying how the Archaic-to-Ceramic Age shift (around 2,500 years ago) relates to the arrival of the ceramic-using population in the Greater Antilles (at least 1,700 years ago), and whether the Archaic Age began with the first settlement about 6,000 years ago; the sampled Archaic individuals are dated 3,200 to 700 years ago.",
+    "caribbean-archaic: where in western Cuba the persisting Archaic lineages were sampled, and the sample counts for the islands other than Cuba (the map has three Dominican Republic pre-ceramic individuals, the cited clade statement counts one).",
+    "caribbean-ceramic: which islands the 194 Ceramic Age individuals come from (ev-fernandes2021-am4 gives only the total and dates), and what the Las Locas result's 'more easterly origins' is relative to; a full-text statement would let the Venezuelan coast be placed.",
+    "caribbean-ceramic: who the Carib migration of about 1,150 years ago refers to in the paper (one clause), so the 2–8 percent detection limit can be explained."
   ],
   "concerns": [
     "ancient-beringians: ev-raghavan2015-am1 is linked to this population, but it concerns the later split between Athabascan and Amerindian lineages, not the Ancient Beringian split; the old text presented it as a competing location for the Ancient Beringian split. The new text states what it is about.",
@@ -729,6 +1206,10 @@
     "clovis-anzick: the map dates Anzick-1 to 10797–10726 calBCE (AADR), while Rasmussen et al. 2014 (ev-rasmussen2014-am2) give 12,707–12,556 cal BP, about 10,758–10,607 BCE; the two ranges barely overlap and the source of the difference should be checked.",
     "clovis-anzick / early-central-south-americans / central-andes: ev-posth2018-am2 says later Central Andes individuals share more Anzick-1 relatedness than other South Americans, while ev-posth2018-4 says later South Americans derive from lineages without specific Clovis affinity; both are quoted faithfully, but the paper should be checked for how they fit together (possibly via the ~4,200-year-old stream).",
     "early-central-south-americans: evidence gives Los Rieles as about 10,900 years old (ev-posth2018-am2, -am3), but the AADR date on the map for I11974 (label Chile_LosRieles_12000BP) is 10420–9450 calBCE, roughly 12,400–11,400 years ago; one of the two needs checking.",
-    "early-central-south-americans / central-andes: Lauricocha individual I0238 (7000–6000 BCE) is a member of both populations because its date range straddles the 8,000-year boundary; and several map individuals come from studies with no curated source or evidence (Kennett et al. 2022 Belize incl. an 11,700 BP label, Ferraz et al. 2023, Maravall-López et al. 2025)."
+    "early-central-south-americans / central-andes: Lauricocha individual I0238 (7000–6000 BCE) is a member of both populations because its date range straddles the 8,000-year boundary; and several map individuals come from studies with no curated source or evidence (Kennett et al. 2022 Belize incl. an 11,700 BP label, Ferraz et al. 2023, Maravall-López et al. 2025).",
+    "central-andes: the map reports individuals sampled from 7000 BCE to 2000 CE, although membership is meant to be limited to 6050 BCE to 1500 CE; the date_within rule probably keeps individuals whose date ranges merely overlap the window, so the displayed span should be checked.",
+    "caribbean-archaic: the map shows 51 Cuba_PreCeramic and 3 DominicanRepublic_PreCeramic individuals (54), while ev-fernandes2021-am1 counts 50 Cuban individuals plus one Dominican in the Archaic clade; the difference should be explained (other publication, or individuals outside the clade).",
+    "caribbean-archaic / caribbean-ceramic: ev-fernandes2021-am3 (shift to the Ceramic Age around 2,500 years ago) and ev-fernandes2021-3 (ceramic-using population reached the Greater Antilles at least 1,700 years ago) give different dates for what reads as one event; the paper should be checked for how they fit together.",
+    "caribbean-ceramic: the page region includes the Venezuelan coast (map labels Venezuela_Ceramic, 8 individuals), but the cited evidence dates the Las Locas Venezuelans to about 2,350 years ago, older than the 1,700 to 400 years ago range given for the 194 island individuals; whether Las Locas individuals are members should be checked."
   ]
 }

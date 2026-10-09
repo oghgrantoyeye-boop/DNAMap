@@ -361,8 +361,866 @@
           ]
         }
       ]
+    },
+    "amur-hunter-gatherers": {
+      "description": "Hunter-gatherers of the Amur River basin whose genetic profile held steady from about 7,500 to 1,700 years ago, while the Yellow River and West Liao River profiles changed. Amur-related ancestry shows up later in the West Liao River region and in an individual associated with the Heishui Mohe culture.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Amur group is a genetic cluster: its individuals sit tightly together, and the 2021 study finds those from the Early Neolithic through the Xianbei period consistent with being a clade, a single branch of the family tree. The label “hunter-gatherers” needs care: the 2020 study notes that Amur populations relied on hunting, fishing, animal husbandry and some cultivation into the historic era.",
+          "evidence_ids": [
+            "ev-ning2020-ea1",
+            "ev-wang2021-ea2"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The 2020 study’s six Amur individuals span the Early Neolithic and the Iron Age: two hunter-gatherers dated about 5525–5320 BCE, and four from the Iron Age, three of them from a Xianbei context. The 2021 study adds 18 individuals at Boisman-2, dated 5400–3600 BCE, and finds the cluster continuing through the Iron Age and the Xianbei period. The 2020 study’s claim of stability across thousands of years rests on those six.",
+          "evidence_ids": [
+            "ev-ning2020-ea1",
+            "ev-wang2021-ea2",
+            "ev-ning2020-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Amur cluster sits on an old branch of East Asian ancestry: the 2021 study finds that Amur Basin hunter-gatherers share a deeply splitting lineage, one that branches off early in the family tree, with Jōmon-associated hunter-gatherers and with Neolithic and Iron Age people of Taiwan and the Tibetan plateau. In a separate model from the same study, Amur hunter-gatherers are about 87% Mongolian Neolithic-related, and the remaining 13% is Jōmon-related.",
+          "evidence_ids": [
+            "ev-wang2021-2",
+            "ev-wang2021-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Amur-related ancestry turns up in later populations in at least two places. In the West Liao River region, farming intensified in the Late Neolithic alongside more Yellow River affinity, and Bronze Age pastoralism coincides with more Amur affinity. An individual associated with the Heishui Mohe culture, from about 1100 CE, is estimated to have 43% Amur Basin Neolithic ancestry, give or take 15 percentage points, with the rest well modelled by a Han Chinese-related source.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-wang2021-ea3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "At the level of single people, the West Liao River case rests on one Bronze Age individual from a pastoralist context, who is indistinguishable from ancient Amur individuals. Two others are modelled as deriving 21% of their ancestry, give or take 7 points, from that individual, which the authors speculate reflects a recent migration from an Amur-related gene pool. Stability is also not the same as direct descent: a strict test of continuity rejects the ancient group as direct ancestors of present-day Amur populations, which the authors take to mean gene flow within the Amur gene pool.",
+          "evidence_ids": [
+            "ev-ning2020-ea2",
+            "ev-ning2020-ea1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers of the Amur River basin whose genetic profile held steady from about 7,500 to 1,700 years ago, while the Yellow River and West Liao River profiles changed.",
+          "evidence_ids": [
+            "ev-ning2020-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Amur-related ancestry shows up later in the West Liao River region and in an individual associated with the Heishui Mohe culture.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-wang2021-ea3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Amur group is a genetic cluster: its individuals sit tightly together, and the 2021 study finds those from the Early Neolithic through the Xianbei period consistent with being a clade, a single branch of the family tree.",
+          "evidence_ids": [
+            "ev-ning2020-ea1",
+            "ev-wang2021-ea2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The label “hunter-gatherers” needs care: the 2020 study notes that Amur populations relied on hunting, fishing, animal husbandry and some cultivation into the historic era.",
+          "evidence_ids": [
+            "ev-ning2020-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2020 study’s six Amur individuals span the Early Neolithic and the Iron Age: two hunter-gatherers dated about 5525–5320 BCE, and four from the Iron Age, three of them from a Xianbei context.",
+          "evidence_ids": [
+            "ev-ning2020-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2021 study adds 18 individuals at Boisman-2, dated 5400–3600 BCE, and finds the cluster continuing through the Iron Age and the Xianbei period.",
+          "evidence_ids": [
+            "ev-wang2021-ea2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2020 study’s claim of stability across thousands of years rests on those six.",
+          "evidence_ids": [
+            "ev-ning2020-2",
+            "ev-ning2020-ea1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Amur cluster sits on an old branch of East Asian ancestry: the 2021 study finds that Amur Basin hunter-gatherers share a deeply splitting lineage, one that branches off early in the family tree, with Jōmon-associated hunter-gatherers and with Neolithic and Iron Age people of Taiwan and the Tibetan plateau.",
+          "evidence_ids": [
+            "ev-wang2021-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In a separate model from the same study, Amur hunter-gatherers are about 87% Mongolian Neolithic-related, and the remaining 13% is Jōmon-related.",
+          "evidence_ids": [
+            "ev-wang2021-ea2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Amur-related ancestry turns up in later populations in at least two places.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-wang2021-ea3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In the West Liao River region, farming intensified in the Late Neolithic alongside more Yellow River affinity, and Bronze Age pastoralism coincides with more Amur affinity.",
+          "evidence_ids": [
+            "ev-ning2020-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "An individual associated with the Heishui Mohe culture, from about 1100 CE, is estimated to have 43% Amur Basin Neolithic ancestry, give or take 15 percentage points, with the rest well modelled by a Han Chinese-related source.",
+          "evidence_ids": [
+            "ev-wang2021-ea3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "At the level of single people, the West Liao River case rests on one Bronze Age individual from a pastoralist context, who is indistinguishable from ancient Amur individuals.",
+          "evidence_ids": [
+            "ev-ning2020-ea2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Two others are modelled as deriving 21% of their ancestry, give or take 7 points, from that individual, which the authors speculate reflects a recent migration from an Amur-related gene pool.",
+          "evidence_ids": [
+            "ev-ning2020-ea2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Stability is also not the same as direct descent: a strict test of continuity rejects the ancient group as direct ancestors of present-day Amur populations, which the authors take to mean gene flow within the Amur gene pool.",
+          "evidence_ids": [
+            "ev-ning2020-ea1"
+          ]
+        }
+      ]
+    },
+    "yellow-river-farmers": {
+      "description": "Neolithic farmers of the Yellow River basin; in one study’s models, farmer-related ancestry contributes a large share to present-day Han Chinese and some Tibetan groups. Their own profile grew closer to that of present-day southern Chinese and Southeast Asians over time.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Yellow River group is a genetic cluster named for its region, and it spans individuals associated with more than one archaeological culture, among them the Yangshao and the Longshan. Crop cultivation was already the dominant way of getting food there by the Middle Neolithic.",
+          "evidence_ids": [
+            "ev-ning2020-ea6"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The 2020 study sampled the Yellow River region at ten sites dated from 3550 to 50 BCE, a span of about three and a half thousand years. The Middle Neolithic part of the record is eight individuals associated with the Yangshao culture, about 3550–3050 BCE, and the Late Neolithic part is burials associated with the Longshan culture, about 2275–1844 BCE. The profile had a wide geographic range: ancient individuals from Inner Mongolia, Shaanxi and the upper Yellow River are modelled as a mixture of Yellow River farmers (about 80%) and Amur hunter-gatherers.",
+          "evidence_ids": [
+            "ev-ning2020-ea6",
+            "ev-ning2020-ea3",
+            "ev-ning2020-ea4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Yellow River profile did not stay fixed. Longshan individuals of the Late Neolithic are genetically closer to present-day southern Chinese and Southeast Asians than the earlier Yangshao individuals, and the Bronze and Iron Age show no further change. A 2021 study infers that a northern lineage related to the ancient Tianyuan genome contributed about 90% of the ancestry of Upper Yellow River Neolithic farmers.",
+          "evidence_ids": [
+            "ev-ning2020-2",
+            "ev-ning2020-ea3",
+            "ev-wang2021-ea4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Yellow River farmer-related ancestry is traced into another ancient population and into present-day groups. In the West Liao River region, a rise in Yellow River affinity in the Late Neolithic coincides with intensified farming. Among present-day groups, the 2021 study estimates that ancestry related to Yellow River farmers of around 3000 BCE accounts for 59–84% of most Han Chinese, the remainder coming from a southern source, and for up to about 84% of some Tibetan groups, whose mixing it dates to about 290 BCE–270 CE.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-wang2021-ea4",
+            "ev-wang2021-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Why the profile moved closer to southern groups is open: the authors link it to a possible northward spread of rice farming. For Tibetans, a model of Sherpa plus Upper Yellow River Late Neolithic ancestry fits and, the authors say, is compatible with northern-origin scenarios for Sino-Tibetan languages, but other models also marginally fit because the genetic data have limited resolution. The Yangshao side of that comparison is small, just eight individuals.",
+          "evidence_ids": [
+            "ev-ning2020-ea3",
+            "ev-ning2020-ea5",
+            "ev-ning2020-ea6"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Neolithic farmers of the Yellow River basin; in one study’s models, farmer-related ancestry contributes a large share to present-day Han Chinese and some Tibetan groups.",
+          "evidence_ids": [
+            "ev-wang2021-3",
+            "ev-wang2021-ea4"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their own profile grew closer to that of present-day southern Chinese and Southeast Asians over time.",
+          "evidence_ids": [
+            "ev-ning2020-2",
+            "ev-ning2020-ea3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Yellow River group is a genetic cluster named for its region, and it spans individuals associated with more than one archaeological culture, among them the Yangshao and the Longshan.",
+          "evidence_ids": [
+            "ev-ning2020-ea6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Crop cultivation was already the dominant way of getting food there by the Middle Neolithic.",
+          "evidence_ids": [
+            "ev-ning2020-ea6"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2020 study sampled the Yellow River region at ten sites dated from 3550 to 50 BCE, a span of about three and a half thousand years.",
+          "evidence_ids": [
+            "ev-ning2020-ea6"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The Middle Neolithic part of the record is eight individuals associated with the Yangshao culture, about 3550–3050 BCE, and the Late Neolithic part is burials associated with the Longshan culture, about 2275–1844 BCE.",
+          "evidence_ids": [
+            "ev-ning2020-ea6",
+            "ev-ning2020-ea3"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The profile had a wide geographic range: ancient individuals from Inner Mongolia, Shaanxi and the upper Yellow River are modelled as a mixture of Yellow River farmers (about 80%) and Amur hunter-gatherers.",
+          "evidence_ids": [
+            "ev-ning2020-ea4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Yellow River profile did not stay fixed.",
+          "evidence_ids": [
+            "ev-ning2020-2",
+            "ev-ning2020-ea3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Longshan individuals of the Late Neolithic are genetically closer to present-day southern Chinese and Southeast Asians than the earlier Yangshao individuals, and the Bronze and Iron Age show no further change.",
+          "evidence_ids": [
+            "ev-ning2020-ea3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2021 study infers that a northern lineage related to the ancient Tianyuan genome contributed about 90% of the ancestry of Upper Yellow River Neolithic farmers.",
+          "evidence_ids": [
+            "ev-wang2021-ea4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Yellow River farmer-related ancestry is traced into another ancient population and into present-day groups.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-wang2021-ea4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In the West Liao River region, a rise in Yellow River affinity in the Late Neolithic coincides with intensified farming.",
+          "evidence_ids": [
+            "ev-ning2020-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Among present-day groups, the 2021 study estimates that ancestry related to Yellow River farmers of around 3000 BCE accounts for 59–84% of most Han Chinese, the remainder coming from a southern source, and for up to about 84% of some Tibetan groups, whose mixing it dates to about 290 BCE–270 CE.",
+          "evidence_ids": [
+            "ev-wang2021-3",
+            "ev-wang2021-ea4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Why the profile moved closer to southern groups is open: the authors link it to a possible northward spread of rice farming.",
+          "evidence_ids": [
+            "ev-ning2020-ea3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "For Tibetans, a model of Sherpa plus Upper Yellow River Late Neolithic ancestry fits and, the authors say, is compatible with northern-origin scenarios for Sino-Tibetan languages, but other models also marginally fit because the genetic data have limited resolution.",
+          "evidence_ids": [
+            "ev-ning2020-ea5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Yangshao side of that comparison is small, just eight individuals.",
+          "evidence_ids": [
+            "ev-ning2020-ea6"
+          ]
+        }
+      ]
+    },
+    "west-liao-river": {
+      "description": "Individuals from the West Liao River region, where changes in ancestry coincide with changes in how people lived: more Yellow River-related ancestry as farming intensified, more Amur-related ancestry with Bronze Age pastoralism.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The West Liao River group is a geographic grouping, not a single genetic profile: it gathers individuals from several sites and periods because they come from the same region. What makes the region informative is that one place can be followed from the Middle Neolithic into the Bronze Age while both ancestry and ways of living changed.",
+          "evidence_ids": [
+            "ev-ning2020-ea10",
+            "ev-ning2020-ea7",
+            "ev-ning2020-ea8",
+            "ev-ning2020-3",
+            "ev-ning2020-ea9"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The 2020 study’s West Liao River sample comes from four sites dated 3694–350 BCE. Its periods are the Middle Neolithic, with individuals associated with the Hongshan culture, the Late Neolithic, with the Lower Xiajiadian culture, and the Bronze Age, with the Upper Xiajiadian culture. Foxtail and broomcorn millets were cultivated in the region from at least 6000 BCE, and how much people relied on millet changed over time with climate and archaeological culture.",
+          "evidence_ids": [
+            "ev-ning2020-ea10",
+            "ev-ning2020-ea7",
+            "ev-ning2020-ea8",
+            "ev-ning2020-ea9"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Middle Neolithic groups fall between the Amur and Yellow River clusters, and they differ sharply by place: Hongshan-culture individuals carry about 40% Amur-related ancestry, while an individual from a nearby site carries about 75%, a change within about 600 km once Miaozigou is included. Late Neolithic individuals of the Lower Xiajiadian culture are modelled as 74–88% Yellow River-related, the figure depending on the second source used in the model. Bronze Age individuals of the Upper Xiajiadian culture shift back toward Amur-related ancestry. One Bronze Age individual, from a pastoralist context, is indistinguishable from ancient Amur individuals, and two others are modelled as 21%, give or take 7 points, from that individual, which the authors speculate reflects a recent migration from an Amur-related gene pool.",
+          "evidence_ids": [
+            "ev-ning2020-ea7",
+            "ev-ning2020-ea8",
+            "ev-ning2020-ea2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The authors link the shifts to farming intensifying and then partly giving way to pastoralism, but two things changing together does not by itself show that one caused the other. Each period is represented by few individuals, and the authors say the data are insufficient to test whether differences between places persisted into later periods. A 2021 study models West Liao River farmers with different sources, about 67% Upper Yellow River-related and 33% southern Liangdao-related, and finds this mixture absent from the Mongolian and Amur time series, which its authors say conflicts with a simple spread of West Liao River farmers to those regions.",
+          "evidence_ids": [
+            "ev-ning2020-ea8",
+            "ev-ning2020-3",
+            "ev-ning2020-ea10",
+            "ev-wang2021-ea5"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Individuals from the West Liao River region, where changes in ancestry coincide with changes in how people lived: more Yellow River-related ancestry as farming intensified, more Amur-related ancestry with Bronze Age pastoralism.",
+          "evidence_ids": [
+            "ev-ning2020-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The West Liao River group is a geographic grouping, not a single genetic profile: it gathers individuals from several sites and periods because they come from the same region.",
+          "evidence_ids": [
+            "ev-ning2020-ea10",
+            "ev-ning2020-ea7",
+            "ev-ning2020-ea8"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "What makes the region informative is that one place can be followed from the Middle Neolithic into the Bronze Age while both ancestry and ways of living changed.",
+          "evidence_ids": [
+            "ev-ning2020-3",
+            "ev-ning2020-ea8",
+            "ev-ning2020-ea9"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2020 study’s West Liao River sample comes from four sites dated 3694–350 BCE.",
+          "evidence_ids": [
+            "ev-ning2020-ea10"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Its periods are the Middle Neolithic, with individuals associated with the Hongshan culture, the Late Neolithic, with the Lower Xiajiadian culture, and the Bronze Age, with the Upper Xiajiadian culture.",
+          "evidence_ids": [
+            "ev-ning2020-ea7",
+            "ev-ning2020-ea8"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Foxtail and broomcorn millets were cultivated in the region from at least 6000 BCE, and how much people relied on millet changed over time with climate and archaeological culture.",
+          "evidence_ids": [
+            "ev-ning2020-ea9"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Middle Neolithic groups fall between the Amur and Yellow River clusters, and they differ sharply by place: Hongshan-culture individuals carry about 40% Amur-related ancestry, while an individual from a nearby site carries about 75%, a change within about 600 km once Miaozigou is included.",
+          "evidence_ids": [
+            "ev-ning2020-ea7"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Late Neolithic individuals of the Lower Xiajiadian culture are modelled as 74–88% Yellow River-related, the figure depending on the second source used in the model.",
+          "evidence_ids": [
+            "ev-ning2020-ea8"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Bronze Age individuals of the Upper Xiajiadian culture shift back toward Amur-related ancestry.",
+          "evidence_ids": [
+            "ev-ning2020-ea8"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "One Bronze Age individual, from a pastoralist context, is indistinguishable from ancient Amur individuals, and two others are modelled as 21%, give or take 7 points, from that individual, which the authors speculate reflects a recent migration from an Amur-related gene pool.",
+          "evidence_ids": [
+            "ev-ning2020-ea2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The authors link the shifts to farming intensifying and then partly giving way to pastoralism, but two things changing together does not by itself show that one caused the other.",
+          "evidence_ids": [
+            "ev-ning2020-ea8",
+            "ev-ning2020-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Each period is represented by few individuals, and the authors say the data are insufficient to test whether differences between places persisted into later periods.",
+          "evidence_ids": [
+            "ev-ning2020-ea10"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2021 study models West Liao River farmers with different sources, about 67% Upper Yellow River-related and 33% southern Liangdao-related, and finds this mixture absent from the Mongolian and Amur time series, which its authors say conflicts with a simple spread of West Liao River farmers to those regions.",
+          "evidence_ids": [
+            "ev-wang2021-ea5"
+          ]
+        }
+      ]
+    },
+    "taiwan-iron-age": {
+      "description": "Individuals from Taiwan sampled across about 2,100 years, whose ancestry combines a mostly southern, farmer-related lineage with a smaller northern one. They share their dominant Y-chromosome and maternal lineages with individuals associated with the Lapita culture in Vanuatu.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The group is defined by place and date, not by a shared identity: it holds 46 individuals from two sites in Taiwan, sequenced in a 2021 study. Their dominant Y-chromosome lineage and four maternal lineages, traced through mitochondrial DNA, are also found in present-day Indigenous Taiwanese.",
+          "evidence_ids": [
+            "ev-wang2021-ea6"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In the study’s admixture graph, a family tree that allows for mixing, these individuals (the study calls them ancient Taiwan farmers) derive about 75% of their ancestry from a southern lineage, likely related to Yangtze River farmers, and about 25% from a northern lineage related to, but distinct from, Yellow River farmers. The study also finds that people of Neolithic and Iron Age Taiwan share a deeply splitting lineage, one that branches off early in the family tree, with Jōmon-associated and Amur Basin hunter-gatherers.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea7",
+            "ev-wang2021-2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The northern part of the ancestry is the puzzle: it does not match Yellow River farmers themselves, so the authors infer a further north-to-south movement. A separate study, read here from its abstract only, reports that northern East Asian ancestry spread across southern East Asia after the Neolithic, and that Neolithic southern East Asian and Taiwan Strait individuals show Austronesian-related connections.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea7",
+            "ev-yang2020-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The authors speculate that the additional northern movement was linked to foxtail-millet cultivators. A single 75:25 split describes the whole sample, which comes from just two sites across that long span. Sharing lineages with Lapita individuals shows a relationship, not which way descent runs.",
+          "evidence_ids": [
+            "ev-wang2021-ea7",
+            "ev-wang2021-ea6",
+            "ev-wang2021-4"
+          ]
+        }
+      ],
+      "caveats": [
+        "The page makes no claim about language: “Austronesian-related” is a cited study’s label for a genetic connection."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Individuals from Taiwan sampled across about 2,100 years, whose ancestry combines a mostly southern, farmer-related lineage with a smaller northern one.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea6"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "They share their dominant Y-chromosome and maternal lineages with individuals associated with the Lapita culture in Vanuatu.",
+          "evidence_ids": [
+            "ev-wang2021-ea6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The group is defined by place and date, not by a shared identity: it holds 46 individuals from two sites in Taiwan, sequenced in a 2021 study.",
+          "evidence_ids": [
+            "ev-wang2021-ea6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their dominant Y-chromosome lineage and four maternal lineages, traced through mitochondrial DNA, are also found in present-day Indigenous Taiwanese.",
+          "evidence_ids": [
+            "ev-wang2021-ea6"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In the study’s admixture graph, a family tree that allows for mixing, these individuals (the study calls them ancient Taiwan farmers) derive about 75% of their ancestry from a southern lineage, likely related to Yangtze River farmers, and about 25% from a northern lineage related to, but distinct from, Yellow River farmers.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea7"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study also finds that people of Neolithic and Iron Age Taiwan share a deeply splitting lineage, one that branches off early in the family tree, with Jōmon-associated and Amur Basin hunter-gatherers.",
+          "evidence_ids": [
+            "ev-wang2021-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The northern part of the ancestry is the puzzle: it does not match Yellow River farmers themselves, so the authors infer a further north-to-south movement.",
+          "evidence_ids": [
+            "ev-wang2021-4",
+            "ev-wang2021-ea7"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A separate study, read here from its abstract only, reports that northern East Asian ancestry spread across southern East Asia after the Neolithic, and that Neolithic southern East Asian and Taiwan Strait individuals show Austronesian-related connections.",
+          "evidence_ids": [
+            "ev-yang2020-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The authors speculate that the additional northern movement was linked to foxtail-millet cultivators.",
+          "evidence_ids": [
+            "ev-wang2021-ea7"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A single 75:25 split describes the whole sample, which comes from just two sites across that long span.",
+          "evidence_ids": [
+            "ev-wang2021-ea6",
+            "ev-wang2021-4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Sharing lineages with Lapita individuals shows a relationship, not which way descent runs.",
+          "evidence_ids": [
+            "ev-wang2021-ea6"
+          ]
+        }
+      ]
+    },
+    "hoabinhian": {
+      "description": "Ancient hunter-gatherers of mainland Southeast Asia. The abstract of a 2018 study by McColl and colleagues reports that Hòabìnhian hunter-gatherer-related ancestry and East Asian farmer-related ancestry both contributed to Southeast Asian diversity.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Hòabìnhian is a label from archaeology rather than genetics, and the studies apply it to ancient hunter-gatherers of Southeast Asia. Most of what the cited evidence says about them comes from comparisons with other groups, not from a description of their own genomes.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2",
+            "ev-mccoll2018-1",
+            "ev-lipson2018sea-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In a PCA, a chart that arranges genomes by overall similarity, a cluster of ancient Hòabìnhian hunter-gatherers sits together with the ancient Tianyuan individual, and a Jōmon-context genome, IK002, falls between that cluster and present-day East Asians. The authors of the IK002 study also cite earlier work reporting a genetic affinity between IK002 and an 8,000-year-old Hòabìnhian hunter-gatherer from Laos, so that link is second-hand.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Early farmers at Man Bac in northern Vietnam mix East Asian ancestry related to southern Chinese farmers with ancestry from deeply diverged eastern Eurasian hunter-gatherers, a mixture of the same two kinds that the McColl study reports for Southeast Asia.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The Man Bac study, by Lipson and colleagues, calls the hunter-gatherer side of that mixture deeply diverged eastern Eurasian, while the McColl abstract speaks of Hòabìnhian-related ancestry. The link this page draws between the two is a reading of them together, so whether Man Bac’s hunter-gatherer ancestry is specifically Hòabìnhian-related remains open.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Ancient hunter-gatherers of mainland Southeast Asia.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-gakuhari2020-ea2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The abstract of a 2018 study by McColl and colleagues reports that Hòabìnhian hunter-gatherer-related ancestry and East Asian farmer-related ancestry both contributed to Southeast Asian diversity.",
+          "evidence_ids": [
+            "ev-mccoll2018-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Hòabìnhian is a label from archaeology rather than genetics, and the studies apply it to ancient hunter-gatherers of Southeast Asia.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2",
+            "ev-mccoll2018-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Most of what the cited evidence says about them comes from comparisons with other groups, not from a description of their own genomes.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2",
+            "ev-mccoll2018-1",
+            "ev-lipson2018sea-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In a PCA, a chart that arranges genomes by overall similarity, a cluster of ancient Hòabìnhian hunter-gatherers sits together with the ancient Tianyuan individual, and a Jōmon-context genome, IK002, falls between that cluster and present-day East Asians.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The authors of the IK002 study also cite earlier work reporting a genetic affinity between IK002 and an 8,000-year-old Hòabìnhian hunter-gatherer from Laos, so that link is second-hand.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Early farmers at Man Bac in northern Vietnam mix East Asian ancestry related to southern Chinese farmers with ancestry from deeply diverged eastern Eurasian hunter-gatherers, a mixture of the same two kinds that the McColl study reports for Southeast Asia.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Man Bac study, by Lipson and colleagues, calls the hunter-gatherer side of that mixture deeply diverged eastern Eurasian, while the McColl abstract speaks of Hòabìnhian-related ancestry.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The link this page draws between the two is a reading of them together, so whether Man Bac’s hunter-gatherer ancestry is specifically Hòabìnhian-related remains open.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        }
+      ]
+    },
+    "sea-neolithic-farmers": {
+      "description": "Early farmers of northern Vietnam, sampled at Man Bac between 4,100 and 3,600 years ago, whose ancestry mixes a southern Chinese farmer-related source with deeply diverged hunter-gatherer ancestry. The same mixture is modelled for present-day Nicobarese and Mlabri.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The group is eight individuals from Man Bac, part of a 2018 study by Lipson and colleagues of 18 individuals from five sites in Vietnam, Myanmar, Thailand and Cambodia, dated 4100 to 1700 years ago. Preservation in tropical environments was poor, so coverage, the number of times each position in a genome is read on average, is low for each individual.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Man Bac farmers carry two ancestries: East Asian ancestry related to southern Chinese farmers, and ancestry from deeply diverged eastern Eurasian hunter-gatherers. In one model, Man Bac, Nicobarese and Mlabri are each about 70% from a Southeast Asian farmer-related source and about 30% from a deeply diverging eastern Eurasian source, and the simplest model that fits has a single mixing event shared by their ancestors. One individual, VN29, stands out with an elevated share of “indigenous” ancestry. In the study’s first analysis, farmers at Ban Chiang in Thailand and Vat Komnou in Cambodia cluster with Man Bac.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-lipson2018sea-ea2",
+            "ev-lipson2018sea-ea3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "A second 2018 study, by McColl and colleagues, reports in its abstract that Hòabìnhian hunter-gatherer-related ancestry and East Asian farmer-related ancestry both contributed to Southeast Asian diversity, a pairing like the one seen at Man Bac. By the Bronze Age, Nui Nap in Vietnam projects close to present-day Vietnamese, and sites in Vietnam and Myanmar show further influxes, which the authors attribute to substantial additional movements of migrants.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-lipson2018sea-2",
+            "ev-lipson2018sea-ea3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "A single site stands for the whole group. The Lipson study calls the hunter-gatherer side of the mixture deeply diverged eastern Eurasian, while the McColl abstract speaks of Hòabìnhian-related ancestry; the link this page draws between them is a reading of the two together, and whether they are the same ancestry remains open.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1",
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Early farmers of northern Vietnam, sampled at Man Bac between 4,100 and 3,600 years ago, whose ancestry mixes a southern Chinese farmer-related source with deeply diverged hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-lipson2018sea-ea1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The same mixture is modelled for present-day Nicobarese and Mlabri.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The group is eight individuals from Man Bac, part of a 2018 study by Lipson and colleagues of 18 individuals from five sites in Vietnam, Myanmar, Thailand and Cambodia, dated 4100 to 1700 years ago.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Preservation in tropical environments was poor, so coverage, the number of times each position in a genome is read on average, is low for each individual.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Man Bac farmers carry two ancestries: East Asian ancestry related to southern Chinese farmers, and ancestry from deeply diverged eastern Eurasian hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In one model, Man Bac, Nicobarese and Mlabri are each about 70% from a Southeast Asian farmer-related source and about 30% from a deeply diverging eastern Eurasian source, and the simplest model that fits has a single mixing event shared by their ancestors.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "One individual, VN29, stands out with an elevated share of “indigenous” ancestry.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In the study’s first analysis, farmers at Ban Chiang in Thailand and Vat Komnou in Cambodia cluster with Man Bac.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A second 2018 study, by McColl and colleagues, reports in its abstract that Hòabìnhian hunter-gatherer-related ancestry and East Asian farmer-related ancestry both contributed to Southeast Asian diversity, a pairing like the one seen at Man Bac.",
+          "evidence_ids": [
+            "ev-mccoll2018-1",
+            "ev-lipson2018sea-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "By the Bronze Age, Nui Nap in Vietnam projects close to present-day Vietnamese, and sites in Vietnam and Myanmar show further influxes, which the authors attribute to substantial additional movements of migrants.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea3",
+            "ev-lipson2018sea-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A single site stands for the whole group.",
+          "evidence_ids": [
+            "ev-lipson2018sea-ea1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Lipson study calls the hunter-gatherer side of the mixture deeply diverged eastern Eurasian, while the McColl abstract speaks of Hòabìnhian-related ancestry; the link this page draws between them is a reading of the two together, and whether they are the same ancestry remains open.",
+          "evidence_ids": [
+            "ev-lipson2018sea-2",
+            "ev-mccoll2018-1"
+          ]
+        }
+      ]
     }
   },
-  "wanted": [],
-  "concerns": []
+  "wanted": [
+    "amur-hunter-gatherers: where Boisman-2 and the other Amur sites lie, and how the individuals were dated (radiocarbon, calibration); neither is in the checked evidence.",
+    "amur-hunter-gatherers: the Mesolithic individuals on the map (the group runs back to 9442 BCE there) are not described in any evidence statement; what they are and how they relate to the Early Neolithic cluster would help.",
+    "yellow-river-farmers: what the farmers grew (millet or other crops) in the sampled communities, and where the sites lie within the basin (upper, middle, lower); the checked evidence says only that crop cultivation was dominant by the Middle Neolithic.",
+    "yellow-river-farmers: the number of Longshan individuals and the radiocarbon basis for the site dates in the 2020 study.",
+    "west-liao-river: dates for the Hongshan, Lower Xiajiadian and Upper Xiajiadian groups (the earlier prose gave Hongshan about 3550–3050 BCE and Upper Xiajiadian about 1050–350 BCE, but no cited evidence statement carries those dates), and the names and locations of the four sites.",
+    "taiwan-iron-age: the names, locations and archaeological context of the two Taiwan sites, and how the individuals were dated; which of them are Iron Age (the sample is dated about 1300 BCE–800 CE).",
+    "taiwan-iron-age: what Liangdao is and why it stands for the southern lineage (the model labels it Liangdao-related; the summary says likely Yangtze-farmer-related), and which present-day Indigenous Taiwanese groups were compared.",
+    "hoabinhian: a source defining the Hòabìnhian (what it is archaeologically, its tools, dates and range) and the full text of McColl et al. 2018 (only the abstract is checked), including how many Hòabìnhian genomes it reports and any proportions of Hòabìnhian-related ancestry in Southeast Asian populations.",
+    "hoabinhian: whether the 8,000-year-old Laos individual (cited second-hand) is one of the two individuals on the map, and what the Malaysian individual's age and context are; the checked evidence does not mention Malaysia.",
+    "sea-neolithic-farmers: what the study means by “indigenous” ancestry for VN29 (the evidence gives only the word), and whether the authors explain the elevated share; how the Man Bac individuals were dated and what archaeological context (burials, subsistence) the study describes.",
+    "sea-neolithic-farmers: the order of dates of Ban Chiang, Vat Komnou and Nui Nap within the 4100–1700 years ago range (the evidence gives only the overall range), so “later” can be checked."
+  ],
+  "concerns": [
+    "amur-hunter-gatherers: the map's members (labels _N and _Mesolithic, sampled 9442–4270 BCE) do not include the Iron Age and Xianbei-period individuals that the evidence says fit the cluster, and include Mesolithic individuals the evidence does not mention.",
+    "yellow-river-farmers: evidence ev-wang2021-3 and ev-wang2021-ea4 say “Han Chinese” and “Tibetan groups” without saying present-day; the prose adds “present-day” (the Tibetan mixing date of 290 BCE–270 CE implies modern sampled groups). Worth adding to the evidence wording.",
+    "yellow-river-farmers: the map shows 47 individuals at 11 sites from five publications (sampled 5302–421 BCE, including Shandong Dawenkou, Dinggong and Chengziya labels), while the cited evidence covers a ten-site, 3550–50 BCE sample from one study; the map membership and the evidence do not line up one to one.",
+    "west-liao-river: the map holds 11 individuals at 7 sites from 2 publications, sampled 6400–350 BCE (including three Early Neolithic individuals at Wuqi, Yumin and Zhalainuoer), whereas the cited evidence describes four sites dated 3694–350 BCE; the Early Neolithic individuals have no evidence statement.",
+    "west-liao-river: ev-ning2020-ea7 is ambiguous about which site is the 'nearby site' (75% Amur-related) and what 'when Miaozigou is included' refers to; the prose repeats the figures without naming the site.",
+    "taiwan-iron-age: the map shows 46 individuals at one site dated 1–800 CE (flagged sparse), while ev-wang2021-ea6 says two sites spanning about 1300 BCE–800 CE; the population is named Iron Age but the cited sample spans the Neolithic-to-Iron-Age range.",
+    "taiwan-iron-age: ev-wang2021-ea7 ends with “and about 20% Onge-related ancestry” without saying which lineage that belongs to; the prose leaves it out. The statement could be split or clarified.",
+    "taiwan-iron-age: the earlier description said the ancestry resembles Austronesian-related groups “in the cited studies”, but ev-yang2020-1 (abstract only) concerns Neolithic southern East Asian and Taiwan Strait individuals, not this Iron Age sample.",
+    "hoabinhian: no cited statement says that the “deeply diverged eastern Eurasian hunter-gatherer” ancestry at Man Bac (Lipson 2018) is the Hòabìnhian-related ancestry of McColl 2018; the ancestry edge to sea-neolithic-farmers (medium confidence) joins them. The prose says so openly.",
+    "hoabinhian: the earlier description (“deeply diverged eastern Eurasian ancestry contributed to later Southeast Asians”) mixed Lipson’s label into a Hòabìnhian claim; and the older text called Hòabìnhian a “technocomplex”, which none of the cited statements states.",
+    "sea-neolithic-farmers: ev-lipson2018sea-ea3 is ambiguous (“Nui Nap projects close to present-day Vietnamese and Dai and Oakaie (Myanmar) to Sino-Tibetan-speaking groups”): it is unclear whether Dai is a present-day group or a site; the prose uses only the Nui Nap and present-day Vietnamese part and omits the language label.",
+    "sea-neolithic-farmers: the earlier text said the authors read VN29 as recent contact between farmers and hunter-gatherers and that the authors link the ancestries to language families; neither is in the cited evidence statements, so both are removed.",
+    "general (yellow-river-farmers, sea-neolithic-farmers): evidence statements name Nicobarese, Mlabri, Han Chinese and Tibetan groups without saying present-day; the prose adds “present-day” to avoid reading them back in time."
+  ]
 }

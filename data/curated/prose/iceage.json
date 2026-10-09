@@ -493,8 +493,790 @@
           ]
         }
       ]
+    },
+    "ancient-north-siberians": {
+      "description": "Two men from Yana in Arctic northeastern Siberia left the oldest and northernmost Ice Age human remains found to date, and their genomes reveal a lineage only distantly related to early western Eurasian hunter-gatherers. The later Mal'ta lineage can be modelled as descending from it.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Ancient North Siberians are known from only two men found at the Yana RHS site, about 31,600 years old, but both genomes are of high quality: the DNA was read about 25 times over in one and about 7 times in the other. The two men were unrelated and show no sign of recent inbreeding. Their DNA points to a recent effective population size of up to 500, a measure of how many breeding individuals would give the genetic diversity seen, not a headcount.",
+          "evidence_ids": [
+            "ev-sikora2019-eh1",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The study models Yana as an early West Eurasian lineage, with early East Asians contributing about 25–29 percent of its ancestry. The estimate based on how common each genetic variant is puts the share at 29 percent, with a 95 percent confidence interval of 21–40 percent, a wide range. The same model dates the lineage's divergence and the mixing to about 39,000 years ago (interval 32,000–46,000), several thousand years before the two men lived.",
+          "evidence_ids": [
+            "ev-sikora2019-eh2",
+            "ev-sikora2019-eh1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The Mal'ta lineage, known as the Ancient North Eurasians, can be modelled as a descendant of the Ancient North Siberian lineage, with a minor contribution related to Caucasus hunter-gatherers. This fits a pattern: Mal'ta shares more genetic variants with Yana than with other western Eurasian hunter-gatherers such as Sunghir. If the model holds, the Ancient North Eurasian lineage may already have been distinct by about 31,600 years ago. In northeastern Siberia, the first major genetic shift, to Ancient Paleosiberians, is documented much later, in Kolyma1, who is 9,800 years old. The study traces Ancient Paleosiberians, like Native Americans, to East Asian-related people, and describes each later expansion in the region as nearly replacing earlier inhabitants.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3",
+            "ev-sikora2019-eh4",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "After the Yana occupation, northeastern Siberia has no archaeological sites until late in the Last Glacial Maximum, the Ice Age's coldest phase, and no genomes of that age have been recovered, so the lineage's path in between is unknown. Where Ancient North Siberian–related people met East Asian-related people is also unsettled. The authors' models tentatively suggest a refuge across southern Beringia, the region around the Bering Strait, during that cold phase, and they sketch a scenario in which the two met there, but they offer an alternative. A demographic model of Kolyma1, the Ancient Beringian USR1 and a present-day genome includes Ancient North Siberian–related gene flow of about 18 percent, the figure given for USR1, about 20,000 years ago.",
+          "evidence_ids": [
+            "ev-sikora2019-eh4",
+            "ev-sikora2019-am2",
+            "ev-sikora2019-am1"
+          ]
+        }
+      ],
+      "caveats": [],
+      "support": [
+        {
+          "where": "description",
+          "text": "Two men from Yana in Arctic northeastern Siberia left the oldest and northernmost Ice Age human remains found to date, and their genomes reveal a lineage only distantly related to early western Eurasian hunter-gatherers.",
+          "evidence_ids": [
+            "ev-sikora2019-eh1",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The later Mal'ta lineage can be modelled as descending from it.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Ancient North Siberians are known from only two men found at the Yana RHS site, about 31,600 years old, but both genomes are of high quality: the DNA was read about 25 times over in one and about 7 times in the other.",
+          "evidence_ids": [
+            "ev-sikora2019-eh1",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The two men were unrelated and show no sign of recent inbreeding.",
+          "evidence_ids": [
+            "ev-sikora2019-eh1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their DNA points to a recent effective population size of up to 500, a measure of how many breeding individuals would give the genetic diversity seen, not a headcount.",
+          "evidence_ids": [
+            "ev-sikora2019-eh1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study models Yana as an early West Eurasian lineage, with early East Asians contributing about 25–29 percent of its ancestry.",
+          "evidence_ids": [
+            "ev-sikora2019-eh2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The estimate based on how common each genetic variant is puts the share at 29 percent, with a 95 percent confidence interval of 21–40 percent, a wide range.",
+          "evidence_ids": [
+            "ev-sikora2019-eh2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The same model dates the lineage's divergence and the mixing to about 39,000 years ago (interval 32,000–46,000), several thousand years before the two men lived.",
+          "evidence_ids": [
+            "ev-sikora2019-eh2",
+            "ev-sikora2019-eh1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Mal'ta lineage, known as the Ancient North Eurasians, can be modelled as a descendant of the Ancient North Siberian lineage, with a minor contribution related to Caucasus hunter-gatherers.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "This fits a pattern: Mal'ta shares more genetic variants with Yana than with other western Eurasian hunter-gatherers such as Sunghir.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "If the model holds, the Ancient North Eurasian lineage may already have been distinct by about 31,600 years ago.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In northeastern Siberia, the first major genetic shift, to Ancient Paleosiberians, is documented much later, in Kolyma1, who is 9,800 years old.",
+          "evidence_ids": [
+            "ev-sikora2019-eh4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The study traces Ancient Paleosiberians, like Native Americans, to East Asian-related people, and describes each later expansion in the region as nearly replacing earlier inhabitants.",
+          "evidence_ids": [
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "After the Yana occupation, northeastern Siberia has no archaeological sites until late in the Last Glacial Maximum, the Ice Age's coldest phase, and no genomes of that age have been recovered, so the lineage's path in between is unknown.",
+          "evidence_ids": [
+            "ev-sikora2019-eh4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where Ancient North Siberian–related people met East Asian-related people is also unsettled.",
+          "evidence_ids": [
+            "ev-sikora2019-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The authors' models tentatively suggest a refuge across southern Beringia, the region around the Bering Strait, during that cold phase, and they sketch a scenario in which the two met there, but they offer an alternative.",
+          "evidence_ids": [
+            "ev-sikora2019-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A demographic model of Kolyma1, the Ancient Beringian USR1 and a present-day genome includes Ancient North Siberian–related gene flow of about 18 percent, the figure given for USR1, about 20,000 years ago.",
+          "evidence_ids": [
+            "ev-sikora2019-am1"
+          ]
+        }
+      ]
+    },
+    "ancient-north-eurasians": {
+      "description": "A source of ancestry known from a 24,000-year-old individual from Mal'ta in south-central Siberia and a younger one from Afontova Gora. Related ancestry is found in Native Americans and, through much later migrations from the Eurasian steppe, in present-day Europeans.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Ancient North Eurasians are a name for a source of ancestry, not for a society. The label rests on the Mal'ta individual, MA-1, who lived about 24,000 years ago, and on Afontova Gora 2, a younger genome of about 17,000 years ago. MA-1 carries mitochondrial haplogroup U, a maternal line also common in European hunter-gatherers of the Ice Age and later, and a basal Y haplogroup, an early-branching paternal line. Afontova Gora 2 has a similar signature, suggesting the region was occupied through the Last Glacial Maximum, the Ice Age's coldest phase, but its genome is thinly read (low coverage) and substantially contaminated with present-day DNA, so conclusions about it rest on limited data.",
+          "evidence_ids": [
+            "ev-lazaridis2014-2",
+            "ev-raghavan2014-1",
+            "ev-raghavan2014-eh1",
+            "ev-raghavan2014-eh3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "MA-1's genome is basal to present-day western Eurasians, meaning that it branched off from the lineage leading to them early. It is also related to Native Americans, without close affinity to East Asians, and Afontova Gora 2 shows similar ancestry. The Mal'ta lineage can be modelled as a descendant of the Ancient North Siberian lineage known from Yana, with a minor contribution related to Caucasus hunter-gatherers, and Mal'ta shares more genetic variants with Yana than with other western Eurasian hunter-gatherers such as Sunghir. If so, the Ancient North Eurasian lineage may already have been distinct by about 31,600 years ago.",
+          "evidence_ids": [
+            "ev-raghavan2014-1",
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "In the Americas, an estimated 14–38 percent of Native American ancestry, roughly a seventh to a little under two-fifths, may derive from gene flow from a population related to MA-1, after Native American ancestors diverged from East Asians and before they diversified. In Europe, most present-day people can be modelled with ancestry from three deeply differentiated sources: western hunter-gatherers, Ancient North Eurasians and early European farmers. The Mal'ta-related share is due to migrations from the Eurasian steppe, the open grassland, in the Neolithic and Bronze Age, not to structure within pre-Neolithic Europe; none of the Gravettian-associated Europeans shows a genetic link to Mal'ta. Hunter-gatherers living in Russia 8,000–7,000 years ago, the eastern hunter-gatherers, also had high affinity to MA-1.",
+          "evidence_ids": [
+            "ev-raghavan2014-eh2",
+            "ev-lazaridis2014-2",
+            "ev-fu2016-eh6",
+            "ev-haak2015-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "How much Native American ancestry comes from people related to MA-1 is unsettled: the estimate above is wide, and later studies model it differently. The timing is better bounded: a demographic model of Native American ancestry places the Ancient North Eurasian–related gene flow 25,000–20,000 years ago, and because the ancient genome Anzick-1 shares it, it happened before about 12,600 years ago.",
+          "evidence_ids": [
+            "ev-raghavan2014-eh2",
+            "ev-morenomayar2018a-2",
+            "ev-rasmussen2014-2"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A source of ancestry known from a 24,000-year-old individual from Mal'ta in south-central Siberia and a younger one from Afontova Gora.",
+          "evidence_ids": [
+            "ev-raghavan2014-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Related ancestry is found in Native Americans and, through much later migrations from the Eurasian steppe, in present-day Europeans.",
+          "evidence_ids": [
+            "ev-raghavan2014-1",
+            "ev-rasmussen2014-2",
+            "ev-fu2016-eh6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Ancient North Eurasians are a name for a source of ancestry, not for a society.",
+          "evidence_ids": [
+            "ev-lazaridis2014-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The label rests on the Mal'ta individual, MA-1, who lived about 24,000 years ago, and on Afontova Gora 2, a younger genome of about 17,000 years ago.",
+          "evidence_ids": [
+            "ev-raghavan2014-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "MA-1 carries mitochondrial haplogroup U, a maternal line also common in European hunter-gatherers of the Ice Age and later, and a basal Y haplogroup, an early-branching paternal line.",
+          "evidence_ids": [
+            "ev-raghavan2014-eh1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Afontova Gora 2 has a similar signature, suggesting the region was occupied through the Last Glacial Maximum, the Ice Age's coldest phase, but its genome is thinly read (low coverage) and substantially contaminated with present-day DNA, so conclusions about it rest on limited data.",
+          "evidence_ids": [
+            "ev-raghavan2014-eh1",
+            "ev-raghavan2014-eh3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "MA-1's genome is basal to present-day western Eurasians, meaning that it branched off from the lineage leading to them early.",
+          "evidence_ids": [
+            "ev-raghavan2014-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "It is also related to Native Americans, without close affinity to East Asians, and Afontova Gora 2 shows similar ancestry.",
+          "evidence_ids": [
+            "ev-raghavan2014-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Mal'ta lineage can be modelled as a descendant of the Ancient North Siberian lineage known from Yana, with a minor contribution related to Caucasus hunter-gatherers, and Mal'ta shares more genetic variants with Yana than with other western Eurasian hunter-gatherers such as Sunghir.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "If so, the Ancient North Eurasian lineage may already have been distinct by about 31,600 years ago.",
+          "evidence_ids": [
+            "ev-sikora2019-eh3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In the Americas, an estimated 14–38 percent of Native American ancestry, roughly a seventh to a little under two-fifths, may derive from gene flow from a population related to MA-1, after Native American ancestors diverged from East Asians and before they diversified.",
+          "evidence_ids": [
+            "ev-raghavan2014-eh2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Europe, most present-day people can be modelled with ancestry from three deeply differentiated sources: western hunter-gatherers, Ancient North Eurasians and early European farmers.",
+          "evidence_ids": [
+            "ev-lazaridis2014-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Mal'ta-related share is due to migrations from the Eurasian steppe, the open grassland, in the Neolithic and Bronze Age, not to structure within pre-Neolithic Europe; none of the Gravettian-associated Europeans shows a genetic link to Mal'ta.",
+          "evidence_ids": [
+            "ev-fu2016-eh6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Hunter-gatherers living in Russia 8,000–7,000 years ago, the eastern hunter-gatherers, also had high affinity to MA-1.",
+          "evidence_ids": [
+            "ev-haak2015-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "How much Native American ancestry comes from people related to MA-1 is unsettled: the estimate above is wide, and later studies model it differently.",
+          "evidence_ids": [
+            "ev-raghavan2014-eh2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The timing is better bounded: a demographic model of Native American ancestry places the Ancient North Eurasian–related gene flow 25,000–20,000 years ago, and because the ancient genome Anzick-1 shares it, it happened before about 12,600 years ago.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-rasmussen2014-2"
+          ]
+        }
+      ]
+    },
+    "solutrean-associated": {
+      "description": "Two genomes from people associated with the Solutrean culture in southwestern France and northern Spain. One lies between the earlier Fournol cluster and the later El Mirón individual, which the authors read as direct evidence of ancestry continuing through the Last Glacial Maximum, the Ice Age's coldest phase.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "This page rests on two individuals associated with the Solutrean, an archaeological culture, whose genomes date to the Last Glacial Maximum. One comes from Le Piage II in southwestern France and is about 23,000 years old. The other comes from level 14 at La Riera in northern Spain and is about 21,000 years old.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Both genomes show affinity to the Fournol cluster, Gravettian-associated people of western Europe, and to the GoyetQ2 cluster, which is Magdalenian-associated. Le Piage II is closer to the Fournol cluster than to the Věstonice cluster, the Gravettian-associated group of central and southern Europe, and in its ancestry lies between Fournol and the El Mirón individual, who lived about 19,000 years ago and is the oldest Magdalenian-associated person sequenced.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-2",
+            "ev-posth2023-eh12"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "In southwestern Europe, Fournol-related ancestry persisted through the Last Glacial Maximum, first in Solutrean-associated individuals and then in Magdalenian-associated ones. The Magdalenian-associated individuals are modelled as mixtures of Fournol-related and Villabruna-related ancestry, the second from the Epigravettian-associated Villabruna cluster; El Mirón carries about 43 percent Villabruna-related ancestry and the others 19–29 percent.",
+          "evidence_ids": [
+            "ev-posth2023-4",
+            "ev-posth2023-7",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The authors take Le Piage II, a single individual, as direct evidence of genetic continuity through the glacial maximum and of western Europe's role as a refuge, a place where people survived the coldest period. The study reports two Solutrean-associated genomes, from two sites, and the argument for continuity rests on the position of one of them between two clusters.",
+          "evidence_ids": [
+            "ev-posth2023-eh11",
+            "ev-posth2023-eh10"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Two genomes from people associated with the Solutrean culture in southwestern France and northern Spain.",
+          "evidence_ids": [
+            "ev-posth2023-eh10"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "One lies between the earlier Fournol cluster and the later El Mirón individual, which the authors read as direct evidence of ancestry continuing through the Last Glacial Maximum, the Ice Age's coldest phase.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-eh11",
+            "ev-posth2023-4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "This page rests on two individuals associated with the Solutrean, an archaeological culture, whose genomes date to the Last Glacial Maximum.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "One comes from Le Piage II in southwestern France and is about 23,000 years old.",
+          "evidence_ids": [
+            "ev-posth2023-eh10"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The other comes from level 14 at La Riera in northern Spain and is about 21,000 years old.",
+          "evidence_ids": [
+            "ev-posth2023-eh10"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Both genomes show affinity to the Fournol cluster, Gravettian-associated people of western Europe, and to the GoyetQ2 cluster, which is Magdalenian-associated.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Le Piage II is closer to the Fournol cluster than to the Věstonice cluster, the Gravettian-associated group of central and southern Europe, and in its ancestry lies between Fournol and the El Mirón individual, who lived about 19,000 years ago and is the oldest Magdalenian-associated person sequenced.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-2",
+            "ev-posth2023-eh12"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In southwestern Europe, Fournol-related ancestry persisted through the Last Glacial Maximum, first in Solutrean-associated individuals and then in Magdalenian-associated ones.",
+          "evidence_ids": [
+            "ev-posth2023-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The Magdalenian-associated individuals are modelled as mixtures of Fournol-related and Villabruna-related ancestry, the second from the Epigravettian-associated Villabruna cluster; El Mirón carries about 43 percent Villabruna-related ancestry and the others 19–29 percent.",
+          "evidence_ids": [
+            "ev-posth2023-7",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The authors take Le Piage II, a single individual, as direct evidence of genetic continuity through the glacial maximum and of western Europe's role as a refuge, a place where people survived the coldest period.",
+          "evidence_ids": [
+            "ev-posth2023-eh11"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The study reports two Solutrean-associated genomes, from two sites, and the argument for continuity rests on the position of one of them between two clusters.",
+          "evidence_ids": [
+            "ev-posth2023-eh10",
+            "ev-posth2023-eh11"
+          ]
+        }
+      ]
+    },
+    "magdalenian-goyetq2": {
+      "description": "Hunter-gatherers associated with the Magdalenian, an archaeological culture, from western France to Poland, who carried Fournol-related ancestry forward from the Last Glacial Maximum, the Ice Age's coldest phase. A 2023 study finds that ancestry spreading from the south from at least 14,000 years ago largely replaced theirs.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are hunter-gatherers associated with the Magdalenian whose genomes group together into what geneticists call a cluster. The 2023 study names it the GoyetQ2 cluster and places its individuals from western France to Poland, 18,000–15,000 years ago; the oldest Magdalenian-associated individual sequenced, El Mirón, is from about 19,000 years ago. An earlier study defined a similar group, the El Mirón cluster, from six individuals dated 19,000–14,000 years ago.",
+          "evidence_ids": [
+            "ev-fu2016-3",
+            "ev-posth2023-2",
+            "ev-posth2023-eh12",
+            "ev-fu2016-eh7"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Magdalenian-associated individuals are modelled as mixtures of two ancestries: roughly three quarters related to the Fournol cluster, the Gravettian-associated people of western Europe, and roughly a quarter related to the Villabruna cluster, which is Epigravettian-associated. El Mirón carries about 43 percent Villabruna-related ancestry and the others 19–29 percent. The 2016 study traced at least half of the El Mirón cluster's ancestry to the cluster around Goyet Q116‑1, an Aurignacian-associated individual, whereas the 2023 study finds the Fournol cluster, which is related to Goyet Q116‑1, a better ancestral match.",
+          "evidence_ids": [
+            "ev-posth2023-7",
+            "ev-posth2023-2",
+            "ev-fu2016-eh7",
+            "ev-posth2023-eh12"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Fournol-related ancestry persisted through the Last Glacial Maximum in southwestern Europe, in Solutrean-associated and then in Magdalenian-associated individuals. From at least 14,000 years ago, Villabruna- and Oberkassel-related ancestry spread from the south across Europe, largely replacing Magdalenian-associated ancestry; the 2023 study equates the Oberkassel cluster with the western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-posth2023-4",
+            "ev-posth2023-6",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "How the GoyetQ2 cluster formed is still open: the authors say that genomes from the Badegoulian, an earlier archaeological culture, could clarify it. They also read the spread of the Magdalenian as linked to northward and northeastward expansions of people from western Europe, an alternative to movements from refuges in the southeast. The proportions above come from a model that uses two individuals, Fournol 85 and Arene Candide 16, as stand-ins for the source populations.",
+          "evidence_ids": [
+            "ev-posth2023-eh13",
+            "ev-posth2023-7"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers associated with the Magdalenian, an archaeological culture, from western France to Poland, who carried Fournol-related ancestry forward from the Last Glacial Maximum, the Ice Age's coldest phase.",
+          "evidence_ids": [
+            "ev-posth2023-2",
+            "ev-posth2023-4",
+            "ev-posth2023-eh12"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "A 2023 study finds that ancestry spreading from the south from at least 14,000 years ago largely replaced theirs.",
+          "evidence_ids": [
+            "ev-posth2023-6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These are hunter-gatherers associated with the Magdalenian whose genomes group together into what geneticists call a cluster.",
+          "evidence_ids": [
+            "ev-fu2016-3",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The 2023 study names it the GoyetQ2 cluster and places its individuals from western France to Poland, 18,000–15,000 years ago; the oldest Magdalenian-associated individual sequenced, El Mirón, is from about 19,000 years ago.",
+          "evidence_ids": [
+            "ev-posth2023-eh12"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "An earlier study defined a similar group, the El Mirón cluster, from six individuals dated 19,000–14,000 years ago.",
+          "evidence_ids": [
+            "ev-fu2016-eh7"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Magdalenian-associated individuals are modelled as mixtures of two ancestries: roughly three quarters related to the Fournol cluster, the Gravettian-associated people of western Europe, and roughly a quarter related to the Villabruna cluster, which is Epigravettian-associated.",
+          "evidence_ids": [
+            "ev-posth2023-7",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "El Mirón carries about 43 percent Villabruna-related ancestry and the others 19–29 percent.",
+          "evidence_ids": [
+            "ev-posth2023-7"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The 2016 study traced at least half of the El Mirón cluster's ancestry to the cluster around Goyet Q116‑1, an Aurignacian-associated individual, whereas the 2023 study finds the Fournol cluster, which is related to Goyet Q116‑1, a better ancestral match.",
+          "evidence_ids": [
+            "ev-fu2016-eh7",
+            "ev-posth2023-eh12",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Fournol-related ancestry persisted through the Last Glacial Maximum in southwestern Europe, in Solutrean-associated and then in Magdalenian-associated individuals.",
+          "evidence_ids": [
+            "ev-posth2023-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "From at least 14,000 years ago, Villabruna- and Oberkassel-related ancestry spread from the south across Europe, largely replacing Magdalenian-associated ancestry; the 2023 study equates the Oberkassel cluster with the western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-posth2023-6",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "How the GoyetQ2 cluster formed is still open: the authors say that genomes from the Badegoulian, an earlier archaeological culture, could clarify it.",
+          "evidence_ids": [
+            "ev-posth2023-eh13"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "They also read the spread of the Magdalenian as linked to northward and northeastward expansions of people from western Europe, an alternative to movements from refuges in the southeast.",
+          "evidence_ids": [
+            "ev-posth2023-eh13"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The proportions above come from a model that uses two individuals, Fournol 85 and Arene Candide 16, as stand-ins for the source populations.",
+          "evidence_ids": [
+            "ev-posth2023-7"
+          ]
+        }
+      ]
+    },
+    "villabruna-epigravettian": {
+      "description": "Hunter-gatherers from Italy associated with the Epigravettian, an archaeological culture, with whom a component related to present-day Near Easterners appears in Europe. From at least 14,000 years ago, ancestry like theirs spread from the south across Europe, largely replacing Magdalenian-associated ancestry.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The Villabruna cluster is a set of genomes that resemble one another more closely than they resemble others, named after the Villabruna site. The 2023 study analysed Epigravettian-associated individuals from Italy: Tagliente 2, about 17,000 years old, and three genomes of about 13,000 years ago, Pradis 1, Arene Candide 16 and San Teodoro 2. All fall within the cluster and carry homogeneous ancestry, with differences that follow geography more than time.",
+          "evidence_ids": [
+            "ev-fu2016-3",
+            "ev-posth2023-eh14"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Pradis 1, in northeastern Italy, is the most basal Epigravettian-associated lineage, meaning that it branches off earliest, and genetic diversity falls from north to south. Diversity is lowest in Sicily, where short runs of homozygosity (stretches in which both copies of a chromosome are identical) indicate an effective population of about 70, the number of breeding individuals that would produce the diversity seen. The authors suggest northeastern Italy as the entry point.",
+          "evidence_ids": [
+            "ev-posth2023-eh15"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "From about 14,000 years ago the Villabruna cluster shows gene flow from a population related to present-day Near Easterners. A subset of Villabruna-cluster individuals, beginning with a 13,000-year-old Swiss sample, also shares excess genetic variants with East Asians, which the authors attribute to gene flow between East Asian-related populations and the ancestors of some Europeans.",
+          "evidence_ids": [
+            "ev-fu2016-4",
+            "ev-fu2016-eh8",
+            "ev-fu2016-eh9"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "In Italy, the 2023 study finds a genetic turnover from Gravettian-associated Věstonice ancestry to Epigravettian-associated Villabruna ancestry, and Věstonice-cluster ancestry was found without descendants in the later populations of the same regions. The turnover might correlate with breaks in the archaeological record. The spread across Europe is described as that of Villabruna- and Oberkassel-related ancestry, and the 2023 study equates the Oberkassel cluster with the western hunter-gatherers. Magdalenian-associated individuals also carry Villabruna-related ancestry, about 43 percent at El Mirón and 19–29 percent in the others, and eastern hunter-gatherers show affinity to both Villabruna-related and Ancient North Eurasian ancestry.",
+          "evidence_ids": [
+            "ev-posth2023-eh6",
+            "ev-posth2023-6",
+            "ev-posth2023-2",
+            "ev-posth2023-7",
+            "ev-posth2023-10"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The source of the Near Eastern-related component is unsettled. The 2016 study offers migration from the Near East or, as a plausible alternative, a shifting balance among European groups that were already structured, and it finds that Caucasus hunter-gatherers, the Satsurblia cluster, cannot be the direct source. The 2023 authors suggest the Balkans as a source, given the Near Eastern affinity.",
+          "evidence_ids": [
+            "ev-fu2016-eh8",
+            "ev-posth2023-eh15"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers from Italy associated with the Epigravettian, an archaeological culture, with whom a component related to present-day Near Easterners appears in Europe.",
+          "evidence_ids": [
+            "ev-posth2023-2",
+            "ev-fu2016-4",
+            "ev-posth2023-eh14"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "From at least 14,000 years ago, ancestry like theirs spread from the south across Europe, largely replacing Magdalenian-associated ancestry.",
+          "evidence_ids": [
+            "ev-posth2023-6"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The Villabruna cluster is a set of genomes that resemble one another more closely than they resemble others, named after the Villabruna site.",
+          "evidence_ids": [
+            "ev-fu2016-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The 2023 study analysed Epigravettian-associated individuals from Italy: Tagliente 2, about 17,000 years old, and three genomes of about 13,000 years ago, Pradis 1, Arene Candide 16 and San Teodoro 2.",
+          "evidence_ids": [
+            "ev-posth2023-eh14"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "All fall within the cluster and carry homogeneous ancestry, with differences that follow geography more than time.",
+          "evidence_ids": [
+            "ev-posth2023-eh14"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Pradis 1, in northeastern Italy, is the most basal Epigravettian-associated lineage, meaning that it branches off earliest, and genetic diversity falls from north to south.",
+          "evidence_ids": [
+            "ev-posth2023-eh15"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Diversity is lowest in Sicily, where short runs of homozygosity (stretches in which both copies of a chromosome are identical) indicate an effective population of about 70, the number of breeding individuals that would produce the diversity seen.",
+          "evidence_ids": [
+            "ev-posth2023-eh15"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The authors suggest northeastern Italy as the entry point.",
+          "evidence_ids": [
+            "ev-posth2023-eh15"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "From about 14,000 years ago the Villabruna cluster shows gene flow from a population related to present-day Near Easterners.",
+          "evidence_ids": [
+            "ev-fu2016-4",
+            "ev-fu2016-eh8"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A subset of Villabruna-cluster individuals, beginning with a 13,000-year-old Swiss sample, also shares excess genetic variants with East Asians, which the authors attribute to gene flow between East Asian-related populations and the ancestors of some Europeans.",
+          "evidence_ids": [
+            "ev-fu2016-eh9"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Italy, the 2023 study finds a genetic turnover from Gravettian-associated Věstonice ancestry to Epigravettian-associated Villabruna ancestry, and Věstonice-cluster ancestry was found without descendants in the later populations of the same regions.",
+          "evidence_ids": [
+            "ev-posth2023-eh6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The turnover might correlate with breaks in the archaeological record.",
+          "evidence_ids": [
+            "ev-posth2023-eh6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The spread across Europe is described as that of Villabruna- and Oberkassel-related ancestry, and the 2023 study equates the Oberkassel cluster with the western hunter-gatherers.",
+          "evidence_ids": [
+            "ev-posth2023-6",
+            "ev-posth2023-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Magdalenian-associated individuals also carry Villabruna-related ancestry, about 43 percent at El Mirón and 19–29 percent in the others, and eastern hunter-gatherers show affinity to both Villabruna-related and Ancient North Eurasian ancestry.",
+          "evidence_ids": [
+            "ev-posth2023-7",
+            "ev-posth2023-10"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The source of the Near Eastern-related component is unsettled.",
+          "evidence_ids": [
+            "ev-fu2016-eh8"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2016 study offers migration from the Near East or, as a plausible alternative, a shifting balance among European groups that were already structured, and it finds that Caucasus hunter-gatherers, the Satsurblia cluster, cannot be the direct source.",
+          "evidence_ids": [
+            "ev-fu2016-eh8"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2023 authors suggest the Balkans as a source, given the Near Eastern affinity.",
+          "evidence_ids": [
+            "ev-posth2023-eh15"
+          ]
+        }
+      ]
     }
   },
-  "wanted": [],
-  "concerns": []
+  "wanted": [
+    "ancient-north-eurasians: where the Ancient North Eurasian-related gene flow into the ancestors of Native Americans took place (the cited statements date it, 25,000-20,000 years ago in one model and before about 12,600 years ago from Anzick-1, but do not place it).",
+    "ancient-north-eurasians: who Anzick-1 was and where Anzick-1 lived (the statement gives only a date bound), and what Afontova Gora lies near; the Mal'ta site is only given as south-central Siberia.",
+    "ancient-north-siberians: a cited statement on whether Ancient North Siberian-related ancestry reaches Native Americans or present-day people (the Sikora 2019 abstract is worded around Native Americans arising from East Asian-related people, with only an 18 percent ANS-related gene flow in one model).",
+    "solutrean-associated: the dates and extent of the Solutrean culture itself (the old text gave about 24,000-19,000 years ago, but none of the cited statements does), and whether Le Piage II and La Riera level 14 are the first Solutrean-associated genomes published.",
+    "solutrean-associated: what the Solutrean-associated ancestry shares with or lacks relative to the Fournol cluster beyond 'affinity' (any proportion or model), and whether La Riera level 14, like Le Piage II, lies between Fournol and El Mirón.",
+    "magdalenian-goyetq2: where El Mirón is (the cited statements give no location for it; the map group labels put the Magdalenian-associated individuals in Spain, France and Germany), and the sites of the Magdalenian-associated individuals beyond 'western France to Poland'.",
+    "magdalenian-goyetq2: a cited statement on why Villabruna-related ancestry is higher in El Mirón (about 43 percent) than in later Magdalenian-associated individuals, and what the Badegoulian is and when it dates.",
+    "villabruna-epigravettian: where the Villabruna type individual was found and how old he is (the cited statements say only that the cluster is named after a type site and appears from about 14,000 years ago), and what the Epigravettian is and where and when it is found (the old text said Italy and the Balkans).",
+    "villabruna-epigravettian: any cited statement on how the Sicilian Epigravettian-associated individuals (the large majority of the mapped group, from about 14,000 to 8,000 years ago) relate to the mainland cluster, and on why diversity falls from north to south."
+  ],
+  "concerns": [
+    "solutrean-associated: the single individual mapped for this population is MLZ005003 from Cueva del Malalmuerzo (Granada, Andalusia; group label Spain_Solutrean; Villalba-Mouco et al. 2023; dated 21067-20676 calBCE), which none of the cited evidence discusses. The two genomes the evidence describes, Le Piage II (LPI002) and La Riera level 14 (RIE002), both from Posth et al. 2023, are in AADR but flagged quality_usable false (CRITICAL: only damage-restricted data used), so they are not drawn. The page prose, sources count and map therefore describe different individuals; the Malalmuerzo individual needs its own evidence (or the quality exclusion needs a documented override).",
+    "solutrean-associated: the old description called the people 'buried with Solutrean material'; the cited evidence says 'Solutrean-associated' only, with no burial context, so burial wording was dropped.",
+    "magdalenian-goyetq2: the 2016 El Miron cluster (six individuals, 19,000-14,000 years ago) and the 2023 GoyetQ2 cluster (18,000-15,000 years ago, with El Miron at 19,000) are treated as one population via aliases; the statements do not say the two groupings contain the same individuals, so the page words them as 'similar'. The map's six individuals should be checked against both.",
+    "villabruna-epigravettian: the cited 2023 statement dates the oldest analysed Epigravettian-associated genome, Tagliente 2, to about 17,000 years ago, and the old description said 'sampled from about 17,000 years ago', but the Tagliente individual (RIP001, dated 15025-14559 calBCE) is quality_usable false in AADR v66 and is not a member, so the map starts at about 14,300 years ago (the Villabruna individual, 12267-11850 calBCE). Of the 19 mapped individuals, 11 are from Sicily, several from the Mesolithic Uzzo cave dated to about 6700-6500 BCE.",
+    "villabruna-epigravettian: the Swiss 13,000-year-old sample (cited for the East Asian-related excess alleles) belongs to the Villabruna cluster as defined by Fu et al. 2016, but the mapped population is limited to Italian Epigravettian-associated individuals, so the cluster as defined in the literature is wider than the mapped group."
+  ]
 }
