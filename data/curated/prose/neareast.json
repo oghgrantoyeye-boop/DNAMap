@@ -1,0 +1,439 @@
+{
+  "group": "neareast",
+  "populations": {
+    "chg": {
+      "description": "Two men who lived in western Georgia about 13,300 and 9,700 years ago form a hunter-gatherer lineage distinct from every other early genome they were compared with. Ancestry related to theirs later contributed substantially to the Yamnaya-associated herders of the steppe.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Caucasus hunter-gatherers, or CHG, are a genetic grouping that rests on very few genomes. The two that defined it come from Satsurblia and Kotias Klde, and although the men lived more than 3,000 years apart, they are more closely related to each other than to any other genome older than the Bronze Age in the study. That points to one population persisting in the region from the Late Upper Palaeolithic, the last stretch of the Old Stone Age, into the Mesolithic that followed. Their DNA also contains many long stretches in which the copies inherited from mother and father are identical, which suggests that the population was small.",
+          "evidence_ids": [
+            "ev-jones2015-eh1",
+            "ev-jones2015-eh2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The genomes place CHG on a branch that separated early from the hunter-gatherers of western Europe. One demographic model, which estimates when populations parted from the pattern of differences between their genomes, puts that split at about 45,000 years ago, or 40,000–50,000 depending on the genomes used. The same model separates CHG from the ancestors of early farmers only about 25,000 years ago, so CHG and early farmers share a branch that western hunter-gatherers do not.",
+          "evidence_ids": [
+            "ev-jones2015-2",
+            "ev-jones2015-eh3",
+            "ev-jones2015-eh2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Ancestry related to CHG turns up well beyond the two sites where they were sampled. North of the Caucasus, Copper Age (Eneolithic) people form a gradient running from the Caucasus to the Lower Volga that is rich in CHG-related ancestry. A 2016 study of Ice Age Europe finds CHG related to a population that contributed new ancestry to hunter-gatherers in Europe, but rules them out as that population itself: CHG carry a large share of Basal Eurasian ancestry, a deep branch of non-African ancestry that has never been sampled directly, and those Europeans do not. Among people living today, those of the southern Caucasus are the closest to CHG, which suggests some 13,000 years of continuity in the region.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-fu2016-eh10",
+            "ev-jones2015-eh2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The CHG-related population that contributed to the Copper Age people of the Lower Volga has not been sampled, so how their ancestry formed is still unresolved. Studies also differ on which sampled group best stands for the CHG-related part of the steppe herders' ancestry. A 2016 study uses a population related to Chalcolithic people of western Iran, who are themselves modelled as partly of CHG ancestry, while a 2024 study models steppe ancestry as about one-third CHG-related and two-thirds related to hunter-gatherers of the Middle Don, a source the authors present as previously unknown.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4",
+            "ev-lazaridis2016-nn6",
+            "ev-allentoft2024-st3"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map shows three individuals from two sites, so its footprint marks where CHG were sampled, not how far they ranged.",
+        "Upper Palaeolithic individuals from Dzudzuana and Kotias Klde, older than this group, are not assigned to it."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Two men who lived in western Georgia about 13,300 and 9,700 years ago form a hunter-gatherer lineage distinct from every other early genome they were compared with.",
+          "evidence_ids": [
+            "ev-jones2015-1",
+            "ev-jones2015-eh1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Ancestry related to theirs later contributed substantially to the Yamnaya-associated herders of the steppe.",
+          "evidence_ids": [
+            "ev-jones2015-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Caucasus hunter-gatherers, or CHG, are a genetic grouping that rests on very few genomes.",
+          "evidence_ids": [
+            "ev-jones2015-eh1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The two that defined it come from Satsurblia and Kotias Klde, and although the men lived more than 3,000 years apart, they are more closely related to each other than to any other genome older than the Bronze Age in the study.",
+          "evidence_ids": [
+            "ev-jones2015-eh1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "That points to one population persisting in the region from the Late Upper Palaeolithic, the last stretch of the Old Stone Age, into the Mesolithic that followed.",
+          "evidence_ids": [
+            "ev-jones2015-eh1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their DNA also contains many long stretches in which the copies inherited from mother and father are identical, which suggests that the population was small.",
+          "evidence_ids": [
+            "ev-jones2015-eh2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The genomes place CHG on a branch that separated early from the hunter-gatherers of western Europe.",
+          "evidence_ids": [
+            "ev-jones2015-2",
+            "ev-jones2015-eh3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "One demographic model, which estimates when populations parted from the pattern of differences between their genomes, puts that split at about 45,000 years ago, or 40,000–50,000 depending on the genomes used.",
+          "evidence_ids": [
+            "ev-jones2015-2",
+            "ev-jones2015-eh3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The same model separates CHG from the ancestors of early farmers only about 25,000 years ago, so CHG and early farmers share a branch that western hunter-gatherers do not.",
+          "evidence_ids": [
+            "ev-jones2015-eh3",
+            "ev-jones2015-eh2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Ancestry related to CHG turns up well beyond the two sites where they were sampled.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2",
+            "ev-fu2016-eh10"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "North of the Caucasus, Copper Age (Eneolithic) people form a gradient running from the Caucasus to the Lower Volga that is rich in CHG-related ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2025-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A 2016 study of Ice Age Europe finds CHG related to a population that contributed new ancestry to hunter-gatherers in Europe, but rules them out as that population itself: CHG carry a large share of Basal Eurasian ancestry, a deep branch of non-African ancestry that has never been sampled directly, and those Europeans do not.",
+          "evidence_ids": [
+            "ev-fu2016-eh10"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Among people living today, those of the southern Caucasus are the closest to CHG, which suggests some 13,000 years of continuity in the region.",
+          "evidence_ids": [
+            "ev-jones2015-eh2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The CHG-related population that contributed to the Copper Age people of the Lower Volga has not been sampled, so how their ancestry formed is still unresolved.",
+          "evidence_ids": [
+            "ev-lazaridis2025-st4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Studies also differ on which sampled group best stands for the CHG-related part of the steppe herders' ancestry.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn6",
+            "ev-allentoft2024-st3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A 2016 study uses a population related to Chalcolithic people of western Iran, who are themselves modelled as partly of CHG ancestry, while a 2024 study models steppe ancestry as about one-third CHG-related and two-thirds related to hunter-gatherers of the Middle Don, a source the authors present as previously unknown.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn6",
+            "ev-allentoft2024-st3"
+          ]
+        }
+      ]
+    },
+    "iberomaurusian-taforalt": {
+      "description": "Seven people associated with the Iberomaurusian culture who lived about 15,000 years ago at Taforalt in Morocco. The study that sequenced them reports that their ancestry links Near Eastern and sub-Saharan African populations.",
+      "overview": [
+        {
+          "heading": "Ancestry",
+          "text": "Their DNA points in two directions. On one side, the study finds an affinity with early populations of the Near East, best represented by Natufian-associated hunter-gatherers of the Levant. On the other, about one-third of their ancestry is related to sub-Saharan Africans, and that part is best approximated as a mixture of components found today in West Africans and in East Africans. The study finds no sign that Europeans of the Palaeolithic, the Old Stone Age, contributed to their ancestry.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1",
+            "ev-vandeloosdrecht2018-eh2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "A single site cannot show how widely this mixture of ancestry extended across North Africa at the time. The sub-Saharan part is matched only against present-day groups, so these results do not identify the ancient population that contributed it. And the study's summary reports an affinity with Natufians, not how or when that shared ancestry arose.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1",
+            "ev-vandeloosdrecht2018-eh2"
+          ]
+        }
+      ],
+      "caveats": [
+        "Everything on this page is checked against the study's abstract only, not its full text, so the models behind the figures have not been examined."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Seven people associated with the Iberomaurusian culture who lived about 15,000 years ago at Taforalt in Morocco.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "The study that sequenced them reports that their ancestry links Near Eastern and sub-Saharan African populations.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their DNA points in two directions.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "On one side, the study finds an affinity with early populations of the Near East, best represented by Natufian-associated hunter-gatherers of the Levant.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "On the other, about one-third of their ancestry is related to sub-Saharan Africans, and that part is best approximated as a mixture of components found today in West Africans and in East Africans.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1",
+            "ev-vandeloosdrecht2018-eh2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study finds no sign that Europeans of the Palaeolithic, the Old Stone Age, contributed to their ancestry.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "A single site cannot show how widely this mixture of ancestry extended across North Africa at the time.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The sub-Saharan part is matched only against present-day groups, so these results do not identify the ancient population that contributed it.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "And the study's summary reports an affinity with Natufians, not how or when that shared ancestry arose.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-eh1"
+          ]
+        }
+      ]
+    },
+    "natufians": {
+      "description": "Hunter-gatherers associated with the Natufian culture of the southern Levant; the region's first farmers descended largely from hunter-gatherers related to them. Their genomes are also modelled as carrying a large share of ancestry from a deep lineage that no one has sampled directly.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The genomes come from a single site, Raqefet Cave, and date to 12,000–9,800 BCE. Their Y chromosomes, which pass from father to son and so trace a single paternal line, belong to haplogroup E, a lineage of likely African origin that the Levant's early farmers also carried. Yet across the genome as a whole, which records all of a person's ancestors, the study finds no particular affinity between Natufians and sub-Saharan Africans: one paternal line can point somewhere the rest of the ancestry does not.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn1",
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Natufians, together with the earliest people sampled in Iran, carry the highest shares of Basal Eurasian ancestry in the 2016 study that defined this group. Basal Eurasian is a branch of non-African ancestry that split off before the others diversified; no genome belonging to it has been found, so its share in later people is inferred by modelling, and by extrapolation it carried little or no Neandertal DNA. The 2016 study puts the Natufian share at about 44%, a little under half. A 2019 study that uses an ancient Ethiopian genome, Mota, as its African reference finds a lower 38.5%, closer to two-fifths, so the figure shifts with the reference chosen.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn3",
+            "ev-lazaridis2016-2",
+            "ev-lazaridis2016-nn1",
+            "ev-feldman2019-nn1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Natufian-related ancestry runs on into the farming communities that followed. In one model, the Pre-Pottery Neolithic farmers of 'Ain Ghazal and Motza, 8300–6700 BCE, trace about two-thirds of their ancestry to people related to Natufians, and the Levant's early farmers share more genetic variants with Natufians than with early farmers from Iran. Far to the west, individuals associated with the Iberomaurusian culture at Taforalt in Morocco, about 15,000 years old, show an affinity with Natufians, a finding checked here against the study's abstract only.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-lazaridis2016-nn2",
+            "ev-vandeloosdrecht2018-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where the Basal Eurasian lineage lived, and how it came to be so common in the early Near East, is unknown. Because the earliest Iranian samples carry shares similar to the Natufians', Natufians cannot be shown to be the group that brought it into the region. The 2016 study offers two possible explanations: the lineage mixed thoroughly into Near Eastern populations after the main episode of interbreeding with Neandertals, or the ancestors of these populations lived in the Near East all along, in a line that took no part in that interbreeding. Even the estimate that the lineage carried little Neandertal DNA is an extrapolation with a wide margin of error.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn4",
+            "ev-lazaridis2016-nn1",
+            "ev-lazaridis2016-nn3"
+          ]
+        }
+      ],
+      "caveats": [
+        "The map shows four individuals, all from one site."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers associated with the Natufian culture of the southern Levant; the region's first farmers descended largely from hunter-gatherers related to them.",
+          "evidence_ids": [
+            "ev-lazaridis2016-3",
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their genomes are also modelled as carrying a large share of ancestry from a deep lineage that no one has sampled directly.",
+          "evidence_ids": [
+            "ev-lazaridis2016-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The genomes come from a single site, Raqefet Cave, and date to 12,000–9,800 BCE.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their Y chromosomes, which pass from father to son and so trace a single paternal line, belong to haplogroup E, a lineage of likely African origin that the Levant's early farmers also carried.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Yet across the genome as a whole, which records all of a person's ancestors, the study finds no particular affinity between Natufians and sub-Saharan Africans: one paternal line can point somewhere the rest of the ancestry does not.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Natufians, together with the earliest people sampled in Iran, carry the highest shares of Basal Eurasian ancestry in the 2016 study that defined this group.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Basal Eurasian is a branch of non-African ancestry that split off before the others diversified; no genome belonging to it has been found, so its share in later people is inferred by modelling, and by extrapolation it carried little or no Neandertal DNA.",
+          "evidence_ids": [
+            "ev-lazaridis2016-2",
+            "ev-lazaridis2016-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The 2016 study puts the Natufian share at about 44%, a little under half.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A 2019 study that uses an ancient Ethiopian genome, Mota, as its African reference finds a lower 38.5%, closer to two-fifths, so the figure shifts with the reference chosen.",
+          "evidence_ids": [
+            "ev-feldman2019-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Natufian-related ancestry runs on into the farming communities that followed.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In one model, the Pre-Pottery Neolithic farmers of 'Ain Ghazal and Motza, 8300–6700 BCE, trace about two-thirds of their ancestry to people related to Natufians, and the Levant's early farmers share more genetic variants with Natufians than with early farmers from Iran.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn7",
+            "ev-lazaridis2016-nn2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Far to the west, individuals associated with the Iberomaurusian culture at Taforalt in Morocco, about 15,000 years old, show an affinity with Natufians, a finding checked here against the study's abstract only.",
+          "evidence_ids": [
+            "ev-vandeloosdrecht2018-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where the Basal Eurasian lineage lived, and how it came to be so common in the early Near East, is unknown.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn4",
+            "ev-lazaridis2016-nn1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Because the earliest Iranian samples carry shares similar to the Natufians', Natufians cannot be shown to be the group that brought it into the region.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2016 study offers two possible explanations: the lineage mixed thoroughly into Near Eastern populations after the main episode of interbreeding with Neandertals, or the ancestors of these populations lived in the Near East all along, in a line that took no part in that interbreeding.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Even the estimate that the lineage carried little Neandertal DNA is an extrapolation with a wide margin of error.",
+          "evidence_ids": [
+            "ev-lazaridis2016-nn3"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [
+    "chg: what kind of sites Satsurblia and Kotias Klde are (cave, rockshelter) and the archaeological context of the two individuals; the current text called them a cave and a rockshelter, but no evidence statement says so.",
+    "chg: evidence on how the older Upper Palaeolithic individuals from Dzudzuana and Kotias Klde relate to CHG (Lazaridis et al. 2018), so the page can explain why they are left out.",
+    "iberomaurusian-taforalt: a full-text check of van de Loosdrecht et al. 2018, giving the model behind the 'one-third sub-Saharan' figure, what the rest of the ancestry is modelled as, and how the individuals were dated.",
+    "iberomaurusian-taforalt: what the Iberomaurusian is (tools, date range, geographic spread) and what kind of site Taforalt is (the old text called it a cave; no evidence says so), with burial context if the paper gives it.",
+    "natufians: the archaeological context of the Raqefet Cave individuals (burials, what the Natufian culture is known for, such as settled villages), which no evidence statement gives.",
+    "natufians: the authors' suggestion, stated in the old text, that more Natufian sites and ancient DNA from North Africa would clarify Natufian origins; it needs an evidence statement with a location before it can be shown."
+  ],
+  "concerns": [
+    "chg: two Kotias Klde Mesolithic members, KK1 (Jones et al. 2015) and NEO281 (Allentoft et al. 2024), have almost identical date ranges (about 7939–7598 BCE vs 7938–7600 BCE); check whether NEO281 is the same person re-sequenced, which would count one man twice on the map.",
+    "chg: the replaced overview called Satsurblia a cave and Kotias Klde a rockshelter and said split times depend on the mutation rate; none of the cited evidence states either.",
+    "iberomaurusian-taforalt: ev-vandeloosdrecht2018-1 and ev-vandeloosdrecht2018-eh1 state almost the same claim; one could be retired.",
+    "natufians: the replaced 'What we cannot tell' said the authors suggest further Natufians and North African ancient DNA could improve understanding; none of the cited evidence states this.",
+    "natufians: three of the four map members carry an AADR date range of 12000–9500 BCE, while the study (ev-lazaridis2016-nn1) gives 12,000–9,800 BCE for the sample; the timeline end of 9500 BCE comes from the broader AADR range.",
+    "natufians / anatolia-epipaleolithic: ev-feldman2019-nn1 and ev-feldman2019-nn5 state the same Mota-based Basal Eurasian estimates; one could be retired."
+  ]
+}

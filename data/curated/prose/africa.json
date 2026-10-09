@@ -1,0 +1,1041 @@
+{
+  "group": "africa",
+  "populations": {
+    "mota": {
+      "description": "Someone who lived in the Ethiopian highlands about 4,500 years ago, before Eurasian-related ancestry mixed into eastern Africa. Because the genome is read in fine detail, later studies use it as a reference for northeastern African ancestry from before farming.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Mota is one person, not a population, so everything known here rests on a single genome, from Mota Cave. It was first sequenced at high coverage, meaning each position in the genome was read many times, and a 2022 study re-sequenced it to an average of about 26 reads per position. Reading a genome that deeply leaves little doubt about which genetic variants a person carried, and that clarity is what lets one ancient forager serve as a yardstick for others.",
+          "evidence_ids": [
+            "ev-lipson2022-af1",
+            "ev-gallegollorente2015-erratum",
+            "ev-prendergast2019-af1",
+            "ev-skoglund2017-af1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "In a 2022 study of ancient foragers, ancestry shifts gradually from north to south, and Mota sits at the northern end of that gradient. The same study models about 30 percent of Mota's ancestry, close to a third, as coming from a separate lineage that branched off deep in the past and has no sampled representative: a population known only from the traces it left, which geneticists call a ghost. The result held when the analysis was repeated on the re-sequenced genome.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Ancestry related to Mota appears in later populations, though in each case the genome stands in for a lineage and does not show that this person's own community were the ancestors. Present-day Hadza can be modelled as drawing all their ancestry from a lineage deeply related to Mota, and about two-thirds of the ancestry of an ancient herder from Luxmanda is closest to it. Pastoral Neolithic herders in Kenya and Tanzania carry about a fifth Mota-related ancestry, with roughly two-fifths each related to present-day Dinka and to Copper Age (Chalcolithic) people of the Levant.",
+          "evidence_ids": [
+            "ev-skoglund2017-af1",
+            "ev-prendergast2019-af1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The first study of this genome also reported Eurasian-related ancestry in present-day Yoruba and Mbuti; a 2016 correction withdrew that claim, and only the abstracts of the study and of the correction have been checked. The ghost lineage has no sampled representative, so where its people lived is unknown. And one person cannot show how much ancestry varied among the people of the highlands at the time.",
+          "evidence_ids": [
+            "ev-gallegollorente2015-erratum",
+            "ev-lipson2022-af1"
+          ]
+        }
+      ],
+      "caveats": [
+        "The source paper carries a 2016 erratum; only claims unaffected by it are used."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Someone who lived in the Ethiopian highlands about 4,500 years ago, before Eurasian-related ancestry mixed into eastern Africa.",
+          "evidence_ids": [
+            "ev-gallegollorente2015-erratum",
+            "ev-skoglund2017-af1",
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Because the genome is read in fine detail, later studies use it as a reference for northeastern African ancestry from before farming.",
+          "evidence_ids": [
+            "ev-lipson2022-af1",
+            "ev-gallegollorente2015-erratum",
+            "ev-skoglund2017-af1",
+            "ev-prendergast2019-af1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Mota is one person, not a population, so everything known here rests on a single genome, from Mota Cave.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "It was first sequenced at high coverage, meaning each position in the genome was read many times, and a 2022 study re-sequenced it to an average of about 26 reads per position.",
+          "evidence_ids": [
+            "ev-gallegollorente2015-erratum",
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Reading a genome that deeply leaves little doubt about which genetic variants a person carried, and that clarity is what lets one ancient forager serve as a yardstick for others.",
+          "evidence_ids": [
+            "ev-prendergast2019-af1",
+            "ev-skoglund2017-af1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In a 2022 study of ancient foragers, ancestry shifts gradually from north to south, and Mota sits at the northern end of that gradient.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The same study models about 30 percent of Mota's ancestry, close to a third, as coming from a separate lineage that branched off deep in the past and has no sampled representative: a population known only from the traces it left, which geneticists call a ghost.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The result held when the analysis was repeated on the re-sequenced genome.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Ancestry related to Mota appears in later populations, though in each case the genome stands in for a lineage and does not show that this person's own community were the ancestors.",
+          "evidence_ids": [
+            "ev-skoglund2017-af1",
+            "ev-prendergast2019-af1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Present-day Hadza can be modelled as drawing all their ancestry from a lineage deeply related to Mota, and about two-thirds of the ancestry of an ancient herder from Luxmanda is closest to it.",
+          "evidence_ids": [
+            "ev-skoglund2017-af1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Pastoral Neolithic herders in Kenya and Tanzania carry about a fifth Mota-related ancestry, with roughly two-fifths each related to present-day Dinka and to Copper Age (Chalcolithic) people of the Levant.",
+          "evidence_ids": [
+            "ev-prendergast2019-af1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The first study of this genome also reported Eurasian-related ancestry in present-day Yoruba and Mbuti; a 2016 correction withdrew that claim, and only the abstracts of the study and of the correction have been checked.",
+          "evidence_ids": [
+            "ev-gallegollorente2015-erratum"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The ghost lineage has no sampled representative, so where its people lived is unknown.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "And one person cannot show how much ancestry varied among the people of the highlands at the time.",
+          "evidence_ids": [
+            "ev-lipson2022-af1"
+          ]
+        }
+      ]
+    },
+    "east-african-foragers": {
+      "description": "Hunter-gatherers of Kenya and Tanzania whose genomes carry a much older story: a mix of three long-separated African ancestries that probably took shape tens of thousands of years earlier. Their ancestry later flowed into the region's herding groups.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are ancient foragers, people who lived by hunting and gathering, grouped here by genetic similarity rather than by site or culture. Their genomes matter because they keep a record of African population structure far older than most of the people themselves. That record is hard to read: the six new forager genomes in a 2022 study were read at a median of 0.06 times per position, so most of each genome was not read even once.",
+          "evidence_ids": [
+            "ev-wang2020-af1",
+            "ev-lipson2022-af3",
+            "ev-lipson2022-2",
+            "ev-lipson2022-af2"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The sampled foragers are spread thinly across a large region and many thousands of years. The 2022 study's new genomes, from Kisese II and Mlambalasi in Tanzania and from sites in Malawi and Zambia, date between about 18,000 and 5,000 years ago. In western Kenya, a forager lived at Kakapel about 3,900 years ago and others at Nyarindi about 3,500 years ago, and they group genetically with individuals from Pemba, Zanzibar and the Kenyan coast. Foragers were still living alongside farmers and herders at least 400 years ago.",
+          "evidence_ids": [
+            "ev-lipson2022-af2",
+            "ev-wang2020-af1",
+            "ev-wang2020-af2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their ancestry is modelled as a mix of three sources that had been apart for a very long time: a deep eastern African lineage related to Mota, a deep southern African lineage, and a third related to central African foragers. The 2022 study finds that at least three sources are needed and that three are enough. The mix shifts with place. Foragers at Jawuoyo and Nyarindi in western Kenya are about 62 percent Mota-related, and at Gishimangeda in north-central Tanzania the southern African-related share rises from about a fifth to about a third. The forager at Kakapel also carries ancestry associated with present-day Mbuti.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af3",
+            "ev-wang2020-af1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The three-way mix probably formed between about 80,000 and 20,000 years ago and then held steady, with little gene flow over long distances. Southern African-related ancestry was once more widespread than it is today: a forager on Zanzibar about 1,400 years ago carries about 31 percent of it, though an individual from coastal Kenya of about 400 years ago and present-day Hadza do not. Eastern African herding groups formed through mixing between people with northeastern African-related ancestry and eastern African foragers. The exchange was lopsided, with forager ancestry entering herding communities and little flowing back; near lakes and coasts, foragers show little herder ancestry.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af4",
+            "ev-skoglund2017-1",
+            "ev-skoglund2017-af2",
+            "ev-prendergast2019-2",
+            "ev-wang2020-af2",
+            "ev-wang2020-af1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Two of the three sources are inferred rather than seen. The Mota-related and southern African-related lineages split so deeply from their sampled relatives that no closely related genome has been sampled for either: they are ghost populations, known only from the ancestry they left in others. Behind that lies a sampling gap. By 2024, Africa had supplied only about 3 percent of all published genome-wide ancient human DNA, against about two-thirds from Europe and Russia.",
+          "evidence_ids": [
+            "ev-lipson2022-af4",
+            "ev-aadr-x4"
+          ]
+        }
+      ],
+      "caveats": [],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers of Kenya and Tanzania whose genomes carry a much older story: a mix of three long-separated African ancestries that probably took shape tens of thousands of years earlier.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af3"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their ancestry later flowed into the region's herding groups.",
+          "evidence_ids": [
+            "ev-prendergast2019-2",
+            "ev-wang2020-af2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These are ancient foragers, people who lived by hunting and gathering, grouped here by genetic similarity rather than by site or culture.",
+          "evidence_ids": [
+            "ev-wang2020-af1",
+            "ev-lipson2022-af3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their genomes matter because they keep a record of African population structure far older than most of the people themselves.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "That record is hard to read: the six new forager genomes in a 2022 study were read at a median of 0.06 times per position, so most of each genome was not read even once.",
+          "evidence_ids": [
+            "ev-lipson2022-af2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The sampled foragers are spread thinly across a large region and many thousands of years.",
+          "evidence_ids": [
+            "ev-lipson2022-af2",
+            "ev-wang2020-af1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2022 study's new genomes, from Kisese II and Mlambalasi in Tanzania and from sites in Malawi and Zambia, date between about 18,000 and 5,000 years ago.",
+          "evidence_ids": [
+            "ev-lipson2022-af2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "In western Kenya, a forager lived at Kakapel about 3,900 years ago and others at Nyarindi about 3,500 years ago, and they group genetically with individuals from Pemba, Zanzibar and the Kenyan coast.",
+          "evidence_ids": [
+            "ev-wang2020-af1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Foragers were still living alongside farmers and herders at least 400 years ago.",
+          "evidence_ids": [
+            "ev-wang2020-af2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their ancestry is modelled as a mix of three sources that had been apart for a very long time: a deep eastern African lineage related to Mota, a deep southern African lineage, and a third related to central African foragers.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The 2022 study finds that at least three sources are needed and that three are enough.",
+          "evidence_ids": [
+            "ev-lipson2022-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The mix shifts with place.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Foragers at Jawuoyo and Nyarindi in western Kenya are about 62 percent Mota-related, and at Gishimangeda in north-central Tanzania the southern African-related share rises from about a fifth to about a third.",
+          "evidence_ids": [
+            "ev-lipson2022-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The forager at Kakapel also carries ancestry associated with present-day Mbuti.",
+          "evidence_ids": [
+            "ev-wang2020-af1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The three-way mix probably formed between about 80,000 and 20,000 years ago and then held steady, with little gene flow over long distances.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-lipson2022-af4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Southern African-related ancestry was once more widespread than it is today: a forager on Zanzibar about 1,400 years ago carries about 31 percent of it, though an individual from coastal Kenya of about 400 years ago and present-day Hadza do not.",
+          "evidence_ids": [
+            "ev-skoglund2017-1",
+            "ev-skoglund2017-af2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Eastern African herding groups formed through mixing between people with northeastern African-related ancestry and eastern African foragers.",
+          "evidence_ids": [
+            "ev-prendergast2019-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The exchange was lopsided, with forager ancestry entering herding communities and little flowing back; near lakes and coasts, foragers show little herder ancestry.",
+          "evidence_ids": [
+            "ev-wang2020-af2",
+            "ev-wang2020-af1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Two of the three sources are inferred rather than seen.",
+          "evidence_ids": [
+            "ev-lipson2022-af4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Mota-related and southern African-related lineages split so deeply from their sampled relatives that no closely related genome has been sampled for either: they are ghost populations, known only from the ancestry they left in others.",
+          "evidence_ids": [
+            "ev-lipson2022-af4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Behind that lies a sampling gap.",
+          "evidence_ids": [
+            "ev-aadr-x4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "By 2024, Africa had supplied only about 3 percent of all published genome-wide ancient human DNA, against about two-thirds from Europe and Russia.",
+          "evidence_ids": [
+            "ev-aadr-x4"
+          ]
+        }
+      ]
+    },
+    "malawi-foragers": {
+      "description": "Hunter-gatherers of Malawi, about two-thirds of whose ancestry is related to that of present-day San in southern Africa. Their genomes show that San-related ancestry was once more widespread than it is today.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are foragers from sites in Malawi such as Hora 1 and Fingira, grouped by their shared ancestry. Their most striking feature is constancy. In a 2017 study, seven individuals who lived between about 8,100 and 2,500 years ago show no significant genetic differences from one another, which the authors take as a single distinctive population that lasted at least 5,000 years. A 2022 study that adds individuals from Malawi and Zambia does find modest differences between people, so the population may have been less uniform than that.",
+          "evidence_ids": [
+            "ev-lipson2022-af2",
+            "ev-lipson2022-af5",
+            "ev-skoglund2017-af3",
+            "ev-lipson2022-af6"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The record reaches further back than those seven. Individuals from Hora 1 lived between about 17,000 and 14,000 years ago, and another between about 9,090 and 8,770 years ago, so the sampled foragers span some 14,500 years in all.",
+          "evidence_ids": [
+            "ev-lipson2022-af5",
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The 2017 study puts the San-related share at about 60 percent at Fingira some 6,100 years ago and about 65 percent around 2,500 years ago. The two estimates overlap within their margins of error, so the share held roughly steady for more than 3,000 years. The 2022 study sets this inside a wider pattern, in which the ancestry of eastern and south-central African foragers is a mix of three long-separated sources. Their mitochondrial DNA, inherited only from mothers, mostly belongs to lineages associated with southern African foragers, but a 16,000-year-old individual from Hora 1 carries one associated with eastern Africa, and an 8,200-year-old individual one like those of central African foragers.",
+          "evidence_ids": [
+            "ev-skoglund2017-af3",
+            "ev-lipson2022-2",
+            "ev-lipson2022-af5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The three-way mix behind their ancestry probably formed between about 80,000 and 20,000 years ago and then held stable. The 2017 study finds that in some regions the spread of farmers from western Africa brought a complete turnover of ancestry, and that in Malawi the shift to food producers' ancestry appears nearly complete.",
+          "evidence_ids": [
+            "ev-lipson2022-2",
+            "ev-skoglund2017-2",
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "What the San-related ancestry really represents is open. The 2017 figures measure it against present-day San, but the 2022 study suggests that the southern African-related ancestry of eastern and south-central foragers may be only distantly related to present-day Ju|'hoansi, a San group, and to ancient South African foragers. That study treats the source as a ghost: a lineage that split off deep in the past and has no closely related sampled genome.",
+          "evidence_ids": [
+            "ev-lipson2022-af6",
+            "ev-skoglund2017-1",
+            "ev-lipson2022-af4"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers of Malawi, about two-thirds of whose ancestry is related to that of present-day San in southern Africa.",
+          "evidence_ids": [
+            "ev-skoglund2017-1",
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their genomes show that San-related ancestry was once more widespread than it is today.",
+          "evidence_ids": [
+            "ev-skoglund2017-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These are foragers from sites in Malawi such as Hora 1 and Fingira, grouped by their shared ancestry.",
+          "evidence_ids": [
+            "ev-lipson2022-af2",
+            "ev-lipson2022-af5",
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Their most striking feature is constancy.",
+          "evidence_ids": [
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "In a 2017 study, seven individuals who lived between about 8,100 and 2,500 years ago show no significant genetic differences from one another, which the authors take as a single distinctive population that lasted at least 5,000 years.",
+          "evidence_ids": [
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2022 study that adds individuals from Malawi and Zambia does find modest differences between people, so the population may have been less uniform than that.",
+          "evidence_ids": [
+            "ev-lipson2022-af2",
+            "ev-lipson2022-af6"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The record reaches further back than those seven.",
+          "evidence_ids": [
+            "ev-lipson2022-af5"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Individuals from Hora 1 lived between about 17,000 and 14,000 years ago, and another between about 9,090 and 8,770 years ago, so the sampled foragers span some 14,500 years in all.",
+          "evidence_ids": [
+            "ev-lipson2022-af5",
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The 2017 study puts the San-related share at about 60 percent at Fingira some 6,100 years ago and about 65 percent around 2,500 years ago.",
+          "evidence_ids": [
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The two estimates overlap within their margins of error, so the share held roughly steady for more than 3,000 years.",
+          "evidence_ids": [
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The 2022 study sets this inside a wider pattern, in which the ancestry of eastern and south-central African foragers is a mix of three long-separated sources.",
+          "evidence_ids": [
+            "ev-lipson2022-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their mitochondrial DNA, inherited only from mothers, mostly belongs to lineages associated with southern African foragers, but a 16,000-year-old individual from Hora 1 carries one associated with eastern Africa, and an 8,200-year-old individual one like those of central African foragers.",
+          "evidence_ids": [
+            "ev-lipson2022-af5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The three-way mix behind their ancestry probably formed between about 80,000 and 20,000 years ago and then held stable.",
+          "evidence_ids": [
+            "ev-lipson2022-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The 2017 study finds that in some regions the spread of farmers from western Africa brought a complete turnover of ancestry, and that in Malawi the shift to food producers' ancestry appears nearly complete.",
+          "evidence_ids": [
+            "ev-skoglund2017-2",
+            "ev-skoglund2017-af3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "What the San-related ancestry really represents is open.",
+          "evidence_ids": [
+            "ev-lipson2022-af6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The 2017 figures measure it against present-day San, but the 2022 study suggests that the southern African-related ancestry of eastern and south-central foragers may be only distantly related to present-day Ju|'hoansi, a San group, and to ancient South African foragers.",
+          "evidence_ids": [
+            "ev-skoglund2017-1",
+            "ev-lipson2022-af6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "That study treats the source as a ghost: a lineage that split off deep in the past and has no closely related sampled genome.",
+          "evidence_ids": [
+            "ev-lipson2022-af4"
+          ]
+        }
+      ]
+    },
+    "southern-african-foragers": {
+      "description": "Stone Age hunter-gatherers of South Africa whose ancestry still makes up as much as nine-tenths of the ancestry of some present-day Khoe-San groups. Later, it mixed with ancestry related to eastern African herders and to present-day Bantu speakers.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are Stone Age hunter-gatherers from South Africa, grouped by their shared ancestry. The genetic findings come from two studies published in 2017, and the hunter-gatherers they describe lived about 2,000 years ago. Skoglund and colleagues report two individuals buried in hunter-gatherer contexts, and Schlebusch and colleagues report Stone Age individuals from KwaZulu-Natal.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Both studies tie these hunter-gatherers to present-day Khoe-San, the collective name for a set of southern African populations that includes the San. The two individuals share ancestry with Khoe-San, and the KwaZulu-Natal individuals resemble present-day southern San, according to the second study's abstract. Yet no present-day group is a perfect stand-in for them: Skoglund and colleagues find that even the Ju|'hoan North San, a San group, have about 9 percent ancestry related to an ancient herder from Luxmanda in Tanzania.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1",
+            "ev-skoglund2017-af5"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "San-related ancestry once extended much farther north, making up about two-thirds of the ancestry of hunter-gatherers in Malawi and about a third of one in Tanzania some 1,400 years ago. Within southern Africa, later people carry it mixed with other ancestry. A herder from Kasteelberg, about 1,200 years ago, is modelled as about two-fifths related to the Luxmanda herder and the rest related to the 2,000-year-old hunter-gatherers. In Botswana, between about 1,300 and 1,000 years ago, individuals mostly related to present-day Bantu speakers carry between a tenth and two-fifths southern African hunter-gatherer ancestry. Iron Age individuals from KwaZulu-Natal who lived 300–500 years ago resemble present-day Bantu-language speakers, Schlebusch and colleagues report.",
+          "evidence_ids": [
+            "ev-skoglund2017-1",
+            "ev-skoglund2017-af5",
+            "ev-wang2020-af3",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Whether the San-related ancestry found far to the north came from close relatives of these South African foragers is unsettled. Skoglund and colleagues measure it against present-day San, but a 2022 study suggests that the southern African-related ancestry of foragers in eastern and south-central Africa may be only distantly related to ancient South African foragers and to the Ju|'hoan San.",
+          "evidence_ids": [
+            "ev-lipson2022-af6",
+            "ev-skoglund2017-1"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Stone Age hunter-gatherers of South Africa whose ancestry still makes up as much as nine-tenths of the ancestry of some present-day Khoe-San groups.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Later, it mixed with ancestry related to eastern African herders and to present-day Bantu speakers.",
+          "evidence_ids": [
+            "ev-skoglund2017-af5",
+            "ev-wang2020-af3",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These are Stone Age hunter-gatherers from South Africa, grouped by their shared ancestry.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The genetic findings come from two studies published in 2017, and the hunter-gatherers they describe lived about 2,000 years ago.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Skoglund and colleagues report two individuals buried in hunter-gatherer contexts, and Schlebusch and colleagues report Stone Age individuals from KwaZulu-Natal.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Both studies tie these hunter-gatherers to present-day Khoe-San, the collective name for a set of southern African populations that includes the San.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The two individuals share ancestry with Khoe-San, and the KwaZulu-Natal individuals resemble present-day southern San, according to the second study's abstract.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Yet no present-day group is a perfect stand-in for them: Skoglund and colleagues find that even the Ju|'hoan North San, a San group, have about 9 percent ancestry related to an ancient herder from Luxmanda in Tanzania.",
+          "evidence_ids": [
+            "ev-skoglund2017-af4",
+            "ev-skoglund2017-af5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "San-related ancestry once extended much farther north, making up about two-thirds of the ancestry of hunter-gatherers in Malawi and about a third of one in Tanzania some 1,400 years ago.",
+          "evidence_ids": [
+            "ev-skoglund2017-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Within southern Africa, later people carry it mixed with other ancestry.",
+          "evidence_ids": [
+            "ev-skoglund2017-af5",
+            "ev-wang2020-af3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "A herder from Kasteelberg, about 1,200 years ago, is modelled as about two-fifths related to the Luxmanda herder and the rest related to the 2,000-year-old hunter-gatherers.",
+          "evidence_ids": [
+            "ev-skoglund2017-af5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Botswana, between about 1,300 and 1,000 years ago, individuals mostly related to present-day Bantu speakers carry between a tenth and two-fifths southern African hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-wang2020-af3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Iron Age individuals from KwaZulu-Natal who lived 300–500 years ago resemble present-day Bantu-language speakers, Schlebusch and colleagues report.",
+          "evidence_ids": [
+            "ev-schlebusch2017-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether the San-related ancestry found far to the north came from close relatives of these South African foragers is unsettled.",
+          "evidence_ids": [
+            "ev-lipson2022-af6",
+            "ev-skoglund2017-1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Skoglund and colleagues measure it against present-day San, but a 2022 study suggests that the southern African-related ancestry of foragers in eastern and south-central Africa may be only distantly related to ancient South African foragers and to the Ju|'hoan San.",
+          "evidence_ids": [
+            "ev-skoglund2017-1",
+            "ev-lipson2022-af6"
+          ]
+        }
+      ]
+    },
+    "shum-laka": {
+      "description": "Four children buried at the Shum Laka rockshelter in Cameroon, whose DNA is closest to that of west-central African hunter-gatherers. Present-day Bantu speakers, their study finds, descend little from the population the children belonged to.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Two of the children lived about 8,000 years ago and two about 3,000 years ago, and each pair were relatives: one pair at the second degree, such as half-siblings, and the other at the fourth degree, such as first cousins once removed. That kinship supports the view that the rockshelter served as a cemetery for an extended family. All four also show signs of recent inbreeding, meaning their parents were related to each other. Among the boys' Y chromosomes is A00, a rare lineage whose branches separated about 37,000–25,000 years ago.",
+          "evidence_ids": [
+            "ev-lipson2020-af1",
+            "ev-lipson2020-af2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The study models the children as about 35 percent related to west-central African hunter-gatherers and about 65 percent from a lineage that branched off near the root of western African ancestry. The later pair carries about 5 percent more of the hunter-gatherer-related share than the earlier one, a small shift over 5,000 years. An alternative model with three components also fits, so this two-way split is one reading of the data rather than the only one.",
+          "evidence_ids": [
+            "ev-lipson2020-af3",
+            "ev-lipson2020-af1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Little of this ancestry reaches the people who live near Shum Laka today. Present-day Mbo, Aghem and Bafut, groups living near the site, carry at most about 7–8 percent Shum Laka-related ancestry, less than a tenth, and the authors find no substantial contribution to present-day western Cameroonians more widely.",
+          "evidence_ids": [
+            "ev-lipson2020-af4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Four children from one rockshelter, in two pairs of relatives, are a very narrow window on a whole region, and no sampled genome fills the long gap between the two pairs. The genomes are also unevenly read, at between 0.7 and 7.7 reads per position on average, so the least-read genome averages less than one read per position.",
+          "evidence_ids": [
+            "ev-lipson2020-af1"
+          ]
+        }
+      ],
+      "caveats": [],
+      "support": [
+        {
+          "where": "description",
+          "text": "Four children buried at the Shum Laka rockshelter in Cameroon, whose DNA is closest to that of west-central African hunter-gatherers.",
+          "evidence_ids": [
+            "ev-lipson2020-2",
+            "ev-lipson2020-af1",
+            "ev-lipson2020-af2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Present-day Bantu speakers, their study finds, descend little from the population the children belonged to.",
+          "evidence_ids": [
+            "ev-lipson2020-2",
+            "ev-lipson2020-af4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Two of the children lived about 8,000 years ago and two about 3,000 years ago, and each pair were relatives: one pair at the second degree, such as half-siblings, and the other at the fourth degree, such as first cousins once removed.",
+          "evidence_ids": [
+            "ev-lipson2020-af1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "That kinship supports the view that the rockshelter served as a cemetery for an extended family.",
+          "evidence_ids": [
+            "ev-lipson2020-af1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "All four also show signs of recent inbreeding, meaning their parents were related to each other.",
+          "evidence_ids": [
+            "ev-lipson2020-af1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Among the boys' Y chromosomes is A00, a rare lineage whose branches separated about 37,000–25,000 years ago.",
+          "evidence_ids": [
+            "ev-lipson2020-af2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The study models the children as about 35 percent related to west-central African hunter-gatherers and about 65 percent from a lineage that branched off near the root of western African ancestry.",
+          "evidence_ids": [
+            "ev-lipson2020-af3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The later pair carries about 5 percent more of the hunter-gatherer-related share than the earlier one, a small shift over 5,000 years.",
+          "evidence_ids": [
+            "ev-lipson2020-af3",
+            "ev-lipson2020-af1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "An alternative model with three components also fits, so this two-way split is one reading of the data rather than the only one.",
+          "evidence_ids": [
+            "ev-lipson2020-af3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Little of this ancestry reaches the people who live near Shum Laka today.",
+          "evidence_ids": [
+            "ev-lipson2020-af4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Present-day Mbo, Aghem and Bafut, groups living near the site, carry at most about 7–8 percent Shum Laka-related ancestry, less than a tenth, and the authors find no substantial contribution to present-day western Cameroonians more widely.",
+          "evidence_ids": [
+            "ev-lipson2020-af4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Four children from one rockshelter, in two pairs of relatives, are a very narrow window on a whole region, and no sampled genome fills the long gap between the two pairs.",
+          "evidence_ids": [
+            "ev-lipson2020-af1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The genomes are also unevenly read, at between 0.7 and 7.7 reads per position on average, so the least-read genome averages less than one read per position.",
+          "evidence_ids": [
+            "ev-lipson2020-af1"
+          ]
+        }
+      ]
+    },
+    "pastoral-neolithic": {
+      "description": "Early herders of Kenya and Tanzania, whose groups formed through mixing between people with northeastern African-related ancestry and local foragers. Their genomes also show that makers of different Pastoral Neolithic artefact traditions were not genetically distinct.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "They are defined by archaeology: individuals from early pastoral and Pastoral Neolithic sites, the archaeological label for early herding communities in Kenya and Tanzania. A 2019 study reports genomes from 31 of them, and they form a tight genetic cluster with only a few modest outliers, such as two individuals at Prettejohn's Gully about 4,000 years ago. Between 7 and 12 of the 17 males carry one Y-chromosome lineage, E-M293, a sign of shared descent through the male line.",
+          "evidence_ids": [
+            "ev-prendergast2019-af2"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "The herders sampled so far lived between roughly 4,000 and 1,500 years ago. Besides the early outliers at Prettejohn's Gully, they include a herder from Luxmanda in Tanzania about 3,100 years ago and one from Hyrax Hill in Kenya about 2,300 years ago. Individuals from southern Kenya, who lived between about 3,500 and 1,500 years ago, show little change in ancestry over that time.",
+          "evidence_ids": [
+            "ev-prendergast2019-af2",
+            "ev-wang2020-af4",
+            "ev-skoglund2017-3",
+            "ev-wang2020-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their ancestry is modelled as a blend of three sources, each represented by a stand-in: about two-fifths related to present-day Dinka, about two-fifths related to Copper Age people of the Levant, and about a fifth related to the ancient forager known as Mota. Across studies the Levant-related share falls between about 30 and 40 percent, and in southern Kenya it holds steady through time, while the Dinka-related and forager-related shares vary from person to person. For the Luxmanda herder, sources related to early farmers of the Levant fit, while Iran-related and Anatolia-related sources are ruled out.",
+          "evidence_ids": [
+            "ev-prendergast2019-af1",
+            "ev-wang2020-af4",
+            "ev-skoglund2017-3",
+            "ev-wang2020-2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The 2019 study proposes a two-step history. First, mixing in northeastern Africa, probably tied to the spread of herding, produced groups with roughly equal Dinka-related and northern African or Levant-related ancestry, groups that no ancient genome yet samples. Their descendants then mixed with eastern African foragers, and that mixing may have continued during the Pastoral Neolithic, mostly as forager ancestry entering herding groups rather than the reverse. By the Iron Age, herding groups in eastern Africa carry further northeastern and western African-related ancestry. Ancestry related to these herders also reached southern Africa: a herder at Kasteelberg about 1,200 years ago carries about two-fifths ancestry related to the Luxmanda herder.",
+          "evidence_ids": [
+            "ev-prendergast2019-af3",
+            "ev-wang2020-af4",
+            "ev-wang2020-af2",
+            "ev-prendergast2019-2",
+            "ev-skoglund2017-af5"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "How the Levant-related ancestry reached eastern Africa is open. Skoglund and colleagues, who report it in the Luxmanda herder, note that it could reflect migration from the Levant or an earlier population whose ancestry both regions shared. The Levant-related reference is itself a stand-in, used because no closer reference group has been sampled.",
+          "evidence_ids": [
+            "ev-skoglund2017-3",
+            "ev-prendergast2019-af3"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Early herders of Kenya and Tanzania, whose groups formed through mixing between people with northeastern African-related ancestry and local foragers.",
+          "evidence_ids": [
+            "ev-prendergast2019-2",
+            "ev-prendergast2019-af2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their genomes also show that makers of different Pastoral Neolithic artefact traditions were not genetically distinct.",
+          "evidence_ids": [
+            "ev-prendergast2019-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "They are defined by archaeology: individuals from early pastoral and Pastoral Neolithic sites, the archaeological label for early herding communities in Kenya and Tanzania.",
+          "evidence_ids": [
+            "ev-prendergast2019-af2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2019 study reports genomes from 31 of them, and they form a tight genetic cluster with only a few modest outliers, such as two individuals at Prettejohn's Gully about 4,000 years ago.",
+          "evidence_ids": [
+            "ev-prendergast2019-af2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Between 7 and 12 of the 17 males carry one Y-chromosome lineage, E-M293, a sign of shared descent through the male line.",
+          "evidence_ids": [
+            "ev-prendergast2019-af2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The herders sampled so far lived between roughly 4,000 and 1,500 years ago.",
+          "evidence_ids": [
+            "ev-prendergast2019-af2",
+            "ev-wang2020-af4"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Besides the early outliers at Prettejohn's Gully, they include a herder from Luxmanda in Tanzania about 3,100 years ago and one from Hyrax Hill in Kenya about 2,300 years ago.",
+          "evidence_ids": [
+            "ev-skoglund2017-3",
+            "ev-wang2020-2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Individuals from southern Kenya, who lived between about 3,500 and 1,500 years ago, show little change in ancestry over that time.",
+          "evidence_ids": [
+            "ev-wang2020-af4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their ancestry is modelled as a blend of three sources, each represented by a stand-in: about two-fifths related to present-day Dinka, about two-fifths related to Copper Age people of the Levant, and about a fifth related to the ancient forager known as Mota.",
+          "evidence_ids": [
+            "ev-prendergast2019-af1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Across studies the Levant-related share falls between about 30 and 40 percent, and in southern Kenya it holds steady through time, while the Dinka-related and forager-related shares vary from person to person.",
+          "evidence_ids": [
+            "ev-prendergast2019-af1",
+            "ev-wang2020-af4",
+            "ev-skoglund2017-3",
+            "ev-wang2020-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "For the Luxmanda herder, sources related to early farmers of the Levant fit, while Iran-related and Anatolia-related sources are ruled out.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The 2019 study proposes a two-step history.",
+          "evidence_ids": [
+            "ev-prendergast2019-af3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "First, mixing in northeastern Africa, probably tied to the spread of herding, produced groups with roughly equal Dinka-related and northern African or Levant-related ancestry, groups that no ancient genome yet samples.",
+          "evidence_ids": [
+            "ev-prendergast2019-af3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Their descendants then mixed with eastern African foragers, and that mixing may have continued during the Pastoral Neolithic, mostly as forager ancestry entering herding groups rather than the reverse.",
+          "evidence_ids": [
+            "ev-prendergast2019-af3",
+            "ev-wang2020-af4",
+            "ev-wang2020-af2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "By the Iron Age, herding groups in eastern Africa carry further northeastern and western African-related ancestry.",
+          "evidence_ids": [
+            "ev-prendergast2019-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Ancestry related to these herders also reached southern Africa: a herder at Kasteelberg about 1,200 years ago carries about two-fifths ancestry related to the Luxmanda herder.",
+          "evidence_ids": [
+            "ev-skoglund2017-af5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "How the Levant-related ancestry reached eastern Africa is open.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Skoglund and colleagues, who report it in the Luxmanda herder, note that it could reflect migration from the Levant or an earlier population whose ancestry both regions shared.",
+          "evidence_ids": [
+            "ev-skoglund2017-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Levant-related reference is itself a stand-in, used because no closer reference group has been sampled.",
+          "evidence_ids": [
+            "ev-prendergast2019-af3"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [],
+  "concerns": []
+}

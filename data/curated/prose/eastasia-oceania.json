@@ -1,0 +1,368 @@
+{
+  "group": "eastasia-oceania",
+  "populations": {
+    "jomon": {
+      "description": "Hunter-gatherers of the Japanese archipelago, associated with the Jōmon culture, whose DNA forms a deep, distinctive branch of East Asian ancestry. That ancestry is the first of three layers traced in the archipelago, and still a small part of present-day Japanese ancestry.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "What sets the Jōmon-associated individuals apart is how closely they resemble one another. All nine sequenced in a 2021 study share an unusually large amount of genetic drift, the random shifts in gene-variant frequencies that build up fastest in small or isolated populations. They form a tight cluster, apart from other ancient and present-day East and Southeast Asians, which the authors read as a sign of sustained geographic isolation. A second study adds a difference in a single gene: none of the six Jōmon individuals it analysed carries V370A, the East Asian variant of the EDAR gene.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1",
+            "ev-wang2021-ea1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Three studies supply the genomes, and each covers a different part of the Jōmon record. The 2021 study's nine individuals come from western and central Japan and from four stages of the Jōmon period: Initial, Early, Middle and Late. A second study's seven individuals are dated about 2500–800 BCE. A third study rests on one genome, from an individual known as IK002 who lived on Honshu about 2,500 years ago. It was sequenced at about 1.85-fold coverage, meaning each position in the genome was read fewer than twice on average.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1",
+            "ev-wang2021-ea1",
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Two studies place Jōmon ancestry on a deep branch of the East Asian family tree. IK002 falls basal to the East and Northeast Asian genomes examined, meaning its lineage split off first, with a strong affinity to Indigenous Taiwanese and the Ainu of Hokkaido. The second study puts Jōmon on a deeply splitting lineage shared with Amur Basin hunter-gatherers and with people of Neolithic and Iron Age Taiwan and of the Tibetan plateau. Its admixture graph, a family tree that allows for mixing, traces just over half of Jōmon ancestry (56%) to a southern lineage related to the ancient Tianyuan genome and the rest to one related to Andaman Islanders.",
+          "evidence_ids": [
+            "ev-gakuhari2020-1",
+            "ev-wang2021-2",
+            "ev-gakuhari2020-ea1",
+            "ev-wang2021-ea1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Later genomes from the archipelago show Jōmon-related ancestry first diluted, then holding steady. Two individuals of the Yayoi culture from northwestern Kyushu fit as roughly half Jōmon and half Northeast Asian-related ancestry, and a model with Jōmon ancestry alone is rejected for them. By the Kofun period an East Asian-related component had joined the mix. Present-day Japanese ancestry is modelled as Kofun-like, with about 15% Jōmon ancestry against about 13% in the Kofun-period individuals.",
+          "evidence_ids": [
+            "ev-cooke2021-ea2",
+            "ev-cooke2021-ea3",
+            "ev-cooke2021-1"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "The evidence is thin partly for a physical reason: Japan's warm, humid climate and acidic volcanic soils, one study notes, generally preserve DNA poorly. The two studies also describe the deep branch differently, one by its place on the family tree, the other as a mix of two lineages, and each picture rests on few genomes. The link to Hòabìnhian hunter-gatherers is partly second-hand: in a PCA, a chart that arranges genomes by overall similarity, IK002 falls between present-day East Asians and ancient Hòabìnhian hunter-gatherers, and the study cites earlier work reporting an affinity between IK002 and an 8,000-year-old Hòabìnhian individual from Laos.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea1",
+            "ev-gakuhari2020-1",
+            "ev-wang2021-ea1",
+            "ev-gakuhari2020-ea2"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Hunter-gatherers of the Japanese archipelago, associated with the Jōmon culture, whose DNA forms a deep, distinctive branch of East Asian ancestry.",
+          "evidence_ids": [
+            "ev-wang2021-2",
+            "ev-gakuhari2020-1",
+            "ev-cooke2021-ea1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "That ancestry is the first of three layers traced in the archipelago, and still a small part of present-day Japanese ancestry.",
+          "evidence_ids": [
+            "ev-cooke2021-1",
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "What sets the Jōmon-associated individuals apart is how closely they resemble one another.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "All nine sequenced in a 2021 study share an unusually large amount of genetic drift, the random shifts in gene-variant frequencies that build up fastest in small or isolated populations.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "They form a tight cluster, apart from other ancient and present-day East and Southeast Asians, which the authors read as a sign of sustained geographic isolation.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A second study adds a difference in a single gene: none of the six Jōmon individuals it analysed carries V370A, the East Asian variant of the EDAR gene.",
+          "evidence_ids": [
+            "ev-wang2021-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Three studies supply the genomes, and each covers a different part of the Jōmon record.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1",
+            "ev-wang2021-ea1",
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "The 2021 study's nine individuals come from western and central Japan and from four stages of the Jōmon period: Initial, Early, Middle and Late.",
+          "evidence_ids": [
+            "ev-cooke2021-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "A second study's seven individuals are dated about 2500–800 BCE.",
+          "evidence_ids": [
+            "ev-wang2021-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "A third study rests on one genome, from an individual known as IK002 who lived on Honshu about 2,500 years ago.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "It was sequenced at about 1.85-fold coverage, meaning each position in the genome was read fewer than twice on average.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Two studies place Jōmon ancestry on a deep branch of the East Asian family tree.",
+          "evidence_ids": [
+            "ev-gakuhari2020-1",
+            "ev-wang2021-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "IK002 falls basal to the East and Northeast Asian genomes examined, meaning its lineage split off first, with a strong affinity to Indigenous Taiwanese and the Ainu of Hokkaido.",
+          "evidence_ids": [
+            "ev-gakuhari2020-1",
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The second study puts Jōmon on a deeply splitting lineage shared with Amur Basin hunter-gatherers and with people of Neolithic and Iron Age Taiwan and of the Tibetan plateau.",
+          "evidence_ids": [
+            "ev-wang2021-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Its admixture graph, a family tree that allows for mixing, traces just over half of Jōmon ancestry (56%) to a southern lineage related to the ancient Tianyuan genome and the rest to one related to Andaman Islanders.",
+          "evidence_ids": [
+            "ev-wang2021-ea1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Later genomes from the archipelago show Jōmon-related ancestry first diluted, then holding steady.",
+          "evidence_ids": [
+            "ev-cooke2021-ea2",
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Two individuals of the Yayoi culture from northwestern Kyushu fit as roughly half Jōmon and half Northeast Asian-related ancestry, and a model with Jōmon ancestry alone is rejected for them.",
+          "evidence_ids": [
+            "ev-cooke2021-ea2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "By the Kofun period an East Asian-related component had joined the mix.",
+          "evidence_ids": [
+            "ev-cooke2021-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Present-day Japanese ancestry is modelled as Kofun-like, with about 15% Jōmon ancestry against about 13% in the Kofun-period individuals.",
+          "evidence_ids": [
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The evidence is thin partly for a physical reason: Japan's warm, humid climate and acidic volcanic soils, one study notes, generally preserve DNA poorly.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The two studies also describe the deep branch differently, one by its place on the family tree, the other as a mix of two lineages, and each picture rests on few genomes.",
+          "evidence_ids": [
+            "ev-gakuhari2020-1",
+            "ev-wang2021-ea1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The link to Hòabìnhian hunter-gatherers is partly second-hand: in a PCA, a chart that arranges genomes by overall similarity, IK002 falls between present-day East Asians and ancient Hòabìnhian hunter-gatherers, and the study cites earlier work reporting an affinity between IK002 and an 8,000-year-old Hòabìnhian individual from Laos.",
+          "evidence_ids": [
+            "ev-gakuhari2020-ea2"
+          ]
+        }
+      ]
+    },
+    "kofun-period-japan": {
+      "description": "The first genomes from Japan's Kofun period, about 1,300 years ago, a time the study describes as a phase of state formation. They carry a third, East Asian-related layer of ancestry on top of the archipelago's earlier Jōmon- and Northeast Asian-related layers.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These three individuals cluster with present-day Japanese in the study's genetic analyses, and they stand apart from the people sampled before them. The comparison is thin on that side too: only two Yayoi-period genomes had been published. A model of Jōmon plus Northeast Asian ancestry, which fits those two Yayoi individuals, is rejected for the Kofun three, so they are genetically distinct from the Yayoi.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The best-fitting model mixes three sources: Jōmon-related, Northeast Asian-related and Han Chinese-related ancestry, the last standing for the East Asian-related layer. The clearest signal is how much the Jōmon share shrank: it is about four times lower than in the sampled Yayoi individuals, which the authors read as an influx of migrants with East Asian ancestry. Simpler two-way models, starting from the Yayoi and adding a Han-, Korean- or Yellow River-related source, give that added source 20–30% of Kofun ancestry, between a fifth and nearly a third.",
+          "evidence_ids": [
+            "ev-cooke2021-ea5",
+            "ev-cooke2021-1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The three-part structure seen in these individuals has changed little since. Present-day Japanese ancestry is modelled as Kofun-like, with Jōmon ancestry at about 15%, against about 13% in the Kofun individuals. Each figure is uncertain by three to four percentage points either way, so the two are effectively the same, and the authors conclude that the three ancestral components were in place by the Kofun period.",
+          "evidence_ids": [
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Whether the East Asian-related ancestry arrived in a separate, second wave is not settled. Dating the mixing from the DNA itself points to two episodes: Jōmon with Northeast Asian-related ancestry about 3,450 years ago, give or take more than 800 years, and Jōmon with East Asian-related ancestry about 1,750 years ago. But a model with a single source, a Late Bronze Age or Iron Age population of the Yellow River, also passes some tests, with mixing about 1,840 years ago. And with so few genomes from each period, the Kofun profile may not represent the whole archipelago.",
+          "evidence_ids": [
+            "ev-cooke2021-ea6",
+            "ev-cooke2021-ea4"
+          ]
+        }
+      ],
+      "caveats": [],
+      "support": [
+        {
+          "where": "description",
+          "text": "The first genomes from Japan's Kofun period, about 1,300 years ago, a time the study describes as a phase of state formation.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4",
+            "ev-cooke2021-ea5"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "They carry a third, East Asian-related layer of ancestry on top of the archipelago's earlier Jōmon- and Northeast Asian-related layers.",
+          "evidence_ids": [
+            "ev-cooke2021-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These three individuals cluster with present-day Japanese in the study's genetic analyses, and they stand apart from the people sampled before them.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The comparison is thin on that side too: only two Yayoi-period genomes had been published.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A model of Jōmon plus Northeast Asian ancestry, which fits those two Yayoi individuals, is rejected for the Kofun three, so they are genetically distinct from the Yayoi.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The best-fitting model mixes three sources: Jōmon-related, Northeast Asian-related and Han Chinese-related ancestry, the last standing for the East Asian-related layer.",
+          "evidence_ids": [
+            "ev-cooke2021-ea5",
+            "ev-cooke2021-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The clearest signal is how much the Jōmon share shrank: it is about four times lower than in the sampled Yayoi individuals, which the authors read as an influx of migrants with East Asian ancestry.",
+          "evidence_ids": [
+            "ev-cooke2021-ea5"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Simpler two-way models, starting from the Yayoi and adding a Han-, Korean- or Yellow River-related source, give that added source 20–30% of Kofun ancestry, between a fifth and nearly a third.",
+          "evidence_ids": [
+            "ev-cooke2021-ea5"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The three-part structure seen in these individuals has changed little since.",
+          "evidence_ids": [
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Present-day Japanese ancestry is modelled as Kofun-like, with Jōmon ancestry at about 15%, against about 13% in the Kofun individuals.",
+          "evidence_ids": [
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Each figure is uncertain by three to four percentage points either way, so the two are effectively the same, and the authors conclude that the three ancestral components were in place by the Kofun period.",
+          "evidence_ids": [
+            "ev-cooke2021-ea3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether the East Asian-related ancestry arrived in a separate, second wave is not settled.",
+          "evidence_ids": [
+            "ev-cooke2021-ea6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Dating the mixing from the DNA itself points to two episodes: Jōmon with Northeast Asian-related ancestry about 3,450 years ago, give or take more than 800 years, and Jōmon with East Asian-related ancestry about 1,750 years ago.",
+          "evidence_ids": [
+            "ev-cooke2021-ea6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "But a model with a single source, a Late Bronze Age or Iron Age population of the Yellow River, also passes some tests, with mixing about 1,840 years ago.",
+          "evidence_ids": [
+            "ev-cooke2021-ea6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "And with so few genomes from each period, the Kofun profile may not represent the whole archipelago.",
+          "evidence_ids": [
+            "ev-cooke2021-ea4"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [],
+  "concerns": []
+}

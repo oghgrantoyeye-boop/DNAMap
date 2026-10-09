@@ -1,0 +1,734 @@
+{
+  "group": "americas",
+  "populations": {
+    "first-americans-founders": {
+      "description": "The ancestors that Ancient Beringians and all other Native Americans share. No one from this population has been sampled; later genomes show it combined East Asian-related ancestry with ancestry related to a Siberian who lived at Mal'ta about 24,000 years ago.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Geneticists call a population like this a ghost population: it is inferred from the shape of the family tree that sampled genomes draw. The clearest evidence comes from two ancient genomes. USR1, from Upward Sun River in Alaska about 11,500 years ago, sits on a branch that split off before all other known Native American lineages separated from one another. Anzick-1, an infant from Montana about 12,600 years old, is more closely related to every Indigenous American population tested than to any other group. The population described here is the shared trunk from which both lines branched.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1",
+            "ev-rasmussen2014-1",
+            "ev-rasmussen2014-am3",
+            "ev-morenomayar2018a-2",
+            "ev-rasmussen2014-am1"
+          ]
+        },
+        {
+          "heading": "When and where",
+          "text": "Its timeline comes from demographic models, which search for the split dates and mixing events that best reproduce the genetic variation in a set of genomes. Moreno-Mayar and colleagues (2018) date its separation from East Asians to about 36,000 years ago, with gene flow between the two continuing until about 25,000 years ago. Sikora and colleagues (2019) put the split nearer 30,000 years ago, although their uncertainty range of 26,800–36,400 years reaches the earlier figure. Raghavan and colleagues (2015) have the ancestors of all present-day Native Americans entering the Americas from Siberia in a single wave no earlier than 23,000 years ago, after at most about 8,000 years of isolation in Beringia, the lands around the Bering Strait.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-sikora2019-am1",
+            "ev-raghavan2015-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "The Mal'ta-related strand is the smaller of the two. MA-1, who lived in south-central Siberia, was not closely related to East Asians, and Raghavan and colleagues (2014) estimate that ancestry related to him may make up 14–38 percent of Native American ancestry, between about a seventh and two-fifths. A model by Sikora and colleagues that instead uses older Siberian genomes from Yana, the Ancient North Siberians, as the reference finds about 18 percent in the Upward Sun River genome. Anzick-1 already carries this mixture, which is older than the split into northern and southern branches; two models date it to between about 25,000 and 20,000 years ago.",
+          "evidence_ids": [
+            "ev-raghavan2014-1",
+            "ev-raghavan2014-2",
+            "ev-sikora2019-am1",
+            "ev-sikora2019-2",
+            "ev-rasmussen2014-2",
+            "ev-rasmussen2014-am1",
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The population later divided, and the dates for that differ too. In Moreno-Mayar and colleagues' model the Ancient Beringian line branched off 22,000–18,100 years ago, and the remaining ancestors split into northern and southern Native American branches 17,500–14,600 years ago; Raghavan and colleagues date the split into two basal branches to about 13,000 years ago. Anzick-1 sits on or near the southern branch, and Central and South Americans radiated rapidly from one of the two. Not every later strand of Indigenous American ancestry traces to this population: later gene flow left some Native Americans sharing ancestry with present-day East Asians.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-raghavan2015-2",
+            "ev-rasmussen2014-am1",
+            "ev-posth2018-2",
+            "ev-raghavan2015-3"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where this population lived is not known. Sikora and colleagues' models suggest a refuge across southern Beringia during the coldest part of the last Ice Age; in one scenario they sketch, alongside an alternative, groups related to the Ancient North Siberians met East Asian-related people there, and the Ancient Beringians separated in eastern Beringia. Raghavan and colleagues think the split between the Athabascan and Amerindian lineages more likely happened in lower-latitude North America than in Alaska. Whether one founding population is enough is also debated: Skoglund and colleagues trace an Australasian-related signal in some Amazonian groups to a separate founding source, while Raghavan and colleagues attribute such sharing to later gene flow.",
+          "evidence_ids": [
+            "ev-sikora2019-am2",
+            "ev-raghavan2015-am1",
+            "ev-skoglund2015-1",
+            "ev-raghavan2015-3"
+          ]
+        }
+      ],
+      "caveats": [
+        "The timeline shows this population from the modelled split from East Asians to the youngest modelled date for the north–south divergence in Moreno-Mayar et al. 2018, a paper checked against its abstract only; these are model dates, not a record of how long the population existed."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The ancestors that Ancient Beringians and all other Native Americans share.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "No one from this population has been sampled; later genomes show it combined East Asian-related ancestry with ancestry related to a Siberian who lived at Mal'ta about 24,000 years ago.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-raghavan2014-1",
+            "ev-raghavan2014-2",
+            "ev-rasmussen2014-2",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Geneticists call a population like this a ghost population: it is inferred from the shape of the family tree that sampled genomes draw.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The clearest evidence comes from two ancient genomes.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-rasmussen2014-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "USR1, from Upward Sun River in Alaska about 11,500 years ago, sits on a branch that split off before all other known Native American lineages separated from one another.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Anzick-1, an infant from Montana about 12,600 years old, is more closely related to every Indigenous American population tested than to any other group.",
+          "evidence_ids": [
+            "ev-rasmussen2014-1",
+            "ev-rasmussen2014-am3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The population described here is the shared trunk from which both lines branched.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-rasmussen2014-am1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Its timeline comes from demographic models, which search for the split dates and mixing events that best reproduce the genetic variation in a set of genomes.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-sikora2019-am1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Moreno-Mayar and colleagues (2018) date its separation from East Asians to about 36,000 years ago, with gene flow between the two continuing until about 25,000 years ago.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Sikora and colleagues (2019) put the split nearer 30,000 years ago, although their uncertainty range of 26,800–36,400 years reaches the earlier figure.",
+          "evidence_ids": [
+            "ev-sikora2019-am1"
+          ]
+        },
+        {
+          "where": "When and where",
+          "text": "Raghavan and colleagues (2015) have the ancestors of all present-day Native Americans entering the Americas from Siberia in a single wave no earlier than 23,000 years ago, after at most about 8,000 years of isolation in Beringia, the lands around the Bering Strait.",
+          "evidence_ids": [
+            "ev-raghavan2015-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The Mal'ta-related strand is the smaller of the two.",
+          "evidence_ids": [
+            "ev-raghavan2014-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "MA-1, who lived in south-central Siberia, was not closely related to East Asians, and Raghavan and colleagues (2014) estimate that ancestry related to him may make up 14–38 percent of Native American ancestry, between about a seventh and two-fifths.",
+          "evidence_ids": [
+            "ev-raghavan2014-1",
+            "ev-raghavan2014-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "A model by Sikora and colleagues that instead uses older Siberian genomes from Yana, the Ancient North Siberians, as the reference finds about 18 percent in the Upward Sun River genome.",
+          "evidence_ids": [
+            "ev-sikora2019-am1",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Anzick-1 already carries this mixture, which is older than the split into northern and southern branches; two models date it to between about 25,000 and 20,000 years ago.",
+          "evidence_ids": [
+            "ev-rasmussen2014-2",
+            "ev-rasmussen2014-am1",
+            "ev-morenomayar2018a-2",
+            "ev-sikora2019-am1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The population later divided, and the dates for that differ too.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-raghavan2015-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Moreno-Mayar and colleagues' model the Ancient Beringian line branched off 22,000–18,100 years ago, and the remaining ancestors split into northern and southern Native American branches 17,500–14,600 years ago; Raghavan and colleagues date the split into two basal branches to about 13,000 years ago.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-raghavan2015-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Anzick-1 sits on or near the southern branch, and Central and South Americans radiated rapidly from one of the two.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am1",
+            "ev-posth2018-2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Not every later strand of Indigenous American ancestry traces to this population: later gene flow left some Native Americans sharing ancestry with present-day East Asians.",
+          "evidence_ids": [
+            "ev-raghavan2015-3"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where this population lived is not known.",
+          "evidence_ids": [
+            "ev-sikora2019-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Sikora and colleagues' models suggest a refuge across southern Beringia during the coldest part of the last Ice Age; in one scenario they sketch, alongside an alternative, groups related to the Ancient North Siberians met East Asian-related people there, and the Ancient Beringians separated in eastern Beringia.",
+          "evidence_ids": [
+            "ev-sikora2019-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Raghavan and colleagues think the split between the Athabascan and Amerindian lineages more likely happened in lower-latitude North America than in Alaska.",
+          "evidence_ids": [
+            "ev-raghavan2015-am1"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Whether one founding population is enough is also debated: Skoglund and colleagues trace an Australasian-related signal in some Amazonian groups to a separate founding source, while Raghavan and colleagues attribute such sharing to later gene flow.",
+          "evidence_ids": [
+            "ev-skoglund2015-1",
+            "ev-raghavan2015-3"
+          ]
+        }
+      ]
+    },
+    "ancient-beringians": {
+      "description": "The earliest-branching line of Native American ancestry sampled so far, known from USR1, an individual from Upward Sun River in Alaska about 11,500 years ago. Its lineage split off before all other known Native American lineages separated from one another.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Two studies place USR1 on the family tree independently. Moreno-Mayar and colleagues (2018) treat the genome as the representative of a distinct population and call it Ancient Beringian, after Beringia, the region around the Bering Strait; Posth and colleagues (2018) reach the same placement in an analysis of their own. The line itself is far older than USR1. In a demographic model by Moreno-Mayar and colleagues, it branched from the shared ancestors of Native Americans 22,000–18,100 years ago, some 6,600–10,500 years before USR1 lived.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1",
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "USR1 carries the Siberian-related strand found in Native American ancestry. Sikora and colleagues (2019) estimate that about 18 percent of the genome, nearly a fifth, comes from people related to the Ancient North Siberians known from 31,000-year-old genomes at Yana, and that this ancestry reached the shared ancestors of Ancient Beringians and other Native Americans about 20,000 years ago. Their model runs on a different clock from Moreno-Mayar's, though: it separates those shared ancestors from East Asians about 30,000 years ago, where Moreno-Mayar's has about 36,000.",
+          "evidence_ids": [
+            "ev-sikora2019-am1",
+            "ev-sikora2019-2",
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Where the Ancient Beringian line separated is uncertain. Sikora and colleagues' models point to a refuge across southern Beringia during the coldest part of the last Ice Age, and in one scenario they describe, while offering an alternative, the Ancient Beringians diverged from the ancestors of other Native Americans in eastern Beringia. Raghavan and colleagues favour lower-latitude North America over Alaska for a different, later split, between the Athabascan and Amerindian lineages, so the two studies address different branchings rather than contradicting each other.",
+          "evidence_ids": [
+            "ev-sikora2019-am2",
+            "ev-raghavan2015-am1"
+          ]
+        }
+      ],
+      "caveats": [
+        "Two individuals from one site, Upward Sun River, are on the map; the findings on this page concern one of them, USR1.",
+        "The Moreno-Mayar et al. 2018 findings on this page were checked against the paper's abstract only; USR1's place on the family tree is also supported by Posth et al. 2018, checked in full."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The earliest-branching line of Native American ancestry sampled so far, known from USR1, an individual from Upward Sun River in Alaska about 11,500 years ago.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Its lineage split off before all other known Native American lineages separated from one another.",
+          "evidence_ids": [
+            "ev-posth2018-am1",
+            "ev-morenomayar2018a-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Two studies place USR1 on the family tree independently.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Moreno-Mayar and colleagues (2018) treat the genome as the representative of a distinct population and call it Ancient Beringian, after Beringia, the region around the Bering Strait; Posth and colleagues (2018) reach the same placement in an analysis of their own.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-1",
+            "ev-posth2018-am1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The line itself is far older than USR1.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-morenomayar2018a-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "In a demographic model by Moreno-Mayar and colleagues, it branched from the shared ancestors of Native Americans 22,000–18,100 years ago, some 6,600–10,500 years before USR1 lived.",
+          "evidence_ids": [
+            "ev-morenomayar2018a-2",
+            "ev-morenomayar2018a-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "USR1 carries the Siberian-related strand found in Native American ancestry.",
+          "evidence_ids": [
+            "ev-sikora2019-am1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Sikora and colleagues (2019) estimate that about 18 percent of the genome, nearly a fifth, comes from people related to the Ancient North Siberians known from 31,000-year-old genomes at Yana, and that this ancestry reached the shared ancestors of Ancient Beringians and other Native Americans about 20,000 years ago.",
+          "evidence_ids": [
+            "ev-sikora2019-am1",
+            "ev-sikora2019-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their model runs on a different clock from Moreno-Mayar's, though: it separates those shared ancestors from East Asians about 30,000 years ago, where Moreno-Mayar's has about 36,000.",
+          "evidence_ids": [
+            "ev-sikora2019-am1",
+            "ev-morenomayar2018a-2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Where the Ancient Beringian line separated is uncertain.",
+          "evidence_ids": [
+            "ev-sikora2019-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Sikora and colleagues' models point to a refuge across southern Beringia during the coldest part of the last Ice Age, and in one scenario they describe, while offering an alternative, the Ancient Beringians diverged from the ancestors of other Native Americans in eastern Beringia.",
+          "evidence_ids": [
+            "ev-sikora2019-am2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Raghavan and colleagues favour lower-latitude North America over Alaska for a different, later split, between the Athabascan and Amerindian lineages, so the two studies address different branchings rather than contradicting each other.",
+          "evidence_ids": [
+            "ev-raghavan2015-am1",
+            "ev-sikora2019-am2"
+          ]
+        }
+      ]
+    },
+    "clovis-anzick": {
+      "description": "A baby boy buried with Clovis tools in Montana about 12,600 years ago. His genome is closer to every Indigenous American population tested than to any other group, and the study of it finds no support for the idea that Clovis toolmaking came from Europe.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "Anzick-1 is one individual, not a population: a boy who died in infancy. His bones are dated to 12,707–12,556 years ago and were found directly associated with Clovis tools, so his DNA is tied to that archaeological tradition through the burial itself. His genome was sequenced to 14.4-fold coverage, meaning that on average each position in it was read more than 14 times.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am2",
+            "ev-rasmussen2014-1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Within the Americas, his closest relatives live to the south. Compared with 52 present-day Native American groups, his genome shares less history with seven northern groups than with 44 in Central and South America, and it is compatible with his belonging to a population directly ancestral to the present-day Karitiana and Maya. He carries the Mal'ta-related ancestry, named after a 24,000-year-old Siberian individual, that entered the ancestors of Native Americans, so that mixing had already happened by his lifetime. The analysis places him on or near the southern Native American lineage, which means the northern and southern lineages had already separated.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am3",
+            "ev-rasmussen2014-2",
+            "ev-raghavan2014-1",
+            "ev-rasmussen2014-am1"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Ancestry with a particular affinity to Anzick-1 turns up far to the south. Posth and colleagues (2018) find it highest among South Americans in the oldest individuals, from Los Rieles in Chile about 10,900 years ago and Lapa do Santo in Brazil about 9,600 years ago, and in later individuals from the Central Andes. They see in it one of two streams of ancestry from north to south, linking him to the oldest individuals from Chile, Brazil and Belize. Later South Americans derive from lineages without this specific Clovis affinity, which the authors explain as a population replacement that began at least 9,000 years ago and was followed by long regional continuity.",
+          "evidence_ids": [
+            "ev-posth2018-am2",
+            "ev-posth2018-3",
+            "ev-posth2018-4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "What the southern link means is open. Posth and colleagues say their data fit two different histories: nearly all South American ancestry may have come from movements out of North America after Clovis times, or a different ancestry, unrelated to Anzick-1, may have moved south earlier, before Clovis, such as at Monte Verde. The Belize part of the link is also weak: the oldest Belize individual shows only slight evidence of more relatedness to Anzick-1 than later Belize individuals do.",
+          "evidence_ids": [
+            "ev-posth2018-am5"
+          ]
+        }
+      ],
+      "caveats": [
+        "This page describes a single individual; he does not stand for everyone who made or used Clovis tools."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "A baby boy buried with Clovis tools in Montana about 12,600 years ago.",
+          "evidence_ids": [
+            "ev-rasmussen2014-1",
+            "ev-rasmussen2014-am2",
+            "ev-rasmussen2014-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "His genome is closer to every Indigenous American population tested than to any other group, and the study of it finds no support for the idea that Clovis toolmaking came from Europe.",
+          "evidence_ids": [
+            "ev-rasmussen2014-1",
+            "ev-rasmussen2014-am3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Anzick-1 is one individual, not a population: a boy who died in infancy.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am2",
+            "ev-rasmussen2014-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "His bones are dated to 12,707–12,556 years ago and were found directly associated with Clovis tools, so his DNA is tied to that archaeological tradition through the burial itself.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am2",
+            "ev-rasmussen2014-1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "His genome was sequenced to 14.4-fold coverage, meaning that on average each position in it was read more than 14 times.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Within the Americas, his closest relatives live to the south.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Compared with 52 present-day Native American groups, his genome shares less history with seven northern groups than with 44 in Central and South America, and it is compatible with his belonging to a population directly ancestral to the present-day Karitiana and Maya.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "He carries the Mal'ta-related ancestry, named after a 24,000-year-old Siberian individual, that entered the ancestors of Native Americans, so that mixing had already happened by his lifetime.",
+          "evidence_ids": [
+            "ev-rasmussen2014-2",
+            "ev-raghavan2014-1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The analysis places him on or near the southern Native American lineage, which means the northern and southern lineages had already separated.",
+          "evidence_ids": [
+            "ev-rasmussen2014-am1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Ancestry with a particular affinity to Anzick-1 turns up far to the south.",
+          "evidence_ids": [
+            "ev-posth2018-am2",
+            "ev-posth2018-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Posth and colleagues (2018) find it highest among South Americans in the oldest individuals, from Los Rieles in Chile about 10,900 years ago and Lapa do Santo in Brazil about 9,600 years ago, and in later individuals from the Central Andes.",
+          "evidence_ids": [
+            "ev-posth2018-am2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "They see in it one of two streams of ancestry from north to south, linking him to the oldest individuals from Chile, Brazil and Belize.",
+          "evidence_ids": [
+            "ev-posth2018-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Later South Americans derive from lineages without this specific Clovis affinity, which the authors explain as a population replacement that began at least 9,000 years ago and was followed by long regional continuity.",
+          "evidence_ids": [
+            "ev-posth2018-4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "What the southern link means is open.",
+          "evidence_ids": [
+            "ev-posth2018-am5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Posth and colleagues say their data fit two different histories: nearly all South American ancestry may have come from movements out of North America after Clovis times, or a different ancestry, unrelated to Anzick-1, may have moved south earlier, before Clovis, such as at Monte Verde.",
+          "evidence_ids": [
+            "ev-posth2018-am5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The Belize part of the link is also weak: the oldest Belize individual shows only slight evidence of more relatedness to Anzick-1 than later Belize individuals do.",
+          "evidence_ids": [
+            "ev-posth2018-am5"
+          ]
+        }
+      ]
+    },
+    "early-central-south-americans": {
+      "description": "The earliest people of Central and South America whose genomes have been read, who lived from Belize to Chile more than 8,000 years ago. Their DNA records a rapid spread into many lineages at once, and they share little specific ancestry with present-day people.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The core evidence is a 2018 study by Posth and colleagues that followed four regions through time: Belize, Brazil, the Central Andes and the Southern Cone at the continent's southern end. Its 49 individuals form four time series, each beginning between 10,900 and 8,600 years ago, so later changes can be measured against the earliest people of the same region. Among the oldest are remains from Los Rieles in Chile, about 10,900 years old, from Lapa do Santo in Brazil, about 9,600 years old, and from Belize, about 9,300 years old.",
+          "evidence_ids": [
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their genomes record a fast spread. Nine ancient groups fit a star-shaped family tree branching from a single source population, which sits on one of the two early Native American branches. The five earliest lineages, in Belize, Peru, the Southern Cone, Lapa do Santo and Los Rieles, split so close together in time that their order cannot be worked out. The authors read this as a rapid radiation of the main lineage ancestral to later South Americans.",
+          "evidence_ids": [
+            "ev-posth2018-2",
+            "ev-posth2018-am4"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Some of the earliest individuals carry a link to North America that later South Americans lack. The people at Los Rieles and Lapa do Santo share more genetic variants with Anzick-1, the infant buried with Clovis tools in Montana, than other South Americans do, except later individuals from the Central Andes. The authors see in this one of two streams of ancestry from north to south. Later South Americans derive from lineages without that Clovis-linked affinity, which the authors explain as a population replacement beginning at least 9,000 years ago, followed by long continuity within each region.",
+          "evidence_ids": [
+            "ev-posth2018-am2",
+            "ev-rasmussen2014-1",
+            "ev-posth2018-3",
+            "ev-posth2018-4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Two questions stay open. One is what the Anzick-1 link means: Posth and colleagues say their data fit either an early, pre-Clovis spread of a different ancestry, such as at Monte Verde, or nearly all South American ancestry coming from movements out of North America after Clovis. The other is an Australasian-related signal that Skoglund and colleagues reported in some present-day Amazonian groups, such as the Surui. No ancient Central or South American tested by Posth and colleagues shows it, including Lapa do Santo individuals whose skulls have the shape called 'Paleoamerican', though a second 2018 study, checked only in its abstract, reports one early migration that carried such a signal.",
+          "evidence_ids": [
+            "ev-posth2018-am5",
+            "ev-skoglund2015-1",
+            "ev-posth2018-am6",
+            "ev-morenomayar2018b-2"
+          ]
+        }
+      ],
+      "caveats": [
+        "The page groups individuals from Central and South America dated before about 8,000 years ago by region and date; they do not form one genetic cluster.",
+        "AADR labels for early Belize individuals contain 'Archaic_Maya', projecting a much later identity back in time; we keep the label as data only."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "The earliest people of Central and South America whose genomes have been read, who lived from Belize to Chile more than 8,000 years ago.",
+          "evidence_ids": [
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "Their DNA records a rapid spread into many lineages at once, and they share little specific ancestry with present-day people.",
+          "evidence_ids": [
+            "ev-posth2018-2",
+            "ev-posth2018-am4",
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The core evidence is a 2018 study by Posth and colleagues that followed four regions through time: Belize, Brazil, the Central Andes and the Southern Cone at the continent's southern end.",
+          "evidence_ids": [
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Its 49 individuals form four time series, each beginning between 10,900 and 8,600 years ago, so later changes can be measured against the earliest people of the same region.",
+          "evidence_ids": [
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "Among the oldest are remains from Los Rieles in Chile, about 10,900 years old, from Lapa do Santo in Brazil, about 9,600 years old, and from Belize, about 9,300 years old.",
+          "evidence_ids": [
+            "ev-posth2018-am3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their genomes record a fast spread.",
+          "evidence_ids": [
+            "ev-posth2018-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Nine ancient groups fit a star-shaped family tree branching from a single source population, which sits on one of the two early Native American branches.",
+          "evidence_ids": [
+            "ev-posth2018-am4",
+            "ev-posth2018-2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The five earliest lineages, in Belize, Peru, the Southern Cone, Lapa do Santo and Los Rieles, split so close together in time that their order cannot be worked out.",
+          "evidence_ids": [
+            "ev-posth2018-am4"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "The authors read this as a rapid radiation of the main lineage ancestral to later South Americans.",
+          "evidence_ids": [
+            "ev-posth2018-am4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Some of the earliest individuals carry a link to North America that later South Americans lack.",
+          "evidence_ids": [
+            "ev-posth2018-3",
+            "ev-posth2018-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The people at Los Rieles and Lapa do Santo share more genetic variants with Anzick-1, the infant buried with Clovis tools in Montana, than other South Americans do, except later individuals from the Central Andes.",
+          "evidence_ids": [
+            "ev-posth2018-am2",
+            "ev-rasmussen2014-1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The authors see in this one of two streams of ancestry from north to south.",
+          "evidence_ids": [
+            "ev-posth2018-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Later South Americans derive from lineages without that Clovis-linked affinity, which the authors explain as a population replacement beginning at least 9,000 years ago, followed by long continuity within each region.",
+          "evidence_ids": [
+            "ev-posth2018-4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Two questions stay open.",
+          "evidence_ids": [
+            "ev-posth2018-am5",
+            "ev-posth2018-am6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "One is what the Anzick-1 link means: Posth and colleagues say their data fit either an early, pre-Clovis spread of a different ancestry, such as at Monte Verde, or nearly all South American ancestry coming from movements out of North America after Clovis.",
+          "evidence_ids": [
+            "ev-posth2018-am5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The other is an Australasian-related signal that Skoglund and colleagues reported in some present-day Amazonian groups, such as the Surui.",
+          "evidence_ids": [
+            "ev-skoglund2015-1",
+            "ev-posth2018-am6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "No ancient Central or South American tested by Posth and colleagues shows it, including Lapa do Santo individuals whose skulls have the shape called 'Paleoamerican', though a second 2018 study, checked only in its abstract, reports one early migration that carried such a signal.",
+          "evidence_ids": [
+            "ev-posth2018-am6",
+            "ev-morenomayar2018b-2"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [
+    "first-americans-founders: who the Athabascans and Amerindians of Raghavan et al. 2015 are (a one-clause gloss), so the lower-latitude split reads clearly.",
+    "first-americans-founders: a full-text check of the Moreno-Mayar et al. 2018 demographic model (all its dates are abstract-only), and whether Raghavan 2015's 'two basal branches' are the same northern and southern branches it dates, so the two estimates can be compared directly.",
+    "ancient-beringians: what USR1 was (an infant, and how it was found at Upward Sun River) and what is known of the second Upward Sun River individual on the map (USR2); no evidence statement describes either, so the page cannot say 'infant' or 'burial'.",
+    "clovis-anzick: an evidence statement on the burial context (the old text mentioned red ochre and called it the only known Clovis burial; no evidence carries either) and one defining the Solutrean hypothesis, which the text glosses only as 'the idea that Clovis toolmaking came from Europe'.",
+    "clovis-anzick / early-central-south-americans: where and what Monte Verde is, and its date, so the pre-Clovis alternative can be explained rather than just named.",
+    "early-central-south-americans: which individual carries the Australasian-related signal in Moreno-Mayar et al. 2018b (full text), so the disagreement with Posth et al. 2018 can be stated site by site; several Lagoa Santa (Sumidouro) individuals from that study are on the map."
+  ],
+  "concerns": [
+    "ancient-beringians: ev-raghavan2015-am1 is linked to this population, but it concerns the later split between Athabascan and Amerindian lineages, not the Ancient Beringian split; the old text presented it as a competing location for the Ancient Beringian split. The new text states what it is about.",
+    "ancient-beringians: the old caveat said all claims were verified against the abstract only, but ev-posth2018-am1 and both Sikora 2019 statements are full-text; the caveat has been narrowed to the Moreno-Mayar 2018 claims.",
+    "clovis-anzick: the old 'Who they were' stated red ochre in the burial and that Anzick-1 is the only known Clovis burial; neither is in any evidence statement (removed).",
+    "clovis-anzick: the map dates Anzick-1 to 10797–10726 calBCE (AADR), while Rasmussen et al. 2014 (ev-rasmussen2014-am2) give 12,707–12,556 cal BP, about 10,758–10,607 BCE; the two ranges barely overlap and the source of the difference should be checked.",
+    "clovis-anzick / early-central-south-americans / central-andes: ev-posth2018-am2 says later Central Andes individuals share more Anzick-1 relatedness than other South Americans, while ev-posth2018-4 says later South Americans derive from lineages without specific Clovis affinity; both are quoted faithfully, but the paper should be checked for how they fit together (possibly via the ~4,200-year-old stream).",
+    "early-central-south-americans: evidence gives Los Rieles as about 10,900 years old (ev-posth2018-am2, -am3), but the AADR date on the map for I11974 (label Chile_LosRieles_12000BP) is 10420–9450 calBCE, roughly 12,400–11,400 years ago; one of the two needs checking.",
+    "early-central-south-americans / central-andes: Lauricocha individual I0238 (7000–6000 BCE) is a member of both populations because its date range straddles the 8,000-year boundary; and several map individuals come from studies with no curated source or evidence (Kennett et al. 2022 Belize incl. an 11,700 BP label, Ferraz et al. 2023, Maravall-López et al. 2025)."
+  ]
+}

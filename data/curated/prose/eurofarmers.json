@@ -1,0 +1,350 @@
+{
+  "group": "eurofarmers",
+  "populations": {
+    "se-europe-early-farmers": {
+      "description": "Farming reached southeastern Europe in the mid-7th millennium BCE with migrants whose ancestry was related to Anatolia's early farmers. From here farming groups took two paths: some passed through toward northern and western Europe, while others stayed and mixed extensively with hunter-gatherers.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "These are individuals associated with the Starčevo, Körös and Criș archaeological cultures, and their DNA shows how closely the region's early farmers resemble Anatolia's: Neolithic genomes from Bulgaria, Croatia, Macedonia, Serbia and Romania cluster tightly with those of early farmers from northwestern Anatolia. The movement behind that resemblance can be seen in single lives. At Lepenski Vir in the Iron Gates, where groups that differed in both ancestry and way of getting food met, two individuals dated 6200–5600 BCE carry only Anatolian-related ancestry, and isotope evidence suggests they were migrants.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn1",
+            "ev-mathieson2018-nn3"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Almost all of their ancestry came from Anatolian-related farmers. Modelled as a mix of Anatolian farmers and western hunter-gatherers (the foragers of western and central Europe), Balkan Neolithic genomes are about 98 percent Anatolian-related, leaving roughly one part in fifty to hunter-gatherers. In Hungary, most early Neolithic genomes are statistically indistinguishable from those of Neolithic Anatolians. Mixing did happen, but unevenly. One study finds about 8 percent hunter-gatherer ancestry in an early Starčevo individual from Hungary, gained only shortly before that person lived; another models eight of nine individuals from Malak Preslavets in Bulgaria, from the mid-6th millennium BCE, with about 15 percent western and 4 percent eastern hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn1",
+            "ev-lipson2017-nn1",
+            "ev-mathieson2018-nn2"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "The two paths left different marks. One study finds that in the north and west, later mixing with hunter-gatherers came disproportionately through men, while the groups that stayed in the southeast mixed without that bias. In Hungary, hunter-gatherer ancestry rose gradually through the Neolithic, and Balkan populations of the Copper Age carry significantly more of it than their Neolithic predecessors. That rise came at roughly the same time as a similar resurgence of hunter-gatherer ancestry in central Europe and Iberia.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn6",
+            "ev-lipson2017-nn1",
+            "ev-mathieson2018-nn4"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "It is open whether two sources, Anatolian farmers and western hunter-gatherers, are enough to describe every Neolithic farmer in the region. One study finds five Neolithic individuals from the Peloponnese in southern Greece, from about 4000 BCE, and one from Bulgaria shifted toward the hunter-gatherers of the Caucasus and away from western hunter-gatherers, compared with other Anatolian and Balkan farmers. The pattern rests on just six genomes, but it hints that some communities had a further source of ancestry that the two-part model leaves out.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn5"
+          ]
+        }
+      ],
+      "caveats": [
+        "Individuals are grouped by the archaeological label in the source data (Starčevo, Körös, Criș, or early Neolithic Greece); several figures on this page come from studies of Balkan Neolithic farmers as a whole."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Farming reached southeastern Europe in the mid-7th millennium BCE with migrants whose ancestry was related to Anatolia's early farmers.",
+          "evidence_ids": [
+            "ev-mathieson2018-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "From here farming groups took two paths: some passed through toward northern and western Europe, while others stayed and mixed extensively with hunter-gatherers.",
+          "evidence_ids": [
+            "ev-mathieson2018-4"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "These are individuals associated with the Starčevo, Körös and Criș archaeological cultures, and their DNA shows how closely the region's early farmers resemble Anatolia's: Neolithic genomes from Bulgaria, Croatia, Macedonia, Serbia and Romania cluster tightly with those of early farmers from northwestern Anatolia.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn1"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The movement behind that resemblance can be seen in single lives.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "At Lepenski Vir in the Iron Gates, where groups that differed in both ancestry and way of getting food met, two individuals dated 6200–5600 BCE carry only Anatolian-related ancestry, and isotope evidence suggests they were migrants.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Almost all of their ancestry came from Anatolian-related farmers.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Modelled as a mix of Anatolian farmers and western hunter-gatherers (the foragers of western and central Europe), Balkan Neolithic genomes are about 98 percent Anatolian-related, leaving roughly one part in fifty to hunter-gatherers.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "In Hungary, most early Neolithic genomes are statistically indistinguishable from those of Neolithic Anatolians.",
+          "evidence_ids": [
+            "ev-lipson2017-nn1"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Mixing did happen, but unevenly.",
+          "evidence_ids": [
+            "ev-lipson2017-nn1",
+            "ev-mathieson2018-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "One study finds about 8 percent hunter-gatherer ancestry in an early Starčevo individual from Hungary, gained only shortly before that person lived; another models eight of nine individuals from Malak Preslavets in Bulgaria, from the mid-6th millennium BCE, with about 15 percent western and 4 percent eastern hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-lipson2017-nn1",
+            "ev-mathieson2018-nn2"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "The two paths left different marks.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "One study finds that in the north and west, later mixing with hunter-gatherers came disproportionately through men, while the groups that stayed in the southeast mixed without that bias.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn6"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Hungary, hunter-gatherer ancestry rose gradually through the Neolithic, and Balkan populations of the Copper Age carry significantly more of it than their Neolithic predecessors.",
+          "evidence_ids": [
+            "ev-lipson2017-nn1",
+            "ev-mathieson2018-nn4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "That rise came at roughly the same time as a similar resurgence of hunter-gatherer ancestry in central Europe and Iberia.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn4"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "It is open whether two sources, Anatolian farmers and western hunter-gatherers, are enough to describe every Neolithic farmer in the region.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "One study finds five Neolithic individuals from the Peloponnese in southern Greece, from about 4000 BCE, and one from Bulgaria shifted toward the hunter-gatherers of the Caucasus and away from western hunter-gatherers, compared with other Anatolian and Balkan farmers.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn5"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The pattern rests on just six genomes, but it hints that some communities had a further source of ancestry that the two-part model leaves out.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn5"
+          ]
+        }
+      ]
+    },
+    "lbk-farmers": {
+      "description": "Farmers associated with the Linear Pottery culture (LBK), whose genomes show that early farmers in Germany carried only a small share of ancestry from the hunter-gatherers living around them. That share grew markedly among later farmers.",
+      "overview": [
+        {
+          "heading": "Who they were",
+          "text": "The individuals here are grouped by their association with the Linear Pottery culture, abbreviated LBK from its German name, Linearbandkeramik. A 2015 study found that between 8,000 and 7,000 years ago, early farmers in Germany, Hungary and Spain were closely related to one another and distinct from the hunter-gatherers near them. One LBK-associated genome, from Stuttgart, serves in a 2014 study as the reference for early European farmers, one of three deeply different sources from which most present-day Europeans can be modelled.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2",
+            "ev-haak2015-2",
+            "ev-lazaridis2014-2",
+            "ev-lazaridis2014-nn1"
+          ]
+        },
+        {
+          "heading": "Ancestry",
+          "text": "Their ancestry is overwhelmingly that of farmers related to Anatolia's, with only about 4–5 percent from hunter-gatherers, roughly one part in twenty. Mixed ancestry comes in stretches that shorten with every generation, which lets geneticists estimate when the mixing happened: for LBK farmers in Germany, about 5545 BCE, give or take 65 years. Looking much further back, the 2014 model assigns about 44 percent of the Stuttgart genome's ancestry, give or take 10, to 'Basal Eurasians', a lineage that split off before other non-African lineages diversified. No sampled individual belongs to that lineage; it is known only from the model.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2",
+            "ev-lipson2017-3",
+            "ev-lazaridis2016-5a",
+            "ev-lazaridis2014-nn1",
+            "ev-lazaridis2014-3"
+          ]
+        },
+        {
+          "heading": "What came before and after",
+          "text": "Before them, the first farmers of northern and western Europe passed through southeastern Europe while mixing only a little with hunter-gatherers there. After them, hunter-gatherer ancestry returned. In Germany, the Middle Neolithic grouping carries about 17 percent, nearly four times the LBK share, and a second study finds the same rise among Middle Neolithic farmers in both Germany and Spain. Averages hide sharp local differences: at Blätterhöhle in Germany, where farmer and hunter-gatherer occupation overlapped until late, three Middle Neolithic individuals classed as farmers by isotope analysis carry 40–50 percent hunter-gatherer ancestry. One study finds that this later mixing in the north and west came disproportionately through men.",
+          "evidence_ids": [
+            "ev-mathieson2018-4",
+            "ev-lipson2017-3",
+            "ev-haak2015-3",
+            "ev-lipson2017-nn3",
+            "ev-mathieson2018-nn6"
+          ]
+        },
+        {
+          "heading": "What we cannot tell",
+          "text": "Which hunter-gatherers the LBK farmers mixed with is not settled. Their hunter-gatherer ancestry is closest to a combination of two sequenced Mesolithic (late hunter-gatherer) genomes, but the match is not statistically significant. The estimate also pools Stuttgart with LBK samples from farther northeast, such as Halberstadt, so differences between communities may be hidden.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2"
+          ]
+        }
+      ],
+      "caveats": [
+        "Individuals are grouped by the LBK label in the source data, so the group pools sites and phases from across central Europe."
+      ],
+      "support": [
+        {
+          "where": "description",
+          "text": "Farmers associated with the Linear Pottery culture (LBK), whose genomes show that early farmers in Germany carried only a small share of ancestry from the hunter-gatherers living around them.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2",
+            "ev-haak2015-2"
+          ]
+        },
+        {
+          "where": "description",
+          "text": "That share grew markedly among later farmers.",
+          "evidence_ids": [
+            "ev-lipson2017-3",
+            "ev-haak2015-3"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "The individuals here are grouped by their association with the Linear Pottery culture, abbreviated LBK from its German name, Linearbandkeramik.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "A 2015 study found that between 8,000 and 7,000 years ago, early farmers in Germany, Hungary and Spain were closely related to one another and distinct from the hunter-gatherers near them.",
+          "evidence_ids": [
+            "ev-haak2015-2"
+          ]
+        },
+        {
+          "where": "Who they were",
+          "text": "One LBK-associated genome, from Stuttgart, serves in a 2014 study as the reference for early European farmers, one of three deeply different sources from which most present-day Europeans can be modelled.",
+          "evidence_ids": [
+            "ev-lazaridis2014-2",
+            "ev-lazaridis2014-nn1",
+            "ev-lipson2017-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Their ancestry is overwhelmingly that of farmers related to Anatolia's, with only about 4–5 percent from hunter-gatherers, roughly one part in twenty.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2",
+            "ev-lipson2017-3",
+            "ev-lazaridis2016-5a"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Mixed ancestry comes in stretches that shorten with every generation, which lets geneticists estimate when the mixing happened: for LBK farmers in Germany, about 5545 BCE, give or take 65 years.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "Looking much further back, the 2014 model assigns about 44 percent of the Stuttgart genome's ancestry, give or take 10, to 'Basal Eurasians', a lineage that split off before other non-African lineages diversified.",
+          "evidence_ids": [
+            "ev-lazaridis2014-nn1",
+            "ev-lazaridis2014-3"
+          ]
+        },
+        {
+          "where": "Ancestry",
+          "text": "No sampled individual belongs to that lineage; it is known only from the model.",
+          "evidence_ids": [
+            "ev-lazaridis2014-nn1"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Before them, the first farmers of northern and western Europe passed through southeastern Europe while mixing only a little with hunter-gatherers there.",
+          "evidence_ids": [
+            "ev-mathieson2018-4"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "After them, hunter-gatherer ancestry returned.",
+          "evidence_ids": [
+            "ev-lipson2017-3",
+            "ev-haak2015-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "In Germany, the Middle Neolithic grouping carries about 17 percent, nearly four times the LBK share, and a second study finds the same rise among Middle Neolithic farmers in both Germany and Spain.",
+          "evidence_ids": [
+            "ev-lipson2017-3",
+            "ev-lipson2017-nn3",
+            "ev-haak2015-3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "Averages hide sharp local differences: at Blätterhöhle in Germany, where farmer and hunter-gatherer occupation overlapped until late, three Middle Neolithic individuals classed as farmers by isotope analysis carry 40–50 percent hunter-gatherer ancestry.",
+          "evidence_ids": [
+            "ev-lipson2017-nn3"
+          ]
+        },
+        {
+          "where": "What came before and after",
+          "text": "One study finds that this later mixing in the north and west came disproportionately through men.",
+          "evidence_ids": [
+            "ev-mathieson2018-nn6"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Which hunter-gatherers the LBK farmers mixed with is not settled.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "Their hunter-gatherer ancestry is closest to a combination of two sequenced Mesolithic (late hunter-gatherer) genomes, but the match is not statistically significant.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2"
+          ]
+        },
+        {
+          "where": "What we cannot tell",
+          "text": "The estimate also pools Stuttgart with LBK samples from farther northeast, such as Halberstadt, so differences between communities may be hidden.",
+          "evidence_ids": [
+            "ev-lipson2017-nn2"
+          ]
+        }
+      ]
+    }
+  },
+  "wanted": [],
+  "concerns": []
+}
