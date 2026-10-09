@@ -1030,6 +1030,32 @@
    "note_path": "research/papers/oceania-skoglund2016.md"
   },
   {
+   "id": "akbari2026",
+   "type": "paper",
+   "title": "Akbari et al. 2026 — Directional selection across West Eurasia",
+   "citation": "Akbari A, Perry A, Barton AR, et al. (2026) Ancient DNA reveals pervasive directional selection across West Eurasia. *Nature* 654:419–428.",
+   "doi": "10.1038/s41586-026-10358-1",
+   "url": "https://doi.org/10.1038/s41586-026-10358-1",
+   "pmcid": "PMC13189228",
+   "year": 2026,
+   "verification": "full_text",
+   "status": "usable",
+   "note_path": "research/papers/selection-akbari2026.md"
+  },
+  {
+   "id": "barrie2024",
+   "type": "paper",
+   "title": "Barrie et al. 2024 — Multiple sclerosis risk and steppe ancestry",
+   "citation": "Barrie W, Yang Y, Irving-Pease EK, et al. (2024) Elevated genetic risk for multiple sclerosis emerged in steppe pastoralist populations. *Nature* 625:321–328.",
+   "doi": "10.1038/s41586-023-06618-z",
+   "url": "https://doi.org/10.1038/s41586-023-06618-z",
+   "pmcid": "PMC10781639",
+   "year": 2024,
+   "verification": "full_text",
+   "status": "usable",
+   "note_path": "research/papers/selection-barrie2024.md"
+  },
+  {
    "id": "narasimhan2019",
    "type": "paper",
    "title": "Narasimhan et al. 2019 — formation of populations in South and Central Asia",

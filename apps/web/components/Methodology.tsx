@@ -287,6 +287,13 @@ export default function Methodology() {
         <li>Many sampled individuals are not yet in any curated population. They are shown on the map in a neutral colour.</li>
         <li>AADR&rsquo;s group labels combine present-day countries, sites, periods and cultures. We keep them verbatim on each record but never use them as population names.</li>
         <li>Population fields, centres and time spans are summaries of who was sampled, so they shift as new genomes are published.</li>
+        <li>
+          Some genomes are published without their place. A 2026 study of natural selection reported about 10,000 new ancient West Eurasian genomes but held back their sites and archaeological context for later papers (
+          <a href="https://doi.org/10.1038/s41586-026-10358-1" target="_blank" rel="noreferrer">
+            Akbari et al. 2026
+          </a>
+          , data availability statement). They cannot be placed on the map until those papers appear.
+        </li>
       </ul>
 
       <AdSlot />

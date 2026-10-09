@@ -4968,6 +4968,25 @@
       "verification": "full_text",
       "confidence": "medium",
       "stance": "supports"
+    },
+    {
+      "id": "ev-barrie2024-1",
+      "source_id": "barrie2024",
+      "claim": "HLA-DRB1*15:01, the strongest genetic risk factor for multiple sclerosis, rose quickly around the emergence of the Yamnaya culture about 5,300 years ago in steppe and steppe-derived populations; the authors argue that selection on multiple sclerosis risk variants began among Pontic-Caspian steppe pastoralists, continued in Europe after Yamnaya-related migration, and that today's gradient in steppe ancestry may help explain Europe's north–south gradient in multiple sclerosis, together with environmental factors.",
+      "location": "Abstract; Main text and Fig. 2b; Fig. 5; Discussion",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "supports"
+    },
+    {
+      "id": "ev-akbari2026-2",
+      "source_id": "akbari2026",
+      "claim": "A tag for HLA-DRB1*15:01 was positively selected between about 6,000 and 2,000 years ago, rising from about 0% to 16%, but the selection began south of the Caucasus in people without steppe ancestry and was stronger in northern than in south-western Europe after Yamnaya-related ancestry spread west; the authors conclude that selection on the steppe was not the main driver of Europe's north–south difference in multiple sclerosis risk, and they find selection against the allele in the last ~2,000 years.",
+      "location": "'HLA-DRB1: Elevated MS risk in north Europe is not due to selection on the steppe'; Fig. 3 panel 5; SI section 7",
+      "verification": "full_text",
+      "confidence": "medium",
+      "stance": "contradicts",
+      "note": "Contradicts ev-barrie2024-1 on where the selection happened; both agree the allele was positively selected. See d-ms-risk-steppe."
     }
   ]
 }

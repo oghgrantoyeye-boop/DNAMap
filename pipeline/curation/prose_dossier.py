@@ -45,6 +45,7 @@ def main(ids: list[str]) -> int:
     src = {s["id"]: s for s in json.loads((CUR / "sources.json").read_text())["sources"]}
     rels = json.loads((CUR / "relationships.json").read_text())["relationships"]
     events = json.loads((CUR / "admixture_events.json").read_text())["events"]
+    disagreements = json.loads((CUR / "disagreements.json").read_text())["disagreements"]
     stats = {}
     if WEB.exists():
         stats = {p["id"]: p.get("stats", {}) for p in json.loads(WEB.read_text())["populations"]}
@@ -111,6 +112,16 @@ def main(ids: list[str]) -> int:
                     f"{c['proxy_label']} {pct(c['proportion'])}" if c.get("proportion") else c["proxy_label"] for c in m["components"]
                 )
                 print(f"  model {m['id']} ({short(src.get(m['source_id']), m['source_id'])}, {m['method']}): {m['label']}: {comps}")
+        event_ids = {e["id"] for e in events if e["target"] == pid}
+        rel_ids = {r["id"] for r in touching}
+        for d in disagreements:
+            if not ({pid} | event_ids | rel_ids) & set(d["affects"]):
+                continue
+            print(f"\nDISAGREEMENT {d['id']} ({d['status']}; shown in the panel): {d['topic']}\n  {d['summary']}")
+            for pos in d["positions"]:
+                print(f"  position: {pos['label']}")
+                for i in pos["evidence_ids"]:
+                    print("  " + ev_line(i))
         print("\n" + "=" * 80 + "\n")
     return 0
 

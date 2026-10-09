@@ -86,3 +86,33 @@ Decisions, open questions, and anything that could not be verified. Newest entri
 - Owner asked for an in-depth 3D demo of ancient DNA extraction and sequencing as a separate page, inspired by *Invisible Cities* (Migdał) and *Plane of Focus* (sael.net). Built `/extraction/`: ten procedural 3D stations on a bench with depth-of-field focus, tour, exploded views, text mode, no-WebGL fallback (see ARCHITECTURE.md).
 - Text: 10 chapters by a research subtask from 16 newly read methods papers (`research/papers/methods-*.md`) plus the AADR paper; 106 evidence statements, all full text (35 high, 71 medium). Reviewed by the parent session: spot-checked figures against evidence; one figure reworded (Sawyer 2012's 10% observation had been presented as a "rule of thumb"). Validation 0 errors.
 - **For owner review** (full list in `research/notes/extraction-draft.json`, `concerns`): Hansen 2017 gives the skull-vault figure as 2.2% (abstract) and 2.8% (results), shown as "about 2–3%"; several method papers used animal or archaic material, so their numbers are labelled "one study"; most protocol detail comes from two lab traditions (Leipzig; Harvard/Reich, which also maintains the AADR), so the page may read as those labs' protocol despite "a common approach" wording; dated figures (">70% of data from 1240k", ">10,000 individuals", two-thirds from Europe and Russia) come from 2022–2024 papers and will age; the sentence "the dots on this site's map come from the AADR's annotation file" is a fact about our pipeline, not a paper claim. Papers that could not be read are in BLOCKED.md.
+
+## 2026-10-09: Prose rewrite and Akbari et al. 2026
+
+### Prose rewrite (owner: "this text is poor"; Reich's book as the baseline register)
+- Diagnosis, common to all 81 pages:
+  - the description and "Who they were" repeat each other;
+  - facts repeat across sections;
+  - numbers and lineage codes are listed without meaning, and jargon is left unexplained;
+  - display notes ("display window", "panel") sit inside the science.
+- Style guide: `research/notes/writing-style.md`. It takes the register only, never text.
+- Tools: `curation/prose_dossier.py` (everything a writer may draw on) and `curation/apply_prose.py` (checks, applies, archives).
+- Benchmark: `non-african-ancestors`, rewritten by the parent session with every sentence checked against its evidence. Two details were cut because no evidence carries them: "buried" at Ust'-Ishim, and "hundreds of genomes".
+- The other 80 populations are being drafted by nine regional writers. The first launch hit a usage limit with nothing saved; they were relaunched with save-after-each-population.
+- A separate reviewer checks every sentence before anything is applied.
+- Panel source lines now use short citations ("Green et al. 2010").
+
+### Akbari et al. 2026 (owner: "could we integrate Akbari's paper?")
+- **What the paper is.** Read in full (Nature 654:419–428, CC BY): a study of natural selection, not population history. It covers 15,836 ancient West Eurasians and finds 479 loci with strong evidence of directional selection in about the last 10,000 years.
+- **Its new individuals are not on our map.**
+  - The paper withholds the sites and context of its ~10,000 new individuals and says later papers should be the references for population history.
+  - AADR v66.p1 credits it for 488 mapped individuals; all but one were first published elsewhere.
+  - Added a line to Methodology → Coverage explaining this gap.
+- **Integrated now (within the project's current scope):**
+  - Sources `akbari2026` and `barrie2024` (both read in full).
+  - Evidence `ev-akbari2026-2` and `ev-barrie2024-1`.
+  - Disagreement `d-ms-risk-steppe` on the Yamnaya panel. Barrie 2024 traces the selected rise of HLA-DRB1*15:01, the main multiple sclerosis risk allele, to steppe pastoralists. Akbari 2026 finds the selection began south of the Caucasus in people without steppe ancestry, and that stronger later selection in northern Europe drove the north–south difference.
+  - The steppe writer adds one or two sentences on this to the Yamnaya page.
+- **Decision for the owner (not built):** a natural-selection feature. This would extend the project's framing from ancestry and movement to traits.
+  - Candidate content: our own drawings of dated single-variant stories (celiac HLA-DQ2, blood group B, TYK2 and tuberculosis, HFE, CCR5-Δ32, the light-skin loci, CFTR's null result).
+  - **Recommendation:** use single variants with clear biology and dates. Leave out, or show only with the paper's own caveats and the published critiques, the polygenic-score trends for behavioural traits (intelligence-test scores, income, schooling). The paper says these traits exist only in present-day societies and their signal overlaps with diabetes-related traits. Without that framing they invite misreading.

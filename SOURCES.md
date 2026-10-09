@@ -97,6 +97,8 @@ This table is generated from the note headers by `pipeline/curation/paper_notes.
 | `papac2021` | Papac L, Ernée M, Dobeš M, et al. (2021) Dynamic changes in genomic and social structures in third millennium BCE central Europe. *Science Advances* 7:eabi6941. | [10.1126/sciadv.abi6941](https://doi.org/10.1126/sciadv.abi6941) | full_text | unmined |
 | `patterson2022` | Patterson N, Isakov M, Booth T, et al. (2022) Large-scale migration into Britain during the Middle to Late Bronze Age. *Nature* 601:588–594. | [10.1038/s41586-021-04287-4](https://doi.org/10.1038/s41586-021-04287-4) | full_text | usable |
 | `wang2019` | Wang CC, Reinhold S, Kalmykov A, et al. (2019) Ancient human genome-wide data from a 3000-year interval in the Caucasus corresponds with eco-geographic regions. *Nature Communications* 10:590. | [10.1038/s41467-018-08220-8](https://doi.org/10.1038/s41467-018-08220-8) | full_text | usable |
+| `akbari2026` | Akbari A, Perry A, Barton AR, et al. (2026) Ancient DNA reveals pervasive directional selection across West Eurasia. *Nature* 654:419–428. | [10.1038/s41586-026-10358-1](https://doi.org/10.1038/s41586-026-10358-1) | full_text | usable |
+| `barrie2024` | Barrie W, Yang Y, Irving-Pease EK, et al. (2024) Elevated genetic risk for multiple sclerosis emerged in steppe pastoralist populations. *Nature* 625:321–328. | [10.1038/s41586-023-06618-z](https://doi.org/10.1038/s41586-023-06618-z) | full_text | usable |
 
 ### Background (inspiration, not a source of claims)
 - Reich D. (2018) *Who We Are and How We Got Here.* Pantheon/Oxford University Press. Used for orientation only. No text or figures are reproduced, and no claim in the app cites it. Every claim cites primary literature.

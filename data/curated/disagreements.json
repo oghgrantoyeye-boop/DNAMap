@@ -263,6 +263,29 @@
    "affects": [
     "ae-vanuatu"
    ]
+  },
+  {
+   "id": "d-ms-risk-steppe",
+   "topic": "Did selection on the steppe raise multiple sclerosis risk in northern Europe?",
+   "status": "open",
+   "summary": "Both studies find that HLA-DRB1*15:01, the strongest genetic risk factor for multiple sclerosis, rose under natural selection over the last several thousand years. One places the start of that selection among steppe pastoralists and links Europe's north–south difference in risk to the spread of steppe-related ancestry. A later study finds that the selection began south of the Caucasus in people without steppe ancestry, and that the difference arose mainly from stronger selection in northern Europe after steppe-related ancestry arrived there.",
+   "positions": [
+    {
+     "label": "Selection began on the steppe; the gradient in steppe ancestry may help explain the north–south gradient",
+     "evidence_ids": [
+      "ev-barrie2024-1"
+     ]
+    },
+    {
+     "label": "Selection began south of the Caucasus; stronger later selection in northern Europe drove the difference",
+     "evidence_ids": [
+      "ev-akbari2026-2"
+     ]
+    }
+   ],
+   "affects": [
+    "yamnaya"
+   ]
   }
  ]
 }
